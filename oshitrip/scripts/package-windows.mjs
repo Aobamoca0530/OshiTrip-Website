@@ -34,6 +34,7 @@ async function download(url, destination) {
 async function exists(file) { try { await fs.access(file); return true; } catch { return false; } }
 
 await fs.mkdir(cache, { recursive: true });
+run(process.execPath, ['scripts/publish-data.mjs', '--check']);
 await fs.mkdir(dist, { recursive: true });
 // Delete only this script's previously marked output, always inside dist/.
 if (path.dirname(output) !== dist) throw new Error('Invalid output path');
@@ -145,12 +146,12 @@ await fs.writeFile(path.join(output, '使用说明.txt'), '\ufeff' + [
   '3. 保持启动器运行；关闭窗口或点击“停止并退出”会停止本地服务。',
   '4. 收藏和行程保存在当前浏览器、当前地址中，不会自动跨设备同步。',
   '5. 端口通常固定；若被占用会提示更换。使用原地址才能看到原地址的浏览器数据。',
-  '6. 活动资料随版本提供，官方图片和外部链接需要联网。',
+  '6. 启动时自动检查活动数据更新；可点击“刷新活动数据”。断网时使用缓存或内置资料，官方图片和外部链接仍需联网。',
   '7. Windows 10/11 x64；使用系统自带 .NET Framework。此版本尚未进行代码签名。',
-  '8. 启动器设置和日志位于 %LOCALAPPDATA%\\OshiTrip；不是活动收藏的保存位置。',
+  '8. 启动器设置和日志位于 %LOCALAPPDATA%\\OshiTrip，活动缓存位于其 data 文件夹；收藏仍保存在浏览器。',
   '', '源码与更新：https://github.com/Aobamoca0530/OshiTrip-Website',
 ].join('\r\n'));
-await fs.writeFile(path.join(output, 'build-info.json'), JSON.stringify({ version, node: nodeVersion, architecture: 'x64', mode: 'local', builtAt: new Date().toISOString() }, null, 2));
+await fs.writeFile(path.join(output, 'build-info.json'), JSON.stringify({ version, node: nodeVersion, architecture: 'x64', mode: 'shared', builtAt: new Date().toISOString() }, null, 2));
 // System zip support includes hidden .next files; Compress-Archive can omit them.
 if (await exists(zip)) await fs.unlink(zip);
 run('powershell.exe', ['-NoProfile', '-NonInteractive', '-Command', `Add-Type -AssemblyName System.IO.Compression.FileSystem; [System.IO.Compression.ZipFile]::CreateFromDirectory(${quote(output)}, ${quote(zip)}, [System.IO.Compression.CompressionLevel]::Optimal, $true)`]);

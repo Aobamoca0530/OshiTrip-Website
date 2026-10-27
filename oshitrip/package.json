@@ -1,6 +1,6 @@
 {
   "name": "oshitrip",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@11.25.0",
@@ -11,6 +11,8 @@
     "dev": "next dev --hostname 0.0.0.0",
     "build": "next build",
     "package:windows": "node scripts/package-windows.mjs",
+    "data:publish": "node scripts/publish-data.mjs",
+    "data:check": "node scripts/publish-data.mjs --check",
     "start": "next start --hostname 0.0.0.0",
     "lint": "eslint .",
     "typecheck": "next typegen && tsc --noEmit",

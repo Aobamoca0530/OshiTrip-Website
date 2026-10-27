@@ -42,6 +42,7 @@ export function SourceNote({ mode, error }: { mode: string; error?: string }) {
       {error ||
         (mode === "local"
           ? "本地已核实资料 · 人工维护，非实时同步"
+          : mode === "shared" ? "统一活动资料 · 自动检查发布更新，非实时空位"
           : "Supabase 数据库 · 人工审核发布，非实时空位")}
       <Link href="/about">
         数据说明 <ArrowUpRight size={13} />

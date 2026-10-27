@@ -23,12 +23,18 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm typecheck
       - run: pnpm lint
+      - run: pnpm data:check
       - run: pnpm seed:sql
       - run: git diff --exit-code -- supabase/seed.sql supabase/releases-seed.sql supabase/stores-seed.sql supabase/setup-new-project.sql
       - run: pnpm test
       - run: pnpm build
       - run: pnpm exec playwright install --with-deps chromium
       - run: pnpm test:e2e
+      - name: Verify offline shared-data UI
+        run: pnpm exec playwright test data-sync.spec.ts
+        env:
+          OSHITRIP_SHARED_DATA: "1"
+          OSHITRIP_DATA_OFFLINE: "1"
       - uses: actions/upload-artifact@v7.0.2
         if: failure()
         with:

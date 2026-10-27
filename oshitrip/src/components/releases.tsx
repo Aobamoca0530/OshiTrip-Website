@@ -106,7 +106,7 @@ export function ReleaseExplorer({
     <>
       <p className={`notice ${error ? "error" : ""}`}>
         {error ||
-          `${mode === "local" ? "本地人工核实资料" : "数据库已发布资料"} · 非自动同步。所有时间为日本时间，未知时间保留为空。`}
+          `${mode === "shared" ? "统一发布资料 · 自动检查数据更新，非实时库存" : mode === "local" ? "本地人工核实资料 · 非自动同步" : "数据库已发布资料 · 人工审核"}。所有时间为日本时间，未知时间保留为空。`}
       </p>
       <div className="explorer-layout">
         <aside className="filter-panel">

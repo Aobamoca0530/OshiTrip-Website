@@ -45,8 +45,10 @@ internal static class Program
                 foreach (var route in new[] { "/", "/events", "/trip", "/releases" })
                     if (!LocalServer.Check(server.Url.TrimEnd('/') + route)) throw new Exception("HTTP check failed: " + route);
                 File.WriteAllText(reportPath + ".ready", server.Url + "\n" + pid, Encoding.UTF8);
-                // Also allows the external smoke test to inspect CSS, JS and images.
-                Thread.Sleep(3000);
+                // External checks signal completion; bound the wait if they crash.
+                var deadline = DateTime.UtcNow.AddSeconds(30);
+                while (!File.Exists(reportPath + ".done") && DateTime.UtcNow < deadline) Thread.Sleep(100);
+                if (!File.Exists(reportPath + ".done")) throw new Exception("External smoke checks timed out");
                 server.Dispose();
                 if (!WaitForExit(pid)) throw new Exception("Child process survived shutdown");
                 File.WriteAllText(reportPath, "PASS\n" + server.Url + "\nchild=" + pid, Encoding.UTF8);
@@ -186,6 +188,8 @@ internal sealed class LocalServer : IDisposable
                     info.EnvironmentVariables["NEXT_TELEMETRY_DISABLED"] = "1";
                     info.EnvironmentVariables["PORT"] = port.ToString();
                     info.EnvironmentVariables["HOSTNAME"] = "127.0.0.1";
+                    info.EnvironmentVariables["OSHITRIP_SHARED_DATA"] = "1";
+                    info.EnvironmentVariables["OSHITRIP_DATA_DIR"] = Path.Combine(dataDir, "data");
                     child = new Process { StartInfo = info };
                     child.OutputDataReceived += Log;
                     child.ErrorDataReceived += Log;

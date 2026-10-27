@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Header, Footer } from "@/components/shell";
 import { PersonalProvider } from "@/components/personal";
+import { DataSyncBar } from "@/components/data-sync";
+import { sharedDataEnabled, sharedDataService } from "@/lib/shared-data";
 import "./globals.css";
 export const metadata: Metadata = {
   title: {
@@ -10,9 +12,10 @@ export const metadata: Metadata = {
   description: "按 IP、城市和旅行日期，发现有官方来源的日本联动活动。",
 };
 export const dynamic = "force-dynamic";
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const syncStatus = sharedDataEnabled() ? await sharedDataService().status() : null;
   return (
     <html lang="zh-CN">
       <body>
@@ -22,6 +25,7 @@ export default function RootLayout({
           </a>
           <Header />
           <main id="main" className="main-container">
+            {syncStatus && <DataSyncBar initial={syncStatus} />}
             {children}
           </main>
           <Footer />

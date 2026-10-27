@@ -2,11 +2,13 @@ import "server-only";
 import seed from "@/data/catalog.json";
 import { catalogSchema, type Catalog } from "./schema";
 import { createDatabase } from "./supabase";
+import { getSharedSnapshot, sharedDataEnabled } from "./shared-data";
 export type CatalogResult = Catalog & {
-  mode: "local" | "database";
+  mode: "local" | "shared" | "database";
   error?: string;
 };
 export async function getCatalog(): Promise<CatalogResult> {
+  if (sharedDataEnabled()) return { ...(await getSharedSnapshot()).data.catalog, mode: "shared" };
   if (
     !process.env.NEXT_PUBLIC_SUPABASE_URL &&
     !process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY

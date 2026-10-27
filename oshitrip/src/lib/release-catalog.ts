@@ -2,11 +2,13 @@ import "server-only";
 import seed from "@/data/releases.json";
 import { releasesSchema, type Release } from "./releases";
 import { createDatabase } from "./supabase";
+import { getSharedSnapshot, sharedDataEnabled } from "./shared-data";
 export async function getReleases(): Promise<{
   releases: Release[];
-  mode: "local" | "database";
+  mode: "local" | "shared" | "database";
   error?: string;
 }> {
+  if (sharedDataEnabled()) return { releases: (await getSharedSnapshot()).data.releases, mode: "shared" };
   if (
     !process.env.NEXT_PUBLIC_SUPABASE_URL &&
     !process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY

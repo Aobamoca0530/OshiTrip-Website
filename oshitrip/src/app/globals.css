@@ -1,4 +1,23 @@
 @import "tailwindcss";
+.data-sync-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 20px;
+  margin: 20px 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--soft);
+}
+.data-sync-bar strong, .data-sync-bar span, .data-sync-bar small { display: block; }
+.data-sync-bar strong { color: var(--green); }
+.data-sync-bar span, .data-sync-bar small { color: var(--muted); }
+.data-sync-bar button { display: inline-flex; gap: 8px; align-items: center; flex-shrink: 0; }
+@media (max-width: 640px) {
+  .data-sync-bar { align-items: stretch; flex-direction: column; padding: 14px; }
+  .data-sync-bar button { justify-content: center; }
+}
 @theme inline {
   --color-background: #f8f8f3;
   --color-foreground: #273b32;

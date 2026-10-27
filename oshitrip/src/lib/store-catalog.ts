@@ -2,11 +2,13 @@ import "server-only";
 import seed from "@/data/stores.json";
 import { storesSchema, type Store } from "./shopping";
 import { createDatabase } from "./supabase";
+import { getSharedSnapshot, sharedDataEnabled } from "./shared-data";
 export async function getStores(): Promise<{
   stores: Store[];
   error?: string;
-  mode: "local" | "database";
+  mode: "local" | "shared" | "database";
 }> {
+  if (sharedDataEnabled()) return { stores: (await getSharedSnapshot()).data.stores, mode: "shared" };
   if (
     !process.env.NEXT_PUBLIC_SUPABASE_URL &&
     !process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY

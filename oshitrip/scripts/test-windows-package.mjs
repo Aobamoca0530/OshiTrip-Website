@@ -5,6 +5,7 @@ import os from 'node:os';
 import { fileURLToPath } from 'node:url';
 import { spawn, spawnSync } from 'node:child_process';
 import assert from 'node:assert/strict';
+import { loadDataSchema } from './load-data-schema.mjs';
 
 const app = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const version = JSON.parse(await fs.readFile(path.join(app, 'package.json'), 'utf8')).version;
@@ -33,7 +34,7 @@ async function processGone(pid) {
 }
 async function smoke(label, killLauncher = false) {
   const report = path.join(testRoot, `${label}.txt`);
-  const child = spawn(exe, ['--smoke-test', report], { windowsHide: true, stdio: 'ignore', env: { ...process.env, PATH: process.env.SystemRoot + '\\System32', NEXT_PUBLIC_SUPABASE_URL: 'https://must-not-be-used.invalid', NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: 'test-only-not-a-key' } });
+  const child = spawn(exe, ['--smoke-test', report], { windowsHide: true, stdio: 'ignore', env: { ...process.env, OSHITRIP_DATA_OFFLINE: '1', PATH: process.env.SystemRoot + '\\System32', NEXT_PUBLIC_SUPABASE_URL: 'https://must-not-be-used.invalid', NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: 'test-only-not-a-key' } });
   const exited = new Promise(resolve => child.once('exit', resolve));
   let pid;
   try {
@@ -46,7 +47,23 @@ async function smoke(label, killLauncher = false) {
     assert(assets.some(asset => asset.includes('.js')), 'HTML must reference JS assets');
     assert(assets.some(asset => asset.includes('.css')), 'HTML must reference CSS assets');
     for (const asset of assets) assert.equal((await fetch(new URL(asset.replaceAll('&amp;', '&'), url))).status, 200, asset);
+    const endpoint = new URL('/api/data-sync', url);
+    const status = await (await fetch(endpoint)).json();
+    assert.equal(status.enabled, true, 'Launcher must enable shared data');
+    assert.equal(status.result, 'unavailable', 'Offline launch must remain usable');
+    assert.equal(status.source, label === 'first-run' ? 'bundled' : 'cache');
+    assert.match(html, /刷新活动数据/);
+    const blocked = await fetch(endpoint, { method: 'POST', headers: { Origin: 'https://example.com', 'X-OshiTrip-Refresh': '1' } });
+    assert.equal(blocked.status, 403, 'Cross-origin refresh must be rejected');
+    const refreshed = await fetch(endpoint, { method: 'POST', headers: { Origin: new URL(url).origin, 'X-OshiTrip-Refresh': '1' } });
+    assert.equal(refreshed.status, 200);
+    assert.equal((await refreshed.json()).revision, status.revision);
+    if (label !== 'first-run') {
+      const activities = await (await fetch(new URL('/events?history=1', url))).text();
+      assert.match(activities, /离线缓存测试/);
+    }
     if (killLauncher) child.kill();
+    else await fs.writeFile(`${report}.done`, 'done');
     const exitCode = await exited;
     if (!killLauncher) {
       assert.equal(exitCode, 0, await fs.readFile(report, 'utf8'));
@@ -61,6 +78,13 @@ async function smoke(label, killLauncher = false) {
 }
 
 const first = await smoke('first-run');
+const { makeDataBundle } = await loadDataSchema();
+const cached = JSON.parse(await fs.readFile(path.join(app, '..', 'data', 'public-v1.json'), 'utf8'));
+cached.data.catalog.events.forEach(event => { event.title_zh += '（离线缓存测试）'; });
+const updated = makeDataBundle(cached.data, new Date(Date.now() + 1000).toISOString());
+const cacheDir = path.join(testRoot, 'launcher-data', 'data');
+await fs.mkdir(cacheDir, { recursive: true });
+await fs.writeFile(path.join(cacheDir, 'public-v1.json'), JSON.stringify(updated));
 const second = await smoke('restart');
 assert.equal(second, first, 'Restarts must preserve the browser origin for localStorage');
 const occupied = net.createServer();
