@@ -1,7 +1,7 @@
 {
   "formatVersion": 2,
-  "revision": "9565041ab8a13eea832fe2a2da1fc5a0358e5c514cf32c4019555061eb898761",
-  "publishedAt": "2026-10-27T22:00:01.814Z",
+  "revision": "8d0ca6595d853c05a38cdb85142f6126bdfed8d5a11f6aea1de6f21f1d1d5e4f",
+  "publishedAt": "2026-10-27T22:06:09.195Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -7479,12 +7479,65 @@
     ],
     "announcements": [
       {
+        "id": "f506f73ed298a96532a10e3b",
+        "source_id": "sweets-paradise",
+        "source_url": "https://www.sweets-paradise.jp/collaboration/pokopea-world",
+        "title": "『POKOPEA WORLD KITCHEN』開催決定！",
+        "first_seen_at": "2026-10-27T22:04:24.002Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
+        "changed_at": "2026-10-27T22:04:24.002Z",
+        "content_hash": "adad5623322b1c5ed8d7f91a622dbf60eaa9e37d1c5c957d93c148255e9ea98a",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_%E3%81%BD%E3%81%93%E3%83%94%E3%83%BC_%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E7%94%BB%E5%83%8F_w750%C3%97h511.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_%E3%81%BD%E3%81%93%E3%83%94%E3%83%BC_%E9%96%8B%E5%82%ACKV_0908.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_%E3%81%BD%E3%81%93%E3%83%94%E3%83%BC_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_0924_ol_02_01.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_%E3%81%BD%E3%81%93%E3%83%94%E3%83%BC_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_0924_ol_02_02.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_%E3%81%BD%E3%81%93%E3%83%94%E3%83%BC_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_0924_ol_02_03.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/%E3%81%BD%E3%81%93%E3%81%B4%E3%83%BC%E3%82%B0%E3%83%83%E3%82%BA%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_0924ol_%E4%BF%AE%E6%AD%A3-scaled.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_%E3%81%BD%E3%81%93%E3%83%94%E3%83%BC_%E5%88%B6%E9%99%90POP_0924.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/%E3%82%A2%E3%83%AC%E3%83%AB%E3%82%B2%E3%83%B3%E8%A1%A8-2.jpg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
         "id": "030c652ebeb59225f46c6206",
         "source_id": "sweets-paradise",
         "source_url": "https://www.sweets-paradise.jp/collaboration/puffyandsweety",
         "title": "STPR初のテイクアウトスイーツ店が11月1日(日)池袋にオープン！",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "2bd8a142cdbd1b3aebc52834ff5ad1f297a43a25b79f670a806b0a4b44575f21",
         "related_event_ids": [],
@@ -7547,7 +7600,7 @@
         "source_url": "https://www.sweets-paradise.jp/collaboration/nameko",
         "title": "なめこ栽培キット×SWEETS PARADISEの開催が決定！",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "e9052b40047531cadcbafda6aa3b3cf2f59224e7c8829fa75c7c16f57277065c",
         "related_event_ids": [],
@@ -7600,7 +7653,7 @@
         "source_url": "https://bushiroad-creative.com/topics/106228/",
         "title": "Ave Mujica 7th LIVE「Virtus」開催記念 BanG Dream! STORE 連動キャンペーン",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "ffc67afbd64b78595590b8594c6d3aa7aba275e709269b13506ee696be4bd38e",
         "related_event_ids": [
@@ -7625,7 +7678,7 @@
         "source_url": "https://bushiroad-creative.com/topics/106001/",
         "title": "恋する暴君 Collaboration Cafe",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "1111f6fbe2b5e6b9004467b6efabaea32e7b07f1ade105a4b3d3a15270531d69",
         "related_event_ids": [],
@@ -7708,7 +7761,7 @@
         "source_url": "https://www.sweets-paradise.jp/collaboration/tougenanki2",
         "title": "TVアニメ『桃源暗鬼』×SWEETS PARADISE Vol.2の開催が決定！",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "da157b6e05ad694826ed39d7eb5a60ce4e5d8dd94d14410c57b9829ede46f080",
         "related_event_ids": [],
@@ -7771,7 +7824,7 @@
         "source_url": "https://bushiroad-creative.com/topics/103175/",
         "title": "アニメ「ソードアート・オンライン」祝・結婚記念日 POP UP STORE in Annivroad",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "1ad762b204e008471d18cef7465e941aa0e51b78a40e1773606ef83f9b17dc12",
         "related_event_ids": [],
@@ -7839,7 +7892,7 @@
         "source_url": "https://bushiroad-creative.com/topics/103595/",
         "title": "アオのハコ × GiGO キャンペーン",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "daf962731b3b576c69130871a9f95e6321c9b13d0fffb2813a0d66a94d399584",
         "related_event_ids": [],
@@ -7957,7 +8010,7 @@
         "source_url": "https://bushiroad-creative.com/topics/103056/",
         "title": "アニメイトガールズフェスティバル2026(AGF2026)に『少女☆歌劇 レヴュースタァライト』『ZERO RISE』出展が決定！",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "864c60e2035a888148d2d4fb09eead830e40db79cf2685f0fad2be48e0028df2",
         "related_event_ids": [],
@@ -8075,7 +8128,7 @@
         "source_url": "https://bushiroad-creative.com/topics/104688/",
         "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 ニジガク☆ポリスフェア in ゲーマーズ",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "6c594edec532bcfb6495ddb3a6bf80c4678d1ad6ae9fd79dae5fad7c79e8aec0",
         "related_event_ids": [
@@ -8135,7 +8188,7 @@
         "source_url": "https://www.sweets-paradise.jp/collaboration/stprcake1114_2026",
         "title": "【STPR PARADISEアニバーサリーケーキ】とぅるりぷ - True&Lip「そあら」のアニバーサリーケーキの販売開始！",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "3dacee48af9e7d8198e575312df68df351789e9b48f28c2b4b5daf316c1efc60",
         "related_event_ids": [],
@@ -8158,7 +8211,7 @@
         "source_url": "https://bushiroad-creative.com/topics/105045/",
         "title": "TVアニメ『勇者刑に処す 懲罰勇者9004隊刑務記録』 POP UP SHOP dress up collection ver.",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "df3150bbe6d08234c61d4dac832d297706f5f5524852de9e4e50a86ad88d4e0e",
         "related_event_ids": [],
@@ -8231,7 +8284,7 @@
         "source_url": "https://www.sweets-paradise.jp/collaboration/shinycolors",
         "title": "『アイドルマスター シャイニーカラーズ』とのコラボカフェが開催決定！",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "3db44dae9a3cd9d0f0d3da0a054191160e0c7b141e777d8b2ddbcf184fca0b2d",
         "related_event_ids": [],
@@ -8294,7 +8347,7 @@
         "source_url": "https://www.sweets-paradise.jp/collaboration/izna",
         "title": "izna 2nd Anniversary Cafe with SWEETS PARADISE開催！",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "fba4fb25e4d6f938165be4c3eb956879503d3e078b049d73fd4e952a20c0bbc4",
         "related_event_ids": [],
@@ -8317,7 +8370,7 @@
         "source_url": "https://bushiroad-creative.com/topics/103670/",
         "title": "ラブライブ！シリーズ オフィシャルカードゲーム POP UP STORE～Royal Holiday～",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "3de0a6bce65ac44980a4b661086c24e54560c317249d12d51238984b73394f79",
         "related_event_ids": [],
@@ -8445,7 +8498,7 @@
         "source_url": "https://bushiroad-creative.com/topics/105358/",
         "title": "283PRODUCTION POP UP SHOP ～笑顔、その永劫の光～",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "06050e228bf248d5e66658234b23680562b6eeeffb8f6bb8317b3b1e892abc3e",
         "related_event_ids": [],
@@ -8513,7 +8566,7 @@
         "source_url": "https://www.sweets-paradise.jp/collaboration/kusuriyanohitorigoto3",
         "title": "アニメ『薬屋のひとりごと』とのコラボカフェ第3弾の開催が決定！",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "4118ad0f52efd37294a721c2c988b4eee15b49395dd0e9f2b4d0cdca0649b91d",
         "related_event_ids": [],
@@ -8571,7 +8624,7 @@
         "source_url": "https://bushiroad-creative.com/topics/104744/",
         "title": "カードファイト!! ヴァンガード Divinez シリーズ完結記念POP UP STORE",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "0bc6dc008b4192dc5ee92f959c5fda1f5e4128f9153caf243d70520c45ad4a80",
         "related_event_ids": [],
@@ -8639,7 +8692,7 @@
         "source_url": "https://www.sweets-paradise.jp/collaboration/stprfamily_agf2026",
         "title": "STPR PARADISE Collabo Cafe 2026の開催が決定！！",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "d87023af0c40a5a2731e8769b042f57860d2b86717a3e2f976f4debd6e9ba0e9",
         "related_event_ids": [],
@@ -8682,7 +8735,7 @@
         "source_url": "https://www.sweets-paradise.jp/collaboration/mochiwasabi2",
         "title": "『もちわさ日 Collaboration Cafe』の 開催が決定！",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "5f0ffcf3d7463290628dfac8e420367a3c596f953397f0b4ccab0c396709ddaf",
         "related_event_ids": [],
@@ -8725,7 +8778,7 @@
         "source_url": "https://bushiroad-creative.com/topics/104941/",
         "title": "相羽あいなプロデュース たいようのせい POP UP SHOP 〜エイプリルフールから生まれた奇跡〜",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "a61497f2528eb9e1195113519e284b8cbd3771ff34a097a494443d1000c52de9",
         "related_event_ids": [],
@@ -8803,7 +8856,7 @@
         "source_url": "https://www.sweets-paradise.jp/collaboration/prettychuu",
         "title": "Pretty Chuuとのコラボレーションカフェ「プリチューレストラン♡ボナペティ」の 開催が決定！",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "bb399c791f32ae17aee41192f0f773476e9820815c1533fd61cd0c8dec8c82c7",
         "related_event_ids": [],
@@ -8831,7 +8884,7 @@
         "source_url": "https://bushiroad-creative.com/topics/104208/",
         "title": "少女☆歌劇 レヴュースタァライト 9周年記念フェア ～L’Étoile innocente～",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "2d35f5a4ba6935db99de37aefa6b8984713795fc4f6ecee32dcedd4640680de8",
         "related_event_ids": [
@@ -8911,7 +8964,7 @@
         "source_url": "https://bang-dream.com/news/2441/",
         "title": "映画ムジカ、アワーノーツにてアニメイト池袋本店北館1Fでの特別展示が決定！",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:54:41.782Z",
         "content_hash": "cd30ab4049f12491af787a0c4cd005a99dc8d160ec5fa0844156a8090ec66181",
         "related_event_ids": [
@@ -8925,7 +8978,7 @@
         "source_url": "https://www.sweets-paradise.jp/collaboration/ournotes",
         "title": "『BanG Dream! Our Notes（バンドリ！アワーノーツ）』とのコラボカフェ開催決定！！",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T21:57:21.961Z",
+        "last_seen_at": "2026-10-27T22:04:24.002Z",
         "changed_at": "2026-10-27T21:54:41.782Z",
         "content_hash": "6db05d3634508b5dee4f0ea45585e36a19f566262b125390f931e164da416d9f",
         "related_event_ids": [
