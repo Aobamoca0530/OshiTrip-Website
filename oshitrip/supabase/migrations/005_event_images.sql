@@ -1,0 +1,44 @@
+begin;
+alter table public.events add column image jsonb;
+alter table public.events add constraint event_image_shape check(image is null or (jsonb_typeof(image)='object' and image ?& array['url','alt','source_url','checked_on'] and image->>'url' ~ '^https://'));
+create or replace function public.save_event(document jsonb, expected_updated_at timestamptz default null) returns text
+language plpgsql security invoker set search_path='' as $$
+declare existing public.events; e public.events; v jsonb; r jsonb; s jsonb; fid text;
+begin
+  if not public.is_admin() then raise exception 'Administrator required' using errcode='42501'; end if;
+  if jsonb_array_length(document->'venues')<1 or jsonb_array_length(document->'sources')<1 or jsonb_array_length(document->'franchise_ids')<1 then raise exception 'Venues, sources and franchises required'; end if;
+  if document->>'status'='published' and not exists(select 1 from jsonb_array_elements(document->'sources') x where x->>'checked_at' is not null) then raise exception 'Verified source required'; end if;
+  if document->'image' is not null and document->'image'<>'null'::jsonb then
+    if not exists(select 1 from jsonb_array_elements(document->'sources') x where x->>'url'=document->'image'->>'source_url') then raise exception 'Image source must belong to event sources'; end if;
+    if document->>'status'='published' and document->'image'->>'checked_on' is null then raise exception 'Verified image required'; end if;
+  end if;
+  select * into existing from public.events where id=document->>'id' for update;
+  if found then
+    if expected_updated_at is null or existing.updated_at<>expected_updated_at then raise exception 'CONFLICT: activity changed; reload before saving'; end if;
+  elsif expected_updated_at is not null then raise exception 'CONFLICT: activity no longer exists';
+  end if;
+  select * into e from jsonb_populate_record(null::public.events,document);
+  insert into public.events(id,slug,title_ja,title_zh,category,summary,fees,conditions,status,verified_at,updated_at,image)
+  values(e.id,e.slug,e.title_ja,e.title_zh,e.category,e.summary,e.fees,e.conditions,e.status,e.verified_at,clock_timestamp(),e.image)
+  on conflict(id) do update set slug=excluded.slug,title_ja=excluded.title_ja,title_zh=excluded.title_zh,
+    category=excluded.category,summary=excluded.summary,fees=excluded.fees,conditions=excluded.conditions,status=excluded.status,verified_at=excluded.verified_at,image=excluded.image;
+  delete from public.event_franchises where event_id=e.id;
+  delete from public.event_venues where event_id=e.id;
+  delete from public.event_sources where event_id=e.id;
+  for fid in select jsonb_array_elements_text(document->'franchise_ids') loop
+    insert into public.event_franchises values(e.id,fid);
+  end loop;
+  for v in select value from jsonb_array_elements(document->'venues') loop
+    insert into public.event_venues select * from jsonb_populate_record(null::public.event_venues,(v-'rounds')||jsonb_build_object('event_id',e.id));
+    for r in select value from jsonb_array_elements(v->'rounds') loop
+      insert into public.reservation_rounds select * from jsonb_populate_record(null::public.reservation_rounds,r||jsonb_build_object('venue_id',v->>'id'));
+    end loop;
+  end loop;
+  for s in select value from jsonb_array_elements(document->'sources') loop
+    insert into public.event_sources select * from jsonb_populate_record(null::public.event_sources,s||jsonb_build_object('event_id',e.id));
+  end loop;
+  return e.id;
+end;
+$$;
+
+commit;

@@ -1,0 +1,183 @@
+[
+  {
+    "id": "bang-dream",
+    "origin": "https://bang-dream.com",
+    "index_url": "https://bang-dream.com/discographies/",
+    "path_patterns": [
+      "^/discographies/(?:[0-9]+/)?$",
+      "^/events/[a-z0-9_-]+/$"
+    ],
+    "urls": [
+      "https://bang-dream.com/discographies/4215/",
+      "https://bang-dream.com/discographies/4236/",
+      "https://bang-dream.com/discographies/4259/",
+      "https://bang-dream.com/discographies/4210/",
+      "https://bang-dream.com/discographies/4181/",
+      "https://bang-dream.com/events/ymmt-tour2027/",
+      "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+      "https://bang-dream.com/discographies/4238/"
+    ],
+    "permission": "unreviewed",
+    "terms_url": "https://bang-dream.com/bdp-guideline/",
+    "terms_checked_on": "2026-10-28",
+    "robots_checked_on": "2026-10-28",
+    "authorization_note": "robots 未禁止商品与活动路径；官方指引未明确授予定期自动提取权限。依任务书第8节，等待适用于此用途的许可依据，不将 robots 通行当作转载授权。"
+  },
+  {
+    "id": "bushiroad-book",
+    "origin": "https://bushiroad-works.com",
+    "index_url": null,
+    "path_patterns": [
+      "^/bushiroad20thbook/$"
+    ],
+    "urls": [
+      "https://bushiroad-works.com/bushiroad20thbook/"
+    ],
+    "permission": "unreviewed",
+    "terms_url": "https://bushiroad-works.com/",
+    "terms_checked_on": null,
+    "robots_checked_on": null,
+    "authorization_note": "待确认出版社自动访问政策。"
+  },
+  {
+    "id": "bushiroad-live",
+    "origin": "https://live.bushiroad-music.com",
+    "index_url": null,
+    "path_patterns": [
+      "^/bushiroad_20thlive/$"
+    ],
+    "urls": [
+      "https://live.bushiroad-music.com/bushiroad_20thlive/"
+    ],
+    "permission": "unreviewed",
+    "terms_url": "https://live.bushiroad-music.com/bushiroad_20thlive/",
+    "terms_checked_on": null,
+    "robots_checked_on": null,
+    "authorization_note": "待确认 Live 官网自动访问政策。"
+  },
+  {
+    "id": "bang-dream-news",
+    "kind": "event-source",
+    "origin": "https://bang-dream.com",
+    "index_url": "https://bang-dream.com/news/",
+    "path_patterns": [
+      "^/news/(?:[0-9]+/)?$"
+    ],
+    "urls": [
+      "https://bang-dream.com/news/2441/"
+    ],
+    "permission": "unreviewed",
+    "terms_url": "https://bang-dream.com/bdp-guideline/",
+    "terms_checked_on": "2026-10-28",
+    "robots_checked_on": "2026-10-28",
+    "authorization_note": "待确认定期采集及图片引用许可；仅进入人工审核队列，不抓取 X 登录内容。"
+  },
+  {
+    "id": "bushiroad-creative",
+    "kind": "event-source",
+    "origin": "https://bushiroad-creative.com",
+    "index_url": "https://bushiroad-creative.com/",
+    "path_patterns": [
+      "^/$",
+      "^/topics/[0-9]+/$"
+    ],
+    "urls": [
+      "https://bushiroad-creative.com/topics/106228/",
+      "https://bushiroad-creative.com/topics/104688/",
+      "https://bushiroad-creative.com/topics/104208/"
+    ],
+    "permission": "unreviewed",
+    "terms_url": "https://bushiroad-creative.com/",
+    "terms_checked_on": null,
+    "robots_checked_on": null,
+    "authorization_note": "待确认定期自动访问许可，未启用联网抓取。"
+  },
+  {
+    "id": "bushiroad-music-mygo",
+    "kind": "release-source",
+    "origin": "https://bushiroad-music.com",
+    "index_url": null,
+    "path_patterns": [
+      "^/musics/brmm-11098/$",
+      "^/topics/22586/$"
+    ],
+    "urls": [
+      "https://bushiroad-music.com/musics/brmm-11098/",
+      "https://bushiroad-music.com/topics/22586/"
+    ],
+    "permission": "unreviewed",
+    "terms_url": "https://bushiroad-music.com/",
+    "terms_checked_on": null,
+    "robots_checked_on": null,
+    "authorization_note": "待确认自动访问许可；与现有MyGO商品和共通活动来源保持一致。"
+  },
+  {
+    "id": "nijigasaki-news",
+    "kind": "event-source",
+    "origin": "https://www.lovelive-anime.jp",
+    "index_url": "https://www.lovelive-anime.jp/nijigasaki/topics.php",
+    "path_patterns": [
+      "^/nijigasaki/(?:topics|detail)\\.php$"
+    ],
+    "query_rules": {
+      "/nijigasaki/detail.php": {
+        "p": "^01_[0-9]{1,6}$"
+      }
+    },
+    "discovery_patterns": [
+      "^/nijigasaki/detail\\.php$"
+    ],
+    "urls": [
+      "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6700",
+      "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6659",
+      "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6690",
+      "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+      "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6703",
+      "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6692",
+      "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6721"
+    ],
+    "permission": "unreviewed",
+    "terms_url": "https://www.lovelive-anime.jp/",
+    "terms_checked_on": null,
+    "robots_checked_on": "2026-10-28",
+    "authorization_note": "公开公告可人工核实；robots 返回 403，尚无定期自动访问许可依据。保持自动网络抓取关闭。官方 SNS 仅保存公告中的公开链接，未接入 X API。"
+  },
+  {
+    "id": "team-e-nijigasaki",
+    "kind": "event-source",
+    "origin": "https://www.team-e.co.jp",
+    "index_url": null,
+    "path_patterns": [
+      "^/popup/lovelive/$"
+    ],
+    "urls": [
+      "https://www.team-e.co.jp/popup/lovelive/"
+    ],
+    "permission": "unreviewed",
+    "terms_url": "https://www.team-e.co.jp/",
+    "terms_checked_on": null,
+    "robots_checked_on": null,
+    "authorization_note": "待核实定期自动访问许可；当前仅对人工取得的官方 HTML 进行离线解析。"
+  },
+  {
+    "id": "sweets-paradise",
+    "kind": "event-source",
+    "origin": "https://www.sweets-paradise.jp",
+    "index_url": "https://www.sweets-paradise.jp/collaboration",
+    "path_patterns": [
+      "^/collaboration/?$",
+      "^/collaboration/[a-z0-9_-]+/?$"
+    ],
+    "discovery_patterns": [
+      "^/collaboration/[a-z0-9_-]+/?$"
+    ],
+    "urls": [
+      "https://www.sweets-paradise.jp/collaboration/ournotes"
+    ],
+    "permission": "unreviewed",
+    "terms_url": "https://www.sweets-paradise.jp/",
+    "terms_checked_on": null,
+    "robots_checked_on": null,
+    "authorization_note": "当前仅人工核实公开公告与图片；自动访问许可核实前不开启网络抓取。图片中的机器译文必须人工对照原图审核。"
+  }
+]

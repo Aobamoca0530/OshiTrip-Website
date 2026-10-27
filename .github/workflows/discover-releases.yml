@@ -1,0 +1,77 @@
+name: Discover activity and release updates
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "check 只检查配置，不访问官网或 AI；crawl 才实际运行"
+        required: true
+        default: check
+        type: choice
+        options:
+          - check
+          - crawl
+  schedule:
+    # 09:17 China / 10:17 Japan; scheduling can be delayed.
+    - cron: "17 1 * * *"
+permissions:
+  contents: read
+concurrency:
+  group: release-crawler
+  cancel-in-progress: false
+jobs:
+  discover:
+    if: github.event_name == 'workflow_dispatch' || vars.CRAWLER_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    defaults:
+      run:
+        working-directory: oshitrip
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      CRAWLER_IMAGE_RULES: ${{ vars.CRAWLER_IMAGE_RULES || 'true' }}
+      IMAGE_RULE_PROVIDER: ${{ vars.IMAGE_RULE_PROVIDER || 'bailian' }}
+      IMAGE_RULE_MODEL: ${{ vars.IMAGE_RULE_MODEL || 'qwen3-vl-plus' }}
+      DASHSCOPE_BASE_URL: ${{ vars.DASHSCOPE_BASE_URL }}
+      DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      CRAWLER_IMAGE_LIMIT: ${{ vars.CRAWLER_IMAGE_LIMIT || '4' }}
+      CRAWLER_PAGE_LIMIT: ${{ vars.CRAWLER_PAGE_LIMIT || '3' }}
+      CRAWLER_SOURCE_IDS: ${{ vars.CRAWLER_SOURCE_IDS }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: 24
+      - uses: pnpm/action-setup@v6.1.0
+        with:
+          version: 11.25.0
+          package_json_file: oshitrip/package.json
+      - run: pnpm install --frozen-lockfile
+      - name: Check settings without network requests
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'check'
+        run: node scripts/check-crawler-config.mjs
+      - name: Check source readiness before crawling
+        if: github.event_name != 'workflow_dispatch' || inputs.mode == 'crawl'
+        run: node scripts/check-crawler-config.mjs --require-ready
+      - uses: actions/cache/restore@v6.1.0
+        if: github.event_name != 'workflow_dispatch' || inputs.mode == 'crawl'
+        with:
+          path: oshitrip/var/crawler/image-cache.json
+          key: oshitrip-image-v2-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            oshitrip-image-v2-${{ runner.os }}-
+      - run: node scripts/crawl-releases.mjs --database
+        if: github.event_name != 'workflow_dispatch' || inputs.mode == 'crawl'
+      - uses: actions/cache/save@v6.1.0
+        if: always() && hashFiles('oshitrip/var/crawler/image-cache.json') != '' && (github.event_name != 'workflow_dispatch' || inputs.mode == 'crawl')
+        with:
+          path: oshitrip/var/crawler/image-cache.json
+          key: oshitrip-image-v2-${{ runner.os }}-${{ github.run_id }}-${{ github.run_attempt }}
+      - uses: actions/upload-artifact@v7.0.2
+        if: always()
+        with:
+          name: crawl-report
+          path: oshitrip/var/crawler/
+          retention-days: 14

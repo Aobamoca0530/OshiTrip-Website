@@ -1,0 +1,38 @@
+[
+  {
+    "file": "var/crawler/nijigasaki/sweet.html",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6700"
+  },
+  {
+    "file": "var/crawler/nijigasaki/gigo10.html",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6659"
+  },
+  {
+    "file": "var/crawler/nijigasaki/kitchen.html",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6690"
+  },
+  {
+    "file": "var/crawler/nijigasaki/gigo-card.html",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557"
+  },
+  {
+    "file": "var/crawler/nijigasaki/loft-official.html",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6703"
+  },
+  {
+    "file": "var/crawler/nijigasaki/hep-cafe.html",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6692"
+  },
+  {
+    "file": "var/crawler/nijigasaki/emma.html",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6721"
+  },
+  {
+    "file": "var/crawler/nijigasaki/volks.html",
+    "url": "https://www.team-e.co.jp/popup/lovelive/"
+  },
+  {
+    "file": "var/crawler/manual-niji-police.html",
+    "url": "https://bushiroad-creative.com/topics/104688/"
+  }
+]
