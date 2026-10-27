@@ -20,3 +20,7 @@ oshitrip/后续开发计划.md
 oshitrip/新手运行指南.md
 oshitrip/数据维护指南.md
 oshitrip/项目结构讲解.md
+
+# Portable Windows builds and downloaded runtime archives.
+dist/
+oshitrip/.desktop-cache/

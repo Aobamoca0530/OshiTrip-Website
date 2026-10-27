@@ -13,6 +13,7 @@ export default defineConfig([
   },
   globalIgnores([
     ".next/**",
+    ".desktop-cache/**",
     "next-env.d.ts",
     "playwright-report/**",
     "test-results/**",

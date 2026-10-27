@@ -49,3 +49,18 @@ pnpm test:e2e
 ```
 
 CI 工作流位于仓库根目录的 `.github/workflows/`。使用 Vercel 部署时，Root Directory 为 `oshitrip`。
+
+## 构建 Windows 启动包
+
+在 Windows x64 的干净源码目录中安装依赖，然后运行：
+
+```sh
+pnpm package:windows
+node scripts/test-windows-package.mjs
+```
+
+脚本会下载并核对官方 Node.js 24.19.0 ZIP 的 SHA256，以本地资料模式构建 Next.js standalone 服务，用系统 .NET Framework 编译启动器，并生成仓库根目录下的 `dist/OshiTrip-1.0.0-windows-x64.zip` 及 SHA256 校验文件。构建目录不能包含 `.env.local` 等私人配置。
+
+启动器仅监听 `127.0.0.1`。端口偏好和日志放在 `%LOCALAPPDATA%\OshiTrip`；关闭窗口会停止其创建的后台进程。首次运行通常使用 43187 端口，后续使用已保存端口。端口临时冲突不会覆盖已保存的地址。
+
+GitHub Actions 的 **Package Windows portable app** 工作流支持手动构建，成功后可在该次运行的 Artifacts 下载 ZIP。构建产物不提交到源码仓库。

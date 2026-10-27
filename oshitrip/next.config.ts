@@ -1,5 +1,15 @@
 import type { NextConfig } from "next";
 const config: NextConfig = {
+  // Only the portable Windows build needs a self-contained Node server.
+  ...(process.env.OSHITRIP_DESKTOP_BUILD === "1"
+    ? {
+        output: "standalone" as const,
+        env: {
+          NEXT_PUBLIC_SUPABASE_URL: "",
+          NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: "",
+        },
+      }
+    : {}),
   poweredByHeader: false,
   async headers() {
     return [
