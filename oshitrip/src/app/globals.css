@@ -1,4 +1,13 @@
 @import "tailwindcss";
+.news-filters input:not([type="checkbox"]) { display: block; width: 100%; margin: 8px 0 16px; }
+.news-filters .checkbox-label { display: flex; flex-direction: row; align-items: center; justify-content: flex-start; gap: 8px; }
+.news-filters input[type="checkbox"] { width: auto; flex-shrink: 0; }
+.news-card h2 { margin-top: 14px; font-size: 20px; overflow-wrap: anywhere; }
+.news-card summary { cursor: pointer; color: var(--green); padding: 16px 0; font-weight: 600; }
+.news-image-group { margin: 20px 0; }
+.news-image-group .event-gallery { grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); }
+.header-inner nav { overflow-x: auto; }
+.header-inner nav a { white-space: nowrap; }
 .data-sync-bar {
   display: flex;
   align-items: center;

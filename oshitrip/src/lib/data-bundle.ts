@@ -3,14 +3,16 @@ import { z } from "zod";
 import { catalogSchema } from "./schema";
 import { releasesSchema } from "./releases";
 import { storesSchema } from "./shopping";
+import { announcementsSchema } from "./announcements";
 
 export const PUBLIC_DATA_URL =
-  "https://raw.githubusercontent.com/Aobamoca0530/OshiTrip-Website/main/data/public-v1.json";
+  "https://raw.githubusercontent.com/Aobamoca0530/OshiTrip-Website/main/data/public-v2.json";
 export const MAX_DATA_BYTES = 5 * 1024 * 1024;
 export const publicDataSchema = z.object({
   catalog: catalogSchema,
   releases: releasesSchema,
   stores: storesSchema,
+  announcements: announcementsSchema.default([]),
 }).superRefine((data, ctx) => {
   const ids = new Set(data.catalog.franchises.map(f => f.id));
   const uniqueGroups = [data.catalog.franchises.map(f => f.id), data.catalog.events.map(e => e.id), data.catalog.events.map(e => e.slug), data.releases.map(r => r.id), data.releases.map(r => r.slug)];
@@ -26,7 +28,7 @@ export function dataRevision(data: PublicData) {
   return createHash("sha256").update(JSON.stringify(data)).digest("hex");
 }
 export const dataBundleSchema = z.object({
-  formatVersion: z.literal(1),
+  formatVersion: z.literal(2),
   revision: z.string().regex(/^[a-f0-9]{64}$/),
   publishedAt: z.iso.datetime({ offset: true }),
   data: publicDataSchema,
@@ -35,5 +37,5 @@ export type DataBundle = z.infer<typeof dataBundleSchema>;
 
 export function makeDataBundle(input: unknown, publishedAt: string): DataBundle {
   const data = publicDataSchema.parse(input);
-  return dataBundleSchema.parse({ formatVersion: 1, revision: dataRevision(data), publishedAt, data });
+  return dataBundleSchema.parse({ formatVersion: 2, revision: dataRevision(data), publishedAt, data });
 }

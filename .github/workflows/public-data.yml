@@ -1,0 +1,46 @@
+name: Update public announcements and merchandise images
+on:
+  workflow_dispatch:
+  schedule:
+    # 09:17 China / 10:17 Japan. GitHub scheduling may be delayed.
+    - cron: "17 1 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: public-data-publisher
+  cancel-in-progress: false
+jobs:
+  update:
+    if: github.repository == 'Aobamoca0530/OshiTrip-Website'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: oshitrip
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: 24
+      - uses: pnpm/action-setup@v6.1.0
+        with:
+          version: 11.25.0
+          package_json_file: oshitrip/package.json
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm crawl:public
+      - run: pnpm data:publish
+      - run: pnpm data:check
+      - run: pnpm typecheck
+      - run: pnpm test
+      - name: Publish validated snapshots
+        run: |
+          git add src/data/announcements.json src/data/public-meta.json ../data/public-v1.json ../data/public-v2.json
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "data: refresh official announcements and image links"
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v7.0.2
+        if: always()
+        with:
+          name: public-crawler-report
+          path: oshitrip/var/public-crawler/report.json
+          retention-days: 14

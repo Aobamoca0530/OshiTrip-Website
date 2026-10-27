@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Compass, Heart, Map, ArrowUpRight, Ticket } from "lucide-react";
+import { Compass, Heart, Map, ArrowUpRight, Ticket, Newspaper } from "lucide-react";
 export function Header() {
   const path = usePathname();
   return (
@@ -16,6 +16,7 @@ export function Header() {
         <nav aria-label="主导航">
           {[
             ["/events", "发现活动", Compass],
+            ["/news", "官方新消息", Newspaper],
             ["/releases", "抽选与发售", Ticket],
             ["/trip", "我的旅行", Map],
             ["/favorites", "收藏与关注", Heart],

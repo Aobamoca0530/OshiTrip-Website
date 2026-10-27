@@ -10,6 +10,7 @@ export function EventBenefits({ event }: { event: OshiEvent }) {
         金额为含税日元。活动期限不代表赠品仍有库存；出发前请向门店确认。
       </p>
       <div className="benefit-list">
+        {!!event.benefits?.length && <h3>特典 / 满赠条件</h3>}
         {event.benefits?.map((b) => (
           <article className="benefit-card" key={b.id}>
             <span className="badge green">{b.channel}</span>

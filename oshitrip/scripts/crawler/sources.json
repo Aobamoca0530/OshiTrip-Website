@@ -163,13 +163,13 @@
     "id": "sweets-paradise",
     "kind": "event-source",
     "origin": "https://www.sweets-paradise.jp",
-    "index_url": "https://www.sweets-paradise.jp/collaboration",
+    "index_url": "https://www.sweets-paradise.jp/collaboration/",
     "path_patterns": [
       "^/collaboration/?$",
-      "^/collaboration/[a-z0-9_-]+/?$"
+      "^/collaboration/(?!feed/?$)[a-z0-9_-]+/?$"
     ],
     "discovery_patterns": [
-      "^/collaboration/[a-z0-9_-]+/?$"
+      "^/collaboration/(?!feed/?$)[a-z0-9_-]+/?$"
     ],
     "urls": [
       "https://www.sweets-paradise.jp/collaboration/ournotes"

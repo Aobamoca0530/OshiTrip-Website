@@ -1,5 +1,7 @@
 import { OfficialImage } from "@/components/official-image";
 import { EventBenefits } from "@/components/event-benefits";
+import { AnnouncementImages } from "@/components/announcements";
+import { getAnnouncements } from "@/lib/announcement-catalog";
 import { EventRules } from "@/components/event-rules";
 import { tokyoDate } from "@/lib/domain";
 import Link from "next/link";
@@ -29,6 +31,7 @@ export default async function Page({
     return <SourceNote mode={catalog.mode} error={catalog.error} />;
   const event = catalog.events.find((e) => e.slug === slug);
   if (!event) notFound();
+  const news = (await getAnnouncements()).filter(item => item.related_event_ids.includes(event.id));
   const products =
     event.category === "音乐和声优活动" ? await getReleases() : null;
   const linkedProducts =
@@ -52,6 +55,7 @@ export default async function Page({
         <nav className="collection-jumps" aria-label="合集内容">
           {!!event.translated_rules?.length && <a href="#rules">中文规则</a>}
           <a href="#venues">门店与日期</a>
+          {news.some(item => item.images.length) && <a href="#official-goods">官方商品与活动图片</a>}
           {!!(event.benefits?.length || event.gallery?.length) && (
             <a href="#benefits">商品图与特典</a>
           )}
@@ -98,6 +102,11 @@ export default async function Page({
             </ul>
           </section>
           <EventRules event={event} />
+          {news.some(item => item.images.length) && <section className="panel section-space" id="official-goods">
+            <h2>官方商品与活动图片</h2>
+            <p className="helper">从本活动关联的官方公告自动收集，包含售卖商品、特典和菜单。分类尚未人工核实；图片不代表商品仍有库存。</p>
+            <AnnouncementImages items={news} />
+          </section>}
           <section className="panel section-space" id="venues">
             <h2>
               举办门店 / 场次{" "}

@@ -42,7 +42,7 @@ export class DataSync {
     if (!this.initialized) this.initialized = (async () => {
       if (!this.options.cacheDir) return;
       try {
-        const file = path.join(this.options.cacheDir, "public-v1.json");
+        const file = path.join(this.options.cacheDir, "public-v2.json");
         if ((await fs.stat(file)).size > MAX_DATA_BYTES) return;
         const cached = dataBundleSchema.parse(JSON.parse(await fs.readFile(file, "utf8")));
         if (Date.parse(cached.publishedAt) >= Date.parse(this.active.publishedAt)) {
@@ -121,7 +121,7 @@ export class DataSync {
         await fs.mkdir(this.options.cacheDir, { recursive: true });
         temp = path.join(this.options.cacheDir, `public-${randomUUID()}.tmp`);
         await fs.writeFile(temp, JSON.stringify(next), { flag: "wx" });
-        await fs.rename(temp, path.join(this.options.cacheDir, "public-v1.json"));
+        await fs.rename(temp, path.join(this.options.cacheDir, "public-v2.json"));
         temp = undefined;
       }
       const changed = next.revision !== this.active.revision;

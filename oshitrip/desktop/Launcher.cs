@@ -42,7 +42,7 @@ internal static class Program
             {
                 server.Start();
                 pid = server.ChildId;
-                foreach (var route in new[] { "/", "/events", "/trip", "/releases" })
+                foreach (var route in new[] { "/", "/events", "/trip", "/releases", "/news" })
                     if (!LocalServer.Check(server.Url.TrimEnd('/') + route)) throw new Exception("HTTP check failed: " + route);
                 File.WriteAllText(reportPath + ".ready", server.Url + "\n" + pid, Encoding.UTF8);
                 // External checks signal completion; bound the wait if they crash.

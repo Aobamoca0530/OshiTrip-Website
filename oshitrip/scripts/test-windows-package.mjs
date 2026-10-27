@@ -79,12 +79,12 @@ async function smoke(label, killLauncher = false) {
 
 const first = await smoke('first-run');
 const { makeDataBundle } = await loadDataSchema();
-const cached = JSON.parse(await fs.readFile(path.join(app, '..', 'data', 'public-v1.json'), 'utf8'));
+const cached = JSON.parse(await fs.readFile(path.join(app, '..', 'data', 'public-v2.json'), 'utf8'));
 cached.data.catalog.events.forEach(event => { event.title_zh += '（离线缓存测试）'; });
 const updated = makeDataBundle(cached.data, new Date(Date.now() + 1000).toISOString());
 const cacheDir = path.join(testRoot, 'launcher-data', 'data');
 await fs.mkdir(cacheDir, { recursive: true });
-await fs.writeFile(path.join(cacheDir, 'public-v1.json'), JSON.stringify(updated));
+await fs.writeFile(path.join(cacheDir, 'public-v2.json'), JSON.stringify(updated));
 const second = await smoke('restart');
 assert.equal(second, first, 'Restarts must preserve the browser origin for localStorage');
 const occupied = net.createServer();

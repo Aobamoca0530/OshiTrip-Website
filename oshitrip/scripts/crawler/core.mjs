@@ -40,6 +40,12 @@ export const observationSchema = z.object({
     .default([]),
 });
 function articleHtml(html, sourceUrl) {
+  if (new URL(sourceUrl).hostname === "bushiroad-creative.com" && /^\/topics\/\d+\/$/.test(new URL(sourceUrl).pathname)) {
+    const title = html.match(/<h1\b[^>]*class=["'][^"']*p-block-b-b__title[^"']*["'][^>]*>([^]*?)<\/h1>/i)?.[1];
+    const article = html.match(/<article\b[^>]*class=["'][^"']*c-post[^"']*["'][^>]*>([^]*?)<\/article>/i)?.[1];
+    if (!title || !article) throw new Error("Bushiroad Creative 正文结构变化，保留原资料");
+    return `<h1>${title}</h1>${article}`;
+  }
   if (
     new URL(sourceUrl).hostname === "www.sweets-paradise.jp" &&
     /^\/collaboration\/.+/.test(new URL(sourceUrl).pathname)
@@ -383,9 +389,8 @@ export async function crawlSource(
   } = {},
 ) {
   if (
-    source.permission !== "approved" ||
-    !source.authorization_note?.trim() ||
-    !source.terms_checked_on
+    source.permission === "denied" ||
+    !(source.public_fetch_enabled === true || (source.permission === "approved" && source.authorization_note?.trim() && source.terms_checked_on))
   )
     return {
       status: "blocked",
@@ -423,7 +428,8 @@ export async function crawlSource(
   if (source.index_url) {
     try {
       const html = await read(source.index_url);
-      urls.push(...discoverLinks(html, source));
+      // New announcements must not be starved by a long list of fixed seed URLs.
+      urls = [...discoverLinks(html, source), ...urls];
     } catch (e) {
       errors.push(`官方目录：${e.message}`);
     }
