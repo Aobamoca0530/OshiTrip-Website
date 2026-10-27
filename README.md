@@ -119,11 +119,3 @@ pnpm start
 
 GitHub Actions 配置位于仓库根目录的 `.github/workflows/`。使用 Vercel 部署时，将应用 Root Directory 设置为 `oshitrip`。
 
-## 🤝 Contributors
-
-- **[Aobamoca0530](https://github.com/Aobamoca0530)**
-- **Codex**
-
-感谢每一位为项目提出建议、补充信息和贡献代码的人。💛
-
-[查看 GitHub 贡献者记录 →](https://github.com/Aobamoca0530/OshiTrip-Website/graphs/contributors)
