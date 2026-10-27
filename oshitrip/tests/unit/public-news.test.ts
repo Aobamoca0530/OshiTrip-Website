@@ -22,6 +22,35 @@ describe("public announcements and merchandise", () => {
     expect(images.map(i => i.url)).toEqual([img('goods'), img('bonus')]);
     expect(images.map(classifyImage)).toEqual(["merchandise", "bonus"]);
   });
+  it("isolates Starlight article content from the site header and related pictures", () => {
+    const address = 'https://revuestarlight.com/news/11241/';
+    const markup = `<header><h1>サイトロゴ</h1></header><h1 class="ttl serif">九九組の日</h1><div class="sw-Detail_Contents news-Detail_Contents"><div><p>${'公開商品情報です。'.repeat(20)}</p><img src="https://revuestarlight.com/wordpress/wp-content/uploads/goods.jpg" alt="グッズ"></div></div><img src="https://revuestarlight.com/wordpress/wp-content/uploads/other.jpg">`;
+    const parsed = extractObservation(markup, address, 'event-source');
+    expect(parsed.title).toBe('九九組の日');
+    expect(parsed.images.map(i => i.url)).toEqual(['https://revuestarlight.com/wordpress/wp-content/uploads/goods.jpg']);
+    expect(() => extractObservation(markup.replace('news-Detail_Contents', 'changed-layout'), address)).toThrow();
+    const short = '<h1 class="ttl serif">新作舞台上演決定！</h1><div class="news-Detail_Contents"><p>少女☆歌劇 レヴュースタァライトの新作舞台が来年初夏に上演決定いたしました。公演詳細は続報をお待ちください。</p></div>';
+    expect(extractObservation(short, address).title).toBe('新作舞台上演決定！');
+  });
+  it.each([403, 404])("permits explicitly configured unavailable robots (%i) while still rejecting a forbidden article", async status => {
+    const source = { origin: 'https://bang-dream.com', public_fetch_enabled: true, robots_unavailable_statuses: [403, 404], urls: ['https://bang-dream.com/news/1/'], path_patterns: ['^/news/1/$'] };
+    const calls: string[] = [];
+    const result = await crawlSource(source, { pause: async () => {}, fetcher: async (input: RequestInfo | URL) => {
+      const url = String(input); calls.push(url);
+      return new Response('', { status: url.endsWith('robots.txt') ? status : 403 });
+    } });
+    expect(calls).toHaveLength(2);
+    expect(result.robots_status).toBe(`unavailable-${status}`);
+    expect(result.status).toBe('failed');
+    expect(result.observations).toEqual([]);
+  });
+  it.each([429, 500])("does not continue when robots is rate limited or unreachable (%i)", async status => {
+    let calls = 0;
+    const source = { origin: 'https://bang-dream.com', public_fetch_enabled: true, robots_unavailable_statuses: [403, 404], urls: ['https://bang-dream.com/news/1/'], path_patterns: ['^/news/1/$'] };
+    const result = await crawlSource(source, { fetcher: async () => { calls++; return new Response('', { status }); } });
+    expect(result.status).toBe('blocked');
+    expect(calls).toBe(1);
+  });
   it("leaves ambiguous image categories unknown", () => {
     expect(classifyImage({ url: img('combined'), alt: "商品と特典", context: "" })).toBe("unknown");
     expect(classifyImage({ url: img('plain'), alt: "", context: "" })).toBe("unknown");

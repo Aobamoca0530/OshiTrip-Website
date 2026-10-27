@@ -1,4 +1,5 @@
 import { getCatalog } from "@/lib/catalog";
+import { OfficialNewsSources } from "@/components/official-news-sources";
 import { EventExplorer, SourceNote } from "@/components/events";
 import type { Filters } from "@/lib/domain";
 export const metadata = { title: "发现活动" };
@@ -77,6 +78,7 @@ export default async function Page({
         </p>
       </div>
       <SourceNote mode={catalog.mode} error={catalog.error} />
+      <OfficialNewsSources />
       <EventExplorer
         events={catalog.events}
         franchises={catalog.franchises}

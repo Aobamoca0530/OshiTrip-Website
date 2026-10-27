@@ -7,6 +7,9 @@ test("official announcements expose merchandise separately and retain original s
   test.skip(!example, "No merchandise announcements in the current snapshot");
   await page.goto("/news");
   await expect(page.getByRole("heading", { name: "官方新消息与商品图", exact: true })).toBeVisible();
+  await expect(page.getByRole("link", { name: "虹咲公式X" })).toHaveAttribute("href", "https://x.com/Nijigaku_movie");
+  await expect(page.getByText("官网公告每日采集；X 为官方入口，尚未自动同步帖子。")).toBeVisible();
+  await expect(page.getByRole("link", { name: "少女歌剧官网新闻" })).toHaveAttribute("href", "https://revuestarlight.com/news/");
   await page.getByLabel("搜索官方公告").fill(example!.title);
   await expect(page.locator(".news-card")).toHaveCount(1);
   await page.locator(".news-card summary").click();

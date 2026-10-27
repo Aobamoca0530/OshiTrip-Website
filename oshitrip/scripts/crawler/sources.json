@@ -113,6 +113,7 @@
   },
   {
     "id": "nijigasaki-news",
+    "robots_unavailable_statuses": [403, 404],
     "kind": "event-source",
     "origin": "https://www.lovelive-anime.jp",
     "index_url": "https://www.lovelive-anime.jp/nijigasaki/topics.php",
@@ -140,7 +141,20 @@
     "terms_url": "https://www.lovelive-anime.jp/",
     "terms_checked_on": null,
     "robots_checked_on": "2026-10-28",
-    "authorization_note": "公开公告可人工核实；robots 返回 403，尚无定期自动访问许可依据。保持自动网络抓取关闭。官方 SNS 仅保存公告中的公开链接，未接入 X API。"
+    "authorization_note": "2026-10-28 用户要求接入公开新闻页，已实测目录和公告返回 200。公共采集器按 RFC 9309 区分 robots 资源 403/404 与文章访问失败，新闻页本身受限时停止。不是图片转载授权；X 仅作为公开入口。"
+  },
+  {
+    "id": "starlight-news",
+    "kind": "event-source",
+    "origin": "https://revuestarlight.com",
+    "index_url": "https://revuestarlight.com/news/",
+    "path_patterns": ["^/news/(?:[0-9]+/)?$"],
+    "urls": ["https://revuestarlight.com/news/11241/"],
+    "permission": "unreviewed",
+    "terms_url": "https://revuestarlight.com/",
+    "terms_checked_on": null,
+    "robots_checked_on": "2026-10-28",
+    "authorization_note": "用户要求对公开新闻页低频采集；已实测新闻页可访问，robots 未禁止 /news/。该配置不是图片转载授权，保留官方原文和图片链接。"
   },
   {
     "id": "team-e-nijigasaki",

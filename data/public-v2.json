@@ -1,7 +1,7 @@
 {
   "formatVersion": 2,
-  "revision": "8d0ca6595d853c05a38cdb85142f6126bdfed8d5a11f6aea1de6f21f1d1d5e4f",
-  "publishedAt": "2026-10-27T22:06:09.195Z",
+  "revision": "0fff6834520da9d61598f0392d51b33144afa4e1927e0568cc67f9693800d874",
+  "publishedAt": "2026-10-27T22:27:00.443Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -7479,171 +7479,955 @@
     ],
     "announcements": [
       {
-        "id": "f506f73ed298a96532a10e3b",
-        "source_id": "sweets-paradise",
-        "source_url": "https://www.sweets-paradise.jp/collaboration/pokopea-world",
-        "title": "『POKOPEA WORLD KITCHEN』開催決定！",
-        "first_seen_at": "2026-10-27T22:04:24.002Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T22:04:24.002Z",
-        "content_hash": "adad5623322b1c5ed8d7f91a622dbf60eaa9e37d1c5c957d93c148255e9ea98a",
+        "id": "08d360d60e091c36f6276bc4",
+        "source_id": "starlight-news",
+        "source_url": "https://revuestarlight.com/news/11036/",
+        "title": "舞台「遙かなるエルドラド」公演に関するお知らせ",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "15d9a96085ffc5649f84cfd237cdf486d1209b4fe746987805afb2e488adae15",
         "related_event_ids": [],
         "images": [
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_%E3%81%BD%E3%81%93%E3%83%94%E3%83%BC_%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E7%94%BB%E5%83%8F_w750%C3%97h511.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_%E3%81%BD%E3%81%93%E3%83%94%E3%83%BC_%E9%96%8B%E5%82%ACKV_0908.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_%E3%81%BD%E3%81%93%E3%83%94%E3%83%BC_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_0924_ol_02_01.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_%E3%81%BD%E3%81%93%E3%83%94%E3%83%BC_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_0924_ol_02_02.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_%E3%81%BD%E3%81%93%E3%83%94%E3%83%BC_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_0924_ol_02_03.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/%E3%81%BD%E3%81%93%E3%81%B4%E3%83%BC%E3%82%B0%E3%83%83%E3%82%BA%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_0924ol_%E4%BF%AE%E6%AD%A3-scaled.jpg",
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/05/05135041/IMG_0273.jpg",
             "alt": "",
             "kind": "merchandise"
           },
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2609_%E3%81%BD%E3%81%93%E3%83%94%E3%83%BC_%E5%88%B6%E9%99%90POP_0924.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/%E3%82%A2%E3%83%AC%E3%83%AB%E3%82%B2%E3%83%B3%E8%A1%A8-2.jpg",
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/05/05135551/90965e3a16a844670208dc80a9a693dd.png",
             "alt": "",
             "kind": "unknown"
           }
         ]
       },
       {
-        "id": "030c652ebeb59225f46c6206",
-        "source_id": "sweets-paradise",
-        "source_url": "https://www.sweets-paradise.jp/collaboration/puffyandsweety",
-        "title": "STPR初のテイクアウトスイーツ店が11月1日(日)池袋にオープン！",
-        "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "2bd8a142cdbd1b3aebc52834ff5ad1f297a43a25b79f670a806b0a4b44575f21",
+        "id": "0a734fcaa4e1c1c9cab90bbc",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6721",
+        "title": "虹ヶ咲学園購買部より「BIRTHDAYプレゼント2026 ～エマ・ヴェルデお祝いセット～」が登場！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "feea8d7d7be6ab77db7d47a10d26e5706aabd45ddeb4a28284213709af5cccff",
         "related_event_ids": [],
         "images": [
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/59399-828-f76fab6fde34d616102b433e46134186-1920x1080-1.jpg",
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/19/1002/zPNgIIxyeA4k0OYc/XwJfZM3viIDvCBDA.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "1b5c66a504aa1328335f55d3",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6715",
+        "title": "「ラブライブ！虹ヶ咲学園スクールアイドル同好会生放送 今夜は見逃せない！『えいがさき最終章』最新情報トキメキ発表会♪」アーカイブ配信のお知らせ！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "776ed66111626336a9e91a29c0a42a4ce2462e8aeaa390b90e2c9ba5d81274b5",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/Iu92bTNWBZU8tihB/b5GmQRKykD9ejRnO.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "27126eacd27fd1d0884913c0",
+        "source_id": "starlight-news",
+        "source_url": "https://revuestarlight.com/news/11223/",
+        "title": "「少女☆歌劇 レヴュースタァライト」9周年記念！アニメイト池袋本店衣裳展・衣裳展開催記念フェアの開催決定！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "4acdf4381385cf1b3978884446dceb6d912929812a0f4afb9275ac90a5563d60",
+        "related_event_ids": [],
+        "images": []
+      },
+      {
+        "id": "352f82cb3f7861f691e4659c",
+        "source_id": "starlight-news",
+        "source_url": "https://revuestarlight.com/news/10889/",
+        "title": "舞台「遙かなるエルドラド」メインビジュアル＆キャスト全身ビジュアル公開！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "f44b875474267d22af8985292f488897d0253b5d253cc63300fa86d8e4932a42",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/03/11142337/251d13c3fa7326162aa8dc3d63cf3a61.jpg",
+            "alt": "",
+            "kind": "visual"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/01/29165801/8d07200227366c24eaf7804fff961626.png",
             "alt": "",
             "kind": "unknown"
           },
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_Puffy-Sweety_%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%82%B5%E3%83%A0%E3%83%8Dt41022_KV01-scaled.jpg",
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/01/29190716/fadcd7b8ea6524913a7e5764ac183aeb.png",
             "alt": "",
             "kind": "unknown"
           },
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/00017A-scaled.jpg",
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/01/29190733/b8d57b63a7870ff58fa58f7a8c4103e5.png",
             "alt": "",
             "kind": "unknown"
           },
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/00001A-scaled.jpg",
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/01/30181549/2a49df7755b69a52a1c9aa93d9b6fca3.png",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "3e4377f79d9b13a6cabd2406",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6700",
+        "title": "ムービックより 映画『ラブライブ！虹ヶ咲学園スクールアイドル同好会 完結編 最終章』公開記念 Sweet Collectionフェア 開催と描き下ろし新商品のお知らせ",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "d6bd4407040ea7a186e42e8b622e3fdf0bfdc25cdacc4305048990faee3813ca",
+        "related_event_ids": [
+          "nijigasaki-sweet-collection-2027"
+        ],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/15/1002/470nuEz0SPtb03Jp/4764ruDfBlx9tZmR.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "460293924341f571b3abae18",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6703",
+        "title": "『ラブライブ！虹ヶ咲学園スクールアイドル同好会』POP UP STORE がロフト2 店舗で開催決定！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "6e993ff1351c8a9aeba5718708b8325c22570656c37e01a9fde242b2608f9bd9",
+        "related_event_ids": [
+          "nijigasaki-loft-2026"
+        ],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/15/1002/Hhk7MTBaF0EYEinT/ayqcTunH03zNIgTw.jpeg",
             "alt": "",
             "kind": "unknown"
           },
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/00025Are_%E3%82%AB%E3%83%83%E3%83%97%E6%96%87%E5%AD%97%E3%81%82%E3%82%8A-scaled.jpg",
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/15/1002/Cv4N4nrNGHWA158P/dJtkaYHzSUC8goOh.jpeg",
             "alt": "",
-            "kind": "menu"
-          },
+            "kind": "merchandise"
+          }
+        ]
+      },
+      {
+        "id": "4beca03010c31eb04183ff05",
+        "source_id": "starlight-news",
+        "source_url": "https://revuestarlight.com/news/11241/",
+        "title": "「九九組の日2026」公開情報まとめ",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "d018a6a60f0a1222145e04e0e0c15ee74b412bb834f86a572f66b0ebdbade2b9",
+        "related_event_ids": [],
+        "images": [
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_Puffy-Sweety_%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E7%94%A8%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89_Bubble-Waffle-menu-scaled.jpg",
-            "alt": "",
-            "kind": "menu"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_Puffy-Sweety_%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E7%94%A8%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%89_Drink-menu-scaled.jpg",
-            "alt": "",
-            "kind": "menu"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_Puffy-Sweety_%E9%A3%B2%E9%A3%9F%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E7%89%B9%E5%85%B81022t2.jpg",
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09145914/cac9d394e16f348edee510cf7c64b029.jpg",
             "alt": "",
             "kind": "unknown"
           },
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_Puffy-Sweety_%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E7%94%A8%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%891027_goods02_1027%E4%BF%AE%E6%AD%A3-scaled.jpg",
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09150058/7c4cc91c27f3f509850925407036d1d8.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09150056/fd4eed6f82f1d438ded57500473be8f9.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09152719/a2ef55b7ead7e0ef98165c2dd1f10961.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09153545/4f7a96bc64ef17c04e07ee3a7fd5fc00.png",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09150213/295a19e61e3bdf5fc6c28190c02178ef.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09150350/596b8c3004b83655a78834dd6939171a.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09150514/bcb3cd34c51b79a937880c1dbba44348.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09151517/5718e10aafeb649e8cb3522faae66de9.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09151835/c680d158ca9c9c65c12910b73b29e8e5.png",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09154138/83903338b3b97274c37859c46dd767f7.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09154313/10854406097af477d73121f7b6b0c522.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09154341/279afc5c25162d7190346eea5c2d0d98.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09154526/02c0c525d77c7d1f400aa8b5e26407d0.jpg",
             "alt": "",
             "kind": "merchandise"
           },
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_Puffy-Sweety_%E3%82%B0%E3%83%83%E3%82%BA%E8%B3%BC%E5%85%A5%E7%89%B9%E5%85%B81021t1.jpg",
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09154716/a7efee0c70c4e284421c4745c92f3855.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09154704/69b2307f4c90aca408a05fbfd36d404a.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09191003/4ba36d7547c94888df6ecc2813f6530a.jpg",
+            "alt": "",
+            "kind": "bonus"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09191024/d857c667d20fad5ff60f55412abaabe5.jpg",
+            "alt": "",
+            "kind": "bonus"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09191055/097a820782f9590bb42ea97301e24d12.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09191204/e3a67cc0ade1e51665c7d36ccb954833.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09191507/9f2ac1bca621197afa45f95899f15569.png",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09191543/fe93631d0ad434d33fcf0e65b9a8167a.png",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09194936/5a0a5c5f51ef63d0f46bd2596bf4b67d.png",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09191742/383ff0a5e1b81875dc13991c86943e9d.png",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/09/09191946/dc3cf692fc6cb0c6e8c17acabb99e27d.jpg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "52bd179ab4c4166f1fa89f5f",
+        "source_id": "starlight-news",
+        "source_url": "https://revuestarlight.com/news/11142/",
+        "title": "劇場版スタァライト リバイバル上映決定！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "2e6700e2d40f3e8254cdca62cff959405c6bc0de73f10f84a553400b92956986",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/08/24163820/edeba14d3215ff9a4577f32f3eab96e9.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/08/24163625/ef1b1b382f6ea2b2cabc483aa5c10298.jpg",
+            "alt": "",
+            "kind": "bonus"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/08/24163916/bbab1fc7976794b69d46be206f662d9a.jpg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "63e9f9ae966e1ff95609391c",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6696",
+        "title": "ラブライブ！ シリーズ オフィシャルカードゲーム モーリーファンタジー・PALO限定プライズ＆カプセルトイが登場！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "7051ff02d4ad77be03071904fe51ab3eb681bfe4783f0bf49d6526f27f9ceb9e",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/14/1002/HZeqhK3sg3SXRIW5/yTiXopm93MqeUit2.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/14/1002/FzIFWIId6pJxGFni/z4Wg96HDye33dBBd.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/14/1002/jWNjisvLVeeaUfQ2/Upq4jlDIDbxadSw7.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/14/1002/WHgEQXtJQseV97eM/jr3BXtVJsHZcj0gj.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "6742ea1e9447868ab462ab22",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6692",
+        "title": "「THEキャラCAFE HEPナビオ店×ラブライブ！シリーズ」開催決定！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "a1961aa27664794630efceb91dd94ed7a64a46ff35239a27ea72d92b639df841",
+        "related_event_ids": [
+          "lovelive-hep-navio-2026"
+        ],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/09/1002/GK3AgAlpsasz7DKM/fmNiUKzayY4InVz5.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          }
+        ]
+      },
+      {
+        "id": "6f5ca7efb431436f4fcabb0d",
+        "source_id": "starlight-news",
+        "source_url": "https://revuestarlight.com/news/11008/",
+        "title": "スタァライトプロジェクト9周年生放送 最新情報まとめ",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "4f83587bb073f107fa94905263ffbd65d01ecee07a8b24fd2b683533db6d725e",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30114740/41e9b38172576e4a8c30bf56f6cd7553.png",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30114755/ac3cdb9511cc5f8131477a11101e1a65.png",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30114911/7cfd3bddb780366ea4a9f6e9b785b388.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30115416/6ab304e01b94b8a301c72db46d7aad1e.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30115753/5eaacfc825df69ca3fee41e7f0412c75.png",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30120327/3a6b9e3b26a8b1a90535d5f01b76421d.png",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30121007/6297a4b5a44295703383f3f2250f94d3.png",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30121550/2a9c5f896be2a9f6720a7ae7662ea6d1.png",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30122612/a498a68502fd3a1c477cdcdb0b59809b.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30122638/b1695f9798dc5827773bc338dacc4d0a.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30122857/cdc3621435ba8f8a66dec3e1e0998c18.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30123124/6c46984411c04d34949ab6b915c81b0e.png",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30123243/d4b81454703d78f52c97b9fb45cb5a45.png",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30123405/1854aecfe81bdf60f19f6a5e975fcaa9.png",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/30123520/531944ca3ab371569176a53c3eba174c.png",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "7d964e83e3e7afa86ea8676e",
+        "source_id": "starlight-news",
+        "source_url": "https://revuestarlight.com/news/10964/",
+        "title": "舞台「遙かなるエルドラド」新規描き下ろしイラスト初公開＆プロジェクト9周年記念生放送配信決定！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "26b7f02354b2396f7938b151108bc155d50deea75a39f6ae539cb7c8f1074aab",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/04/01130450/9ec163c14793f8cec78492b46246e87a.png",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "9a8926a0be1bd25556e671a8",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6712",
+        "title": "アルマビアンカより「『ラブライブ！虹ヶ咲学園スクールアイドル同好会』描き下ろし スクフェス2オリジナル衣装ver.一撃コレクション」発売決定のお知らせ！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "9cf361e31d262d58d166c751b16a509f1f9973011e5759e074b3f3d93f897545",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/SlMf76XAcV1MrIiW/Bw5J5CpvUrPeiAgI.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/wWaFtCO3iFWNtsAL/FpOcJSdnMUZbD1qE.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/iHLgL0IakInoY7i4/yxxDOmXUfXZOYWJn.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/SjNlqa4FfG83vrmM/RTQ7sz8MfEXyi9Fg.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "9b8ea6b59ec88f7868880520",
+        "source_id": "starlight-news",
+        "source_url": "https://revuestarlight.com/news/11055/",
+        "title": "劇場版 スタァライト 舞台挨拶付き上映＆来場者特典情報公開！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "008399a80fbffaa5b35377dae544fb6cc51e223ae345203b5e952a749f976b5d",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/05/29145710/0a9d61c65e0817e739c3a7a87c9ec7f4.jpg",
             "alt": "",
             "kind": "bonus"
           }
         ]
       },
       {
-        "id": "0383612309af77538b460449",
-        "source_id": "sweets-paradise",
-        "source_url": "https://www.sweets-paradise.jp/collaboration/nameko",
-        "title": "なめこ栽培キット×SWEETS PARADISEの開催が決定！",
-        "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "e9052b40047531cadcbafda6aa3b3cf2f59224e7c8829fa75c7c16f57277065c",
+        "id": "a1f3cfebfcf4fac0832daee9",
+        "source_id": "starlight-news",
+        "source_url": "https://revuestarlight.com/news/10970/",
+        "title": "舞台「遙かなるエルドラド」 見切れ席販売決定！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "0b62dfeda40c0c01910817a7d2b1e77a0aafa81443280717c5ec71e4b0c8eadc",
         "related_event_ids": [],
+        "images": []
+      },
+      {
+        "id": "b0b1dd28461a3857a1fb917a",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+        "title": "ラブライブ！シリーズ オフィシャルカードゲーム×GiGO詳細更新のお知らせ",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "e501bf3ffb3c6b0c31d271764cfeaa47e86e478426c32896b26fb8447ebf031e",
+        "related_event_ids": [
+          "lovelive-gigo-card-phase6-2026"
+        ],
         "images": [
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%81%AA%E3%82%81%E3%81%93_%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E7%94%BB%E5%83%8F_w750%C3%97h511-scaled.jpg",
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/AgYBR3xgMu2i6q0X/xdwNdjf1lIFDJkZy.jpeg",
             "alt": "",
             "kind": "unknown"
           },
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%81%AA%E3%82%81%E3%81%93_%E3%82%AD%E3%83%BC%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%91%E3%83%8D%E3%83%ABA1%E6%A8%AA-scaled.jpg",
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/xHCDdhfyVeIcJRbT/6f8FgVcI47ZrGXGL.jpeg",
             "alt": "",
             "kind": "unknown"
           },
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%81%AA%E3%82%81%E3%81%93_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1027_01-scaled.jpg",
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/g3Rlwuhckm8HMOvd/5YVRojoVYYgwRqrO.jpeg",
             "alt": "",
             "kind": "unknown"
           },
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%81%AA%E3%82%81%E3%81%93_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1027_02-scaled.jpg",
-            "alt": "",
-            "kind": "menu"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%81%AA%E3%82%81%E3%81%93_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1027_03-scaled.jpg",
-            "alt": "",
-            "kind": "menu"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%81%AA%E3%82%81%E3%81%93_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1027_%E3%83%86%E3%82%A4%E3%82%AF%E3%82%A2%E3%82%A6%E3%83%88-scaled.jpg",
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/iEkZ6kymUkfqYy3E/i4YJAfh04QWhUzhk.jpeg",
             "alt": "",
             "kind": "unknown"
           },
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%81%AA%E3%82%81%E3%81%93_%E3%82%B0%E3%83%83%E3%82%BAPOP_%E7%9B%A3%E4%BF%AE1012-1.jpg",
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/lazeFrnKSCfrZ1ZJ/2AmFYI0BiSSBktIV.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/SxsOCxm49mXe0M9L/Uo9lKr1DsK9Rua99.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/RK59cN076Ve6rtUm/5Pak1nDLU6SVNK6e.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/v7H0TrHxThmLiq3k/qDcEWaTYcdSJ0fq9.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/jHqD4VEuLvwebLWF/fUFJUrBMMgMItjhk.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/UvEGWrBZBHUjyb6r/dh7Nxyg2uf1tCZaL.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/KddR5gzZUQMtQxQf/ZgALV6WzHwtBGEyd.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/p1FHR1PyGN8ow1xC/5yIYjZ6IEjvgmJsd.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/QRsy3NSQsXfjmDLN/MF1t9MimsnJjPrSm.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/MKaRlQy0eyGS3DBJ/3vaEqcfuZloZKGr0.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/wZZKmWAAssJymwy7/UoayPlOY9Amng8wm.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/cY5Ys6Hfda1WZwam/mKFuFMKfjpEnpiUu.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/q6oZC44y6VdqZZGj/grwZPbAYsAsZ7ZHn.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/krviwMNBFWBAh6P2/ZFttFfWWlScxgy7N.jpeg",
             "alt": "",
             "kind": "merchandise"
           },
           {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%81%AA%E3%82%81%E3%81%93_%E5%88%B6%E9%99%90POP_%E7%9B%A3%E4%BF%AE.jpg",
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/z6S8w2SFyLJMDbi5/2DOvlogMmqhtCrve.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/0hrOmvciISe1wpYW/UQ192WFBJshEwDXl.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/KEjNOt662dG7QEcj/0WfXppyyAuUldd8C.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/EWcsw8gtFLt9LXlK/Z3UgcYan1Roog713.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/yF3TfEDsgkgwvebe/JvuDP7KAqqFLBBF1.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/NYUlS3ETKXDt5hDF/hbu1ENUho9ozQWxB.jpeg",
             "alt": "",
             "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/ifnzMxmnM6dNMqyw/rz9D36HUGsOxEePs.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/65OOvY3mpeuohi4a/DuLlVWQy2XRekUqb.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "b2f9cf322c26af286926d3b7",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6659",
+        "title": "ラブライブ！シリーズ×GiGOコラボカフェ秋葉原3号館10周年コラボカフェ開催のお知らせ！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "8c284ebe117b8d447a970da4f4e78aee2964bf6f1023403614ecc75de64dde66",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/09/28/1002/NjDNMfvTcxgrDLZL/vY6nPzfXjwyOQ59u.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "b4ecb38087da7c5d83354e73",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6690",
+        "title": "虹ヶ咲学園キッチンカー7周年記念ドリンク販売のお知らせ",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "f25b87a3aa1ea1728481d4465d6fed6a63237b8a4633fb7b0ca4c8c651fefb4c",
+        "related_event_ids": [
+          "nijigasaki-kitchen-7th-2026"
+        ],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/09/1002/aWEwRvT6ljb082jN/Bm78OcTtARr2bwgC.jpeg",
+            "alt": "",
+            "kind": "menu"
+          }
+        ]
+      },
+      {
+        "id": "d619118620b989d8d6da2979",
+        "source_id": "starlight-news",
+        "source_url": "https://revuestarlight.com/news/11070/",
+        "title": "スタァライト九九組 オーケストラライブ開催決定！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "790a40f6a741824a0d91c07c95d9cef8c563c79b83742feb39aed2853455e492",
+        "related_event_ids": [],
+        "images": []
+      },
+      {
+        "id": "de78d60fbbe4f9ed2b568e39",
+        "source_id": "starlight-news",
+        "source_url": "https://revuestarlight.com/news/11122/",
+        "title": "スペシャルライブ \"Starry Horizon\" Blu-ray発売記念！パネル展・抽選会の開催決定！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "bf48f21719173b1ad7859a95f105884a2d3e50b13353df0362f9e8b248d1434c",
+        "related_event_ids": [],
+        "images": []
+      },
+      {
+        "id": "ec57368a94379c0f34918843",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6717",
+        "title": "プリントスイーツの「プリロール」より、「ラブライブ！虹ヶ咲学園スクールアイドル同好会」ミア・テイラーバースデーケーキ＆マカロン＆カップケーキの発売が決定！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "5676dd2cd4f462aa39aef0c07bd141dc4fb2382ea303208109d35deea7ecbb4f",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/oj7BqoCICkapkfgo/idjJwosC8KwT9zKS.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/IFeY4Lr6b4wMXoIt/jV0cZiFSldNMMiIJ.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/fWb0R3Ewo3Ottwnn/KsEKSTtBn3FKucTC.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/WRMcEBqVQoNx9WcC/ccSdlv1ykG2erbHc.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "ed9cae066e22396cff62e16c",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6718",
+        "title": "プリントスイーツの「プリロール」より、「ラブライブ！虹ヶ咲学園スクールアイドル同好会」近江彼方バースデーケーキ＆マカロン＆カップケーキの発売が決定！",
+        "first_seen_at": "2026-10-27T22:24:46.418Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:24:46.418Z",
+        "content_hash": "b72b5908eaef74d7c78e16421a02b7410ffd0bc1111d23999c0803132846e416",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/g1rdnXFDX2YqIDSU/25yjbjyNB9rpDfO1.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/l3QFfI2UZQ021fTr/cyc4Zr9QFG71yuY3.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/B7fg6eKIiUJlKgTk/LEIUTvKxkKAMaHpT.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/F1jj90zMUttixsTs/qHewWrZFy9clITxn.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "3343638c4bc492da6585902d",
+        "source_id": "bushiroad-creative",
+        "source_url": "https://bushiroad-creative.com/topics/104468/",
+        "title": "BanG Dream! × アトレ秋葉原 POP UP STORE 2026",
+        "first_seen_at": "2026-10-27T22:20:00.827Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
+        "changed_at": "2026-10-27T22:20:00.827Z",
+        "content_hash": "25c8e656efd8e6095aea556d7dd1f9f7ccede953a087ebfa9449c7b7007c5beb",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/13140407/BanDre_banner_BanDre_1920x1080-1-1024x576.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185107/01_BD_TR_MM_Tinbadge_sample_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/09192742/02_BD_TR_MM_MetallicPostcard_sample_ari-1.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185128/03_BD_MM_Acst_sample_set_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185137/04_BD_MM_2renAckey_sample_set_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185151/05_BD_MM_Clearfile_sample_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185155/06_BD_TR_ON_Tinbadge_vol1_sample_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185202/07_BD_TR_ON_Tinbadge_vol2_sample_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185209/08_BD_TR_ON_MetallicPostcard_sample_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185221/09_BD_ON_VinylPouch_set_sample_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185230/10_BD_ON_CarabinerAckey_sample_set_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185309/11_BD_ON_-Acst_MG_sample_set_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185248/11_BD_ON_-Acst_AM_sample_set_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185330/11_BD_ON_-Acst_MM_sample_set_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185318/11_BD_ON_-Acst_MS_sample_set_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185341/11_BD_ON_-Acst_IDR_sample_set_ari-1.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185405/12_BD_ON_-AuroraAckey_MG_sample_set_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185409/12_BD_ON_-AuroraAckey_AM_sample_set_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185413/12_BD_ON_-AuroraAckey_MM_sample_set_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185420/12_BD_ON_-AuroraAckey_MS_sample_set_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185424/12_BD_ON_-AuroraAckey_IDR_sample_set_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185854/13_BD_TR_ON_TinbadgeVol1_sample_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185902/14_BD_TR_ON_TinbadgeVol2_sample_ari-1.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185458/15_BD_ON_Meshtotebag_sample_ari-1.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/31185451/16_BD_ON_Clearfileset_sample_ari.jpg",
+            "alt": "",
+            "kind": "merchandise"
           }
         ]
       },
@@ -7653,7 +8437,7 @@
         "source_url": "https://bushiroad-creative.com/topics/106228/",
         "title": "Ave Mujica 7th LIVE「Virtus」開催記念 BanG Dream! STORE 連動キャンペーン",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "ffc67afbd64b78595590b8594c6d3aa7aba275e709269b13506ee696be4bd38e",
         "related_event_ids": [
@@ -7669,338 +8453,6 @@
             "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/19125228/BDP_AM_virtus_store_oshina_B2-1024x1447.jpg",
             "alt": "",
             "kind": "merchandise"
-          }
-        ]
-      },
-      {
-        "id": "06737d8c419cdbbd27a65827",
-        "source_id": "bushiroad-creative",
-        "source_url": "https://bushiroad-creative.com/topics/106001/",
-        "title": "恋する暴君 Collaboration Cafe",
-        "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "1111f6fbe2b5e6b9004467b6efabaea32e7b07f1ade105a4b3d3a15270531d69",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/13152705/KV_emocafe_yoko-1024x576.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/13150151/koi_acrylic-stand_3_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/13150158/koi_bigholo-cb_4_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/13150206/koi_tr-photocard_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/13150211/koi_clearfile_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/13150217/koi_Acrylic-block_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/13150224/koi_Acrylic-parts_3_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/13150233/koi_minishikishi_3_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/13150241/koi_acrylic-stand_1_koma_4_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/13150313/koi_TRcb_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/13150319/koi_acrylic-coaster_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/13150327/koi_acrylic-keyring_koma_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/21181009/koisuru_pop_menu_05_3-1024x723.jpg",
-            "alt": "",
-            "kind": "menu"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/21185527/koisuru_pop_present_06-1024x723.jpg",
-            "alt": "",
-            "kind": "bonus"
-          }
-        ]
-      },
-      {
-        "id": "093b3714f9a83fb3edfc364b",
-        "source_id": "sweets-paradise",
-        "source_url": "https://www.sweets-paradise.jp/collaboration/tougenanki2",
-        "title": "TVアニメ『桃源暗鬼』×SWEETS PARADISE Vol.2の開催が決定！",
-        "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "da157b6e05ad694826ed39d7eb5a60ce4e5d8dd94d14410c57b9829ede46f080",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2608_%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC_%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E7%94%BB%E5%83%8F_w750%C3%97h511.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2608_%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC_KV_%E7%AD%89%E8%BA%AB_FIX.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2026-09-30-124829.png",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1007_2.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1007_3.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1007_4.jpg",
-            "alt": "",
-            "kind": "menu"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC_%E3%82%B0%E3%83%83%E3%82%BAPOP_1013_2.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC_%E3%82%B0%E3%83%83%E3%82%BAPOP_1013_1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC_%E3%82%B0%E3%83%83%E3%82%BA%E8%B3%BC%E5%85%A5%E7%89%B9%E5%85%B8POP_1007.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2609_%E6%A1%83%E6%BA%90%E6%9A%97%E9%AC%BC_%E3%82%B0%E3%83%83%E3%82%BA%E8%B3%BC%E5%85%A5%E5%88%B6%E9%99%90POP-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          }
-        ]
-      },
-      {
-        "id": "219d05b9584c16e18a40926b",
-        "source_id": "bushiroad-creative",
-        "source_url": "https://bushiroad-creative.com/topics/103175/",
-        "title": "アニメ「ソードアート・オンライン」祝・結婚記念日 POP UP STORE in Annivroad",
-        "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "1ad762b204e008471d18cef7465e941aa0e51b78a40e1773606ef83f9b17dc12",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/04133239/An_SAO_banner_1920%C3%971080_MAIN-1-1024x576.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/04133255/1_SAO_wedding_dioramaacst_sample_all_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/04133306/2_SAO_wedding_bigbromide_sample_all_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/04133320/3_SAO_wedding_sc_canbadgeset_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04133331/4_SAO_wedding_clearfileset_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04133340/5_SAO_wedding_A4charafinemat_sample_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04133348/6_SAO_wedding_TRticketcard_sample_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04133356/7_SAO_wedding_ruskcan_sample_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04133437/8_SAO_wedding_mug_sample_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04133536/8_SAO_wedding_mug_sample_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/03164925/SAO_postcard_tokuten_ari-1.jpg",
-            "alt": "",
-            "kind": "bonus"
-          }
-        ]
-      },
-      {
-        "id": "50bfcb5113322b986f6aba6d",
-        "source_id": "bushiroad-creative",
-        "source_url": "https://bushiroad-creative.com/topics/103595/",
-        "title": "アオのハコ × GiGO キャンペーン",
-        "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "daf962731b3b576c69130871a9f95e6321c9b13d0fffb2813a0d66a94d399584",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113430/C1_aonohako_topbnr_PC-1024x576.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113035/01_aohako_Acst_set_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113052/02_aohako_CharmKeyring_sample_set_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113107/03_aohako_Clearfile_sample_1_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113124/04_aohako_Towel_sample_set_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113146/05_aohako_MiniCanvasArt_sample_set_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113209/06_aohako_TR_TinbadgeVol1_sample_1_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113223/07_aohako_TR_Sticker_sample_1_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113236/08_aohako_TR_AcrylCard_sample_1_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113254/09_aohako_TR_AcrylBlock_sample_1_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113313/10_aohako_DioramaAcst_sample_set_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113333/11_aonohako_Pouch_sample_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113348/12_aohako_TR_CharmMarker_sample_1_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113406/13_aohako_TR_TinbadgeVol2_sample_1_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04113524/P6_aonohako_goods_all.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/20103454/aonohako_GiGO_dioak_6_ari.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/20104009/aonohako_GiGO_big-badge_6_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04114029/aonohako_gigo_tokuten_photo_card_ari.jpg",
-            "alt": "",
-            "kind": "bonus"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04115036/T2_aonohako_topbnr_phone_2.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04115205/D2_aonohako_topobnr_phone_2.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04115426/aonohako_gigo_tokuten_coaster_ari.jpg",
-            "alt": "",
-            "kind": "bonus"
           }
         ]
       },
@@ -8128,7 +8580,7 @@
         "source_url": "https://bushiroad-creative.com/topics/104688/",
         "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 ニジガク☆ポリスフェア in ゲーマーズ",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "6c594edec532bcfb6495ddb3a6bf80c4678d1ad6ae9fd79dae5fad7c79e8aec0",
         "related_event_ids": [
@@ -8183,194 +8635,12 @@
         ]
       },
       {
-        "id": "7eb5ce0c480ab2655920eabc",
-        "source_id": "sweets-paradise",
-        "source_url": "https://www.sweets-paradise.jp/collaboration/stprcake1114_2026",
-        "title": "【STPR PARADISEアニバーサリーケーキ】とぅるりぷ - True&Lip「そあら」のアニバーサリーケーキの販売開始！",
-        "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "3dacee48af9e7d8198e575312df68df351789e9b48f28c2b4b5daf316c1efc60",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_STPR_BD%E5%91%8A%E7%9F%A5%E7%94%A8%E3%82%B5%E3%83%A0%E3%83%8D%E7%94%BB%E5%83%8F_w1920x1080px_1114%E3%81%9D%E3%81%82%E3%82%89-scaled.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_BD%E3%82%B1%E3%83%BC%E3%82%AD%E5%86%99%E7%9C%9F_800x800px_%E3%81%9D%E3%81%82%E3%82%89.jpg",
-            "alt": "",
-            "kind": "unknown"
-          }
-        ]
-      },
-      {
-        "id": "952eb58ed427daed2e289b2b",
-        "source_id": "bushiroad-creative",
-        "source_url": "https://bushiroad-creative.com/topics/105045/",
-        "title": "TVアニメ『勇者刑に処す 懲罰勇者9004隊刑務記録』 POP UP SHOP dress up collection ver.",
-        "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "df3150bbe6d08234c61d4dac832d297706f5f5524852de9e4e50a86ad88d4e0e",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/16220547/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%90%E3%83%8A%E3%83%BC-1024x576.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/16222614/yushakei_acst_4_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/17105115/yushakei_BIGacst_4_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/02171801/yushakei_badge_4_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/15105746/1_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/16222705/yushakei_AK_4_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/16222725/yushakei_pouch_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/02171753/yushakei_bookcover_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/02171743/yuusha_sticker_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/16222829/yushakei_bamensya_bromide_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/16222843/yushakei_shikakui_badge_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/02171817/yushakei_bcr_tokuten_holo_sheet_ari.jpg",
-            "alt": "",
-            "kind": "bonus"
-          }
-        ]
-      },
-      {
-        "id": "96458678cc84bc0688f35341",
-        "source_id": "sweets-paradise",
-        "source_url": "https://www.sweets-paradise.jp/collaboration/shinycolors",
-        "title": "『アイドルマスター シャイニーカラーズ』とのコラボカフェが開催決定！",
-        "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "3db44dae9a3cd9d0f0d3da0a054191160e0c7b141e777d8b2ddbcf184fca0b2d",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2608_%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9_%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E7%94%BB%E5%83%8F_w750%C3%97h511_%E3%82%B9%E3%82%A4%E3%83%91%E3%83%A9.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2608_%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9_%E7%AD%89%E8%BA%ABKV_%E5%91%8A%E7%9F%A5%E7%94%A8RGB.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2608_%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9_SDKV_%E5%91%8A%E7%9F%A5%E7%94%A8RGB.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2609_%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1027_01.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2609_%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1009_02.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2609_%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1009_03.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2609_%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9_%E3%82%B0%E3%83%83%E3%82%BAPOP_1009.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2609_%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9_%E8%B3%BC%E5%85%A5%E7%89%B9%E5%85%B8POP-scaled.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9_%E8%B3%BC%E5%85%A5%E5%88%B6%E9%99%90POP.jpg",
-            "alt": "",
-            "kind": "bonus"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC-%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%A9%E3%83%BC%E3%82%BA%E3%82%A2%E3%83%AC%E3%83%AB%E3%82%B2%E3%83%B3%E8%A1%A8-1.jpg",
-            "alt": "",
-            "kind": "unknown"
-          }
-        ]
-      },
-      {
-        "id": "9d1445bba913e896f947f891",
-        "source_id": "sweets-paradise",
-        "source_url": "https://www.sweets-paradise.jp/collaboration/izna",
-        "title": "izna 2nd Anniversary Cafe with SWEETS PARADISE開催！",
-        "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "fba4fb25e4d6f938165be4c3eb956879503d3e078b049d73fd4e952a20c0bbc4",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_izna_%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E7%94%BB%E5%83%8F_w750%C3%97h511-scaled.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2609_izna_KV_1001.jpg",
-            "alt": "",
-            "kind": "unknown"
-          }
-        ]
-      },
-      {
         "id": "a216c08c0bdd5b5a38f27d1b",
         "source_id": "bushiroad-creative",
         "source_url": "https://bushiroad-creative.com/topics/103670/",
         "title": "ラブライブ！シリーズ オフィシャルカードゲーム POP UP STORE～Royal Holiday～",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "3de0a6bce65ac44980a4b661086c24e54560c317249d12d51238984b73394f79",
         "related_event_ids": [],
@@ -8493,398 +8763,12 @@
         ]
       },
       {
-        "id": "a3bc892f4f6b819ed75c0fa1",
-        "source_id": "bushiroad-creative",
-        "source_url": "https://bushiroad-creative.com/topics/105358/",
-        "title": "283PRODUCTION POP UP SHOP ～笑顔、その永劫の光～",
-        "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "06050e228bf248d5e66658234b23680562b6eeeffb8f6bb8317b3b1e892abc3e",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/15115549/imas-_KV-web-%E7%B8%AE%E5%B0%8F-1-1024x723.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/21184415/imas_canvas_4_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/21184423/imas_canvas_4_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/22101300/imas_slideacky_4_ari-2-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/21184437/imas_clearfile_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/21184448/imas_clearcard_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/21184503/imas_clearcard_ari-1.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/21184512/imas_bromaid_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/21184531/shinemas_serihu_Acrylstand_4_set_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/22101249/shinemas_serihu_Acrylstand_4_set_ari-3.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/22110506/imas_tokuten_ari-1.jpg",
-            "alt": "",
-            "kind": "bonus"
-          }
-        ]
-      },
-      {
-        "id": "a587d4ef266c2de060508ec7",
-        "source_id": "sweets-paradise",
-        "source_url": "https://www.sweets-paradise.jp/collaboration/kusuriyanohitorigoto3",
-        "title": "アニメ『薬屋のひとりごと』とのコラボカフェ第3弾の開催が決定！",
-        "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "4118ad0f52efd37294a721c2c988b4eee15b49395dd0e9f2b4d0cdca0649b91d",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E8%96%AC%E5%B1%8B_%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E7%94%BB%E5%83%8F_w750%C3%97h511.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E8%96%AC%E5%B1%8B_KV_%E7%AD%89%E8%BA%AB_%E5%A3%AC%E6%B0%8F%E5%B7%AE%E6%9B%BF_1008_rgb.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E8%96%AC%E5%B1%8B_KV_SD_1015_rgb.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E8%96%AC%E5%B1%8B_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1016_2.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E8%96%AC%E5%B1%8B_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1016_3.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E8%96%AC%E5%B1%8B_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1016_4.jpg",
-            "alt": "",
-            "kind": "menu"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E8%96%AC%E5%B1%8B_%E3%82%B0%E3%83%83%E3%82%BAPOP_1019.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E8%96%AC%E5%B1%8B_%E3%82%B0%E3%83%83%E3%82%BA%E8%B3%BC%E5%85%A5%E7%89%B9%E5%85%B8POP_1016.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2609_%E8%96%AC%E5%B1%8B_%E3%82%B0%E3%83%83%E3%82%BA%E8%B3%BC%E5%85%A5%E5%88%B6%E9%99%90POP.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          }
-        ]
-      },
-      {
-        "id": "be553713d0ecdb7ecaf827f4",
-        "source_id": "bushiroad-creative",
-        "source_url": "https://bushiroad-creative.com/topics/104744/",
-        "title": "カードファイト!! ヴァンガード Divinez シリーズ完結記念POP UP STORE",
-        "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "0bc6dc008b4192dc5ee92f959c5fda1f5e4128f9153caf243d70520c45ad4a80",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210726/Animate_VG_banner_1920%C3%971080_MAIN-1024x576.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210825/VGD_acst_ari_set.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210836/vg_TRbadge_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210846/3_vang_HAKU_acrylkey_sample_set_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210858/4_vang_AkcardST_sample_05.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210911/5_vang_TRminiACblock_sample_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210916/6_vang_postcard_sample_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210923/VGDz_genshin_AkcardST_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210937/7_vang_acst_sample_set_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/09210946/8_vang_TRacrylkey_sample_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/14170137/261106-1123_cf-vanguard-divinez-PUS_MY-1-1024x723.jpg",
-            "alt": "",
-            "kind": "bonus"
-          }
-        ]
-      },
-      {
-        "id": "cb8c51456928715b64ade598",
-        "source_id": "sweets-paradise",
-        "source_url": "https://www.sweets-paradise.jp/collaboration/stprfamily_agf2026",
-        "title": "STPR PARADISE Collabo Cafe 2026の開催が決定！！",
-        "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "d87023af0c40a5a2731e8769b042f57860d2b86717a3e2f976f4debd6e9ba0e9",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_STPRAGF_%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E7%94%BB%E5%83%8F.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_AGF_allKV_FIX_CMYK_ol_1005%E4%BF%AE%E6%AD%A31008-01-1.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_STPRAGF_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A81020_01.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_STPRAGF_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A81027_02%E4%BF%AE%E6%AD%A3.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_STPRAGF_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A81020_03%E4%BF%AE%E6%AD%A3.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_STPRAGF_%E3%82%AF%E3%83%83%E3%82%AD%E3%83%BC%E3%82%B0%E3%83%83%E3%82%BAPOP1019.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          }
-        ]
-      },
-      {
-        "id": "d6271218179c14ca847f6cf5",
-        "source_id": "sweets-paradise",
-        "source_url": "https://www.sweets-paradise.jp/collaboration/mochiwasabi2",
-        "title": "『もちわさ日 Collaboration Cafe』の 開催が決定！",
-        "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "5f0ffcf3d7463290628dfac8e420367a3c596f953397f0b4ccab0c396709ddaf",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2609_%E3%82%82%E3%81%A1%E3%82%8F%E3%81%95%E6%97%A52_%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E7%94%BB%E5%83%8F_w750%C3%97h511.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2609_%E3%82%82%E3%81%A1%E3%82%8F%E3%81%95%E6%97%A52_KV_FIX-scaled.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%82%82%E3%81%A1%E3%82%8F%E3%81%95%E6%97%A52_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1022_01.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%82%82%E3%81%A1%E3%82%8F%E3%81%95%E6%97%A52_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1022_02.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%82%82%E3%81%A1%E3%82%8F%E3%81%95%E6%97%A52_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1022_03.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/S__266149955.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          }
-        ]
-      },
-      {
-        "id": "e88ad5bf429823074055b6f1",
-        "source_id": "bushiroad-creative",
-        "source_url": "https://bushiroad-creative.com/topics/104941/",
-        "title": "相羽あいなプロデュース たいようのせい POP UP SHOP 〜エイプリルフールから生まれた奇跡〜",
-        "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "a61497f2528eb9e1195113519e284b8cbd3771ff34a097a494443d1000c52de9",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/25125546/%E2%91%A0%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%90%E3%83%8A%E3%83%BC-2-1024x576.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/02172040/taiyou_no_sei_nui_keyholder_ari-2.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/18135333/aiba-aina_TR-ac-marker_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/18135343/aiba-aina_ac-stand_set_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/18135517/aiba-aina_big-bro_3_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/18135524/aiba-aina_sticker_set_2_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/18135529/aiba-aina_TRcan_2_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/18135536/aiba-aina_big-br_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/18135548/aiba-aina_wansyo_sample1_ari.jpg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/18135810/%E2%91%A4%E8%B3%BC%E5%85%A5%E7%89%B9%E5%85%B8%E7%94%BB%E5%83%8F%E9%80%8F%E3%81%8B%E3%81%97%E3%82%A2%E3%83%AA-1.jpg",
-            "alt": "",
-            "kind": "bonus"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/25210644/%E4%BF%AE%E6%AD%A3-1024x1448.jpg",
-            "alt": "",
-            "kind": "bonus"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/18135844/260916_aibaaina_berthday_Photoframe_A4pop-1024x724.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/14144058/HARTi-Photo-1024x576.jpg",
-            "alt": "",
-            "kind": "unknown"
-          }
-        ]
-      },
-      {
-        "id": "edd61b4232a4ef585c4c37de",
-        "source_id": "sweets-paradise",
-        "source_url": "https://www.sweets-paradise.jp/collaboration/prettychuu",
-        "title": "Pretty Chuuとのコラボレーションカフェ「プリチューレストラン♡ボナペティ」の 開催が決定！",
-        "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
-        "changed_at": "2026-10-27T21:57:21.961Z",
-        "content_hash": "bb399c791f32ae17aee41192f0f773476e9820815c1533fd61cd0c8dec8c82c7",
-        "related_event_ids": [],
-        "images": [
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_Pretty-Chuu_%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E7%94%BB%E5%83%8F_w750%C3%97h511-1.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/kv_fix_ol_1009_%E8%B5%A4%E8%A1%A3%E8%A3%85.jpg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/kv_fix_ol_1009_%E3%83%91%E3%82%B9%E3%83%86%E3%83%AB%E3%82%AB%E3%83%A9%E3%83%BC.jpg",
-            "alt": "",
-            "kind": "unknown"
-          }
-        ]
-      },
-      {
         "id": "fc5d725cc12f30d3100d6299",
         "source_id": "bushiroad-creative",
         "source_url": "https://bushiroad-creative.com/topics/104208/",
         "title": "少女☆歌劇 レヴュースタァライト 9周年記念フェア ～L’Étoile innocente～",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "2d35f5a4ba6935db99de37aefa6b8984713795fc4f6ecee32dcedd4640680de8",
         "related_event_ids": [
@@ -8964,7 +8848,7 @@
         "source_url": "https://bang-dream.com/news/2441/",
         "title": "映画ムジカ、アワーノーツにてアニメイト池袋本店北館1Fでの特別展示が決定！",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
         "changed_at": "2026-10-27T21:54:41.782Z",
         "content_hash": "cd30ab4049f12491af787a0c4cd005a99dc8d160ec5fa0844156a8090ec66181",
         "related_event_ids": [
@@ -8978,7 +8862,7 @@
         "source_url": "https://www.sweets-paradise.jp/collaboration/ournotes",
         "title": "『BanG Dream! Our Notes（バンドリ！アワーノーツ）』とのコラボカフェ開催決定！！",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-27T22:04:24.002Z",
+        "last_seen_at": "2026-10-27T22:24:46.418Z",
         "changed_at": "2026-10-27T21:54:41.782Z",
         "content_hash": "6db05d3634508b5dee4f0ea45585e36a19f566262b125390f931e164da416d9f",
         "related_event_ids": [

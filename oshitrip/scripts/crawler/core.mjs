@@ -40,6 +40,18 @@ export const observationSchema = z.object({
     .default([]),
 });
 function articleHtml(html, sourceUrl) {
+  if (new URL(sourceUrl).hostname === "revuestarlight.com" && /^\/news\/\d+\/$/.test(new URL(sourceUrl).pathname)) {
+    const title = html.match(/<h1\b[^>]*class=["'][^"']*\bttl\b[^"']*["'][^>]*>([^]*?)<\/h1>/i)?.[1];
+    const start = /<div\b[^>]*class=["'][^"']*news-Detail_Contents[^"']*["'][^>]*>/i.exec(html);
+    if (!title || !start) throw new Error("少女歌剧正文结构变化，保留原资料");
+    const body = html.slice(start.index + start[0].length);
+    let depth = 1;
+    for (const tag of body.matchAll(/<\/?div\b[^>]*>/gi)) {
+      depth += /^<\//.test(tag[0]) ? -1 : 1;
+      if (depth === 0) return `<h1>${title}</h1>${body.slice(0, tag.index)}`;
+    }
+    throw new Error("少女歌剧正文结束标记缺失");
+  }
   if (new URL(sourceUrl).hostname === "bushiroad-creative.com" && /^\/topics\/\d+\/$/.test(new URL(sourceUrl).pathname)) {
     const title = html.match(/<h1\b[^>]*class=["'][^"']*p-block-b-b__title[^"']*["'][^>]*>([^]*?)<\/h1>/i)?.[1];
     const article = html.match(/<article\b[^>]*class=["'][^"']*c-post[^"']*["'][^>]*>([^]*?)<\/article>/i)?.[1];
@@ -177,7 +189,7 @@ export function extractObservation(html, url, kind = "release-source") {
     "";
   if (
     !title ||
-    text.length < 120 ||
+    text.length < (new URL(url).hostname === "revuestarlight.com" ? 40 : 120) ||
     /captcha|access denied|verify you are human/i.test(title)
   )
     throw new Error("页面结构不匹配或访问受限；保留原数据。");
@@ -275,9 +287,11 @@ export function allowedUrl(value, source) {
     return false;
   }
 }
-export function discoverLinks(html, source) {
-  const urls = [];
-  for (const m of html.matchAll(/href\s*=\s*["']([^"']+)["']/gi)) {
+/** @type {(link: {url: string, title: string}) => boolean} */
+const acceptEveryLink = () => true;
+export function discoverLinks(html, source, acceptLink = acceptEveryLink) {
+  const links = new Map();
+  for (const m of html.matchAll(/<a\b[^>]*href\s*=\s*["']([^"']+)["'][^>]*>([^]*?)<\/a>/gi)) {
     try {
       const u = new URL(m[1], source.index_url);
       if (
@@ -286,13 +300,17 @@ export function discoverLinks(html, source) {
           (source.discovery_patterns || []).some((p) =>
             new RegExp(p).test(u.pathname),
           ))
-      )
-        urls.push(u.href);
+      ) {
+        const title = textFromHtml(m[2]) || textFromHtml([...m[2].matchAll(/\balt=["']([^"']*)["']/gi)].map(a => a[1]).join(' '));
+        const titles = links.get(u.href) || [];
+        if (title) titles.push(title);
+        links.set(u.href, titles);
+      }
     } catch {
       /* Ignore non-URL links. */
     }
   }
-  return [...new Set(urls)];
+  return [...links].filter(([url, titles]) => !titles.length || titles.some(title => acceptLink({ url, title }))).map(([url]) => url);
 }
 // Fail closed when robots is unavailable; longest matching rule wins, allow wins ties.
 export function robotsAllows(text, path, agent = "oshitripbot") {
@@ -354,7 +372,7 @@ export async function fetchLimited(
     },
   });
   if (!response.ok)
-    throw new Error(`HTTP ${response.status}；不跟随重定向或绕过限制。`);
+    throw Object.assign(new Error(`HTTP ${response.status}；不跟随重定向或绕过限制。`), { httpStatus: response.status });
   if (
     content === "html" &&
     !response.headers.get("content-type")?.includes("text/html")
@@ -386,6 +404,7 @@ export async function crawlSource(
     pause = (ms) => new Promise((r) => setTimeout(r, ms)),
     limit = 20,
     imageReviewer,
+    acceptDiscoveredLink = acceptEveryLink,
   } = {},
 ) {
   if (
@@ -400,6 +419,7 @@ export async function crawlSource(
   const observations = [],
     errors = [];
   let robots;
+  let robotsStatus = "rules";
   try {
     robots = await fetchLimited(`${source.origin}/robots.txt`, {
       fetcher,
@@ -409,7 +429,12 @@ export async function crawlSource(
     if (!/^\s*user-agent\s*:/im.test(robots))
       throw new Error("无法识别 robots 规则");
   } catch (e) {
-    return {
+    // RFC 9309 §2.3.1.3 distinguishes an unavailable robots resource from
+    // a forbidden article. Only explicitly configured sources opt into this.
+    if (source.public_fetch_enabled === true && [401, 403, 404, 410].includes(e.httpStatus) && source.robots_unavailable_statuses?.includes(e.httpStatus)) {
+      robots = "User-agent: *\n";
+      robotsStatus = `unavailable-${e.httpStatus}`;
+    } else return {
       status: "blocked",
       observations,
       errors: [`robots 核实失败：${e.message}`],
@@ -429,7 +454,7 @@ export async function crawlSource(
     try {
       const html = await read(source.index_url);
       // New announcements must not be starved by a long list of fixed seed URLs.
-      urls = [...discoverLinks(html, source), ...urls];
+      urls = [...discoverLinks(html, source, acceptDiscoveredLink), ...urls];
     } catch (e) {
       errors.push(`官方目录：${e.message}`);
     }
@@ -457,5 +482,5 @@ export async function crawlSource(
       errors.push(`${url}：${e.message}`);
     }
   }
-  return { status: errors.length ? "failed" : "success", observations, errors };
+  return { status: errors.length ? "failed" : "success", observations, errors, robots_status: robotsStatus };
 }

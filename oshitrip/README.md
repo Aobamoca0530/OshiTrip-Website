@@ -33,7 +33,15 @@ Windows 持久缓存为 `%LOCALAPPDATA%\OshiTrip\data\public-v2.json`。断网�
 
 `.github/workflows/public-data.yml` 每天北京时间 09:17 运行，也可在 Actions 手动运行。它不依赖本机开机、Supabase 或 AI 密钥。流程为 `crawl:public → data:publish → data:check → typecheck → test → 提交 main`；只有全部校验通过才推送。机器人提交不会再触发普通 push CI，因此工作流内已执行校验。
 
-首批来源为 BanG Dream! 公告、Bushiroad Creative、SWEETS PARADISE，每个来源每轮最多 12 篇，页面请求至少间隔 2 秒，最新发现链接优先。遵守 robots，遇到 403、429、重定向或正文结构变化保留旧资料；单个来源失败不删除其他来源内容，全体失败不发布。每日最多保留最近变更的 120 条公告，不能保证覆盖全部新活动。
+来源为 BanG Dream! 公告、虹咲官网新闻、少女歌剧官网新闻、Bushiroad Creative、SWEETS PARADISE，每个来源每轮最多 12 篇，页面请求至少间隔 2 秒，最新发现链接优先。新闻页面本身返回 403、429、重定向或正文结构变化时保留旧资料；单个来源失败不删除其他来源内容，全体失败不发布。每日最多保留最近变更的 120 条公告，不能保证覆盖全部新活动。
+
+虹咲新闻页已实测返回 200，而其 `/robots.txt` 返回 403。该来源显式配置 `robots_unavailable_statuses: [403, 404]`，按 [RFC 9309 §2.3.1.3](https://www.rfc-editor.org/rfc/rfc9309.html#section-2.3.1.3) 将 robots 资源不可用与新闻页不可访问区分处理，报告记录实际状态；robots 规则存在时遵守规则，429、5xx、超时仍停止，新闻页自身的 403 不重试或绕过。其他来源默认保持原来的严格行为。
+
+“虹咲公式X”链接为 `https://x.com/Nijigaku_movie`，用于打开官方账号；当前没有可用的帖子采集接口，不宣称自动同步 X。两个新官网无需 X 登录或 AI 密钥即可采集。
+
+**企划白名单**：Bushiroad Creative、SWEETS PARADISE 只保留公告标题命中 `scripts/crawler/project-keywords.json` 的内容。目前包含 BanG Dream! 及旗下乐队、Love Live! 系列（含虹咲）、少女歌剧。目录链接先筛选，读取公告后再按正文标题复查，避免其他企划耗尽采集额度；不会因为页脚、侧栏或“联动 / 商品 / Live”等泛词命中而收录。英文大小写、全半角、空格和标点差异会统一处理。标题未写企划名的公告可能漏收；多企划联合公告只要明确包含白名单企划就保留，原图可能包含联合展出内容。
+
+增删关注范围时修改上述 JSON 的 `projects[].keywords`，不要加入 `Live`、`咖啡`、`グッズ` 等过宽的词。这是维护者统一数据源的关注范围，与用户浏览器中个人关注的 IP 分开。运行 `node scripts/crawl-public.mjs --prune-only` 可不联网清理已有的无关公告，再执行 `pnpm data:publish` 并提交源码及数据包；后续每日任务也会应用相同规则。成功读取来源但没有白名单命中属于正常结果，不会把“零条相关新消息”误报为采集故障。
 
 `src/data/announcements.json` 由脚本生成，包含标题、来源、采集时间、图片链接及自动分类，不包含全文转载、推测的预约规则、价格或库存。只在来源 URL 与已收录活动精确匹配时，将图片关联到活动详情。自动分类分为商品、特典、菜单、宣传和未知；未知图片仍保留供阅读官方原文。图片新增或移除也会触发内容变更。
 
@@ -112,7 +120,7 @@ pnpm package:windows
 node scripts/test-windows-package.mjs
 ```
 
-脚本会校验公共数据包、下载并核对官方 Node.js 24.19.0 ZIP 的 SHA256，构建 Next.js standalone 服务，用系统 .NET Framework 编译启动器，并生成仓库根目录下的 `dist/OshiTrip-1.2.0-windows-x64.zip` 及 SHA256 校验文件。启动器启用统一数据模式，附带一份离线资料。构建目录不能包含 `.env.local` 等私人配置。
+脚本会校验公共数据包、下载并核对官方 Node.js 24.19.0 ZIP 的 SHA256，构建 Next.js standalone 服务，用系统 .NET Framework 编译启动器，并生成仓库根目录下的 `dist/OshiTrip-1.3.0-windows-x64.zip` 及 SHA256 校验文件。启动器启用统一数据模式，附带一份离线资料。构建目录不能包含 `.env.local` 等私人配置。
 
 启动器仅监听 `127.0.0.1`。端口偏好和日志放在 `%LOCALAPPDATA%\OshiTrip`；关闭窗口会停止其创建的后台进程。首次运行通常使用 43187 端口，后续使用已保存端口。端口临时冲突不会覆盖已保存的地址。
 

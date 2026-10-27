@@ -58,7 +58,7 @@ export default function Page() {
         </p>
         <p>
           虹咲公告解析器已接入审核流程；这批数据由官方页面快照提取后人工核实。
-          “官方新消息”每日采集 BanG Dream!、Bushiroad Creative 和 SWEETS PARADISE 的公开公告及图片，独立于已核实活动。虹咲官网自动访问受限，保留既有资料；X 仅提供官方查询链接，未自动同步帖子。
+          “官方新消息”每日采集 BanG Dream!、虹咲、少女歌剧官网，以及按企划白名单筛选的 Bushiroad Creative 和 SWEETS PARADISE 公开公告，独立于已核实活动。“虹咲公式X”提供官方账号入口，未自动同步帖子。
         </p>
         <p>
           活动举办日期与预约日期分别记录。滚动预约需要你选择具体到店日。公告只说明五周前开放、前一天

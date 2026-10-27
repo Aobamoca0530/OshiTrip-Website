@@ -1,0 +1,20 @@
+{
+  "restricted_sources": ["bushiroad-creative", "sweets-paradise"],
+  "projects": [
+    {
+      "id": "bang-dream",
+      "label": "BanG Dream! 及旗下乐队",
+      "keywords": ["BanG Dream", "バンドリ", "MyGO", "Ave Mujica", "Our Notes", "アワーノーツ", "Poppin'Party", "ポピパ", "Afterglow", "Pastel Palettes", "パスパレ", "Roselia", "ハロー ハッピー ワールド", "ハロハピ", "Morfonica", "RAISE A SUILEN", "夢限大みゅーたいぷ", "millsage", "一家Dumb Rock"]
+    },
+    {
+      "id": "lovelive",
+      "label": "Love Live! 系列（含虹咲）",
+      "keywords": ["Love Live", "ラブライブ", "虹ヶ咲", "虹咲", "ニジガク", "蓮ノ空", "Aqours", "Liella", "μ's"]
+    },
+    {
+      "id": "starlight",
+      "label": "少女☆歌剧 Revue Starlight",
+      "keywords": ["少女 歌劇", "少女 歌剧", "レヴュースタァライト", "Revue Starlight", "スタァライト"]
+    }
+  ]
+}
