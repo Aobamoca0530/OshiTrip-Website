@@ -1,0 +1,31 @@
+name: Check OpenAI connection
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: openai-connection-check
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    defaults:
+      run:
+        working-directory: oshitrip
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: 24
+      - uses: pnpm/action-setup@v6.1.0
+        with:
+          version: 11.25.0
+          package_json_file: oshitrip/package.json
+      - run: pnpm install --frozen-lockfile
+      - name: Verify one bounded OpenAI JSON request
+        run: node scripts/check-openai-connection.mjs
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          EVENT_TRANSLATION_PROVIDER: openai
+          EVENT_TRANSLATION_MODEL: ${{ vars.EVENT_TRANSLATION_MODEL || 'gpt-4.1-mini' }}
