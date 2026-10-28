@@ -82,7 +82,7 @@ export function eventFromReading(reading, observation, images, stamp, existing) 
     translated_rules: reading.rules.map((rule, i) => ({ ...rule, id: `${id}-rule-${i}`, kind: '参加', source_url: observation.source_url, image_url: null, image_sha256: null, checked_on: stamp.slice(0, 10) })),
     fees: null, conditions: ['中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。', b.note_zh].filter(Boolean),
     status: reading.cancelled ? 'cancelled' : 'published', verified_at: stamp, updated_at: stamp, franchise_ids: reading.franchise_ids,
-    venues: reading.venues.map((v, i) => ({ id: existing?.venues.find(old => old.name === v.name && old.start_date === v.start_date)?.id || `${id}-venue-${i}`, city: v.city, name: v.name, address: null, start_date: v.start_date, end_date: v.end_date,
+    venues: reading.venues.map((v, i) => ({ id: existing?.venues.find(old => old.name === v.name && old.start_date === v.start_date)?.id || `${id}-venue-${createHash('sha256').update(`${v.name}:${v.start_date}`).digest('hex').slice(0, 10)}`, city: v.city, name: v.name, address: null, start_date: v.start_date, end_date: v.end_date,
       rounds: [{ id: `${id}-round-${i}`, label: b.method === '抽选报名' ? '官方抽选报名' : '官方参加方式', method: b.method,
         kind: b.method === '无需预约' ? 'none' : b.opens_at || b.closes_at ? 'fixed' : 'unannounced',
         opens_at: b.opens_at, closes_at: b.closes_at, days_before: null, open_time: null, cutoff_days_before: null, cutoff_time: null, url: observation.source_url, note: b.note_zh }],
