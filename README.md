@@ -39,7 +39,7 @@ OshiTrip 是一个面向日本 IP 联动活动与跑活旅行的查询网站。�
 
 ### 🪟 Windows 双击启动版
 
-不想安装开发环境，可以从 [Releases](https://github.com/Aobamoca0530/OshiTrip-Website/releases) 下载 **OshiTrip-1.4.0-windows-x64.zip**。
+不想安装开发环境，可以从 [1.5.0 Release](https://github.com/Aobamoca0530/OshiTrip-Website/releases/tag/v1.5.0-windows) 下载 **OshiTrip-1.5.0-windows-x64.zip**。
 
 1. 将整个压缩包解压到可写文件夹。
 2. 双击 **OshiTrip.exe**，等待浏览器自动打开。
@@ -52,6 +52,8 @@ OshiTrip 是一个面向日本 IP 联动活动与跑活旅行的查询网站。�
 🔄 **活动数据自动更新**：启动时后台检查统一活动资料，页面顶部显示资料发布时间，也可点击「刷新活动数据」。更新失败或断网时继续使用缓存；首次离线启动使用内置资料。官方图片、地图与外部链接需要联网。活动资料缓存位于 `%LOCALAPPDATA%\OshiTrip\data`，与收藏、行程分开保存。
 
 活动、商品、门店和新公告更新无需重新下载 EXE；软件功能升级仍需下载新版。1.2.0 起支持“官方新消息”和自动收集的商品图片；更早版本建议换用最新启动包。保留原浏览器和访问地址即可继续读取原有收藏。1.1.0 的旧数据源仍保留兼容。
+
+1.5.0 将官方消息分为 Live 与线下活动合集，新公告进入发现活动待审核区。维护者可配置百炼、DeepSeek 或 OpenAI，分别用于翻译和审核；使用 EXE 无需密钥。配置位置与步骤见 [AI 接口配置](oshitrip/README.md#每日自动采集)，统一维护命令和模型数据契约见 [官方消息工作流程](oshitrip/docs/official-news-workflow.md)。
 
 ### 📝 统一活动数据怎么维护
 
