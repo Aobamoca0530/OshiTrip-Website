@@ -1,4 +1,5 @@
 import { getCatalog } from "@/lib/catalog";
+import { getAnnouncements } from "@/lib/announcement-catalog";
 import { OfficialNewsSources } from "@/components/official-news-sources";
 import { EventExplorer, SourceNote } from "@/components/events";
 import type { Filters } from "@/lib/domain";
@@ -9,6 +10,7 @@ export default async function Page({
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
   const [catalog, params] = await Promise.all([getCatalog(), searchParams]);
+  const announcements = await getAnnouncements();
   const initial: Filters = {};
   for (const key of [
     "ip",
@@ -82,6 +84,7 @@ export default async function Page({
       <EventExplorer
         events={catalog.events}
         franchises={catalog.franchises}
+        announcements={announcements}
         initial={initial}
       />
     </>

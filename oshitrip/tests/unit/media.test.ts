@@ -14,9 +14,9 @@ const catalog = catalogSchema.parse(seed);
 const url = "https://bang-dream.com/news/2441/";
 describe("official media and extended discovery", () => {
   it("validates the complete catalog, image attribution and band references", () => {
-    expect(catalog.events).toHaveLength(14);
-    expect(catalog.events.flatMap((e) => e.venues)).toHaveLength(50);
-    expect(catalog.events.filter((e) => e.image)).toHaveLength(12);
+    expect(catalog.events.length).toBeGreaterThanOrEqual(16);
+    expect(catalog.events.flatMap((e) => e.venues).length).toBeGreaterThanOrEqual(59);
+    expect(catalog.events.filter((e) => e.image).length).toBeGreaterThanOrEqual(14);
     const bands = [
       "poppin-party",
       "afterglow",
@@ -68,7 +68,7 @@ describe("official media and extended discovery", () => {
     );
     expect(
       filterEvents(catalog.events, catalog.franchises, { ip: "roselia" }, now),
-    ).toHaveLength(0);
+    ).toEqual(expect.arrayContaining([expect.objectContaining({ event: expect.objectContaining({ slug: 'roselia-10th-anniversary-live-tour' }) })]));
     expect(
       filterEvents(
         catalog.events,

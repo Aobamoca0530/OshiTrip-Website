@@ -6,7 +6,10 @@ export function EventRules({ event }: { event: OshiEvent }) {
       <span className="eyebrow">BEFORE YOU GO</span>
       <h2>合集说明 · 中文参加与购买指南</h2>
       <p className="helper">
-        依据官方公告及图片整理、人工复核的中文说明，非官方译文。各门店日期见下方列表。
+        {event.id.startsWith("auto-")
+          ? "依据官方正文机器辅助整理，证据已关联；非官方译文，请对照原文确认。"
+          : "依据官方公告及图片整理、人工复核的中文说明，非官方译文。"}
+        各门店日期见下方列表。
       </p>
       <div className="translated-rules">
         {event.translated_rules.map((r) => (

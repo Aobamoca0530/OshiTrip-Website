@@ -15,7 +15,7 @@ const data = {
   announcements: await read('announcements.json'),
 };
 let bundle = makeDataBundle(data, new Date().toISOString());
-const destination = path.join(app, '..', 'data', 'public-v2.json');
+const destination = path.join(app, '..', 'data', 'public-v3.json');
 try {
   const previous = dataBundleSchema.parse(JSON.parse(await fs.readFile(destination, 'utf8')));
   if (previous.revision === bundle.revision) bundle = previous;
@@ -34,6 +34,16 @@ if (process.argv.includes('--check')) {
   await fs.writeFile(destination, json);
   await fs.writeFile(metaFile, metaJson);
 }
+// Older clients hash their parsed schema, so strip v3-only fields for v2.
+const v2Data = { ...bundle.data, announcements: bundle.data.announcements.map(({ activity, image_readings, ...row }) => { void activity; void image_readings; return row; }) };
+const v2Revision = createHash('sha256').update(JSON.stringify(v2Data)).digest('hex');
+const v2File = path.join(app, '..', 'data', 'public-v2.json');
+let v2Date = bundle.publishedAt;
+try { const old = JSON.parse(await fs.readFile(v2File, 'utf8')); if (old.revision === v2Revision) v2Date = old.publishedAt; } catch { /* first publication */ }
+const v2Json = JSON.stringify({ formatVersion: 2, revision: v2Revision, publishedAt: v2Date, data: v2Data }, null, 2) + '\n';
+if (process.argv.includes('--check')) {
+  if ((await fs.readFile(v2File, 'utf8')).replaceAll('\r\n', '\n') !== v2Json) throw new Error('v2 feed is out of date');
+} else await fs.writeFile(v2File, v2Json);
 // Keep the original v1 schema/hash exactly compatible with existing 1.1 clients.
 const legacyData = { catalog: bundle.data.catalog, releases: bundle.data.releases, stores: bundle.data.stores };
 const legacyRevision = createHash('sha256').update(JSON.stringify(legacyData)).digest('hex');

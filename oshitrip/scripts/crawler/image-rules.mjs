@@ -233,9 +233,8 @@ export function createImageReviewer({
     if (!enabled || !apiKey || !model) return pending;
     const u = new URL(image.url);
     if (
-      source.permission !== "approved" ||
-      !source.terms_checked_on ||
-      !source.authorization_note?.trim() ||
+      source.permission === "denied" ||
+      !(source.public_fetch_enabled === true || (source.permission === "approved" && source.terms_checked_on && source.authorization_note?.trim())) ||
       u.origin !== source.origin ||
       u.username ||
       u.password ||

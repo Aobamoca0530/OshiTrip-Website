@@ -56,6 +56,20 @@
     "authorization_note": "待确认 Live 官网自动访问政策。"
   },
   {
+    "id": "bang-dream-live",
+    "kind": "event-source",
+    "origin": "https://bang-dream.com",
+    "index_url": "https://bang-dream.com/events/",
+    "path_patterns": ["^/events/(?:[a-z0-9_-]+/)?$"],
+    "discovery_patterns": ["^/events/[a-z0-9_-]+/$"],
+    "urls": ["https://bang-dream.com/events/ras-tour2027/", "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/"],
+    "permission": "unreviewed",
+    "terms_url": "https://bang-dream.com/bdp-guideline/",
+    "terms_checked_on": "2026-10-28",
+    "robots_checked_on": "2026-10-28",
+    "authorization_note": "用户要求采集官方 Live 与抽选信息，低频读取公开活动目录，遵循 robots 与 HTTP 限制。"
+  },
+  {
     "id": "bang-dream-news",
     "kind": "event-source",
     "origin": "https://bang-dream.com",

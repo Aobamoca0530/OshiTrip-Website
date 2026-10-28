@@ -34,6 +34,8 @@ import {
   type Match,
 } from "@/lib/domain";
 import { usePersonal } from "./personal";
+import type { Announcement } from "@/lib/announcements";
+import { ActivityAnnouncement } from "./announcements";
 
 export function SourceNote({ mode, error }: { mode: string; error?: string }) {
   return (
@@ -41,9 +43,10 @@ export function SourceNote({ mode, error }: { mode: string; error?: string }) {
       <span className="status-dot" />
       {error ||
         (mode === "local"
-          ? "本地已核实资料 · 人工维护，非实时同步"
-          : mode === "shared" ? "统一活动资料 · 自动检查发布更新，非实时空位"
-          : "Supabase 数据库 · 人工审核发布，非实时空位")}
+          ? "本地活动资料 · 官方来源与中文整理，非实时空位"
+          : mode === "shared"
+            ? "统一活动资料 · 自动检查发布更新，非实时空位"
+            : "Supabase 数据库 · 人工审核发布，非实时空位")}
       <Link href="/about">
         数据说明 <ArrowUpRight size={13} />
       </Link>
@@ -307,13 +310,16 @@ function CompassMark() {
 export function EventExplorer({
   events,
   franchises,
+  announcements = [],
   initial = {},
 }: {
   events: OshiEvent[];
   franchises: Franchise[];
+  announcements?: Announcement[];
   initial?: Filters;
 }) {
   const [filters, setFilters] = useState<Filters>(initial);
+  const [collection, setCollection] = useState("all");
   const { now } = usePersonal();
   const update = (key: keyof Filters, value: string | boolean) =>
     setFilters((f) => ({ ...f, [key]: value }));
@@ -322,8 +328,51 @@ export function EventExplorer({
   );
   const matches = invalid ? [] : filterEvents(events, franchises, filters, now);
   const collections = groupMatches(matches);
+  const isLive = (event: OshiEvent) => event.category === "音乐和声优活动";
+  const visible = collections.filter(
+    (group) =>
+      collection === "all" || (collection === "live") === isLive(group.event),
+  );
+  const pending = announcements.filter(
+    (item) =>
+      item.activity &&
+      !item.related_event_ids.length &&
+      (collection === "all" ||
+        (collection === "live") === (item.activity.kind === "live")),
+  );
+  const hasSpecificFilter = !!(
+    filters.ip ||
+    filters.city ||
+    filters.start ||
+    filters.end ||
+    filters.method ||
+    filters.category ||
+    filters.benefits ||
+    filters.status
+  );
   return (
     <>
+      <nav className="collection-tabs" aria-label="活动合集">
+        {[
+          ["all", "全部活动"],
+          ["offline", "联动与快闪"],
+          ["live", "Live 合集"],
+        ].map(([value, label]) => (
+          <button
+            key={value}
+            className={`chip ${collection === value ? "selected" : ""}`}
+            aria-pressed={collection === value}
+            onClick={() => setCollection(value)}
+          >
+            {label}
+          </button>
+        ))}
+      </nav>
+      {collection === "live" && (
+        <p className="notice">
+          Live、巡演与现场演出集中在这里。抽选资格已公布不等于报名已开放，请查看各场次的受理时间。
+        </p>
+      )}
       <div className="explorer-layout">
         <aside className="filter-panel">
           <h2>
@@ -442,8 +491,11 @@ export function EventExplorer({
         <section className="results">
           <div className="results-bar">
             <p>
-              <strong>{collections.length}</strong> 个活动合集{" "}
-              <span>· {matches.length} 个匹配门店 / 场次</span>
+              <strong>{visible.length}</strong> 个活动合集{" "}
+              <span>
+                · {visible.reduce((sum, group) => sum + group.venues.length, 0)}{" "}
+                个匹配门店 / 场次
+              </span>
             </p>
             <label className="sort-label">
               <span className="sr-only">排序</span>
@@ -466,17 +518,55 @@ export function EventExplorer({
               滚动预约需要旅行日期才能计算截止时间；未知截止时间排在后面。
             </p>
           )}
-          <div className="cards-grid">
-            {collections.map((group) => (
-              <EventCollectionCard
-                key={group.event.id}
-                group={group}
-                start={filters.start}
-                end={filters.end}
-              />
+          {["offline", "live"]
+            .filter((kind) => collection === "all" || collection === kind)
+            .map((kind) => (
+              <section
+                key={kind}
+                aria-label={kind === "live" ? "Live 合集" : "联动与快闪"}
+              >
+                <h2>{kind === "live" ? "Live 合集" : "联动与快闪"}</h2>
+                <div className="cards-grid">
+                  {visible
+                    .filter(
+                      (group) => (kind === "live") === isLive(group.event),
+                    )
+                    .map((group) => (
+                      <EventCollectionCard
+                        key={group.event.id}
+                        group={group}
+                        start={filters.start}
+                        end={filters.end}
+                      />
+                    ))}
+                </div>
+              </section>
             ))}
-          </div>
-          {!matches.length && <Empty />}
+          {!visible.length && <Empty />}
+          {!!pending.length && (
+            <section className="section-space" aria-label="待补全活动">
+              <h2>线下公告 · 待补全信息</h2>
+              <p className="helper">
+                已按线下活动线索筛选；尚未确认的日期与规则不用于行程匹配。
+              </p>
+              {hasSpecificFilter ? (
+                <p className="helper">
+                  另有 {pending.length} 条公告信息待补全。清除筛选后可查看。
+                </p>
+              ) : (
+                pending
+                  .slice(0, 12)
+                  .map((item) => (
+                    <ActivityAnnouncement key={item.id} item={item} />
+                  ))
+              )}
+              {pending.length > 12 && (
+                <Link href="/news" className="text-link">
+                  查看全部线下公告 →
+                </Link>
+              )}
+            </section>
+          )}
         </section>
       </div>
     </>

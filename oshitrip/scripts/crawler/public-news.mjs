@@ -34,6 +34,7 @@ export function mergeAnnouncements(previous, observations, catalog, stamp) {
       content_hash: hash,
       related_event_ids: catalog.events.filter(event => event.sources.some(s => s.url === o.source_url)).map(event => event.id),
       images,
+      ...(old?.activity ? { activity: old.activity } : {}),
     });
   }
   // Failed sources retain their previous records. Time here means discovery,

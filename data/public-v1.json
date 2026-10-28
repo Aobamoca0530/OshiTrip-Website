@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "revision": "87820beb59b118f080deb153e072cef6112614663e97bedd35acf7e1791c5e4e",
-  "publishedAt": "2026-10-27T21:35:10.329Z",
+  "revision": "49b8d1bf54db2605b77fbbee66bac95460c5c3fbcb4c0014ece69be18f26d0c4",
+  "publishedAt": "2026-10-28T09:00:21.631Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -2305,6 +2305,368 @@
               "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
               "label": "虹咲官网公告",
               "checked_at": "2026-10-28T12:00:00+09:00"
+            }
+          ]
+        },
+        {
+          "id": "auto-16ad5931165da640",
+          "slug": "ras-tour2027",
+          "title_ja": "RAISE A SUILEN LIVE TOUR 2027",
+          "title_zh": "RAISE A SUILEN 2027 巡回演唱会",
+          "category": "音乐和声优活动",
+          "summary": "RAISE A SUILEN 2027 巡回演唱会，共 5 站。举办日期、会场及最速先行抽选所需附券商品已公布；票务详情和报名受理期间仍待官方后续公布。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/01101412/792592a1-3953d6b8-282c8cdc-873ba4a7.png",
+            "alt": "RAISE A SUILEN 2027 巡回演唱会",
+            "source_url": "https://bang-dream.com/events/ras-tour2027/",
+            "checked_on": "2026-10-28"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-16ad5931165da640-rule-0",
+              "kind": "参加",
+              "title": "最速先行抽选资格",
+              "text_zh": "凭 RAISE A SUILEN 16th Single「I AM WHO I AM」 初回生产分内附的申请券参加最速先行抽选。购买商品不等于获得门票。",
+              "evidence_ja": "※ RAISE A SUILEN 16th Single「I AM WHO I AM」 初回生産分に封入の申込券でご応募いただけます。",
+              "source_url": "https://bang-dream.com/events/ras-tour2027/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-28"
+            },
+            {
+              "id": "auto-16ad5931165da640-rule-1",
+              "kind": "参加",
+              "title": "报名期间与票务详情",
+              "text_zh": "官方将另行公布票务详情和受理期间。当前不能据此判断报名已开放。",
+              "evidence_ja": "※チケットの詳細や受付期間は後日公開いたします。",
+              "source_url": "https://bang-dream.com/events/ras-tour2027/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-28"
+            },
+            {
+              "id": "auto-16ad5931165da640-rule-2",
+              "kind": "参加",
+              "title": "现场注意事项",
+              "text_zh": "请在参加前阅读并遵守 Bushiroad Music 主办演出的注意事项；本场其他注意事项后续公布。",
+              "evidence_ja": "※その他の注意事項は後日公開いたします。",
+              "source_url": "https://bang-dream.com/events/ras-tour2027/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-28"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "凭 RAISE A SUILEN 16th Single「I AM WHO I AM」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-28T08:53:38.351Z",
+          "updated_at": "2026-10-28T08:53:38.351Z",
+          "franchise_ids": [
+            "bang-dream",
+            "raise-a-suilen"
+          ],
+          "venues": [
+            {
+              "id": "auto-16ad5931165da640-venue-0",
+              "city": "仙台",
+              "name": "仙台PIT",
+              "address": null,
+              "start_date": "2027-04-04",
+              "end_date": "2027-04-04",
+              "rounds": [
+                {
+                  "id": "auto-16ad5931165da640-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/ras-tour2027/",
+                  "note": "凭 RAISE A SUILEN 16th Single「I AM WHO I AM」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-16ad5931165da640-venue-1",
+              "city": "札幌",
+              "name": "Zepp Sapporo",
+              "address": null,
+              "start_date": "2027-04-10",
+              "end_date": "2027-04-10",
+              "rounds": [
+                {
+                  "id": "auto-16ad5931165da640-round-1",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/ras-tour2027/",
+                  "note": "凭 RAISE A SUILEN 16th Single「I AM WHO I AM」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-16ad5931165da640-venue-2",
+              "city": "东京",
+              "name": "Zepp Haneda (TOKYO)",
+              "address": null,
+              "start_date": "2027-04-16",
+              "end_date": "2027-04-16",
+              "rounds": [
+                {
+                  "id": "auto-16ad5931165da640-round-2",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/ras-tour2027/",
+                  "note": "凭 RAISE A SUILEN 16th Single「I AM WHO I AM」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-16ad5931165da640-venue-3",
+              "city": "大阪",
+              "name": "Zepp Osaka Bayside",
+              "address": null,
+              "start_date": "2027-04-18",
+              "end_date": "2027-04-18",
+              "rounds": [
+                {
+                  "id": "auto-16ad5931165da640-round-3",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/ras-tour2027/",
+                  "note": "凭 RAISE A SUILEN 16th Single「I AM WHO I AM」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-16ad5931165da640-venue-4",
+              "city": "名古屋",
+              "name": "名古屋 COMTEC PORTBASE",
+              "address": null,
+              "start_date": "2027-05-23",
+              "end_date": "2027-05-23",
+              "rounds": [
+                {
+                  "id": "auto-16ad5931165da640-round-4",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/ras-tour2027/",
+                  "note": "凭 RAISE A SUILEN 16th Single「I AM WHO I AM」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-16ad5931165da640-source",
+              "url": "https://bang-dream.com/events/ras-tour2027/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-28T08:53:38.351Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-97ebcc1904e05cee",
+          "slug": "roselia-10th-anniversary-live-tour",
+          "title_ja": "Roselia 10th Anniversary LIVE TOUR",
+          "title_zh": "Roselia 十周年巡回演唱会",
+          "category": "音乐和声优活动",
+          "summary": "Roselia 十周年巡回演唱会，共 4 站。举办日期、会场及最速先行抽选所需附券商品已公布；票务详情和报名受理期间仍待官方后续公布。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/27160916/172a442f-f52d7f3c-72a971ec-d4dccad9.png",
+            "alt": "Roselia 十周年巡回演唱会",
+            "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+            "checked_on": "2026-10-28"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-97ebcc1904e05cee-rule-0",
+              "kind": "参加",
+              "title": "最速先行抽选资格",
+              "text_zh": "凭 Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生产分内附的申请券参加最速先行抽选。购买商品不等于获得门票。",
+              "evidence_ja": "※ Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生産分に封入の申込券でご応募いただけます。",
+              "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-28"
+            },
+            {
+              "id": "auto-97ebcc1904e05cee-rule-1",
+              "kind": "参加",
+              "title": "报名期间与票务详情",
+              "text_zh": "官方将另行公布票务详情和受理期间。当前不能据此判断报名已开放。",
+              "evidence_ja": "※チケットの詳細や受付期間は後日公開いたします。",
+              "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-28"
+            },
+            {
+              "id": "auto-97ebcc1904e05cee-rule-2",
+              "kind": "参加",
+              "title": "现场注意事项",
+              "text_zh": "请在参加前阅读并遵守 Bushiroad Music 主办演出的注意事项；本场其他注意事项后续公布。",
+              "evidence_ja": "※その他の注意事項は後日公開いたします。",
+              "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-28"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "凭 Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-28T08:53:38.351Z",
+          "updated_at": "2026-10-28T08:53:38.351Z",
+          "franchise_ids": [
+            "bang-dream",
+            "roselia"
+          ],
+          "venues": [
+            {
+              "id": "auto-97ebcc1904e05cee-venue-0",
+              "city": "东京",
+              "name": "TOYOTA ARENA TOKYO",
+              "address": null,
+              "start_date": "2027-01-30",
+              "end_date": "2027-01-30",
+              "rounds": [
+                {
+                  "id": "auto-97ebcc1904e05cee-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+                  "note": "凭 Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-97ebcc1904e05cee-venue-1",
+              "city": "名古屋",
+              "name": "愛知県芸術劇場 大ホール",
+              "address": null,
+              "start_date": "2027-02-28",
+              "end_date": "2027-02-28",
+              "rounds": [
+                {
+                  "id": "auto-97ebcc1904e05cee-round-1",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+                  "note": "凭 Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-97ebcc1904e05cee-venue-2",
+              "city": "仙台",
+              "name": "仙台サンプラザホール",
+              "address": null,
+              "start_date": "2027-03-14",
+              "end_date": "2027-03-14",
+              "rounds": [
+                {
+                  "id": "auto-97ebcc1904e05cee-round-2",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+                  "note": "凭 Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-97ebcc1904e05cee-venue-3",
+              "city": "福冈",
+              "name": "福岡サンパレス",
+              "address": null,
+              "start_date": "2027-04-25",
+              "end_date": "2027-04-25",
+              "rounds": [
+                {
+                  "id": "auto-97ebcc1904e05cee-round-3",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+                  "note": "凭 Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-97ebcc1904e05cee-source",
+              "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-28T08:53:38.351Z"
             }
           ]
         }
@@ -4682,7 +5044,7 @@
           }
         ],
         "status": "published",
-        "updated_at": "2026-10-28T12:00:00+09:00",
+        "updated_at": "2026-10-28T08:53:38.351Z",
         "editions": [
           {
             "id": "bd",
@@ -4702,25 +5064,31 @@
         "lotteries": [
           {
             "id": "fastest",
-            "title": "2027年 RAISE A SUILEN 单独 Live 最速先行",
+            "title": "RAISE A SUILEN LIVE TOUR 2027 最速先行抽选",
             "edition_ids": [
               "bd",
               "cd"
             ],
-            "event_slug": null,
-            "live_dates": [],
-            "venue": null,
+            "event_slug": "ras-tour2027",
+            "live_dates": [
+              "2027-04-04",
+              "2027-04-10",
+              "2027-04-16",
+              "2027-04-18",
+              "2027-05-23"
+            ],
+            "venue": "仙台PIT、Zepp Sapporo、Zepp Haneda (TOKYO)、Zepp Osaka Bayside、名古屋 COMTEC PORTBASE",
             "window": {
               "opens_on": null,
               "opens_at": null,
               "closes_at": null,
-              "note": "官方已确认附券；具体抽选开始、截止与场次以后续 Live 公告为准。"
+              "note": "巡演场次及附券资格已公布；票务详情和报名受理期间尚待官方公布。"
             },
             "conditions": [
               "仅适用于初回生产分附券商品。",
               "购买商品不等于获得门票，申请规则请核对官方公告。"
             ],
-            "source_url": "https://bang-dream.com/discographies/4215/"
+            "source_url": "https://bang-dream.com/events/ras-tour2027/"
           }
         ],
         "offers": [
@@ -5168,6 +5536,11 @@
           {
             "label": "BanG Dream! 官方商品资料与完整店铺特典",
             "url": "https://bang-dream.com/discographies/4215/",
+            "checked_on": "2026-10-28"
+          },
+          {
+            "label": "官方巡演与抽选公告",
+            "url": "https://bang-dream.com/events/ras-tour2027/",
             "checked_on": "2026-10-28"
           }
         ]
@@ -6805,7 +7178,7 @@
           }
         ],
         "status": "published",
-        "updated_at": "2026-10-28T12:00:00+09:00",
+        "updated_at": "2026-10-28T08:53:38.351Z",
         "editions": [
           {
             "id": "bd",
@@ -6838,14 +7211,19 @@
               "cd",
               "special"
             ],
-            "event_slug": null,
-            "live_dates": [],
-            "venue": null,
+            "event_slug": "roselia-10th-anniversary-live-tour",
+            "live_dates": [
+              "2027-01-30",
+              "2027-02-28",
+              "2027-03-14",
+              "2027-04-25"
+            ],
+            "venue": "TOYOTA ARENA TOKYO、愛知県芸術劇場 大ホール、仙台サンプラザホール、福岡サンパレス",
             "window": {
               "opens_on": null,
               "opens_at": null,
               "closes_at": null,
-              "note": "官方已确认附券；具体抽选开始、截止与场次以后续 Live 公告为准。"
+              "note": "巡演场次及附券资格已公布；票务详情和报名受理期间尚待官方公布。"
             },
             "conditions": [
               "仅适用于初回生产分附券商品。",

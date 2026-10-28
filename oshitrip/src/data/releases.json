@@ -1825,7 +1825,7 @@
     "release_on": "2026-11-04",
     "summary": "官网确认初回生产分附 Live 抽选申込券，已按版本整理官方公布的店铺特典。线下目录目前覆盖 Animate 与 Gamers 的部分分店，库存需向具体分店查询。",
     "status": "published",
-    "updated_at": "2026-10-28T12:00:00+09:00",
+    "updated_at": "2026-10-28T08:53:38.351Z",
     "editions": [
       {
         "id": "bd",
@@ -1845,22 +1845,28 @@
     "lotteries": [
       {
         "id": "fastest",
-        "title": "2027年 RAISE A SUILEN 单独 Live 最速先行",
+        "title": "RAISE A SUILEN LIVE TOUR 2027 最速先行抽选",
         "edition_ids": ["bd", "cd"],
-        "event_slug": null,
-        "live_dates": [],
-        "venue": null,
+        "event_slug": "ras-tour2027",
+        "live_dates": [
+          "2027-04-04",
+          "2027-04-10",
+          "2027-04-16",
+          "2027-04-18",
+          "2027-05-23"
+        ],
+        "venue": "仙台PIT、Zepp Sapporo、Zepp Haneda (TOKYO)、Zepp Osaka Bayside、名古屋 COMTEC PORTBASE",
         "window": {
           "opens_on": null,
           "opens_at": null,
           "closes_at": null,
-          "note": "官方已确认附券；具体抽选开始、截止与场次以后续 Live 公告为准。"
+          "note": "巡演场次及附券资格已公布；票务详情和报名受理期间尚待官方公布。"
         },
         "conditions": [
           "仅适用于初回生产分附券商品。",
           "购买商品不等于获得门票，申请规则请核对官方公告。"
         ],
-        "source_url": "https://bang-dream.com/discographies/4215/"
+        "source_url": "https://bang-dream.com/events/ras-tour2027/"
       }
     ],
     "offers": [
@@ -2254,6 +2260,11 @@
       {
         "label": "BanG Dream! 官方商品资料与完整店铺特典",
         "url": "https://bang-dream.com/discographies/4215/",
+        "checked_on": "2026-10-28"
+      },
+      {
+        "label": "官方巡演与抽选公告",
+        "url": "https://bang-dream.com/events/ras-tour2027/",
         "checked_on": "2026-10-28"
       }
     ],
@@ -3640,7 +3651,7 @@
     "release_on": "2026-08-26",
     "summary": "官网确认初回生产分附 Live 抽选申込券，已按版本整理官方公布的店铺特典。线下目录目前覆盖 Animate 与 Gamers 的部分分店，库存需向具体分店查询。 特装盘另有延期发货和相关会场销售中止公告。",
     "status": "published",
-    "updated_at": "2026-10-28T12:00:00+09:00",
+    "updated_at": "2026-10-28T08:53:38.351Z",
     "editions": [
       {
         "id": "bd",
@@ -3669,14 +3680,14 @@
         "id": "fastest",
         "title": "Roselia 10th Anniversary LIVE TOUR 最速先行",
         "edition_ids": ["bd", "cd", "special"],
-        "event_slug": null,
-        "live_dates": [],
-        "venue": null,
+        "event_slug": "roselia-10th-anniversary-live-tour",
+        "live_dates": ["2027-01-30", "2027-02-28", "2027-03-14", "2027-04-25"],
+        "venue": "TOYOTA ARENA TOKYO、愛知県芸術劇場 大ホール、仙台サンプラザホール、福岡サンパレス",
         "window": {
           "opens_on": null,
           "opens_at": null,
           "closes_at": null,
-          "note": "官方已确认附券；具体抽选开始、截止与场次以后续 Live 公告为准。"
+          "note": "巡演场次及附券资格已公布；票务详情和报名受理期间尚待官方公布。"
         },
         "conditions": [
           "仅适用于初回生产分附券商品。",

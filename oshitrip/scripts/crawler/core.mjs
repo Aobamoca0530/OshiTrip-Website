@@ -14,6 +14,8 @@ export const observationSchema = z.object({
   kind: z.enum(["release-source", "event-source"]),
   source_url: z.url({ protocol: /^https$/ }),
   title: z.string().min(1).max(500),
+  body_text: z.string().max(50000).default(""),
+  event_links: z.array(z.url({ protocol: /^https$/ })).max(20).default([]),
   release_on: date.nullable(),
   skus: z.array(z.string()).max(50),
   edition_mentions: z.array(z.string().max(260)).max(30).default([]),
@@ -207,6 +209,13 @@ export function extractObservation(html, url, kind = "release-source") {
     kind,
     source_url: url,
     title,
+    body_text: text.slice(0, 50000),
+    event_links: [...new Set([...body.matchAll(/href\s*=\s*["']([^"']+)["']/gi)].flatMap(m => {
+      try {
+        const linked = new URL(m[1], url);
+        return linked.origin === new URL(url).origin && !linked.search && !linked.hash && !linked.username && !linked.password && /^\/events\/[a-z0-9_-]+\/$/.test(linked.pathname) ? [linked.href] : [];
+      } catch { return []; }
+    }))].slice(0, 20),
     release_on: candidate,
     skus: [...new Set(text.match(/BRMM-\d{5}/g) || [])].sort().slice(0, 50),
     edition_mentions: collect(/BRMM-|円|延期|販売中止/),
@@ -482,5 +491,5 @@ export async function crawlSource(
       errors.push(`${url}：${e.message}`);
     }
   }
-  return { status: errors.length ? "failed" : "success", observations, errors, robots_status: robotsStatus };
+  return { status: errors.length ? "failed" : "success", observations, errors, robots_status: robotsStatus, robots_rules: robots };
 }

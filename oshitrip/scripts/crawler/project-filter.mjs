@@ -20,5 +20,5 @@ export function createProjectFilter(input) {
 }
 export function relevantAnnouncement(sourceId, title, projectFilter) {
   if (!projectFilter(sourceId, title)) return false;
-  return sourceId !== 'bang-dream-news' || /展示|POP.?UP|ポップアップ|コラボ|カフェ|グッズ|物販|会場|フェア|出展|開催|公演|ライブ.*決定/i.test(title) && !/Pre-add|Pre-save|プレイリスト|放送|デジタルリリース/i.test(title);
+  return sourceId !== 'bang-dream-news' || /展示|POP.?UP|ポップアップ|コラボ|カフェ|グッズ|物販|会場|フェア|出展|開催|公演|抽選|先行|チケット|ライブ.*決定/i.test(title) && !/Pre-add|Pre-save|プレイリスト|放送|デジタルリリース/i.test(title);
 }

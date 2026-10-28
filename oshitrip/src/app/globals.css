@@ -1985,3 +1985,5 @@ legend {
 #benefits {
   scroll-margin-top: 25px;
 }
+.collection-tabs { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0; }
+.activity-rules { margin: 16px 0; }
