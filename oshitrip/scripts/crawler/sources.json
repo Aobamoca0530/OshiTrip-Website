@@ -139,6 +139,7 @@
   {
     "id": "nijigasaki-news",
     "transport": "browser",
+    "browser_mode": "headed",
     "robots_unavailable_statuses": [
       403,
       404

@@ -414,6 +414,7 @@ export async function crawlSource(
   {
     fetcher = fetch,
     readPage,
+    readRobots,
     pause = (ms) => new Promise((r) => setTimeout(r, ms)),
     limit = 20,
     imageReviewer,
@@ -434,7 +435,7 @@ export async function crawlSource(
   let robots;
   let robotsStatus = "rules";
   try {
-    robots = await fetchLimited(`${source.origin}/robots.txt`, {
+    robots = readRobots ? await readRobots(`${source.origin}/robots.txt`) : await fetchLimited(`${source.origin}/robots.txt`, {
       fetcher,
       content: "text",
       maxBytes: 100000,

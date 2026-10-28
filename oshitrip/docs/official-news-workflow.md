@@ -64,11 +64,19 @@ pnpm maintain:public --replay
 
 ## 虹咲浏览器辅助采集
 
-`nijigasaki-news` 配置 `transport: "browser"`，统一采集入口调用 Playwright Chromium 的临时浏览器上下文。robots 仍经原有 HTTP 规则核实；目录和详情由浏览器读取 DOM，随后使用同一个 `extractObservation`、正文指纹、翻译、独立复核与证据校验流程。未采用用户浏览器档案、Cookie 导入、代理、隐身插件或验证绕过。页面间隔至少 2 秒，单页导航超时 20 秒，正文上限 1.5 MB，详情沿用每轮 16 页预算。只接受原地址内容，过滤 iframe、第三方资源和后台接口；403/401/429 停止该来源本轮采集。失败仍保留原资料及核实时间。
+`nijigasaki-news` 配置 `transport: "browser"` 和 `browser_mode: "headed"`，统一采集入口调用 Playwright Chromium 的临时浏览器上下文，以普通有界面模式运行。robots.txt 也由同一个浏览器读取，避免不同请求方式取得不同规则响应；沿用原有 robots 匹配与失败处理策略。目录和详情由浏览器读取 DOM，随后使用同一个 `extractObservation`、正文指纹、翻译、独立复核与证据校验流程。未采用用户浏览器档案、Cookie 导入、代理、User-Agent 覆写、隐身插件或验证绕过。页面间隔至少 2 秒，单页导航超时 20 秒，正文上限 1.5 MB，robots 上限 100 KB，详情沿用每轮 16 页预算。只接受原地址内容，过滤 iframe、第三方资源和后台接口；403/401/429 停止该来源本轮采集。失败仍保留原资料及核实时间。
 
-本地安装 `pnpm exec playwright install chromium` 后运行 `pnpm maintain:public`；已安装 Edge 的 Windows 可设置 `CRAWLER_BROWSER_CHANNEL=msedge`。浏览器仅用于维护脚本，不随 Windows 用户客户端运行。GitHub 每日任务自动安装 Chromium，按北京时间 **09:17** 的原有计划运行（平台可能延迟）。报告的每个来源新增 `transport`，Actions 摘要单列浏览器来源结果，不能用整体任务通过来推断虹咲采集成功。
+本地安装 `pnpm exec playwright install chromium` 后运行 `pnpm maintain:public`；已安装 Edge 的 Windows 可设置 `CRAWLER_BROWSER_CHANNEL=msedge`，维护时会临时打开浏览器窗口并在结束时关闭。浏览器仅用于维护脚本，不随 Windows 用户客户端运行。GitHub 每日任务自动安装 Chromium，以 `xvfb-run --auto-servernum pnpm maintain:public` 提供虚拟显示器，按北京时间 **09:17** 的原有计划运行（平台可能延迟）。这是 [Playwright 官方支持的 Linux 有界面运行方式](https://playwright.dev/docs/ci#running-headed)。报告记录 `transport` 和 `browser_mode`，Actions 摘要单列浏览器来源结果，不能用整体任务通过来推断虹咲采集成功。
 
-2026-10-29 北京时间 06:38–06:42 的 [GitHub Actions 实测](https://github.com/Aobamoca0530/OshiTrip-Website/actions/runs/40781445206) 已成功安装并启动 Chromium，但虹咲目录返回 HTTP 403，取得 0 页，7 个已知详情延期；其他六个来源取得 63 页。应用内浏览器可读不等于定时任务可读，当前不能宣称虹咲每日自动采集可用。该运行也暴露了空 `DASHSCOPE_BASE_URL` 导致测试失败的问题，现已将空值按未配置处理并补充回归测试。报告显示云端翻译与审核均未配置 API 密钥，新增内容继续进入人工待办，不自动批准。
+2026-10-29 北京时间 06:38–06:42 的 [首次 GitHub Actions 实测](https://github.com/Aobamoca0530/OshiTrip-Website/actions/runs/40781445206) 已成功安装并启动无头 Chromium，但虹咲目录返回 HTTP 403，取得 0 页，7 个已知详情延期；其他六个来源取得 63 页。应用内浏览器可读不等于无头采集可读。该运行也暴露了空 `DASHSCOPE_BASE_URL` 导致测试失败的问题，现已将空值按未配置处理并补充回归测试。报告显示云端翻译与审核均未配置 API 密钥，新增内容继续进入人工待办，不自动批准。
+
+### 普通模式与无头模式对照（2026-10-29 07:11–07:13 北京时间）
+
+在同一台机器、同一 Edge 156.0.4314.50、相同 URL、全新临时上下文且不拦截页面资源的条件下，普通有界面模式返回 **HTTP 200 / Apache / Miss from cloudfront**，读到 6 个新闻详情链接；无头模式返回 **HTTP 403 / AmazonS3 / Error from cloudfront**，0 个新闻链接。两者都经过 NRT12-P6 节点。无头对照在与普通模式相同的沙箱外执行环境复测仍为 403，因此不是仅由沙箱执行权限造成的差异。诊断保存在维护机 `var/public-crawler/normal-headed.json` 与 `normal-headless.json`。
+
+这些证据支持“浏览器运行模式对应的请求特征影响响应”，同时排除了必须登录、导入个人 Cookie 或取消采集器资源拦截才能读取目录的推断。站方究竟依据哪个请求头、缓存变体或检测规则区分请求，需要服务端日志才能确认，不能把 User-Agent 单独写成已证实的根因。采集器改用普通模式，保留现有范围、频率与审核规则；不进行无头伪装或失败后切换身份重试。云端是否成功仍须单独实测。
+
+07:14–07:18 的本机完整采集取得虹咲 8 篇详情，0 个错误、0 页延期；正文进入原有翻译和审核队列，未把读取成功当作审核通过。随后普通浏览器读取到真实 robots 规则 `User-agent: *`、`Disallow: /common/`，切换为同浏览器核实规则后，以生产采集器再验证一篇详情仍成功。回放完整维护校验通过，210 项单元测试通过。
 
 手动运行同一个工作流并勾选 `validate_only` 时，完整执行采集和维护校验，但不推送数据；虹咲未完整取得正文会让验证步骤失败。普通每日运行保留失败来源状态并允许其他已校验来源更新。报告附件保留 14 天。2026-10-29 本机独立无头 Edge 实测仍返回 HTTP 403，不能把应用内浏览器成功推广为本机或云端定时任务成功；云端结果需以实际工作流报告为准。
 

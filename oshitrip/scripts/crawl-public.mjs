@@ -34,7 +34,7 @@ for (const source of pruneOnly || replay ? [] : sources) {
   const result = await crawlPublicSource(source, { limit: source.id === 'bang-dream-live' ? 40 : 16, acceptDiscoveredLink: ({ title }) => relevant(source.id, title) && (['bang-dream-live', 'starlight-events'].includes(source.id) || classifyOffline(title) !== null || /抽選|先行|コラボ|イベント/.test(title)) });
   for (const o of result.observations) observedUrls.add(o.source_url);
   if (result.robots_rules) policies.set(source.id, result.robots_rules);
-  report.sources.push({ id: source.id, transport: result.transport, status: result.status, robots: result.robots_status || 'not-checked', pages: result.observations.length, discovered: result.discovered, deferred_urls: result.deferred_urls || [], excluded: result.observations.filter(o => !relevant(source.id, o.title)).length, errors: result.errors, access_diagnostics: result.access_diagnostics || [] });
+  report.sources.push({ id: source.id, transport: result.transport, browser_mode: result.browser_mode, status: result.status, robots: result.robots_status || 'not-checked', pages: result.observations.length, discovered: result.discovered, deferred_urls: result.deferred_urls || [], excluded: result.observations.filter(o => !relevant(source.id, o.title)).length, errors: result.errors, access_diagnostics: result.access_diagnostics || [] });
   for (const observation of result.observations) if (relevant(source.id, observation.title) && classifyAnnouncement(source, observation)) observations.push({ source, observation });
 }
 await fs.mkdir('var/public-crawler', { recursive: true });

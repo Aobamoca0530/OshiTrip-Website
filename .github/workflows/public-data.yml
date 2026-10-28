@@ -35,7 +35,7 @@ jobs:
       - name: Install collector browser
         run: pnpm exec playwright install --with-deps chromium
       - id: maintain
-        run: pnpm maintain:public
+        run: xvfb-run --auto-servernum pnpm maintain:public
         env:
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
           DASHSCOPE_BASE_URL: ${{ vars.DASHSCOPE_BASE_URL }}
