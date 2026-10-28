@@ -1,6 +1,11 @@
 name: Update public announcements and merchandise images
 on:
   workflow_dispatch:
+    inputs:
+      validate_only:
+        description: Run the daily pipeline without publishing snapshots
+        type: boolean
+        default: false
   schedule:
     # 09:17 China / 10:17 Japan. GitHub scheduling may be delayed.
     - cron: "17 1 * * *"
@@ -27,6 +32,8 @@ jobs:
           version: 11.25.0
           package_json_file: oshitrip/package.json
       - run: pnpm install --frozen-lockfile
+      - name: Install collector browser
+        run: pnpm exec playwright install --with-deps chromium
       - run: pnpm maintain:public
         env:
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
@@ -43,9 +50,14 @@ jobs:
           IMAGE_RULE_PROVIDER: ${{ vars.IMAGE_RULE_PROVIDER }}
           IMAGE_RULE_MODEL: ${{ vars.IMAGE_RULE_MODEL }}
           CRAWLER_IMAGE_LIMIT: 4
+      - name: Verify browser collection
+        run: node scripts/check-browser-collection.mjs
+        env:
+          CRAWLER_REQUIRE_BROWSER_SUCCESS: ${{ inputs.validate_only && 'true' || 'false' }}
       - name: Publish validated snapshots
+        if: github.ref == 'refs/heads/main' && inputs.validate_only != true
         run: |
-          git add src/data/catalog.json src/data/announcements.json src/data/public-meta.json scripts/crawler/excluded-sources.json ../data/public-v1.json ../data/public-v2.json ../data/public-v3.json
+          git add src/data/catalog.json src/data/announcements.json src/data/source-status.json src/data/public-meta.json scripts/crawler/excluded-sources.json ../data/public-v1.json ../data/public-v2.json ../data/public-v3.json ../data/public-v4.json
           git add supabase/seed.sql supabase/releases-seed.sql supabase/stores-seed.sql supabase/setup-new-project.sql
           if git diff --cached --quiet; then exit 0; fi
           git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "data: refresh official announcements and image links"

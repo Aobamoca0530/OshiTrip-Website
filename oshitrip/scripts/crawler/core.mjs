@@ -413,6 +413,7 @@ export async function crawlSource(
   source,
   {
     fetcher = fetch,
+    readPage,
     pause = (ms) => new Promise((r) => setTimeout(r, ms)),
     limit = 20,
     imageReviewer,
@@ -461,7 +462,7 @@ export async function crawlSource(
     )
       throw new Error("URL 不在批准范围或 robots 禁止");
     await pause(2000);
-    return fetchLimited(url, { fetcher });
+    return readPage ? readPage(url, { permits: (path) => robotsAllows(robots, path) }) : fetchLimited(url, { fetcher });
   };
   let urls = [...source.urls];
   const indexes = [...new Set([source.index_url, ...(source.index_urls || [])].filter(Boolean))].slice(0, 3);

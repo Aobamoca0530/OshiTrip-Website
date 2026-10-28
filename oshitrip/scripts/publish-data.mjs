@@ -13,9 +13,10 @@ const data = {
   releases: (await read('releases.json')).filter(r => r.status === 'published'),
   stores: (await read('stores.json')).filter(s => s.status === 'published'),
   announcements: await read('announcements.json'),
+  monitoring: await read('source-status.json'),
 };
 let bundle = makeDataBundle(data, new Date().toISOString());
-const destination = path.join(app, '..', 'data', 'public-v3.json');
+const destination = path.join(app, '..', 'data', 'public-v4.json');
 try {
   const previous = dataBundleSchema.parse(JSON.parse(await fs.readFile(destination, 'utf8')));
   if (previous.revision === bundle.revision) bundle = previous;
@@ -34,8 +35,19 @@ if (process.argv.includes('--check')) {
   await fs.writeFile(destination, json);
   await fs.writeFile(metaFile, metaJson);
 }
+// Older clients hash their parsed schema. Preserve the exact v3 payload shape.
+const { monitoring, ...v3Data } = bundle.data;
+void monitoring;
+const v3Revision = createHash('sha256').update(JSON.stringify(v3Data)).digest('hex');
+const v3File = path.join(app, '..', 'data', 'public-v3.json');
+let v3Date = bundle.publishedAt;
+try { const old = JSON.parse(await fs.readFile(v3File, 'utf8')); if (old.revision === v3Revision) v3Date = old.publishedAt; } catch { /* first publication */ }
+const v3Json = JSON.stringify({ formatVersion: 3, revision: v3Revision, publishedAt: v3Date, data: v3Data }, null, 2) + '\n';
+if (process.argv.includes('--check')) {
+  if ((await fs.readFile(v3File, 'utf8')).replaceAll('\r\n', '\n') !== v3Json) throw new Error('v3 feed is out of date');
+} else await fs.writeFile(v3File, v3Json);
 // Older clients hash their parsed schema, so strip v3-only fields for v2.
-const v2Data = { ...bundle.data, announcements: bundle.data.announcements.map(({ activity, image_readings, ...row }) => { void activity; void image_readings; return row; }) };
+const v2Data = { ...v3Data, announcements: bundle.data.announcements.map(({ activity, image_readings, ...row }) => { void activity; void image_readings; return row; }) };
 const v2Revision = createHash('sha256').update(JSON.stringify(v2Data)).digest('hex');
 const v2File = path.join(app, '..', 'data', 'public-v2.json');
 let v2Date = bundle.publishedAt;

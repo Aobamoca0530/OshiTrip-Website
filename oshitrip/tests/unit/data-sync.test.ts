@@ -29,27 +29,27 @@ describe("public activity updates", () => {
     expect(status).toMatchObject({ revision: next.revision, checking: false, result: "updated" });
     expect(fetcher).toHaveBeenCalledTimes(1);
     expect(fetcher.mock.calls[0][0]).toBe(PUBLIC_DATA_URL);
-    expect(JSON.parse(await fs.readFile(path.join(cacheDir, "public-v3.json"), "utf8"))).toEqual(next);
+    expect(JSON.parse(await fs.readFile(path.join(cacheDir, "public-v4.json"), "utf8"))).toEqual(next);
     const offline = new DataSync({ bundled, cacheDir, offline: true, now });
     expect((await offline.snapshot()).data.catalog.events[0].title_zh).toContain("更新测试");
     expect(await offline.refresh()).toMatchObject({ source: "cache", revision: next.revision, result: "unavailable", checking: false });
   });
   it("works on a first launch offline and ignores corrupt caches", async () => {
     const cacheDir = await directory();
-    await fs.writeFile(path.join(cacheDir, "public-v3.json"), "broken");
+    await fs.writeFile(path.join(cacheDir, "public-v4.json"), "broken");
     const service = new DataSync({ bundled, cacheDir, offline: true, now });
     expect((await service.snapshot()).revision).toBe(bundled.revision);
     expect(await service.refresh()).toMatchObject({ source: "bundled", result: "unavailable" });
   });
   it.each([
     ["checksum", { ...next, revision: "0".repeat(64) }],
-    ["format", { ...next, formatVersion: 4 }],
+    ["format", { ...next, formatVersion: 99 }],
     ["schema", { ...next, data: {} }],
     ["older publication", { ...next, publishedAt: "2026-10-26T00:00:00Z" }],
     ["future publication", { ...next, publishedAt: "2027-01-01T00:00:00Z" }],
   ])("keeps working data when rejecting %s", async (_, value) => {
     const cacheDir = await directory();
-    const file = path.join(cacheDir, "public-v3.json");
+    const file = path.join(cacheDir, "public-v4.json");
     await fs.writeFile(file, JSON.stringify(bundled));
     const service = new DataSync({ bundled, cacheDir, fetcher: fetchBundle(value), now });
     expect(await service.refresh()).toMatchObject({ revision: bundled.revision, result: "unavailable" });
@@ -82,7 +82,7 @@ describe("public activity updates", () => {
   });
   it("uses a newer bundled snapshot in preference to an older cache", async () => {
     const cacheDir = await directory();
-    await fs.writeFile(path.join(cacheDir, "public-v3.json"), JSON.stringify(bundled));
+    await fs.writeFile(path.join(cacheDir, "public-v4.json"), JSON.stringify(bundled));
     const service = new DataSync({ bundled: next, cacheDir, offline: true, now });
     expect((await service.snapshot()).revision).toBe(next.revision);
   });

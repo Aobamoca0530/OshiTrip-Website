@@ -1,6 +1,8 @@
 import { WORKFLOW_VERSION } from './crawler/workflow.mjs';
+import { PUBLIC_SOURCE_IDS } from './crawler/public-sources.mjs';
 import fs from 'node:fs/promises';
-import { crawlSource, robotsAllows } from './crawler/core.mjs';
+import { robotsAllows } from './crawler/core.mjs';
+import { crawlPublicSource } from './crawler/browser.mjs';
 import { createImageReviewer, bailianEndpoint } from './crawler/image-rules.mjs';
 import { mergeAnnouncements } from './crawler/public-news.mjs';
 import { loadDataSchema } from './load-data-schema.mjs';
@@ -19,7 +21,7 @@ const translationConfig = resolveAI('translation');
 const reviewConfig = resolveAI('review');
 // Explicitly selected public HTML sources. This is a project crawl decision,
 // not a claim of a copyright license. Robots/HTTP access restrictions still apply.
-const enabled = new Set(['bang-dream-news', 'bang-dream-live', 'bushiroad-creative', 'sweets-paradise', 'nijigasaki-news', 'starlight-news', 'starlight-events']);
+const enabled = new Set(PUBLIC_SOURCE_IDS);
 const sources = configured.filter(s => enabled.has(s.id)).map(s => ({ ...s, public_fetch_enabled: true, index_url: s.id === 'sweets-paradise' ? 'https://www.sweets-paradise.jp/collaboration/' : s.index_url }));
 const lastReport = replay ? JSON.parse(await fs.readFile('var/public-crawler/report.json', 'utf8')) : null;
 const stamp = lastReport?.checked_at || new Date().toISOString();
@@ -29,10 +31,10 @@ const observedUrls = new Set();
 const policies = new Map();
 for (const { observation: o } of observations) observedUrls.add(o.source_url);
 for (const source of pruneOnly || replay ? [] : sources) {
-  const result = await crawlSource(source, { limit: source.id === 'bang-dream-live' ? 40 : 16, acceptDiscoveredLink: ({ title }) => relevant(source.id, title) && (['bang-dream-live', 'starlight-events'].includes(source.id) || classifyOffline(title) !== null || /抽選|先行|コラボ|イベント/.test(title)) });
+  const result = await crawlPublicSource(source, { limit: source.id === 'bang-dream-live' ? 40 : 16, acceptDiscoveredLink: ({ title }) => relevant(source.id, title) && (['bang-dream-live', 'starlight-events'].includes(source.id) || classifyOffline(title) !== null || /抽選|先行|コラボ|イベント/.test(title)) });
   for (const o of result.observations) observedUrls.add(o.source_url);
   if (result.robots_rules) policies.set(source.id, result.robots_rules);
-  report.sources.push({ id: source.id, status: result.status, robots: result.robots_status || 'not-checked', pages: result.observations.length, discovered: result.discovered, deferred_urls: result.deferred_urls || [], excluded: result.observations.filter(o => !relevant(source.id, o.title)).length, errors: result.errors, access_diagnostics: result.access_diagnostics || [] });
+  report.sources.push({ id: source.id, transport: result.transport, status: result.status, robots: result.robots_status || 'not-checked', pages: result.observations.length, discovered: result.discovered, deferred_urls: result.deferred_urls || [], excluded: result.observations.filter(o => !relevant(source.id, o.title)).length, errors: result.errors, access_diagnostics: result.access_diagnostics || [] });
   for (const observation of result.observations) if (relevant(source.id, observation.title) && classifyAnnouncement(source, observation)) observations.push({ source, observation });
 }
 await fs.mkdir('var/public-crawler', { recursive: true });

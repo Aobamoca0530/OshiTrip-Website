@@ -5,6 +5,7 @@ import releases from "@/data/releases.json";
 import stores from "@/data/stores.json";
 import announcements from "@/data/announcements.json";
 import metadata from "@/data/public-meta.json";
+import monitoring from "@/data/source-status.json";
 import { dataBundleSchema } from "./data-bundle";
 import { DataSync } from "./data-sync";
 
@@ -19,6 +20,7 @@ export function sharedDataService() {
       releases: releases.filter(r => r.status === "published"),
       stores: stores.filter(s => s.status === "published"),
       announcements,
+      monitoring,
     } });
     globalStore.oshitripDataSyncV1 = new DataSync({ bundled,
       cacheDir: process.env.OSHITRIP_DATA_DIR || undefined,

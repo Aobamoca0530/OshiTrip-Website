@@ -1,5 +1,6 @@
 import { Admin } from "@/components/admin";
 import { databaseConfigured } from "@/lib/supabase";
+import Link from "next/link";
 export const metadata = {
   title: "活动管理",
   robots: { index: false, follow: false },
@@ -11,6 +12,7 @@ export default function Page() {
         <span className="eyebrow">CURATE WITH CARE</span>
         <h1>活动管理</h1>
         <p>一条官方来源，一次认真核实。</p>
+        <Link className="button secondary" href="/admin/sources">来源状态与待审核</Link>
       </div>
       {databaseConfigured() ? (
         <Admin />

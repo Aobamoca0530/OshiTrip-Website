@@ -31,6 +31,7 @@ export function workflowContract() {
 export function maintenanceStages({ replay = false } = {}) {
   return [
     ['collect', ['scripts/crawl-public.mjs', ...(replay ? ['--replay'] : [])]],
+    ['prepare-source-status', ['scripts/build-source-status.mjs']],
     ['prepare-public-data', ['scripts/publish-data.mjs']],
     ['check-public-data', ['scripts/publish-data.mjs', '--check']],
     ['generate-seed', ['scripts/generate-seed.mjs']],

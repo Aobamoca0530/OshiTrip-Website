@@ -1,0 +1,121 @@
+{
+  "checked_at": "2026-10-28T18:14:42.476Z",
+  "sources": [
+    {
+      "id": "bang-dream-live",
+      "name": "BanG Dream! Live / Event",
+      "url": "https://bang-dream.com/events/",
+      "state": "success",
+      "last_attempt_at": "2026-10-28T18:14:42.476Z",
+      "last_success_at": "2026-10-28T18:14:42.476Z",
+      "pages": 37,
+      "discovered": 37,
+      "deferred": 0,
+      "retained": 0,
+      "issues": []
+    },
+    {
+      "id": "bang-dream-news",
+      "name": "BanG Dream! 新闻",
+      "url": "https://bang-dream.com/news/",
+      "state": "success",
+      "last_attempt_at": "2026-10-28T18:14:42.476Z",
+      "last_success_at": "2026-10-28T18:14:42.476Z",
+      "pages": 1,
+      "discovered": 1,
+      "deferred": 0,
+      "retained": 0,
+      "issues": []
+    },
+    {
+      "id": "bushiroad-creative",
+      "name": "Bushiroad Creative",
+      "url": "https://bushiroad-creative.com/",
+      "state": "success",
+      "last_attempt_at": "2026-10-28T18:14:42.476Z",
+      "last_success_at": "2026-10-28T18:14:42.476Z",
+      "pages": 5,
+      "discovered": 5,
+      "deferred": 0,
+      "retained": 1,
+      "issues": []
+    },
+    {
+      "id": "nijigasaki-news",
+      "name": "虹咲官网新闻",
+      "url": "https://www.lovelive-anime.jp/nijigasaki/topics.php",
+      "state": "failed",
+      "last_attempt_at": "2026-10-28T18:14:42.476Z",
+      "last_success_at": null,
+      "pages": 0,
+      "discovered": 7,
+      "deferred": 0,
+      "retained": 7,
+      "issues": [
+        "HTTP 403：本次未能读取页面，原因尚待确认。"
+      ]
+    },
+    {
+      "id": "starlight-news",
+      "name": "少女歌剧新闻",
+      "url": "https://revuestarlight.com/news/",
+      "state": "success",
+      "last_attempt_at": "2026-10-28T18:14:42.476Z",
+      "last_success_at": "2026-10-28T18:14:42.476Z",
+      "pages": 10,
+      "discovered": 10,
+      "deferred": 0,
+      "retained": 0,
+      "issues": []
+    },
+    {
+      "id": "team-e-nijigasaki",
+      "name": "虹咲 POP UP · TEAM Entertainment",
+      "url": "https://www.team-e.co.jp",
+      "state": "disabled",
+      "last_attempt_at": null,
+      "last_success_at": null,
+      "pages": null,
+      "discovered": null,
+      "deferred": null,
+      "retained": 0,
+      "issues": []
+    },
+    {
+      "id": "sweets-paradise",
+      "name": "SWEETS PARADISE",
+      "url": "https://www.sweets-paradise.jp/collaboration/",
+      "state": "success",
+      "last_attempt_at": "2026-10-28T18:14:42.476Z",
+      "last_success_at": "2026-10-28T18:14:42.476Z",
+      "pages": 1,
+      "discovered": 1,
+      "deferred": 0,
+      "retained": 0,
+      "issues": []
+    },
+    {
+      "id": "starlight-events",
+      "name": "少女歌剧 Live / Event",
+      "url": "https://revuestarlight.com/event/",
+      "state": "success",
+      "last_attempt_at": "2026-10-28T18:14:42.476Z",
+      "last_success_at": "2026-10-28T18:14:42.476Z",
+      "pages": 9,
+      "discovered": 9,
+      "deferred": 0,
+      "retained": 0,
+      "issues": []
+    }
+  ],
+  "unread_announcement_ids": [
+    "3e4377f79d9b13a6cabd2406",
+    "460293924341f571b3abae18",
+    "63e9f9ae966e1ff95609391c",
+    "6742ea1e9447868ab462ab22",
+    "b0b1dd28461a3857a1fb917a",
+    "b2f9cf322c26af286926d3b7",
+    "b4ecb38087da7c5d83354e73",
+    "5967750a617af6af7a547eb7"
+  ]
+}

@@ -53,6 +53,7 @@ export function Footer() {
       <div>
         <Link href="/about">数据来源与说明</Link>
         <Link href="/admin">活动管理</Link>
+        <Link href="/admin/sources">来源状态与待审核</Link>
         <span>个人非商业项目 · 所有时间为日本时间</span>
       </div>
     </footer>
