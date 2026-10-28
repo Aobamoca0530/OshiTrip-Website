@@ -21,6 +21,11 @@ try {
         const result = await response.clone().json().catch(() => null);
         const code = result?.error?.code;
         report.error_code = safeCodes.has(code) ? code : 'unclassified_api_error';
+        const type = result?.error?.type;
+        if (safeCodes.has(type)) report.error_code = type;
+        const message = typeof result?.error?.message === 'string' ? result.error.message : '';
+        if (report.error_code === 'unclassified_api_error' && /billing|credit|quota|balance/i.test(message)) report.error_code = 'quota_or_billing_limit';
+        if (report.error_code === 'unclassified_api_error' && /rate.limit|requests per|tokens per/i.test(message)) report.error_code = 'rate_limit_exceeded';
         if (typeof result?.error?.message === 'string' && /input messages.*json|json.*input messages/i.test(result.error.message)) report.error_code = 'json_input_requirement';
         if (['input', 'model', 'text.format', 'max_output_tokens'].includes(result?.error?.param)) report.error_param = result.error.param;
       }
