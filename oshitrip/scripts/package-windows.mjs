@@ -20,7 +20,7 @@ for (const entry of await fs.readdir(app)) {
     throw new Error(`Remove private environment files from this build checkout first: ${entry}`);
 }
 const env = { ...process.env, OSHITRIP_DESKTOP_BUILD: '1', NEXT_TELEMETRY_DISABLED: '1', NEXT_PUBLIC_SUPABASE_URL: '', NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: '' };
-for (const key of ['NODE_OPTIONS', 'NODE_PATH', 'SUPABASE_SECRET_KEY', 'SUPABASE_SERVICE_ROLE_KEY', 'DASHSCOPE_API_KEY', 'OPENAI_API_KEY']) delete env[key];
+for (const key of ['NODE_OPTIONS', 'NODE_PATH', 'SUPABASE_SECRET_KEY', 'SUPABASE_SERVICE_ROLE_KEY', 'DASHSCOPE_API_KEY', 'DEEPSEEK_API_KEY', 'OPENAI_API_KEY']) delete env[key];
 function run(command, args, options = {}) {
   const result = spawnSync(command, args, { cwd: app, env, stdio: 'inherit', ...options });
   if (result.error) throw result.error;

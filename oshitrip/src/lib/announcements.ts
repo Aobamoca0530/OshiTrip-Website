@@ -67,6 +67,11 @@ export const announcementSchema = z.object({
 });
 export const announcementsSchema = z.array(announcementSchema).max(120);
 export type Announcement = z.infer<typeof announcementSchema>;
+export function announcementKind(item: Announcement): "offline" | "live" {
+  if (item.activity) return item.activity.kind;
+  if (item.source_id === "bang-dream-live") return "live";
+  return "offline";
+}
 export const imageKindLabels = {
   merchandise: "售卖商品图",
   bonus: "特典 / 满赠图",

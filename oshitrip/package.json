@@ -1,6 +1,6 @@
 {
   "name": "oshitrip",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@11.25.0",
@@ -22,7 +22,10 @@
     "seed:sql": "node scripts/generate-seed.mjs && node scripts/generate-setup-sql.mjs",
     "crawl:check": "node --env-file-if-exists=.env.local scripts/check-crawler-config.mjs",
     "crawl:releases": "node scripts/crawl-releases.mjs",
-    "crawl:public": "node scripts/crawl-public.mjs"
+    "crawl:public": "node --env-file-if-exists=.env.local scripts/crawl-public.mjs",
+    "crawl:replay": "node --env-file-if-exists=.env.local scripts/crawl-public.mjs --replay",
+    "ai:check": "node --env-file-if-exists=.env.local scripts/check-ai-config.mjs",
+    "maintain:public": "node --env-file-if-exists=.env.local scripts/maintain-public.mjs"
   },
   "dependencies": {
     "next": "16.4.3",

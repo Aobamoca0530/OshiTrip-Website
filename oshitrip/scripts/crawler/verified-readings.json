@@ -147,5 +147,2080 @@
       },
       "cancelled": false
     }
+  },
+  "https://bang-dream.com/events/nakamachiarale_live2026/": {
+    "source_hash": "84f2716bcf2b741d1f08d429bf087376e83427c31cf2587284daf0da18aab7bf",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": false,
+      "title_zh": "仲町あられ 2026 演唱会「RESONEXT」",
+      "summary_zh": "2026年12月24日在大手町三井ホール举办昼、夜两场。一般指定席6,600日元，附特典指定席9,900日元，均含税；特典卡由仲町あられ在演出结束后亲手交付。一般发售为先到先得，售罄即止。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "yumemita"
+      ],
+      "cancelled": false,
+      "venues": [
+        {
+          "city": "东京",
+          "name": "大手町三井ホール",
+          "start_date": "2026-12-24",
+          "end_date": "2026-12-24",
+          "evidence_ja": "2026年12月24日(木)\n昼の部 開場：13:15／開演：14:00（予定）\n夜の部 開場：18:30／開演：19:15（予定）\n会場\n大手町三井ホール"
+        }
+      ],
+      "booking": {
+        "method": "先着预约",
+        "opens_at": "2026-10-03T12:00:00+09:00",
+        "closes_at": null,
+        "evidence_ja": "受付期間：2026年10月3日(土) 12:00 ～\n※先着順・上限数に達し次第終了",
+        "note_zh": "仅电子票，每人最多2张；售罄即止，余票需查官方。昼场14:00、夜场19:15开演（日本时间）。",
+        "applies_to_all_venues": true
+      },
+      "rules": [
+        {
+          "title": "一般发售",
+          "text_zh": "2026年10月3日12:00起先到先得，仅受理电子票，每人最多2张；公告未提供实时余票。",
+          "evidence_ja": "受付期間：2026年10月3日(土) 12:00 ～\n※先着順・上限数に達し次第終了\n※スマチケのみの受付となります。\n※お一人様につき2枚までお申込みいただけます。"
+        },
+        {
+          "title": "特典领取",
+          "text_zh": "附特典门票赠特制拍立得风卡，演出结束后由仲町あられ亲手交付。",
+          "evidence_ja": "※終演後、仲町あられより直接お渡しいたします。"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/ymmt-tour2027/": {
+    "source_hash": "d192e312c2a2cfb91e1971dae56ba9959212a91e8054b316c122313144dfa7a9",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": false,
+      "title_zh": "夢限大みゅーたいぷ 2027 巡演「YMMTric COUNTER POINT」",
+      "summary_zh": "2027年1月31日至3月26日在福冈、仙台、札幌、大阪、东京、名古屋举办，共7场。三组场次的先行抽选截止日期不同，不能视为一个统一报名窗口。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "yumemita"
+      ],
+      "cancelled": false,
+      "venues": [
+        {
+          "city": "福冈",
+          "name": "Zepp Fukuoka",
+          "start_date": "2027-01-31",
+          "end_date": "2027-01-31",
+          "evidence_ja": "福岡公演\n日程：2027年1月31日(日) 開場 16:00／開演 17:00（予定）\n会場：Zepp Fukuoka",
+          "booking": {
+            "method": "抽选报名",
+            "opens_at": "2026-10-11T21:00:00+09:00",
+            "closes_at": "2026-11-09T23:59:00+09:00",
+            "evidence_ja": "福岡・宮城公演 最速先行抽選\n受付期間：2026年10月11日(日) 21:00 ～ 11月9日(月) 23:59まで",
+            "note_zh": "需第5张单曲「これはぼくたちの生存のあらすじ」首批附券；每个序列码申请1次，各票种最多2张。各站截止日期不同。",
+            "applies_to_all_venues": false
+          }
+        },
+        {
+          "city": "仙台",
+          "name": "仙台PIT",
+          "start_date": "2027-02-07",
+          "end_date": "2027-02-07",
+          "evidence_ja": "宮城公演\n日程：2027年2月7日(日) 開場 16:30／開演 17:30（予定）\n会場：仙台PIT",
+          "booking": {
+            "method": "抽选报名",
+            "opens_at": "2026-10-11T21:00:00+09:00",
+            "closes_at": "2026-11-09T23:59:00+09:00",
+            "evidence_ja": "福岡・宮城公演 最速先行抽選\n受付期間：2026年10月11日(日) 21:00 ～ 11月9日(月) 23:59まで",
+            "note_zh": "需第5张单曲「これはぼくたちの生存のあらすじ」首批附券；每个序列码申请1次，各票种最多2张。各站截止日期不同。",
+            "applies_to_all_venues": false
+          }
+        },
+        {
+          "city": "札幌",
+          "name": "Zepp Sapporo",
+          "start_date": "2027-02-20",
+          "end_date": "2027-02-20",
+          "evidence_ja": "北海道公演\n日程：2027年2月20日(土) 開場 18:00／開演 19:00（予定）\n会場：Zepp Sapporo",
+          "booking": {
+            "method": "抽选报名",
+            "opens_at": "2026-10-11T21:00:00+09:00",
+            "closes_at": "2026-11-23T23:59:00+09:00",
+            "evidence_ja": "北海道・大阪公演 最速先行抽選\n受付期間：2026年10月11日(日) 21:00 ～ 11月23日(月) 23:59まで",
+            "note_zh": "需第5张单曲「これはぼくたちの生存のあらすじ」首批附券；每个序列码申请1次，各票种最多2张。各站截止日期不同。",
+            "applies_to_all_venues": false
+          }
+        },
+        {
+          "city": "大阪",
+          "name": "Zepp Osaka Bayside",
+          "start_date": "2027-03-04",
+          "end_date": "2027-03-04",
+          "evidence_ja": "大阪公演\n日程：DAY1 2027年3月4日(木) 開場 18:00／開演 19:00（予定）\nDAY2 2027年3月5日(金) 開場 18:00／開演 19:00（予定）\n会場：Zepp Osaka Bayside",
+          "booking": {
+            "method": "抽选报名",
+            "opens_at": "2026-10-11T21:00:00+09:00",
+            "closes_at": "2026-11-23T23:59:00+09:00",
+            "evidence_ja": "北海道・大阪公演 最速先行抽選\n受付期間：2026年10月11日(日) 21:00 ～ 11月23日(月) 23:59まで",
+            "note_zh": "需第5张单曲「これはぼくたちの生存のあらすじ」首批附券；每个序列码申请1次，各票种最多2张。各站截止日期不同。",
+            "applies_to_all_venues": false
+          }
+        },
+        {
+          "city": "大阪",
+          "name": "Zepp Osaka Bayside",
+          "start_date": "2027-03-05",
+          "end_date": "2027-03-05",
+          "evidence_ja": "大阪公演\n日程：DAY1 2027年3月4日(木) 開場 18:00／開演 19:00（予定）\nDAY2 2027年3月5日(金) 開場 18:00／開演 19:00（予定）\n会場：Zepp Osaka Bayside",
+          "booking": {
+            "method": "抽选报名",
+            "opens_at": "2026-10-11T21:00:00+09:00",
+            "closes_at": "2026-11-23T23:59:00+09:00",
+            "evidence_ja": "北海道・大阪公演 最速先行抽選\n受付期間：2026年10月11日(日) 21:00 ～ 11月23日(月) 23:59まで",
+            "note_zh": "需第5张单曲「これはぼくたちの生存のあらすじ」首批附券；每个序列码申请1次，各票种最多2张。各站截止日期不同。",
+            "applies_to_all_venues": false
+          }
+        },
+        {
+          "city": "东京",
+          "name": "Zepp DiverCity (TOKYO)",
+          "start_date": "2027-03-25",
+          "end_date": "2027-03-25",
+          "evidence_ja": "東京公演\n日程：2027年3月25日(木) 開場 18:00／開演 19:00（予定）\n会場：Zepp DiverCity (TOKYO)",
+          "booking": {
+            "method": "抽选报名",
+            "opens_at": "2026-10-11T21:00:00+09:00",
+            "closes_at": "2026-12-14T23:59:00+09:00",
+            "evidence_ja": "東京・愛知公演 最速先行抽選\n受付期間：2026年10月11日(日) 21:00 ～ 12月14日(月) 23:59まで",
+            "note_zh": "需第5张单曲「これはぼくたちの生存のあらすじ」首批附券；每个序列码申请1次，各票种最多2张。各站截止日期不同。",
+            "applies_to_all_venues": false
+          }
+        },
+        {
+          "city": "名古屋",
+          "name": "Zepp Nagoya",
+          "start_date": "2027-03-26",
+          "end_date": "2027-03-26",
+          "evidence_ja": "愛知公演\n日程：2027年3月26日(金) 開場 18:00／開演 19:00（予定）\n会場：Zepp Nagoya",
+          "booking": {
+            "method": "抽选报名",
+            "opens_at": "2026-10-11T21:00:00+09:00",
+            "closes_at": "2026-12-14T23:59:00+09:00",
+            "evidence_ja": "東京・愛知公演 最速先行抽選\n受付期間：2026年10月11日(日) 21:00 ～ 12月14日(月) 23:59まで",
+            "note_zh": "需第5张单曲「これはぼくたちの生存のあらすじ」首批附券；每个序列码申请1次，各票种最多2张。各站截止日期不同。",
+            "applies_to_all_venues": false
+          }
+        }
+      ],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "申请资格",
+          "text_zh": "使用第5张单曲「これはぼくたちの生存のあらすじ」首批生产版附带的申请券。每个序列码可申请1次，各票种最多2张。",
+          "evidence_ja": "※ 夢限大みゅーたいぷ 5th Single「これはぼくたちの生存のあらすじ」 初回生産分に封入の申込券でご応募いただけます。\n※シリアルコード1つにつき1回、各券種2枚までお申込みいただけます。"
+        },
+        {
+          "title": "福冈与宫城",
+          "text_zh": "受理时间为2026年10月11日21:00至11月9日23:59（日本时间）。",
+          "evidence_ja": "福岡・宮城公演 最速先行抽選\n受付期間：2026年10月11日(日) 21:00 ～ 11月9日(月) 23:59まで"
+        },
+        {
+          "title": "北海道与大阪",
+          "text_zh": "受理时间为2026年10月11日21:00至11月23日23:59（日本时间）。",
+          "evidence_ja": "北海道・大阪公演 最速先行抽選\n受付期間：2026年10月11日(日) 21:00 ～ 11月23日(月) 23:59まで"
+        },
+        {
+          "title": "东京与爱知",
+          "text_zh": "受理时间为2026年10月11日21:00至12月14日23:59（日本时间）。",
+          "evidence_ja": "東京・愛知公演 最速先行抽選\n受付期間：2026年10月11日(日) 21:00 ～ 12月14日(月) 23:59まで"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/mygo_9th_hyogo/": {
+    "source_hash": "38aa8408231f934f95b3a39462fb31e2b542febc8e7a93960fc4afd8671ed22b",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "MyGO!!!!! 第9次演唱会「つなぎ目の向こうに」神户再景篇",
+      "summary_zh": "2026年11月14日、15日在神户世界纪念馆举办。一般发售已于10月17日12:00开始，先到先得；早期抽选与票务平台先行已结束。S席已达到受理上限，不能依据公告推断其他席种尚有余票。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "mygo"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "一般发售限制",
+          "text_zh": "每人最多4张，售罄即止；S席附周边票不再受理。",
+          "evidence_ja": "※先着順・上限数に達し次第終了\n※お一人様につき4枚までお申込みいただけます。\n※S席(特製グッズ付き)は先行受付分にて上限数に達したため受付はございません。"
+        },
+        {
+          "title": "最速先行已结束",
+          "text_zh": "原抽选使用第3张专辑「致並跡」首批附券，同一序列码可申请两天，每次最多4张；这轮已结束。",
+          "evidence_ja": "最速先行抽選（受付終了）"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/avemujica_7th/": {
+    "source_hash": "929bb6da2ce1b0c244a65fb029ea8d18354d08db741fbb6fe3ffb1558b8e8dda",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "Ave Mujica 第7次演唱会「Virtus」",
+      "summary_zh": "2026年10月24日、25日在京王アリーナ TOKYO 举办，现场演出日期已过。11月1日的截止时间属于第二天的配信与回放，不是新的线下场次。公告还包含当日票、官方转售及物贩安排，须按各自日期查阅。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "ave-mujica"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "应援灯限制",
+          "text_zh": "仅可使用公告列出的官方手环灯（含台北追加公演款）；禁止携带和使用其他荧光棒、应援灯。",
+          "evidence_ja": "それ以外のサイリウム・ペンライト類の持ち込み・使用は禁止 とさせていただきます。"
+        },
+        {
+          "title": "当日票",
+          "text_zh": "若前一天已售罄则不发售当日票；不可将历史售票公告理解为当前仍可购买。",
+          "evidence_ja": "※前日までに完売の場合、発売はございません。"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/millsage_ikka-dumb-rock/": {
+    "source_hash": "07d4b7935f6fd91374e0f97e7512096c72270e375512d9f18a8ee2b1cc735695",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "millsage × 一家Dumb Rock! 特别演唱会",
+      "summary_zh": "2027年1月11日在东京 Kanadevia Hall 举办，预计17:00入场、18:00开演。票务平台先行受理至2026年11月16日23:59，每人最多2张；另需饮料费。站席和指定席的价格、周边配置不同。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "millsage",
+        "ikka-dumb-rock"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "先行受理",
+          "text_zh": "2026年10月9日19:00至11月16日23:59受理，每人最多2张。原段未明确是否抽选，结构化报名方式继续待核实。",
+          "evidence_ja": "受付期間：2026年10月9日(金) 19:00～ 11月16日(月) 23:59\n※お一人様につき2枚までお申し込みいただけます。"
+        },
+        {
+          "title": "应援灯",
+          "text_zh": "仅可携带、使用门票特典的特制手环灯，其他发光应援物禁止。",
+          "evidence_ja": "本公演ではチケット特典グッズ【特製バングルライト】を除く光り物の応援アイテム(サイリウム、ペンライト、バングルライト、リングライト、その他電飾やそれを伴うもの等)の持ち込み、使用を禁止とさせていただきます。"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/millsage_1st/": {
+    "source_hash": "c5ee8621dcef484428b7b3a2d8f8eb0ef28e149d663a37b78e11bf5216b65148",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": false,
+      "title_zh": "millsage 首场演唱会「极夜」",
+      "summary_zh": "2026年12月25日在东京 Spotify O-WEST 举办，预计18:00入场、19:00开演，全站席6,600日元（含税）。最速先行需要单曲「鳴らす」首批附券，每人最多2张；严禁携带和使用发光应援物。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "millsage"
+      ],
+      "cancelled": false,
+      "venues": [
+        {
+          "city": "东京",
+          "name": "Spotify O-WEST",
+          "start_date": "2026-12-25",
+          "end_date": "2026-12-25",
+          "evidence_ja": "日程\n2026年12月25日(金) 開場18:00／開演19:00（予定）\n会場\nSpotify O-WEST"
+        }
+      ],
+      "booking": {
+        "method": "抽选报名",
+        "opens_at": "2026-09-30T10:00:00+09:00",
+        "closes_at": "2026-11-08T23:59:00+09:00",
+        "evidence_ja": "最速先行抽選\n受付期間：2026年9月30日(水) 10:00 ～ 11月8日(日) 23:59まで",
+        "note_zh": "需首张单曲「鳴らす」首批附券，每人最多2张；全站席，禁止发光应援物。",
+        "applies_to_all_venues": true
+      },
+      "rules": [
+        {
+          "title": "抽选资格与期限",
+          "text_zh": "2026年9月30日10:00至11月8日23:59受理。使用首张单曲「鳴らす」首批生产版附券，每人最多2张。",
+          "evidence_ja": "最速先行抽選\n受付期間：2026年9月30日(水) 10:00 ～ 11月8日(日) 23:59まで\n受付はこちら\n※ millsage 1st Single「鳴らす」 初回生産分に封入の申込券でご応募いただけます。\n※お一人様につき2枚までお申込みいただけます。"
+        },
+        {
+          "title": "应援物限制",
+          "text_zh": "禁止携带及使用所有发光应援物，包括荧光棒、应援灯、手环灯与戒指灯。",
+          "evidence_ja": "本公演では光り物の応援アイテム(サイリウム、ペンライト、バングルライト、リングライト、その他電飾やそれを伴うもの等)の持ち込み、使用を禁止とさせていただきます。"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/avemujica-8th/": {
+    "source_hash": "8f1bba787859910ad92e0d635af424d8eac958ccc52fe89e918918ac16cfcd2d",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": false,
+      "title_zh": "Ave Mujica 第8次演唱会「Discrimen Fati」",
+      "summary_zh": "2027年5月29日、30日在 Kアリーナ横浜 举办。最速先行于2026年10月25日20:00至12月6日23:59受理，使用迷你专辑「神の名を」首批附券。单日指定席与两日通票分别受理，抽选优先顺序有特别规定。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "ave-mujica"
+      ],
+      "cancelled": false,
+      "venues": [
+        {
+          "city": "横滨",
+          "name": "Kアリーナ横浜",
+          "start_date": "2027-05-29",
+          "end_date": "2027-05-29",
+          "evidence_ja": "日程\nDAY1\n2027年5月29日(土) 開場17:00／開演18:30（予定）\nDAY2\n2027年5月30日(日) 開場16:00／開演17:30（予定）\n会場\nKアリーナ横浜"
+        },
+        {
+          "city": "横滨",
+          "name": "Kアリーナ横浜",
+          "start_date": "2027-05-30",
+          "end_date": "2027-05-30",
+          "evidence_ja": "日程\nDAY1\n2027年5月29日(土) 開場17:00／開演18:30（予定）\nDAY2\n2027年5月30日(日) 開場16:00／開演17:30（予定）\n会場\nKアリーナ横浜"
+        }
+      ],
+      "booking": {
+        "method": "抽选报名",
+        "opens_at": "2026-10-25T20:00:00+09:00",
+        "closes_at": "2026-12-06T23:59:00+09:00",
+        "evidence_ja": "最速先行抽選\n受付期間：2026年10月25日(日) 20:00 ～ 12月6日(日) 23:59まで",
+        "note_zh": "需迷你专辑「神の名を」首批附券；S/A单日票、一般指定单日票、两日通票分开受理，优先顺序见中文规则。",
+        "applies_to_all_venues": true
+      },
+      "rules": [
+        {
+          "title": "申请资格",
+          "text_zh": "需要迷你专辑「神の名を」首批生产版附带的申请券。",
+          "evidence_ja": "※ Ave Mujica ミニAlbum「神の名を」 初回生産分に封入の申込券でご応募いただけます。"
+        },
+        {
+          "title": "两日通票",
+          "text_zh": "两日通票对应一般指定席，含税12,100日元；中签后两天座位不同。",
+          "evidence_ja": "※通しチケットで当選された場合、座席は2日間で異なります。"
+        },
+        {
+          "title": "抽选顺序",
+          "text_zh": "同时申请单日票与通票时：附周边S/A席单日票优先，其次一般指定席两日通票，最后一般指定席单日票。",
+          "evidence_ja": "単日券【S席(特製グッズ付き)】【A席(特製グッズ付き)】＞2DAYS通しチケット【一般指定席】＞単日券【一般指定席】"
+        },
+        {
+          "title": "序列码与申请次数",
+          "text_zh": "每个序列码可对S/A附周边票、一般指定单日票、一般指定两日通票三类受理，分别对各公演申请一次。同日不会在多种席位重复中签；系统允许同场提交两次也只按一次计。S/A单日票可填至第二志愿，其他两类仅第一志愿。",
+          "evidence_ja": "※シリアル1枚につき、\n・【S席(特製グッズ付き)】【A席(特製グッズ付き)】\n・【一般指定席】\n・2DAYS通しチケット【一般指定席】\nの3つの受付に、各公演それぞれ1回ずつお申込みいただけます。"
+        },
+        {
+          "title": "应援灯限制",
+          "text_zh": "仅允许公告列出的三款Ave Mujica官方手环灯和台北追加公演款；其他荧光棒、应援灯禁止携入和使用。",
+          "evidence_ja": "それ以外のサイリウム・ペンライト類の持ち込み・使用は禁止 とさせていただきます。"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/mygo_9th_hongkong/": {
+    "source_hash": "efe03e7901dd63abff52dec4eab2516712c3519da9fa408a7a8af51c14ebbdd8",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "MyGO!!!!! 第9次演唱会「つなぎ目の向こうに」香港还想篇",
+      "summary_zh": "2027年1月3日在亚洲国际博览馆5号馆举行，预计19:00开演。实名抽选于2026年11月4日12:00至11月8日23:59受理，全部为香港当地时间（UTC+8），不能套用日本时间。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "mygo"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "实名与证件",
+          "text_zh": "登记需填写证件姓名与号码：港澳居民使用身份证、中国内地居民使用往来港澳通行证、海外居民使用护照。",
+          "evidence_ja": "※登録時には、参加者の証明書上の氏名および証明書番号を記入する必要があります。香港＆マカオに在住の参加者は「身分証」、中国本土に在住の参加者は「往来港澳通行証」、海外に在住の参加者は「パスポート」のみ記入してください。"
+        },
+        {
+          "title": "报名时区",
+          "text_zh": "报名时间以香港当地时间为准；现有日本时区场次模型不直接套用此活动。",
+          "evidence_ja": "※いずれも現地時間です。"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/eleganza/": {
+    "source_hash": "9d61bd8945bc753e918d9803ffd32b70e5d99b85c3c46ca70332ae8213496b12",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "Morfonica 演唱会「eleganza」",
+      "summary_zh": "2027年1月9日在东京 Kanadevia Hall 举办，预计17:00入场、18:00开演。公告中的票务平台先行受理截至2026年10月18日23:59，该轮已结束；新的销售安排需查官方。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "morfonica"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "先行与张数",
+          "text_zh": "票务平台先行每次最多4张，受理期为2026年9月22日21:00至10月18日23:59。",
+          "evidence_ja": "受付期間：2026年9月22日(火・祝) 21:00～ 10月18日(日) 23:59\n※1回につき4枚までお申し込みいただけます。"
+        },
+        {
+          "title": "饮料与站席",
+          "text_zh": "另收饮料费；站席必须在电子票记载的分区观看，不能跨区。",
+          "evidence_ja": "・電子チケットに記載のブロックにてご観覧いただきます。記載以外のブロックでのご観覧はできませんのであらかじめご了承ください。"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/yumemita_yunos_party_lv3/": {
+    "source_hash": "0f653cdd364a3b3dabd3b5d4956d71124c3b21fae8463c491b4562c8a5b37c9a",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": false,
+      "title_zh": "千石ユノ DJ 活动「YUNO’s PARTY Lv.3」",
+      "summary_zh": "2026年12月5日在东京 duo MUSIC EXCHANGE 举办。昼场12:15入场、13:00开演；夜场17:30入场、18:15开演，均为预计日本时间。门票详情及受理期间尚待公布。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "yumemita"
+      ],
+      "cancelled": false,
+      "venues": [
+        {
+          "city": "东京",
+          "name": "duo MUSIC EXCHANGE",
+          "start_date": "2026-12-05",
+          "end_date": "2026-12-05",
+          "evidence_ja": "2026年12月5日(土)\n昼の部 開場：12:15／開演：13:00（予定）\n夜の部 開場：17:30／開演：18:15（予定）\n会場\nduo MUSIC EXCHANGE"
+        }
+      ],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "※チケットの詳細や受付期間は後日公開いたします。",
+        "note_zh": "门票详情与受理期间后续公布；昼场13:00、夜场18:15开演（日本时间）。",
+        "applies_to_all_venues": true
+      },
+      "rules": [
+        {
+          "title": "门票未公布",
+          "text_zh": "门票详情和报名受理期间将于之后公布，不能判断报名已开放。",
+          "evidence_ja": "※チケットの詳細や受付期間は後日公開いたします。"
+        }
+      ]
+    }
+  },
+  "https://revuestarlight.com/news/11073/": {
+    "source_hash": "753620d4299eb1144f3e338702f7722379401a531e663dfc495d257eb9359891",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "《少女☆歌剧 Revue Starlight -The MUSICAL-》新作舞台公布",
+      "summary_zh": "官方宣布新作舞台将于2027年初夏上演。具体日期、会场与票务详情尚待后续消息，不能将“初夏”换算成确定举办日期。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "后续详情",
+          "text_zh": "具体公演详情请等待后续公告。",
+          "evidence_ja": "公演詳細は続報をお待ちください。"
+        }
+      ]
+    }
+  },
+  "https://revuestarlight.com/news/11036/": {
+    "source_hash": "1cca9c6729e4750a354bc9b3fb35c27d0f817173a859bc184cfdbddcd8030ca3",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "舞台《遥远的黄金国》演出与现场物贩须知",
+      "summary_zh": "公告整理了舞台观演、物贩和CD购买特典。物贩整理券后来调整为每日发放；库存按天分配，不是按每场分配。不同票种与物贩入场条件需分别核对，旧演出公告不代表当前仍可参加。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "物贩资格",
+          "text_zh": "先行物贩只面向当日持票者；各场开演后的物贩允许无票者购买。",
+          "evidence_ja": "※先行物販は当日のチケットをお持ちの方のみご利用いただけます。\n※ただし、各公演開演後物販に限り、チケットをお持ちでない方もご購入いただけます。"
+        },
+        {
+          "title": "库存安排",
+          "text_zh": "库存按天预留，不按每场预留。",
+          "evidence_ja": "各公演でのお取り置きはございませんので予めご了承ください。"
+        },
+        {
+          "title": "CD特典",
+          "text_zh": "购买指定CD每张赠1张随机会场限定L版照片；先到先得、送完为止，不能选款。",
+          "evidence_ja": "※各種絵柄はお選びいただけません。絵柄はランダムで1枚お渡しさせていただきます。"
+        }
+      ]
+    }
+  },
+  "https://revuestarlight.com/news/11223/": {
+    "source_hash": "0124074b89ffca0f8acdae105d083eadff66e997ec603008649a77c4e482e793",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "少女歌剧9周年：Animate池袋本店服装展与纪念活动",
+      "summary_zh": "Animate池袋本店展示圣翔音乐学园99期生的9套Revue服装与9套女神服装。公告列出9月9日至15日、9月16日至21日两个展示阶段；正文未为这些日期明确标出年份，暂不生成可匹配行程的日期。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "禁止拍摄",
+          "text_zh": "展示服装禁止拍照。",
+          "evidence_ja": "※衣裳の撮影は禁止となっております"
+        },
+        {
+          "title": "购买特典",
+          "text_zh": "活动期间购买指定旧作CD/Blu-ray满2,000日元赠1张既有海报，送完为止。",
+          "evidence_ja": "対象期間中に対象旧譜商品を2,000円以上お買上げで、既存ポスターを1枚プレゼント。"
+        }
+      ]
+    }
+  },
+  "https://revuestarlight.com/news/10889/": {
+    "source_hash": "46b130f9ac529f3860457772abe90fffe72df743b8b4562f0c3b84536f30f7df",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "舞台《遥远的黄金国》公开主视觉与演员全身照",
+      "summary_zh": "官方公开主视觉与演员全身照，并提及5月11日起在东京巨蛋城シアターGロッソ上演。此篇公告未完整列出年份、场次及报名截止时间；“受理中”是公告当时的表述。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "票务需查后续",
+          "text_zh": "公告当时称最速先行正在受理，当前情况应以完整演出页面为准。",
+          "evidence_ja": "チケット最速先行申込受付中！"
+        }
+      ]
+    }
+  },
+  "https://revuestarlight.com/news/11142/": {
+    "source_hash": "d39820c294ce6d8e85d2346a7594f3b4ecbe2cd7b9767e91c8c9a694b71d19e7",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "《剧场版 少女☆歌剧 Revue Starlight》重映与入场特典",
+      "summary_zh": "2026年9月9日起全国影院重映，具体上映期间由各影院确认。普通重映公告票价为1,800日元；Dolby Atmos版按影院通常票价另加附加费。正片后还安排每周更换的「Starry Horizon」演出选段。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "各影院档期",
+          "text_zh": "上映结束时间需向各影院确认，不能将全国重映概括成统一日期区间。",
+          "evidence_ja": "※上映期間は各劇場にお問い合わせください。"
+        },
+        {
+          "title": "入场特典",
+          "text_zh": "每人每次观看随机获赠1份，数量有限、送完即止。第一弹为票券风书签（6种），第二弹为纪念插画卡（9种）。",
+          "evidence_ja": "※おひとり様1回のご鑑賞につきランダムで1枚のお渡しです。\n※数量限定・無くなり次第終了となります。"
+        }
+      ]
+    }
+  },
+  "https://revuestarlight.com/news/11055/": {
+    "source_hash": "b466e3a4c0bf71d17e5391faf7a5ef033a24d75f939d2029ce907607bd4a2693",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "剧场版少女歌剧：5周年舞台问候放映及入场特典",
+      "summary_zh": "公告对应2026年6月4日的重映和舞台问候活动，现场日期已过。新宿バルト9的19:00场在正片后举行舞台问候，全席指定2,500日元（含税）；网上同步直播不属于额外线下场次。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "购票方式",
+          "text_zh": "KINEZO于2026年5月30日00:00开始先到先得售票，需要预先免费注册；有余票时影院窗口也会销售。",
+          "evidence_ja": "※ご利用いただくには事前に無料の会員登録が必要です。\n※先着順での販売となりますので予めご了承ください。"
+        }
+      ]
+    }
+  },
+  "https://revuestarlight.com/news/10970/": {
+    "source_hash": "880caf21fd65578f233860b7b924c950781e1974504ae3a568e6b7dd1cf3e57b",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "舞台《遥远的黄金国》视线受限席发售",
+      "summary_zh": "2026年4月25日10:00起先到先得销售视线受限席：附周边S席22,000日元，无周边A席11,000日元，均为全席指定、含税。这是售票开始时间，不能当作演出日期。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "视线与退款",
+          "text_zh": "可能看不到部分舞台、影像或演出；部分座位靠近扬声器。不能因此当日换座或退款。",
+          "evidence_ja": "※当日の座席の変更・返金対応など一切いたしかねます。ご理解をいただき予めご了承いただいたお客様のみご購入ください。"
+        },
+        {
+          "title": "年龄限制",
+          "text_zh": "学龄前儿童不可入场。",
+          "evidence_ja": "※未就学児入場不可"
+        }
+      ]
+    }
+  },
+  "https://revuestarlight.com/news/11070/": {
+    "source_hash": "f9058d065a61438ca769232ad9ca07accdf3b3da5826165d804690d62b7362aa",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "Starlight九九组 管弦乐演唱会",
+      "summary_zh": "早期公告宣布2027年1月23日在东京SGCホール有明举行昼夜两场，并公布「Starry Horizon」Blu-ray附券。后续Live详情页已公布场次及票务，请在本合集查看「Starlight九九组 管弦乐演唱会2027（详细票务）」，本篇不代表最新售票状态。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "已公布优先售票附券商品，尚未公布受理期间及昼夜场具体时刻。",
+        "applies_to_all_venues": true
+      },
+      "rules": [
+        {
+          "title": "附券商品",
+          "text_zh": "「Starry Horizon」Blu-ray初回限定版与通常版均封入优先销售申请券；7月29日为商品发售日，不是申请开放时间。",
+          "evidence_ja": "＊チケット優先販売申込券は7月29日（水）発売の「少女☆歌劇 レヴュースタァライト」スペシャルライブ \"Starry Horizon\" Blu-ray（初回限定版／通常版）に封入！"
+        }
+      ]
+    }
+  },
+  "https://revuestarlight.com/news/11122/": {
+    "source_hash": "7e0fab7b51155e8fe3a0f7b1946467cb6e28509d64c5c6f90d92c07d9273ff95",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "「Starry Horizon」Blu-ray发售纪念展板展与抽奖",
+      "summary_zh": "指定Animate、Gamers门店举办演出场景展板展及购买抽奖。不同门店分别于7月28日至8月2日或8月9日举办，展览和抽奖的门店日期也不完全一致；不能把Blu-ray发售日当作全部活动日。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "抽奖次数",
+          "text_zh": "活动期间在指定门店每购买1件指定商品可抽奖1次，特典和抽奖券送完即止。",
+          "evidence_ja": "期間中、対象店舗にて対象商品をご購入1点につき1回、豪華景品が当たる抽選会にご参加頂けます。"
+        },
+        {
+          "title": "禁止拍摄",
+          "text_zh": "展板禁止拍照。",
+          "evidence_ja": "※パネルの撮影は禁止となっております"
+        }
+      ]
+    }
+  },
+  "https://bushiroad-creative.com/topics/104468/": {
+    "source_hash": "512271fcacff1c3d50f0d0cdacb0d710a78105636435a295ccd1e675297b1dab",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "BanG Dream! × atré秋叶原 2026快闪店",
+      "summary_zh": "2026年9月18日至10月1日在atré秋叶原1馆2楼活动区举办快闪店，配有馆内联动广播与装饰。公告对9月18日至23日设置了事前抽选及mogily整理券安排，不能标为全期自由入场。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "bang-dream",
+        "our-notes"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "首段入场限制",
+          "text_zh": "9月18日至23日只允许事前抽选中签者入场；全部整理券叫号结束后才可能开放自由入场，不能保证开放。",
+          "evidence_ja": "※2026年9月18日(金)～23日(水・祝)の期間は事前抽選にご当選された方のみご入場いただけます。"
+        }
+      ]
+    }
+  },
+  "https://bushiroad-creative.com/topics/106228/": {
+    "source_hash": "8a9dd2530a05e0fc0bc844a43725916feeeb2617703fa62299bc9304961b79bd",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "Ave Mujica「Virtus」纪念：BanG Dream! STORE联动活动",
+      "summary_zh": "购买收据适用期为2026年10月20日至11月1日，特典派发期为10月24日至11月1日。可在BanG Dream! STORE或演出现场指定展位换领纪念贴纸；现场展位已更改为Bushiroad Creative展位，不能推断演出结束后仍开放。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "bang-dream",
+        "ave-mujica"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "适用收据",
+          "text_zh": "2026年10月20日至11月1日购买的收据属于兑换适用范围，需保留收据并对照官方图示。",
+          "evidence_ja": "※10月20日(火)～11月1日(日)の購入レシートが対象となります。"
+        },
+        {
+          "title": "购买限制",
+          "text_zh": "每次结账每款最多3件，数量限制可能临时调整。",
+          "evidence_ja": "・1会計につき 各種3点まで"
+        }
+      ]
+    }
+  },
+  "https://bushiroad-creative.com/topics/104688/": {
+    "source_hash": "ecbed071d41fd6ce4458104f1e3e3086ce856bea81612a1a8f6b03f5aa9e90f6",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "虹咲学园「虹咲☆警察」Gamers主题活动",
+      "summary_zh": "2026年10月31日至11月20日在Gamers各店及网店举办警察主题新绘周边活动。9月17日起的事前预约是商品预订，不等同于线下入场预约；具体分店营业安排尚需核实。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "lovelive",
+        "nijigasaki"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "购买特典",
+          "text_zh": "每购买含税2,200日元的虹咲相关角色周边，随机赠透明书签1张，共13款；门店与网店特典相同，送完即止。",
+          "evidence_ja": "期間中、ゲーマーズ各店またはゲーマーズ通販にて、「ラブライブ！虹ヶ咲学園スクールアイドル同好会」関連のキャラクターグッズを2,200円（税込）お買い上げごとにランダムで1枚プレゼント！"
+        }
+      ]
+    }
+  },
+  "https://bushiroad-creative.com/topics/103670/": {
+    "source_hash": "3d665da5528a7db4a9193042ec073f10d2cae33d9e75059977d690e3f880cc4d",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "Love Live! 官方卡牌游戏「Royal Holiday」快闪店",
+      "summary_zh": "依次在秋叶原（2026年9月11日至27日）、大阪（10月17日至25日）、名古屋（11月7日至15日）举办。销售魔法少女风插画周边和部分卡牌商品，设购买限制与双重满赠。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "lovelive"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "购买限制",
+          "text_zh": "每次结账新品每款最多3件；随机新品最多3盒或等量单包，既有商品未设置数量限制。",
+          "evidence_ja": "・1会計につき 新商品 各種3点まで\n・トレーディング 新商品 ：3BOX（3BOX相当のPACK数量まで）\n※既存商品につきましては、制限を設けておりません"
+        },
+        {
+          "title": "双重满赠",
+          "text_zh": "每单每满含税3,000日元随机赠明信片1张（3款），并赠高海千歌PR卡1张；PR卡每单上限4张，赠完即止。",
+          "evidence_ja": "※配布は一会計につき4枚を上限とさせていただきます"
+        }
+      ]
+    }
+  },
+  "https://bushiroad-creative.com/topics/104208/": {
+    "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "少女歌剧9周年纪念活动「L’Étoile innocente」",
+      "summary_zh": "2026年11月6日至23日在指定Animate门店、Gamers门店与网店举办。Animate秋叶原2号馆7楼及AKIHABARA Gamers本店6楼另设纪念展示，并有集章活动；集章细则需查看原图。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "购买特典",
+          "text_zh": "每次结账购买少女歌剧周边每满含税2,200日元，随机赠特典1张；不同门店特典不同，送完即止，网店及海外条件可能不同。",
+          "evidence_ja": "「少女☆歌劇 レヴュースタァライト」のグッズを1会計につき2,200円（税込）お買い上げごとに、ランダムで1枚プレゼント。"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/news/2441/": {
+    "source_hash": "1ba884dfb2dae9402f810cd0dcb8c4a564134644439aa07d637ec09b80cf3e3f",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "电影Ave Mujica与Our Notes：Animate池袋本店特别展示",
+      "summary_zh": "公告列出10月23日至11月5日在Animate池袋本店北馆1楼入口广场举办特别展示，包括屏幕播放、Ave Mujica立牌与墙面装饰。原文活动日期没有完整年份，入场规则也未明确，暂保留待核实。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "bang-dream",
+        "ave-mujica",
+        "our-notes"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "展示内容",
+          "text_zh": "将安排影像播放、Ave Mujica立牌和墙面装饰等展示。",
+          "evidence_ja": "・ビジョン放映\n・Ave Mujicaスタンディパネル展示\n・壁面装飾"
+        }
+      ]
+    }
+  },
+  "https://www.sweets-paradise.jp/collaboration/ournotes": {
+    "source_hash": "7d01ce2e8fde6ce1cc2b36a207e1de6a7f280ef46d8e4ec8b128ffad30410f6d",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "BanG Dream! Our Notes × SWEETS PARADISE联动咖啡",
+      "summary_zh": "2026年11月起在9家门店分批举办，各店开始和结束日期不同。联动餐饮需另付自助餐费用；周边只售予点用联动菜单的顾客，不能只买周边。预约通过官方App，按先到先得受理。",
+      "category": "联动咖啡厅",
+      "franchise_ids": [
+        "bang-dream",
+        "our-notes"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "餐饮费用与加单",
+          "text_zh": "联动菜单需另付自助餐费用；餐食、甜品只能入店时点单，饮料可加点至使用结束前30分钟，店方可按当日情况限制。",
+          "evidence_ja": "※フードとデザートのオーダーは、「ご入店時のみ」ご注文いただけます。"
+        },
+        {
+          "title": "周边购买",
+          "text_zh": "仅限点用联动餐饮者购买，不能只买周边；不接受商品预订或留货，须在入店使用时限内购买。",
+          "evidence_ja": "・開催店舗ではコラボグッズはコラボメニューをご飲食していただいたお客様のみご購入いただけます。\nグッズのみでのご購入はできません。予めご了承ください。"
+        },
+        {
+          "title": "App预约",
+          "text_zh": "从希望到店日的5周前至前一天20:00可通过App预约，不受理当日预约；每个账号同一时间只能保留一个日期时段预约。",
+          "evidence_ja": "※アプリでのご予約はご利用希望日の5週間前からご利用希望日前日20時まで承っております。当日のご予約はできません。"
+        },
+        {
+          "title": "同行与年龄",
+          "text_zh": "同行所有人必须购买相同套餐，无论是否点联动餐；小学生及以下需监护人陪同。",
+          "evidence_ja": "※ご利用に際し年齢制限はございませんが、小学生以下のお客様は保護者様同伴の上でご利用をお願いしております。"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/miyako_atelier/": {
+    "source_hash": "cf4d7e5efc220040a811cc59b93deee47196bef713548eccc687eaea3ed71191",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": false,
+      "title_zh": "藤都子现场活动「みやこのアトリエ」",
+      "summary_zh": "2027年3月20日在日本工学院专门学校片柳纪念馆举行，出演者为夢限大みゅーたいぷ的藤都子。官网分类为现场活动；门票详情和受理期间尚待公布。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "bang-dream",
+        "yumemita"
+      ],
+      "cancelled": false,
+      "venues": [
+        {
+          "city": "东京",
+          "name": "学校法人片柳学園 日本工学院専門学校 片柳記念ホール",
+          "start_date": "2027-03-20",
+          "end_date": "2027-03-20",
+          "evidence_ja": "日程\n2027年3月20日(土)\n会場\n学校法人片柳学園 日本工学院専門学校 片柳記念ホール"
+        }
+      ],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "票务详情及受理期间待公布，不能据此判断报名已开放。",
+        "applies_to_all_venues": true
+      },
+      "rules": [
+        {
+          "title": "票务待公布",
+          "text_zh": "门票详情与受理期间将在之后公开。",
+          "evidence_ja": "※チケットの詳細や受付期間は後日公開いたします。"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/kimuchikura-anisama-seoul-2027/": {
+    "source_hash": "1ca87258a8e74c69d9f8f85b53df6ef3e287084c6f2fa04c939dbc803ba6208a",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "KIMCHIKURA × ANISAMA SEOUL 2027",
+      "summary_zh": "2027年1月23日、24日在首尔BLUESQUARE Woori WON Banking Hall举办。DAY1由夢限大みゅーたいぷ出演，DAY2由RAISE A SUILEN出演；详细票务后续公布。这是韩国场次，不能当作日本旅行活动。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "yumemita",
+        "raise-a-suilen"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "出演日期",
+          "text_zh": "夢限大みゅーたいぷ为第一天，RAISE A SUILEN为第二天；更多细节待公布。",
+          "evidence_ja": "DAY1に夢限大みゅーたいぷ、DAY2にRAISE A SUILENが出演！\n※詳細は後日発表となります。"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/ikka-dumb-rock_1st/": {
+    "source_hash": "3c86f290c5c0442a0ad47c202bd38e5373631a1554f87696ad2a1996a5dd92b6",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": false,
+      "title_zh": "一家Dumb Rock! 首场GIG「ピース＆グルーヴ」",
+      "summary_zh": "2026年12月12日在东京duo MUSIC EXCHANGE举行，预计17:00入场、18:00开演。全站席6,600日元（含税）；最速先行使用首张单曲附券，受理截止为2026年11月1日23:59。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "ikka-dumb-rock"
+      ],
+      "cancelled": false,
+      "venues": [
+        {
+          "city": "东京",
+          "name": "duo MUSIC EXCHANGE",
+          "start_date": "2026-12-12",
+          "end_date": "2026-12-12",
+          "evidence_ja": "日程\n2026年12月12日(土) 開場17:00／開演18:00（予定）\n会場\nduo MUSIC EXCHANGE"
+        }
+      ],
+      "booking": {
+        "method": "抽选报名",
+        "opens_at": "2026-09-30T10:00:00+09:00",
+        "closes_at": "2026-11-01T23:59:00+09:00",
+        "evidence_ja": "最速先行抽選\n受付期間：2026年9月30日(水) 10:00 ～ 11月1日(日) 23:59まで",
+        "note_zh": "需首张单曲「ピースフル・ピーシーズ！」首批附券，每人最多2张。",
+        "applies_to_all_venues": true
+      },
+      "rules": [
+        {
+          "title": "附券与数量",
+          "text_zh": "使用首张单曲「ピースフル・ピーシーズ！」首批生产版附券，每人最多申请2张。",
+          "evidence_ja": "※ 一家Dumb Rock! 1st Single「ピースフル・ピーシーズ！」 初回生産分に封入の申込券でご応募いただけます。\n※お一人様につき2枚までお申込みいただけます。"
+        },
+        {
+          "title": "应援物",
+          "text_zh": "禁止携带和使用任何发光应援物，站席请遵守整理编号和现场指引。",
+          "evidence_ja": "本公演では光り物の応援アイテム(サイリウム、ペンライト、バングルライト、リングライト、その他電飾やそれを伴うもの等)の持ち込み、使用を禁止とさせていただきます。"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/evanescence_avemujica/": {
+    "source_hash": "4de714c35429207b79783a1d19e728f3e30b46f319d1cb6622f489ce3c96c823",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "EVANESCENCE 2026日本巡演：Ave Mujica助演",
+      "summary_zh": "Ave Mujica确定作为助演嘉宾参加2026年12月1日、2日东京SGC HALL ARIAKE及12月4日大阪Zepp Osaka Bayside的演出。票务安排需查看主办方官网；东京与大阪是不同场次。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "ave-mujica"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "出演身份",
+          "text_zh": "Ave Mujica是本次日本巡演的助演嘉宾。",
+          "evidence_ja": "「EVANESCENCE 2026 JAPAN」のサポート・アクトとして、バンドリ！からAve Mujicaの出演が決定。"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/wonderlivet-2026/": {
+    "source_hash": "5c4459a6fe877c57100236975d391e6351851904a436db85dc3b851a7ae4eab2",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "WONDERLIVET 2026：Roselia与MyGO!!!!!出演",
+      "summary_zh": "音乐节于2026年11月20日至22日在韩国KINTEX举办；MyGO!!!!!与Roselia的出演日均为11月21日，WONDER STAGE时间分别为13:35与16:10。不能把音乐节全程当作两组乐队每天均出演。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "roselia",
+        "mygo"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "出演日与时刻",
+          "text_zh": "11月21日WONDER STAGE：13:35 MyGO!!!!!、16:10 Roselia。",
+          "evidence_ja": "11月21日(土) WONDER STAGEに、13:35～MyGO!!!!!、16:10～Roseliaが出演！"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/yumemita_kinntorebu2026/": {
+    "source_hash": "d0acbf5ec4da1d03e76ac5b2b7369f772eac02c023ad11ff2b5e6d94d24cd230",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": false,
+      "title_zh": "集合！夢限大みゅーたいぷ健身部 ～闪耀吧！肱二头肌～",
+      "summary_zh": "2026年11月21日在东京GARDEN 新木場 FACTORY举办昼夜两场，出演者为仲町あられ与藤都子。站立位置指定票5,900日元（含税），一般发售为先到先得。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "bang-dream",
+        "yumemita"
+      ],
+      "cancelled": false,
+      "venues": [
+        {
+          "city": "东京",
+          "name": "GARDEN 新木場 FACTORY",
+          "start_date": "2026-11-21",
+          "end_date": "2026-11-21",
+          "evidence_ja": "日程\n2026年11月21日(土)\n昼の部：開場 12:45／開演 13:30（予定）\n夜の部：開場 16:45／開演 17:30（予定）\n会場\nGARDEN 新木場 FACTORY"
+        }
+      ],
+      "booking": {
+        "method": "先着预约",
+        "opens_at": "2026-10-18T12:00:00+09:00",
+        "closes_at": null,
+        "evidence_ja": "受付期間：2026年10月18日(日) 12:00 ～\n受付はこちら\n※先着順・上限数に達し次第終了",
+        "note_zh": "仅电子票，每人最多2张，昼场13:30、夜场17:30开演（日本时间）。",
+        "applies_to_all_venues": true
+      },
+      "rules": [
+        {
+          "title": "一般发售",
+          "text_zh": "2026年10月18日12:00起受理，售罄即止，仅电子票，每人最多2张。",
+          "evidence_ja": "※先着順・上限数に達し次第終了\n※スマチケのみの受付となります。\n※お一人様につき2枚までお申込みいただけます。"
+        }
+      ]
+    }
+  },
+  "https://revuestarlight.com/event/11130/": {
+    "source_hash": "8e5b12aa81293c3d54abec779ad9f226b8eaa474d363273dd9a0d45373992be3",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": false,
+      "title_zh": "Starlight九九组 管弦乐演唱会2027（详细票务）",
+      "summary_zh": "2027年1月23日在东京SGCホール有明举行。昼场12:30入场、13:30开演；夜场17:30入场、18:30开演，各约2小时20分钟。含周边票15,500日元、一般席11,000日元，均含税。详情页已经公布了票务，旧新闻中的“待公布”不能代表最新状态。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [
+        {
+          "city": "东京",
+          "name": "SGCホール有明",
+          "start_date": "2027-01-23",
+          "end_date": "2027-01-23",
+          "evidence_ja": "■公演日時\n2027年1月23日（土）\n【昼公演】12:30開場 13:30開演\n【夜公演】17:30開場 18:30開演\n＊公演時間は各公演2時間20分程度を予定しております。\n■会場\nSGCホール有明"
+        }
+      ],
+      "booking": {
+        "method": "抽选报名",
+        "opens_at": null,
+        "closes_at": "2026-09-29T23:59:00+09:00",
+        "evidence_ja": "◎きゃにめ先行\n【申込受付期間】2026/09/08(火) ～ 2026/09/29(火) 23:59\n【抽選結果発表】2026/10/02(金) 19:00以降\n【支払手続期間】2026/10/02(金) 19:00 ～ 2026/10/05(月) 23:59\n枚数制限： お一人様 各公演 どちらか1券種 2枚まで\n発券方法： アプリ（電子チケット）\n・本受付の発券はポニーキャニオンの電子チケットアプリ「ポニキャン」のみとなります。\n・お申し込みには「ポニキャン」アプリ（無料）のインストールが必要です。\n受付URL： https://special.canime.jp/ticket/revuestarlight/\n※手数料・申込に関する注意事項等の詳細は上記URLからご確認ください。\nチケット申込に関するお問い合わせ\nきゃにめ https://canime.jp/help/ticket/\n※開場・開演時間および出演者は変更となる場合がございます。\n※申込多数の場合は抽選となります。",
+        "note_zh": "きゃにめ先行已截止。每人每场一种票种最多2张，须使用ポニキャンApp。后续售票请查看官方。",
+        "applies_to_all_venues": true
+      },
+      "rules": [
+        {
+          "title": "きゃにめ先行已截止",
+          "text_zh": "该轮申请于2026年9月8日至9月29日23:59受理，10月2日19:00后公布结果，支付截止为10月5日23:59；目前这些时间均已过去。",
+          "evidence_ja": "【申込受付期間】2026/09/08(火) ～ 2026/09/29(火) 23:59"
+        },
+        {
+          "title": "电子票与数量",
+          "text_zh": "每人每场只能选择一种票种，最多2张；须安装免费的「ポニキャン」App，且仅以该App发券。",
+          "evidence_ja": "枚数制限： お一人様 各公演 どちらか1券種 2枚まで"
+        },
+        {
+          "title": "儿童限制",
+          "text_zh": "学龄前儿童不可入场；申请人数多时采用抽选。",
+          "evidence_ja": "※未就学児童入場不可"
+        }
+      ]
+    }
+  },
+  "https://revuestarlight.com/event/11083/": {
+    "source_hash": "a95b7f10f93a6af110b53ce86023be7b30f2d2b110d03c0ac61b071d64831e67",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "西克菲尔特音乐学院谈话与综艺活动「传说的补习课！？」",
+      "summary_zh": "2026年11月1日在横滨Landmark Hall举行，昼场14:00、夜场18:00开演，预计提前1小时入场。全席指定8,000日元，入场另付600日元饮料费且只收现金。先行轮次已结束，一般发售自10月10日10:00起至售罄。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": [
+        {
+          "title": "费用",
+          "text_zh": "入场另收600日元饮料费，仅可使用现金。",
+          "evidence_ja": "※入場時別途ドリンク代600円が必要となります。\n※ドリンク代のお支払いは現金のみとなります。"
+        },
+        {
+          "title": "购买特典",
+          "text_zh": "物贩单笔每满含税3,000日元，随机赠全10款中的照片1张；不能合并不同结账收据，送完即止，即使获10张也不保证集齐。",
+          "evidence_ja": "※別会計レシートの合算はいたしかねます。"
+        }
+      ]
+    }
+  },
+  "https://bang-dream.com/events/bushiroad-fashion-journey/": {
+    "source_hash": "307b160db1032bb183d96f6356846a227691a5b6ba62dc8f35b80c03f3f175e6",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "Bushiroad Fashion Journey时装与演出舞台",
+      "summary_zh": "2026年10月25日在涩谷Hikarie举办，结合Live、朗读剧和时装秀；现场日期已过。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "yumemita",
+        "mygo"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/machiasobi_vol31/": {
+    "source_hash": "84e30c20e74e059192ed42d6ae2b26b93cb55d0f240f457ba56e51de7e5ace1b",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "Machi★Asobi vol.31：BanG Dream!出展",
+      "summary_zh": "2026年10月17日、18日在德岛市举办，包含Our Notes展示、主创谈话、签名及交付活动等；现场日期已过。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "bang-dream",
+        "our-notes"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/13th-live-day3/": {
+    "source_hash": "d5fc173dd77497bcca51bde3cf4fdf4be116fbdc73c21e7913ecb2286da65368",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "BanG Dream! 第13次Live DAY3：RAISE A SUILEN「EXTREME EXPRESS」",
+      "summary_zh": "2026年10月12日在东京Garden Theater举行，现场日期已过；不要把配信销售期视为新的现场日期。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "raise-a-suilen"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/13th-live-day2/": {
+    "source_hash": "30eeeda7f502d8f327d70e8d6b86b6704c8ad8e5995016447f5bf6a40bcad39b",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "BanG Dream! 第13次Live DAY2：夢限大みゅーたいぷ「DIMENSIONAL OVERLAP」",
+      "summary_zh": "2026年10月11日在东京Garden Theater举行，现场日期已过。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "yumemita"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/13th-live-day1/": {
+    "source_hash": "1c088af48d94451a1a6d9e9f3520eb144e8a909106bf8b1b6f0d2dbf6d0280fc",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "BanG Dream! 第13次Live DAY1：Poppin’Party「Now Roading♪♪」",
+      "summary_zh": "2026年10月10日在东京Garden Theater举行，现场日期已过。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "poppin-party"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/radioshout_prost/": {
+    "source_hash": "df49cc746fc448c4f4f2b759584c6b613b16e4d24c3961a51de01c585b80a6a0",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "Roselia RADIO SHOUT! 300期纪念谈话活动「Prost」",
+      "summary_zh": "2026年9月27日在横滨Pacifico会议中心主厅举办，纪念广播节目配信300期；现场日期已过。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "bang-dream",
+        "roselia"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/morfonica_live_2026/": {
+    "source_hash": "c956c28eebd848c7409cf7e518ae5f5fc90604dd5c54ec883154768c401c3b6d",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "Morfonica 演唱会「Movement」",
+      "summary_zh": "2026年9月22日在立川STAGE GARDEN举办。官方标注现场门票售罄，现场日期已过。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "morfonica"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/fujimiyako_exhibition/": {
+    "source_hash": "ae4f7aa0c958287c98256fa24cb4a7438befeb486ab55998ce52dc2c3a400284",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "藤都子画展「16岁」",
+      "summary_zh": "2026年9月19日至10月4日期间在秋叶原Gamers与池袋BanG Dream! STORE分段展示，各场地日期不同，并举办纪念交付活动。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "bang-dream",
+        "yumemita"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/anierafesta2026/": {
+    "source_hash": "d73235f4bf3aac55e698b9c1ca2cebc35d7f99b811e836d52281def714894386",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "长野Aniera Festa 2026：RAISE A SUILEN出演",
+      "summary_zh": "2026年9月19日、20日在长野县佐久市驹场公园举办，RAISE A SUILEN出演日为20日。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "raise-a-suilen"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/fest-inazuma2026/": {
+    "source_hash": "92382d984438c2c488a106fa64213a3ea619dd7a1524eb6024e221280e237e9f",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "FEST. INAZUMA 2026：RAISE A SUILEN出演",
+      "summary_zh": "2026年9月19日至21日在滋贺县草津市乌丸半岛举办；RAISE A SUILEN出演日为19日。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "raise-a-suilen"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/bm-echoes-festival-2026/": {
+    "source_hash": "eba17ef398bd6e658aa0d748375afa42d0e63ff0b1f9c8ae709cc4dc741564fa",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "BM-ECHOES FESTIVAL 2026：夢限大みゅーたいぷ出演",
+      "summary_zh": "2026年9月5日、6日在大阪Zepp Osaka Bayside及名古屋Zepp Nagoya举办，夢限大みゅーたいぷ出演。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "yumemita"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/lehre-der-rose/": {
+    "source_hash": "e10dda88033b673018ab08693e8a5dba6dde1c8a0143c06ba2a9da2718728228",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "Roselia「Lehre der Rose」专辑发行纪念演唱会",
+      "summary_zh": "2026年8月29日、30日在有明Arena举办两日演唱会，是现场演出而非单纯专辑宣传；现场日期已过。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "roselia"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/comiket108/": {
+    "source_hash": "0f2376234024199fe604ef83c7c62c884eef2e09b0738d8b070f4bb693cb70df",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "Comic Market 108：BanG Dream!与FROMTOKYO出展",
+      "summary_zh": "2026年8月15日、16日在东京Big Sight南3馆2311展位举办出展，另有夢限大みゅーたいぷ成员交付活动。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "bang-dream",
+        "our-notes",
+        "yumemita"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/summer-sonic-2026/": {
+    "source_hash": "a525d648aa11906fa3cb26280a8bbd659782437a39a3ece3694dbc4739b96857",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "SUMMER SONIC 2026：Ave Mujica出演",
+      "summary_zh": "音乐节于2026年8月14日至16日举行，Ave Mujica出演14日大阪场和16日东京场；并非三天均出演。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "ave-mujica"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/luckyfes2026/": {
+    "source_hash": "78bc376a535e227c7ee2acbec66aeb9211483ed5f210840fa5278e7c5fa3ba1a",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "LuckyFes 2026：RAISE A SUILEN与MyGO!!!!!出演",
+      "summary_zh": "音乐节于2026年8月8日至11日在国营常陆海滨公园举办，两组乐队出演日为8月9日。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "raise-a-suilen",
+        "mygo"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/maigocenter-event3/": {
+    "source_hash": "8977b9249634b09af792a3231c79fc25edf88f233952b2414dc7f5c3e12f1efc",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "MyGO!!!!!「迷子集会」出张版第3弹：日常の築葉書",
+      "summary_zh": "2026年5月9日大阪、8月8日埼玉举办广播节目现场活动，各有昼夜场；这些是已经结束的现场日期。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "bang-dream",
+        "mygo"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/kimchikura-fes-26/": {
+    "source_hash": "46a8fc7275af31c54a015943ae85e3515daa04b8f6c5830dd123822142d66993",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "KIMCHIKURA Fes 2026：Morfonica与千石ユノ出演",
+      "summary_zh": "2026年8月8日在首尔庆熙大学和平殿堂举办，Morfonica及夢限大みゅーたいぷ的千石ユノ出演。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "morfonica",
+        "yumemita"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/mygo_9th/": {
+    "source_hash": "3723e9455e546449305cb1049848e588b5668a6fc571988154349b33f70c2036",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "MyGO!!!!! 第9次Live「つなぎ目の向こうに」横滨场",
+      "summary_zh": "2026年7月18日、19日在横滨ぴあアリーナMM举办。与后续神户、香港场是不同场次，原场次日期已过。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "mygo"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://bang-dream.com/events/25941/": {
+    "source_hash": "46aa494b0066a009d0d1d5967fb605f5e8ddf19863cf48bf675a63780250f632",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "BEAT AX 夏季特别场2026",
+      "summary_zh": "2026年7月12日在横滨K Arena举办，RAISE A SUILEN和Ave Mujica出演；现场日期已过。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "raise-a-suilen",
+        "ave-mujica"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://revuestarlight.com/event/11292/": {
+    "source_hash": "cc16ac1eeb22d330891a9aa19f5a54e7c1dd63f40410c75350cdf5d510d14da1",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "少女歌剧四部舞台影像特别放映会",
+      "summary_zh": "9周年纪念企划在10月24日于Starlight剧场（原飞行船剧场）集中放映四部舞台影像。全天票6,000日元，可看全部四作；单次放映票3,000日元。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://revuestarlight.com/event/11086/": {
+    "source_hash": "7fa58c3c5dffff1fde4542da80cca136885cfdecb24cdd8ac47afe67605c2c60",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "九九组之日2026",
+      "summary_zh": "9月9日在飞行船剧场举行，19:00入场、19:30开演。全席指定7,700日元，视线受限席6,600日元；不要将旧公告中的一般发售表述视为当前仍可参加。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://revuestarlight.com/event/10843/": {
+    "source_hash": "a87483445e4211efb2c633a13612e3bce1104baa68e4435356e9b0afdcf55350",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "西克菲尔特音乐学院谈话活动「目标！Platin！」",
+      "summary_zh": "2026年3月21日在东京科学技术馆Science Hall举办，昼场13:30、夜场18:00开演；现场日期已过。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://revuestarlight.com/event/10578/": {
+    "source_hash": "a20434745baee1407d2dee9286662407c2b8aab2cda457fd144e90e4af6a4416",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "Starlight九九组 特别演唱会「Starry Horizon」",
+      "summary_zh": "2025年12月13日、14日举办，第一部分为朗读演出，第二部分为演唱会。这是2025年的历史演出，并非2026年的新Live。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://revuestarlight.com/event/10666/": {
+    "source_hash": "36167e41045c73910ed6c17a60ba961a94d5772ccf29bf8d15dac0d5075e55e4",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "九九组之日2025",
+      "summary_zh": "2025年9月9日在飞行船剧场举行，包含决定「Starry Horizon」部分曲目的第二次选曲会议。现场活动与网上免费配信并存，现场日期已过。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://revuestarlight.com/event/10663/": {
+    "source_hash": "cc37314d3dd2b5e448e844c5e3b48dd3430e86547af7e955b2e1b2d091749a85",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "西克菲尔特音乐学院中等部 独立演唱会「Schulfest!」",
+      "summary_zh": "2025年9月21日在神田明神Hall举办昼夜两场，分别15:00、19:00开演；是历史演出。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
+  },
+  "https://revuestarlight.com/event/10548/": {
+    "source_hash": "54969dbc003d127ba6243f7129e00e75479796088819906b2214fcd59c779dbd",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": true,
+      "title_zh": "少女歌剧 Edel Bühne＆Live：与美丽的野兽共舞",
+      "summary_zh": "飞行船剧场的朗读剧与Live企划，公告列出7月12日、13日四场；正文所引日期未附完整年份，暂不转成行程日期。 此处为中文公告摘要，完整参与及物贩规则请查官方原文。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "starlight"
+      ],
+      "cancelled": false,
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "applies_to_all_venues": false
+      },
+      "rules": []
+    }
   }
 }

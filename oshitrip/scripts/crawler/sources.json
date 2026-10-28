@@ -60,14 +60,25 @@
     "kind": "event-source",
     "origin": "https://bang-dream.com",
     "index_url": "https://bang-dream.com/events/",
-    "path_patterns": ["^/events/(?:[a-z0-9_-]+/)?$"],
-    "discovery_patterns": ["^/events/[a-z0-9_-]+/$"],
-    "urls": ["https://bang-dream.com/events/ras-tour2027/", "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/"],
+    "path_patterns": [
+      "^/events/(?:[a-z0-9_-]+/)?$",
+      "^/events/page/2/$"
+    ],
+    "discovery_patterns": [
+      "^/events/[a-z0-9_-]+/$"
+    ],
+    "urls": [
+      "https://bang-dream.com/events/ras-tour2027/",
+      "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/"
+    ],
     "permission": "unreviewed",
     "terms_url": "https://bang-dream.com/bdp-guideline/",
     "terms_checked_on": "2026-10-28",
     "robots_checked_on": "2026-10-28",
-    "authorization_note": "用户要求采集官方 Live 与抽选信息，低频读取公开活动目录，遵循 robots 与 HTTP 限制。"
+    "authorization_note": "用户要求采集官方 Live 与抽选信息，低频读取公开活动目录，遵循 robots 与 HTTP 限制。",
+    "index_urls": [
+      "https://bang-dream.com/events/page/2/"
+    ]
   },
   {
     "id": "bang-dream-news",
@@ -127,7 +138,10 @@
   },
   {
     "id": "nijigasaki-news",
-    "robots_unavailable_statuses": [403, 404],
+    "robots_unavailable_statuses": [
+      403,
+      404
+    ],
     "kind": "event-source",
     "origin": "https://www.lovelive-anime.jp",
     "index_url": "https://www.lovelive-anime.jp/nijigasaki/topics.php",
@@ -162,8 +176,12 @@
     "kind": "event-source",
     "origin": "https://revuestarlight.com",
     "index_url": "https://revuestarlight.com/news/",
-    "path_patterns": ["^/news/(?:[0-9]+/)?$"],
-    "urls": ["https://revuestarlight.com/news/11241/"],
+    "path_patterns": [
+      "^/news/(?:[0-9]+/)?$"
+    ],
+    "urls": [
+      "https://revuestarlight.com/news/11241/"
+    ],
     "permission": "unreviewed",
     "terms_url": "https://revuestarlight.com/",
     "terms_checked_on": null,
@@ -207,5 +225,25 @@
     "terms_checked_on": null,
     "robots_checked_on": null,
     "authorization_note": "当前仅人工核实公开公告与图片；自动访问许可核实前不开启网络抓取。图片中的机器译文必须人工对照原图审核。"
+  },
+  {
+    "id": "starlight-events",
+    "kind": "event-source",
+    "origin": "https://revuestarlight.com",
+    "index_url": "https://revuestarlight.com/event/",
+    "path_patterns": [
+      "^/event/(?:[0-9]+/)?$"
+    ],
+    "discovery_patterns": [
+      "^/event/[0-9]+/$"
+    ],
+    "urls": [
+      "https://revuestarlight.com/event/11130/"
+    ],
+    "permission": "unreviewed",
+    "terms_url": "https://revuestarlight.com/",
+    "terms_checked_on": null,
+    "robots_checked_on": "2026-10-29",
+    "authorization_note": "用户要求补查已公布Live。读取官网公开活动目录和详情，遵守robots和HTTP限制，不将正文更新遗漏为仅新闻页。"
   }
 ]

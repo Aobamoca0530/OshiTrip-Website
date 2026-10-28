@@ -4,7 +4,9 @@ import {
   validateReading,
   eventFromReading,
   translateActivity,
+  explicitDates,
 } from "../../scripts/crawler/event-intelligence.mjs";
+import { classifyAnnouncement } from "../../scripts/crawler/offline-filter.mjs";
 import verified from "../../scripts/crawler/verified-readings.json";
 import catalog from "../../src/data/catalog.json";
 import { eventSchema } from "../../src/lib/schema";
@@ -21,6 +23,63 @@ const observation = {
   body_text: body,
 };
 describe("offline activity understanding", () => {
+  it("preserves different application deadlines for each tour stop", () => {
+    const r = verified["https://bang-dream.com/events/ymmt-tour2027/"].reading;
+    const body = [
+      ...r.rules.map((x) => x.evidence_ja),
+      ...r.venues.flatMap((v) => [v.evidence_ja, v.booking?.evidence_ja || ""]),
+    ].join("\n");
+    const o = {
+      source_url: "https://bang-dream.com/events/ymmt-tour2027/",
+      title: r.title_zh,
+      body_text: body,
+    };
+    expect(validateReading(r, o, catalog.franchises).ready).toBe(true);
+    const event = eventSchema.parse(
+      eventFromReading(r, o, [], "2026-10-29T00:00:00Z", undefined),
+    );
+    expect(event.venues).toHaveLength(7);
+    expect(
+      event.venues.find((v) => v.city === "福冈")?.rounds[0].closes_at,
+    ).toBe("2026-11-09T23:59:00+09:00");
+    expect(
+      event.venues.find((v) => v.city === "大阪")?.rounds[0].closes_at,
+    ).toBe("2026-11-23T23:59:00+09:00");
+    expect(
+      event.venues.find((v) => v.city === "东京")?.rounds[0].closes_at,
+    ).toBe("2026-12-14T23:59:00+09:00");
+  });
+  it("keeps GIG and official concert categories without relying on headline keywords", () => {
+    expect(classifyOffline("一家Dumb Rock! 1st GIG「ピース＆グルーヴ」")).toBe(
+      "live",
+    );
+    const row = {
+      title: "EVANESCENCE 2026 JAPAN",
+      body_text:
+        "Live•Event\nライブ\nEVANESCENCE 2026 JAPAN\n開催日\n2026年12月1日\n場所\nSGC HALL ARIAKE",
+    };
+    expect(classifyAnnouncement({ id: "bang-dream-live" }, row)).toBe("live");
+    expect(classifyAnnouncement({ id: "unrelated-news" }, row)).toBeNull();
+    expect(
+      classifyAnnouncement(
+        { id: "bang-dream-live" },
+        { ...row, title: "生配信のお知らせ" },
+      ),
+    ).toBeNull();
+  });
+  it("expands only contiguous date ranges and never guesses years across paragraphs", () => {
+    expect(
+      explicitDates("2026年9月30日(水) 10:00 ～ 11月8日(日) 23:59"),
+    ).toEqual(["2026-09-30", "2026-11-08"]);
+    expect(explicitDates("2027年5月29日(土)・30日(日)")).toEqual([
+      "2027-05-29",
+      "2027-05-30",
+    ]);
+    expect(explicitDates("2026年12月30日～1月3日")).toEqual(["2026-12-30"]);
+    expect(
+      explicitDates("2026年10月19日 公開\n開催期間\n10月23日～11月5日"),
+    ).toEqual(["2026-10-19"]);
+  });
   it.each([
     "ラブライブ！虹ヶ咲 バースデーケーキ発売",
     "ラブライブ！新商品のお知らせ",

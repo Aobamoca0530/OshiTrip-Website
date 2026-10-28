@@ -1,7 +1,11 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-import { type Announcement, imageKindLabels } from "@/lib/announcements";
+import {
+  type Announcement,
+  imageKindLabels,
+  announcementKind,
+} from "@/lib/announcements";
 import { OfficialImage } from "./official-image";
 
 export function AnnouncementImages({ items }: { items: Announcement[] }) {
@@ -48,8 +52,10 @@ export function AnnouncementList({ items }: { items: Announcement[] }) {
   const [query, setQuery] = useState("");
   const [goodsOnly, setGoodsOnly] = useState(false);
   const [limit, setLimit] = useState(12);
+  const [collection, setCollection] = useState("all");
   const filtered = items.filter(
     (item) =>
+      (collection === "all" || announcementKind(item) === collection) &&
       (!goodsOnly ||
         item.images.some((image) => image.kind === "merchandise")) &&
       `${item.title} ${item.activity?.title_zh || ""} ${item.activity?.summary_zh || ""} ${item.source_id} ${item.images.map((i) => i.alt).join(" ")}`
@@ -58,6 +64,30 @@ export function AnnouncementList({ items }: { items: Announcement[] }) {
   );
   return (
     <>
+      <nav className="collection-tabs" aria-label="官方消息合集">
+        {[
+          ["all", "全部消息"],
+          ["offline", "线下活动合集"],
+          ["live", "Live 合集"],
+        ].map(([value, label]) => (
+          <button
+            key={value}
+            className={`chip ${collection === value ? "selected" : ""}`}
+            aria-pressed={collection === value}
+            onClick={() => {
+              setCollection(value);
+              setLimit(12);
+            }}
+          >
+            {label} ·{" "}
+            {
+              items.filter(
+                (item) => value === "all" || announcementKind(item) === value,
+              ).length
+            }
+          </button>
+        ))}
+      </nav>
       <div className="news-filters panel">
         <label>
           搜索官方公告
@@ -89,10 +119,30 @@ export function AnnouncementList({ items }: { items: Announcement[] }) {
       {!filtered.length && (
         <p className="panel">暂未找到公告；可调整搜索词，或稍后刷新数据。</p>
       )}
-      {filtered.slice(0, limit).map((item) => (
-        <ActivityAnnouncement item={item} key={item.id} />
-      ))}
-      {filtered.length > limit && (
+      {(["offline", "live"] as const)
+        .filter((kind) => collection === "all" || collection === kind)
+        .map((kind) => (
+          <section
+            key={kind}
+            aria-label={kind === "live" ? "Live 官方消息" : "线下活动官方消息"}
+          >
+            <h2>{kind === "live" ? "Live 合集" : "线下活动合集"}</h2>
+            {filtered
+              .filter((item) => announcementKind(item) === kind)
+              .slice(0, limit)
+              .map((item) => (
+                <ActivityAnnouncement item={item} key={item.id} />
+              ))}
+            {!filtered.some((item) => announcementKind(item) === kind) && (
+              <p className="helper">这个合集暂无符合条件的公告。</p>
+            )}
+          </section>
+        ))}
+      {["offline", "live"].some(
+        (kind) =>
+          filtered.filter((item) => announcementKind(item) === kind).length >
+          limit,
+      ) && (
         <button
           className="button secondary"
           onClick={() => setLimit(limit + 12)}
@@ -118,6 +168,10 @@ export function ActivityAnnouncement({
       id={`announcement-${item.id}`}
     >
       <span className="badge green">官方公告 · 自动采集</span>
+      <span className="badge">
+        {announcementKind(item) === "live" ? "Live" : "线下活动"} ·{" "}
+        {activity?.state === "ready" ? "已整理" : "待审核"}
+      </span>
       <h2>{activity?.title_zh || item.title}</h2>
       {activity?.title_zh && (
         <p lang="ja" className="helper">
@@ -180,11 +234,18 @@ export function ActivityAnnouncement({
           ))}
         </details>
       )}
-      {!!item.related_event_ids.length && (
-        <Link className="text-link" href="/events">
-          在发现活动中查看场次与报名 →
-        </Link>
-      )}
+      <Link
+        className="text-link"
+        href={
+          activity?.state !== "ready"
+            ? `/events#announcement-${item.id}`
+            : "/events"
+        }
+      >
+        {activity?.state !== "ready"
+          ? "已推送至发现活动 · 待审核 →"
+          : "在发现活动中查看场次与报名 →"}
+      </Link>
       {showImages && !!item.images.length && (
         <details>
           <summary>查看商品及活动图片（{item.images.length} 张）</summary>

@@ -31,13 +31,13 @@ Windows 持久缓存为 `%LOCALAPPDATA%\OshiTrip\data\public-v3.json`。断网�
 
 ### 每日自动采集
 
-`.github/workflows/public-data.yml` 每天北京时间 09:17 运行，也可在 Actions 手动运行。不依赖本机开机或 Supabase；采集不需要 AI 密钥，自动翻译需要。流程为 `crawl:public → data:publish → data:check → seed:sql → typecheck → test → 提交 main`。机器人提交不会再触发普通 push CI，因此工作流内已执行校验。
+`.github/workflows/public-data.yml` 每天北京时间 09:17 运行，也可在 Actions 手动运行。不依赖本机开机或 Supabase；采集不需要 AI 密钥，自动翻译需要。统一入口为 `pnpm maintain:public`，完成采集、翻译复核、数据包、SQL、类型、lint 和测试后提交 main。完整步骤与模型契约见 [官方消息维护流程](docs/official-news-workflow.md)。机器人提交不会再触发普通 push CI，因此工作流内已执行校验。
 
-来源为 BanG Dream! 公告与 Live 目录、虹咲官网新闻、少女歌剧官网新闻、Bushiroad Creative、SWEETS PARADISE。Live 目录最多 20 篇，其他来源最多 12 篇；页面请求至少间隔 2 秒，目录链接先筛选再分配预算。页面返回 403、429、重定向或结构变化时保留旧资料；全部来源失败时不发布。最多保留最近变更的 120 条公告，不能保证覆盖全部新活动。
+来源为 BanG Dream! 公告与 Live 目录（前两页）、虹咲官网新闻、少女歌剧新闻与 Live/Event 详情目录、Bushiroad Creative、SWEETS PARADISE。BanG Dream! Live 每轮最多 40 篇，其他来源最多 16 篇；页面请求至少间隔 2 秒，目录链接先筛选再分配预算。官方活动目录同时识别页面分类与正文，不要求标题必须出现 Live。报告记录发现数量及因预算延期的 URL。页面返回 403、429、重定向或结构变化时保留旧资料；全部来源失败时不发布。最多保留最近变更的 120 条公告，不能保证覆盖全部新活动。
 
-虹咲新闻页已实测返回 200，而其 `/robots.txt` 返回 403。该来源显式配置 `robots_unavailable_statuses: [403, 404]`，按 [RFC 9309 §2.3.1.3](https://www.rfc-editor.org/rfc/rfc9309.html#section-2.3.1.3) 将 robots 资源不可用与新闻页不可访问区分处理，报告记录实际状态；robots 规则存在时遵守规则，429、5xx、超时仍停止，新闻页自身的 403 不重试或绕过。其他来源默认保持原来的严格行为。
+虹咲新闻页此前曾返回 200，本次复核（2026-10-29）新闻目录与详情页返回 403，保留已有资料；其 `/robots.txt` 返回 403。错误页为 CloudFront/S3 返回的官方 NOT FOUND 页面，首页及新闻总目录也同样失败，尚无法认定反爬；诊断见 [403 分析](docs/official-news-workflow.md#本次虹咲-403-诊断2026-10-29北京时间)。该来源显式配置 `robots_unavailable_statuses: [403, 404]`，按 [RFC 9309 §2.3.1.3](https://www.rfc-editor.org/rfc/rfc9309.html#section-2.3.1.3) 将 robots 资源不可用与新闻页不可访问区分处理，报告记录实际状态；robots 规则存在时遵守规则，429、5xx、超时仍停止，新闻页自身的 403 不重试或绕过。其他来源默认保持原来的严格行为。
 
-“虹咲公式X”链接为 `https://x.com/Nijigaku_movie`，用于打开官方账号；当前没有可用的帖子采集接口，不宣称自动同步 X。两个新官网无需 X 登录或 AI 密钥即可采集。
+“虹咲公式X”链接为 `https://x.com/Nijigaku_movie`，用于打开官方账号；当前没有可用的帖子采集接口，不宣称自动同步 X。公开采集不依赖 X 登录或 AI 密钥；是否可读取取决于来源实际响应。
 
 **企划白名单**：Bushiroad Creative、SWEETS PARADISE 只保留公告标题命中 `scripts/crawler/project-keywords.json` 的内容。目前包含 BanG Dream! 及旗下乐队、Love Live! 系列（含虹咲）、少女歌剧。目录链接先筛选，读取公告后再按正文标题复查，避免其他企划耗尽采集额度；不会因为页脚、侧栏或“联动 / 商品 / Live”等泛词命中而收录。英文大小写、全半角、空格和标点差异会统一处理。标题未写企划名的公告可能漏收；多企划联合公告只要明确包含白名单企划就保留，原图可能包含联合展出内容。
 
@@ -45,13 +45,28 @@ Windows 持久缓存为 `%LOCALAPPDATA%\OshiTrip\data\public-v3.json`。断网�
 
 `src/data/announcements.json` 保存筛选后的线下公告、中文摘要、规则短句证据、图片及译文状态，不保存全文转载。与已有活动的来源 URL 或正文中的同站活动链接匹配时建立关联；新活动仅在证据校验通过后写入 `catalog.json`，ID 以 `auto-` 开头。人工记录不会被机器覆盖。自动记录的来源有变化而新规则尚未通过校验时，暂时撤出行程匹配；获取失败时保留原资料。
 
-**翻译设置**：在 Settings → Secrets and variables → Actions 添加仓库 Secret `DASHSCOPE_API_KEY`。正文模型 `qwen-plus`（非思考模式），每轮最多 24 次；图像模型 `qwen3-vl-plus`，每轮最多 4 次。可在工作流中调整模型与预算；北京地域以外的密钥不可直接使用当前适配器。自定义官方北京工作空间地址可设仓库 Variable `DASHSCOPE_BASE_URL`。密钥仅传给采集步骤，不进入网页或 EXE。没有密钥、接口失败或额度用尽时保留待译状态，并在 Actions 报告警告。
+**翻译与审核接口**：在 GitHub Settings → Secrets and variables → Actions 添加所需 Secret：`OPENAI_API_KEY`、`DASHSCOPE_API_KEY`、`DEEPSEEK_API_KEY`。本机可写入未提交的 `.env.local`。不要把密钥写进前端、JSON、EXE 或 `NEXT_PUBLIC_` 变量。
+
+| 任务 | Provider Variable | Model Variable | 每轮调用上限 |
+| --- | --- | --- | --- |
+| 中文翻译和信息提取 | EVENT_TRANSLATION_PROVIDER | EVENT_TRANSLATION_MODEL | EVENT_TRANSLATION_LIMIT（默认24） |
+| 独立内容审核 | EVENT_REVIEW_PROVIDER | EVENT_REVIEW_MODEL | EVENT_REVIEW_LIMIT（默认24） |
+
+Provider 支持 `auto`、`openai`、`bailian`、`deepseek`、`manual`，两项任务可独立选择。默认 auto 按 OpenAI → 百炼 → DeepSeek 选择第一家已配置密钥的服务；未配置则进入 Codex 待办。明确选中的服务缺少密钥或调用失败时不会偷偷调用其他服务。默认模型为 OpenAI `gpt-4.1-mini`、百炼 `qwen-plus`、DeepSeek `deepseek-flash`；模型可覆盖，实际可用性以对应账户为准。百炼保留官方北京地域工作空间 Base URL 支持（`DASHSCOPE_BASE_URL`）。`pnpm ai:check` 仅报告配置是否存在，不输出密钥、不消耗额度。
+
+新公告自动进入“官方新消息”的线下活动/Live 合集，并进入“发现活动”的待审核区。独立模型复核和本地证据校验都通过后才生成正式活动；审核失败、响应截断、虚构原句或日期不明时保留待审核。模型无法绕过本地证据校验。
+
+**无密钥时由 Codex 代办**：采集器生成 `var/public-crawler/assistant-queue.json`，包括待翻译/待复核原文和缺少正文的链接；Actions 同时保留队列、原始观察和报告14天。Codex 对照官方原文，将中文标题、摘要、参与规则和核实结果写入 `scripts/crawler/verified-readings.json`，只在正文指纹一致时生效。对本轮已抓取资料运行 `pnpm maintain:public --replay` 应用复核结果并完成发布前校验（不重新联网，保留原采集时间）。来源变化后旧复核不会自动通过。聊天登录本身不是 API Key；持续代办需要本地 Codex 定时任务实际运行，电脑离线或任务未运行时保留待办，不能宣称实时完成。
+
+图片识别通过 `IMAGE_RULE_PROVIDER` / `IMAGE_RULE_MODEL` 单独配置百炼或 OpenAI；默认优先使用已有 OpenAI 密钥，否则百炼。当前 DeepSeek 适配用于文字翻译和审核。每轮图片调用默认4次，识别结果仍标为待核实，不自动确认行程日期。
+
+接口依据：[OpenAI Responses JSON 输出](https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses)、[DeepSeek JSON Output](https://api-docs.deepseek.com/guides/json_mode/)、[百炼思考模式参数](https://help.aliyun.com/zh/model-studio/deep-thinking)。
 
 正文日期必须在对应场地原句中明确出现；不同场次报名规则不明确时保留待核实，未公布不等于无需预约或正在受理。当前不支持从图片自动确认可用于行程的日期；图片识字译文标为待核实。正文按内容指纹复用，图片按 SHA256 复用；图片仍需重新读取以检测同 URL 换图。纯网售、配信、演出回顾等被过滤，Love Live! 作品名本身不作为演唱会判据。`verified-readings.json` 保存已对照原文整理的初始资料，只有来源指纹相同时使用。
 
 可以在应用目录运行 `pnpm crawl:public` 后执行 `pnpm data:publish`。报告在 `var/public-crawler/report.json`，云端在 Actions 的 `public-crawler-report` 附件中保留 14 天；该目录不提交。关闭自动采集可禁用 **Update public announcements and merchandise images** 工作流。公开仓库长时间无活动时，GitHub 可能停用定时工作流，需要在 Actions 重新启用。
 
-此前的 `discover-releases.yml` 是单独的数据库审核流程。公共采集仅访问明确接入的来源；配置百炼后会产生翻译与图像识别费用，未配置时不调用模型。robots 通行不代表图片转载授权；未接入或受限的网站不宣称已支持。
+此前的 `discover-releases.yml` 是单独的数据库审核流程。公共采集仅访问明确接入的来源；配置所选服务密钥后会产生翻译、审核或图像识别费用，未配置时不调用模型。robots 通行不代表图片转载授权；未接入或受限的网站不宣称已支持。
 
 ### 统一数据发布步骤
 
@@ -124,7 +139,7 @@ pnpm package:windows
 node scripts/test-windows-package.mjs
 ```
 
-脚本会校验公共数据包、下载并核对官方 Node.js 24.19.0 ZIP 的 SHA256，构建 Next.js standalone 服务，用系统 .NET Framework 编译启动器，并生成仓库根目录下的 `dist/OshiTrip-1.4.0-windows-x64.zip` 及 SHA256 校验文件。启动器启用统一数据模式，附带一份离线资料。构建目录不能包含 `.env.local` 等私人配置。
+脚本会校验公共数据包、下载并核对官方 Node.js 24.19.0 ZIP 的 SHA256，构建 Next.js standalone 服务，用系统 .NET Framework 编译启动器，并生成仓库根目录下的 `dist/OshiTrip-1.5.0-windows-x64.zip` 及 SHA256 校验文件。启动器启用统一数据模式，附带一份离线资料。构建目录不能包含 `.env.local` 等私人配置。
 
 启动器仅监听 `127.0.0.1`。端口偏好和日志放在 `%LOCALAPPDATA%\OshiTrip`；关闭窗口会停止其创建的后台进程。首次运行通常使用 43187 端口，后续使用已保存端口。端口临时冲突不会覆盖已保存的地址。
 

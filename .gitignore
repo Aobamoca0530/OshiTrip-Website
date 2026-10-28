@@ -15,7 +15,8 @@ oshitrip/var/
 oshitrip/.git.local-backup/
 
 # Internal notes and generated review screenshots are maintained privately.
-oshitrip/docs/
+oshitrip/docs/*
+!oshitrip/docs/official-news-workflow.md
 oshitrip/后续开发计划.md
 oshitrip/新手运行指南.md
 oshitrip/数据维护指南.md

@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { z } from "zod";
 import { imageReviewSchema, pendingImage } from "./image-rules.mjs";
+import { accessDiagnostic, readErrorSample } from "./access-diagnostics.mjs";
 
 const date = z
   .string()
@@ -42,9 +43,9 @@ export const observationSchema = z.object({
     .default([]),
 });
 function articleHtml(html, sourceUrl) {
-  if (new URL(sourceUrl).hostname === "revuestarlight.com" && /^\/news\/\d+\/$/.test(new URL(sourceUrl).pathname)) {
+  if (new URL(sourceUrl).hostname === "revuestarlight.com" && /^\/(?:news|event)\/\d+\/$/.test(new URL(sourceUrl).pathname)) {
     const title = html.match(/<h1\b[^>]*class=["'][^"']*\bttl\b[^"']*["'][^>]*>([^]*?)<\/h1>/i)?.[1];
-    const start = /<div\b[^>]*class=["'][^"']*news-Detail_Contents[^"']*["'][^>]*>/i.exec(html);
+    const start = /<div\b[^>]*class=["'][^"']*(?:news|event)-Detail_Contents[^"']*["'][^>]*>/i.exec(html);
     if (!title || !start) throw new Error("少女歌剧正文结构变化，保留原资料");
     const body = html.slice(start.index + start[0].length);
     let depth = 1;
@@ -380,8 +381,10 @@ export async function fetchLimited(
       Accept: content === "html" ? "text/html" : "text/plain",
     },
   });
-  if (!response.ok)
-    throw Object.assign(new Error(`HTTP ${response.status}；不跟随重定向或绕过限制。`), { httpStatus: response.status });
+  if (!response.ok) {
+    const diagnostic = accessDiagnostic(response, await readErrorSample(response));
+    throw Object.assign(new Error(`HTTP ${response.status}；${diagnostic.conclusion}`), { httpStatus: response.status, diagnostic });
+  }
   if (
     content === "html" &&
     !response.headers.get("content-type")?.includes("text/html")
@@ -426,7 +429,7 @@ export async function crawlSource(
       errors: ["来源尚未完成自动访问许可核实，未发出网络请求。"],
     };
   const observations = [],
-    errors = [];
+    errors = [], accessDiagnostics = [];
   let robots;
   let robotsStatus = "rules";
   try {
@@ -438,6 +441,7 @@ export async function crawlSource(
     if (!/^\s*user-agent\s*:/im.test(robots))
       throw new Error("无法识别 robots 规则");
   } catch (e) {
+    if (e.diagnostic) accessDiagnostics.push({ url: `${source.origin}/robots.txt`, ...e.diagnostic });
     // RFC 9309 §2.3.1.3 distinguishes an unavailable robots resource from
     // a forbidden article. Only explicitly configured sources opt into this.
     if (source.public_fetch_enabled === true && [401, 403, 404, 410].includes(e.httpStatus) && source.robots_unavailable_statuses?.includes(e.httpStatus)) {
@@ -447,6 +451,7 @@ export async function crawlSource(
       status: "blocked",
       observations,
       errors: [`robots 核实失败：${e.message}`],
+      access_diagnostics: accessDiagnostics,
     };
   }
   const read = async (url) => {
@@ -459,16 +464,25 @@ export async function crawlSource(
     return fetchLimited(url, { fetcher });
   };
   let urls = [...source.urls];
-  if (source.index_url) {
+  const indexes = [...new Set([source.index_url, ...(source.index_urls || [])].filter(Boolean))].slice(0, 3);
+  const discovered = [];
+  let accessStopped = false;
+  for (const indexUrl of indexes) {
     try {
-      const html = await read(source.index_url);
+      const html = await read(indexUrl);
       // New announcements must not be starved by a long list of fixed seed URLs.
-      urls = [...discoverLinks(html, source, acceptDiscoveredLink), ...urls];
+      discovered.push(...discoverLinks(html, source, acceptDiscoveredLink));
     } catch (e) {
       errors.push(`官方目录：${e.message}`);
+      if (e.diagnostic) accessDiagnostics.push({ url: indexUrl, ...e.diagnostic });
+      if ([401, 403, 429].includes(e.httpStatus)) { accessStopped = true; break; }
     }
   }
-  for (const url of [...new Set(urls)].slice(0, Math.min(30, limit))) {
+  urls = [...new Set([...discovered, ...urls])];
+  const selected = accessStopped ? [] : urls.slice(0, Math.min(source.public_fetch_enabled ? 80 : 30, limit));
+  let attempted = 0;
+  for (const url of selected) {
+    attempted++;
     try {
       const observation = extractObservation(
         await read(url),
@@ -489,7 +503,9 @@ export async function crawlSource(
       observations.push(observation);
     } catch (e) {
       errors.push(`${url}：${e.message}`);
+      if (e.diagnostic) accessDiagnostics.push({ url, ...e.diagnostic });
+      if ([401, 403, 429].includes(e.httpStatus)) break;
     }
   }
-  return { status: errors.length ? "failed" : "success", observations, errors, robots_status: robotsStatus, robots_rules: robots };
+  return { status: errors.length ? "failed" : "success", observations, errors, access_diagnostics: accessDiagnostics, robots_status: robotsStatus, robots_rules: robots, discovered: urls.length, attempted, deferred_urls: urls.slice(attempted) };
 }

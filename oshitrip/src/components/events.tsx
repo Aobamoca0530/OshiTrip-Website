@@ -336,7 +336,7 @@ export function EventExplorer({
   const pending = announcements.filter(
     (item) =>
       item.activity &&
-      !item.related_event_ids.length &&
+      (item.activity.state !== "ready" || !item.related_event_ids.length) &&
       (collection === "all" ||
         (collection === "live") === (item.activity.kind === "live")),
   );
@@ -545,25 +545,19 @@ export function EventExplorer({
           {!visible.length && <Empty />}
           {!!pending.length && (
             <section className="section-space" aria-label="待补全活动">
-              <h2>线下公告 · 待补全信息</h2>
+              <h2>官方新消息 · 待审核与补全</h2>
               <p className="helper">
-                已按线下活动线索筛选；尚未确认的日期与规则不用于行程匹配。
+                新采集的线下活动与 Live
+                自动推送到这里；翻译与审核通过后加入活动合集，尚未确认的日期与规则不用于行程匹配。
               </p>
               {hasSpecificFilter ? (
                 <p className="helper">
                   另有 {pending.length} 条公告信息待补全。清除筛选后可查看。
                 </p>
               ) : (
-                pending
-                  .slice(0, 12)
-                  .map((item) => (
-                    <ActivityAnnouncement key={item.id} item={item} />
-                  ))
-              )}
-              {pending.length > 12 && (
-                <Link href="/news" className="text-link">
-                  查看全部线下公告 →
-                </Link>
+                pending.map((item) => (
+                  <ActivityAnnouncement key={item.id} item={item} />
+                ))
               )}
             </section>
           )}

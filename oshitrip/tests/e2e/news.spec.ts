@@ -50,3 +50,37 @@ test("official announcements expose merchandise separately and retain original s
     fullPage: false,
   });
 });
+
+test("official news has separate offline and Live collections and discovery review links", async ({
+  page,
+}) => {
+  await page.goto("/news");
+  await page.getByRole("button", { name: /^Live 合集 ·/ }).click();
+  await expect(
+    page.getByRole("region", { name: "线下活动官方消息" }),
+  ).toHaveCount(0);
+  const live = page.getByRole("region", { name: "Live 官方消息" });
+  await expect(live).toBeVisible();
+  const liveIds = new Set(
+    announcements
+      .filter((item) => item.activity?.kind === "live")
+      .map((item) => `announcement-${item.id}`),
+  );
+  for (const id of await live
+    .locator(".news-card")
+    .evaluateAll((nodes) => nodes.map((node) => node.id)))
+    expect(liveIds.has(id)).toBe(true);
+  await page.getByRole("button", { name: /^线下活动合集 ·/ }).click();
+  await expect(page.getByRole("region", { name: "Live 官方消息" })).toHaveCount(
+    0,
+  );
+  const pending = announcements.find(
+    (item) =>
+      item.activity?.state !== "ready" && item.activity?.kind === "offline",
+  );
+  if (pending) {
+    await page.getByLabel("搜索官方公告").fill(pending.title);
+    await page.getByRole("link", { name: "已推送至发现活动 · 待审核" }).click();
+    await expect(page.locator(`#announcement-${pending.id}`)).toBeVisible();
+  }
+});

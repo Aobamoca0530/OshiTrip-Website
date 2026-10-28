@@ -20,6 +20,38 @@ const source = {
   terms_checked_on: "2026-10-28",
 };
 describe("bounded review-only release crawler", () => {
+  it("reads configured directory pages in order and reports anything beyond the detail budget", async () => {
+    const paged = {
+      ...source,
+      public_fetch_enabled: true,
+      index_urls: ["https://bang-dream.com/discographies/page/2/"],
+      path_patterns: [...source.path_patterns, "^/discographies/page/2/$"],
+    };
+    const fetcher: typeof fetch = async (url) =>
+      new Response(
+        String(url).endsWith("robots.txt")
+          ? "User-agent: *\n"
+          : String(url).endsWith("/page/2/")
+            ? '<a href="/discographies/33/">more</a>'
+            : String(url).endsWith("/discographies/")
+              ? '<a href="/discographies/22/">new</a>'
+              : html,
+        { headers: { "content-type": "text/html" } },
+      );
+    const result = await crawlSource(paged, {
+      fetcher,
+      pause: async () => {},
+      limit: 2,
+    });
+    expect(
+      result.observations.map((o: { source_url: string }) => o.source_url),
+    ).toEqual([
+      "https://bang-dream.com/discographies/22/",
+      "https://bang-dream.com/discographies/33/",
+    ]);
+    expect(result.deferred_urls).toEqual(source.urls);
+    expect(result.discovered).toBe(3);
+  });
   it("extracts facts and raw evidence without inventing lottery-to-edition links or stock", () => {
     const o = extractObservation(html, source.urls[0]);
     expect(o.release_on).toBe("2026-11-04");
@@ -109,7 +141,7 @@ describe("bounded review-only release crawler", () => {
       }),
     ).rejects.toThrow("大小限制");
   });
-  it("queues bounded observations, logs partial failures without fabricated success", async () => {
+  it("stops the source after rate limiting and reports unread pages", async () => {
     const fetcher = vi.fn(
       async (input: RequestInfo | URL) =>
         new Response(
@@ -129,8 +161,19 @@ describe("bounded review-only release crawler", () => {
     const pause = vi.fn();
     const r = await crawlSource(source, { fetcher, pause });
     expect(r.status).toBe("failed");
-    expect(r.observations).toHaveLength(1);
+    expect(r.observations).toHaveLength(0);
     expect(r.errors[0]).toContain("429");
+    expect(r.deferred_urls).toEqual(source.urls);
+    expect(fetcher).toHaveBeenCalledTimes(3);
+    expect(r.access_diagnostics?.[0].error_page_kind).toBe('rate_limited');
     expect(pause).toHaveBeenCalledWith(2000);
+  });
+  it('stops after a forbidden index instead of requesting every detail', async () => {
+    const fetcher = vi.fn(async (url: RequestInfo | URL) => new Response(String(url).endsWith('robots.txt') ? 'User-agent: *\nAllow: /' : 'NOT FOUND', { status: String(url).endsWith('robots.txt') ? 200 : 403 }));
+    const result = await crawlSource(source, { fetcher, pause: vi.fn() });
+    expect(result.status).toBe('failed');
+    expect(result.observations).toEqual([]);
+    expect(result.deferred_urls).toEqual(source.urls);
+    expect(fetcher).toHaveBeenCalledTimes(2);
   });
 });
