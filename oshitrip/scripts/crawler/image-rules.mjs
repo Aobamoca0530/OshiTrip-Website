@@ -41,7 +41,8 @@ export const pendingImage = (
 export function bailianEndpoint(
   base = "https://dashscope.aliyuncs.com/compatible-mode/v1",
 ) {
-  const u = new URL(base);
+  // GitHub Actions exposes an unset repository variable as an empty string.
+  const u = new URL(base.trim() || "https://dashscope.aliyuncs.com/compatible-mode/v1");
   if (
     u.protocol !== "https:" ||
     u.username ||

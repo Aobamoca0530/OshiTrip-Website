@@ -68,6 +68,8 @@ pnpm maintain:public --replay
 
 本地安装 `pnpm exec playwright install chromium` 后运行 `pnpm maintain:public`；已安装 Edge 的 Windows 可设置 `CRAWLER_BROWSER_CHANNEL=msedge`。浏览器仅用于维护脚本，不随 Windows 用户客户端运行。GitHub 每日任务自动安装 Chromium，按北京时间 **09:17** 的原有计划运行（平台可能延迟）。报告的每个来源新增 `transport`，Actions 摘要单列浏览器来源结果，不能用整体任务通过来推断虹咲采集成功。
 
+2026-10-29 北京时间 06:38–06:42 的 [GitHub Actions 实测](https://github.com/Aobamoca0530/OshiTrip-Website/actions/runs/40781445206) 已成功安装并启动 Chromium，但虹咲目录返回 HTTP 403，取得 0 页，7 个已知详情延期；其他六个来源取得 63 页。应用内浏览器可读不等于定时任务可读，当前不能宣称虹咲每日自动采集可用。该运行也暴露了空 `DASHSCOPE_BASE_URL` 导致测试失败的问题，现已将空值按未配置处理并补充回归测试。报告显示云端翻译与审核均未配置 API 密钥，新增内容继续进入人工待办，不自动批准。
+
 手动运行同一个工作流并勾选 `validate_only` 时，完整执行采集和维护校验，但不推送数据；虹咲未完整取得正文会让验证步骤失败。普通每日运行保留失败来源状态并允许其他已校验来源更新。报告附件保留 14 天。2026-10-29 本机独立无头 Edge 实测仍返回 HTTP 403，不能把应用内浏览器成功推广为本机或云端定时任务成功；云端结果需以实际工作流报告为准。
 
 ## 2026-10-29 漏项复核范围

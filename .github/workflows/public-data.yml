@@ -34,7 +34,8 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Install collector browser
         run: pnpm exec playwright install --with-deps chromium
-      - run: pnpm maintain:public
+      - id: maintain
+        run: pnpm maintain:public
         env:
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
           DASHSCOPE_BASE_URL: ${{ vars.DASHSCOPE_BASE_URL }}
@@ -51,6 +52,7 @@ jobs:
           IMAGE_RULE_MODEL: ${{ vars.IMAGE_RULE_MODEL }}
           CRAWLER_IMAGE_LIMIT: 4
       - name: Verify browser collection
+        if: always() && steps.maintain.outcome != 'skipped'
         run: node scripts/check-browser-collection.mjs
         env:
           CRAWLER_REQUIRE_BROWSER_SUCCESS: ${{ inputs.validate_only && 'true' || 'false' }}

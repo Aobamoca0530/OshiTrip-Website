@@ -7,8 +7,12 @@ import {
 import { reviewActivity } from "../../scripts/crawler/event-intelligence.mjs";
 import verified from "../../scripts/crawler/verified-readings.json";
 import catalog from "../../src/data/catalog.json";
+import { bailianEndpoint } from "../../scripts/crawler/image-rules.mjs";
 
 describe("translation and review providers", () => {
+  it.each(["", "   "])("uses the official default for an empty Actions base URL %j", (baseUrl) => {
+    expect(bailianEndpoint(baseUrl)).toBe("https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions");
+  });
   it("queues manual work without keys and selects independent configured providers", () => {
     expect(resolveAI("translation", {}).provider).toBe("manual");
     const env = {
