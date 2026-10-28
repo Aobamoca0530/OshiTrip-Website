@@ -49,6 +49,8 @@ describe("translation and review providers", () => {
         if (provider === "openai") {
           expect(url).toBe("https://api.openai.com/v1/responses");
           expect(body.store).toBe(false);
+          expect(body.input).toMatch(/\bJSON\b/);
+          expect(JSON.parse(body.input.split('\n').slice(1).join('\n'))).toEqual({});
           return Response.json({
             status: "completed",
             output: [

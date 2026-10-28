@@ -5,7 +5,7 @@ import { resolveAI, requestJSON } from './crawler/ai-provider.mjs';
 // response body, headers or provider error message, even when authentication fails.
 const config = resolveAI('translation');
 const report = { provider: config.provider, model: config.model, configured: config.configured, success: false, requests: 0 };
-const safeCodes = new Set(['insufficient_quota', 'rate_limit_exceeded', 'invalid_api_key', 'model_not_found', 'permission_denied', 'access_denied', 'billing_hard_limit_reached', 'account_deactivated']);
+const safeCodes = new Set(['insufficient_quota', 'rate_limit_exceeded', 'invalid_api_key', 'model_not_found', 'permission_denied', 'access_denied', 'billing_hard_limit_reached', 'account_deactivated', 'unsupported_parameter', 'unsupported_value', 'invalid_value']);
 try {
   if (config.provider !== 'openai' || !config.configured) throw new Error('configuration');
   const value = await requestJSON('Return exactly this JSON object: {"ok":true}', { task: 'connection check' }, {
@@ -21,6 +21,8 @@ try {
         const result = await response.clone().json().catch(() => null);
         const code = result?.error?.code;
         report.error_code = safeCodes.has(code) ? code : 'unclassified_api_error';
+        if (typeof result?.error?.message === 'string' && /input messages.*json|json.*input messages/i.test(result.error.message)) report.error_code = 'json_input_requirement';
+        if (['input', 'model', 'text.format', 'max_output_tokens'].includes(result?.error?.param)) report.error_param = result.error.param;
       }
       return response;
     },
