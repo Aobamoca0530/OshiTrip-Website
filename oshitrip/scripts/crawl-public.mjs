@@ -15,6 +15,8 @@ import { resolveAI, publicAIConfig } from './crawler/ai-provider.mjs';
 import { classifyAnnouncement } from './crawler/offline-filter.mjs';
 import { deduplicateSeriesNews } from './crawler/lovelive-news.mjs';
 import { prioritizeDiscovery, syncApprovedGallery, discoveryReport, useManualReading } from './crawler/discovery-promotion.mjs';
+import { imageReviewQueue } from './crawler/image-queue.mjs';
+import { syncVerifiedImageRules, verifiedImageSchema } from './crawler/verified-images.mjs';
 
 const configured = JSON.parse(await fs.readFile('scripts/crawler/sources.json', 'utf8'));
 const projectFilter = createProjectFilter(JSON.parse(await fs.readFile('scripts/crawler/project-keywords.json', 'utf8')));
@@ -149,7 +151,7 @@ for (const row of next) {
   if (captured) for (const event of catalog.events.filter(e => row.related_event_ids.includes(e.id))) syncApprovedGallery(event, row, captured.observed_at || stamp);
 }
 const promotion = discoveryReport(next, observations, catalog, existing, stamp);
-report.discovery = { multi_image: promotion.total, promoted: promotion.promoted, published: promotion.published, pending: promotion.pending };
+report.discovery = { total: promotion.total, multi_image: promotion.items.filter(item => item.image_count >= 2).length, promoted: promotion.promoted, published: promotion.published, pending: promotion.pending };
 await fs.writeFile('var/public-crawler/discovery-review-report.json', JSON.stringify(promotion, null, 2) + '\n');
 const imageCacheFile = 'var/public-crawler/image-cache.json';
 let imageCache = new Map();
@@ -161,15 +163,25 @@ for (const row of existing) for (const r of row.image_readings || []) {
 const imageProvider = process.env.IMAGE_RULE_PROVIDER || (process.env.OPENAI_API_KEY ? 'openai' : 'bailian');
 const imageKey = imageProvider === 'bailian' ? process.env.DASHSCOPE_API_KEY : process.env.OPENAI_API_KEY;
 const reviewImage = createImageReviewer({ provider: imageProvider, apiKey: imageKey, model: process.env.IMAGE_RULE_MODEL || (imageProvider === 'bailian' ? 'qwen3-vl-plus' : 'gpt-4.1-mini'), cache: imageCache });
-for (const { source, observation: o } of observations) {
+const imageAttempts = [];
+for (const { source, observation: o } of prioritizeDiscovery(observations, next)) {
   const row = next.find(r => r.source_url === o.source_url);
   if (!row) continue;
   const old = existing.find(r => r.source_url === o.source_url);
   row.image_readings = (old?.image_readings || []).filter(r => row.images.some(i => i.url === r.url));
-  if (replay || process.env.CRAWLER_IMAGE_RULES !== 'true' || !imageKey) continue;
-  const candidates = o.images.filter(i => /注意|予約|参加|入場|購入|特典|メニュー|商品|グッズ|ルール|整理券/.test(`${i.alt} ${i.context}`)).slice(0, 4);
+  if (replay || process.env.CRAWLER_IMAGE_RULES !== 'true' || !imageKey || stoppedOrigins.has(source.origin)) continue;
+  // Sparse alt text must not silently exclude a poster. Prefer rule pictures,
+  // then unseen pictures; every remaining picture is kept in the review queue.
+  const priority = image => (row.image_readings.some(r => r.url === image.url) ? 0 : 2)
+    + (/注意|予約|参加|入場|購入|特典|メニュー|商品|グッズ|ルール|整理券/.test(`${image.alt} ${image.context}`) ? 1 : 0);
+  const candidates = [...o.images].sort((a, b) => priority(b) - priority(a)).slice(0, 4);
   for (const image of candidates) {
     const result = await reviewImage(image, { source, permits: path => policies.has(source.id) && robotsAllows(policies.get(source.id), path), pause: ms => new Promise(resolve => setTimeout(resolve, ms)) });
+    imageAttempts.push({ source_url: o.source_url, ...result });
+    if ([401, 403, 429].includes(result.source_http_status)) {
+      stoppedOrigins.set(source.origin, result.source_http_status);
+      break;
+    }
     // Image-only readings remain visibly unverified and never set travel or ticket dates.
     if (result.reading && result.sha256) {
       row.image_readings = row.image_readings.filter(r => r.url !== image.url);
@@ -179,6 +191,11 @@ for (const { source, observation: o } of observations) {
   row.image_readings = row.image_readings.slice(-8);
 }
 await fs.writeFile(imageCacheFile, JSON.stringify([...imageCache].slice(-400)));
+const verifiedImages = JSON.parse(await fs.readFile('scripts/crawler/verified-image-readings.json', 'utf8')).map(record => verifiedImageSchema.parse(record));
+if (new Set(verifiedImages.map(record => `${record.source_url}\n${record.url}`)).size !== verifiedImages.length) throw new Error('Duplicate image review records');
+syncVerifiedImageRules(catalog, next, observations, verifiedImages, imageAttempts);
+const imageQueue = imageReviewQueue(next, observations, imageAttempts, stamp, verifiedImages);
+await fs.writeFile('var/public-crawler/image-review-report.json', JSON.stringify(imageQueue, null, 2) + '\n');
 const { publicDataSchema } = await loadDataSchema();
 // Validate through the same application schema before replacing the file.
 publicDataSchema.parse({ catalog: { ...catalog, events: catalog.events.filter(e => ['published', 'cancelled'].includes(e.status)) }, releases: JSON.parse(await fs.readFile('src/data/releases.json', 'utf8')).filter(r => r.status === 'published'), stores: JSON.parse(await fs.readFile('src/data/stores.json', 'utf8')).filter(s => s.status === 'published'), announcements: next });

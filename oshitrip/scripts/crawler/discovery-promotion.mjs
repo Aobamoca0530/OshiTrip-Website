@@ -43,7 +43,7 @@ export function syncApprovedGallery(event, row, stamp) {
 export function discoveryReport(announcements, observations, catalog, previous, stamp) {
   const observed = new Map(observations.map(item => [item.observation.source_url, item.observation]));
   const oldReady = new Set(previous.filter(row => row.activity?.state === 'ready').map(row => row.source_url));
-  const items = announcements.filter(row => uniqueImages(row.images).length >= 2).map(row => {
+  const items = announcements.map(row => {
     const observation = observed.get(row.source_url);
     const events = catalog.events.filter(event => ['published', 'cancelled'].includes(event.status) && row.related_event_ids.includes(event.id));
     const ready = row.activity?.state === 'ready' && row.activity.review?.state === 'approved' && events.length > 0;

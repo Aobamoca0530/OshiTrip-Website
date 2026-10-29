@@ -163,9 +163,9 @@ describe("source status projection", () => {
   it("prepares the projection before the shared bundle and all validation stages", () => {
     expect(
       maintenanceStages()
-        .slice(0, 4)
+        .slice(0, 5)
         .map((row) => row[0]),
-    ).toEqual(["collect", "prepare-source-status", "prepare-ticket-products", "prepare-public-data"]);
+    ).toEqual(["collect", "check-browser-collection", "prepare-source-status", "prepare-ticket-products", "prepare-public-data"]);
   });
   it("preserves the v3 parsed-schema checksum for older clients, while v4 includes status", () => {
     const data = {
