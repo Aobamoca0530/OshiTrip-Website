@@ -539,6 +539,23 @@ legend {
   gap: 8px;
   flex-wrap: wrap;
 }
+.ip-groups {
+  display: grid;
+  gap: 12px;
+}
+.ip-group {
+  min-width: 0;
+  margin: 0;
+  padding: 10px 12px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.ip-group legend {
+  padding: 0 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+}
 .chip {
   display: inline-flex;
   align-items: center;

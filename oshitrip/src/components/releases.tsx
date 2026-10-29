@@ -1,5 +1,6 @@
 "use client";
 import type { Franchise } from "@/lib/schema";
+import { orderedFranchises } from "@/lib/franchises";
 
 import { ReleaseTable, StoreFinder } from "./shopping";
 import type { Store } from "@/lib/shopping";
@@ -126,7 +127,7 @@ export function ReleaseExplorer({
             关联企划
             <select value={ip} onChange={(e) => setIp(e.target.value)}>
               <option value="">全部</option>
-              {franchises.map((f) => (
+              {orderedFranchises(franchises).map((f) => (
                 <option key={f.id} value={f.id}>
                   {f.parent_id ? "　" : ""}
                   {f.name}

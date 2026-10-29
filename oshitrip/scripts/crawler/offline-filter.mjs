@@ -25,6 +25,7 @@ export function classifyOffline(title, body = '') {
 // Do not infer a concert from a generic article's footer, franchise name or sidebar.
 export function classifyAnnouncement(source, observation) {
   const { title, body_text: body = '' } = observation;
+  if (/全劇場の上映が終了/.test(body)) return null;
   // Broadcast recap articles can also announce real store campaigns and tickets.
   // Keep these mixed official roundups for review; pure streams remain excluded.
   if (source.id === 'gakuen-idolmaster-portal' && /お知らせまとめ/.test(title) && /公式リセール|店頭(?:でも|と)|全国の[^。\n]{1,40}コラボ/.test(body)) return 'offline';

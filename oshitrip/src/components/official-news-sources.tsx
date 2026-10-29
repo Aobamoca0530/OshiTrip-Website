@@ -3,7 +3,7 @@ export function OfficialNewsSources() {
     ["莲之空", "https://www.lovelive-anime.jp/hasunosora/news/"],
     ["Liella!", "https://www.lovelive-anime.jp/yuigaoka/topics/"],
     ["Aqours", "https://www.lovelive-anime.jp/uranohoshi/topics.php"],
-    ["μ's（缪斯）", "https://www.lovelive-anime.jp/otonokizaka/topics.php"],
+    ["μ's", "https://www.lovelive-anime.jp/otonokizaka/topics.php"],
     ["人生不易部", "https://www.lovelive-anime.jp/lovehigh/news/"],
     ["学园偶像大师巡演", "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/"],
     ["学园偶像大师厂牌新闻", "https://gakuen-label.idolmaster-official.jp/news"],

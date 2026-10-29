@@ -249,84 +249,6 @@
     "authorization_note": "用户要求补查已公布Live。读取官网公开活动目录和详情，遵守robots和HTTP限制，不将正文更新遗漏为仅新闻页。"
   },
   {
-    "id": "hasunosora-official",
-    "kind": "event-source",
-    "origin": "https://www.lovelive-anime.jp",
-    "transport": "browser",
-    "browser_mode": "headed",
-    "index_url": "https://www.lovelive-anime.jp/hasunosora/news/",
-    "index_urls": [
-      "https://www.lovelive-anime.jp/hasunosora/live-event/"
-    ],
-    "path_patterns": [
-      "^/hasunosora/(?:news/|live-event/)$",
-      "^/hasunosora/news/detail\\.php$",
-      "^/hasunosora/live-event/live_detail\\.php$"
-    ],
-    "query_rules": {
-      "/hasunosora/news/detail.php": {
-        "p": "^01_[0-9]{1,6}$"
-      },
-      "/hasunosora/live-event/live_detail.php": {
-        "p": "^[A-Za-z0-9_-]{1,80}$"
-      }
-    },
-    "discovery_patterns": [
-      "^/hasunosora/news/detail\\.php$",
-      "^/hasunosora/live-event/live_detail\\.php$"
-    ],
-    "urls": [
-      "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
-      "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106",
-      "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
-      "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6728"
-    ],
-    "page_limit": 24,
-    "permission": "unreviewed",
-    "terms_url": "https://www.lovelive-anime.jp/hasunosora/",
-    "terms_checked_on": null,
-    "robots_checked_on": "2026-10-29",
-    "authorization_note": "用户要求扩展该企划公开新闻与Live采集；普通浏览器、临时上下文、低频读取，遵守robots与HTTP限制。仅事实摘要进入翻译和审核队列。"
-  },
-  {
-    "id": "liella-official",
-    "kind": "event-source",
-    "origin": "https://www.lovelive-anime.jp",
-    "transport": "browser",
-    "browser_mode": "headed",
-    "index_url": "https://www.lovelive-anime.jp/yuigaoka/topics/",
-    "index_urls": [
-      "https://www.lovelive-anime.jp/yuigaoka/live/"
-    ],
-    "path_patterns": [
-      "^/yuigaoka/(?:topics/|live/)$",
-      "^/yuigaoka/topics/detail\\.php$",
-      "^/yuigaoka/live/live_detail\\.php$"
-    ],
-    "query_rules": {
-      "/yuigaoka/topics/detail.php": {
-        "p": "^01_[0-9]{1,6}$"
-      },
-      "/yuigaoka/live/live_detail.php": {
-        "p": "^[A-Za-z0-9_-]{1,80}$"
-      }
-    },
-    "discovery_patterns": [
-      "^/yuigaoka/topics/detail\\.php$",
-      "^/yuigaoka/live/live_detail\\.php$"
-    ],
-    "urls": [
-      "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-      "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=musubu"
-    ],
-    "page_limit": 24,
-    "permission": "unreviewed",
-    "terms_url": "https://www.lovelive-anime.jp/yuigaoka/",
-    "terms_checked_on": null,
-    "robots_checked_on": "2026-10-29",
-    "authorization_note": "用户要求扩展该企划公开新闻与Live采集；普通浏览器、临时上下文、低频读取，遵守robots与HTTP限制。仅事实摘要进入翻译和审核队列。"
-  },
-  {
     "id": "aqours-official",
     "kind": "event-source",
     "origin": "https://www.lovelive-anime.jp",
@@ -462,6 +384,85 @@
     "permission": "unreviewed",
     "terms_url": "https://www.lovelive-anime.jp",
     "authorization_note": "跨企划Live单独收录，共用官网链接去重；不将Love Live作品名当作演唱会分类依据。"
+  },
+  {
+    "id": "hasunosora-official",
+    "kind": "event-source",
+    "origin": "https://www.lovelive-anime.jp",
+    "transport": "browser",
+    "browser_mode": "headed",
+    "index_url": "https://www.lovelive-anime.jp/hasunosora/news/",
+    "index_urls": [
+      "https://www.lovelive-anime.jp/hasunosora/live-event/"
+    ],
+    "path_patterns": [
+      "^/hasunosora/(?:news/|live-event/)$",
+      "^/hasunosora/news/detail\\.php$",
+      "^/hasunosora/live-event/live_detail\\.php$"
+    ],
+    "query_rules": {
+      "/hasunosora/news/detail.php": {
+        "p": "^01_[0-9]{1,6}$"
+      },
+      "/hasunosora/live-event/live_detail.php": {
+        "p": "^[A-Za-z0-9_-]{1,80}$"
+      }
+    },
+    "discovery_patterns": [
+      "^/hasunosora/news/detail\\.php$",
+      "^/hasunosora/live-event/live_detail\\.php$"
+    ],
+    "urls": [
+      "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+      "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106",
+      "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+      "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6728"
+    ],
+    "page_limit": 24,
+    "permission": "unreviewed",
+    "terms_url": "https://www.lovelive-anime.jp/hasunosora/",
+    "terms_checked_on": null,
+    "robots_checked_on": "2026-10-29",
+    "authorization_note": "用户要求扩展该企划公开新闻与Live采集；普通浏览器、临时上下文、低频读取，遵守robots与HTTP限制。仅事实摘要进入翻译和审核队列。"
+  },
+  {
+    "id": "liella-official",
+    "kind": "event-source",
+    "origin": "https://www.lovelive-anime.jp",
+    "transport": "browser",
+    "browser_mode": "headed",
+    "index_url": "https://www.lovelive-anime.jp/yuigaoka/topics/",
+    "index_urls": [
+      "https://www.lovelive-anime.jp/yuigaoka/live/"
+    ],
+    "path_patterns": [
+      "^/yuigaoka/(?:topics/|live/)$",
+      "^/yuigaoka/topics/detail\\.php$",
+      "^/yuigaoka/live/live_detail\\.php$"
+    ],
+    "query_rules": {
+      "/yuigaoka/topics/detail.php": {
+        "p": "^01_[0-9]{1,6}$"
+      },
+      "/yuigaoka/live/live_detail.php": {
+        "p": "^[A-Za-z0-9_-]{1,80}$"
+      }
+    },
+    "discovery_patterns": [
+      "^/yuigaoka/topics/detail\\.php$",
+      "^/yuigaoka/live/live_detail\\.php$"
+    ],
+    "urls": [
+      "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+      "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=musubu",
+      "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6678"
+    ],
+    "page_limit": 24,
+    "permission": "unreviewed",
+    "terms_url": "https://www.lovelive-anime.jp/yuigaoka/",
+    "terms_checked_on": null,
+    "robots_checked_on": "2026-10-29",
+    "authorization_note": "用户要求扩展该企划公开新闻与Live采集；普通浏览器、临时上下文、低频读取，遵守robots与HTTP限制。仅事实摘要进入翻译和审核队列。"
   },
   {
     "id": "gakuen-idolmaster-live",

@@ -36,6 +36,7 @@ import {
 import { usePersonal } from "./personal";
 import type { Announcement } from "@/lib/announcements";
 import { ActivityAnnouncement } from "./announcements";
+import { franchiseGroups, orderedFranchises } from "@/lib/franchises";
 
 export function SourceNote({ mode, error }: { mode: string; error?: string }) {
   return (
@@ -56,8 +57,12 @@ export function SourceNote({ mode, error }: { mode: string; error?: string }) {
 export function IPChoices({ franchises }: { franchises: Franchise[] }) {
   const { data, toggleIP } = usePersonal();
   return (
-    <div className="ip-choices">
-      {franchises.map((f) => (
+    <div className="ip-groups">
+      {franchiseGroups(franchises).map(({root, members}) => (
+      <fieldset className="ip-group" key={root.id}>
+        <legend>{root.name}</legend>
+        <div className="ip-choices">
+      {members.map((f) => (
         <button
           key={f.id}
           type="button"
@@ -68,6 +73,9 @@ export function IPChoices({ franchises }: { franchises: Franchise[] }) {
           {data.ips.includes(f.id) ? <Check size={14} /> : <Plus size={14} />}{" "}
           {f.name}
         </button>
+      ))}
+        </div>
+      </fieldset>
       ))}
     </div>
   );
@@ -386,7 +394,7 @@ export function EventExplorer({
               onChange={(e) => update("ip", e.target.value)}
             >
               <option value="">全部 IP</option>
-              {franchises.map((f) => (
+              {orderedFranchises(franchises).map((f) => (
                 <option key={f.id} value={f.id}>
                   {f.parent_id ? "↳ " : ""}
                   {f.name}

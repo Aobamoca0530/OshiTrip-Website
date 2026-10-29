@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { allowedUrl, crawlSource, extractObservation } from '../../scripts/crawler/core.mjs';
+import { allowedUrl, crawlSource, extractObservation, extractImageCandidates } from '../../scripts/crawler/core.mjs';
+import { franchiseGroups, orderedFranchises } from '../../src/lib/franchises';
 import { classifyAnnouncement, classifyOffline } from '../../scripts/crawler/offline-filter.mjs';
 import { deduplicateSeriesNews } from '../../scripts/crawler/lovelive-news.mjs';
 import { createProjectFilter } from '../../scripts/crawler/project-filter.mjs';
@@ -8,6 +9,21 @@ import keywords from '../../scripts/crawler/project-keywords.json';
 import { cityChoices } from '../../src/lib/schema';
 
 describe('expanded official project sources', () => {
+  it('keeps series and children together when incoming rows are shuffled',()=>{
+    const rows=[{id:'muse',name:"μ's",parent_id:'lovelive'},{id:'bd',name:'BanG Dream!',parent_id:null},{id:'lovelive',name:'Love Live!',parent_id:null},{id:'aqours',name:'Aqours',parent_id:'lovelive'}];
+    expect(franchiseGroups(rows).find(g=>g.root.id==='lovelive')?.members.map(f=>f.id)).toEqual(['lovelive','muse','aqours']);
+    expect(orderedFranchises(rows).map(f=>f.id)).toEqual(['bd','lovelive','muse','aqours']);
+  });
+  it('captures official concert images and ignores navigation and unsafe image endpoints',()=>{
+    const image='image.php?img_path=/lovelive/jp/live/2026/10/01/1002/folder/photo.jpeg';
+    const html=`<nav><img src="/uranohoshi/img/nav.png"></nav><article>開催概要 会場 沼津<img src="${image}"><img src="${image}&amp;redirect=https://evil.test"><img src="image.php?img_path=https://evil.test/a.jpg"></article>`;
+    const url='https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost';
+    expect(extractImageCandidates(html,url).map(i=>i.url)).toEqual([new URL(image,url).href]);
+    expect(extractImageCandidates(html,'https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/')).toHaveLength(1);
+    const ikizu=`<div id="event-detail"><h2>開催概要 会場</h2><img src="/lovelive/jp/live/2026/09/20/1002/dir/photo.jpeg">${'公演情報'.repeat(35)}</div><footer><img src="/lovehigh/img/other.png"></footer>`;
+    expect(extractImageCandidates(ikizu,'https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=3rdLIVE')).toHaveLength(1);
+    expect(extractImageCandidates('<article class="newsbox">開催概要<img src="../shared/api/image.php?img_path=/lovelive/jp/news/2026/10/23/1002/dir/photo.jpeg"></article>','https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6728')).toHaveLength(1);
+  });
   it('resolves relative news and Live links against their own directory', async () => {
     const source = {...sources.find(s=>s.id==='hasunosora-official')!, public_fetch_enabled:true, urls:[]};
     const pages = new Map([
@@ -62,6 +78,7 @@ describe('expanded official project sources', () => {
     expect(classifyOffline('蓮ノ空 カラオケの鉄人')).toBe('offline');
     expect(classifyOffline('初星学園 LIVE TOUR Single「修楽旅行」発売決定！')).toBeNull();
     expect(classifyOffline('Roselia 10th Anniversary Best Album「Lehre der Rose」リリース記念ライブ')).toBe('live');
+    expect(classifyAnnouncement({id:'muse-official'},{title:'4DX上映',body_text:'全劇場の上映が終了いたしました。',source_url:'https://www.lovelive-anime.jp/otonokizaka/event/lovelive4dx/'})).toBeNull();
     expect(classifyAnnouncement({id:'gakuen-idolmaster-portal'},{title:'学マス生配信 お知らせまとめ',body_text:'全国のローソンで学マスとのコラボキャンペーン',source_url:'https://idolmaster-official.jp/news/01_20075'})).toBe('offline');
     expect(classifyAnnouncement({id:'gakuen-idolmaster-portal'},{title:'学マス生配信 お知らせまとめ',body_text:'ゲーム内のガシャと新曲を公開',source_url:'https://idolmaster-official.jp/news/01_20075'})).toBeNull();
   });

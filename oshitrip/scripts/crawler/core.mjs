@@ -51,8 +51,8 @@ function articleHtml(html, sourceUrl) {
     return `<h1>${title}</h1>${balancedDiv(html, start)}`;
   }
   if (url.hostname === 'www.lovelive-anime.jp' && /^\/(hasunosora|yuigaoka|uranohoshi|otonokizaka|lovehigh|special)\//.test(url.pathname)) {
-    if (/\/lovehigh\/news\/detail\.php$/.test(url.pathname)) {
-      const start = /<div\b[^>]*id=["']news-detail["'][^>]*>/i.exec(html);
+    if (/\/lovehigh\/(?:news\/detail|live\/live_detail)\.php$/.test(url.pathname)) {
+      const start = /<div\b[^>]*id=["'](?:news|event)-detail["'][^>]*>/i.exec(html);
       if (!start) throw new Error('人生不易部新闻正文结构变化，保留原资料');
       return balancedDiv(html, start);
     }
@@ -128,13 +128,13 @@ export function extractImageCandidates(html, sourceUrl) {
       const u = new URL(raw.replaceAll("&amp;", "&"), sourceUrl);
       const loveLiveImage =
         u.hostname === "www.lovelive-anime.jp" &&
-        /^\/(?:nijigasaki\/module|hasunosora\/news\/?|yuigaoka\/topics|uranohoshi\/module|otonokizaka\/module)\/image\.php$/.test(u.pathname) &&
+        /^\/(?:nijigasaki|hasunosora|yuigaoka|uranohoshi|otonokizaka|lovehigh|special)\/(?:module|news|topics|live|live-event|(?:shared|common)\/api|event\/[a-z0-9_-]+)\/image\.php$/.test(u.pathname) &&
         [...u.searchParams.keys()].length === 1 &&
-        /^\/lovelive\/jp\/news\/[0-9/]+\/[\w/.-]+\.(?:png|jpe?g|webp)$/i.test(
+        /^\/lovelive\/jp\/(?:news|live)\/[0-9/]+\/[\w/.-]+\.(?:png|jpe?g|webp)$/i.test(
           u.searchParams.get("img_path") || "",
         );
       const staticImage =
-        /(?:uploads|assets|files|images|img|lovelive\/jp\/news)\//.test(u.pathname) &&
+        /(?:uploads|assets|files|images|img|lovelive\/jp\/(?:news|live))\//.test(u.pathname) &&
         /\.(?:png|jpe?g|webp|avif)$/i.test(u.pathname);
       if (
         u.protocol !== "https:" ||
@@ -481,6 +481,8 @@ export async function crawlSource(
     } else return {
       status: "blocked",
       observations,
+        discovered: source.urls.length,
+        deferred_urls: [...source.urls],
       errors: [`robots 核实失败：${e.message}`],
       access_diagnostics: accessDiagnostics,
     };

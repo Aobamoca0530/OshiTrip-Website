@@ -18,6 +18,7 @@ import {
 } from "@/lib/schema";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { ReleaseAdmin } from "./release-admin";
+import { orderedFranchises } from "@/lib/franchises";
 
 const blankRound = (): Round => ({
   id: crypto.randomUUID(),
@@ -337,7 +338,7 @@ export function Admin() {
             上级系列
             <select name="parent">
               <option value="">无（顶级 IP）</option>
-              {catalog.franchises.map((f) => (
+              {orderedFranchises(catalog.franchises).map((f) => (
                 <option key={f.id} value={f.id}>
                   {f.name}
                 </option>
@@ -609,7 +610,7 @@ function EventEditor({
       <fieldset>
         <legend>关联 IP（可多选）</legend>
         <div className="ip-choices">
-          {catalog.franchises.map((f) => (
+          {orderedFranchises(catalog.franchises).map((f) => (
             <label className="checkbox" key={f.id}>
               <input
                 type="checkbox"

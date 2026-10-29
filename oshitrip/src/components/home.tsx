@@ -5,6 +5,7 @@ import { cityChoices, type Catalog } from "@/lib/schema";
 import { EventCollectionCard, Empty, IPChoices } from "./events";
 import { usePersonal } from "./personal";
 import { filterEvents, groupMatches } from "@/lib/domain";
+import { orderedFranchises } from "@/lib/franchises";
 export function Home({ catalog }: { catalog: Catalog }) {
   const { data, now } = usePersonal();
   const upcoming = filterEvents(catalog.events, catalog.franchises, {}, now);
@@ -119,9 +120,9 @@ export function Home({ catalog }: { catalog: Catalog }) {
           </span>
           <select name="ip" defaultValue="">
             <option value="">全部 IP / 子系列</option>
-            {catalog.franchises.map((f) => (
+            {orderedFranchises(catalog.franchises).map((f) => (
               <option key={f.id} value={f.id}>
-                {f.name}
+                {f.parent_id ? '↳ ' : ''}{f.name}
               </option>
             ))}
           </select>
