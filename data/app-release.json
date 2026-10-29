@@ -1,5 +1,5 @@
 {
-  "version": "1.5.0",
-  "notes": "现有 Windows 稳定版本。",
-  "url": "https://github.com/Aobamoca0530/OshiTrip-Website/releases/tag/v1.5.0-windows"
+  "version": "1.6.0",
+  "notes": "新增 Android 离线 App、iPhone 网页安装版和 Apple Silicon / Intel Mac 启动包；启动时检查软件新版，保留活动资料自动更新。",
+  "url": "https://github.com/Aobamoca0530/OshiTrip-Website/releases/tag/v1.6.0"
 }
