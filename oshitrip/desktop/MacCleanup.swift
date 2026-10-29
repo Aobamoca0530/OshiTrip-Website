@@ -66,7 +66,8 @@ final class Cleaner: NSObject, NSApplicationDelegate {
         do {
             try checkStopped()
             let gate = try DesktopLock(directory: data)
-            try withExtendedLifetime(gate) {
+            defer { withExtendedLifetime(gate) {} }
+            do {
                 if uninstall {
                     guard let target = selected else { throw CleanupFiles.fail("请先选择 OshiTrip.app。") }
                     try CleanupFiles.validatePackage(target)
@@ -74,7 +75,10 @@ final class Cleaner: NSObject, NSApplicationDelegate {
                 let targets = try CleanupFiles.cacheTargets(data, forget: forget.state == .on)
                 let origin = address()
                 let dialog = NSAlert(); dialog.alertStyle = .warning; dialog.messageText = "确认清理范围"
-                dialog.informativeText = (uninstall ? "移入废纸篓（包括其中所有文件）：\n\(selected!.path)\n\n" : "") + "永久删除：\n" + (targets.isEmpty ? "没有可清理的缓存。" : targets.map(\.path).joined(separator: "\n")) + "\n\n" + origin + "\n" + (forget.state == .on ? "访问地址将重置，请记下原地址。" : "保留访问地址。") + "\n浏览器数据仍需手动清除。"
+                let programSummary = uninstall ? "移入废纸篓（包括其中所有文件）：\n\(selected!.path)" : ""
+                let cacheSummary = targets.isEmpty ? "没有可清理的缓存。" : targets.map { $0.path }.joined(separator: "\n")
+                let addressSummary = forget.state == .on ? "访问地址将重置，请记下原地址。" : "保留访问地址。"
+                dialog.informativeText = [programSummary, "永久删除：", cacheSummary, origin, addressSummary, "浏览器数据仍需手动清除。"].filter { !$0.isEmpty }.joined(separator: "\n\n")
                 dialog.addButton(withTitle: "取消"); dialog.addButton(withTitle: "确认清理")
                 guard dialog.runModal() == .alertSecondButtonReturn else { return }
                 try checkStopped()
