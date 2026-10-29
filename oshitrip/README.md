@@ -17,6 +17,12 @@ Windows PowerShell 可将 `pnpm` 替换为 `pnpm.cmd`。打开终端显示的本
 
 ## 数据与配置
 
+本轮增加子 IP 官网入口与固定乐队顺序（RAS → Our Notes → MyGO!!!!! → Ave Mujica），官网映射维护在 `src/lib/franchise-official-links.ts`。首页和旅行偏好可直接跳转官网；此映射不自动启用新采集来源，也不改变旧版公共数据包字段。
+
+「Live 抽选与发售」和商品详情可展开对应公告的官方配图，保留出处及未核实提示。演出海报不能代替商品封面。历史附券轮次明确标记已截止，不因补录而重新成为可报名。
+
+2026-10-29补充复核10条Live、新增5项历史附券商品，详见[核对记录](docs/reviews/2026-10-29-ticket-followup.md)。叶月恋店铺公告属于2026年度语境，但销售段落未完整写年，预约方式仍未明示，保持待审核。
+
 默认读取 `src/data/catalog.json`、`src/data/releases.json` 和 `src/data/stores.json`，不需要数据库或 AI API Key。资料包含官方来源和核实日期，不代表实时预约名额或库存。关注、收藏与旅行安排保存在当前浏览器中。
 
 本地模式下，`NEXT_PUBLIC_SUPABASE_URL` 和 `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` 均应未设置或为空。只配置一项会报错；两项都有值时会切换为数据库模式。修改环境变量后需要重启服务。

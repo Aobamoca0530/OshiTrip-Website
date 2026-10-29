@@ -539,6 +539,8 @@ legend {
   gap: 8px;
   flex-wrap: wrap;
 }
+.ip-choice { display: inline-flex; align-items: center; gap: .35rem; max-width: 100%; }
+.ip-official-link { font-size: .75rem; white-space: nowrap; padding: .5rem .25rem; }
 .ip-groups {
   display: grid;
   gap: 12px;

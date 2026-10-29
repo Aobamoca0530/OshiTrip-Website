@@ -1,16 +1,17 @@
 import { z } from 'zod';
 import { observationSchema } from './core.mjs';
+import { supportingBookingEvidenceSchema } from './supporting-booking-evidence.mjs';
 import { ticketProductSchema, verifiedTicketProductSchema, TICKET_PRODUCT_INSTRUCTIONS } from './ticket-products.mjs';
 import { readingSchema, reviewSchema, TRANSLATION_INSTRUCTIONS, REVIEW_INSTRUCTIONS } from './event-intelligence.mjs';
 
-export const WORKFLOW_VERSION = '1.1.0';
+export const WORKFLOW_VERSION = '1.2.0';
 export function workflowContract() {
   return {
     workflow_version: WORKFLOW_VERSION,
     documentation: 'docs/official-news-workflow.md',
     providers: ['openai', 'bailian', 'deepseek', 'manual'],
     stages: ['collect', 'classify-and-deduplicate', 'translate', 'independent-review', 'validate-evidence', 'prepare-public-data', 'check', 'publish'],
-    inputs: { observation: z.toJSONSchema(observationSchema) },
+    inputs: { observation: z.toJSONSchema(observationSchema), verified_booking_method: z.toJSONSchema(supportingBookingEvidenceSchema) },
     outputs: { translation: z.toJSONSchema(readingSchema), review: z.toJSONSchema(reviewSchema), ticket_product_candidate: z.toJSONSchema(ticketProductSchema), verified_ticket_product: z.toJSONSchema(verifiedTicketProductSchema) },
     instructions: { translation: TRANSLATION_INSTRUCTIONS, review: REVIEW_INSTRUCTIONS, ticket_products: TICKET_PRODUCT_INSTRUCTIONS },
     invariants: [
@@ -18,6 +19,7 @@ export function workflowContract() {
       'Only configured public sources; bounded pagination, robots rules, no access-control bypass.',
       'A missing key, failed source, unknown fact or failed review leaves the item pending; never invent evidence.',
       'Evidence must be a continuous quote in this observation; approvals bind to content_hash.',
+      'A manually reviewed official ticket excerpt may confirm only a booking method, bound to primary URL/hash and the exact booking paragraph. It cannot supply missing dates, times or venues. Its own excerpt fingerprint and actual read time are retained.',
       'Each tour venue uses its own dates and booking rules; current structured booking times require Japan +09:00.',
       'API review is a separate request; ready requires both approval and deterministic evidence checks.',
       'Only an operator who has read and reviewed the source may write verified-readings.json; provider candidates do not write it.',

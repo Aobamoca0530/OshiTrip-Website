@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "revision": "1b4cad0f3b478a9dd035aa4632d6d175f61b6e3cebc10b79937e10a06a7421d7",
-  "publishedAt": "2026-10-29T13:03:49.572Z",
+  "revision": "8e2b497913263502e7c62c328389a70b367502a5a083c9e6478c1959d21c5b41",
+  "publishedAt": "2026-10-29T13:51:57.759Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -46,21 +46,6 @@
           "parent_id": null
         },
         {
-          "id": "mygo",
-          "name": "MyGO!!!!!",
-          "parent_id": "bang-dream"
-        },
-        {
-          "id": "ave-mujica",
-          "name": "Ave Mujica",
-          "parent_id": "bang-dream"
-        },
-        {
-          "id": "our-notes",
-          "name": "Our Notes",
-          "parent_id": "bang-dream"
-        },
-        {
           "id": "poppin-party",
           "name": "Poppin'Party",
           "parent_id": "bang-dream"
@@ -93,6 +78,21 @@
         {
           "id": "raise-a-suilen",
           "name": "RAISE A SUILEN",
+          "parent_id": "bang-dream"
+        },
+        {
+          "id": "our-notes",
+          "name": "Our Notes",
+          "parent_id": "bang-dream"
+        },
+        {
+          "id": "mygo",
+          "name": "MyGO!!!!!",
+          "parent_id": "bang-dream"
+        },
+        {
+          "id": "ave-mujica",
+          "name": "Ave Mujica",
           "parent_id": "bang-dream"
         },
         {
@@ -850,21 +850,89 @@
           "title_ja": "MyGO!!!!! 9th LIVE「つなぎ目の向こうに」- 神戸再景編 -",
           "title_zh": "MyGO!!!!! 第9次 Live「つなぎ目の向こうに」神户再景篇",
           "category": "音乐和声优活动",
-          "summary": "神户两日公演：DAY1预计18:00开演，DAY2预计17:00开演。一般销售从10月17日日本时间12:00开始，按先到先得、售完即止。",
+          "summary": "MyGO!!!!! 神户再景篇：一般先着及已结束的专辑附券先行。2026-11-14、2026-11-15，神户 ワールド記念ホール（神戸ポートアイランドホール）。票务与附券资格见下方；所有已列报名时间为日本时间。",
           "image": {
             "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/10185610/68a97586-82af2e92-fdb9a250-4094ccb4.jpg",
             "alt": "MyGO!!!!! 9th LIVE「つなぎ目の向こうに」- 神戸再景編 - · 官方活动图",
             "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/",
             "checked_on": "2026-10-28"
           },
+          "translated_rules": [
+            {
+              "id": "mygo-9th-kobe-2026-rule-0",
+              "kind": "参加",
+              "title": "商品附券抽选（已截止）",
+              "text_zh": "初回生产分附申込券；每个序列号可申请DAY1及DAY2，每次最多4张。该轮已经结束，当前一般先着不使用这张附券。 受理：2026-07-19T21:00 至 2026-08-24T23:59（日本时间）。",
+              "evidence_ja": "最速先行抽選（受付終了）\n受付期間：2026年7月19日(日) 21:00 ～ 8月24日(月) 23:59まで\n※ MyGO!!!!! 3rd Album「致並跡」 初回生産分に封入の申込券でご応募いただけます。\n※封入のシリアル1枚で、DAY1・DAY2の両公演ともにご応募いただけます。\n1回につき4枚までお申込みいただけます。",
+              "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "mygo-9th-kobe-2026-rule-1",
+              "kind": "参加",
+              "title": "当前一般先着售票",
+              "text_zh": "10月17日12:00起一般先着，达到上限即止，每人最多4张；S席已在先行达到上限，不在本轮销售。未另列截止时刻。",
+              "evidence_ja": "一般発売\n受付期間：2026年10月17日(土) 12:00 ～\n受付はこちら\n※先着順・上限数に達し次第終了\n※お一人様につき4枚までお申込みいただけます。\n※S席(特製グッズ付き)は先行受付分にて上限数に達したため受付はございません。",
+              "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "mygo-9th-kobe-2026-rule-2",
+              "kind": "参加",
+              "title": "票种与价格",
+              "text_zh": "含特典S席25,300、A席17,600、一般指定席13,200日元；不含特典一般指定席8,800日元，均含税。",
+              "evidence_ja": "料金\nS席(特製グッズ付き)：25,300円(税込)\nA席(特製グッズ付き)：17,600円(税込)\n一般指定席(特製グッズ付き)：13,200円(税込)\n一般指定席：8,800円(税込)",
+              "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "mygo-9th-kobe-2026-rule-3",
+              "kind": "参加",
+              "title": "票券特典领取",
+              "text_zh": "附特典票赠特制斜挎包；S席不在当前一般发售范围。",
+              "evidence_ja": "グッズ付きチケット特典\n・特製ボディバッグ\n販売情報\n一般発売\n受付期間：2026年10月17日(土) 12:00 ～\n受付はこちら\n※先着順・上限数に達し次第終了\n※お一人様につき4枚までお申込みいただけます。\n※S席(特製グッズ付き)は先行受付分にて上限数に達したため受付はございません。\nプレイガイド先行（受付終了）\n受付期間：2026年9月13日(日) 12:00 ～ 10月4日(日) 23:59まで\n※お一人様につき4枚までお申込みいただけます。\n※S席(特製グッズ付き)は、最速先行抽選の入金キャンセル分のみの受付となります。\n最速先行抽選（受付終了）\n受付期間：2026年7月19日(日) 21:00 ～ 8月24日(月) 23:59まで\n※ MyGO!!!!! 3rd Album「致並跡」 初回生産分に封入の申込券でご応募いただけます。\n※封入のシリアル1枚で、DAY1・DAY2の両公演ともにご応募いただけます。\n1回につき4枚までお申込みいただけます。",
+              "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "mygo-9th-kobe-2026-rule-4",
+              "kind": "参加",
+              "title": "实名证件与转让限制",
+              "text_zh": "禁止转卖和转让；可能实施本人核验，须携带规定的身份证件。eplus电子票向同行者的合法分配可以使用。",
+              "evidence_ja": "2. チケットの転売・譲渡について\nチケットの転売・譲渡は、いかなる場合も固く禁止しております。\n転売対策のため、入場前に全てのお客様についてご本人様確認を実施させていただく場合がございますので、公的な顔写真付身分証明書1点（免許証・パスポート・在留カード・障害者手帳・顔写真付クレジットカード・顔写真付住民基本台帳カード・マイナンバーカードなど）または顔写真付学生証（生徒手帳・学生手帳）1点を必ずご準備ください。\n顔写真付でない学生証（生徒手帳・学生手帳）をお持ちの方は、顔写真付でない学生証（生徒手帳・学生手帳）1点に加え、ご本人名義の保険証または保険証の写し1点の合計2点をご用意の上、ご来場ください。\n身分証をご提示いただけない場合、入場をお断りする場合がございます。\n※イープラス「スマチケ」など、電子チケットの分配機能を用いた同行者への分配は問題ございません。",
+              "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "mygo-9th-kobe-2026-rule-5",
+              "kind": "参加",
+              "title": "年龄、入场与退款",
+              "text_zh": "学龄前儿童不能入场，一票一人且仅对应场次有效。除公演取消或延期外不退款；附特典票的赠品在会场领取，不补寄，遗漏须当日申告。",
+              "evidence_ja": "・未就学児の入場はできません。\n・チケットは券面に記載の公演日、会場でのみ有効となります。\n・1枚のチケットを複数のお客様で使用することはできません（チケット1枚につきお客様1名様のみのご入場となります）。\n・公演中止、延期の場合以外でのチケットの払い戻しはいかなる理由でも行いません。予めご了承ください。\n・グッズ付きチケットをご購入された場合、グッズは原則として会場でのお渡しとなります。いかなる理由でも事前または事後の発送は受け付けておりませんので予めご了承ください。グッズのお受け取り忘れにつきましても、開催当日のご申告のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、グッズはお忘れなくお受け取りください。その他入場時等の配布物につきましても同様とさせていただきます。",
+              "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
           "fees": "一般指定席8,800日元；附周边一般指定席13,200日元，A席17,600日元，S席25,300日元（含税）。",
           "conditions": [
             "商品、赠品与名额可能用尽，请查官方最新公告。",
             "需要正式公演门票，购买CD并不直接获得本场门票。"
           ],
           "status": "published",
-          "verified_at": "2026-10-28T09:00:00+09:00",
-          "updated_at": "2026-10-28T09:00:00+09:00",
+          "verified_at": "2026-10-29T13:33:33.947Z",
+          "updated_at": "2026-10-29T13:33:33.947Z",
           "franchise_ids": [
             "bang-dream",
             "mygo"
@@ -923,8 +991,8 @@
             {
               "id": "mygo-9th-kobe-2026-source",
               "url": "https://bang-dream.com/events/mygo_9th_hyogo/",
-              "label": "举办方官方公告",
-              "checked_at": "2026-10-28T09:00:00+09:00"
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T13:33:33.947Z"
             }
           ]
         },
@@ -934,21 +1002,78 @@
           "title_ja": "millsage×一家Dumb Rock! SPECIAL LIVE",
           "title_zh": "millsage × 一家Dumb Rock! 联合特别 Live",
           "category": "音乐和声优活动",
-          "summary": "2027年1月11日于Kanadevia Hall举办，预计17:00开场、18:00开演。当前公告为票务平台先行，不是CD附券抽选。",
+          "summary": "2027年1月11日在东京 Kanadevia Hall 举办，预计17:00入场、18:00开演。票务平台先行受理至2026年11月16日23:59，每人最多2张；另需饮料费。站席和指定席的价格、周边配置不同。 eplus确认本轮为PG先行抽选，官方每人限2张。",
           "image": {
             "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/08200702/f64f8451-317189bd-5e3aaa44-7ac66bd5.jpg",
             "alt": "millsage×一家Dumb Rock! SPECIAL LIVE · 官方活动图",
             "source_url": "https://bang-dream.com/events/millsage_ikka-dumb-rock/",
             "checked_on": "2026-10-28"
           },
+          "translated_rules": [
+            {
+              "id": "millsage-ikka-special-2027-rule-0",
+              "kind": "参加",
+              "title": "先行受理",
+              "text_zh": "2026年10月9日19:00至11月16日23:59受理，每人最多2张；对应eplus票务页已明确标为抽选PG先行。",
+              "evidence_ja": "受付期間：2026年10月9日(金) 19:00～ 11月16日(月) 23:59\n※お一人様につき2枚までお申し込みいただけます。",
+              "source_url": "https://bang-dream.com/events/millsage_ikka-dumb-rock/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "millsage-ikka-special-2027-rule-1",
+              "kind": "参加",
+              "title": "应援灯",
+              "text_zh": "仅可携带、使用门票特典的特制手环灯，其他发光应援物禁止。",
+              "evidence_ja": "本公演ではチケット特典グッズ【特製バングルライト】を除く光り物の応援アイテム(サイリウム、ペンライト、バングルライト、リングライト、その他電飾やそれを伴うもの等)の持ち込み、使用を禁止とさせていただきます。",
+              "source_url": "https://bang-dream.com/events/millsage_ikka-dumb-rock/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "millsage-ikka-special-2027-rule-2",
+              "kind": "参加",
+              "title": "票价、特典与饮料费",
+              "text_zh": "含特典Arena站席16,500日元、含特典看台指定席12,100日元、普通看台指定席8,800日元，均含税，另收饮料费。特典为特制手环灯，设计尚待公布。",
+              "evidence_ja": "料金\nアリーナスタンディング (特製グッズ付き)：16,500円(税込)\nスタンド指定席(特製グッズ付き)：12,100円(税込)\nスタンド指定席：8,800円(税込)\n※別途ドリンク代が必要です。\nグッズ付きチケット特典\n特製バングルライト\n※デザインは後日公開いたします。",
+              "source_url": "https://bang-dream.com/events/millsage_ikka-dumb-rock/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "millsage-ikka-special-2027-rule-3",
+              "kind": "参加",
+              "title": "实名与同行票",
+              "text_zh": "可能核验本人身份，须携带规定的带照片证件；禁止转卖、转让，电子票向同行者的合法分配可以使用。",
+              "evidence_ja": "2. チケットの転売・譲渡について\nチケットの転売・譲渡は、いかなる場合も固く禁止しております。\n転売対策のため、入場前に全てのお客様についてご本人様確認を実施させていただく場合がございますので、公的な顔写真付身分証明書1点（免許証・パスポート・在留カード・障害者手帳・顔写真付クレジットカード・顔写真付住民基本台帳カード・マイナンバーカードなど）または顔写真付学生証（生徒手帳・学生手帳）1点を必ずご準備ください。\n顔写真付でない学生証（生徒手帳・学生手帳）をお持ちの方は、顔写真付でない学生証（生徒手帳・学生手帳）1点に加え、ご本人名義の保険証または保険証の写し1点の合計2点をご用意の上、ご来場ください。\n身分証をご提示いただけない場合、入場をお断りする場合がございます。\n※イープラス「スマチケ」など、電子チケットの分配機能を用いた同行者への分配は問題ございません。",
+              "source_url": "https://bang-dream.com/events/millsage_ikka-dumb-rock/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "millsage-ikka-special-2027-rule-4",
+              "kind": "参加",
+              "title": "年龄及取消退款",
+              "text_zh": "学龄前儿童不得入场，一票一人且仅限对应场次。除公演取消或延期外不退款；特典现场领取，不补寄。",
+              "evidence_ja": "・未就学児の入場はできません。\n・チケットは券面に記載の公演日、会場でのみ有効となります。\n・1枚のチケットを複数のお客様で使用することはできません（チケット1枚につきお客様1名様のみのご入場となります）。\n・公演中止、延期の場合以外でのチケットの払い戻しはいかなる理由でも行いません。予めご了承ください。\n・グッズ付きチケットをご購入された場合、グッズは原則として会場でのお渡しとなります。いかなる理由でも事前または事後の発送は受け付けておりませんので予めご了承ください。グッズのお受け取り忘れにつきましても、開催当日のご申告のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、グッズはお忘れなくお受け取りください。その他入場時等の配布物につきましても同様とさせていただきます。",
+              "source_url": "https://bang-dream.com/events/millsage_ikka-dumb-rock/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
           "fees": "站立区附周边16,500日元；看台指定席附周边12,100日元；看台指定席8,800日元，另收饮料费。",
           "conditions": [
             "商品、赠品与名额可能用尽，请查官方最新公告。",
             "除门票附赠的特制手环灯外，禁止携带使用其他发光应援物。"
           ],
           "status": "published",
-          "verified_at": "2026-10-28T09:00:00+09:00",
-          "updated_at": "2026-10-28T09:00:00+09:00",
+          "verified_at": "2026-10-29T13:42:42.947Z",
+          "updated_at": "2026-10-29T13:42:42.947Z",
           "franchise_ids": [
             "bang-dream",
             "millsage",
@@ -984,8 +1109,14 @@
             {
               "id": "millsage-ikka-special-2027-source",
               "url": "https://bang-dream.com/events/millsage_ikka-dumb-rock/",
-              "label": "举办方官方公告",
-              "checked_at": "2026-10-28T09:00:00+09:00"
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T13:42:42.947Z"
+            },
+            {
+              "id": "millsage-ikka-special-2027-booking-proof-0",
+              "url": "https://eplus.jp/millsage_ikka-dumb-rock/",
+              "label": "官方售票页 · 报名方式补充复核",
+              "checked_at": "2026-10-29T13:42:42.947Z"
             }
           ]
         },
@@ -3176,6 +3307,131 @@
           ]
         },
         {
+          "id": "auto-ca26a0cb7e16bb32",
+          "slug": "official-ca26a0cb7e16bb32",
+          "title_ja": "Morfonica LIVE「eleganza」",
+          "title_zh": "Morfonica 演唱会「eleganza」",
+          "category": "音乐和声优活动",
+          "summary": "2027年1月9日在东京 Kanadevia Hall 举办，预计17:00入场、18:00开演。新增票务平台第二轮先行受理：2026年10月29日18:00至11月29日23:59（日本时间；北京时间分别为17:00、22:59）。上一轮先行已结束；eplus已确认本轮为抽选；本轮限购以申请页实际说明为准，不沿用上一轮4张限制。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/15164842/a61da4d6-7f149f0f-4eb00663-f4409050.png",
+            "alt": "Morfonica 演唱会「eleganza」",
+            "source_url": "https://bang-dream.com/events/eleganza/",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-ca26a0cb7e16bb32-rule-0",
+              "kind": "参加",
+              "title": "新增第二轮先行",
+              "text_zh": "第二轮先行：2026年10月29日18:00至11月29日23:59，日本时间。对应eplus页面已确认抽选受理；本轮限购未在主公告独立写明，不沿用上一轮限制。",
+              "evidence_ja": "プレイガイド二次先行\n受付期間：2026年10月29日(木) 18:00 ～ 11月29日(日) 23:59",
+              "source_url": "https://bang-dream.com/events/eleganza/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ca26a0cb7e16bb32-rule-1",
+              "kind": "参加",
+              "title": "上一轮已结束",
+              "text_zh": "2026年9月22日21:00至10月18日23:59的先行已结束。每次最多4张的说明位于这一段之后，不能据此确定第二轮限购。",
+              "evidence_ja": "プレイガイド先行 ※受付終了\n受付期間：2026年9月22日(火・祝) 21:00 ～ 10月18日(日) 23:59\n※1回につき4枚までお申し込みいただけます。",
+              "source_url": "https://bang-dream.com/events/eleganza/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ca26a0cb7e16bb32-rule-2",
+              "kind": "参加",
+              "title": "票价与饮料费",
+              "text_zh": "含特制周边的Arena站席S区22,000日元、A区16,500日元，含周边看台指定席14,300日元，普通看台指定席9,900日元，均含税，另收饮料费。",
+              "evidence_ja": "アリーナスタンディング Sエリア(特製グッズ付き)：22,000円(税込)\nアリーナスタンディング Aエリア(特製グッズ付き)：16,500円(税込)\nスタンド指定席(特製グッズ付き)：14,300円(税込))\nスタンド指定席：9,900円(税込)\n※別途ドリンク代が必要です。",
+              "source_url": "https://bang-dream.com/events/eleganza/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ca26a0cb7e16bb32-rule-3",
+              "kind": "参加",
+              "title": "站席分区",
+              "text_zh": "站席必须在电子票记载的分区观看，不能跨区。",
+              "evidence_ja": "・電子チケットに記載のブロックにてご観覧いただきます。記載以外のブロックでのご観覧はできませんのであらかじめご了承ください。",
+              "source_url": "https://bang-dream.com/events/eleganza/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ca26a0cb7e16bb32-rule-4",
+              "kind": "参加",
+              "title": "儿童限制",
+              "text_zh": "学龄前儿童不得入场。",
+              "evidence_ja": "・未就学児の入場はできません。",
+              "source_url": "https://bang-dream.com/events/eleganza/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "官方售票页明确为抽选；日本时间。核对票务原文：https://eplus.jp/morfonica-eleganza/"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T13:19:15.000Z",
+          "updated_at": "2026-10-29T13:19:15.000Z",
+          "franchise_ids": [
+            "bang-dream",
+            "morfonica"
+          ],
+          "venues": [
+            {
+              "id": "auto-ca26a0cb7e16bb32-venue-856f76945e",
+              "city": "东京",
+              "name": "Kanadevia Hall",
+              "address": null,
+              "start_date": "2027-01-09",
+              "end_date": "2027-01-09",
+              "rounds": [
+                {
+                  "id": "auto-ca26a0cb7e16bb32-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-10-29T18:00:00+09:00",
+                  "closes_at": "2026-11-29T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/eleganza/",
+                  "note": "官方售票页明确为抽选；日本时间。核对票务原文：https://eplus.jp/morfonica-eleganza/"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-ca26a0cb7e16bb32-source",
+              "url": "https://bang-dream.com/events/eleganza/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T13:19:15.000Z"
+            },
+            {
+              "id": "auto-ca26a0cb7e16bb32-booking-proof-0",
+              "url": "https://eplus.jp/morfonica-eleganza/",
+              "label": "官方售票页 · 报名方式补充复核",
+              "checked_at": "2026-10-29T13:42:42.947Z"
+            }
+          ]
+        },
+        {
           "id": "auto-a0d13aed98742dfb",
           "slug": "official-a0d13aed98742dfb",
           "title_ja": "millsage LIVE 001「極夜」",
@@ -3578,6 +3834,1043 @@
             {
               "id": "auto-574a22a1d83b735f-source",
               "url": "https://bang-dream.com/events/yumemita_kinntorebu2026/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T12:15:33.162Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-876f26dd0c37de44",
+          "slug": "official-876f26dd0c37de44",
+          "title_ja": "Ave Mujica 7th LIVE「Virtus」",
+          "title_zh": "Ave Mujica 第7次Live「Virtus」（已结束）",
+          "category": "音乐和声优活动",
+          "summary": "Ave Mujica 第7次Live「Virtus」（已结束）。2026-10-24、2026-10-25，调布 京王アリーナ TOKYO。票务与附券资格见下方；所有已列报名时间为日本时间。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/06/23132122/1f0379e2-ab76fcf4-24b2cbd3-6dea12b1.jpg",
+            "alt": "Ave Mujica 第7次Live「Virtus」（已结束）",
+            "source_url": "https://bang-dream.com/events/avemujica_7th/",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-876f26dd0c37de44-rule-0",
+              "kind": "参加",
+              "title": "商品附券抽选（已截止）",
+              "text_zh": "初回生产分附申込券；每序列号可申请DAY1及DAY2，每次最多2张。演出和附券受理均已结束。 受理：2026-06-20T20:00 至 2026-07-20T23:59（日本时间）。",
+              "evidence_ja": "最速先行抽選（受付終了）\n受付期間：2026年6月20日(土) 20:00 ～ 7月20日(月･祝) 23:59まで\n※ Ave Mujica Best Album「Ave Música」 初回生産分に封入の申込券でご応募いただけます。\n※封入のシリアル1枚で、DAY1・DAY2の両公演ともにご応募いただけます。\n1回につき2枚までお申込みいただけます。",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-876f26dd0c37de44-rule-1",
+              "kind": "参加",
+              "title": "历史现场售票",
+              "text_zh": "本演出已结束。以下是当时现场票务规则，不能作为当前可报名状态。",
+              "evidence_ja": "一般発売（DAY1 SOLD OUT)\n受付期間：2026年9月20日(日) 12:00 ～\n※先着順・上限数に達し次第終了\n※スマチケのみの受付となります。\n※お一人様につき4枚までお申込みいただけます。\n※S席(特製グッズ付き)、A席(特製グッズ付き)は先行受付の入金キャンセル分のみ、若干枚数を受付いたします。",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-876f26dd0c37de44-rule-2",
+              "kind": "参加",
+              "title": "票种与价格",
+              "text_zh": "含特典S席24,200、A席16,500日元；一般指定席、视线受限席均9,900日元。当天票11,000日元：DAY1仅视线受限席，DAY2仅一般指定席。均为历史含税票价。",
+              "evidence_ja": "料金\nS席(特製グッズ付き)：24,200円(税込)\nA席(特製グッズ付き)：16,500円(税込)\n一般指定席：9,900円(税込)\n見切れ席：9,900円(税込)\n当日券：11,000円(税込) ※DAY1は見切れ席、DAY2は一般指定席のみ",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-876f26dd0c37de44-rule-3",
+              "kind": "参加",
+              "title": "票券特典领取",
+              "text_zh": "附特典票赠特制长袖T恤。",
+              "evidence_ja": "グッズ付きチケット特典\n・特製ロングTシャツ",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-876f26dd0c37de44-rule-4",
+              "kind": "参加",
+              "title": "实名证件与转让限制",
+              "text_zh": "禁止转卖和转让；可能实施本人核验，须携带规定的身份证件。eplus电子票向同行者的合法分配可以使用。",
+              "evidence_ja": "2. チケットの転売・譲渡について\nチケットの転売・譲渡は、いかなる場合も固く禁止しております。\n転売対策のため、入場前に全てのお客様についてご本人様確認を実施させていただく場合がございますので、公的な顔写真付身分証明書1点（免許証・パスポート・在留カード・障害者手帳・顔写真付クレジットカード・顔写真付住民基本台帳カード・マイナンバーカードなど）または顔写真付学生証（生徒手帳・学生手帳）1点を必ずご準備ください。\n顔写真付でない学生証（生徒手帳・学生手帳）をお持ちの方は、顔写真付でない学生証（生徒手帳・学生手帳）1点に加え、ご本人名義の保険証または保険証の写し1点の合計2点をご用意の上、ご来場ください。\n身分証をご提示いただけない場合、入場をお断りする場合がございます。\n※イープラス「スマチケ」など、電子チケットの分配機能を用いた同行者への分配は問題ございません。",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-876f26dd0c37de44-rule-5",
+              "kind": "参加",
+              "title": "年龄、入场与退款",
+              "text_zh": "学龄前儿童不能入场，一票一人且仅对应场次有效。除公演取消或延期外不退款；附特典票的赠品在会场领取，不补寄，遗漏须当日申告。",
+              "evidence_ja": "・未就学児の入場はできません。\n・チケットは券面に記載の公演日、会場でのみ有効となります。\n・1枚のチケットを複数のお客様で使用することはできません（チケット1枚につきお客様1名様のみのご入場となります）。\n・公演中止、延期の場合以外でのチケットの払い戻しはいかなる理由でも行いません。予めご了承ください。\n・グッズ付きチケットをご購入された場合、グッズは原則として会場でのお渡しとなります。いかなる理由でも事前または事後の発送は受け付けておりませんので予めご了承ください。グッズのお受け取り忘れにつきましても、開催当日のご申告のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、グッズはお忘れなくお受け取りください。その他入場時等の配布物につきましても同様とさせていただきます。",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "已结束演出，历史报名记录；请勿为此轮购买附券商品。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T12:15:33.162Z",
+          "updated_at": "2026-10-29T12:15:33.162Z",
+          "franchise_ids": [
+            "bang-dream",
+            "ave-mujica"
+          ],
+          "venues": [
+            {
+              "id": "auto-876f26dd0c37de44-venue-78153aa60a",
+              "city": "调布",
+              "name": "京王アリーナ TOKYO",
+              "address": null,
+              "start_date": "2026-10-24",
+              "end_date": "2026-10-24",
+              "rounds": [
+                {
+                  "id": "auto-876f26dd0c37de44-round-0",
+                  "label": "官方参加方式",
+                  "method": "先着预约",
+                  "kind": "fixed",
+                  "opens_at": "2026-09-20T12:00:00+09:00",
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/avemujica_7th/",
+                  "note": "已结束演出，历史报名记录；请勿为此轮购买附券商品。"
+                }
+              ]
+            },
+            {
+              "id": "auto-876f26dd0c37de44-venue-94bceac273",
+              "city": "调布",
+              "name": "京王アリーナ TOKYO",
+              "address": null,
+              "start_date": "2026-10-25",
+              "end_date": "2026-10-25",
+              "rounds": [
+                {
+                  "id": "auto-876f26dd0c37de44-round-1",
+                  "label": "官方参加方式",
+                  "method": "先着预约",
+                  "kind": "fixed",
+                  "opens_at": "2026-09-20T12:00:00+09:00",
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/avemujica_7th/",
+                  "note": "已结束演出，历史报名记录；请勿为此轮购买附券商品。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-876f26dd0c37de44-source",
+              "url": "https://bang-dream.com/events/avemujica_7th/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T12:15:33.162Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-b7a138e18395468e",
+          "slug": "official-b7a138e18395468e",
+          "title_ja": "BanG Dream! 13th☆LIVE DAY3 : RAISE A SUILEN「EXTREME EXPRESS」",
+          "title_zh": "BanG Dream! 13th☆LIVE DAY3（已结束）",
+          "category": "音乐和声优活动",
+          "summary": "BanG Dream! 13th☆LIVE DAY3（已结束）。2026-10-12，东京 東京ガーデンシアター。票务与附券资格见下方；所有已列报名时间为日本时间。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/16111732/07b13383-94476c47-18382997-e0c1059c.png",
+            "alt": "BanG Dream! 13th☆LIVE DAY3（已结束）",
+            "source_url": "https://bang-dream.com/events/13th-live-day3/",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-b7a138e18395468e-rule-0",
+              "kind": "参加",
+              "title": "最速附券资格与3日通票（已截止）",
+              "text_zh": "初回生产分：Poppin’Party 22nd Single「どきどきデエト」、夢限大みゅーたいぷ 4th Single「超惑星Xへの旅」、RAISE A SUILEN 15th Single「WHAT AN EXPLOSION」。单日仅限对应乐队商品；三种券均可申请3DAYS通票。通票是一般指定席，不附各场赠品；通票受理2026年5月3日21:00至7月13日23:59，已截止。",
+              "evidence_ja": "最速先行抽選（受付終了）\n下記3タイトルの初回生産分に封入の最速先行抽選申込券で、各バンドの公演にご応募いただけます。\n3DAYS通しチケットはいずれの申込券でもご応募いただけます。\n○最速先行抽選申込券 封入タイトル\n・4月29日(水)リリース Poppin'Party 22nd Single「どきどきデエト」\n・5月13日(水)リリース 夢限大みゅーたいぷ 4th Single「超惑星Xへの旅」\n・6月10日(水)リリース RAISE A SUILEN 15th Single「WHAT AN EXPLOSION」\n3DAYS通しチケット\n受付期間：2026年5月3日(日) 21:00 ～ 7月13日(月) 23:59\n※座席は一般指定席となります。各公演のチケット特典グッズは付属いたしません。\n※ Poppin'Party 22nd Single「どきどきデエト」 ・ 夢限大みゅーたいぷ 4th Single「超惑星Xへの旅」 ・ RAISE A SUILEN 15th Single「WHAT AN EXPLOSION」 いずれかの初回生産分に封入の申込券でご応募いただけます。",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-b7a138e18395468e-rule-1",
+              "kind": "参加",
+              "title": "各场附券报名期限（已截止）",
+              "text_zh": "DAY1：5月3日21:00起；DAY2：5月13日10:00起；DAY3：6月10日10:00起，均至2026年7月13日23:59（日本时间）。各日对应商品不得互换。",
+              "evidence_ja": "各公演チケット\n○DAY1 : Poppin'Party\n受付期間：2026年5月3日(日) 21:00 ～ 7月13日(月) 23:59\n受付URL： https://eplus.jp/serial/ppp_22ndsg/\n※ Poppin'Party 22nd Single「どきどきデエト」 初回生産分に封入の申込券でご応募いただけます。\n○DAY2 : 夢限大みゅーたいぷ\n受付期間：2026年5月13日(水) 10:00 ～ 7月13日(月) 23:59\n受付URL： https://eplus.jp/serial/ymmt_journey_to_exoplanet_x/\n※ 夢限大みゅーたいぷ 4th Single「超惑星Xへの旅」 初回生産分に封入の申込券でご応募いただけます。\n○DAY3 : RAISE A SUILEN\n受付期間：2026年6月10日(水) 10:00 ～ 7月13日(月) 23:59\n受付URL： https://eplus.jp/serial/ras_explosion/\n※ RAISE A SUILEN 15th Single「WHAT AN EXPLOSION」 初回生産分に封入の申込券でご応募いただけます。",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-b7a138e18395468e-rule-2",
+              "kind": "参加",
+              "title": "序列号使用和抽选优先顺序",
+              "text_zh": "每序列号可对单日高级席、单日一般席、3日通票各申请一次，同日不会重复中选。优先顺序为单日高级席＞3日通票＞单日一般席；通票3天座位不同。",
+              "evidence_ja": "下記注意事項を必ずご確認の上、お申込みください。\n※シリアル1枚につき、\n・【プレミアムシート(特製グッズ付き)】\n・【一般指定席(特製グッズ付き)／一般指定席(特製グッズなし)】\n・3DAYS通しチケット【一般指定席(特製グッズなし）】\nの3つの受付に、それぞれ1回ずつお申込みいただけます。\n※同日程で複数の座席に重複して当選することはございません。\n※通しチケットで当選された場合、座席は3日間で異なります。\n※3DAYS通しチケットと単日券を同時に抽選申込された場合\n単日券【プレミアムシート(特製グッズ付き)】＞3DAYS通しチケット【一般指定席(特製グッズなし）】＞単日券【一般指定席(特製グッズ付き)／一般指定席(特製グッズなし）】\nの優先順位で抽選させていただきます。",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-b7a138e18395468e-rule-3",
+              "kind": "参加",
+              "title": "历史一般先着售票",
+              "text_zh": "2026年9月5日12:00开始一般先着，达到上限即止。本演出已经结束。",
+              "evidence_ja": "一般発売（受付終了）\n受付期間：2026年9月5日(土) 12:00 ～\n※先着順・上限数に達し次第終了\n※プレミアムシート(特製グッズ付き)は先行受付の入金キャンセル分のみ、若干枚数を受付いたします。",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-b7a138e18395468e-rule-4",
+              "kind": "参加",
+              "title": "票种与价格",
+              "text_zh": "3日通票及含特典高级席23,100日元；含特典一般指定席16,500、普通一般指定席11,000日元。注释席9,900日元、当天注释席11,000日元；页面已标售罄、受理结束。视线受限不接受退款取消。",
+              "evidence_ja": "料金\n3DAYS通しチケット ：23,100円(税込) 受付終了\nプレミアムシート(特製グッズ付き)：23,100円(税込) 受付終了\n一般指定席(特製グッズ付き) ：16,500円(税込) 受付終了\n一般指定席 ：11,000円(税込) 受付終了\n注釈付き指定席 ：9,900円 受付終了\n注釈付き指定席(当日券) ：11,000円 受付終了\n※前日までに完売の場合、発売はございません。\n※注釈付き指定席は座席の都合上、一部ステージ・演出が見えにくい場合がございます。\n※会場での視界不良を理由とする返金・取消はお受けできかねますので、ご理解・ご了承の上でお申込みください。",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-b7a138e18395468e-rule-5",
+              "kind": "参加",
+              "title": "票券特典领取",
+              "text_zh": "附特典票赠特制多口袋托特包和亚克力钥匙扣；10月12日13:00至散场队列结束前凭券领取。",
+              "evidence_ja": "グッズ付きチケット特典\n特製マルチポケットトートバッグ&アクリルキーリングセット\nチケット特典のお渡しについて (2026年10月9日更新)\n特典の引き換えは、 チケットのグッズ引換券 にて実施いたします。\nお受け取り忘れのないようご注意ください。\n▼引換場所\n東京ガーデンシアター 3Fバルコニーゲート付近 特典引換所\n▼引換日時\n10/12(月・祝) 13:00～終演後 列が途切れ次第終了\n※開場時間以降は場内からも引き換えいただけます。\n※特典の引き換えは上記引換時間のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、特典はお忘れなくお受け取りください。\n※終演後は大変混雑が予想されます。混雑緩和のためお時間に余裕をもって特典の引換をお願いいたします。",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-b7a138e18395468e-rule-6",
+              "kind": "参加",
+              "title": "实名证件与转让限制",
+              "text_zh": "禁止转卖和转让；可能实施本人核验，须携带规定的身份证件。eplus电子票向同行者的合法分配可以使用。",
+              "evidence_ja": "2. チケットの転売・譲渡について\nチケットの転売・譲渡は、いかなる場合も固く禁止しております。\n転売対策のため、入場前に全てのお客様についてご本人様確認を実施させていただく場合がございますので、公的な顔写真付身分証明書1点（免許証・パスポート・在留カード・障害者手帳・顔写真付クレジットカード・顔写真付住民基本台帳カード・マイナンバーカードなど）または顔写真付学生証（生徒手帳・学生手帳）1点を必ずご準備ください。\n顔写真付でない学生証（生徒手帳・学生手帳）をお持ちの方は、顔写真付でない学生証（生徒手帳・学生手帳）1点に加え、ご本人名義の保険証または保険証の写し1点の合計2点をご用意の上、ご来場ください。\n身分証をご提示いただけない場合、入場をお断りする場合がございます。\n※イープラス「スマチケ」など、電子チケットの分配機能を用いた同行者への分配は問題ございません。",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-b7a138e18395468e-rule-7",
+              "kind": "参加",
+              "title": "年龄、入场与退款",
+              "text_zh": "学龄前儿童不能入场，一票一人且仅对应场次有效。除公演取消或延期外不退款；附特典票的赠品在会场领取，不补寄，遗漏须当日申告。",
+              "evidence_ja": "・未就学児の入場はできません。\n・チケットは券面に記載の公演日、会場でのみ有効となります。\n・1枚のチケットを複数のお客様で使用することはできません（チケット1枚につきお客様1名様のみのご入場となります）。\n・公演中止、延期の場合以外でのチケットの払い戻しはいかなる理由でも行いません。予めご了承ください。\n・グッズ付きチケットをご購入された場合、グッズは原則として会場でのお渡しとなります。いかなる理由でも事前または事後の発送は受け付けておりませんので予めご了承ください。グッズのお受け取り忘れにつきましても、開催当日のご申告のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、グッズはお忘れなくお受け取りください。その他入場時等の配布物につきましても同様とさせていただきます。",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "已结束演出，此处为历史一般先着记录；不表示当前有票。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T12:15:33.162Z",
+          "updated_at": "2026-10-29T12:15:33.162Z",
+          "franchise_ids": [
+            "bang-dream",
+            "raise-a-suilen"
+          ],
+          "venues": [
+            {
+              "id": "auto-b7a138e18395468e-venue-aa8741d3a7",
+              "city": "东京",
+              "name": "東京ガーデンシアター",
+              "address": null,
+              "start_date": "2026-10-12",
+              "end_date": "2026-10-12",
+              "rounds": [
+                {
+                  "id": "auto-b7a138e18395468e-round-0",
+                  "label": "官方参加方式",
+                  "method": "先着预约",
+                  "kind": "fixed",
+                  "opens_at": "2026-09-05T12:00:00+09:00",
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/13th-live-day3/",
+                  "note": "已结束演出，此处为历史一般先着记录；不表示当前有票。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-b7a138e18395468e-source",
+              "url": "https://bang-dream.com/events/13th-live-day3/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T12:15:33.162Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-ca706770d1403c47",
+          "slug": "official-ca706770d1403c47",
+          "title_ja": "BanG Dream! 13th☆LIVE DAY2 : 夢限大みゅーたいぷ「DIMENSIONAL OVERLAP」",
+          "title_zh": "BanG Dream! 13th☆LIVE DAY2（已结束）",
+          "category": "音乐和声优活动",
+          "summary": "BanG Dream! 13th☆LIVE DAY2（已结束）。2026-10-11，东京 東京ガーデンシアター。票务与附券资格见下方；所有已列报名时间为日本时间。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/05/21225116/ef2d90cc-c2639dfd-75f6c0eb-5bab81aa.jpg",
+            "alt": "BanG Dream! 13th☆LIVE DAY2（已结束）",
+            "source_url": "https://bang-dream.com/events/13th-live-day2/",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-ca706770d1403c47-rule-0",
+              "kind": "参加",
+              "title": "最速附券资格与3日通票（已截止）",
+              "text_zh": "初回生产分：Poppin’Party 22nd Single「どきどきデエト」、夢限大みゅーたいぷ 4th Single「超惑星Xへの旅」、RAISE A SUILEN 15th Single「WHAT AN EXPLOSION」。单日仅限对应乐队商品；三种券均可申请3DAYS通票。通票是一般指定席，不附各场赠品；通票受理2026年5月3日21:00至7月13日23:59，已截止。",
+              "evidence_ja": "最速先行抽選（終了）\n下記3タイトルの初回生産分に封入の最速先行抽選申込券で、各バンドの公演にご応募いただけます。\n3DAYS通しチケットはいずれの申込券でもご応募いただけます。\n○最速先行抽選申込券 封入タイトル\n・4月29日(水)リリース Poppin'Party 22nd Single「どきどきデエト」\n・5月13日(水)リリース 夢限大みゅーたいぷ 4th Single「超惑星Xへの旅」\n・6月10日(水)リリース RAISE A SUILEN 15th Single「WHAT AN EXPLOSION」\n3DAYS通しチケット\n受付期間：2026年5月3日(日) 21:00 ～ 7月13日(月) 23:59\n※座席は一般指定席となります。各公演のチケット特典グッズは付属いたしません。\n※ Poppin'Party 22nd Single「どきどきデエト」 ・ 夢限大みゅーたいぷ 4th Single「超惑星Xへの旅」 ・ RAISE A SUILEN 15th Single「WHAT AN EXPLOSION」 いずれかの初回生産分に封入の申込券でご応募いただけます。",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ca706770d1403c47-rule-1",
+              "kind": "参加",
+              "title": "各场附券报名期限（已截止）",
+              "text_zh": "DAY1：5月3日21:00起；DAY2：5月13日10:00起；DAY3：6月10日10:00起，均至2026年7月13日23:59（日本时间）。各日对应商品不得互换。",
+              "evidence_ja": "各公演チケット\n○DAY1 : Poppin'Party\n受付期間：2026年5月3日(日) 21:00 ～ 7月13日(月) 23:59\n受付URL： https://eplus.jp/serial/ppp_22ndsg/\n※ Poppin'Party 22nd Single「どきどきデエト」 初回生産分に封入の申込券でご応募いただけます。\n○DAY2 : 夢限大みゅーたいぷ\n受付期間：2026年5月13日(水) 10:00 ～ 7月13日(月) 23:59\n受付URL： https://eplus.jp/serial/ymmt_journey_to_exoplanet_x/\n※ 夢限大みゅーたいぷ 4th Single「超惑星Xへの旅」 初回生産分に封入の申込券でご応募いただけます。\n○DAY3 : RAISE A SUILEN\n受付期間：2026年6月10日(水) 10:00 ～ 7月13日(月) 23:59\n受付URL： https://eplus.jp/serial/ras_explosion/\n※ RAISE A SUILEN 15th Single「WHAT AN EXPLOSION」 初回生産分に封入の申込券でご応募いただけます。",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ca706770d1403c47-rule-2",
+              "kind": "参加",
+              "title": "序列号使用和抽选优先顺序",
+              "text_zh": "每序列号可对单日高级席、单日一般席、3日通票各申请一次，同日不会重复中选。优先顺序为单日高级席＞3日通票＞单日一般席；通票3天座位不同。",
+              "evidence_ja": "下記注意事項を必ずご確認の上、お申込みください。\n※シリアル1枚につき、\n・【プレミアムシート(特製グッズ付き)】\n・【一般指定席(特製グッズ付き)／一般指定席(特製グッズなし)】\n・3DAYS通しチケット【一般指定席(特製グッズなし）】\nの3つの受付に、それぞれ1回ずつお申込みいただけます。\n※同日程で複数の座席に重複して当選することはございません。\n※通しチケットで当選された場合、座席は3日間で異なります。\n※3DAYS通しチケットと単日券を同時に抽選申込された場合\n単日券【プレミアムシート(特製グッズ付き)】＞3DAYS通しチケット【一般指定席(特製グッズなし）】＞単日券【一般指定席(特製グッズ付き)／一般指定席(特製グッズなし）】\nの優先順位で抽選させていただきます。",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ca706770d1403c47-rule-3",
+              "kind": "参加",
+              "title": "历史一般先着售票",
+              "text_zh": "2026年9月10日21:00开始一般先着，达到上限即止。本演出已经结束。",
+              "evidence_ja": "一般発売\n受付はこちら\n受付期間：2026年9月10日(木) 21:00 ～\n※先着順・上限数に達し次第終了\n※プレミアムシート(特製グッズ付き)は先行受付の入金キャンセル分のみ、若干枚数を受付いたします。\n※スマチケのみの受付となります。\n※お一人様につき4枚までお申込みいただけます。",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ca706770d1403c47-rule-4",
+              "kind": "参加",
+              "title": "票种与价格",
+              "text_zh": "3日通票23,100日元（仅最速先行），含特典高级席23,100日元，含特典一般指定席16,500、普通一般指定席11,000日元。均含税且已结束。",
+              "evidence_ja": "料金\n3DAYS通しチケット ：23,100円(税込) ※最速先行のみ\nプレミアムシート(特製グッズ付き)：23,100円(税込)\n一般指定席(特製グッズ付き) ：16,500円(税込)\n一般指定席 ：11,000円(税込)",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ca706770d1403c47-rule-5",
+              "kind": "参加",
+              "title": "票券特典领取",
+              "text_zh": "附特典票赠DIMENSIONAL OVERLAP版毛绒托特包及亚克力吊饰；10月11日13:00至散场队列结束前凭券领取。",
+              "evidence_ja": "グッズ付きチケット特典\n特製ゆめみたモフモフトートバッグ&オリジナルアクリルチャームセット DIMENSIONAL OVERLAP ver.\nチケット特典のお渡しについて (2026年10月9日更新)\n特典の引き換えは、 チケットのグッズ引換券 にて実施いたします。\nお受け取り忘れのないようご注意ください。\n▼引換場所\n東京ガーデンシアター 3Fバルコニーゲート付近 特典引換所\n▼引換日時\n10/11(日) 13:00～終演後 列が途切れ次第終了\n※開場時間以降は場内からも引き換えいただけます。\n※特典の引き換えは上記引換時間のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、特典はお忘れなくお受け取りください。\n※終演後は大変混雑が予想されます。混雑緩和のためお時間に余裕をもって特典の引換をお願いいたします。",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ca706770d1403c47-rule-6",
+              "kind": "参加",
+              "title": "实名证件与转让限制",
+              "text_zh": "禁止转卖和转让；可能实施本人核验，须携带规定的身份证件。eplus电子票向同行者的合法分配可以使用。",
+              "evidence_ja": "2. チケットの転売・譲渡について\nチケットの転売・譲渡は、いかなる場合も固く禁止しております。\n転売対策のため、入場前に全てのお客様についてご本人様確認を実施させていただく場合がございますので、公的な顔写真付身分証明書1点（免許証・パスポート・在留カード・障害者手帳・顔写真付クレジットカード・顔写真付住民基本台帳カード・マイナンバーカードなど）または顔写真付学生証（生徒手帳・学生手帳）1点を必ずご準備ください。\n顔写真付でない学生証（生徒手帳・学生手帳）をお持ちの方は、顔写真付でない学生証（生徒手帳・学生手帳）1点に加え、ご本人名義の保険証または保険証の写し1点の合計2点をご用意の上、ご来場ください。\n身分証をご提示いただけない場合、入場をお断りする場合がございます。\n※イープラス「スマチケ」など、電子チケットの分配機能を用いた同行者への分配は問題ございません。",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ca706770d1403c47-rule-7",
+              "kind": "参加",
+              "title": "年龄、入场与退款",
+              "text_zh": "学龄前儿童不能入场，一票一人且仅对应场次有效。除公演取消或延期外不退款；附特典票的赠品在会场领取，不补寄，遗漏须当日申告。",
+              "evidence_ja": "・未就学児の入場はできません。\n・チケットは券面に記載の公演日、会場でのみ有効となります。\n・1枚のチケットを複数のお客様で使用することはできません（チケット1枚につきお客様1名様のみのご入場となります）。\n・公演中止、延期の場合以外でのチケットの払い戻しはいかなる理由でも行いません。予めご了承ください。\n・グッズ付きチケットをご購入された場合、グッズは原則として会場でのお渡しとなります。いかなる理由でも事前または事後の発送は受け付けておりませんので予めご了承ください。グッズのお受け取り忘れにつきましても、開催当日のご申告のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、グッズはお忘れなくお受け取りください。その他入場時等の配布物につきましても同様とさせていただきます。",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "已结束演出，此处为历史一般先着记录；不表示当前有票。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T12:15:33.162Z",
+          "updated_at": "2026-10-29T12:15:33.162Z",
+          "franchise_ids": [
+            "bang-dream",
+            "yumemita"
+          ],
+          "venues": [
+            {
+              "id": "auto-ca706770d1403c47-venue-24aa73bc3d",
+              "city": "东京",
+              "name": "東京ガーデンシアター",
+              "address": null,
+              "start_date": "2026-10-11",
+              "end_date": "2026-10-11",
+              "rounds": [
+                {
+                  "id": "auto-ca706770d1403c47-round-0",
+                  "label": "官方参加方式",
+                  "method": "先着预约",
+                  "kind": "fixed",
+                  "opens_at": "2026-09-10T21:00:00+09:00",
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/13th-live-day2/",
+                  "note": "已结束演出，此处为历史一般先着记录；不表示当前有票。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-ca706770d1403c47-source",
+              "url": "https://bang-dream.com/events/13th-live-day2/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T12:15:33.162Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-9bce97b29ef2200a",
+          "slug": "official-9bce97b29ef2200a",
+          "title_ja": "BanG Dream! 13th☆LIVE DAY1 : Poppin'Party「Now Roading♪♪」",
+          "title_zh": "BanG Dream! 13th☆LIVE DAY1（已结束）",
+          "category": "音乐和声优活动",
+          "summary": "BanG Dream! 13th☆LIVE DAY1（已结束）。2026-10-10，东京 東京ガーデンシアター。票务与附券资格见下方；所有已列报名时间为日本时间。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/24113355/7856fc99-6a2117bd-1891e8c5-9b2e33a8.png",
+            "alt": "BanG Dream! 13th☆LIVE DAY1（已结束）",
+            "source_url": "https://bang-dream.com/events/13th-live-day1/",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-9bce97b29ef2200a-rule-0",
+              "kind": "参加",
+              "title": "最速附券资格与3日通票（已截止）",
+              "text_zh": "初回生产分：Poppin’Party 22nd Single「どきどきデエト」、夢限大みゅーたいぷ 4th Single「超惑星Xへの旅」、RAISE A SUILEN 15th Single「WHAT AN EXPLOSION」。单日仅限对应乐队商品；三种券均可申请3DAYS通票。通票是一般指定席，不附各场赠品；通票受理2026年5月3日21:00至7月13日23:59，已截止。",
+              "evidence_ja": "最速先行抽選（受付終了）\n下記3タイトルの初回生産分に封入の最速先行抽選申込券で、各バンドの公演にご応募いただけます。\n3DAYS通しチケットはいずれの申込券でもご応募いただけます。\n○最速先行抽選申込券 封入タイトル\n・4月29日(水)リリース Poppin'Party 22nd Single「どきどきデエト」\n・5月13日(水)リリース 夢限大みゅーたいぷ 4th Single「超惑星Xへの旅」\n・6月10日(水)リリース RAISE A SUILEN 15th Single「WHAT AN EXPLOSION」\n3DAYS通しチケット\n受付期間：2026年5月3日(日) 21:00 ～ 7月13日(月) 23:59\n※座席は一般指定席となります。各公演のチケット特典グッズは付属いたしません。\n※ Poppin'Party 22nd Single「どきどきデエト」 ・ 夢限大みゅーたいぷ 4th Single「超惑星Xへの旅」 ・ RAISE A SUILEN 15th Single「WHAT AN EXPLOSION」 いずれかの初回生産分に封入の申込券でご応募いただけます。",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-9bce97b29ef2200a-rule-1",
+              "kind": "参加",
+              "title": "各场附券报名期限（已截止）",
+              "text_zh": "DAY1：5月3日21:00起；DAY2：5月13日10:00起；DAY3：6月10日10:00起，均至2026年7月13日23:59（日本时间）。各日对应商品不得互换。",
+              "evidence_ja": "各公演チケット\n○DAY1 : Poppin'Party\n受付期間：2026年5月3日(日) 21:00 ～ 7月13日(月) 23:59\n※ Poppin'Party 22nd Single「どきどきデエト」 初回生産分に封入の申込券でご応募いただけます。\n○DAY2 : 夢限大みゅーたいぷ\n受付期間：2026年5月13日(水) 10:00 ～ 7月13日(月) 23:59\n※ 夢限大みゅーたいぷ 4th Single「超惑星Xへの旅」 初回生産分に封入の申込券でご応募いただけます。\n○DAY3 : RAISE A SUILEN\n受付期間：2026年6月10日(水) 10:00 ～ 7月13日(月) 23:59\n※ RAISE A SUILEN 15th Single「WHAT AN EXPLOSION」 初回生産分に封入の申込券でご応募いただけます。",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-9bce97b29ef2200a-rule-2",
+              "kind": "参加",
+              "title": "序列号使用和抽选优先顺序",
+              "text_zh": "每序列号可对单日高级席、单日一般席、3日通票各申请一次，同日不会重复中选。优先顺序为单日高级席＞3日通票＞单日一般席；通票3天座位不同。",
+              "evidence_ja": "下記注意事項を必ずご確認の上、お申込みください。\n※シリアル1枚につき、\n・【プレミアムシート(特製グッズ付き)】\n・【一般指定席(特製グッズ付き)／一般指定席(特製グッズなし)】\n・3DAYS通しチケット【一般指定席(特製グッズなし）】\nの3つの受付に、それぞれ1回ずつお申込みいただけます。\n※同日程で複数の座席に重複して当選することはございません。\n※通しチケットで当選された場合、座席は3日間で異なります。\n※3DAYS通しチケットと単日券を同時に抽選申込された場合\n単日券【プレミアムシート(特製グッズ付き)】＞3DAYS通しチケット【一般指定席(特製グッズなし）】＞単日券【一般指定席(特製グッズ付き)／一般指定席(特製グッズなし）】\nの優先順位で抽選させていただきます。",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-9bce97b29ef2200a-rule-3",
+              "kind": "参加",
+              "title": "历史一般先着售票",
+              "text_zh": "2026年9月19日12:00开始一般先着，达到上限即止。本演出已经结束。",
+              "evidence_ja": "一般発売\n受付期間：2026年9月19日(土) 12:00 ～\n※先着順・上限数に達し次第終了\n※プレミアムシート(特製グッズ付き)は先行受付分にて上限数に達したため受付はございません。",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-9bce97b29ef2200a-rule-4",
+              "kind": "参加",
+              "title": "票种与价格",
+              "text_zh": "3日通票和含特典高级席均23,100日元，含特典一般指定席16,500、普通一般指定席11,000日元；当天票分别17,600、12,100日元，均含税且已结束。",
+              "evidence_ja": "料金\n3DAYS通しチケット ：23,100円(税込) 受付終了\nプレミアムシート(特製グッズ付き) ：23,100円(税込) 受付終了\n一般指定席(特製グッズ付き) ：16,500円(税込)\n一般指定席 ：11,000円(税込)\n一般指定席(特製グッズ付き)(当日券)：17,600円(税込)\n一般指定席(当日券) ：12,100円(税込)",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-9bce97b29ef2200a-rule-5",
+              "kind": "参加",
+              "title": "票券特典领取",
+              "text_zh": "附特典票赠特制大毛巾；10月10日13:00至散场队列结束前，在东京Garden Theater 3楼Balcony Gate附近凭赠品券领取。",
+              "evidence_ja": "グッズ付きチケット特典\n特製ビッグタオル\nチケット特典のお渡しについて (2026年10月9日更新)\n特典の引き換えは、 チケットのグッズ引換券 にて実施いたします。\nお受け取り忘れのないようご注意ください。\n▼引換場所\n東京ガーデンシアター 3Fバルコニーゲート付近 特典引換所\n▼引換日時\n10/10(土) 13:00～終演後 列が途切れ次第終了\n※開場時間以降は場内からも引き換えいただけます。\n※特典の引き換えは上記引換時間のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、特典はお忘れなくお受け取りください。\n※終演後は大変混雑が予想されます。混雑緩和のためお時間に余裕をもって特典の引換をお願いいたします。",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-9bce97b29ef2200a-rule-6",
+              "kind": "参加",
+              "title": "实名证件与转让限制",
+              "text_zh": "禁止转卖和转让；可能实施本人核验，须携带规定的身份证件。eplus电子票向同行者的合法分配可以使用。",
+              "evidence_ja": "2. チケットの転売・譲渡について\nチケットの転売・譲渡は、いかなる場合も固く禁止しております。\n転売対策のため、入場前に全てのお客様についてご本人様確認を実施させていただく場合がございますので、公的な顔写真付身分証明書1点（免許証・パスポート・在留カード・障害者手帳・顔写真付クレジットカード・顔写真付住民基本台帳カード・マイナンバーカードなど）または顔写真付学生証（生徒手帳・学生手帳）1点を必ずご準備ください。\n顔写真付でない学生証（生徒手帳・学生手帳）をお持ちの方は、顔写真付でない学生証（生徒手帳・学生手帳）1点に加え、ご本人名義の保険証または保険証の写し1点の合計2点をご用意の上、ご来場ください。\n身分証をご提示いただけない場合、入場をお断りする場合がございます。\n※イープラス「スマチケ」など、電子チケットの分配機能を用いた同行者への分配は問題ございません。",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-9bce97b29ef2200a-rule-7",
+              "kind": "参加",
+              "title": "年龄、入场与退款",
+              "text_zh": "学龄前儿童不能入场，一票一人且仅对应场次有效。除公演取消或延期外不退款；附特典票的赠品在会场领取，不补寄，遗漏须当日申告。",
+              "evidence_ja": "・未就学児の入場はできません。\n・チケットは券面に記載の公演日、会場でのみ有効となります。\n・1枚のチケットを複数のお客様で使用することはできません（チケット1枚につきお客様1名様のみのご入場となります）。\n・公演中止、延期の場合以外でのチケットの払い戻しはいかなる理由でも行いません。予めご了承ください。\n・グッズ付きチケットをご購入された場合、グッズは原則として会場でのお渡しとなります。いかなる理由でも事前または事後の発送は受け付けておりませんので予めご了承ください。グッズのお受け取り忘れにつきましても、開催当日のご申告のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、グッズはお忘れなくお受け取りください。その他入場時等の配布物につきましても同様とさせていただきます。",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "已结束演出，此处为历史一般先着记录；不表示当前有票。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T12:15:33.162Z",
+          "updated_at": "2026-10-29T12:15:33.162Z",
+          "franchise_ids": [
+            "bang-dream",
+            "poppin-party"
+          ],
+          "venues": [
+            {
+              "id": "auto-9bce97b29ef2200a-venue-c0112c31cb",
+              "city": "东京",
+              "name": "東京ガーデンシアター",
+              "address": null,
+              "start_date": "2026-10-10",
+              "end_date": "2026-10-10",
+              "rounds": [
+                {
+                  "id": "auto-9bce97b29ef2200a-round-0",
+                  "label": "官方参加方式",
+                  "method": "先着预约",
+                  "kind": "fixed",
+                  "opens_at": "2026-09-19T12:00:00+09:00",
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/13th-live-day1/",
+                  "note": "已结束演出，此处为历史一般先着记录；不表示当前有票。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-9bce97b29ef2200a-source",
+              "url": "https://bang-dream.com/events/13th-live-day1/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T12:15:33.162Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-0c80a1d8f835ab8a",
+          "slug": "official-0c80a1d8f835ab8a",
+          "title_ja": "Morfonica LIVE「Movement」",
+          "title_zh": "Morfonica「Movement」（已结束）",
+          "category": "音乐和声优活动",
+          "summary": "Morfonica「Movement」（已结束）。2026-09-22，立川 TACHIKAWA STAGE GARDEN。票务与附券资格见下方；所有已列报名时间为日本时间。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/28134729/195fe342-0661de73-ed0f6b77-2c8ef77c.png",
+            "alt": "Morfonica「Movement」（已结束）",
+            "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-0c80a1d8f835ab8a-rule-0",
+              "kind": "参加",
+              "title": "商品附券抽选（已截止）",
+              "text_zh": "初回生产分附申込券，每次最多4张；演出和本附券轮次均已结束。 受理：2026-04-22T10:00 至 2026-05-24T23:59（日本时间）。",
+              "evidence_ja": "最速先行抽選（受付終了）\n受付期間：2026年4月22日(水) 10:00～ 5月24日(日) 23:59\n※ Morfonica 9th Single「Resonant Strings」 初回生産分に封入の申込券でご応募いただけます。\n※1回につき4枚までお申し込みいただけます。",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-0c80a1d8f835ab8a-rule-1",
+              "kind": "参加",
+              "title": "历史现场售票",
+              "text_zh": "本演出已结束。以下是当时现场票务规则，不能作为当前可报名状态。",
+              "evidence_ja": "最速先行抽選（受付終了）\n受付期間：2026年4月22日(水) 10:00～ 5月24日(日) 23:59\n※ Morfonica 9th Single「Resonant Strings」 初回生産分に封入の申込券でご応募いただけます。\n※1回につき4枚までお申し込みいただけます。",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-0c80a1d8f835ab8a-rule-2",
+              "kind": "参加",
+              "title": "票种与价格",
+              "text_zh": "含特典Arena站席S区22,000、A区16,500日元；含特典看台14,300、普通看台9,900日元；视线受限看台含特典13,200、不含特典8,800日元。均含税且已结束。3楼第一排须坐席观看。",
+              "evidence_ja": "料金\nアリーナスタンディング Sエリア(特製グッズ付き)：22,000円(税込) 受付終了\nアリーナスタンディング Aエリア(特製グッズ付き)：16,500円(税込) 受付終了\nスタンド指定席(特製グッズ付き)：14,300円(税込)) 受付終了\nスタンド指定席：9,900円(税込)) 受付終了\n注釈付きスタンド指定席(特製グッズ付き)：13,200円(税込)) 受付終了\n注釈付きスタンド指定席：8,800円(税込)) 受付終了\n※会場規定により、3階席最前列は着席でのご観覧をお願いさせていただきます。",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-0c80a1d8f835ab8a-rule-3",
+              "kind": "参加",
+              "title": "票券特典领取",
+              "text_zh": "附特典票赠「イロドリコースター」杯垫与双层玻璃杯；玻璃杯标志可能有印刷擦痕。9月22日13:00–16:30、17:00至散场队列结束前凭券领取，后续不补领。",
+              "evidence_ja": "グッズ付きチケット特典\nイロドリコースター＋二重奏グラス\n※二重奏グラスについて、特典の性質上、ロゴ部分に印刷のカスレが入る場合がございます。あらかじめご了承ください。\nチケット特典のお渡しについて (2026年9月18日更新)\n特典の引き換えは、 チケットのグッズ引換券 にて実施いたします。\nお受け取り忘れのないようご注意ください。\n▼引換場所\nTACHIKAWA STAGE GARDEN 入場口付近 特典引換所\n▼引換日時\n9/22(火・祝) 13:00～16:30、17:00～終演後 列が途切れ次第終了\n※開場時間中は場内に限り引き換えいただけます。\n※特典の引き換えは上記引換時間のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、特典はお忘れなくお受け取りください。\n※終演後は大変混雑が予想されます。混雑緩和のためお時間に余裕をもって特典の引換をお願いいたします。",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-0c80a1d8f835ab8a-rule-4",
+              "kind": "参加",
+              "title": "实名证件与转让限制",
+              "text_zh": "禁止转卖和转让；可能实施本人核验，须携带规定的身份证件。eplus电子票向同行者的合法分配可以使用。",
+              "evidence_ja": "2. チケットの転売・譲渡について\nチケットの転売・譲渡は、いかなる場合も固く禁止しております。\n転売対策のため、入場前に全てのお客様についてご本人様確認を実施させていただく場合がございますので、公的な顔写真付身分証明書1点（免許証・パスポート・在留カード・障害者手帳・顔写真付クレジットカード・顔写真付住民基本台帳カード・マイナンバーカードなど）または顔写真付学生証（生徒手帳・学生手帳）1点を必ずご準備ください。\n顔写真付でない学生証（生徒手帳・学生手帳）をお持ちの方は、顔写真付でない学生証（生徒手帳・学生手帳）1点に加え、ご本人名義の保険証または保険証の写し1点の合計2点をご用意の上、ご来場ください。\n身分証をご提示いただけない場合、入場をお断りする場合がございます。\n※イープラス「スマチケ」など、電子チケットの分配機能を用いた同行者への分配は問題ございません。",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-0c80a1d8f835ab8a-rule-5",
+              "kind": "参加",
+              "title": "年龄、入场与退款",
+              "text_zh": "学龄前儿童不能入场，一票一人且仅对应场次有效。除公演取消或延期外不退款；附特典票的赠品在会场领取，不补寄，遗漏须当日申告。",
+              "evidence_ja": "・未就学児の入場はできません。\n・チケットは券面に記載の公演日、会場でのみ有効となります。\n・1枚のチケットを複数のお客様で使用することはできません（チケット1枚につきお客様1名様のみのご入場となります）。\n・公演中止、延期の場合以外でのチケットの払い戻しはいかなる理由でも行いません。予めご了承ください。\n・グッズ付きチケットをご購入された場合、グッズは原則として会場でのお渡しとなります。いかなる理由でも事前または事後の発送は受け付けておりませんので予めご了承ください。グッズのお受け取り忘れにつきましても、開催当日のご申告のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、グッズはお忘れなくお受け取りください。その他入場時等の配布物につきましても同様とさせていただきます。",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "已结束演出，历史报名记录；请勿为此轮购买附券商品。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T12:15:33.162Z",
+          "updated_at": "2026-10-29T12:15:33.162Z",
+          "franchise_ids": [
+            "bang-dream",
+            "morfonica"
+          ],
+          "venues": [
+            {
+              "id": "auto-0c80a1d8f835ab8a-venue-c1487e7a3d",
+              "city": "立川",
+              "name": "TACHIKAWA STAGE GARDEN",
+              "address": null,
+              "start_date": "2026-09-22",
+              "end_date": "2026-09-22",
+              "rounds": [
+                {
+                  "id": "auto-0c80a1d8f835ab8a-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-04-22T10:00:00+09:00",
+                  "closes_at": "2026-05-24T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/morfonica_live_2026/",
+                  "note": "已结束演出，历史报名记录；请勿为此轮购买附券商品。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-0c80a1d8f835ab8a-source",
+              "url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T12:15:33.162Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-ab15a4c0651f6ca2",
+          "slug": "official-ab15a4c0651f6ca2",
+          "title_ja": "Roselia「Lehre der Rose」 - Roselia 10th Anniversary Best Album「Lehre der Rose」リリース記念ライブ",
+          "title_zh": "Roselia「Lehre der Rose」发行纪念Live（已结束）",
+          "category": "音乐和声优活动",
+          "summary": "Roselia「Lehre der Rose」发行纪念Live（已结束）。2026-08-29、2026-08-30，东京 有明アリーナ。票务与附券资格见下方；所有已列报名时间为日本时间。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/24205237/b08bce34-6239b5c9-5340cf8c-bf172c7c.jpg",
+            "alt": "Roselia「Lehre der Rose」发行纪念Live（已结束）",
+            "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-ab15a4c0651f6ca2-rule-0",
+              "kind": "参加",
+              "title": "商品附券抽选（已截止）",
+              "text_zh": "初回生产分附申込券；每张申込券可为DAY1、DAY2各申请一次，每次最多2张。不是购买同名纪念专辑就自动获得该轮资格。演出与受理均已结束。 受理：2026-04-29T10:00 至 2026-05-31T23:59（日本时间）。",
+              "evidence_ja": "最速先行抽選（受付終了）\n受付期間：2026年4月29日(水・祝) 10:00～ 5月31日(日) 23:59\n※ Roselia 19th Single「Fear Nothing」 初回生産分に封入の申込券でご応募いただけます。\n※申込券1枚で、DAY1・DAY2に1回ずつご応募いただけます。\n※1回につき2枚までお申込みいただけます。",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ab15a4c0651f6ca2-rule-1",
+              "kind": "参加",
+              "title": "历史现场售票",
+              "text_zh": "本演出已结束。以下是当时现场票务规则，不能作为当前可报名状态。",
+              "evidence_ja": "一般発売\n受付期間：2026年8月8日(土) 12:00～\n※先着順・上限数に達し次第終了",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ab15a4c0651f6ca2-rule-2",
+              "kind": "参加",
+              "title": "票种与价格",
+              "text_zh": "高级席含特典22,000日元；含特典一般指定席15,400日元、普通一般指定席9,900日元。当天票分别16,500、11,000日元，均含税，现已结束。",
+              "evidence_ja": "料金\nプレミアムシート(特製グッズ付き)：22,000円(税込) 受付終了\n一般指定席(特製グッズ付き)：15,400円(税込)\n一般指定席：9,900円(税込)\n一般指定席(特製グッズ付き)(当日券)：16,500円(税込)\n一般指定席(当日券)：11,000円(税込)",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ab15a4c0651f6ca2-rule-3",
+              "kind": "参加",
+              "title": "票券特典领取",
+              "text_zh": "DAY1赠特制茶杯，DAY2赠特制暖帘；持赠品兑换券于各日13:00至散场队列结束前到有明Arena 2楼兑换，之后不补领。",
+              "evidence_ja": "グッズ付きチケット特典\n・DAY1 8月29日(土)：特製湯呑\n・DAY2 8月30日(日)：特製暖簾\nチケット特典のお渡しについて (2026年8月28日更新)\n特典の引き換えは、 チケットのグッズ引換券 にて実施いたします。\nお受け取り忘れのないようご注意ください。\n▼引換場所\n有明アリーナ 2F 特典引換所\n▼引換日時\n各日13:00～終演後、列が途切れ次第終了\n※開場時間中は場内からも引換いただけます。\n※特典の引き換えは上記引換時間のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、特典はお忘れなくお受け取りください。\n※終演後は大変混雑が予想されます。混雑緩和のためお時間に余裕をもって特典の引換をお願いいたします。",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ab15a4c0651f6ca2-rule-4",
+              "kind": "参加",
+              "title": "实名证件与转让限制",
+              "text_zh": "禁止转卖和转让；可能实施本人核验，须携带规定的身份证件。eplus电子票向同行者的合法分配可以使用。",
+              "evidence_ja": "2. チケットの転売・譲渡について\nチケットの転売・譲渡は、いかなる場合も固く禁止しております。\n転売対策のため、入場前に全てのお客様についてご本人様確認を実施させていただく場合がございますので、公的な顔写真付身分証明書1点（免許証・パスポート・在留カード・障害者手帳・顔写真付クレジットカード・顔写真付住民基本台帳カード・マイナンバーカードなど）または顔写真付学生証（生徒手帳・学生手帳）1点を必ずご準備ください。\n顔写真付でない学生証（生徒手帳・学生手帳）をお持ちの方は、顔写真付でない学生証（生徒手帳・学生手帳）1点に加え、ご本人名義の保険証または保険証の写し1点の合計2点をご用意の上、ご来場ください。\n身分証をご提示いただけない場合、入場をお断りする場合がございます。\n※イープラス「スマチケ」など、電子チケットの分配機能を用いた同行者への分配は問題ございません。",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-ab15a4c0651f6ca2-rule-5",
+              "kind": "参加",
+              "title": "年龄、入场与退款",
+              "text_zh": "学龄前儿童不能入场，一票一人且仅对应场次有效。除公演取消或延期外不退款；附特典票的赠品在会场领取，不补寄，遗漏须当日申告。",
+              "evidence_ja": "・未就学児の入場はできません。\n・チケットは券面に記載の公演日、会場でのみ有効となります。\n・1枚のチケットを複数のお客様で使用することはできません（チケット1枚につきお客様1名様のみのご入場となります）。\n・公演中止、延期の場合以外でのチケットの払い戻しはいかなる理由でも行いません。予めご了承ください。\n・グッズ付きチケットをご購入された場合、グッズは原則として会場でのお渡しとなります。いかなる理由でも事前または事後の発送は受け付けておりませんので予めご了承ください。グッズのお受け取り忘れにつきましても、開催当日のご申告のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、グッズはお忘れなくお受け取りください。その他入場時等の配布物につきましても同様とさせていただきます。",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "已结束演出，历史报名记录；请勿为此轮购买附券商品。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T12:15:33.162Z",
+          "updated_at": "2026-10-29T12:15:33.162Z",
+          "franchise_ids": [
+            "bang-dream",
+            "roselia"
+          ],
+          "venues": [
+            {
+              "id": "auto-ab15a4c0651f6ca2-venue-45737c6f5c",
+              "city": "东京",
+              "name": "有明アリーナ",
+              "address": null,
+              "start_date": "2026-08-29",
+              "end_date": "2026-08-29",
+              "rounds": [
+                {
+                  "id": "auto-ab15a4c0651f6ca2-round-0",
+                  "label": "官方参加方式",
+                  "method": "先着预约",
+                  "kind": "fixed",
+                  "opens_at": "2026-08-08T12:00:00+09:00",
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/lehre-der-rose/",
+                  "note": "已结束演出，历史报名记录；请勿为此轮购买附券商品。"
+                }
+              ]
+            },
+            {
+              "id": "auto-ab15a4c0651f6ca2-venue-820ad1c4a8",
+              "city": "东京",
+              "name": "有明アリーナ",
+              "address": null,
+              "start_date": "2026-08-30",
+              "end_date": "2026-08-30",
+              "rounds": [
+                {
+                  "id": "auto-ab15a4c0651f6ca2-round-1",
+                  "label": "官方参加方式",
+                  "method": "先着预约",
+                  "kind": "fixed",
+                  "opens_at": "2026-08-08T12:00:00+09:00",
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/lehre-der-rose/",
+                  "note": "已结束演出，历史报名记录；请勿为此轮购买附券商品。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-ab15a4c0651f6ca2-source",
+              "url": "https://bang-dream.com/events/lehre-der-rose/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T12:15:33.162Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-d7aa807ac7272d64",
+          "slug": "official-d7aa807ac7272d64",
+          "title_ja": "MyGO!!!!! 9th LIVE「つなぎ目の向こうに」",
+          "title_zh": "MyGO!!!!! 第9次Live 横滨场（已结束）",
+          "category": "音乐和声优活动",
+          "summary": "MyGO!!!!! 第9次Live 横滨场（已结束）。2026-07-18、2026-07-19，横滨 ぴあアリーナMM。票务与附券资格见下方；所有已列报名时间为日本时间。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2025/12/30111746/3ee53085-769ca1f7-fd3184cb-3c60c8b4.jpg",
+            "alt": "MyGO!!!!! 第9次Live 横滨场（已结束）",
+            "source_url": "https://bang-dream.com/events/mygo_9th/",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-d7aa807ac7272d64-rule-0",
+              "kind": "参加",
+              "title": "商品附券抽选（已截止）",
+              "text_zh": "初回生产分附申込券；每序列号仅可选DAY1或DAY2其中一场，每次最多4张。演出与受理均已结束。 受理：2025-12-06T21:00 至 2026-02-02T23:59（日本时间）。",
+              "evidence_ja": "最速先行抽選\n受付期間：2025年12月6日(土) 21:00 ～ 2026年2月2日(月) 23:59\n※ MyGO!!!!! 8th Single「静降想」 初回生産分に封入の申込券でご応募いただけます。\n※封入のシリアル1枚で、DAY1・DAY2いずれかにご応募いただけます。\n1回につき4枚までお申込みいただけます。",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-d7aa807ac7272d64-rule-1",
+              "kind": "参加",
+              "title": "历史现场售票",
+              "text_zh": "本演出已结束。以下是当时现场票务规则，不能作为当前可报名状态。",
+              "evidence_ja": "一般発売（受付終了）\n受付期間：2026年6月6日(土) 12:00 ～\n※先着順・上限数に達し次第終了\n※スマチケのみの受付となります。\n※一部席種は",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-d7aa807ac7272d64-rule-2",
+              "kind": "参加",
+              "title": "票种与价格",
+              "text_zh": "含特典S席24,200、A席16,500、一般指定席13,200日元；普通一般指定席、视线受限席及2楼后方站席8,800日元，均含税。一般发售A席最多1张，一般指定席最多4张；DAY1的S/A席和DAY2的S席在该轮不售。均为历史规则。",
+              "evidence_ja": "料金\nS席(特製グッズ付き)：24,200円(税込)\nA席(特製グッズ付き)：16,500円(税込)\n一般指定席(特製グッズ付き)：13,200円(税込)\n一般指定席：8,800円(税込)\n見切れ席：8,800円(税込)\n2F後方立ち見エリア：8,800円(税込)",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-d7aa807ac7272d64-rule-3",
+              "kind": "参加",
+              "title": "票券特典领取",
+              "text_zh": "附特典票赠特制速干宽版T恤。",
+              "evidence_ja": "グッズ付きチケット特典\n・特製ドライビッグTシャツ",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-d7aa807ac7272d64-rule-4",
+              "kind": "参加",
+              "title": "年龄、入场与退款",
+              "text_zh": "学龄前儿童不能入场，一票一人且仅对应场次有效。除公演取消或延期外不退款；附特典票的赠品在会场领取，不补寄，遗漏须当日申告。",
+              "evidence_ja": "・未就学児の入場はできません。\n・チケットは券面に記載の公演日、会場でのみ有効となります。\n・1枚のチケットを複数のお客様で使用することはできません（チケット1枚につきお客様1名様のみのご入場となります）。\n・公演中止、延期の場合以外でのチケットの払い戻しは情勢に関わらず原則行いません。予めご了承ください。\n・グッズ付きチケット特典は会場でのお渡しとなります。いかなる理由でも事前または事後の発送は受け付けておりませんので予めご了承ください。特典のお受け取り忘れにつきましても、開催当日のご申告のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、特典はお忘れなくお受け取りください。その他入場時等の配布物につきましても同様とさせていただきます。\n・会場販売のコラボ商品等の一部例外を除き、原則として会場内にカン・ビン類のお持ち込みはできません。\n・会場内ではアルコールの販売はございません。また、アルコールの持ち込みは禁止とさせていただきます。\n・プレゼント・ファンレターはお控えください。プレゼントボックスも設置は致しません。",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "已结束演出，历史报名记录；请勿为此轮购买附券商品。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T12:15:33.162Z",
+          "updated_at": "2026-10-29T12:15:33.162Z",
+          "franchise_ids": [
+            "bang-dream",
+            "mygo"
+          ],
+          "venues": [
+            {
+              "id": "auto-d7aa807ac7272d64-venue-f0b20d8896",
+              "city": "横滨",
+              "name": "ぴあアリーナMM",
+              "address": null,
+              "start_date": "2026-07-18",
+              "end_date": "2026-07-18",
+              "rounds": [
+                {
+                  "id": "auto-d7aa807ac7272d64-round-0",
+                  "label": "官方参加方式",
+                  "method": "先着预约",
+                  "kind": "fixed",
+                  "opens_at": "2026-06-06T12:00:00+09:00",
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/mygo_9th/",
+                  "note": "已结束演出，历史报名记录；请勿为此轮购买附券商品。"
+                }
+              ]
+            },
+            {
+              "id": "auto-d7aa807ac7272d64-venue-172e11ceb3",
+              "city": "横滨",
+              "name": "ぴあアリーナMM",
+              "address": null,
+              "start_date": "2026-07-19",
+              "end_date": "2026-07-19",
+              "rounds": [
+                {
+                  "id": "auto-d7aa807ac7272d64-round-1",
+                  "label": "官方参加方式",
+                  "method": "先着预约",
+                  "kind": "fixed",
+                  "opens_at": "2026-06-06T12:00:00+09:00",
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/mygo_9th/",
+                  "note": "已结束演出，历史报名记录；请勿为此轮购买附券商品。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-d7aa807ac7272d64-source",
+              "url": "https://bang-dream.com/events/mygo_9th/",
               "label": "官方正文 · 机器辅助整理",
               "checked_at": "2026-10-29T12:15:33.162Z"
             }
@@ -10459,6 +11752,295 @@
           {
             "label": "官方Live页面 · 附券商品与场次已复核",
             "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+            "checked_on": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "ticket-history-mygo-9th-hyogo",
+        "slug": "ticket-history-mygo-9th-hyogo",
+        "title": "MyGO!!!!! 3rd Album「致並跡」",
+        "franchise_ids": [
+          "bang-dream",
+          "mygo"
+        ],
+        "release_on": null,
+        "summary": "初回生产分附申込券；每个序列号可申请DAY1及DAY2，每次最多4张。该轮已经结束，当前一般先着不使用这张附券。",
+        "status": "published",
+        "updated_at": "2026-10-29T13:33:33.947Z",
+        "editions": [
+          {
+            "id": "enclosed-ticket",
+            "label": "初回生産分",
+            "sku": "",
+            "price_yen": null,
+            "eligibility": "初回生产分附申込券；每个序列号可申请DAY1及DAY2，每次最多4张。该轮已经结束，当前一般先着不使用这张附券。"
+          }
+        ],
+        "lotteries": [
+          {
+            "id": "ticket-history-mygo-9th-hyogo-0",
+            "title": "MyGO!!!!! 神户再景篇：一般先着及已结束的专辑附券先行 · 已截止的附券先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "mygo-9th-kobe-2026",
+            "live_dates": [
+              "2026-11-14",
+              "2026-11-15"
+            ],
+            "venue": "ワールド記念ホール（神戸ポートアイランドホール）",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2026-07-19T21:00:00+09:00",
+              "closes_at": "2026-08-24T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "初回生产分附申込券；每个序列号可申请DAY1及DAY2，每次最多4张。该轮已经结束，当前一般先着不使用这张附券。",
+              "本附券轮次已结束；商品不保证中选。",
+              "初回生产分附申込券；每个序列号可申请DAY1及DAY2，每次最多4张。该轮已经结束，当前一般先着不使用这张附券。"
+            ],
+            "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/"
+          }
+        ],
+        "offers": [],
+        "campaigns": [],
+        "sources": [
+          {
+            "label": "官方Live页面 · 附券商品与场次已复核",
+            "url": "https://bang-dream.com/events/mygo_9th_hyogo/",
+            "checked_on": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "ticket-history-avemujica-7th",
+        "slug": "ticket-history-avemujica-7th",
+        "title": "Ave Mujica Best Album「Ave Música」",
+        "franchise_ids": [
+          "bang-dream",
+          "ave-mujica"
+        ],
+        "release_on": null,
+        "summary": "初回生产分附申込券；每序列号可申请DAY1及DAY2，每次最多2张。演出和附券受理均已结束。",
+        "status": "published",
+        "updated_at": "2026-10-29T13:33:33.947Z",
+        "editions": [
+          {
+            "id": "enclosed-ticket",
+            "label": "初回生産分",
+            "sku": "",
+            "price_yen": null,
+            "eligibility": "初回生产分附申込券；每序列号可申请DAY1及DAY2，每次最多2张。演出和附券受理均已结束。"
+          }
+        ],
+        "lotteries": [
+          {
+            "id": "ticket-history-avemujica-7th-0",
+            "title": "Ave Mujica 第7次Live「Virtus」（已结束） · 已截止的附券先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-876f26dd0c37de44",
+            "live_dates": [
+              "2026-10-24",
+              "2026-10-25"
+            ],
+            "venue": "京王アリーナ TOKYO",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2026-06-20T20:00:00+09:00",
+              "closes_at": "2026-07-20T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "初回生产分附申込券；每序列号可申请DAY1及DAY2，每次最多2张。演出和附券受理均已结束。",
+              "本附券轮次已结束；商品不保证中选。",
+              "初回生产分附申込券；每序列号可申请DAY1及DAY2，每次最多2张。演出和附券受理均已结束。"
+            ],
+            "source_url": "https://bang-dream.com/events/avemujica_7th/"
+          }
+        ],
+        "offers": [],
+        "campaigns": [],
+        "sources": [
+          {
+            "label": "官方Live页面 · 附券商品与场次已复核",
+            "url": "https://bang-dream.com/events/avemujica_7th/",
+            "checked_on": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "ticket-history-mygo-9th",
+        "slug": "ticket-history-mygo-9th",
+        "title": "MyGO!!!!! 8th Single「静降想」",
+        "franchise_ids": [
+          "bang-dream",
+          "mygo"
+        ],
+        "release_on": null,
+        "summary": "初回生产分附申込券；每序列号仅可选DAY1或DAY2其中一场，每次最多4张。演出与受理均已结束。",
+        "status": "published",
+        "updated_at": "2026-10-29T13:33:33.947Z",
+        "editions": [
+          {
+            "id": "enclosed-ticket",
+            "label": "初回生産分",
+            "sku": "",
+            "price_yen": null,
+            "eligibility": "初回生产分附申込券；每序列号仅可选DAY1或DAY2其中一场，每次最多4张。演出与受理均已结束。"
+          }
+        ],
+        "lotteries": [
+          {
+            "id": "ticket-history-mygo-9th-0",
+            "title": "MyGO!!!!! 第9次Live 横滨场（已结束） · 已截止的附券先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-d7aa807ac7272d64",
+            "live_dates": [
+              "2026-07-18",
+              "2026-07-19"
+            ],
+            "venue": "ぴあアリーナMM",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2025-12-06T21:00:00+09:00",
+              "closes_at": "2026-02-02T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "初回生产分附申込券；每序列号仅可选DAY1或DAY2其中一场，每次最多4张。演出与受理均已结束。",
+              "本附券轮次已结束；商品不保证中选。",
+              "初回生产分附申込券；每序列号仅可选DAY1或DAY2其中一场，每次最多4张。演出与受理均已结束。"
+            ],
+            "source_url": "https://bang-dream.com/events/mygo_9th/"
+          }
+        ],
+        "offers": [],
+        "campaigns": [],
+        "sources": [
+          {
+            "label": "官方Live页面 · 附券商品与场次已复核",
+            "url": "https://bang-dream.com/events/mygo_9th/",
+            "checked_on": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "ticket-history-lehre-der-rose",
+        "slug": "ticket-history-lehre-der-rose",
+        "title": "Roselia 19th Single「Fear Nothing」",
+        "franchise_ids": [
+          "bang-dream",
+          "roselia"
+        ],
+        "release_on": null,
+        "summary": "初回生产分附申込券；每张申込券可为DAY1、DAY2各申请一次，每次最多2张。不是购买同名纪念专辑就自动获得该轮资格。演出与受理均已结束。",
+        "status": "published",
+        "updated_at": "2026-10-29T13:33:33.947Z",
+        "editions": [
+          {
+            "id": "enclosed-ticket",
+            "label": "初回生産分",
+            "sku": "",
+            "price_yen": null,
+            "eligibility": "初回生产分附申込券；每张申込券可为DAY1、DAY2各申请一次，每次最多2张。不是购买同名纪念专辑就自动获得该轮资格。演出与受理均已结束。"
+          }
+        ],
+        "lotteries": [
+          {
+            "id": "ticket-history-lehre-der-rose-0",
+            "title": "Roselia「Lehre der Rose」发行纪念Live（已结束） · 已截止的附券先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-ab15a4c0651f6ca2",
+            "live_dates": [
+              "2026-08-29",
+              "2026-08-30"
+            ],
+            "venue": "有明アリーナ",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2026-04-29T10:00:00+09:00",
+              "closes_at": "2026-05-31T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "初回生产分附申込券；每张申込券可为DAY1、DAY2各申请一次，每次最多2张。不是购买同名纪念专辑就自动获得该轮资格。演出与受理均已结束。",
+              "本附券轮次已结束；商品不保证中选。",
+              "初回生产分附申込券；每张申込券可为DAY1、DAY2各申请一次，每次最多2张。不是购买同名纪念专辑就自动获得该轮资格。演出与受理均已结束。"
+            ],
+            "source_url": "https://bang-dream.com/events/lehre-der-rose/"
+          }
+        ],
+        "offers": [],
+        "campaigns": [],
+        "sources": [
+          {
+            "label": "官方Live页面 · 附券商品与场次已复核",
+            "url": "https://bang-dream.com/events/lehre-der-rose/",
+            "checked_on": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "ticket-history-morfonica-live-2026",
+        "slug": "ticket-history-morfonica-live-2026",
+        "title": "Morfonica 9th Single「Resonant Strings」",
+        "franchise_ids": [
+          "bang-dream",
+          "morfonica"
+        ],
+        "release_on": null,
+        "summary": "初回生产分附申込券，每次最多4张；演出和本附券轮次均已结束。",
+        "status": "published",
+        "updated_at": "2026-10-29T13:33:33.947Z",
+        "editions": [
+          {
+            "id": "enclosed-ticket",
+            "label": "初回生産分",
+            "sku": "",
+            "price_yen": null,
+            "eligibility": "初回生产分附申込券，每次最多4张；演出和本附券轮次均已结束。"
+          }
+        ],
+        "lotteries": [
+          {
+            "id": "ticket-history-morfonica-live-2026-0",
+            "title": "Morfonica「Movement」（已结束） · 已截止的附券先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-0c80a1d8f835ab8a",
+            "live_dates": [
+              "2026-09-22"
+            ],
+            "venue": "TACHIKAWA STAGE GARDEN",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2026-04-22T10:00:00+09:00",
+              "closes_at": "2026-05-24T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "初回生产分附申込券，每次最多4张；演出和本附券轮次均已结束。",
+              "本附券轮次已结束；商品不保证中选。",
+              "初回生产分附申込券，每次最多4张；演出和本附券轮次均已结束。"
+            ],
+            "source_url": "https://bang-dream.com/events/morfonica_live_2026/"
+          }
+        ],
+        "offers": [],
+        "campaigns": [],
+        "sources": [
+          {
+            "label": "官方Live页面 · 附券商品与场次已复核",
+            "url": "https://bang-dream.com/events/morfonica_live_2026/",
             "checked_on": "2026-10-29"
           }
         ]

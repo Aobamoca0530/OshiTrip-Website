@@ -1,0 +1,26 @@
+[
+  {
+    "primary_url": "https://bang-dream.com/events/eleganza/",
+    "primary_hash": "d23ca91cbad500469079d346cac0dcd5f4173ffe0d7f8e0b36349a4aee380665",
+    "source_url": "https://eplus.jp/morfonica-eleganza/",
+    "checked_at": "2026-10-29T13:42:42.947Z",
+    "method": "抽选报名",
+    "primary_booking_evidence_ja": "プレイガイド二次先行\n受付期間：2026年10月29日(木) 18:00 ～ 11月29日(日) 23:59",
+    "excerpt_ja": "抽選2次プレオーダー受付\n受付期間:2026/10/29(木)18:00～2026/11/29(日)23:59",
+    "excerpt_hash": "d0cc9bfeb687ba03a9fd0d967f6984023ed82240e94abf76b77d738b3b5c767b",
+    "approved": true,
+    "reason": "读取官网票务链接对应的eplus公开渲染页面，对照演出名、日期、会场及同一受理时段；仅补充确认抽选类型，不推断限购或库存。"
+  },
+  {
+    "primary_url": "https://bang-dream.com/events/millsage_ikka-dumb-rock/",
+    "primary_hash": "07d4b7935f6fd91374e0f97e7512096c72270e375512d9f18a8ee2b1cc735695",
+    "source_url": "https://eplus.jp/millsage_ikka-dumb-rock/",
+    "checked_at": "2026-10-29T13:42:42.947Z",
+    "method": "抽选报名",
+    "primary_booking_evidence_ja": "受付期間：2026年10月9日(金) 19:00～ 11月16日(月) 23:59\n※お一人様につき2枚までお申し込みいただけます。",
+    "excerpt_ja": "抽選PG先行\n受付期間:2026/10/9(金)19:00～2026/11/16(月)23:59",
+    "excerpt_hash": "dc6a8b284a1298ab3f851f96f90fa92bacd170d88539dc854b39ff4a8fcd5164",
+    "approved": true,
+    "reason": "读取官网票务链接对应的eplus公开渲染页面，对照演出名、日期、会场及同一受理时段；仅补充确认抽选类型，不推断限购或库存。"
+  }
+]

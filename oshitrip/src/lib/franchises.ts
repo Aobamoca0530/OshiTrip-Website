@@ -1,12 +1,19 @@
 import type { Franchise } from './schema';
 
+const bandOrder = ['poppin-party', 'afterglow', 'pastel-palettes', 'roselia', 'hello-happy-world', 'morfonica', 'raise-a-suilen', 'our-notes', 'mygo', 'ave-mujica', 'yumemita', 'millsage', 'ikka-dumb-rock'];
+
 // Keep children next to their series even when database rows arrive unordered.
 export function franchiseGroups(franchises: Franchise[]) {
   const visited = new Set<string>();
   const collect = (root: Franchise): Franchise[] => {
     if (visited.has(root.id)) return [];
     visited.add(root.id);
-    return [root, ...franchises.filter(f => f.parent_id === root.id).flatMap(collect)];
+    const children = franchises.filter(f => f.parent_id === root.id);
+    if (root.id === 'bang-dream') children.sort((a, b) => {
+      const rank = (id: string) => bandOrder.includes(id) ? bandOrder.indexOf(id) : bandOrder.length;
+      return rank(a.id) - rank(b.id);
+    });
+    return [root, ...children.flatMap(collect)];
   };
   const roots = franchises.filter(f => !f.parent_id || !franchises.some(p => p.id === f.parent_id));
   return [...roots, ...franchises].flatMap(root => {

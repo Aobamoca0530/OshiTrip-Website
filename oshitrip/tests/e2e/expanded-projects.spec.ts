@@ -13,6 +13,10 @@ test('new projects and host cities are available on desktop and mobile',async({p
   await expect(page.getByRole('button',{name:/μ.*缪斯/})).toHaveCount(0);
   const values=await page.locator('select[name="ip"] option').evaluateAll(options=>options.map(o=>(o as HTMLOptionElement).value));
   expect(values.slice(values.indexOf('lovelive'),values.indexOf('lovelive')+7)).toEqual(['lovelive','muse','aqours','nijigasaki','liella','hasunosora','ikizulive']);
+  expect(values.slice(values.indexOf('raise-a-suilen'),values.indexOf('raise-a-suilen')+4)).toEqual(['raise-a-suilen','our-notes','mygo','ave-mujica']);
+  await expect(page.getByRole('link',{name:'MyGO!!!!! 官网',exact:true})).toHaveAttribute('href','https://bang-dream.com/artist/mygo/');
+  await expect(page.getByRole('link',{name:'Our Notes 官网',exact:true})).toHaveAttribute('href','https://bang-dream-on.bushimo.jp/');
+  await expect(series.getByRole('link',{name:'Liella! 官网',exact:true})).toHaveAttribute('href','https://www.lovelive-anime.jp/yuigaoka/');
   await expect(page.locator('option').filter({hasText:/^金泽$/}).first()).toHaveCount(1);
   await page.goto('/events');
   await page.getByLabel('旅行城市').selectOption({label:'沼津'});

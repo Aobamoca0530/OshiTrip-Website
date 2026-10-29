@@ -149,16 +149,20 @@ test("release filters combine and unknown lotteries are never presented as open"
 });
 
 test('Liella vouchers and historical Live applications are grouped by IP with distinct Day1/Day2',async({page})=>{
+  await page.route(url=>url.hostname==='www.lovelive-anime.jp' && url.pathname.endsWith('/image.php'),route=>route.fulfill({contentType:'image/svg+xml',body:'<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100" height="100" fill="#ddd"/></svg>'}));
   await page.goto('/releases');
   await page.getByRole('combobox',{name:'关联企划',exact:true}).selectOption('liella');
   await expect(page.getByTestId('release-card')).toHaveCount(2);
   await expect(page.getByTestId('release-ip-group').getByRole('heading',{level:2})).toContainText('Liella!');
   await page.getByRole('combobox',{name:'Live 报名企划',exact:true}).selectOption('liella');
   const live=page.getByTestId('live-lottery-card').filter({hasText:'八巡'});
-  await live.locator('summary').click();
+  await live.locator(':scope > summary').click();
   await expect(live).toContainText('2026-11-18 12:00');
   await expect(live).toContainText('2026-11-27 12:00');
   await expect(live.getByRole('link',{name:'ラブライブ！スーパースター!! ファンディスク第2弾',exact:false})).toBeVisible();
+  await live.getByTestId('lottery-images').locator('summary').click();
+  await expect(live.locator('img').first()).toBeVisible();
+  await expect(live.getByRole('link',{name:'图片官方出处 ↗'}).first()).toHaveAttribute('href','https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour');
   await page.getByRole('combobox',{name:'Live 报名企划',exact:true}).selectOption('lovelive');
   await expect(page.getByTestId('live-lottery-card').filter({hasText:'103期毕业公演'})).toHaveCount(1);
   await page.getByRole('combobox',{name:'Live 报名企划',exact:true}).selectOption('starlight');

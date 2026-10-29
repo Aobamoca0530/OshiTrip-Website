@@ -37,6 +37,7 @@ import { usePersonal } from "./personal";
 import type { Announcement } from "@/lib/announcements";
 import { ActivityAnnouncement } from "./announcements";
 import { franchiseGroups, orderedFranchises } from "@/lib/franchises";
+import { franchiseOfficialLinks } from "@/lib/franchise-official-links";
 
 export function SourceNote({ mode, error }: { mode: string; error?: string }) {
   return (
@@ -63,8 +64,8 @@ export function IPChoices({ franchises }: { franchises: Franchise[] }) {
         <legend>{root.name}</legend>
         <div className="ip-choices">
       {members.map((f) => (
+        <span className="ip-choice" key={f.id}>
         <button
-          key={f.id}
           type="button"
           className={`chip ${data.ips.includes(f.id) ? "selected" : ""} ${f.parent_id ? "sub-ip" : ""}`}
           onClick={() => toggleIP(f.id)}
@@ -73,6 +74,8 @@ export function IPChoices({ franchises }: { franchises: Franchise[] }) {
           {data.ips.includes(f.id) ? <Check size={14} /> : <Plus size={14} />}{" "}
           {f.name}
         </button>
+        {franchiseOfficialLinks[f.id] && <a className="ip-official-link" href={franchiseOfficialLinks[f.id]} target="_blank" rel="noopener noreferrer" aria-label={`${f.name} 官网`}>官网 ↗</a>}
+        </span>
       ))}
         </div>
       </fieldset>

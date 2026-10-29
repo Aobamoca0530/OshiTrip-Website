@@ -328,5 +328,224 @@
       ]
     },
     "reviewed_at": "2026-10-29T12:58:40.994Z"
+  },
+  {
+    "product": {
+      "id": "ticket-history-mygo-9th-hyogo",
+      "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/",
+      "source_hash": "38aa8408231f934f95b3a39462fb31e2b542febc8e7a93960fc4afd8671ed22b",
+      "title_ja": "MyGO!!!!! 3rd Album「致並跡」",
+      "franchise_ids": [
+        "bang-dream",
+        "mygo"
+      ],
+      "release_on": null,
+      "edition_ja": "初回生産分",
+      "summary_zh": "初回生产分附申込券；每个序列号可申请DAY1及DAY2，每次最多4张。该轮已经结束，当前一般先着不使用这张附券。",
+      "qualification_zh": "初回生产分附申込券；每个序列号可申请DAY1及DAY2，每次最多4张。该轮已经结束，当前一般先着不使用这张附券。",
+      "product_evidence_ja": "最速先行抽選（受付終了）\n受付期間：2026年7月19日(日) 21:00 ～ 8月24日(月) 23:59まで\n※ MyGO!!!!! 3rd Album「致並跡」 初回生産分に封入の申込券でご応募いただけます。\n※封入のシリアル1枚で、DAY1・DAY2の両公演ともにご応募いただけます。\n1回につき4枚までお申込みいただけます。",
+      "lotteries": [
+        {
+          "title_zh": "MyGO!!!!! 神户再景篇：一般先着及已结束的专辑附券先行 · 已截止的附券先行",
+          "venue_ja": "ワールド記念ホール（神戸ポートアイランドホール）",
+          "live_dates": [
+            "2026-11-14",
+            "2026-11-15"
+          ],
+          "performance_day": null,
+          "opens_at": "2026-07-19T21:00:00+09:00",
+          "closes_at": "2026-08-24T23:59:00+09:00",
+          "conditions_zh": [
+            "本附券轮次已结束；商品不保证中选。",
+            "初回生产分附申込券；每个序列号可申请DAY1及DAY2，每次最多4张。该轮已经结束，当前一般先着不使用这张附券。"
+          ],
+          "evidence_ja": "最速先行抽選（受付終了）\n受付期間：2026年7月19日(日) 21:00 ～ 8月24日(月) 23:59まで\n※ MyGO!!!!! 3rd Album「致並跡」 初回生産分に封入の申込券でご応募いただけます。\n※封入のシリアル1枚で、DAY1・DAY2の両公演ともにご応募いただけます。\n1回につき4枚までお申込みいただけます。",
+          "schedule_evidence_ja": "公演名\nMyGO!!!!! 9th LIVE「つなぎ目の向こうに」- 神戸再景編 -\n日程\nDAY1\n2026年11月14日(土) 開場16:30／開演18:00（予定）\nDAY2\n2026年11月15日(日) 開場15:30／開演17:00（予定）\n会場\nワールド記念ホール（神戸ポートアイランドホール）"
+        }
+      ]
+    },
+    "review": {
+      "approved": true,
+      "reason": "复核商品全名、初回生产分、两日适用方式、数量限制及已截止期限；发售日期本段未明写，不补猜。",
+      "evidence_ja": [
+        "最速先行抽選（受付終了）\n受付期間：2026年7月19日(日) 21:00 ～ 8月24日(月) 23:59まで\n※ MyGO!!!!! 3rd Album「致並跡」 初回生産分に封入の申込券でご応募いただけます。\n※封入のシリアル1枚で、DAY1・DAY2の両公演ともにご応募いただけます。\n1回につき4枚までお申込みいただけます。"
+      ]
+    },
+    "reviewed_at": "2026-10-29T13:33:33.947Z"
+  },
+  {
+    "product": {
+      "id": "ticket-history-avemujica-7th",
+      "source_url": "https://bang-dream.com/events/avemujica_7th/",
+      "source_hash": "929bb6da2ce1b0c244a65fb029ea8d18354d08db741fbb6fe3ffb1558b8e8dda",
+      "title_ja": "Ave Mujica Best Album「Ave Música」",
+      "franchise_ids": [
+        "bang-dream",
+        "ave-mujica"
+      ],
+      "release_on": null,
+      "edition_ja": "初回生産分",
+      "summary_zh": "初回生产分附申込券；每序列号可申请DAY1及DAY2，每次最多2张。演出和附券受理均已结束。",
+      "qualification_zh": "初回生产分附申込券；每序列号可申请DAY1及DAY2，每次最多2张。演出和附券受理均已结束。",
+      "product_evidence_ja": "最速先行抽選（受付終了）\n受付期間：2026年6月20日(土) 20:00 ～ 7月20日(月･祝) 23:59まで\n※ Ave Mujica Best Album「Ave Música」 初回生産分に封入の申込券でご応募いただけます。\n※封入のシリアル1枚で、DAY1・DAY2の両公演ともにご応募いただけます。\n1回につき2枚までお申込みいただけます。",
+      "lotteries": [
+        {
+          "title_zh": "Ave Mujica 第7次Live「Virtus」（已结束） · 已截止的附券先行",
+          "venue_ja": "京王アリーナ TOKYO",
+          "live_dates": [
+            "2026-10-24",
+            "2026-10-25"
+          ],
+          "performance_day": null,
+          "opens_at": "2026-06-20T20:00:00+09:00",
+          "closes_at": "2026-07-20T23:59:00+09:00",
+          "conditions_zh": [
+            "本附券轮次已结束；商品不保证中选。",
+            "初回生产分附申込券；每序列号可申请DAY1及DAY2，每次最多2张。演出和附券受理均已结束。"
+          ],
+          "evidence_ja": "最速先行抽選（受付終了）\n受付期間：2026年6月20日(土) 20:00 ～ 7月20日(月･祝) 23:59まで\n※ Ave Mujica Best Album「Ave Música」 初回生産分に封入の申込券でご応募いただけます。\n※封入のシリアル1枚で、DAY1・DAY2の両公演ともにご応募いただけます。\n1回につき2枚までお申込みいただけます。",
+          "schedule_evidence_ja": "公演名\nAve Mujica 7th LIVE「Virtus」\n日程\nDAY1\n2026年10月24日(土) 開場17:00／開演18:30（予定）\nDAY2\n2026年10月25日(日) 開場16:00／開演17:30（予定）\n会場\n京王アリーナ TOKYO"
+        }
+      ]
+    },
+    "review": {
+      "approved": true,
+      "reason": "复核商品全名、初回生产分、两日适用方式、数量限制及已截止期限；发售日期本段未明写，不补猜。",
+      "evidence_ja": [
+        "最速先行抽選（受付終了）\n受付期間：2026年6月20日(土) 20:00 ～ 7月20日(月･祝) 23:59まで\n※ Ave Mujica Best Album「Ave Música」 初回生産分に封入の申込券でご応募いただけます。\n※封入のシリアル1枚で、DAY1・DAY2の両公演ともにご応募いただけます。\n1回につき2枚までお申込みいただけます。"
+      ]
+    },
+    "reviewed_at": "2026-10-29T13:33:33.947Z"
+  },
+  {
+    "product": {
+      "id": "ticket-history-mygo-9th",
+      "source_url": "https://bang-dream.com/events/mygo_9th/",
+      "source_hash": "3723e9455e546449305cb1049848e588b5668a6fc571988154349b33f70c2036",
+      "title_ja": "MyGO!!!!! 8th Single「静降想」",
+      "franchise_ids": [
+        "bang-dream",
+        "mygo"
+      ],
+      "release_on": null,
+      "edition_ja": "初回生産分",
+      "summary_zh": "初回生产分附申込券；每序列号仅可选DAY1或DAY2其中一场，每次最多4张。演出与受理均已结束。",
+      "qualification_zh": "初回生产分附申込券；每序列号仅可选DAY1或DAY2其中一场，每次最多4张。演出与受理均已结束。",
+      "product_evidence_ja": "最速先行抽選\n受付期間：2025年12月6日(土) 21:00 ～ 2026年2月2日(月) 23:59\n※ MyGO!!!!! 8th Single「静降想」 初回生産分に封入の申込券でご応募いただけます。\n※封入のシリアル1枚で、DAY1・DAY2いずれかにご応募いただけます。\n1回につき4枚までお申込みいただけます。",
+      "lotteries": [
+        {
+          "title_zh": "MyGO!!!!! 第9次Live 横滨场（已结束） · 已截止的附券先行",
+          "venue_ja": "ぴあアリーナMM",
+          "live_dates": [
+            "2026-07-18",
+            "2026-07-19"
+          ],
+          "performance_day": null,
+          "opens_at": "2025-12-06T21:00:00+09:00",
+          "closes_at": "2026-02-02T23:59:00+09:00",
+          "conditions_zh": [
+            "本附券轮次已结束；商品不保证中选。",
+            "初回生产分附申込券；每序列号仅可选DAY1或DAY2其中一场，每次最多4张。演出与受理均已结束。"
+          ],
+          "evidence_ja": "最速先行抽選\n受付期間：2025年12月6日(土) 21:00 ～ 2026年2月2日(月) 23:59\n※ MyGO!!!!! 8th Single「静降想」 初回生産分に封入の申込券でご応募いただけます。\n※封入のシリアル1枚で、DAY1・DAY2いずれかにご応募いただけます。\n1回につき4枚までお申込みいただけます。",
+          "schedule_evidence_ja": "公演名\nMyGO!!!!! 9th LIVE「つなぎ目の向こうに」\n日程\nDAY1\n2026年7月18日(土) 開場16:30／開演18:00（予定）\nDAY2\n2026年7月19日(日) 開場16:30／開演18:00（予定）\n会場\nぴあアリーナMM"
+        }
+      ]
+    },
+    "review": {
+      "approved": true,
+      "reason": "复核商品全名、初回生产分、两日适用方式、数量限制及已截止期限；发售日期本段未明写，不补猜。",
+      "evidence_ja": [
+        "最速先行抽選\n受付期間：2025年12月6日(土) 21:00 ～ 2026年2月2日(月) 23:59\n※ MyGO!!!!! 8th Single「静降想」 初回生産分に封入の申込券でご応募いただけます。\n※封入のシリアル1枚で、DAY1・DAY2いずれかにご応募いただけます。\n1回につき4枚までお申込みいただけます。"
+      ]
+    },
+    "reviewed_at": "2026-10-29T13:33:33.947Z"
+  },
+  {
+    "product": {
+      "id": "ticket-history-lehre-der-rose",
+      "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+      "source_hash": "e10dda88033b673018ab08693e8a5dba6dde1c8a0143c06ba2a9da2718728228",
+      "title_ja": "Roselia 19th Single「Fear Nothing」",
+      "franchise_ids": [
+        "bang-dream",
+        "roselia"
+      ],
+      "release_on": null,
+      "edition_ja": "初回生産分",
+      "summary_zh": "初回生产分附申込券；每张申込券可为DAY1、DAY2各申请一次，每次最多2张。不是购买同名纪念专辑就自动获得该轮资格。演出与受理均已结束。",
+      "qualification_zh": "初回生产分附申込券；每张申込券可为DAY1、DAY2各申请一次，每次最多2张。不是购买同名纪念专辑就自动获得该轮资格。演出与受理均已结束。",
+      "product_evidence_ja": "最速先行抽選（受付終了）\n受付期間：2026年4月29日(水・祝) 10:00～ 5月31日(日) 23:59\n※ Roselia 19th Single「Fear Nothing」 初回生産分に封入の申込券でご応募いただけます。\n※申込券1枚で、DAY1・DAY2に1回ずつご応募いただけます。\n※1回につき2枚までお申込みいただけます。",
+      "lotteries": [
+        {
+          "title_zh": "Roselia「Lehre der Rose」发行纪念Live（已结束） · 已截止的附券先行",
+          "venue_ja": "有明アリーナ",
+          "live_dates": [
+            "2026-08-29",
+            "2026-08-30"
+          ],
+          "performance_day": null,
+          "opens_at": "2026-04-29T10:00:00+09:00",
+          "closes_at": "2026-05-31T23:59:00+09:00",
+          "conditions_zh": [
+            "本附券轮次已结束；商品不保证中选。",
+            "初回生产分附申込券；每张申込券可为DAY1、DAY2各申请一次，每次最多2张。不是购买同名纪念专辑就自动获得该轮资格。演出与受理均已结束。"
+          ],
+          "evidence_ja": "最速先行抽選（受付終了）\n受付期間：2026年4月29日(水・祝) 10:00～ 5月31日(日) 23:59\n※ Roselia 19th Single「Fear Nothing」 初回生産分に封入の申込券でご応募いただけます。\n※申込券1枚で、DAY1・DAY2に1回ずつご応募いただけます。\n※1回につき2枚までお申込みいただけます。",
+          "schedule_evidence_ja": "公演名\nRoselia「Lehre der Rose」 - Roselia 10th Anniversary Best Album「Lehre der Rose」リリース記念ライブ\n日程\nDAY1\n2026年8月29日(土) 開場16:30／開演18:00(予定)\nDAY2\n2026年8月30日(日) 開場15:30／開演17:00(予定)\n会場\n有明アリーナ"
+        }
+      ]
+    },
+    "review": {
+      "approved": true,
+      "reason": "复核商品全名、初回生产分、两日适用方式、数量限制及已截止期限；发售日期本段未明写，不补猜。",
+      "evidence_ja": [
+        "最速先行抽選（受付終了）\n受付期間：2026年4月29日(水・祝) 10:00～ 5月31日(日) 23:59\n※ Roselia 19th Single「Fear Nothing」 初回生産分に封入の申込券でご応募いただけます。\n※申込券1枚で、DAY1・DAY2に1回ずつご応募いただけます。\n※1回につき2枚までお申込みいただけます。"
+      ]
+    },
+    "reviewed_at": "2026-10-29T13:33:33.947Z"
+  },
+  {
+    "product": {
+      "id": "ticket-history-morfonica-live-2026",
+      "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+      "source_hash": "c956c28eebd848c7409cf7e518ae5f5fc90604dd5c54ec883154768c401c3b6d",
+      "title_ja": "Morfonica 9th Single「Resonant Strings」",
+      "franchise_ids": [
+        "bang-dream",
+        "morfonica"
+      ],
+      "release_on": null,
+      "edition_ja": "初回生産分",
+      "summary_zh": "初回生产分附申込券，每次最多4张；演出和本附券轮次均已结束。",
+      "qualification_zh": "初回生产分附申込券，每次最多4张；演出和本附券轮次均已结束。",
+      "product_evidence_ja": "最速先行抽選（受付終了）\n受付期間：2026年4月22日(水) 10:00～ 5月24日(日) 23:59\n※ Morfonica 9th Single「Resonant Strings」 初回生産分に封入の申込券でご応募いただけます。\n※1回につき4枚までお申し込みいただけます。",
+      "lotteries": [
+        {
+          "title_zh": "Morfonica「Movement」（已结束） · 已截止的附券先行",
+          "venue_ja": "TACHIKAWA STAGE GARDEN",
+          "live_dates": [
+            "2026-09-22"
+          ],
+          "performance_day": null,
+          "opens_at": "2026-04-22T10:00:00+09:00",
+          "closes_at": "2026-05-24T23:59:00+09:00",
+          "conditions_zh": [
+            "本附券轮次已结束；商品不保证中选。",
+            "初回生产分附申込券，每次最多4张；演出和本附券轮次均已结束。"
+          ],
+          "evidence_ja": "最速先行抽選（受付終了）\n受付期間：2026年4月22日(水) 10:00～ 5月24日(日) 23:59\n※ Morfonica 9th Single「Resonant Strings」 初回生産分に封入の申込券でご応募いただけます。\n※1回につき4枚までお申し込みいただけます。",
+          "schedule_evidence_ja": "公演名\nMorfonica LIVE「Movement」\n日程\n2026年9月22日(火･祝) 開場17:00／開演18:00（予定）\n会場\nTACHIKAWA STAGE GARDEN"
+        }
+      ]
+    },
+    "review": {
+      "approved": true,
+      "reason": "复核商品全名、初回生产分、两日适用方式、数量限制及已截止期限；发售日期本段未明写，不补猜。",
+      "evidence_ja": [
+        "最速先行抽選（受付終了）\n受付期間：2026年4月22日(水) 10:00～ 5月24日(日) 23:59\n※ Morfonica 9th Single「Resonant Strings」 初回生産分に封入の申込券でご応募いただけます。\n※1回につき4枚までお申し込みいただけます。"
+      ]
+    },
+    "reviewed_at": "2026-10-29T13:33:33.947Z"
   }
 ]

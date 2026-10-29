@@ -1,6 +1,9 @@
 import { WORKFLOW_VERSION } from './crawler/workflow.mjs';
 import { PUBLIC_SOURCE_IDS } from './crawler/public-sources.mjs';
 import fs from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { confirmedBookingMethods } from './crawler/supporting-booking-evidence.mjs';
+import { eventIdentityLinks } from './crawler/event-identity.mjs';
 import { robotsAllows } from './crawler/core.mjs';
 import { crawlPublicSource } from './crawler/browser.mjs';
 import { createImageReviewer, bailianEndpoint } from './crawler/image-rules.mjs';
@@ -79,7 +82,9 @@ for (const { source, observation: o, observed_at } of observations) {
   const old = existing.find(r => r.source_url === o.source_url);
   const override = overrides[o.source_url];
   const reviewedManually = override?.source_hash === o.content_hash;
-  if (!reviewedManually && old?.activity?.source_hash === o.content_hash && old.activity.review?.state === 'approved') {
+  const supporting = confirmedBookingMethods(o);
+  const supportingHash = supporting.length ? createHash('sha256').update(JSON.stringify(supporting)).digest('hex') : null;
+  if (!reviewedManually && old?.activity?.source_hash === o.content_hash && old.activity.review?.state === 'approved' && (old.activity.supporting_evidence_hash || null) === supportingHash) {
     row.activity = old.activity; report.translation.cached++; continue;
   }
   const kind = classifyAnnouncement(source, o);
@@ -116,9 +121,10 @@ for (const { source, observation: o, observed_at } of observations) {
     const ready = result.ready && review.state === 'approved';
     // proposal/review are worker-only metadata; the public v3 schema strips them.
     row.activity = { kind: r.kind, state: ready ? 'ready' : 'needs_review', title_zh: r.title_zh, summary_zh: r.summary_zh, rules: r.rules, source_hash: o.content_hash, model, reason: (ready ? result.reason : `${result.reason}；${review.reason}`).slice(0, 500), review, ...(!reviewedManually && !ready ? { proposal: r } : {}) };
+    if (supportingHash) row.activity.supporting_evidence_hash = supportingHash;
     if (!ready) queue.push({ observation: o, task: 'review', reading: r, reason: row.activity.reason });
     if (ready) {
-      const manual = catalog.events.find(e => e.sources.some(s => s.url === o.source_url || o.event_links?.includes(s.url)));
+      const manual = catalog.events.find(e => e.sources.some(s => s.url === o.source_url || eventIdentityLinks(o).includes(s.url)));
       if (!manual) catalog.events.push(eventFromReading(r, o, row.images, observed_at || stamp, former));
     }
     report.translation.translated++;
@@ -132,7 +138,7 @@ for (const row of next) {
   // Older announcements without an activity record also enter discovery immediately.
   row.activity ??= pendingActivity({ content_hash: row.content_hash }, classifyOffline(row.title) || 'offline', '等待对照官方原文翻译与审核');
   const observation = observations.find(x => x.observation.source_url === row.source_url)?.observation;
-  row.related_event_ids = catalog.events.filter(e => e.sources.some(s => s.url === row.source_url || observation?.event_links?.includes(s.url)) || (!observation && row.related_event_ids.includes(e.id))).map(e => e.id);
+  row.related_event_ids = catalog.events.filter(e => e.sources.some(s => s.url === row.source_url || (observation && eventIdentityLinks(observation).includes(s.url))) || (!observation && row.related_event_ids.includes(e.id))).map(e => e.id);
 }
 const imageCacheFile = 'var/public-crawler/image-cache.json';
 let imageCache = new Map();

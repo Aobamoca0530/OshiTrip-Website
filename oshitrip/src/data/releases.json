@@ -5473,5 +5473,294 @@
         "checked_on": "2026-10-29"
       }
     ]
+  },
+  {
+    "id": "ticket-history-mygo-9th-hyogo",
+    "slug": "ticket-history-mygo-9th-hyogo",
+    "title": "MyGO!!!!! 3rd Album「致並跡」",
+    "franchise_ids": [
+      "bang-dream",
+      "mygo"
+    ],
+    "release_on": null,
+    "summary": "初回生产分附申込券；每个序列号可申请DAY1及DAY2，每次最多4张。该轮已经结束，当前一般先着不使用这张附券。",
+    "status": "published",
+    "updated_at": "2026-10-29T13:33:33.947Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "初回生産分",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "初回生产分附申込券；每个序列号可申请DAY1及DAY2，每次最多4张。该轮已经结束，当前一般先着不使用这张附券。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-history-mygo-9th-hyogo-0",
+        "title": "MyGO!!!!! 神户再景篇：一般先着及已结束的专辑附券先行 · 已截止的附券先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "mygo-9th-kobe-2026",
+        "live_dates": [
+          "2026-11-14",
+          "2026-11-15"
+        ],
+        "venue": "ワールド記念ホール（神戸ポートアイランドホール）",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-07-19T21:00:00+09:00",
+          "closes_at": "2026-08-24T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "初回生产分附申込券；每个序列号可申请DAY1及DAY2，每次最多4张。该轮已经结束，当前一般先着不使用这张附券。",
+          "本附券轮次已结束；商品不保证中选。",
+          "初回生产分附申込券；每个序列号可申请DAY1及DAY2，每次最多4张。该轮已经结束，当前一般先着不使用这张附券。"
+        ],
+        "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://bang-dream.com/events/mygo_9th_hyogo/",
+        "checked_on": "2026-10-29"
+      }
+    ]
+  },
+  {
+    "id": "ticket-history-avemujica-7th",
+    "slug": "ticket-history-avemujica-7th",
+    "title": "Ave Mujica Best Album「Ave Música」",
+    "franchise_ids": [
+      "bang-dream",
+      "ave-mujica"
+    ],
+    "release_on": null,
+    "summary": "初回生产分附申込券；每序列号可申请DAY1及DAY2，每次最多2张。演出和附券受理均已结束。",
+    "status": "published",
+    "updated_at": "2026-10-29T13:33:33.947Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "初回生産分",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "初回生产分附申込券；每序列号可申请DAY1及DAY2，每次最多2张。演出和附券受理均已结束。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-history-avemujica-7th-0",
+        "title": "Ave Mujica 第7次Live「Virtus」（已结束） · 已截止的附券先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-876f26dd0c37de44",
+        "live_dates": [
+          "2026-10-24",
+          "2026-10-25"
+        ],
+        "venue": "京王アリーナ TOKYO",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-06-20T20:00:00+09:00",
+          "closes_at": "2026-07-20T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "初回生产分附申込券；每序列号可申请DAY1及DAY2，每次最多2张。演出和附券受理均已结束。",
+          "本附券轮次已结束；商品不保证中选。",
+          "初回生产分附申込券；每序列号可申请DAY1及DAY2，每次最多2张。演出和附券受理均已结束。"
+        ],
+        "source_url": "https://bang-dream.com/events/avemujica_7th/"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://bang-dream.com/events/avemujica_7th/",
+        "checked_on": "2026-10-29"
+      }
+    ]
+  },
+  {
+    "id": "ticket-history-mygo-9th",
+    "slug": "ticket-history-mygo-9th",
+    "title": "MyGO!!!!! 8th Single「静降想」",
+    "franchise_ids": [
+      "bang-dream",
+      "mygo"
+    ],
+    "release_on": null,
+    "summary": "初回生产分附申込券；每序列号仅可选DAY1或DAY2其中一场，每次最多4张。演出与受理均已结束。",
+    "status": "published",
+    "updated_at": "2026-10-29T13:33:33.947Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "初回生産分",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "初回生产分附申込券；每序列号仅可选DAY1或DAY2其中一场，每次最多4张。演出与受理均已结束。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-history-mygo-9th-0",
+        "title": "MyGO!!!!! 第9次Live 横滨场（已结束） · 已截止的附券先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-d7aa807ac7272d64",
+        "live_dates": [
+          "2026-07-18",
+          "2026-07-19"
+        ],
+        "venue": "ぴあアリーナMM",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2025-12-06T21:00:00+09:00",
+          "closes_at": "2026-02-02T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "初回生产分附申込券；每序列号仅可选DAY1或DAY2其中一场，每次最多4张。演出与受理均已结束。",
+          "本附券轮次已结束；商品不保证中选。",
+          "初回生产分附申込券；每序列号仅可选DAY1或DAY2其中一场，每次最多4张。演出与受理均已结束。"
+        ],
+        "source_url": "https://bang-dream.com/events/mygo_9th/"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://bang-dream.com/events/mygo_9th/",
+        "checked_on": "2026-10-29"
+      }
+    ]
+  },
+  {
+    "id": "ticket-history-lehre-der-rose",
+    "slug": "ticket-history-lehre-der-rose",
+    "title": "Roselia 19th Single「Fear Nothing」",
+    "franchise_ids": [
+      "bang-dream",
+      "roselia"
+    ],
+    "release_on": null,
+    "summary": "初回生产分附申込券；每张申込券可为DAY1、DAY2各申请一次，每次最多2张。不是购买同名纪念专辑就自动获得该轮资格。演出与受理均已结束。",
+    "status": "published",
+    "updated_at": "2026-10-29T13:33:33.947Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "初回生産分",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "初回生产分附申込券；每张申込券可为DAY1、DAY2各申请一次，每次最多2张。不是购买同名纪念专辑就自动获得该轮资格。演出与受理均已结束。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-history-lehre-der-rose-0",
+        "title": "Roselia「Lehre der Rose」发行纪念Live（已结束） · 已截止的附券先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-ab15a4c0651f6ca2",
+        "live_dates": [
+          "2026-08-29",
+          "2026-08-30"
+        ],
+        "venue": "有明アリーナ",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-04-29T10:00:00+09:00",
+          "closes_at": "2026-05-31T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "初回生产分附申込券；每张申込券可为DAY1、DAY2各申请一次，每次最多2张。不是购买同名纪念专辑就自动获得该轮资格。演出与受理均已结束。",
+          "本附券轮次已结束；商品不保证中选。",
+          "初回生产分附申込券；每张申込券可为DAY1、DAY2各申请一次，每次最多2张。不是购买同名纪念专辑就自动获得该轮资格。演出与受理均已结束。"
+        ],
+        "source_url": "https://bang-dream.com/events/lehre-der-rose/"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://bang-dream.com/events/lehre-der-rose/",
+        "checked_on": "2026-10-29"
+      }
+    ]
+  },
+  {
+    "id": "ticket-history-morfonica-live-2026",
+    "slug": "ticket-history-morfonica-live-2026",
+    "title": "Morfonica 9th Single「Resonant Strings」",
+    "franchise_ids": [
+      "bang-dream",
+      "morfonica"
+    ],
+    "release_on": null,
+    "summary": "初回生产分附申込券，每次最多4张；演出和本附券轮次均已结束。",
+    "status": "published",
+    "updated_at": "2026-10-29T13:33:33.947Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "初回生産分",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "初回生产分附申込券，每次最多4张；演出和本附券轮次均已结束。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-history-morfonica-live-2026-0",
+        "title": "Morfonica「Movement」（已结束） · 已截止的附券先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-0c80a1d8f835ab8a",
+        "live_dates": [
+          "2026-09-22"
+        ],
+        "venue": "TACHIKAWA STAGE GARDEN",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-04-22T10:00:00+09:00",
+          "closes_at": "2026-05-24T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "初回生产分附申込券，每次最多4张；演出和本附券轮次均已结束。",
+          "本附券轮次已结束；商品不保证中选。",
+          "初回生产分附申込券，每次最多4张；演出和本附券轮次均已结束。"
+        ],
+        "source_url": "https://bang-dream.com/events/morfonica_live_2026/"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://bang-dream.com/events/morfonica_live_2026/",
+        "checked_on": "2026-10-29"
+      }
+    ]
   }
 ]

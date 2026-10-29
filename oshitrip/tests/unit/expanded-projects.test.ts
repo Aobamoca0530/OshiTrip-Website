@@ -9,6 +9,12 @@ import keywords from '../../scripts/crawler/project-keywords.json';
 import { cityChoices } from '../../src/lib/schema';
 
 describe('expanded official project sources', () => {
+  it('places Our Notes, MyGO and Mujica after RAS even with shuffled rows',()=>{
+    const ids=['mygo','ave-mujica','our-notes','poppin-party','raise-a-suilen','future-band'];
+    const rows=[{id:'bang-dream',name:'BanG Dream!',parent_id:null},...ids.map(id=>({id,name:id,parent_id:'bang-dream'}))];
+    expect(orderedFranchises(rows).map(f=>f.id)).toEqual(['bang-dream','poppin-party','raise-a-suilen','our-notes','mygo','ave-mujica','future-band']);
+    expect(rows.slice(1).map(f=>f.id)).toEqual(ids);
+  });
   it('retains birthday menus only when a physical store and address are stated',()=>{
     const title='葉月 恋 バースデー記念メニュー発売のお知らせ';
     expect(classifyOffline(title,'販売店舗 店名 YURINAN 住所 東京都')).toBe('offline');

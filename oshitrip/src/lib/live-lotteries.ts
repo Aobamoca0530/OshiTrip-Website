@@ -19,13 +19,13 @@ export function liveLotteryItems(announcements: Announcement[], events: OshiEven
       franchise_ids:event?.franchise_ids || [...new Set([...(sourceIPs[a.source_id] || []), ...namedIPs.filter(([rx]) => rx.test(a.title)).map(([,id]) => id)])],
       summary:a.activity?.summary_zh || '尚无已核实的中文票务信息，请查官方原文。',
       pending:a.activity?.state !== 'ready', reason:a.activity?.reason || '等待对照官方原文审核',
-      rules:a.activity?.rules || [], event, products:related };
+      rules:a.activity?.rules || [], event, products:related, announcements:[a] };
   });
   for (const event of events.filter(e => e.category === '音乐和声优活动')) {
     if (items.some(item => item.event?.id === event.id)) continue;
     items.push({ id:event.id, title:event.title_zh, url:event.sources[0]?.url || '', franchise_ids:event.franchise_ids,
       summary:event.summary, pending:false, reason:'已发布活动', rules:event.translated_rules || [], event,
-      products:products.filter(p => p.lotteries.some(l => l.event_slug === event.slug)) });
+      products:products.filter(p => p.lotteries.some(l => l.event_slug === event.slug)), announcements:[] });
   }
   return items;
 }
