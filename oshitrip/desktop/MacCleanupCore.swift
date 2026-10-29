@@ -8,7 +8,7 @@ enum CleanupFiles {
     static func attributes(_ url: URL) throws -> [FileAttributeKey: Any]? {
         do { return try fm.attributesOfItem(atPath: url.path) }
         catch let error as NSError {
-            if error.domain == NSCocoaErrorDomain && error.code == NSFileNoSuchFileError { return nil }
+            if error.domain == NSCocoaErrorDomain && (error.code == NSFileNoSuchFileError || error.code == NSFileReadNoSuchFileError) { return nil }
             throw error
         }
     }

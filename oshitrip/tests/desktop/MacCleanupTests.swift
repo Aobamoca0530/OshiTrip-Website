@@ -12,6 +12,7 @@ enum CleanupTests {
     static func main() throws {
         let root = URL(fileURLWithPath: CommandLine.arguments[1]).resolvingSymlinksInPath()
         let data = root.appendingPathComponent("OshiTrip")
+        try CleanupFiles.clearCache(root.appendingPathComponent("never-installed/OshiTrip"), forget: true)
         try CleanupFiles.clearCache(data, forget: false)
         try require(try String(contentsOf: data.appendingPathComponent("port.txt"), encoding: .utf8) == "45000", "Keep origin")
         try require(FileManager.default.fileExists(atPath: data.appendingPathComponent("personal.txt").path), "Keep unknown files")
