@@ -190,6 +190,19 @@ node scripts/test-windows-package.mjs
 
 GitHub Actions 的 **Package Windows portable app** 工作流支持手动构建，成功后可在该次运行的 Artifacts 下载 ZIP。构建产物不提交到源码仓库。
 
+## 独立卸载与缓存清理工具
+
+Windows 和 Mac 的工具单独打包，不依赖主程序或 Node.js。在目标平台运行 `pnpm package:cleanup`，生成 `dist/OshiTrip-Cleanup-<版本>-windows-x64.zip` 或 `dist/OshiTrip-Cleanup-<版本>-macos-<架构>.zip` 及 SHA256。需要系统 .NET Framework 编译器（Windows）或 Xcode Command Line Tools（Mac）；无需构建网站或下载运行时。输出目录必须不存在，避免覆盖已有产物。
+
+独立工作流 **Package standalone desktop cleanup tools** 可直接构建 Windows、Apple Silicon 和 Intel 三份清理 ZIP，无需安装网站依赖。原有两条桌面打包工作流也会额外构建并上传清理 ZIP。工具可以用于已有 1.6.0 及采用相同目录布局的旧桌面包；主程序已手动删除时仍能清理残留活动缓存。正式发布需另行上传对应清理工具产物，现有应用版本号与更新源保持不变。
+
+- **仅清理缓存**：删除当前用户 OshiTrip 专用目录的 `data` 和 `launcher.log`；默认保留 `port.txt`。只有勾选“同时重置访问地址”才删除端口设置。未知文件与 Mac 并发锁 `.maintenance.lock` 保留。
+- **卸载并清理**：选择完整的 Windows 程序目录或 Mac 的 `OshiTrip.app`，确认具体路径后移入回收站／废纸篓，再清理缓存。只处理选中的一个程序副本；Windows 工具需放在待卸载目录之外。包含额外顶层文件或链接的 Windows 包会被拒绝，避免误选。
+- **浏览器数据**：收藏、关注、行程和浏览器缓存需要在原浏览器、原用户配置中单独清除。工具提供说明和原访问地址，不访问浏览器用户目录。删除网站数据前自行备份重要安排，核对浏览器是否按 `127.0.0.1` 主机聚合范围，避免影响其他本地应用。
+- **验证**：`pnpm test:cleanup` 在临时夹具中验证缓存删除、端口保留／重置、重复执行、链接拒绝、包身份和回收站操作；Mac 还验证启动器与清理工具的并发锁。测试不读取或清理真实用户缓存，只会向回收站放入测试夹具。打包脚本自动执行这些检查。
+
+操作前退出所有启动器并关闭页面；错误会显示部分完成状态，处理后可重试。清理活动缓存会影响该用户的其他桌面版本，下次启动会重新生成。完整用户说明见 [cleanup-guide.txt](desktop/cleanup-guide.txt)。
+
 
 ## 手机与 Mac 构建
 

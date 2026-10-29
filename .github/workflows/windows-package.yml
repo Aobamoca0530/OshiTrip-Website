@@ -23,6 +23,8 @@ jobs:
       - run: pnpm package:windows
       - name: Test the packaged executable
         run: node scripts/test-windows-package.mjs
+      - name: Build and test standalone cleanup tool
+        run: pnpm package:cleanup
       - uses: actions/upload-artifact@v7.0.2
         with:
           name: OshiTrip-windows-x64

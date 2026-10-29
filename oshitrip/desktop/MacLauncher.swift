@@ -6,6 +6,7 @@ final class Launcher: NSObject, NSApplicationDelegate {
     var child: Process?
     var input: Pipe?
     var output: FileHandle?
+    var maintenanceLock: DesktopLock?
     var url = URL(string: "http://127.0.0.1:43187/")!
     func applicationDidFinishLaunching(_ notification: Notification) {
         window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 520, height: 220), styleMask: [.titled, .closable, .miniaturizable], backing: .buffered, defer: false)
@@ -29,6 +30,7 @@ final class Launcher: NSObject, NSApplicationDelegate {
         do {
             let resources = Bundle.main.resourceURL!
             let data = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0].appendingPathComponent("OshiTrip")
+            maintenanceLock = try DesktopLock(directory: data)
             try FileManager.default.createDirectory(at: data, withIntermediateDirectories: true)
             let log = data.appendingPathComponent("launcher.log")
             if let size = try? FileManager.default.attributesOfItem(atPath: log.path)[.size] as? NSNumber, size.intValue > 1048576 { try Data().write(to: log) }
@@ -67,10 +69,16 @@ final class Launcher: NSObject, NSApplicationDelegate {
         try? input?.fileHandleForWriting.close()
         if child?.isRunning == true { child?.terminate(); child?.waitUntilExit() }
         try? output?.close()
+        maintenanceLock = nil
     }
 }
-let app = NSApplication.shared
-let delegate = Launcher()
-app.delegate = delegate
-app.setActivationPolicy(.regular)
-app.run()
+@main
+enum LauncherMain {
+    static func main() {
+        let app = NSApplication.shared
+        let delegate = Launcher()
+        app.delegate = delegate
+        app.setActivationPolicy(.regular)
+        app.run()
+    }
+}

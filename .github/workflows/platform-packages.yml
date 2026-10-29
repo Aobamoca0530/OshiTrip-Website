@@ -44,6 +44,8 @@ jobs:
         run: node scripts/test-windows-package.mjs
       - if: matrix.platform != 'windows'
         run: pnpm package:mac
+      - name: Build and test standalone cleanup tool
+        run: pnpm package:cleanup
       - uses: actions/upload-artifact@v7.0.2
         with:
           name: OshiTrip-${{ matrix.platform }}

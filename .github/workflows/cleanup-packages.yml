@@ -1,0 +1,61 @@
+name: Package standalone desktop cleanup tools
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish verified standalone tools as a separate GitHub Release
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  cleanup:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            platform: windows-x64
+          - os: macos-15
+            platform: macos-arm64
+          - os: macos-15-intel
+            platform: macos-x64
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: oshitrip
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: 24.19.0
+      - name: Compile and test independent cleanup tool
+        run: node scripts/package-cleanup.mjs
+      - name: Compile Mac launcher with shared maintenance lock
+        if: runner.os == 'macOS'
+        run: xcrun swiftc desktop/DesktopLock.swift desktop/MacLauncher.swift -o "$RUNNER_TEMP/OshiTrip-launcher-check" -framework Cocoa
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: OshiTrip-Cleanup-${{ matrix.platform }}
+          path: |
+            dist/OshiTrip-Cleanup-*.zip
+            dist/OshiTrip-Cleanup-*.sha256
+          if-no-files-found: error
+  publish:
+    if: inputs.publish
+    needs: cleanup
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      actions: read
+      contents: write
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: 24.19.0
+      - name: Verify and publish all three packages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node oshitrip/scripts/publish-cleanup-release.mjs
