@@ -608,40 +608,55 @@
     }
   },
   "https://bang-dream.com/events/eleganza/": {
-    "source_hash": "9d61bd8945bc753e918d9803ffd32b70e5d99b85c3c46ca70332ae8213496b12",
+    "source_hash": "d23ca91cbad500469079d346cac0dcd5f4173ffe0d7f8e0b36349a4aee380665",
     "reading": {
       "offline": true,
       "kind": "live",
       "uncertain": true,
       "title_zh": "Morfonica 演唱会「eleganza」",
-      "summary_zh": "2027年1月9日在东京 Kanadevia Hall 举办，预计17:00入场、18:00开演。公告中的票务平台先行受理截至2026年10月18日23:59，该轮已结束；新的销售安排需查官方。",
+      "summary_zh": "2027年1月9日在东京 Kanadevia Hall 举办，预计17:00入场、18:00开演。新增票务平台第二轮先行受理：2026年10月29日18:00至11月29日23:59（日本时间；北京时间分别为17:00、22:59）。上一轮先行已结束；第二轮具体申请方式及限购以售票页面为准。",
       "category": "音乐和声优活动",
       "franchise_ids": [
         "bang-dream",
         "morfonica"
       ],
-      "cancelled": false,
+      "rules": [
+        {
+          "title": "新增第二轮先行",
+          "text_zh": "票务平台第二轮先行受理为2026年10月29日18:00至11月29日23:59（日本时间）。北京时间为10月29日17:00至11月29日22:59；实际申请方式和余票需查看官方售票页面。",
+          "evidence_ja": "プレイガイド二次先行\n受付期間：2026年10月29日(木) 18:00 ～ 11月29日(日) 23:59"
+        },
+        {
+          "title": "上一轮已结束",
+          "text_zh": "2026年9月22日21:00至10月18日23:59的先行已结束。每次最多4张的说明位于这一段之后，不能据此确定第二轮限购。",
+          "evidence_ja": "プレイガイド先行 ※受付終了\n受付期間：2026年9月22日(火・祝) 21:00 ～ 10月18日(日) 23:59\n※1回につき4枚までお申し込みいただけます。"
+        },
+        {
+          "title": "票价与饮料费",
+          "text_zh": "含特制周边的Arena站席S区22,000日元、A区16,500日元，含周边看台指定席14,300日元，普通看台指定席9,900日元，均含税，另收饮料费。",
+          "evidence_ja": "アリーナスタンディング Sエリア(特製グッズ付き)：22,000円(税込)\nアリーナスタンディング Aエリア(特製グッズ付き)：16,500円(税込)\nスタンド指定席(特製グッズ付き)：14,300円(税込))\nスタンド指定席：9,900円(税込)\n※別途ドリンク代が必要です。"
+        },
+        {
+          "title": "站席分区",
+          "text_zh": "站席必须在电子票记载的分区观看，不能跨区。",
+          "evidence_ja": "・電子チケットに記載のブロックにてご観覧いただきます。記載以外のブロックでのご観覧はできませんのであらかじめご了承ください。"
+        },
+        {
+          "title": "儿童限制",
+          "text_zh": "学龄前儿童不得入场。",
+          "evidence_ja": "・未就学児の入場はできません。"
+        }
+      ],
       "venues": [],
       "booking": {
         "method": "尚未公布",
         "opens_at": null,
         "closes_at": null,
         "evidence_ja": "",
-        "note_zh": "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。",
+        "note_zh": "第二轮先行时段已公布并见中文规则；申请类型、限购及售票页面尚未完整核实，保持待审核。",
         "applies_to_all_venues": false
       },
-      "rules": [
-        {
-          "title": "先行与张数",
-          "text_zh": "票务平台先行每次最多4张，受理期为2026年9月22日21:00至10月18日23:59。",
-          "evidence_ja": "受付期間：2026年9月22日(火・祝) 21:00～ 10月18日(日) 23:59\n※1回につき4枚までお申し込みいただけます。"
-        },
-        {
-          "title": "饮料与站席",
-          "text_zh": "另收饮料费；站席必须在电子票记载的分区观看，不能跨区。",
-          "evidence_ja": "・電子チケットに記載のブロックにてご観覧いただきます。記載以外のブロックでのご観覧はできませんのであらかじめご了承ください。"
-        }
-      ]
+      "cancelled": false
     }
   },
   "https://bang-dream.com/events/yumemita_yunos_party_lv3/": {
@@ -1514,7 +1529,7 @@
     }
   },
   "https://revuestarlight.com/event/11083/": {
-    "source_hash": "a95b7f10f93a6af110b53ce86023be7b30f2d2b110d03c0ac61b071d64831e67",
+    "source_hash": "636c0083371ded029a3b3a89e0bb8acc49d218ca5cc026adde62d0fe6e06b5ad",
     "reading": {
       "offline": true,
       "kind": "offline",
@@ -2221,6 +2236,323 @@
         "applies_to_all_venues": false
       },
       "rules": []
+    }
+  },
+  "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6729": {
+    "source_hash": "92939dedacf2221f1b17d0e4b8040d25de7a4039e95b5fb757892f33df191459",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "Love Live! × クッピーラムネ 名古屋 PremiumShop 联动",
+      "summary_zh": "为纪念Love Live! Fes在名古屋举行，系列与名古屋零食品牌クッピーラムネ合作推出新绘插画。线下销售点于2026年11月13日至16日在AEON MALL名古屋Dome前2楼美食广场旁连桥营业，10:00–21:00。具体商品、价格和入场安排待后续公布；这不是演唱会场次。",
+      "category": "快闪店",
+      "franchise_ids": [
+        "lovelive"
+      ],
+      "rules": [
+        {
+          "title": "销售点与营业时间",
+          "text_zh": "地点为AEON MALL名古屋Dome前2楼美食广场旁连桥；11月13日至16日，10:00–21:00。",
+          "evidence_ja": "イオンモールナゴヤドーム前 2階フードコート横ブリッジ\nイオンモールナゴヤドーム前 HP： https://www.aeon.jp/sc/nagoyadomemae/\n開催期間：2026年11月13日(金)～11月16日(月)\n営業時間：10:00～21:00"
+        },
+        {
+          "title": "后续信息",
+          "text_zh": "商品细节尚待后续公告，库存与销售情况以PremiumShop官方更新为准。",
+          "evidence_ja": "詳細は続報をお待ちください♪"
+        }
+      ],
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "原文未明确完整入场安排；不代表无需预约。",
+        "applies_to_all_venues": false
+      },
+      "cancelled": false
+    }
+  },
+  "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6700": {
+    "source_hash": "0a7bfeda8af0ee59d9a32253db6a16634728aa34956e6a04d9f85201850a0919",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "虹咲完结篇最终章 Sweet Collection 主题商品活动",
+      "summary_zh": "2027年1月30日至2月28日在指定Animate门店、Gamers及相关网店举办，购买或预订指定商品可获全13种写真卡。新绘周边包含立牌、文件夹、桌垫、徽章、艺术卡及糖果造型钥匙扣；原公告未明确满赠金额和各店细则，应查看各店官方页面。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "lovelive",
+        "nijigasaki"
+      ],
+      "rules": [
+        {
+          "title": "活动时间",
+          "text_zh": "2027年1月30日至2月28日；不是10月16日公告发布当天。",
+          "evidence_ja": "2027年 1月30日(土)～2月28日(日)"
+        },
+        {
+          "title": "特典条件",
+          "text_zh": "购买或预订指定商品赠送写真卡，全13种；此公告未写明金额门槛或每单数量。",
+          "evidence_ja": "期間中、対象商品をご購入・ご予約で、特典ブロマイド（全13種）をプレゼント！"
+        },
+        {
+          "title": "举办门店",
+          "text_zh": "Animate：池袋本店、仙台、札幌、名古屋、秋叶原、京都、LACHIC福冈天神、大阪日本桥、横滨VIVRE、梅田、沼津；另有Gamers及Animate、Gamers、Movic网店，线上销售不计作额外线下场地。",
+          "evidence_ja": "アニメイト（池袋本店、仙台店、札幌店、名古屋店、秋葉原店、京都店、ラシック福岡天神店、大阪日本橋店、横浜ビブレ店、梅田店、沼津店）、アニメイト通販、ゲーマーズ、ゲーマーズオンラインショップ、ムービック通販"
+        }
+      ],
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "原文未明确完整入场安排；不代表无需预约。",
+        "applies_to_all_venues": false
+      },
+      "cancelled": false
+    }
+  },
+  "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6659": {
+    "source_hash": "75c3640bbce9e8e34bff78552a0d8dbba254bb5ff04d23e7bcabbdf4569e728f",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "Love Live! × GiGO秋叶原3号馆10周年联动咖啡厅",
+      "summary_zh": "整个系列联动咖啡厅计划于2026年11月21日至2027年4月11日举办，已公布第一弹虹咲新绘插画。原文尚未公布虹咲阶段的独立日期、菜单及预约方式，不能把整个系列活动期间都视为虹咲专场。公告中的餐点复刻问卷不等于预约。",
+      "category": "联动咖啡厅",
+      "franchise_ids": [
+        "lovelive",
+        "nijigasaki"
+      ],
+      "rules": [
+        {
+          "title": "整体举办期间",
+          "text_zh": "系列活动为2026年11月21日至2027年4月11日；虹咲对应阶段的准确期间尚待后续资料。",
+          "evidence_ja": "GiGOコラボカフェ秋葉原3号館の10周年を記念した、ラブライブ！シリーズとコラボしたカフェを2026年11月21日から2027年4月11日まで開催いたします。"
+        },
+        {
+          "title": "预告范围",
+          "text_zh": "第一弹公布虹咲插画，联动咖啡厅具体规则后续发表。",
+          "evidence_ja": "第1弾の虹ヶ咲メンバーの描き下ろしを大公開！"
+        }
+      ],
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "原文未明确完整入场安排；不代表无需预约。",
+        "applies_to_all_venues": false
+      },
+      "cancelled": false
+    }
+  },
+  "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6690": {
+    "source_hash": "4103d36624cdbdff7d4a007ee3497e63e144be17df0d5c3b99168bcdd3868c19",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "虹咲学园餐车7周年纪念饮品",
+      "summary_zh": "2026年10月30日至11月23日销售7周年纪念饮品。同一次同时购买3杯纪念或常规饮品，且其中至少1杯为7周年饮品，可获餐车纸立牌。原公告没有给出具体停车位置、营业时段或预约方式。",
+      "category": "联动咖啡厅",
+      "franchise_ids": [
+        "lovelive",
+        "nijigasaki"
+      ],
+      "rules": [
+        {
+          "title": "活动期间",
+          "text_zh": "2026年10月30日至11月23日。",
+          "evidence_ja": "2026年10月30日（金）～2026年11月23日（月）"
+        },
+        {
+          "title": "赠品条件",
+          "text_zh": "同时购买3杯饮品，至少包含1杯7周年纪念饮品，赠送餐车纸立牌；不可把跨次购买直接视为符合条件。",
+          "evidence_ja": "期間中、虹ヶ咲学園キッチンカーにて7周年記念ドリンク・通常ドリンクを3杯同時購入（7周年ドリンクを1杯以上含む）のお客様に「キッチンカーペーパースタンド」をプレゼントいたします！"
+        }
+      ],
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "原文未明确完整入场安排；不代表无需预约。",
+        "applies_to_all_venues": false
+      },
+      "cancelled": false
+    }
+  },
+  "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6703": {
+    "source_hash": "847f8ece8bc8fda291235757f88d75370abb1a489d226c94985493d2c4c6438e",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "虹咲学园「幼稚园老师」主题 Loft 双城快闪",
+      "summary_zh": "东京吉祥寺Loft于2026年11月18日至12月8日，大阪难波Loft于12月23日至2027年1月5日举办。销售幼稚园老师主题新绘周边；会场每笔消费每满3,000日元（含税）赠送随机迷你贴纸1张，全13种。入场方式和商品限购未在正文明确。",
+      "category": "快闪店",
+      "franchise_ids": [
+        "lovelive",
+        "nijigasaki"
+      ],
+      "rules": [
+        {
+          "title": "东京场",
+          "text_zh": "吉祥寺Loft：2026年11月18日至12月8日。",
+          "evidence_ja": "・東京会場／吉祥寺ロフト：2026 年11 月18 日(水)～12 月8 日(火)"
+        },
+        {
+          "title": "大阪场",
+          "text_zh": "难波Loft：2026年12月23日至2027年1月5日，与东京场日期不同。",
+          "evidence_ja": "・大阪会場／なんばロフト：2026 年12 月23 日(水)～2027 年1 月5 日(火)"
+        },
+        {
+          "title": "会场特典",
+          "text_zh": "活动期间在会场每笔消费每满3,000日元（含税），随机赠送迷你贴纸1张，全13种。",
+          "evidence_ja": "イベント期間中、会場にて1 会計3,000 円(税込)お買い上げごとに「特典ミニステッカー(全13 種)」を\nランダムで1 枚プレゼントいたします！"
+        }
+      ],
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "原文未明确完整入场安排；不代表无需预约。",
+        "applies_to_all_venues": false
+      },
+      "cancelled": false
+    }
+  },
+  "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6692": {
+    "source_hash": "7451a53af912d3edc68905ed9b02ae1b8b306ed90097182fe343bf1680ffab5b",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "Love Live! × THEキャラCAFE HEP NAVIO（预约时间更正）",
+      "summary_zh": "2026年11月5日至29日在大阪HEP NAVIO 7楼THEキャラCAFÉ举办。11月5日至8日须事前先到先得预约，官网已更正为10月27日20:00（日本时间）开始，每个到店日前一天23:59截止；其他日期也可能因拥挤发整理券。商品细节后续公布。",
+      "category": "联动咖啡厅",
+      "franchise_ids": [
+        "lovelive"
+      ],
+      "rules": [
+        {
+          "title": "时间与场地",
+          "text_zh": "2026年11月5日至29日，大阪HEP NAVIO 7楼THEキャラCAFÉ。",
+          "evidence_ja": "2026年11月5日(木)～11月29日(日)\n【開催場所】\n大阪 HEPナビオ7F THEキャラCAFÉ"
+        },
+        {
+          "title": "首四天预约",
+          "text_zh": "11月5日至8日实行事前先到先得预约；以官网10月20日更正后的时间为准：10月27日20:00起，至各预约日前一天23:59（日本时间）。不把最后一天的截止时间套用到所有到店日。",
+          "evidence_ja": "■事前先着予約スケジュール\n申し込み期間 ： 2026年10月27日(火)20:00 ～各予約日の前日の23:59まで\n事前予約対象日：2026年11月5日(木)～11月8日(日)の4日間"
+        },
+        {
+          "title": "其他日期",
+          "text_zh": "其他日期也可能视拥挤情况发放整理券限制入场，不能保证自由入场。",
+          "evidence_ja": "※混雑状況により、上記日程以外も整理券対応にて入店制限させていただく場合がございます。"
+        }
+      ],
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "原文未明确完整入场安排；不代表无需预约。",
+        "applies_to_all_venues": false
+      },
+      "cancelled": false
+    }
+  },
+  "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557": {
+    "source_hash": "68c1b742dd50a2e3654c3cde6a81a21be19cecd93ceb0053a8482427e3e9aef8",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "Love Live! 官方卡牌 × GiGO咖啡厅第4至6弹规则",
+      "summary_zh": "整体活动为2026年7月11日至11月8日；当前第6弹为10月24日至11月8日，采用卡包插画，含上原步梦。秋叶原3号馆咖啡厅须事前预约；各咖啡饮品站以自由入场为主，拥挤时可能发整理券。冈山店已于9月30日结束，不包含在当前可参加门店中。",
+      "category": "联动咖啡厅",
+      "franchise_ids": [
+        "lovelive",
+        "nijigasaki"
+      ],
+      "rules": [
+        {
+          "title": "当前第6弹",
+          "text_zh": "2026年10月24日至11月8日，卡包插画联动；与8月1日至21日的虹咲专属第2弹不同。",
+          "evidence_ja": "第6弾：2026年10月24日(土)～2026年11月8日(日) パックイラストコラボ"
+        },
+        {
+          "title": "预约与饮品站入场",
+          "text_zh": "秋叶原3号馆咖啡厅采用事前预约，具体申请规则看官方专题。",
+          "evidence_ja": "・カフェへの入場は事前予約制となります。\n・予約入場申し込みやその他の詳しい注意事項に関しましては、GiGOコラボカフェ特設ページをご確認ください。"
+        },
+        {
+          "title": "饮品站限制",
+          "text_zh": "咖啡饮品站只提供饮品和周边，不提供餐点、甜品或周边购物特典；秋叶原2号馆饮品站连周边也不销售。",
+          "evidence_ja": "※GiGOコラボカフェスタンドではドリンクのご提供と物販を行います。フード、デザートのご提供および物販購入特典の配布はございません。\n※GiGOコラボカフェスタンド秋葉原2号館では物販の取り扱いはございません。"
+        },
+        {
+          "title": "饮品站可能限流",
+          "text_zh": "饮品站全期自由入场，但可能按来客情况发整理券；冈山店已于9月30日结束。",
+          "evidence_ja": "※GiGOコラボカフェスタンドは全日フリー入場制ですが、お客さまの来店状況により入場整理券などの配布となる場合がございます。\n※GiGOイオンモール岡山は店舗運営の都合上、9月30日(水)で終了となります。"
+        },
+        {
+          "title": "菜单赠品",
+          "text_zh": "每点1份餐点或甜品盘随机赠送杯垫2张，每点1份芭菲或饮品赠送1张；送完即止。",
+          "evidence_ja": "フードメニュー、デザートプレートより1品ご注文につき2枚、パフェ・ドリンクより1品をご注文につき1枚、オリジナルコースターをランダムで進呈いたします。"
+        },
+        {
+          "title": "首次餐点数量",
+          "text_zh": "首次点单时，每人只能从餐点菜单选择1份。",
+          "evidence_ja": "※フードメニューは、ファーストオーダー時にはおひとり様いずれか1品のみご注文いただけます。"
+        },
+        {
+          "title": "第6弹餐点价格",
+          "text_zh": "第6弹三款餐点均为1,760日元（含税）：饭团定食、汉堡三明治、花束甜品三明治；饭团种类随机。",
+          "evidence_ja": "第6弾：2026年10月24日(土)～2026年11月8日(日)\n・ハートを集めてライブ開始！おにぎり定食 1,760円(税込)\n※ついてくるおにぎりの種類はランダムです。\n・エネルギー準備OK?ボリューム満点ハンバーグサンドイッチ 1,760円(税込)\n・ラブカAnniversary! 花束デザートサンド 1,760円(税込)"
+        },
+        {
+          "title": "饮品价格",
+          "text_zh": "公告饮品菜单每杯700日元（含税）。",
+          "evidence_ja": "■ドリンクメニュー 各700円 (税込)"
+        },
+        {
+          "title": "第6弹杯垫",
+          "text_zh": "第6弹杯垫全5种随机，数量有限，发完即止。",
+          "evidence_ja": "第6弾：2026年10月24日(土)～2026年11月8日(日)\nオリジナルコースター／全5種・ランダム\n※なくなり次第、配布終了となります。あらかじめご了承ください。"
+        },
+        {
+          "title": "周边满赠",
+          "text_zh": "纪念品店商品结算每满2,000日元（含税）赠送限定透明写真卡1张；饮品站不发购物特典，赠品送完即止。",
+          "evidence_ja": "お土産屋にて商品のお会計2,000円(税込)ごとに限定クリアブロマイドを1枚プレゼントいたします。"
+        },
+        {
+          "title": "饮品站差异",
+          "text_zh": "饮品站饮品不附曲奇及饮品吊牌，饮品内容也可能与咖啡厅不同。",
+          "evidence_ja": "※カフェスタンドでは、クッキー、およびドリンクタグは付きません。あらかじめ、ご了承ください。"
+        }
+      ],
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "原文未明确完整入场安排；不代表无需预约。",
+        "applies_to_all_venues": false
+      },
+      "cancelled": false
     }
   }
 }
