@@ -2,9 +2,11 @@
 
 日本 IP 联动活动查询与旅行匹配工具。项目介绍和 AI 辅助本地部署步骤见[仓库首页](../README.md)。
 
+当前应用版本：**1.6.0**；统一维护流程：**1.4.0**。下载安装、首次使用和旧版本升级见[使用指南](../README.md#-下载与开始使用)。以下命令均在仓库的 `oshitrip/` 目录执行。
+
 ## 本地启动
 
-使用 Node.js 24 和 pnpm 11.25.0，在本目录运行：
+推荐使用与 CI 一致的 Node.js 24 和固定的 pnpm 11.25.0（`package.json` 声明 Node.js 最低为 22.12.0），在本目录运行：
 
 ```sh
 pnpm install --frozen-lockfile
@@ -29,7 +31,17 @@ Windows PowerShell 可将 `pnpm` 替换为 `pnpm.cmd`。打开终端显示的本
 
 ### 统一数据模式
 
-Windows 启动器自动启用此模式。源码版或未来的网页版可设置 `OSHITRIP_SHARED_DATA=1`，并保持两个 Supabase 变量为空。可选设置 `OSHITRIP_DATA_DIR` 为服务器上可写的缓存目录（绝对路径）；不设置时只缓存于进程内存，重启回到内置资料。不要把个人电脑的缓存路径直接复制到云端。
+Windows / Mac 启动器自动启用此模式。手机版独立下载并缓存同一份公共数据。源码版或自托管网页版可设置 `OSHITRIP_SHARED_DATA=1`，并保持两个 Supabase 变量为空。可选设置 `OSHITRIP_DATA_DIR` 为服务器上可写的缓存目录（绝对路径）；不设置时只缓存于进程内存，重启回到内置资料。不要把个人电脑的缓存路径直接复制到云端。
+
+源码版可在本目录新建或编辑未提交的 `.env.local`，保留已有其他配置，加入：
+
+```dotenv
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=
+OSHITRIP_SHARED_DATA=1
+```
+
+保存后重启开发服务；生产模式重新构建再启动。若希望重启后也保留下载资料，再设置 `OSHITRIP_DATA_DIR` 为自己的可写绝对路径。默认源码模式不自动联网更新，单纯运行 `pnpm dev` 也不会启动采集器。
 
 服务从本公开仓库 `main` 分支的 `data/public-v4.json` 获取活动、附券商品、门店、自动采集的公告图片和来源状态摘要。每次启动先加载本地资料，再后台检查更新；持续使用时在页面或状态请求中最多每 15 分钟检查一次。页面提供手动刷新，连续点击有 10 秒间隔限制。下载超时、版本不兼容、校验失败或缓存不可写时保留现有资料。
 
@@ -49,15 +61,30 @@ v1/v2/v3 数据包继续生成，保留各自的字段、校验和算法和未�
 
 ### 每日自动采集
 
-`.github/workflows/public-data.yml` 每天北京时间 22:00 运行，也可在 Actions 手动运行。不依赖本机开机或 Supabase；采集不需要 AI 密钥，自动翻译需要。统一入口为 `pnpm maintain:public`，完成采集、翻译复核、数据包、SQL、类型、lint 和测试后提交 main。完整步骤与模型契约见 [官方消息维护流程](docs/official-news-workflow.md)。机器人提交不会再触发普通 push CI，因此工作流内已执行校验。
+仓库根目录的 `.github/workflows/public-data.yml`（Actions 名称 **Daily collection, translation, review and discovery publication**）每天北京时间 **22:00** 运行，也可手动运行。不依赖本机开机或 Supabase；采集不需要 AI 密钥，模型自动翻译和审核需要。当前维护流程为 **1.4.0**。
 
-来源为 BanG Dream! 公告与 Live 目录（前两页）、虹咲官网新闻、少女歌剧新闻与 Live/Event 详情目录、Bushiroad Creative、SWEETS PARADISE。BanG Dream! Live 每轮最多 40 篇，其他来源最多 16 篇；页面请求至少间隔 2 秒，目录链接先筛选再分配预算。官方活动目录同时识别页面分类与正文，不要求标题必须出现 Live。报告记录发现数量及因预算延期的 URL。页面返回 403、429、重定向或结构变化时保留旧资料；全部来源失败时不发布。最多保留最近变更的 120 条公告，不能保证覆盖全部新活动。
+```sh
+pnpm exec playwright install chromium  # 首次采集前安装浏览器
+pnpm ai:check                          # 检查配置，不输出密钥、不调用模型
+pnpm maintain:public                   # 采集、生成资料及本地校验，不提交推送
+pnpm maintain:public --publish         # 检查通过后提交、推送并确认远端 main
+pnpm maintain:public --replay           # 基于已有 observations/report 应用复核
+pnpm maintain:public --replay --publish # 回放、检查并发布已复核资料
+```
 
-虹咲新闻页此前曾返回 200，本次复核（2026-10-29）新闻目录与详情页返回 403，保留已有资料；其 `/robots.txt` 返回 403。错误页为 CloudFront/S3 返回的官方 NOT FOUND 页面，首页及新闻总目录也同样失败，尚无法认定反爬；诊断见 [403 分析](docs/official-news-workflow.md#本次虹咲-403-诊断2026-10-29北京时间)。该来源显式配置 `robots_unavailable_statuses: [403, 404]`，按 [RFC 9309 §2.3.1.3](https://www.rfc-editor.org/rfc/rfc9309.html#section-2.3.1.3) 将 robots 资源不可用与新闻页不可访问区分处理，报告记录实际状态；robots 规则存在时遵守规则，429、5xx、超时仍停止，新闻页自身的 403 不重试或绕过。其他来源默认保持原来的严格行为。
+Windows 已安装 Edge 时可设置 `CRAWLER_BROWSER_CHANNEL=msedge`；浏览器采集会临时打开窗口。GitHub Actions 安装 Chromium 并通过 `xvfb-run` 运行，默认在 main 使用 `--publish`；勾选 `validate_only` 时不提交推送。
+
+`--publish` 要求已有 Git 认证、HEAD 与远端 main 一致、没有已暂存或无关源码改动；使用专门的维护工作区。它会执行数据包、SQL、类型、lint 和单元测试，任一检查失败即停止发布；远端并发更新时停止，不强推。完整步骤与模型契约见[官方消息维护流程](docs/official-news-workflow.md)，模型契约可用 `pnpm maintain:public --contract` 查看。机器人提交不会再触发普通 push CI，校验由维护流程完成。
+
+`var/public-crawler/workflow-report.json` 区分本地检查与远端发布；`assistant-queue.json`、`discovery-review-report.json` 和 `image-review-report.json` 分别记录正文待办、发现活动状态及图片复核待办。图中文字必须实际读图并独立核对，已复核记录写入 `scripts/crawler/verified-image-readings.json`；图片 URL 被收录不代表文字已核实。失败、缺密钥或证据不足时保留待办，不自动批准。
+
+当前公共来源包括 BanG Dream! 新闻与 Live 目录、Love Live! 系列（虹咲、莲之空、Liella!、Aqours、μ’s、人生不易部及系列 Live）、少女歌剧新闻与 Event、学园偶像大师官方入口、Bushiroad Creative 和 SWEETS PARADISE。实际启用清单见 `scripts/crawler/public-sources.mjs`，目录、固定详情与每轮页数见 `scripts/crawler/sources.json`。BanG Dream! Live 默认每轮最多 40 篇，其他来源默认 16 篇，设置了 `page_limit` 的来源使用各自上限。页面请求至少间隔 2 秒，目录链接先筛选再分配预算；报告记录未处理及延期 URL。来源不可读取时保留旧资料，全部来源失败时不发布；采集成功也不代表覆盖所有历史公告。
+
+虹咲新闻使用普通有界面的浏览器辅助采集；直接 HTTP 或无头模式此前返回 403，不能将其等同于当前浏览器读取结果。来源失败时保留旧资料和原核实时间，本轮状态以报告为准。历史对照及云端验证见[虹咲浏览器辅助采集](docs/official-news-workflow.md#虹咲浏览器辅助采集)。
 
 “虹咲公式X”链接为 `https://x.com/Nijigaku_movie`，用于打开官方账号；当前没有可用的帖子采集接口，不宣称自动同步 X。公开采集不依赖 X 登录或 AI 密钥；是否可读取取决于来源实际响应。
 
-**企划白名单**：Bushiroad Creative、SWEETS PARADISE 只保留公告标题命中 `scripts/crawler/project-keywords.json` 的内容。目前包含 BanG Dream! 及旗下乐队、Love Live! 系列（含虹咲）、少女歌剧。目录链接先筛选，读取公告后再按正文标题复查，避免其他企划耗尽采集额度；不会因为页脚、侧栏或“联动 / 商品 / Live”等泛词命中而收录。英文大小写、全半角、空格和标点差异会统一处理。标题未写企划名的公告可能漏收；多企划联合公告只要明确包含白名单企划就保留，原图可能包含联合展出内容。
+**企划白名单**：Bushiroad Creative、SWEETS PARADISE 只保留公告标题命中 `scripts/crawler/project-keywords.json` 的内容。目前包含 BanG Dream! 及旗下乐队、Love Live! 系列、少女歌剧和学园偶像大师。目录链接先筛选，读取公告后再按正文标题复查，避免其他企划耗尽采集额度；不会因为页脚、侧栏或“联动 / 商品 / Live”等泛词命中而收录。英文大小写、全半角、空格和标点差异会统一处理。标题未写企划名的公告可能漏收；多企划联合公告只要明确包含白名单企划就保留，原图可能包含联合展出内容。
 
 增删关注范围时修改上述 JSON 的 `projects[].keywords`，不要加入 `Live`、`咖啡`、`グッズ` 等过宽的词。这是维护者统一数据源的关注范围，与用户浏览器中个人关注的 IP 分开。运行 `node scripts/crawl-public.mjs --prune-only` 可不联网清理已有的无关公告，再执行 `pnpm data:publish` 并提交源码及数据包；后续每日任务也会应用相同规则。成功读取来源但没有白名单命中属于正常结果，不会把“零条相关新消息”误报为采集故障。
 
@@ -82,7 +109,7 @@ Provider 支持 `auto`、`openai`、`bailian`、`deepseek`、`manual`，两项�
 
 正文日期必须在对应场地原句中明确出现；不同场次报名规则不明确时保留待核实，未公布不等于无需预约或正在受理。当前不支持从图片自动确认可用于行程的日期；图片识字译文标为待核实。正文按内容指纹复用，图片按 SHA256 复用；图片仍需重新读取以检测同 URL 换图。纯网售、配信、演出回顾等被过滤，Love Live! 作品名本身不作为演唱会判据。`verified-readings.json` 保存已对照原文整理的初始资料，只有来源指纹相同时使用。
 
-可以在应用目录运行 `pnpm crawl:public` 后执行 `pnpm data:publish`。报告在 `var/public-crawler/report.json`，云端在 Actions 的 `public-crawler-report` 附件中保留 14 天；该目录不提交。关闭自动采集可禁用 **Update public announcements and merchandise images** 工作流。公开仓库长时间无活动时，GitHub 可能停用定时工作流，需要在 Actions 重新启用。
+日常维护使用上述 `pnpm maintain:public` 统一入口；`crawl:public` 等底层命令用于排查，不替代完整发布前校验。报告在 `var/public-crawler/report.json`，云端在 Actions 的 `public-crawler-report` 附件中保留 14 天；该目录不提交。关闭自动采集可禁用 **Daily collection, translation, review and discovery publication** 工作流。公开仓库长时间无活动时，GitHub 可能停用定时工作流，需要在 Actions 重新启用。
 
 此前的 `discover-releases.yml` 是单独的数据库审核流程。公共采集仅访问明确接入的来源；配置所选服务密钥后会产生翻译、审核或图像识别费用，未配置时不调用模型。robots 通行不代表图片转载授权；未接入或受限的网站不宣称已支持。
 
@@ -98,7 +125,7 @@ Provider 支持 `auto`、`openai`、`bailian`、`deepseek`、`manual`，两项�
 | 自动采集的官方公告与商品图片 | `src/data/announcements.json`（通常由工作流维护） |
 
 1. 核对官方来源，更新活动日期、参加方式、来源链接与 `verified_at`；保持现有记录的 ID 和 slug 稳定，避免影响收藏。取消的活动标记为 `cancelled`。未核实信息保持未知。
-2. 运行以下命令。发布脚本校验关联关系和字段、计算内容校验和，仅打包已发布资料及已取消活动；草稿与待审核记录不进入下载包。资料内容未变时保留原发布时间。
+2. 运行以下命令。发布脚本校验关联关系和字段、计算内容校验和，活动仅打包已发布及已取消记录，活动草稿不进入下载包；官方公告可保留待审核状态供用户查看，但不会因此成为正式行程活动。资料内容未变时保留原发布时间。
 
    ```sh
    pnpm data:publish
@@ -157,7 +184,7 @@ pnpm package:windows
 node scripts/test-windows-package.mjs
 ```
 
-脚本会校验公共数据包、下载并核对官方 Node.js 24.19.0 ZIP 的 SHA256，构建 Next.js standalone 服务，用系统 .NET Framework 编译启动器，并生成仓库根目录下的 `dist/OshiTrip-1.5.0-windows-x64.zip` 及 SHA256 校验文件。启动器启用统一数据模式，附带一份离线资料。构建目录不能包含 `.env.local` 等私人配置。
+脚本会校验公共数据包、下载并核对官方 Node.js 24.19.0 ZIP 的 SHA256，构建 Next.js standalone 服务，用系统 .NET Framework 编译启动器，并生成仓库根目录下的 `dist/OshiTrip-1.6.0-windows-x64.zip` 及 SHA256 校验文件（文件名版本取自 `package.json`）。启动器启用统一数据模式，附带一份离线资料。构建目录不能包含 `.env.local` 等私人配置。
 
 启动器仅监听 `127.0.0.1`。端口偏好和日志放在 `%LOCALAPPDATA%\OshiTrip`；关闭窗口会停止其创建的后台进程。首次运行通常使用 43187 端口，后续使用已保存端口。端口临时冲突不会覆盖已保存的地址。
 
