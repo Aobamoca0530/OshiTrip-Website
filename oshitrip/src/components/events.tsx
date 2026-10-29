@@ -1,7 +1,7 @@
 "use client";
 import { OfficialImage } from "./official-image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useSyncExternalStore } from "react";
 import {
   ArrowRight,
   ArrowUpRight,
@@ -572,6 +572,8 @@ export function EventExplorer({
     </>
   );
 }
+const subscribeToHydration = () => () => {};
+
 export function BookingPanel({
   event,
   selectedId,
@@ -579,6 +581,13 @@ export function BookingPanel({
   event: OshiEvent;
   selectedId?: string;
 }) {
+  // SSR controls must not accept edits until this panel can handle them.
+  // Client-only renders (including mobile) are ready immediately.
+  const hydrated = useSyncExternalStore(
+    subscribeToHydration,
+    () => true,
+    () => false,
+  );
   const [venueId, setVenueId] = useState(
     selectedId && event.venues.some((v) => v.id === selectedId)
       ? selectedId
@@ -605,6 +614,7 @@ export function BookingPanel({
       <label>
         参加门店
         <select
+          disabled={!hydrated}
           value={venueId}
           onChange={(e) => {
             setVenueId(e.target.value);
@@ -625,6 +635,7 @@ export function BookingPanel({
         计划到店日期
         <input
           type="date"
+          disabled={!hydrated}
           min={venue.start_date}
           max={venue.end_date}
           value={visit}
