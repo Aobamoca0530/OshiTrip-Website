@@ -77,4 +77,16 @@ describe("public announcements and merchandise", () => {
     expect(result.observations).toEqual([]);
     expect(result.status).toBe("failed");
   });
+  it("preserves the actual read time when importing a cached page", () => {
+    const observation = extractObservation(html, url, 'event-source');
+    const actual = '2026-10-29T01:00:00Z';
+    const [row] = mergeAnnouncements([], [{source:{id:'creative'},observation,observed_at:actual}], {events:[]}, '2026-10-30T00:00:00Z');
+    expect([row.first_seen_at,row.last_seen_at,row.changed_at]).toEqual([actual,actual,actual]);
+  });
+  it("retains more than 120 announcements and fails before silently truncating at capacity", () => {
+    const observation = extractObservation(html, url, 'event-source');
+    const rows = Array.from({length:501},(_,i)=>({source:{id:'creative'},observation:{...observation,source_url:url+i}}));
+    expect(mergeAnnouncements([],rows.slice(0,121),{events:[]},'2026-10-29T00:00:00Z')).toHaveLength(121);
+    expect(()=>mergeAnnouncements([],rows,{events:[]},'2026-10-29T00:00:00Z')).toThrow('不能静默丢弃');
+  });
 });

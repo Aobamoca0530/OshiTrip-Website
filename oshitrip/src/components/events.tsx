@@ -16,7 +16,7 @@ import {
 } from "lucide-react";
 import {
   categories,
-  cities,
+  cityChoices,
   methods,
   type Franchise,
   type OshiEvent,
@@ -401,12 +401,7 @@ export function EventExplorer({
               onChange={(e) => update("city", e.target.value)}
             >
               <option value="">所有城市</option>
-              {[
-                ...new Set([
-                  ...cities,
-                  ...events.flatMap((e) => e.venues.map((v) => v.city)),
-                ]),
-              ].map((c) => (
+              {cityChoices(events).map((c) => (
                 <option key={c}>{c}</option>
               ))}
             </select>

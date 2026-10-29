@@ -7,9 +7,10 @@ import { createImageReviewer, bailianEndpoint } from './crawler/image-rules.mjs'
 import { mergeAnnouncements } from './crawler/public-news.mjs';
 import { loadDataSchema } from './load-data-schema.mjs';
 import { createProjectFilter, relevantAnnouncement } from './crawler/project-filter.mjs';
-import { classifyOffline, translateActivity, validateReading, reviewActivity, eventFromReading, pendingActivity } from './crawler/event-intelligence.mjs';
+import { classifyOffline, translateActivity, validateReading, reviewActivity, eventFromReading, pendingActivity, explicitDates } from './crawler/event-intelligence.mjs';
 import { resolveAI, publicAIConfig } from './crawler/ai-provider.mjs';
 import { classifyAnnouncement } from './crawler/offline-filter.mjs';
+import { deduplicateSeriesNews } from './crawler/lovelive-news.mjs';
 
 const configured = JSON.parse(await fs.readFile('scripts/crawler/sources.json', 'utf8'));
 const projectFilter = createProjectFilter(JSON.parse(await fs.readFile('scripts/crawler/project-keywords.json', 'utf8')));
@@ -26,22 +27,34 @@ const sources = configured.filter(s => enabled.has(s.id)).map(s => ({ ...s, publ
 const lastReport = replay ? JSON.parse(await fs.readFile('var/public-crawler/report.json', 'utf8')) : null;
 const stamp = lastReport?.checked_at || new Date().toISOString();
 const report = { checked_at: stamp, sources: lastReport?.sources || [], items: 0, images: 0 };
-const observations = replay ? JSON.parse(await fs.readFile('var/public-crawler/observations.json', 'utf8')).filter(({ source, observation: o }) => relevant(source.id, o.title) && classifyAnnouncement(source, o)) : [];
+let observations = replay ? JSON.parse(await fs.readFile('var/public-crawler/observations.json', 'utf8')) : [];
+const existing = JSON.parse(await fs.readFile('src/data/announcements.json', 'utf8'));
 const observedUrls = new Set();
 const policies = new Map();
+const stoppedOrigins = new Map();
 for (const { observation: o } of observations) observedUrls.add(o.source_url);
+observations = observations.filter(({ source, observation: o }) => relevant(source.id, o.title) && classifyAnnouncement(source, o));
 for (const source of pruneOnly || replay ? [] : sources) {
-  const result = await crawlPublicSource(source, { limit: source.id === 'bang-dream-live' ? 40 : 16, acceptDiscoveredLink: ({ title }) => relevant(source.id, title) && (['bang-dream-live', 'starlight-events'].includes(source.id) || classifyOffline(title) !== null || /抽選|先行|コラボ|イベント/.test(title)) });
+  const result = stoppedOrigins.has(source.origin)
+    ? { observations: [], status: 'blocked', errors: [`HTTP ${stoppedOrigins.get(source.origin)}：同站点已停止本轮访问`], deferred_urls: source.urls, discovered: source.urls.length, transport: source.transport || 'http' }
+    : await crawlPublicSource(source, { limit: source.page_limit || (source.id === 'bang-dream-live' ? 40 : 16), acceptDiscoveredLink: ({ url, title }) => {
+      const liveDirectory = /\/live_detail\.php|\/otonokizaka\/event\//.test(url);
+      const dates = liveDirectory ? explicitDates(title) : [];
+      if (dates.length && dates.every(date => date < stamp.slice(0,10))) return false;
+      return relevant(source.id, title) && (['bang-dream-live', 'starlight-events', 'gakuen-idolmaster-live', 'gakuen-idolmaster-portal'].includes(source.id) || liveDirectory || classifyOffline(title) !== null || /抽選|先行|コラボ|イベント|ご当地情報|開催/.test(title));
+    } });
+  const stoppedStatus = result.errors?.join(' ').match(/\bHTTP (401|403|429)\b/)?.[1];
+  if (stoppedStatus) stoppedOrigins.set(source.origin, stoppedStatus);
   for (const o of result.observations) observedUrls.add(o.source_url);
   if (result.robots_rules) policies.set(source.id, result.robots_rules);
   report.sources.push({ id: source.id, transport: result.transport, browser_mode: result.browser_mode, status: result.status, robots: result.robots_status || 'not-checked', pages: result.observations.length, discovered: result.discovered, deferred_urls: result.deferred_urls || [], excluded: result.observations.filter(o => !relevant(source.id, o.title)).length, errors: result.errors, access_diagnostics: result.access_diagnostics || [] });
   for (const observation of result.observations) if (relevant(source.id, observation.title) && classifyAnnouncement(source, observation)) observations.push({ source, observation });
 }
+observations = deduplicateSeriesNews(observations, existing);
 await fs.mkdir('var/public-crawler', { recursive: true });
 await fs.writeFile('var/public-crawler/observations.json', JSON.stringify(observations, null, 2));
 await fs.writeFile('var/public-crawler/report.json', JSON.stringify(report, null, 2) + '\n');
 if (!pruneOnly && !replay && !report.sources.some(source => source.pages > 0 || source.status === 'success')) throw new Error('No source returned a usable announcement; existing public data has been preserved.');
-const existing = JSON.parse(await fs.readFile('src/data/announcements.json', 'utf8'));
 const previous = existing.filter(row => relevant(row.source_id, row.title) && (row.activity || classifyOffline(row.title)) && (!observedUrls.has(row.source_url) || observations.some(x => x.observation.source_url === row.source_url)));
 report.removed_unrelated = existing.length - previous.length;
 const catalog = JSON.parse(await fs.readFile('src/data/catalog.json', 'utf8'));
@@ -55,7 +68,7 @@ report.ai = { translation: publicAIConfig(translationConfig), review: publicAICo
 report.review = { approved: 0, pending: 0, rejected: 0 };
 const queue = [];
 report.translation = { translated: 0, cached: 0, pending: 0, excluded: 0, errors: [] };
-for (const { source, observation: o } of observations) {
+for (const { source, observation: o, observed_at } of observations) {
   const row = next.find(r => r.source_url === o.source_url);
   if (excluded[o.source_url] === o.content_hash) { next = next.filter(r => r.id !== row.id); report.translation.excluded++; continue; }
   const old = existing.find(r => r.source_url === o.source_url);
@@ -97,7 +110,7 @@ for (const { source, observation: o } of observations) {
     if (!ready) queue.push({ observation: o, task: 'review', reading: r, reason: row.activity.reason });
     if (ready) {
       const manual = catalog.events.find(e => e.sources.some(s => s.url === o.source_url || o.event_links?.includes(s.url)));
-      if (!manual) catalog.events.push(eventFromReading(r, o, row.images, stamp, former));
+      if (!manual) catalog.events.push(eventFromReading(r, o, row.images, observed_at || stamp, former));
     }
     report.translation.translated++;
   } catch (error) {

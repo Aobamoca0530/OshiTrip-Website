@@ -45,7 +45,7 @@ export const sourceStatusSchema = z.object({
       }),
     )
     .max(50),
-  unread_announcement_ids: z.array(z.string().regex(/^[a-f0-9]{24}$/)).max(120),
+  unread_announcement_ids: z.array(z.string().regex(/^[a-f0-9]{24}$/)).max(500),
 });
 export type SourceStatus = z.infer<typeof sourceStatusSchema>;
 export const emptySourceStatus: SourceStatus = {
@@ -63,6 +63,15 @@ const names: Record<string, string> = {
   "starlight-events": "少女歌剧 Live / Event",
   "sweets-paradise": "SWEETS PARADISE",
   "team-e-nijigasaki": "虹咲 POP UP · TEAM Entertainment",
+  "hasunosora-official": "莲之空 · 新闻与 Live",
+  "liella-official": "Liella! · 新闻与 Live",
+  "aqours-official": "Aqours · 新闻与 Live",
+  "muse-official": "μ's · 新闻与演出",
+  "ikizulive-official": "人生不易部 · 新闻与 Live",
+  "lovelive-series-live": "Love Live! 跨企划演出",
+  "gakuen-idolmaster-live": "学园偶像大师 · 官方巡演",
+  "gakuen-idolmaster-news": "学园偶像大师 · 厂牌新闻",
+  "gakuen-idolmaster-portal": "学园偶像大师 · 综合门户新闻",
 };
 
 // Only known diagnostic categories leave the worker. Never forward raw errors,

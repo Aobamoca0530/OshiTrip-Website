@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { ArrowRight, CalendarDays, Compass, MapPin } from "lucide-react";
-import { cities, type Catalog } from "@/lib/schema";
+import { cityChoices, type Catalog } from "@/lib/schema";
 import { EventCollectionCard, Empty, IPChoices } from "./events";
 import { usePersonal } from "./personal";
 import { filterEvents, groupMatches } from "@/lib/domain";
@@ -132,7 +132,7 @@ export function Home({ catalog }: { catalog: Catalog }) {
           </span>
           <select name="city" defaultValue="">
             <option value="">所有城市</option>
-            {cities.map((c) => (
+            {cityChoices(catalog.events).map((c) => (
               <option key={c}>{c}</option>
             ))}
           </select>

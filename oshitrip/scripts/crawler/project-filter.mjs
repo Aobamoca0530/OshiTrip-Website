@@ -19,6 +19,7 @@ export function createProjectFilter(input) {
   return (sourceId, title) => !restricted.has(sourceId) || patterns.some(pattern => pattern.test(normalize(title)));
 }
 export function relevantAnnouncement(sourceId, title, projectFilter) {
+  if (sourceId === 'gakuen-idolmaster-portal' && !/学園アイドルマスター|学マス|初星学園|Gakuen\s*Idolmaster/i.test(title)) return false;
   if (!projectFilter(sourceId, title)) return false;
   return sourceId !== 'bang-dream-news' || /展示|POP.?UP|ポップアップ|コラボ|カフェ|グッズ|物販|会場|フェア|出展|開催|公演|抽選|先行|チケット|ライブ.*決定/i.test(title) && !/Pre-add|Pre-save|プレイリスト|放送|デジタルリリース/i.test(title);
 }

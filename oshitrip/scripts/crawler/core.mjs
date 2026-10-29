@@ -43,6 +43,24 @@ export const observationSchema = z.object({
     .default([]),
 });
 function articleHtml(html, sourceUrl) {
+  const url = new URL(sourceUrl);
+  if (url.hostname === 'idolmaster-official.jp' && /^\/news\/01_\d+(?:\.html)?$/.test(url.pathname)) {
+    const title = html.match(/<h3\b[^>]*class=["'][^"']*style_inner_title__[^"']*["'][^>]*>([^]*?)<\/h3>/i)?.[1];
+    const start = /<div\b[^>]*class=["'][^"']*style_inner_content__[^"']*["'][^>]*>/i.exec(html);
+    if (!title || !start) throw new Error('偶像大师新闻正文结构变化，保留原资料');
+    return `<h1>${title}</h1>${balancedDiv(html, start)}`;
+  }
+  if (url.hostname === 'www.lovelive-anime.jp' && /^\/(hasunosora|yuigaoka|uranohoshi|otonokizaka|lovehigh|special)\//.test(url.pathname)) {
+    if (/\/lovehigh\/news\/detail\.php$/.test(url.pathname)) {
+      const start = /<div\b[^>]*id=["']news-detail["'][^>]*>/i.exec(html);
+      if (!start) throw new Error('人生不易部新闻正文结构变化，保留原资料');
+      return balancedDiv(html, start);
+    }
+    const articles = [...html.matchAll(/<article\b[^>]*>([^]*?)<\/article>/gi)].map(m => m[1]);
+    const article = articles.find(x => /class=["']newsbox["']/.test(x)) || articles.find(x => /detail__content|開催概要|チケット|会場/.test(x));
+    if (!article) throw new Error('Love Live官方详情正文结构变化，保留原资料');
+    return article;
+  }
   if (new URL(sourceUrl).hostname === "revuestarlight.com" && /^\/(?:news|event)\/\d+\/$/.test(new URL(sourceUrl).pathname)) {
     const title = html.match(/<h1\b[^>]*class=["'][^"']*\bttl\b[^"']*["'][^>]*>([^]*?)<\/h1>/i)?.[1];
     const start = /<div\b[^>]*class=["'][^"']*(?:news|event)-Detail_Contents[^"']*["'][^>]*>/i.exec(html);
@@ -81,6 +99,15 @@ function articleHtml(html, sourceUrl) {
   }
   return html.match(/<main\b[^>]*>([^]*?)<\/main>/i)?.[1] || html;
 }
+function balancedDiv(html, start) {
+  const body = html.slice(start.index + start[0].length);
+  let depth = 1;
+  for (const tag of body.matchAll(/<\/?div\b[^>]*>/gi)) {
+    depth += /^<\//.test(tag[0]) ? -1 : 1;
+    if (!depth) return body.slice(0, tag.index);
+  }
+  throw new Error('正文结束标记缺失，保留原资料');
+}
 export function extractImageCandidates(html, sourceUrl) {
   const content = articleHtml(html, sourceUrl).replace(
     /<(script|style|nav|footer|header)\b[^>]*>[^]*?<\/\1>/gi,
@@ -101,13 +128,13 @@ export function extractImageCandidates(html, sourceUrl) {
       const u = new URL(raw.replaceAll("&amp;", "&"), sourceUrl);
       const loveLiveImage =
         u.hostname === "www.lovelive-anime.jp" &&
-        u.pathname === "/nijigasaki/module/image.php" &&
+        /^\/(?:nijigasaki\/module|hasunosora\/news\/?|yuigaoka\/topics|uranohoshi\/module|otonokizaka\/module)\/image\.php$/.test(u.pathname) &&
         [...u.searchParams.keys()].length === 1 &&
         /^\/lovelive\/jp\/news\/[0-9/]+\/[\w/.-]+\.(?:png|jpe?g|webp)$/i.test(
           u.searchParams.get("img_path") || "",
         );
       const staticImage =
-        /(?:uploads|assets|files|images|img)\//.test(u.pathname) &&
+        /(?:uploads|assets|files|images|img|lovelive\/jp\/news)\//.test(u.pathname) &&
         /\.(?:png|jpe?g|webp|avif)$/i.test(u.pathname);
       if (
         u.protocol !== "https:" ||
@@ -181,6 +208,8 @@ export function extractObservation(html, url, kind = "release-source") {
   );
   const text = textFromHtml(body);
   const title =
+    (new URL(url).hostname === 'www.lovelive-anime.jp' && !url.includes('/nijigasaki/') && textFromHtml(html.match(/<meta\b[^>]*property=["']og:title["'][^>]*content=(["'])([^]*?)\1[^>]*>/i)?.[2] || '').split(/\s+[|｜]\s+|｜(?:PROJECT NEWS|ライブ|ラブライブ|「)/)[0]) ||
+    (new URL(url).hostname === 'idolmaster-official.jp' && text.match(/公演名\n([^\n]+)/)?.[1]) ||
     (new URL(url).hostname === "www.lovelive-anime.jp" &&
       textFromHtml(body.match(/<h5\b[^>]*>([^]*?)<\/h5>/i)?.[1] || "")) ||
     (new URL(url).hostname === "www.team-e.co.jp" &&
@@ -189,7 +218,7 @@ export function extractObservation(html, url, kind = "release-source") {
     [...body.matchAll(/<h1\b[^>]*>([^]*?)<\/h1>/gi)]
       .map((m) => textFromHtml(m[1]))
       .find(Boolean) ||
-    "";
+    (new URL(url).hostname.endsWith('idolmaster-official.jp') && textFromHtml(html.match(/<title\b[^>]*>([^]*?)<\/title>/i)?.[1] || '').split(/[|｜]/)[0]) || "";
   if (
     !title ||
     text.length < (new URL(url).hostname === "revuestarlight.com" ? 40 : 120) ||
@@ -473,7 +502,7 @@ export async function crawlSource(
     try {
       const html = await read(indexUrl);
       // New announcements must not be starved by a long list of fixed seed URLs.
-      discovered.push(...discoverLinks(html, source, acceptDiscoveredLink));
+      discovered.push(...discoverLinks(html, { ...source, index_url: indexUrl }, acceptDiscoveredLink));
     } catch (e) {
       errors.push(`官方目录：${e.message}`);
       if (e.diagnostic) accessDiagnostics.push({ url: indexUrl, ...e.diagnostic });

@@ -20,7 +20,8 @@ export function classifyImage(image) {
 
 export function mergeAnnouncements(previous, observations, catalog, stamp) {
   const rows = new Map(previous.map(row => [row.source_url, row]));
-  for (const { source, observation: o } of observations) {
+  for (const { source, observation: o, observed_at } of observations) {
+    const seenAt = observed_at || stamp;
     const old = rows.get(o.source_url);
     const images = o.images
       .filter(image => !/(?:^|[/_-])(?:logo|icon|sns|bnr)(?:[._/-]|$)/i.test(new URL(image.url).pathname))
@@ -29,8 +30,8 @@ export function mergeAnnouncements(previous, observations, catalog, stamp) {
     rows.set(o.source_url, {
       id: createHash('sha256').update(o.source_url).digest('hex').slice(0, 24),
       source_id: source.id, source_url: o.source_url, title: o.title,
-      first_seen_at: old?.first_seen_at || stamp, last_seen_at: stamp,
-      changed_at: old?.content_hash === hash ? old.changed_at : stamp,
+      first_seen_at: old?.first_seen_at || seenAt, last_seen_at: seenAt,
+      changed_at: old?.content_hash === hash ? old.changed_at : seenAt,
       content_hash: hash,
       related_event_ids: catalog.events.filter(event => event.sources.some(s => s.url === o.source_url)).map(event => event.id),
       images,
@@ -39,5 +40,6 @@ export function mergeAnnouncements(previous, observations, catalog, stamp) {
   }
   // Failed sources retain their previous records. Time here means discovery,
   // never the event date or an assertion that the event is still running.
-  return [...rows.values()].sort((a, b) => b.changed_at.localeCompare(a.changed_at) || a.id.localeCompare(b.id)).slice(0, 120);
+  if (rows.size > 500) throw new Error('公告超过500条；请先人工归档，不能静默丢弃旧资料。');
+  return [...rows.values()].sort((a, b) => b.changed_at.localeCompare(a.changed_at) || a.id.localeCompare(b.id));
 }

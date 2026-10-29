@@ -1,7 +1,8 @@
-import { describe, expect, it, vi } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { crawlPublicSource, createBrowserReader } from '../../scripts/crawler/browser.mjs';
 import { chromium, type Browser } from '@playwright/test';
 vi.mock('@playwright/test', () => ({ chromium: { launch: vi.fn() } }));
+afterEach(() => vi.unstubAllGlobals());
 
 const origin = 'https://www.lovelive-anime.jp';
 const index = `${origin}/nijigasaki/topics.php`;
@@ -11,7 +12,8 @@ const article = `<article><div class="newsbox"><h1>虹ヶ咲 コラボイベン�
 function fixture(status = 200, body = article, robotsBody = 'User-agent: *\nAllow: /') {
   let current = '';
   const page = {
-    route: vi.fn(), mainFrame: vi.fn(),
+    route: vi.fn(), mainFrame: vi.fn(), on: vi.fn(),
+    locator: vi.fn(() => ({first:()=>({waitFor:async()=>{}})})),
     goto: vi.fn(async (url: string) => { current = url; const isRobots = url.endsWith('/robots.txt'); return { ok: () => isRobots || status === 200, status: () => isRobots ? 200 : status, allHeaders: async () => ({ 'content-type': isRobots ? 'text/plain' : 'text/html' }), text: async () => robotsBody }; }),
     url: () => current,
     content: vi.fn(async () => current === index && status === 200 ? `<a href="${detail}">コラボ</a>` : body),
@@ -90,5 +92,26 @@ describe('browser-assisted public collection', () => {
     expect(result.status).toBe('failed');
     expect(result.observations).toEqual([]);
     expect(f.browser.close).toHaveBeenCalledOnce();
+  });
+  it('allows only public portal article APIs and stops their traffic after a 429', async () => {
+    vi.stubGlobal('fetch', vi.fn(async()=>new Response('', {status:405})));
+    const f = fixture();
+    const portal = {...source,id:'gakuen-idolmaster-portal',origin:'https://idolmaster-official.jp',path_patterns:['^/news/01_[0-9]+$']};
+    const reader = createBrowserReader(portal);
+    await reader.read(portal.origin+'/news/01_20212',{permits:()=>true});
+    const handle = f.page.route.mock.calls[0][1];
+    const request = async (path:string,method='GET',type='fetch') => {
+      const route={request:()=>({url:()=>`https://cmsapi-frontend.idolmaster-official.jp${path}`,redirectedFrom:()=>null,method:()=>method,resourceType:()=>type,frame:f.page.mainFrame}),continue:vi.fn(),abort:vi.fn()};
+      await handle(route); return route;
+    };
+    for(let i=0;i<105;i++) expect((await request('/image.png','GET','image')).abort).toHaveBeenCalledOnce();
+    expect((await request('/sitern/api/cmsbase/Token/get')).continue).toHaveBeenCalledOnce();
+    expect((await request('/sitern/api/idolmaster/Article/list','OPTIONS','other')).continue).toHaveBeenCalledOnce();
+    expect((await request('/sitern/api/idolmaster/Article/list','POST')).abort).toHaveBeenCalledOnce();
+    expect((await request('/api/v1_1_0/auths/login/check')).abort).toHaveBeenCalledOnce();
+    const response = f.page.on.mock.calls[0][1];
+    response({url:()=> 'https://cmsapi-frontend.idolmaster-official.jp/sitern/api/idolmaster/Article/list',status:()=>429});
+    expect((await request('/sitern/api/idolmaster/Article/list')).abort).toHaveBeenCalledOnce();
+    await reader.close();
   });
 });

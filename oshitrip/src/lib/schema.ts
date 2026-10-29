@@ -26,7 +26,25 @@ export const cities = [
   "埼玉",
   "仙台",
   "横滨",
+  "札幌",
+  "福冈",
+  "金泽",
+  "沼津",
+  "千叶",
+  "常滑",
+  "所泽",
+  "牛久",
+  "加贺",
+  "松山",
+  "新潟",
+  "福井",
+  "盛冈",
 ] as const;
+
+// All entry points use the same list; newly verified venues also become choices.
+export function cityChoices(events: { venues: { city: string }[] }[]) {
+  return [...new Set([...cities, ...events.flatMap(event => event.venues.map(venue => venue.city))])];
+}
 export const dateSchema = z
   .string()
   .regex(/^\d{4}-\d{2}-\d{2}$/)

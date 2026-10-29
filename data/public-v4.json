@@ -1,7 +1,7 @@
 {
   "formatVersion": 4,
-  "revision": "6ec4265b02685769f09f93bdd6169984440c29bbe974184749263ebfbbee96c5",
-  "publishedAt": "2026-10-29T09:32:08.479Z",
+  "revision": "6c5371457fc8496ce024d3be6cacbd2a7bc282056b7e2891da7b9e3844539ef2",
+  "publishedAt": "2026-10-29T11:59:03.171Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -89,6 +89,41 @@
           "id": "starlight",
           "name": "少女☆歌剧 Revue Starlight",
           "parent_id": null
+        },
+        {
+          "id": "muse",
+          "name": "μ's（缪斯）",
+          "parent_id": "lovelive"
+        },
+        {
+          "id": "aqours",
+          "name": "Aqours",
+          "parent_id": "lovelive"
+        },
+        {
+          "id": "liella",
+          "name": "Liella!",
+          "parent_id": "lovelive"
+        },
+        {
+          "id": "hasunosora",
+          "name": "莲之空女学院学园偶像俱乐部",
+          "parent_id": "lovelive"
+        },
+        {
+          "id": "ikizulive",
+          "name": "人生不易部！",
+          "parent_id": "lovelive"
+        },
+        {
+          "id": "idolmaster",
+          "name": "偶像大师系列",
+          "parent_id": null
+        },
+        {
+          "id": "gakuen-idolmaster",
+          "name": "学园偶像大师",
+          "parent_id": "idolmaster"
         }
       ],
       "events": [
@@ -2386,8 +2421,8 @@
             "需迷你专辑「神の名を」首批附券；S/A单日票、一般指定单日票、两日通票分开受理，优先顺序见中文规则。"
           ],
           "status": "published",
-          "verified_at": "2026-10-29T09:25:43.852Z",
-          "updated_at": "2026-10-29T09:25:43.852Z",
+          "verified_at": "2026-10-29T11:23:32.044Z",
+          "updated_at": "2026-10-29T11:23:32.044Z",
           "franchise_ids": [
             "bang-dream",
             "ave-mujica"
@@ -2447,7 +2482,7 @@
               "id": "auto-aab9c2d03dc15575-source",
               "url": "https://bang-dream.com/events/avemujica-8th/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-29T09:25:43.852Z"
+              "checked_at": "2026-10-29T11:23:32.044Z"
             }
           ]
         },
@@ -2507,8 +2542,8 @@
             "凭 RAISE A SUILEN 16th Single「I AM WHO I AM」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
           ],
           "status": "published",
-          "verified_at": "2026-10-29T09:25:43.852Z",
-          "updated_at": "2026-10-29T09:25:43.852Z",
+          "verified_at": "2026-10-29T11:23:32.044Z",
+          "updated_at": "2026-10-29T11:23:32.044Z",
           "franchise_ids": [
             "bang-dream",
             "raise-a-suilen"
@@ -2640,7 +2675,7 @@
               "id": "auto-16ad5931165da640-source",
               "url": "https://bang-dream.com/events/ras-tour2027/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-29T09:25:43.852Z"
+              "checked_at": "2026-10-29T11:23:32.044Z"
             }
           ]
         },
@@ -2678,8 +2713,8 @@
             "票务详情及受理期间待公布，不能据此判断报名已开放。"
           ],
           "status": "published",
-          "verified_at": "2026-10-29T09:25:43.852Z",
-          "updated_at": "2026-10-29T09:25:43.852Z",
+          "verified_at": "2026-10-29T11:23:32.044Z",
+          "updated_at": "2026-10-29T11:23:32.044Z",
           "franchise_ids": [
             "bang-dream",
             "yumemita"
@@ -2715,7 +2750,7 @@
               "id": "auto-c96213b334859fe4-source",
               "url": "https://bang-dream.com/events/miyako_atelier/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-29T09:25:43.852Z"
+              "checked_at": "2026-10-29T11:23:32.044Z"
             }
           ]
         },
@@ -2786,8 +2821,8 @@
             "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。"
           ],
           "status": "published",
-          "verified_at": "2026-10-29T09:25:43.852Z",
-          "updated_at": "2026-10-29T09:25:43.852Z",
+          "verified_at": "2026-10-29T11:23:32.044Z",
+          "updated_at": "2026-10-29T11:23:32.044Z",
           "franchise_ids": [
             "bang-dream",
             "yumemita"
@@ -2967,7 +3002,7 @@
               "id": "auto-63e890fb109ff84b-source",
               "url": "https://bang-dream.com/events/ymmt-tour2027/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-29T09:25:43.852Z"
+              "checked_at": "2026-10-29T11:23:32.044Z"
             }
           ]
         },
@@ -3027,8 +3062,8 @@
             "凭 Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
           ],
           "status": "published",
-          "verified_at": "2026-10-29T09:25:43.852Z",
-          "updated_at": "2026-10-29T09:25:43.852Z",
+          "verified_at": "2026-10-29T11:23:32.044Z",
+          "updated_at": "2026-10-29T11:23:32.044Z",
           "franchise_ids": [
             "bang-dream",
             "roselia"
@@ -3136,7 +3171,7 @@
               "id": "auto-97ebcc1904e05cee-source",
               "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-29T09:25:43.852Z"
+              "checked_at": "2026-10-29T11:23:32.044Z"
             }
           ]
         },
@@ -3185,8 +3220,8 @@
             "需首张单曲「鳴らす」首批附券，每人最多2张；全站席，禁止发光应援物。"
           ],
           "status": "published",
-          "verified_at": "2026-10-29T09:25:43.852Z",
-          "updated_at": "2026-10-29T09:25:43.852Z",
+          "verified_at": "2026-10-29T11:23:32.044Z",
+          "updated_at": "2026-10-29T11:23:32.044Z",
           "franchise_ids": [
             "bang-dream",
             "millsage"
@@ -3222,7 +3257,7 @@
               "id": "auto-a0d13aed98742dfb-source",
               "url": "https://bang-dream.com/events/millsage_1st/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-29T09:25:43.852Z"
+              "checked_at": "2026-10-29T11:23:32.044Z"
             }
           ]
         },
@@ -3271,8 +3306,8 @@
             "仅电子票，每人最多2张；售罄即止，余票需查官方。昼场14:00、夜场19:15开演（日本时间）。"
           ],
           "status": "published",
-          "verified_at": "2026-10-29T09:25:43.852Z",
-          "updated_at": "2026-10-29T09:25:43.852Z",
+          "verified_at": "2026-10-29T11:23:32.044Z",
+          "updated_at": "2026-10-29T11:23:32.044Z",
           "franchise_ids": [
             "bang-dream",
             "yumemita"
@@ -3308,7 +3343,7 @@
               "id": "auto-04c73e062516c03a-source",
               "url": "https://bang-dream.com/events/nakamachiarale_live2026/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-29T09:25:43.852Z"
+              "checked_at": "2026-10-29T11:23:32.044Z"
             }
           ]
         },
@@ -3357,8 +3392,8 @@
             "需首张单曲「ピースフル・ピーシーズ！」首批附券，每人最多2张。"
           ],
           "status": "published",
-          "verified_at": "2026-10-29T09:25:43.852Z",
-          "updated_at": "2026-10-29T09:25:43.852Z",
+          "verified_at": "2026-10-29T11:23:32.044Z",
+          "updated_at": "2026-10-29T11:23:32.044Z",
           "franchise_ids": [
             "bang-dream",
             "ikka-dumb-rock"
@@ -3394,7 +3429,7 @@
               "id": "auto-0d9f7fdb753dc318-source",
               "url": "https://bang-dream.com/events/ikka-dumb-rock_1st/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-29T09:25:43.852Z"
+              "checked_at": "2026-10-29T11:23:32.044Z"
             }
           ]
         },
@@ -3432,8 +3467,8 @@
             "门票详情与受理期间后续公布；昼场13:00、夜场18:15开演（日本时间）。"
           ],
           "status": "published",
-          "verified_at": "2026-10-29T09:25:43.852Z",
-          "updated_at": "2026-10-29T09:25:43.852Z",
+          "verified_at": "2026-10-29T11:23:32.044Z",
+          "updated_at": "2026-10-29T11:23:32.044Z",
           "franchise_ids": [
             "bang-dream",
             "yumemita"
@@ -3469,7 +3504,7 @@
               "id": "auto-f065242309b768b9-source",
               "url": "https://bang-dream.com/events/yumemita_yunos_party_lv3/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-29T09:25:43.852Z"
+              "checked_at": "2026-10-29T11:23:32.044Z"
             }
           ]
         },
@@ -3507,8 +3542,8 @@
             "仅电子票，每人最多2张，昼场13:30、夜场17:30开演（日本时间）。"
           ],
           "status": "published",
-          "verified_at": "2026-10-29T09:25:43.852Z",
-          "updated_at": "2026-10-29T09:25:43.852Z",
+          "verified_at": "2026-10-29T11:23:32.044Z",
+          "updated_at": "2026-10-29T11:23:32.044Z",
           "franchise_ids": [
             "bang-dream",
             "yumemita"
@@ -3544,7 +3579,7 @@
               "id": "auto-574a22a1d83b735f-source",
               "url": "https://bang-dream.com/events/yumemita_kinntorebu2026/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-29T09:25:43.852Z"
+              "checked_at": "2026-10-29T11:23:32.044Z"
             }
           ]
         },
@@ -3599,8 +3634,8 @@
             "きゃにめ先行已截止。每人每场一种票种最多2张，须使用ポニキャンApp。后续售票请查看官方。"
           ],
           "status": "published",
-          "verified_at": "2026-10-29T09:25:43.852Z",
-          "updated_at": "2026-10-29T09:25:43.852Z",
+          "verified_at": "2026-10-29T11:23:32.044Z",
+          "updated_at": "2026-10-29T11:23:32.044Z",
           "franchise_ids": [
             "starlight"
           ],
@@ -3635,7 +3670,121 @@
               "id": "auto-7fb8374c18208450-source",
               "url": "https://revuestarlight.com/event/11130/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-29T09:25:43.852Z"
+              "checked_at": "2026-10-29T11:23:32.044Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-69db4e82e137a6d8",
+          "slug": "official-69db4e82e137a6d8",
+          "title_ja": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ Link Live Dream ～106期新入生入部記念公演～｜LIVE＆EVENT",
+          "title_zh": "莲之空 Link Live Dream「106期新生入部纪念公演」",
+          "category": "音乐和声优活动",
+          "summary": "2027年1月22日在东京日本武道馆举办，16:00入场、17:00开演。最速先行抽选于2026年9月25日12:00至11月8日23:59（日本时间）受理，每人每场最多2张。",
+          "image": null,
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-69db4e82e137a6d8-rule-0",
+              "kind": "参加",
+              "title": "票价与U-20",
+              "text_zh": "全席指定13,000日元，U-20为6,500日元（均含税）；U-20计划随一般销售开放，申请者及同行者须当天未满20岁并出示年龄证明，每人每场最多2张。",
+              "evidence_ja": "【チケット料金】\n全席指定：13,000円（税込）\nU-20割引チケット：6,500円（税込）\n----------\n＜U-20割引チケットについて＞\n本公演は、20歳未満の方にもご参加いただきやすくするため、対象の方に向け「U-20割引チケット」を販売いたします。\n・ 公演当日時点で20歳未満の方が購入できるチケットとなります。\n・一般発売に合わせ販売予定です。枚数には限りがございますので、あらかじめご了承ください。\n・当日はご入場にあたり、年齢を確認できる身分証明書を確認させていただきます。\n・U-20割引チケットはお一人様1公演につき2枚までお申込みいただけますが、同行者の方も公演当日時点で20歳未満の方に限ります。あらかじめご了承ください。\n----------",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-69db4e82e137a6d8-rule-1",
+              "kind": "参加",
+              "title": "抽选、结果及付款",
+              "text_zh": "最速先行并非先到先得：9月25日12:00至11月8日23:59受理，11月14日13:00起公布结果，付款期为11月14日13:00至17日21:00（日本时间），每人每场最多2张。",
+              "evidence_ja": "＜最速先行抽選＞\n----------\n■受付URL： https://eplus.jp/hasunosoralldream106/\n■受付期間：2026年9月25日（金）12:00～11月8日（日）23:59\n■当落発表：2026年11月14日（土）13:00～\n■入金期間：2026年11月14日（土）13:00～11月17日（火）21:00\n※枚数制限：お一人様1公演につき、各公演それぞれに2枚までお申込み可能（複数公演申込可能）\n----------",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-69db4e82e137a6d8-rule-2",
+              "kind": "参加",
+              "title": "注册和年龄",
+              "text_zh": "需免费注册eplus会员；3岁以上收费，不能据此认定3岁以下免费入场。",
+              "evidence_ja": "※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-69db4e82e137a6d8-rule-3",
+              "kind": "参加",
+              "title": "修改与费用",
+              "text_zh": "只能在受理期间修改或取消申请；中选后不能取消购买。票价之外另有手续费。",
+              "evidence_ja": "※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-69db4e82e137a6d8-rule-4",
+              "kind": "参加",
+              "title": "实名入场",
+              "text_zh": "申请者和同行者均需登记人脸照片；随身携带带照片的官方身份证件，提前完成同行者登记。",
+              "evidence_ja": "※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。\n▼顔認証入場システムのご利用について\nhttps://eplus.jp/faceticket_about/\n■同行者登録とは？\nhttps://eplus.jp/sf/guide/fellow-ep/\n■【同行者登録】手続きはこちら\nhttps://member.eplus.jp/update-dokosha\n※受付開始前からお手続きいただけます。",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "每人每场最多2张，需eplus会员及申请者、同行者人脸登记；日本时间11月8日23:59截止（北京时间22:59）。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T11:23:32.044Z",
+          "updated_at": "2026-10-29T11:23:32.044Z",
+          "franchise_ids": [
+            "lovelive",
+            "hasunosora"
+          ],
+          "venues": [
+            {
+              "id": "auto-69db4e82e137a6d8-venue-4c92198eaa",
+              "city": "东京",
+              "name": "日本武道館",
+              "address": null,
+              "start_date": "2027-01-22",
+              "end_date": "2027-01-22",
+              "rounds": [
+                {
+                  "id": "auto-69db4e82e137a6d8-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-09-25T12:00:00+09:00",
+                  "closes_at": "2026-11-08T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106",
+                  "note": "每人每场最多2张，需eplus会员及申请者、同行者人脸登记；日本时间11月8日23:59截止（北京时间22:59）。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-69db4e82e137a6d8-source",
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T11:23:32.044Z"
             }
           ]
         }
@@ -8826,12 +8975,955 @@
     ],
     "announcements": [
       {
+        "id": "05dc8574efdf67c49cc9e519",
+        "source_id": "hasunosora-official",
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=BTDB",
+        "title": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ 4th Live Dream ～Bloom, The Dream Believers～｜LIVE＆EVENT",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "d50de4a2570bf74b8c8220b269abb4de96481dfb678f231539e650ae95147da3",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "translation_pending",
+          "title_zh": "",
+          "summary_zh": "",
+          "source_hash": "34ee3053c0035678c105dba0b6014b7ed128b3e9dff179877201bf7513b88a1f",
+          "model": "",
+          "reason": "等待中文翻译，尚不用于行程匹配",
+          "rules": []
+        }
+      },
+      {
+        "id": "146b038a253352c20886e77b",
+        "source_id": "sweets-paradise",
+        "source_url": "https://www.sweets-paradise.jp/collaboration/gakumasu4th",
+        "title": "学園アイドルマスター COLLABORATION CAFE～Deep Marine Stage～が開催決定！",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "0fb28ba2ece56dd48c978485a4147c6ddca0f39b1f59f3a1aca8ae377c2e7749",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2605_%E5%AD%A6%E3%83%9E%E3%82%B9%E2%91%A3_%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E7%94%BB%E5%83%8F_w750%C3%97h511.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2604_%E5%AD%A6%E3%83%9E%E3%82%B9%E2%91%A3_KV_%E7%AD%89%E8%BA%AB_KV_%E5%91%8A%E7%9F%A5%E7%94%A8%E7%94%BB%E5%83%8F-1024x724.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2604_%E5%AD%A6%E3%83%9E%E3%82%B9%E2%91%A3_KV_SD_%E5%91%8A%E7%9F%A5%E7%94%A8%E7%94%BB%E5%83%8F-1-1024x724.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/06/2606_%E5%AD%A6%E3%83%9E%E3%82%B9_%E6%B5%B7_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_0630_%E8%A1%A8%E8%A8%98%E8%BF%BD%E5%8A%A0_01.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2606_%E5%AD%A6%E3%83%9E%E3%82%B9_%E6%B5%B7_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_%E5%91%8A%E7%9F%A5%E7%94%A8_02.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2606_%E5%AD%A6%E3%83%9E%E3%82%B9_%E6%B5%B7_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_%E5%91%8A%E7%9F%A5%E7%94%A8-04.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2606_%E5%AD%A6%E3%83%9E%E3%82%B9_%E6%B5%B7_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_%E5%91%8A%E7%9F%A5%E7%94%A8_03.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2607_%E5%AD%A6%E3%83%9E%E3%82%B94_%E6%B5%B7_%E3%83%86%E3%82%A4%E3%82%AF%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_%E3%82%A2%E3%83%BC%E3%83%88%E3%83%9C%E3%83%BC%E3%83%89-1.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2607_%E5%AD%A6%E3%83%9E%E3%82%B94_%E6%B5%B7_%E3%83%86%E3%82%A4%E3%82%AF%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8-02.jpg",
+            "alt": "",
+            "kind": "menu"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/06/2606_%E5%AD%A6%E3%83%9E%E3%82%B9_%E3%82%B3%E3%83%A9%E3%83%9C%E3%82%AB%E3%83%95%E3%82%A7_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_0630_%E8%A1%A8%E8%A8%98%E8%BF%BD%E5%8A%A0_01.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2606_%E5%AD%A6%E3%83%9E%E3%82%B9_SP_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_02.jpg",
+            "alt": "",
+            "kind": "menu"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2606_%E5%AD%A6%E3%83%9E%E3%82%B9_SP_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_04.jpg",
+            "alt": "",
+            "kind": "menu"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2606_%E5%AD%A6%E3%83%9E%E3%82%B9_SP_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_03.jpg",
+            "alt": "",
+            "kind": "menu"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2605_%E5%AD%A6%E3%83%9E%E3%82%B94_%E3%82%B0%E3%83%83%E3%82%BAPOP_%E5%91%8A%E7%9F%A5%E7%94%A8_01.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2605_%E5%AD%A6%E3%83%9E%E3%82%B94_%E3%82%B0%E3%83%83%E3%82%BAPOP_%E5%91%8A%E7%9F%A5%E7%94%A8_02.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2607_%E5%AD%A6%E3%83%9E%E3%82%B9_%E3%82%B0%E3%83%83%E3%82%BA%E8%B3%BC%E5%85%A5%E7%89%B9%E5%85%B8POP_%E5%91%8A%E7%9F%A5%E7%94%A8.jpg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/05/2607_%E5%AD%A6%E3%83%9E%E3%82%B9_%E3%82%B0%E3%83%83%E3%82%BA%E8%B3%BC%E5%85%A5%E5%88%B6%E9%99%90POP_%E5%91%8A%E7%9F%A5%E7%94%A8.jpg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "translation_pending",
+          "title_zh": "",
+          "summary_zh": "",
+          "source_hash": "7338087f18ac11a4f7a5678728d8426703c80caf52ccc85b7d323b99ed73e8a6",
+          "model": "",
+          "reason": "等待中文翻译，尚不用于行程匹配",
+          "rules": []
+        }
+      },
+      {
+        "id": "27cc406bf0a3900e3e8b9bc5",
+        "source_id": "gakuen-idolmaster-live",
+        "source_url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php",
+        "title": "学園アイドルマスター LIVE TOUR -標- ファイナル公演",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "5d7587f9c5c0566b9a5fcaeba80896087f69eca7a91da9bcd077dc90a8e0136f",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_fukui.png",
+            "alt": "福井公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_fukuoka.png",
+            "alt": "福岡公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_iwate.png",
+            "alt": "岩手公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_final.png",
+            "alt": "ファイナル公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/img_final.webp",
+            "alt": "ファイナル公演 ビジュアル",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "needs_review",
+          "title_zh": "学园偶像大师 LIVE TOUR「标」最终公演",
+          "summary_zh": "2026年11月7、8日在横滨K Arena举办，两天均计划15:30入场、17:00开演（日本时间）。本页仅为演出概要，票务价格、申请与余票须另查官方TICKET页面。",
+          "source_hash": "a3b1613c721b323da6ae016992caadb173ca20e99d612e6383234f270a5a7432",
+          "model": "source-reviewed",
+          "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+          "rules": [
+            {
+              "title": "日期与场馆",
+              "text_zh": "11月7、8日，两天均15:30入场17:00开演，K Arena横滨。",
+              "evidence_ja": "開催日時\n2026年11月7日(土) 15：30開場／17：00開演 (予定)\n2026年11月8日(日) 15：30開場／17：00開演 (予定)\n場所\nKアリーナ横浜"
+            },
+            {
+              "title": "变更可能",
+              "text_zh": "出演人员与时间可能调整，突发伤病可能导致当日出演取消或变更，不应因此把整场演出标为取消。",
+              "evidence_ja": "※出演者および各公演時間等は予告なく変更になる場合がございます。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "2a1bae84f11f661a20cad8b8",
+        "source_id": "hasunosora-official",
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=4PPS",
+        "title": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ 5th Live Tour ～4Pair Power Spread!!!!～｜LIVE＆EVENT",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "61834a07b586a0ce0e327af9ec253de9bff20da0cc6674ac3e9672cfe41beab1",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "translation_pending",
+          "title_zh": "",
+          "summary_zh": "",
+          "source_hash": "dd75468889ae511b93cf74768736e9d83cd3c78503ab8bb2e8c6ef2da1517a20",
+          "model": "",
+          "reason": "等待中文翻译，尚不用于行程匹配",
+          "rules": []
+        }
+      },
+      {
+        "id": "2fe70e863233e59886e0186a",
+        "source_id": "gakuen-idolmaster-live",
+        "source_url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/iwate.php",
+        "title": "学園アイドルマスター LIVE TOUR -標- 岩手公演",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "9f4153caecf21308a498eb9ffc51114aa1c12e75b52653ce46bdb8817d11be2d",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_fukui.png",
+            "alt": "福井公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_fukuoka.png",
+            "alt": "福岡公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_iwate.png",
+            "alt": "岩手公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_final.png",
+            "alt": "ファイナル公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/img_iwate.webp",
+            "alt": "岩手公演 ビジュアル",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "translation_pending",
+          "title_zh": "",
+          "summary_zh": "",
+          "source_hash": "6a0a04c37c18177e364134804f58d45cecced5c4f33eb1a61d591cb547b91d66",
+          "model": "",
+          "reason": "等待中文翻译，尚不用于行程匹配",
+          "rules": []
+        }
+      },
+      {
+        "id": "3d0295f7c66df5ff779e27d9",
+        "source_id": "hasunosora-official",
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6720",
+        "title": "いしかわマルシェの開催決定のお知らせ",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "047364e1d6a1ede907b0048b5719f04f079f7beac14780ab3d01ec66584dcf04",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "莲之空石川公演配套「石川市集」",
+          "summary_zh": "2026年11月28日11:00–16:30、29日11:00–15:30，在石川县产业展示馆4号馆前的室外展示场举办，包含餐车及石川企业摊位。",
+          "source_hash": "0858a5c6287fc8d53314c443ed4c2893ffdef6f70d6a3d96cf0e94c7a159a284",
+          "model": "source-reviewed",
+          "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+          "rules": [
+            {
+              "title": "举办时间与地点",
+              "text_zh": "两天结束时间不同：28日16:30，29日15:30；地点为4号馆前室外展示场，均为日本时间。",
+              "evidence_ja": "〇開催日時\n2026年11月28日（土） 11:00～16:30\n2026年11月29日（日） 11:00～15:30\n〇出展場所\n屋外展示場（産業展示館4号館前）"
+            },
+            {
+              "title": "支付方式",
+              "text_zh": "接受现金、各类信用卡、电子货币及条码支付；具体摊位细节后续公布。",
+              "evidence_ja": "〇支払方法\n現金または各種クレジットカード・電子マネー・バーコード決済"
+            }
+          ]
+        }
+      },
+      {
+        "id": "4dd06bfcf0d0abb2eb9e875e",
+        "source_id": "hasunosora-official",
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+        "title": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ Link Live Dream ～おいでよ！石川大観光Ⅱ～｜LIVE＆EVENT",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "e9abaa1a991c4962f8689bcd14dde1ae2125bc4ab989495fbbd3383d07109f2f",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "needs_review",
+          "title_zh": "莲之空 Link Live Dream「来吧！石川大观光Ⅱ」",
+          "summary_zh": "2026年11月28、29日在金泽石川县产业展示馆4号馆举办。一般销售第一次抽选已于10月25日截止；第二次为10月31日12:00至11月8日23:59（日本时间），信用卡付款限定，每人每场最多2张。",
+          "source_hash": "21e07da81ad4db867c82e9f8b789df957e6a07a4811eeb663fd4718bc8cbe36e",
+          "model": "source-reviewed",
+          "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+          "rules": [
+            {
+              "title": "场次",
+              "text_zh": "11月28日15:30入场、16:30开演；29日14:30入场、15:30开演，均为日本时间。",
+              "evidence_ja": "【日程】\nDay.1 2026年11月28日(土) 15:30開場／16:30開演\nDay.2 2026年11月29日(日) 14:30開場／15:30開演\n【会場】\n石川・石川県産業展示館（4号館）"
+            },
+            {
+              "title": "两轮一般抽选",
+              "text_zh": "第一次10月10日至25日已截止；第二次10月31日12:00至11月8日23:59，11月13日13:00起公布结果，每人每场最多2张，仅信用卡支付。",
+              "evidence_ja": "＜一般発売（1次抽選）＞\n----------\n■受付URL： https://eplus.jp/hasunosora-lld/\n■受付期間：2026年10月10日（土）12:00～10月25日（日）23:59\n■当落発表：2026年10月31日（土）13:00～\n■入金期間：2026年10月31日（土）13:00～11月3日（火・祝）21:00\n※枚数制限：お一人様、 1公演につき2枚までお申込み可能。（複数公演申込可能）\n----------\n＜一般発売（2次抽選）＞\n----------\n■受付URL： https://eplus.jp/hasunosora-lld/\n■受付期間：2026年10月31日（土）12:00～11月8日（日）23:59\n■当落発表：2026年11月13日（金）13:00～\n※枚数制限：お一人様、 1公演につき2枚までお申込み可能。（複数公演申込可能）\n※クレジットカード決済のみ受付となります。\n----------"
+            },
+            {
+              "title": "门票",
+              "text_zh": "指定席13,000日元，U-20为6,500日元，升席另加13,000日元；U-20申请者与同行者都须当天未满20岁。",
+              "evidence_ja": "【チケット料金】\n全席指定：13,000円（税込）\nU-20割引チケット：6,500円（税込）\nアップグレードチケット（グッズ付き）：＋13,000円\n----------\n＜U-20割引チケットについて＞\n本公演は、20歳未満の方にもご参加いただきやすくするため、対象の方に向け「U-20割引チケット」を販売いたします。\n・ 公演当日時点で20歳未満の方が購入できるチケットとなります。\n・一般発売に合わせ販売予定です。枚数には限りがございますので、あらかじめご了承ください。\n・当日はご入場にあたり、年齢を確認できる身分証明書を確認させていただきます。\n・U-20割引チケットはお一人様1公演につき2枚までお申込みいただけますが、同行者の方も公演当日時点で20歳未満の方に限ります。あらかじめご了承ください。\n----------"
+            },
+            {
+              "title": "升席",
+              "text_zh": "升席抽选10月17日至25日已截止，仅原最速先行中选并付款者可申请；同行者、账号及张数须与原中选记录一致。",
+              "evidence_ja": "＜アップグレード抽選受付＞\n----------\n■受付期間：2026年10月17日（土）12:00～10月25日（日）23:59\n■当落発表：2026年10月31日（土）13:00～\n※クレジットカード決済のみ受付となります。\n----------\n※受付URLは最速先行抽選でチケット購入済みの方でお申込ご本人様のみへイープラスよりメールでご案内いたします。\nメールが届かない場合はお申込ご本人様のイープラスサイト内「申込み履歴（申込み状況照会）」の当選したチケットの詳細から受付URLをご確認いただけます。\n▼申込み履歴（申込み状況照会）\nhttps://eplus.jp/jyoukyou/\n※同行者様には受付URLのご案内はいたしません。\n＜お申込み条件＞\n【対象のお客様】\n最速先行抽選受付にて「全席指定：13,000円（税込）」のチケットにご当選され、ご入金が完了のお申込ご本人様。\n※ご当選・ご入金された公演日・会員情報と同一アカウントのお申込ご本人様が抽選対象となります。最速先行抽選受付にて当選された申込者様のアカウントでお申込みください。登録情報を変更されたり、異なるアカウント情報、異なる同行者でお申込みをされた場合、無効となりますのでご注意ください。\n※同一アカウントのお申込みでも、最速先行抽選受付で当選された同行者様が、「アップグレードチケット」の受付で申込者様としてお申込みをされた場合は、無効となりますのでご注意ください。\n例）最速先行抽選受付にてAさんが申込者、Bさんが同行者として当選\n⇒「アップグレードチケット」の受付はBさんが申込者、Aさんが同行者の場合無効\n※最速先行抽選受付にて2枚購入済みの場合、2枚全てが「アップグレードチケット」の対象となり、一部のみを「アップグレードチケット」としてお申込みは無効となります。\n必ず、最速先行抽選受付にて当選したチケットと同枚数にて、「アップグレードチケット」をお申込みください。\n※チケット代金の他に各種手数料が必要となります。\n※アップグレードチケットご購入者様は優先配席を保証いたしますが、エリアの一部の席につきまして、「全席指定」の方が配席される可能性がございます。何卒ご理解の程、お願い申し上げます。\n※「アップグレードチケット」に抽選で落選した場合は、当選済みの「全席指定」でのご入場・ご観覧となります。"
+            },
+            {
+              "title": "实名与费用",
+              "text_zh": "3岁以上收费；需eplus会员，票价外另有手续费。申请者及同行者登记人脸照片，携带照片身份证件。",
+              "evidence_ja": "●注意事項●\n※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、先着順ではなく、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "69db4e82e137a6d85faa1a15",
+        "source_id": "hasunosora-official",
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106",
+        "title": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ Link Live Dream ～106期新入生入部記念公演～｜LIVE＆EVENT",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "a99b3660ea335be52dbdcfd1f8c1dfaf3479cd3737fe008e9d2992cb87ca4f0a",
+        "related_event_ids": [
+          "auto-69db4e82e137a6d8"
+        ],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "ready",
+          "title_zh": "莲之空 Link Live Dream「106期新生入部纪念公演」",
+          "summary_zh": "2027年1月22日在东京日本武道馆举办，16:00入场、17:00开演。最速先行抽选于2026年9月25日12:00至11月8日23:59（日本时间）受理，每人每场最多2张。",
+          "source_hash": "0d7c55e7f707640051cfe343ed1fb6a58538c895eeb4960a8156c8d524c7688f",
+          "model": "source-reviewed",
+          "reason": "正文日期、地点及规则证据通过校验",
+          "rules": [
+            {
+              "title": "票价与U-20",
+              "text_zh": "全席指定13,000日元，U-20为6,500日元（均含税）；U-20计划随一般销售开放，申请者及同行者须当天未满20岁并出示年龄证明，每人每场最多2张。",
+              "evidence_ja": "【チケット料金】\n全席指定：13,000円（税込）\nU-20割引チケット：6,500円（税込）\n----------\n＜U-20割引チケットについて＞\n本公演は、20歳未満の方にもご参加いただきやすくするため、対象の方に向け「U-20割引チケット」を販売いたします。\n・ 公演当日時点で20歳未満の方が購入できるチケットとなります。\n・一般発売に合わせ販売予定です。枚数には限りがございますので、あらかじめご了承ください。\n・当日はご入場にあたり、年齢を確認できる身分証明書を確認させていただきます。\n・U-20割引チケットはお一人様1公演につき2枚までお申込みいただけますが、同行者の方も公演当日時点で20歳未満の方に限ります。あらかじめご了承ください。\n----------"
+            },
+            {
+              "title": "抽选、结果及付款",
+              "text_zh": "最速先行并非先到先得：9月25日12:00至11月8日23:59受理，11月14日13:00起公布结果，付款期为11月14日13:00至17日21:00（日本时间），每人每场最多2张。",
+              "evidence_ja": "＜最速先行抽選＞\n----------\n■受付URL： https://eplus.jp/hasunosoralldream106/\n■受付期間：2026年9月25日（金）12:00～11月8日（日）23:59\n■当落発表：2026年11月14日（土）13:00～\n■入金期間：2026年11月14日（土）13:00～11月17日（火）21:00\n※枚数制限：お一人様1公演につき、各公演それぞれに2枚までお申込み可能（複数公演申込可能）\n----------"
+            },
+            {
+              "title": "注册和年龄",
+              "text_zh": "需免费注册eplus会员；3岁以上收费，不能据此认定3岁以下免费入场。",
+              "evidence_ja": "※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。"
+            },
+            {
+              "title": "修改与费用",
+              "text_zh": "只能在受理期间修改或取消申请；中选后不能取消购买。票价之外另有手续费。",
+              "evidence_ja": "※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。"
+            },
+            {
+              "title": "实名入场",
+              "text_zh": "申请者和同行者均需登记人脸照片；随身携带带照片的官方身份证件，提前完成同行者登记。",
+              "evidence_ja": "※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。\n▼顔認証入場システムのご利用について\nhttps://eplus.jp/faceticket_about/\n■同行者登録とは？\nhttps://eplus.jp/sf/guide/fellow-ep/\n■【同行者登録】手続きはこちら\nhttps://member.eplus.jp/update-dokosha\n※受付開始前からお手続きいただけます。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "70dd2d30c1a28bb3346648ef",
+        "source_id": "hasunosora-official",
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+        "title": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ Link Live Dream ～103期卒業公演～｜LIVE＆EVENT",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "0cb602d5ceaf08e0fb4f5d08caca9764e427899a6caca6dc9bd82cb35d17f91e",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "needs_review",
+          "title_zh": "莲之空 Link Live Dream「103期毕业公演」",
+          "summary_zh": "2027年1月23、24日在东京日本武道馆举办。Day1与Day2分别使用Extra单曲及电影BD特装限定版附券报名，开始日期不同，均于11月8日23:59（日本时间）截止。花宫初奈仅Day2出演。升席须先中选并付款，另行抽选。",
+          "source_hash": "afd26599236bd7d23ef1fc3815c7ae131a851d98170a7ec09f299488c31de48d",
+          "model": "source-reviewed",
+          "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+          "rules": [
+            {
+              "title": "场次与出演差异",
+              "text_zh": "1月23日16:00入场、17:00开演；24日14:30入场、15:30开演。花宫初奈仅第二天出演。",
+              "evidence_ja": "【日程】\nDay.1 2027年1月23日(土) 16:00開場／17:00開演\nDay.2 2027年1月24日(日) 14:30開場／15:30開演\n【会場】\n東京・日本武道館\n【出演】\n蓮ノ空女学院スクールアイドルクラブ\n楡井希実（日野下花帆役）、花宮初奈（乙宗 梢役）、野中ここな（村野さやか役）、佐々木琴子（夕霧綴理役）、菅 叶和（大沢瑠璃乃役）、月音こな（藤島 慈役）、櫻井陽菜（百生吟子役）、葉山風花（徒町小鈴役）、来栖りん（安養寺姫芽役）、三宅美羽（セラス 柳田 リリエンフェルト役）、進藤あまね（桂城 泉役）\n※花宮初奈（乙宗 梢役）はDay.2 のみ出演となります。"
+            },
+            {
+              "title": "Day1附券",
+              "text_zh": "10月14日发行Extra单曲附券：10月14日12:00至11月8日23:59受理；每序列号最多2张，11月14日13:00公布结果，中选后至11月17日21:00付款。均为日本时间。",
+              "evidence_ja": "★お申込み対象：Day.1 2027年1月23日（土）公演\n2026年10月14日（水）発売\n蓮ノ空女学院スクールアイドルクラブ Extraシングル\n「タイトル未定」\n封入申込券にて受付\n----------\n■受付期間：2026年10月14日（水）12:00～11月8日（日）23:59\n■当落発表：2026年11月14日（土）13:00～\n■入金期間：2026年11月14日（土）13:00～11月17日（火）21:00\n※枚数制限：『シリアルNo.』1つにつき、Day.1公演に2枚までお申込み可能\n----------"
+            },
+            {
+              "title": "Day2附券",
+              "text_zh": "9月25日发行电影Bloom Garden Party BD特装限定版附券：9月25日12:00至11月8日23:59受理，每序列号最多2张；结果及付款时间与Day1相同。",
+              "evidence_ja": "★お申込み対象：Day.2 2027年1月24日（日）公演\n2026年9月25日（金）発売\n『映画 ラブライブ！蓮ノ空女学院スクールアイドルクラブ Bloom Garden Party』Blu-ray（特装限定版）\n封入申込券にて受付\n----------\n■受付期間：2026年9月25日（金）12:00～11月8日（日）23:59\n■当落発表：2026年11月14日（土）13:00～\n■入金期間：2026年11月14日（土）13:00～11月17日（火）21:00\n※枚数制限：『シリアルNo.』1つにつき、Day.2公演に2枚までお申込み可能\n----------"
+            },
+            {
+              "title": "票价及U-20",
+              "text_zh": "指定席13,000日元，U-20票6,500日元；U-20计划随一般销售开放，参加者和同行者须在演出当天未满20岁并接受年龄核实，每人每场最多2张。",
+              "evidence_ja": "【チケット料金】\n全席指定：13,000円（税込）\nU-20割引チケット：6,500円（税込）\nアリーナアップグレードチケット（グッズ付き）：＋13,000円\n----------\n＜U-20割引チケットについて＞\n本公演は、20歳未満の方にもご参加いただきやすくするため、対象の方に向け「U-20割引チケット」を販売いたします。\n・ 公演当日時点で20歳未満の方が購入できるチケットとなります。\n・一般発売に合わせ販売予定です。枚数には限りがございますので、あらかじめご了承ください。\n・当日はご入場にあたり、年齢を確認できる身分証明書を確認させていただきます。\n・U-20割引チケットはお一人様1公演につき2枚までお申込みいただけますが、同行者の方も公演当日時点で20歳未満の方に限ります。あらかじめご了承ください。\n----------"
+            },
+            {
+              "title": "升席不是门票",
+              "text_zh": "升席另加13,000日元，仅最速先行中选并完成付款的原申请者可申请；分两轮抽选，第二轮信用卡付款限定。不能把升席当作普通门票购买。",
+              "evidence_ja": "＜アップグレード受付（1次抽選）＞\n----------\n■受付期間：2026年11月21日（土）12:00～11月29日（日）23:59\n■当落発表：2026年12月5日（土）13:00～\n■入金期間：2026年12月5日（土）13:00～12月8日（火）21:00\n※支払い方法：クレジットカード・コンビニ／ATM・ネットバンキング（ペイジー）がお選びいただけます。\n----------\n＜アップグレード受付（2次抽選）＞\n----------\n■受付期間：2026年12月5日（土）12:00～12月13日（日）23:59\n■当落発表：2026年12月19日（土）13:00～\n※支払い方法：クレジットカードのみとなります。\n----------\n※受付URLは最速先行抽選でチケット購入済みの方でお申込ご本人様のみへイープラスよりメールでご案内いたします。\nメールが届かない場合はお申込ご本人様のイープラスサイト内「申込み履歴（申込み状況照会）」の当選したチケットの詳細から受付URLをご確認いただけます。\n▼申込み履歴（申込み状況照会）\nhttps://eplus.jp/jyoukyou/\n※同行者様には受付URLのご案内はいたしません。"
+            },
+            {
+              "title": "身份核实",
+              "text_zh": "申请者及同行者都须登记人脸照片，并携带带照片的官方身份证件；3岁以上收费，票价外另收手续费。",
+              "evidence_ja": "●注意事項●\n※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、先着順ではなく、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "7b39a46f58d94f315287136a",
+        "source_id": "hasunosora-official",
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6711",
+        "title": "アルマビアンカより「『ラブライブ！蓮ノ空女学院スクールアイドルクラブ』 POP UP SHOP in AMNIBUS STORE -white-」開催決定のお知らせ！！",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "d567eb1f69f9ff2e22871beaa6c40a63561708d1196c576aa08e7c5ed3ff8c54",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "莲之空 AMNIBUS STORE -white- 扑克牌花色主题快闪预告",
+          "summary_zh": "官方宣布12月在 AMNIBUS STORE -white- 举办，使用扑克牌花色主题新绘插画。具体起止日期、地址和入场方式尚未公布，保留待审核。",
+          "source_hash": "d20b3767c3880833504565d869f3513dfdee3d6ed34c171f06f7a5f3e6966fc6",
+          "model": "source-reviewed",
+          "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+          "rules": [
+            {
+              "title": "已公布范围",
+              "text_zh": "仅公布12月举办及新绘主题，详细信息后续发表。",
+              "evidence_ja": "「『ラブライブ！蓮ノ空女学院スクールアイドルクラブ』 POP UP SHOP in AMNIBUS STORE -white-」が12月に「AMNIBUS STORE -white-」で開催決定！\nトランプのスートテーマ衣装」の新規描き下ろしを大公開！\n詳細は後日発表いたしますので、続報をお待ち下さい✨️"
+            }
+          ]
+        }
+      },
+      {
+        "id": "816362dea2b2656387551a7b",
+        "source_id": "gakuen-idolmaster-portal",
+        "source_url": "https://idolmaster-official.jp/news/01_20075",
+        "title": "【学マス】10/20 (火) 学マス生配信「はつぼし放課後とーく」お知らせまとめ",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "8a8548da7dbd36b9a8a0432c1b3b2cbcc34909740018e35f3f50e35eff6c1d33",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "学园偶像大师线下消息：罗森联动、初星商店及「标」终场转售",
+          "summary_zh": "10月20日官方节目总结中的线下消息：全国罗森联动于11月10日启动，初星商店“应援部”商品11月6日开售。「标」最终公演全部席种售罄且不进行一般先到先得销售，官方转售受理已于10月28日9:59（日本时间）结束。门店清单、活动结束日期和完整参加细则尚待核实。",
+          "source_hash": "b863b1c6e818570c5668e27491e1dc32221af913c8f2dd2373e9b461a1c1b31a",
+          "model": "source-reviewed",
+          "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+          "rules": [
+            {
+              "title": "终场票务状态",
+              "text_zh": "11月7日Day1、8日Day2全部席种售罄，不进行一般先到先得销售。官方转售受理为10月20日20:00至28日9:59，日本时间，目前已结束；不能把配信票当作现场门票。",
+              "evidence_ja": "【標ファイナル】公式リセール\n全席種完売御礼！\n一般先着の実施はございません。\n受付期間\n2026年10月20日(火)20:00～2026年10月28日(水)9:59\n受付URL\n2026年11月7日(土) DAY1\nhttps://asobiticket2.asobistore.jp/receptions/020245bc-d81a-4f98-98f7-8d24f6eda837\n2026年11月8日(日) DAY2\nhttps://asobiticket2.asobistore.jp/receptions/03f82da5-8b3f-4886-a7b2-11734211d30f\n※すでにチケットをお持ちでリセール出品をご希望の方は『マイページ＞チケット申込履歴』より、出品する公演の申込詳細ページにてお手続きとなります。\n※本サービスにて購入希望者がいない場合は、リセール出品が成立しない場合もございます。\n※リセール抽選中（毎日10:00～抽選終了まで）はチケット購入・出品のお申込みおよびキャンセルはできません。\n※2026年10月26日(月)00:00以降のお支払いはクレジットカードのみとなります。"
+            },
+            {
+              "title": "转售注意事项",
+              "text_zh": "每日10:00至抽选结束期间不能申请购买、出品或取消；10月26日0:00后仅信用卡付款。出品不保证成交，持票人通过申请历史办理。",
+              "evidence_ja": "※すでにチケットをお持ちでリセール出品をご希望の方は『マイページ＞チケット申込履歴』より、出品する公演の申込詳細ページにてお手続きとなります。\n※本サービスにて購入希望者がいない場合は、リセール出品が成立しない場合もございます。\n※リセール抽選中（毎日10:00～抽選終了まで）はチケット購入・出品のお申込みおよびキャンセルはできません。\n※2026年10月26日(月)00:00以降のお支払いはクレジットカードのみとなります。"
+            },
+            {
+              "title": "罗森联动",
+              "text_zh": "2026年11月10日起在全国罗森开展联动，使用蓝色缎带与蕾丝主题新绘；具体门店、结束日期和参加条件未在本页公布。",
+              "evidence_ja": "学園アイドルマスター×ローソンキャンペーン 2026年11月10日から実施決定！\n今年も 全国のローソンで学マスとのコラボキャンペーン の実施が決定！\n今回の描き下ろしイラストは青いリボンとレースをテーマにした大人可愛い衣装に♪\nキャンペーンは 2026年11月10日からスタート！\n詳細は続報をお楽しみに♪"
+            },
+            {
+              "title": "初星商店秋季商品与积分",
+              "text_zh": "经典制服Autumn ver.商品已在线下和网店销售；结账出示积分卡，每满3,000日元（含税）累计印章，特典设计更换为秋季版，普通版库存售完即止。",
+              "evidence_ja": "ハツボシストア最新情報① 「クラシカル制服」にAutumn ver.が登場中！\n現在店頭とオンラインでは 「クラシカル制服」イラストAutumn ver.のグッズを販売中 です！\nこちらはオープン時に発売された 「クラシカル制服」の衣装と表情が秋冬仕様にチェンジしたグッズ です！\n一緒に飾ることで季節の移り変わりも楽しめます♪\n販売状況はハツボシストア公式Xをご確認ください！\n▼ハツボシストア公式X\nhttps://x.com/hatsuboshistore\nハツボシストア最新情報② 「クラシカル制服」Autumn ver.のスタンプカード特典も登場！\nお会計時に提示すると3,000円（税込）ごとにスタンプがたまるポイントカードも、\n特典デザインがAutumn ver.に切り替わっています♪\n通常Ver.は在庫が無くなり次第終了 となりますので、ポイントがたまっている方はお見逃しなく！"
+            },
+            {
+              "title": "应援部商品",
+              "text_zh": "2026年11月6日开售。团服在线接单，同时店内展示样品并少量提前销售；门店和营业时间须另查官方说明。",
+              "evidence_ja": "ハツボシストア最新情報③ 「ハツボシストア応援部」描き下ろしイラストを公開！\n今回は 花海咲季を中心にしたビビッドで元気な「応援部」がテーマ♪\n団服にはアイドルごとに こだわりの熟語が刺繍 されていたり、 髪型にはポイントでワンカラー を取り入れていたり気合十分！\n商品は2026年11月6日から販売スタート！\n団服はオンライン受注販売 のほか、 店頭でもサンプルの展示と数量限定ですが先行販売 も実施します♪\n詳細はハツボシストア公式Xでご確認ください。\n▼ハツボシストア公式X\nhttps://x.com/hatsuboshistore"
+            }
+          ]
+        }
+      },
+      {
+        "id": "859eb48cedf3ebadae9bc83d",
+        "source_id": "hasunosora-official",
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+        "title": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ × #カラオケの鉄人 コラボ詳細情報解禁のお知らせ！",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "64b063bb77ed21c188ab2e16d6d33a8a17be940882033b33b353554d84b3d7c2",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "莲之空 × 卡拉OK铁人「Dreamy Parlor!」",
+          "summary_zh": "2026年10月29日至12月13日在全国11家店举办，覆盖东京、福冈、大阪、名古屋、松山、京都、新潟、札幌。6家店设主题房，每人每2小时2,200日元；周边满2,000日元赠随机明信片，饮品赠杯垫。",
+          "source_hash": "0e4a868de5e432f66eca274d85efb34f8945e6cac93149d9308b9d811ac5faa5",
+          "model": "source-reviewed",
+          "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+          "rules": [
+            {
+              "title": "活动期间及11店",
+              "text_zh": "10月29日至12月13日；东京4店及福冈天神、大阪难波、名古屋名站、松山银天街、京都河原町、新潟万代City、札幌薄野。并非每家都有主题房。",
+              "evidence_ja": "【開催期間】\n2026年10月29日(木)～2026年12月13日(日)\n【開催場所】\nカラオケの鉄人 全国11店舗\n新宿大ガード店、池袋東口店、渋谷道玄坂店、秋葉原電気街店、福岡天神店、大阪なんば店、名古屋名駅店、松山銀天街店、京都河原町店、新潟万代シティ店、札幌すすきの店\n※コンセプトルームの展開有無は店舗によって異なります。"
+            },
+            {
+              "title": "周边赠品",
+              "text_zh": "周边购买金额达到2,000日元（含税）赠随机明信片1张，共9种；原文不是“每满2,000日元”。",
+              "evidence_ja": "【販売グッズ】\nコラボ店舗各店にて、ジャージメイドな描き下ろしイラストを使用したコラボグッズの販売をいたします！\nコラボグッズを¥2,000(税込)以上ご購入で特典ポストカード（全9種）をランダムで1枚プレゼントいたします。"
+            },
+            {
+              "title": "饮品及挑战",
+              "text_zh": "点联动饮品赠杯垫1张；指定歌曲挑战100分可获饮品特典全套，66/77/88/99分获1张。套餐另有额外特典。",
+              "evidence_ja": "【課題曲チャレンジ】\nコラボ店舗各店にて、課題曲チャレンジを開催！\n採点機能を入れて指定の楽曲を歌うと特典に応じた特典をゲットできます。\n100点達成でドリンク特典のコンプリートセットを、ゾロ目（66,77,88,99点）達成でドリンク特典を1枚プレゼントいたします！"
+            },
+            {
+              "title": "主题房",
+              "text_zh": "10月19日18:00（日本时间）开始预约。新宿大Guard、涩谷道玄坂、秋叶原电气街、福冈天神、大阪难波、名古屋名站6店；每人每2小时2,200日元（含税）。",
+              "evidence_ja": "【コンセプトルーム】\n一部店舗では、描き下ろしイラストと一緒にカラオケを楽しめるコンセプトルームも展開いたします！\nコンセプトルームは10/19(月)18:00より予約開始！\n◼︎開催店舗\n新宿大ガード店、渋谷道玄坂店、秋葉原電気街店、福岡天神店、大阪なんば店、名古屋名駅店\n◼︎利用料金\nお一人様1枠（2時間）：¥2,200 (税込)"
+            }
+          ]
+        }
+      },
+      {
+        "id": "d85d9cb0248adf13fa7546c4",
+        "source_id": "hasunosora-official",
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=RTB",
+        "title": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ 103-105th Fes×ReC：LIVE ～Road to Bloom～｜LIVE＆EVENT",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "07b60d8cf71147156d0c5b39d78e86db70a4630af8cedbee949e1f6da0fc08cb",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "translation_pending",
+          "title_zh": "",
+          "summary_zh": "",
+          "source_hash": "88414b6d57d09320db86e1c8e7e45f314135bbb1abe78244d617755d0de51302",
+          "model": "",
+          "reason": "等待中文翻译，尚不用于行程匹配",
+          "rules": []
+        }
+      },
+      {
+        "id": "e8f9e7616b711e63b2e4a67e",
+        "source_id": "hasunosora-official",
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6728",
+        "title": "石川県×ラブライブ！蓮ノ空女学院スクールアイドルクラブ「能登応援プロジェクト」リニューアルのおしらせ",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "9967371130dbc37994dcfae1a43e84d1113346dffb8736b2be3499c2e6abd17d",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "莲之空 × 石川县「能登应援计划」更新",
+          "summary_zh": "2026年10月30日起，能登9市町新增迷你角色展板并更新旅游宣传册。联动商品在金泽Gamers、加贺市观光信息中心销售；展板具体地点和结束日期须查官方专题，通販截止日不等于线下活动结束日。",
+          "source_hash": "63c127eddc1056d79c12ffb9e62af2da5864183afe048cfea5fe44c7b7b913ee",
+          "model": "source-reviewed",
+          "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+          "rules": [
+            {
+              "title": "启动时间",
+              "text_zh": "2026年10月30日开始；公告未明确线下结束日期。",
+              "evidence_ja": "【実施開始日】\n2026年10月30日（金）"
+            },
+            {
+              "title": "旅游宣传册",
+              "text_zh": "能登9市町展板设施、东京八重洲石川Terrace、石川县名古屋观光物产案内所和金泽Gamers发放，送完即止。各设施营业及休馆日须另查。",
+              "evidence_ja": "【ひゃくまんさんコラボパネル展示およびリーフレット配布】\n※各施設の開館時間・休館日等は、施設の公式情報をご確認ください。\n【リーフレット配布場所】\n・能登9市町のパネル設置施設\n・石川県アンテナショップ「八重洲いしかわテラス」\n・石川県名古屋観光物産案内所\n・金沢ゲーマーズ\n※リーフレットはなくなり次第、配布終了となります。"
+            },
+            {
+              "title": "线下销售",
+              "text_zh": "10月30日起：金泽Gamers（金泽FORUS 5楼）10:00–20:00；加贺市观光信息中心（JR加贺温泉站内）8:45–17:30。",
+              "evidence_ja": "◆店頭販売\n2026年10月30日(金)～\n・金沢ゲーマーズ\n石川県金沢市堀川新町3−1 金沢フォーラス5F\n営業時間 10:00～20:00\nhttps://www.gamers.co.jp/shop/detail.php?id=22\n・加賀市観光情報センター\n加賀市作見町ヲ6-2 ＪＲ加賀温泉駅構内\n営業時間 8:45～17:30\nhttps://www.tabimati.net/spot/detail_198.html"
+            }
+          ]
+        }
+      },
+      {
+        "id": "f25c77e1c21a3fd0228d91bf",
+        "source_id": "hasunosora-official",
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6743",
+        "title": "「THEキャラCAFE HEPナビオ店×ラブライブ！シリーズ」の詳細を公開！",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "648c934c3a83189d08de5eb5e781d35fbd622db87846fdd6e41f978c2c51e65c",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "translation_pending",
+          "title_zh": "",
+          "summary_zh": "",
+          "source_hash": "e1b2937e7d9721abf1798ecde93bdeaa07b8240854e5a5a4664c1d216fb365b1",
+          "model": "",
+          "reason": "等待中文翻译，尚不用于行程匹配",
+          "rules": []
+        }
+      },
+      {
+        "id": "f2d38c18557debf61f0b524a",
+        "source_id": "gakuen-idolmaster-live",
+        "source_url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/fukui.php",
+        "title": "学園アイドルマスター LIVE TOUR –標- 福井公演",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "292db8cae476f9d4fb2226a7f2f8bb9dc5be4a25980ffa7e59140120eb8f88dc",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_fukui.png",
+            "alt": "福井公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_fukuoka.png",
+            "alt": "福岡公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_iwate.png",
+            "alt": "岩手公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_final.png",
+            "alt": "ファイナル公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/img_fukui.webp",
+            "alt": "福井公演 ビジュアル",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "translation_pending",
+          "title_zh": "",
+          "summary_zh": "",
+          "source_hash": "88dd2ea94a27a6636c6caee110f2998fd1ffb416f64a033edf13437f837d5b18",
+          "model": "",
+          "reason": "等待中文翻译，尚不用于行程匹配",
+          "rules": []
+        }
+      },
+      {
+        "id": "f86ba6cf06b5aed7cf0cc58a",
+        "source_id": "hasunosora-official",
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=6thBGP",
+        "title": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ 6th Live Dream ～Bloom Garden Party～｜LIVE＆EVENT",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "243182a580759a157de6cc40ac6dac2f97ddc6c2c72f7425b476084a616d7e6e",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "translation_pending",
+          "title_zh": "",
+          "summary_zh": "",
+          "source_hash": "057ed2097cf9041c98bd8e9093c24f8843968f855dd62c59655d075f557ff431",
+          "model": "",
+          "reason": "等待中文翻译，尚不用于行程匹配",
+          "rules": []
+        }
+      },
+      {
+        "id": "fca84b7613dfcf4c48c379fa",
+        "source_id": "gakuen-idolmaster-live",
+        "source_url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/fukuoka.php",
+        "title": "学園アイドルマスター LIVE TOUR -標- 福岡公演",
+        "first_seen_at": "2026-10-29T11:23:32.044Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
+        "changed_at": "2026-10-29T11:23:32.044Z",
+        "content_hash": "76a2264369b3fbd966fa1a0aaae7bbd49f081eb2a0eda2383ff243c4ff3c6da2",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_fukui.png",
+            "alt": "福井公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_fukuoka.png",
+            "alt": "福岡公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_iwate.png",
+            "alt": "岩手公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_final.png",
+            "alt": "ファイナル公演",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/img_fukuoka.webp",
+            "alt": "福岡公演 ビジュアル",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "translation_pending",
+          "title_zh": "",
+          "summary_zh": "",
+          "source_hash": "29a50232528d89759e1cfe1992e207574dfa7a569b88a3a046c2bf6e0dd06f8f",
+          "model": "",
+          "reason": "等待中文翻译，尚不用于行程匹配",
+          "rules": []
+        }
+      },
+      {
+        "id": "81f284dd403980ef9e9a209e",
+        "source_id": "liella-official",
+        "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+        "title": "ラブライブ！スーパースター!! Liella! 8th LoveLive! Tour ～Our Song, Our Dreams～",
+        "first_seen_at": "2026-10-29T11:18:59.617Z",
+        "last_seen_at": "2026-10-29T11:18:59.617Z",
+        "changed_at": "2026-10-29T11:18:59.617Z",
+        "content_hash": "13577003284fcfbe58b50671f2661bad9b2d6127900db032e82866b0a3430d88",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "needs_review",
+          "title_zh": "Liella! 八巡「Our Song, Our Dreams」",
+          "summary_zh": "2027年3月6–7日东京有明Arena、4月24–25日福冈Marine Messe B馆、5月8–9日名古屋Port Messe第1展示馆。每站Day1和Day2对应不同商品附券和报名开始日，均于12月14日23:59（日本时间）截止；票价和开演时间尚待公布。",
+          "source_hash": "d103aab0c657dc77faff0f06936c1b57a474941dee0d942e2750e20b9db13580",
+          "model": "source-reviewed",
+          "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+          "rules": [
+            {
+              "title": "三站日程",
+              "text_zh": "东京3月6–7日、福冈4月24–25日、名古屋5月8–9日；不可将爱知县作为城市名称。",
+              "evidence_ja": "＜東京公演＞\n【日程】\nDay.1 2027年3月6日（土）\nDay.2 2027年3月7日（日）\n【会場】\n東京・有明アリーナ\n【公演に関するお問い合わせ先】\nインフォメーションデスク https://information-desk.info/\n＜福岡公演＞\n【日程】\nDay.1 2027年4月24日（土）\nDay.2 2027年4月25日（日）\n【会場】\n福岡・マリンメッセ福岡B館\n【公演に関するお問い合わせ先】\nBEA 092−712−4221（平日12:00〜16:00）\n＜愛知公演＞\n【日程】\nDay.1 2027年5月8日（土）\nDay.2 2027年5月9日（日）\n【会場】\n愛知・ポートメッセなごや 第1展示館\n【公演に関するお問い合わせ先】\nキョードー東海 052-972-7466 （月～金 12:00～18:00/土 10:00～13:00（※日曜・祝日は休業））"
+            },
+            {
+              "title": "Day1附券",
+              "text_zh": "各站Day1使用11月18日发行的八巡主题歌迷你专辑附券；11月18日12:00至12月14日23:59受理，每序列号各站Day1分别最多4张。12月19日13:00预计公布结果，付款至22日21:00，日本时间。",
+              "evidence_ja": "★お申込み対象公演：東京Day.1公演、福岡Day.1公演、愛知Day.1公演\n2026年11月18日（水）発売『ラブライブ！スーパースター!! Liella! 8th LoveLive! Tour ～Our Song, Our Dreams～』テーマソングミニアルバム封入の申込券にて受付\n----------\n■受付期間：2026年11月18日（水）12:00～12月14日（月）23:59\n■当落発表：2026年12月19日（土）13:00予定\n■入金期間：2026年12月19日（土）13:00～12月22日（火）21:00\n※枚数制限：『シリアルNo.』1つにつき、各会場のDay.1公演にそれぞれ4枚までお申込み可能（複数公演申込可能）。\n----------"
+            },
+            {
+              "title": "Day2附券",
+              "text_zh": "各站Day2使用11月27日发行的Fan Disc第2弹附券；11月27日12:00至12月14日23:59受理，每序列号各站Day2分别最多4张，结果及付款时间与Day1相同。",
+              "evidence_ja": "★お申込み対象公演：東京Day.2公演、福岡Day.2公演、愛知Day.2公演\n2026年11月27日（金）発売「ラブライブ！スーパースター!! ファンディスク第2弾 わくわく地域活動 ～Liella!と結ぶプロジェクト特別編～」封入の申込券にて受付\n----------\n■受付期間：2026年11月27日（金）12:00～12月14日（月）23:59\n■当落発表：2026年12月19日（土）13:00予定\n■入金期間：2026年12月19日（土）13:00～12月22日（火）21:00\n※枚数制限：『シリアルNo.』1つにつき、各会場のDay.2公演にそれぞれ4枚までお申込み可能（複数公演申込可能）。\n----------"
+            },
+            {
+              "title": "尚未公布",
+              "text_zh": "开场、开演时间及票价后续公布，升席安排也待后续公告。",
+              "evidence_ja": "※開場・開演時間、チケット代など、そのほかの詳細は後日ご案内いたします。"
+            },
+            {
+              "title": "实名及年龄",
+              "text_zh": "3岁以上收费；申请者与同行者均需登记人脸照片并携带带照片的官方身份证件，需eplus会员；抽选不是先到先得。",
+              "evidence_ja": "注意事項\n※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、先着順ではなく、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。\n▼顔認証入場システムのご利用について\nhttps://eplus.jp/faceticket_about/\n■同行者登録とは？\nhttps://eplus.jp/sf/guide/fellow-ep/\n■【同行者登録】手続きはこちら\nhttps://member.eplus.jp/update-dokosha\n※受付開始前からお手続きいただけます。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "12799e94fdc2df297617c5c1",
+        "source_id": "ikizulive-official",
+        "source_url": "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6679",
+        "title": "『イキヅライブ！ LOVELIVE! BLUEBIRD』のポップアップストア 「POP UP SHOP ～Winter♡Date～」 が東京アニメセンター in DNP PLAZA SHIBUYAにて開催決定！",
+        "first_seen_at": "2026-10-29T11:18:53.047Z",
+        "last_seen_at": "2026-10-29T11:18:53.047Z",
+        "changed_at": "2026-10-29T11:18:53.047Z",
+        "content_hash": "29bbdb48f51df92bbdd77316567ea080c834fa1a25c19c54188ba8227ff44e5c",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/lovelive/jp/news/2026/10/16/1002/eplWX8YUqyUyAJ3d/pCqFGgknUEGHRr40.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/lovelive/jp/news/2026/10/16/1002/W5XWdPG0DAZ4PNxy/7XlPoVQ8cT20PPrV.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "人生不易部「Winter♡Date」涩谷快闪",
+          "summary_zh": "2026年11月13–29日在涩谷MODI 2楼东京Anime Center举办，11:00–19:00。首三天10:45–10:50发入场抽签整理券，非先到先得；每满3,000日元赠随机贴纸。",
+          "source_hash": "5db3480857d150ba733942f8f622dd16192c2e5535b13f160bb0de9358d5907d",
+          "model": "source-reviewed",
+          "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+          "rules": [
+            {
+              "title": "日期与场馆",
+              "text_zh": "11月13–29日，11:00–19:00；东京涩谷MODI 2楼，营业时间与商场可能不同。",
+              "evidence_ja": "【 開催場所】 東京アニメセンター in DNP PLAZA SHIBUYA\n(東京都渋谷区神南1丁目21-3 渋谷MODI 2F)\n【開催期間】 2026年11月13日（金）～11月29日（日）\n【営業時間】 11:00～19:00\n※施設の営業時間とは異なります。\n※開催内容は予告なく変更になる場合がございます。"
+            },
+            {
+              "title": "限购",
+              "text_zh": "每笔结账：随机商品每款最多20件，非随机商品每款每种最多3件；限制可能调整。",
+              "evidence_ja": "・ランダム商品のご購入は、1会計につき各商品20個まで。\n・オープン商品のご購入は、1会計につき、各商品各種3個まで。"
+            },
+            {
+              "title": "赠品",
+              "text_zh": "每笔消费每满3,000日元（含税）获随机贴纸1张，全14种；出示EPOS卡再额外赠1张，不能选图，送完即止。",
+              "evidence_ja": "●購入特典\n1会計につき、3,000円（税込）お買い上げいただくごとに、「ランダムステッカー」（全14種）を\n1枚プレゼント！\n●エポスカード特典\nイベント会場でエポスカードをご提示いただいたお客様には、「ランダムステッカー」（全14種）を\n追加でもう1枚プレゼント！\n※特典は無くなり次第終了いたします。\n※「ランダムステッカー」の絵柄は選べません。"
+            },
+            {
+              "title": "首三天抽签入场",
+              "text_zh": "11月13–15日在涩谷MODI前10:45–10:50发券，约11:10在店门口和官方X公布抽签结果；按号码指定时间返回。10:50尚未排队则无法领券。",
+              "evidence_ja": "【 シャッフル入場に関するご案内 】\n●11月13日（金）~15日（日）についてはシャッフル入場を実施させていただきます。\n先着順ではございませんので予めご了承ください。\n・渋谷モディ館前にて整理券を配布いたします。\n整理券配布予定時間：10:45-10:50\n・11:10頃に抽選結果を東京アニメセンター入口および東京アニメセンター公式X（@anime_tokyo）にて発表いたします。\n・お手持ちの整理券番号の指定時刻に、再度お集まりください。\n・整理券をご希望の方は、配布開始時間（10:45）にお集まりくださいますようお願いいたします。\n※ご注意\n・10:50の段階でお並びいただいていない場合は、シャッフル整理券をお渡しできません。"
+            },
+            {
+              "title": "同行与其他日期",
+              "text_zh": "无整理券者须等整理券时段结束后自由入场；同行者要同时入场则按各自号码最晚时段入场。其他日期遇拥挤也可能抽签或限流。",
+              "evidence_ja": "・整理券をお持ちでないお客様は、整理券枠がすべて終了した後の【フリー入場】からのご案内となります。\n・お連れ様と同時入場をご希望の場合は、皆様がお持ちの整理券番号の案内時間のうち一番遅い回にてご案内いたします。\n・シャッフル入場対象時間であっても、整理券をお持ちの方がすべて入場されたあとはフリー入場とさせていただきます。\n・上記の日程以外でも、店内へのご入場をお待ちいただいているお客様が多数いらっしゃる場合は入場順の抽選、入場制限を行う場合がございます。"
+            },
+            {
+              "title": "通販区别",
+              "text_zh": "网上预订11月24日18:00至12月7日23:59，日本时间；预计2027年1月底起发货，通販没有购物贴纸或EPOS特典。",
+              "evidence_ja": "■WEB通販について\nバンダイナムコフィルムワークス公式通販サイトA-on STOREにて、11月24日（火）18時から12月7日（月）23時59分まで、本イベント商品の通販予約受付を実施いたします。\n【サイトURL】 https://a-onstore.jp/shop/winter-date/\n【受注期間】 2026年11月24日（火）18:00～12月7日（月）23:59\n【お届け予定日】 2027年1月末ごろより順次お届け予定\n※A-on STOREページは11月24日（火）18時にオープンとなります。\n※商品は後日お届けになります。\n※通販では購入特典、エポスカード特典はございません。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a48a7b8fd72221efc2194a11",
+        "source_id": "muse-official",
+        "source_url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+        "title": "LoveLive! Orchestra Concert＜2027年公演＞",
+        "first_seen_at": "2026-10-29T11:18:12.765Z",
+        "last_seen_at": "2026-10-29T11:18:12.765Z",
+        "changed_at": "2026-10-29T11:18:12.765Z",
+        "content_hash": "1b8e7dafa5295e3a063ca3c2b8872be9e67774e91582027f9aa0e1c9a93ada5f",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "needs_review",
+          "title_zh": "μ's 嘉宾演唱：LoveLive! Orchestra Concert 2027",
+          "summary_zh": "2027年1月10–11日在千叶县文化会馆举办，由管弦乐团演奏、μ's五位成员嘉宾演唱。1月10日17:30开演，11日12:00及16:30两场。一般第一次抽选至11月23日23:59（日本时间），每人每场最多4张。",
+          "source_hash": "2fc1a4f8e0fcca653060e8db8cb5b56d203ba4a6aee1ebd572d4d6737499ba04",
+          "model": "source-reviewed",
+          "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+          "rules": [
+            {
+              "title": "三场演出",
+              "text_zh": "1月10日16:30入场17:30开演；11日昼场11:00入场12:00开演，夜场15:30入场16:30开演。",
+              "evidence_ja": "【日程】\nDay.1 2027年1月10日（日） 16:30開場／17:30開演\nDay.2 2027年1月11日（月・祝） ＜昼公演＞11:00開場／12:00開演 ＜夜公演＞15:30開場／16:30開演\n【会場】\n千葉県文化会館"
+            },
+            {
+              "title": "门票",
+              "text_zh": "指定席11,000日元（含税）；配信另行公布，不把配信票当现场票。",
+              "evidence_ja": "【チケット料金】\n全席指定：11,000円（税込）\n※＜有料生配信＞の同時実施を予定しております。詳細は後日ご案内いたします。\n※天候・災害等の諸事情により、開演時間・公演内容の変更、延期、または中止させていただく場合がございます。"
+            },
+            {
+              "title": "一般第一次抽选",
+              "text_zh": "10月24日12:00至11月23日23:59（日本时间），11月28日13:00起公布结果；付款至12月1日21:00，每人每场最多4张，可申请多场。",
+              "evidence_ja": "一般発売（1次抽選）\n■受付URL： https://eplus.jp/lovelive_orchestra2027/\n■受付期間：2026年10月24日（土）12:00～11月23日（月・祝）23:59\n■当落発表：2026年11月28日（土）13:00～\n■入金期間：2026年11月28日（土）13:00～12月1日（火）21:00\n※枚数制限：お一人様、1公演につき4枚まで（複数公演申込可）"
+            },
+            {
+              "title": "一般第二次抽选",
+              "text_zh": "11月28日12:00至12月20日23:59（日本时间），12月25日13:00起公布结果；每人每场最多4张，仅信用卡支付。",
+              "evidence_ja": "一般発売（2次抽選）\n■受付URL： https://eplus.jp/lovelive_orchestra2027/\n■受付期間：2026年11月28日（土）12:00～12月20日（日）23:59\n■当落発表：2026年12月25日（金）13:00～\n※枚数制限：お一人様、1公演につき4枚まで（複数公演申込可）\n※クレジットカード決済のみ受付となります。"
+            },
+            {
+              "title": "年龄与实名",
+              "text_zh": "3岁以下禁止入场，3岁以上收费；需要eplus会员、申请者及同行者人脸照片登记，携带照片身份证件。中选后不能取消，另有手续费。",
+              "evidence_ja": "●注意事項●\n※3歳以上有料（3歳未満のお子様はご入場いただけません）\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを2枚以上購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。\n▼顔認証入場システムのご利用について\nhttps://eplus.jp/faceticket_about/\n■同行者登録とは？\nhttps://eplus.jp/sf/guide/fellow-ep/\n■【同行者登録】手続きはこちら\nhttps://member.eplus.jp/update-dokosha\n※受付開始前からお手続きいただけます。"
+            }
+          ]
+        }
+      },
+      {
         "id": "ca26a0cb7e16bb3282baa978",
         "source_id": "bang-dream-live",
         "source_url": "https://bang-dream.com/events/eleganza/",
         "title": "Morfonica LIVE「eleganza」",
         "first_seen_at": "2026-10-28T08:55:22.990Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-29T09:25:43.852Z",
         "content_hash": "f4491dc0e1a1a2a1e8dd311d8c54d3f0785213055c62d174d555e2c1df9eef9a",
         "related_event_ids": [],
@@ -8891,7 +9983,7 @@
         "source_url": "https://revuestarlight.com/event/11083/",
         "title": "シークフェルト音楽学院 トーク＆バラエティイベント 伝説の補習授業！？",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-29T07:04:25.917Z",
         "content_hash": "62c15a6d4905a44030be3e8dec5ffd1b6960e57d7e909686b6b6e03a2ddacd2f",
         "related_event_ids": [],
@@ -8941,7 +10033,7 @@
         "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6729",
         "title": "カクダイ製菓（愛知県名古屋市）が製造・販売する「クッピーラムネ」と「ラブライブ！シリーズ」のコラボレーション決定！！",
         "first_seen_at": "2026-10-28T23:14:16.762Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T23:14:16.762Z",
         "content_hash": "0004dfd4e45d0a8e900f2a4747c3ff00b7a304d715df20ac505b92141e7421d7",
         "related_event_ids": [],
@@ -8986,7 +10078,7 @@
         "source_url": "https://bang-dream.com/events/fujimiyako_exhibition/",
         "title": "藤都子展～16歳～",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "ad11c03ec40d3140e91767269b62dfe2ff10e6d0d0cbb745daf7ef4f5cabd1e5",
         "related_event_ids": [],
@@ -9025,7 +10117,7 @@
         "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
         "title": "Morfonica LIVE「Movement」",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "07b8f5359e094c6d2fcf0d0bfbb2fd93ce8c785ed4dd471a6aa3fc4299431151",
         "related_event_ids": [],
@@ -9099,7 +10191,7 @@
         "source_url": "https://bang-dream.com/events/ikka-dumb-rock_1st/",
         "title": "一家Dumb Rock! 1st GIG「ピース＆グルーヴ」",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "e9c9ecb1435f20404bfec8479d72f07ebcfb0fca7ee01238528824c07a758636",
         "related_event_ids": [
@@ -9141,7 +10233,7 @@
         "source_url": "https://revuestarlight.com/event/11086/",
         "title": "九九組の日2026",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "801ae8a94064fd881c18a3805b93dfdc675963dac7b96b4c4a7d737d05bf23b3",
         "related_event_ids": [],
@@ -9170,7 +10262,7 @@
         "source_url": "https://revuestarlight.com/event/11292/",
         "title": "少女☆歌劇 レヴュースタァライト 舞台映像4作品 特別上映会",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "08d8735ad665398645a29ade0e31f12755e15b55e6f1784e42a6c3093ac47600",
         "related_event_ids": [],
@@ -9199,7 +10291,7 @@
         "source_url": "https://bang-dream.com/events/25941/",
         "title": "BEAT AX -SUMMER EDITION 2026-",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "c9f3b1afc1bda1fb485f889f39676d89d6bb51aec4986e98ae6697a86ebe66f7",
         "related_event_ids": [],
@@ -9233,7 +10325,7 @@
         "source_url": "https://revuestarlight.com/event/10548/",
         "title": "少女☆歌劇レヴュースタァライト -Edel Bühne-＆Live ～麗しき獣とワルツを～",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "58f7e1617eea6ecac67d7be1ad4fddcad95e37be491895f419d8346465b37e6e",
         "related_event_ids": [],
@@ -9272,7 +10364,7 @@
         "source_url": "https://revuestarlight.com/event/10578/",
         "title": "スペシャルライブ\"Starry Horizon\"",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "dfbf1f69f77409846b4141fba66b6f2db6172ca2dfbe36f326fbf41a9f5ec5ce",
         "related_event_ids": [],
@@ -9316,7 +10408,7 @@
         "source_url": "https://bang-dream.com/events/luckyfes2026/",
         "title": "LuckyFes'26",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "12e529678a15909bb2092460ea607ee8e33050010b70398387f6da4137ede102",
         "related_event_ids": [],
@@ -9390,7 +10482,7 @@
         "source_url": "https://bang-dream.com/events/fest-inazuma2026/",
         "title": "FEST. INAZUMA 2026",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "6cc53330032a5f8fa6bf748ee02f5e0a3869e90d16995fe6467ea73a7212f938",
         "related_event_ids": [],
@@ -9429,7 +10521,7 @@
         "source_url": "https://bang-dream.com/events/yumemita_kinntorebu2026/",
         "title": "集え！ゆめみた筋トレ部 ～輝け！上腕二頭筋～",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "1c0f543eaf2783f11a396ff529867903ecf8a1c3553b4ca26a35529457f7f984",
         "related_event_ids": [
@@ -9466,7 +10558,7 @@
         "source_url": "https://bang-dream.com/events/kimchikura-fes-26/",
         "title": "KIMCHIKURA Fes '26",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "219906f5825613c25b66c1e8195d9e3c26b277fbdf23fd8c57975d92f05d7c34",
         "related_event_ids": [],
@@ -9505,7 +10597,7 @@
         "source_url": "https://bang-dream.com/events/anierafesta2026/",
         "title": "ナガノアニエラフェスタ2026",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "0c742e539105629e8ed0131dffc4a8ab327e525584ba8ff26860cf8d5af180e2",
         "related_event_ids": [],
@@ -9539,7 +10631,7 @@
         "source_url": "https://bang-dream.com/events/bushiroad-fashion-journey/",
         "title": "Bushiroad Fashion Journey",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "118228413b77468548bfe524260bcbcfb23ee33eba0f4d85c73734c7923e9f7d",
         "related_event_ids": [],
@@ -9568,7 +10660,7 @@
         "source_url": "https://bang-dream.com/events/radioshout_prost/",
         "title": "RoseliaのRADIO SHOUT! -Prost-",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "9c32a4b88ac7a9ab15627053c5de31c875fc5c2300c837f47edce900405aa64a",
         "related_event_ids": [],
@@ -9612,7 +10704,7 @@
         "source_url": "https://revuestarlight.com/event/11130/",
         "title": "スタァライト九九組 オーケストラライブ2027",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "1fafe1255a2b54c0ed0bcd095895f6bc1b93195c6721d6850fe3a34336f86954",
         "related_event_ids": [
@@ -9653,7 +10745,7 @@
         "source_url": "https://revuestarlight.com/event/10663/",
         "title": "「シークフェルト音楽学院中等部」単独ライブ Schulfest! ～Aufregendes leben～",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "955d0686ea9aa6fb9965a73f4d3d0663728e70fd22f379982c63069d7bfa6274",
         "related_event_ids": [],
@@ -9707,7 +10799,7 @@
         "source_url": "https://bang-dream.com/events/13th-live-day1/",
         "title": "BanG Dream! 13th☆LIVE DAY1 : Poppin'Party「Now Roading♪♪」",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "16ce87b60c844d81441d13373f21075867c1f006d680e2ed76c400f175b3ce53",
         "related_event_ids": [],
@@ -9796,7 +10888,7 @@
         "source_url": "https://bang-dream.com/events/comiket108/",
         "title": "コミックマーケット108",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "b19085a87293810508d922e495c5db98e47b7cf938821e8401d83a7d47411dd6",
         "related_event_ids": [],
@@ -9954,7 +11046,7 @@
         "source_url": "https://bang-dream.com/events/wonderlivet-2026/",
         "title": "WONDERLIVET 2026",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "1c44aef186d950e81f6fe73262d52360a4c379cdc62183978885d92c8e488927",
         "related_event_ids": [],
@@ -10004,7 +11096,7 @@
         "source_url": "https://bang-dream.com/events/machiasobi_vol31/",
         "title": "マチ★アソビ vol.31",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "fe94adceb4aa47d684050550a8c230546f270f555322dc06dff0e28188866f65",
         "related_event_ids": [],
@@ -10038,7 +11130,7 @@
         "source_url": "https://bang-dream.com/events/13th-live-day3/",
         "title": "BanG Dream! 13th☆LIVE DAY3 : RAISE A SUILEN「EXTREME EXPRESS」",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "e8e11e0891c8a6d99166029b6f76988d80cfc2d51222f861d5ee839e3a0d8ef4",
         "related_event_ids": [],
@@ -10127,7 +11219,7 @@
         "source_url": "https://bang-dream.com/events/kimuchikura-anisama-seoul-2027/",
         "title": "KIMCHIKURA×ANISAMA SEOUL 2027",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "29b15aa3cfdb158a77cb18050f3cf87149b9cf85c07beaf68ceddbeb9d0e062a",
         "related_event_ids": [],
@@ -10172,7 +11264,7 @@
         "source_url": "https://bang-dream.com/events/bm-echoes-festival-2026/",
         "title": "BM-ECHOES FESTIVAL 2026",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "9a28eee911cc91d8b0bb9280831a7c3f7f505c71f0e70f58801cac389a40a7fb",
         "related_event_ids": [],
@@ -10201,7 +11293,7 @@
         "source_url": "https://bang-dream.com/events/miyako_atelier/",
         "title": "みやこのアトリエ",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "45153e6e70313c4fd3de7eeb74d224020672e21270f8a2d9e8826d63f5c4c3d2",
         "related_event_ids": [
@@ -10238,7 +11330,7 @@
         "source_url": "https://bang-dream.com/events/13th-live-day2/",
         "title": "BanG Dream! 13th☆LIVE DAY2 : 夢限大みゅーたいぷ「DIMENSIONAL OVERLAP」",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "ef457ff71898d2051ec63c64e498c2605693a93f9091cd8ec034df152957ad0a",
         "related_event_ids": [],
@@ -10337,7 +11429,7 @@
         "source_url": "https://revuestarlight.com/event/10843/",
         "title": "少女☆歌劇レヴュースタァライト シークフェルト音楽学院 トーク＆バラエティイベント 「めざせ！プラティーン！」",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "cc732ca1405104fa69ea81f359c1df11797f5bce75cd279423340eace839c1ef",
         "related_event_ids": [],
@@ -10371,7 +11463,7 @@
         "source_url": "https://bang-dream.com/events/mygo_9th/",
         "title": "MyGO!!!!! 9th LIVE「つなぎ目の向こうに」",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "a1a30c044e4121c7ba8b860c1b1744e3622eca80e644c50ef848e4f50b1d7b49",
         "related_event_ids": [],
@@ -10490,7 +11582,7 @@
         "source_url": "https://bang-dream.com/events/evanescence_avemujica/",
         "title": "EVANESCENCE 2026 JAPAN",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "f2ad656cf918fedcc1a914442895f16f5a8fac92f0a14cfd91b4a92fcf9f8dfb",
         "related_event_ids": [],
@@ -10530,7 +11622,7 @@
         "source_url": "https://revuestarlight.com/event/10666/",
         "title": "九九組の日2025",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "0aff9c44e735cd9b0cc68a2295fa8b4736213d7592fdfef144ea179564c9a762",
         "related_event_ids": [],
@@ -10559,7 +11651,7 @@
         "source_url": "https://bang-dream.com/events/summer-sonic-2026/",
         "title": "SUMMER SONIC 2026",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "afea21f05f39a15e8d5812ccb6c5769a08a39d1b31b6316f59be76f3289348cc",
         "related_event_ids": [],
@@ -10603,7 +11695,7 @@
         "source_url": "https://bang-dream.com/events/maigocenter-event3/",
         "title": "MyGO!!!!!の「迷子集会」出張版 第三弾 - 日常の築葉書 -",
         "first_seen_at": "2026-10-28T18:14:42.476Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "9f09d7c4555d01ba21d22adf0e912179672cc4374b9959f3255ab4cd72af6402",
         "related_event_ids": [],
@@ -10662,7 +11754,7 @@
         "source_url": "https://bang-dream.com/events/nakamachiarale_live2026/",
         "title": "NAKAMACHI ARALE LIVE 2026「RESONEXT」",
         "first_seen_at": "2026-10-28T08:55:22.990Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T08:55:22.990Z",
         "content_hash": "74caf50eecbb492a4064645a8946e523e34280c2c9e7d4e5f1fe425a0654c7fb",
         "related_event_ids": [
@@ -10714,7 +11806,7 @@
         "source_url": "https://www.sweets-paradise.jp/collaboration/ournotes",
         "title": "『BanG Dream! Our Notes（バンドリ！アワーノーツ）』とのコラボカフェ開催決定！！",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T08:55:22.990Z",
         "content_hash": "48a64cb32df926075d5352c4561c9eccee489a4e30c1bf2d850bd0640add5863",
         "related_event_ids": [
@@ -10811,7 +11903,7 @@
         "source_url": "https://bang-dream.com/events/ymmt-tour2027/",
         "title": "夢限大みゅーたいぷ LIVE TOUR 2027「YMMTric COUNTER POINT」",
         "first_seen_at": "2026-10-28T08:55:22.990Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T08:55:22.990Z",
         "content_hash": "de8b5b36197660b2c26661b6cc285275424075505f23113a6c0d8f307ce9205d",
         "related_event_ids": [
@@ -10863,7 +11955,7 @@
         "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/",
         "title": "MyGO!!!!! 9th LIVE「つなぎ目の向こうに」- 神戸再景編 -",
         "first_seen_at": "2026-10-28T08:55:22.990Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T08:55:22.990Z",
         "content_hash": "1b63e478f26187ae48e2a9fd33725ec75836c8dff90414defebef288ea245ed7",
         "related_event_ids": [
@@ -10920,7 +12012,7 @@
         "source_url": "https://bang-dream.com/events/avemujica_7th/",
         "title": "Ave Mujica 7th LIVE「Virtus」",
         "first_seen_at": "2026-10-28T08:55:22.990Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T08:55:22.990Z",
         "content_hash": "5de2408b8116b44507b2c3b4bc78779ecf5fd11f0dee2ec9c75a7af2c4f11864",
         "related_event_ids": [],
@@ -11055,7 +12147,7 @@
         "source_url": "https://bang-dream.com/events/millsage_ikka-dumb-rock/",
         "title": "millsage×一家Dumb Rock! SPECIAL LIVE",
         "first_seen_at": "2026-10-28T08:55:22.990Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T08:55:22.990Z",
         "content_hash": "3e3714690547a4cb2afcb9fc241870510d85209817068dd08f52d1947d598722",
         "related_event_ids": [
@@ -11102,7 +12194,7 @@
         "source_url": "https://bang-dream.com/events/millsage_1st/",
         "title": "millsage LIVE 001「極夜」",
         "first_seen_at": "2026-10-28T08:55:22.990Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T08:55:22.990Z",
         "content_hash": "129c7ae1863927bb3697b74fadcc175b90390dab5cf33c4d2c9b8f0440fc53b3",
         "related_event_ids": [
@@ -11144,7 +12236,7 @@
         "source_url": "https://bang-dream.com/events/avemujica-8th/",
         "title": "Ave Mujica 8th LIVE「Discrimen Fati」",
         "first_seen_at": "2026-10-28T08:55:22.990Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T08:55:22.990Z",
         "content_hash": "995b073b1e7b257a53a75e159ca587f3b99381cc08d828c945eff2e828948c8d",
         "related_event_ids": [
@@ -11206,7 +12298,7 @@
         "source_url": "https://bang-dream.com/events/mygo_9th_hongkong/",
         "title": "MyGO!!!!! 9th LIVE「つなぎ目の向こうに」- 香港還想編 -",
         "first_seen_at": "2026-10-28T08:55:22.990Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T08:55:22.990Z",
         "content_hash": "e5c65d0847eea09a2c034b390e0af501f7216e7a68254d6fd1c06e92da23e031",
         "related_event_ids": [],
@@ -11246,7 +12338,7 @@
         "source_url": "https://bang-dream.com/events/yumemita_yunos_party_lv3/",
         "title": "千石ユノ主催DJイベント「YUNO’s PARTY Lv.3」",
         "first_seen_at": "2026-10-28T08:55:22.990Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T08:55:22.990Z",
         "content_hash": "22ffd14016f298ebd6a7c96a949440fa676b39f822a5288120cf9b86a344418f",
         "related_event_ids": [
@@ -11283,7 +12375,7 @@
         "source_url": "https://bang-dream.com/events/ras-tour2027/",
         "title": "RAISE A SUILEN LIVE TOUR 2027",
         "first_seen_at": "2026-10-28T08:49:18.295Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T08:49:18.295Z",
         "content_hash": "9b0a27124188cf03cc0f37b8aa9b9778f4390a00a4e9dae01d19e9dc06e437ec",
         "related_event_ids": [
@@ -11330,7 +12422,7 @@
         "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
         "title": "Roselia 10th Anniversary LIVE TOUR",
         "first_seen_at": "2026-10-28T08:49:18.295Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-28T08:49:18.295Z",
         "content_hash": "670bf79aa4d3e307393455e907b0b8ec09b7996658e8d76650621d8b43ba87c8",
         "related_event_ids": [
@@ -11377,7 +12469,7 @@
         "source_url": "https://revuestarlight.com/news/11073/",
         "title": "「少女☆歌劇 レヴュースタァライト -The MUSICAL-」新作舞台上演決定！",
         "first_seen_at": "2026-10-27T22:29:18.836Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:29:18.836Z",
         "content_hash": "e6944a60361d9068511622d58575ccc2ee09d261434b6bc4610e355f10578208",
         "related_event_ids": [],
@@ -11406,7 +12498,7 @@
         "source_url": "https://revuestarlight.com/news/11036/",
         "title": "舞台「遙かなるエルドラド」公演に関するお知らせ",
         "first_seen_at": "2026-10-27T22:24:46.418Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:24:46.418Z",
         "content_hash": "15d9a96085ffc5649f84cfd237cdf486d1209b4fe746987805afb2e488adae15",
         "related_event_ids": [],
@@ -11456,7 +12548,7 @@
         "source_url": "https://revuestarlight.com/news/11223/",
         "title": "「少女☆歌劇 レヴュースタァライト」9周年記念！アニメイト池袋本店衣裳展・衣裳展開催記念フェアの開催決定！",
         "first_seen_at": "2026-10-27T22:24:46.418Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:24:46.418Z",
         "content_hash": "4acdf4381385cf1b3978884446dceb6d912929812a0f4afb9275ac90a5563d60",
         "related_event_ids": [],
@@ -11490,7 +12582,7 @@
         "source_url": "https://revuestarlight.com/news/10889/",
         "title": "舞台「遙かなるエルドラド」メインビジュアル＆キャスト全身ビジュアル公開！",
         "first_seen_at": "2026-10-27T22:24:46.418Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:24:46.418Z",
         "content_hash": "f44b875474267d22af8985292f488897d0253b5d253cc63300fa86d8e4932a42",
         "related_event_ids": [],
@@ -11545,7 +12637,7 @@
         "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6700",
         "title": "ムービックより 映画『ラブライブ！虹ヶ咲学園スクールアイドル同好会 完結編 最終章』公開記念 Sweet Collectionフェア 開催と描き下ろし新商品のお知らせ",
         "first_seen_at": "2026-10-27T22:24:46.418Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:24:46.418Z",
         "content_hash": "d6bd4407040ea7a186e42e8b622e3fdf0bfdc25cdacc4305048990faee3813ca",
         "related_event_ids": [
@@ -11592,7 +12684,7 @@
         "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6703",
         "title": "『ラブライブ！虹ヶ咲学園スクールアイドル同好会』POP UP STORE がロフト2 店舗で開催決定！",
         "first_seen_at": "2026-10-27T22:24:46.418Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:24:46.418Z",
         "content_hash": "6e993ff1351c8a9aeba5718708b8325c22570656c37e01a9fde242b2608f9bd9",
         "related_event_ids": [
@@ -11644,7 +12736,7 @@
         "source_url": "https://revuestarlight.com/news/11142/",
         "title": "劇場版スタァライト リバイバル上映決定！",
         "first_seen_at": "2026-10-27T22:24:46.418Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:24:46.418Z",
         "content_hash": "2e6700e2d40f3e8254cdca62cff959405c6bc0de73f10f84a553400b92956986",
         "related_event_ids": [],
@@ -11737,7 +12829,7 @@
         "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6692",
         "title": "「THEキャラCAFE HEPナビオ店×ラブライブ！シリーズ」開催決定！",
         "first_seen_at": "2026-10-27T22:24:46.418Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:24:46.418Z",
         "content_hash": "a1961aa27664794630efceb91dd94ed7a64a46ff35239a27ea72d92b639df841",
         "related_event_ids": [
@@ -11784,7 +12876,7 @@
         "source_url": "https://revuestarlight.com/news/11055/",
         "title": "劇場版 スタァライト 舞台挨拶付き上映＆来場者特典情報公開！",
         "first_seen_at": "2026-10-27T22:24:46.418Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:24:46.418Z",
         "content_hash": "008399a80fbffaa5b35377dae544fb6cc51e223ae345203b5e952a749f976b5d",
         "related_event_ids": [],
@@ -11819,7 +12911,7 @@
         "source_url": "https://revuestarlight.com/news/10970/",
         "title": "舞台「遙かなるエルドラド」 見切れ席販売決定！",
         "first_seen_at": "2026-10-27T22:24:46.418Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:24:46.418Z",
         "content_hash": "0b62dfeda40c0c01910817a7d2b1e77a0aafa81443280717c5ec71e4b0c8eadc",
         "related_event_ids": [],
@@ -11853,7 +12945,7 @@
         "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
         "title": "ラブライブ！シリーズ オフィシャルカードゲーム×GiGO詳細更新のお知らせ",
         "first_seen_at": "2026-10-27T22:24:46.418Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:24:46.418Z",
         "content_hash": "e501bf3ffb3c6b0c31d271764cfeaa47e86e478426c32896b26fb8447ebf031e",
         "related_event_ids": [
@@ -12065,7 +13157,7 @@
         "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6659",
         "title": "ラブライブ！シリーズ×GiGOコラボカフェ秋葉原3号館10周年コラボカフェ開催のお知らせ！",
         "first_seen_at": "2026-10-27T22:24:46.418Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:24:46.418Z",
         "content_hash": "8c284ebe117b8d447a970da4f4e78aee2964bf6f1023403614ecc75de64dde66",
         "related_event_ids": [],
@@ -12105,7 +13197,7 @@
         "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6690",
         "title": "虹ヶ咲学園キッチンカー7周年記念ドリンク販売のお知らせ",
         "first_seen_at": "2026-10-27T22:24:46.418Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:24:46.418Z",
         "content_hash": "f25b87a3aa1ea1728481d4465d6fed6a63237b8a4633fb7b0ca4c8c651fefb4c",
         "related_event_ids": [
@@ -12147,7 +13239,7 @@
         "source_url": "https://revuestarlight.com/news/11070/",
         "title": "スタァライト九九組 オーケストラライブ開催決定！",
         "first_seen_at": "2026-10-27T22:24:46.418Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:24:46.418Z",
         "content_hash": "790a40f6a741824a0d91c07c95d9cef8c563c79b83742feb39aed2853455e492",
         "related_event_ids": [],
@@ -12176,7 +13268,7 @@
         "source_url": "https://revuestarlight.com/news/11122/",
         "title": "スペシャルライブ \"Starry Horizon\" Blu-ray発売記念！パネル展・抽選会の開催決定！",
         "first_seen_at": "2026-10-27T22:24:46.418Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:24:46.418Z",
         "content_hash": "bf48f21719173b1ad7859a95f105884a2d3e50b13353df0362f9e8b248d1434c",
         "related_event_ids": [],
@@ -12210,7 +13302,7 @@
         "source_url": "https://bushiroad-creative.com/topics/104468/",
         "title": "BanG Dream! × アトレ秋葉原 POP UP STORE 2026",
         "first_seen_at": "2026-10-27T22:20:00.827Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T22:20:00.827Z",
         "content_hash": "25c8e656efd8e6095aea556d7dd1f9f7ccede953a087ebfa9449c7b7007c5beb",
         "related_event_ids": [],
@@ -12365,7 +13457,7 @@
         "source_url": "https://bushiroad-creative.com/topics/106228/",
         "title": "Ave Mujica 7th LIVE「Virtus」開催記念 BanG Dream! STORE 連動キャンペーン",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "ffc67afbd64b78595590b8594c6d3aa7aba275e709269b13506ee696be4bd38e",
         "related_event_ids": [
@@ -12540,7 +13632,7 @@
         "source_url": "https://bushiroad-creative.com/topics/104688/",
         "title": "ラブライブ！虹ヶ咲学園スクールアイドル同好会 ニジガク☆ポリスフェア in ゲーマーズ",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "6c594edec532bcfb6495ddb3a6bf80c4678d1ad6ae9fd79dae5fad7c79e8aec0",
         "related_event_ids": [
@@ -12617,7 +13709,7 @@
         "source_url": "https://bushiroad-creative.com/topics/103670/",
         "title": "ラブライブ！シリーズ オフィシャルカードゲーム POP UP STORE～Royal Holiday～",
         "first_seen_at": "2026-10-27T21:57:21.961Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "3de0a6bce65ac44980a4b661086c24e54560c317249d12d51238984b73394f79",
         "related_event_ids": [],
@@ -12767,7 +13859,7 @@
         "source_url": "https://bushiroad-creative.com/topics/104208/",
         "title": "少女☆歌劇 レヴュースタァライト 9周年記念フェア ～L’Étoile innocente～",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "2d35f5a4ba6935db99de37aefa6b8984713795fc4f6ecee32dcedd4640680de8",
         "related_event_ids": [
@@ -12864,7 +13956,7 @@
         "source_url": "https://bang-dream.com/news/2441/",
         "title": "映画ムジカ、アワーノーツにてアニメイト池袋本店北館1Fでの特別展示が決定！",
         "first_seen_at": "2026-10-27T21:54:41.782Z",
-        "last_seen_at": "2026-10-29T09:25:43.852Z",
+        "last_seen_at": "2026-10-29T11:23:32.044Z",
         "changed_at": "2026-10-27T21:54:41.782Z",
         "content_hash": "cd30ab4049f12491af787a0c4cd005a99dc8d160ec5fa0844156a8090ec66181",
         "related_event_ids": [
@@ -12891,19 +13983,19 @@
       }
     ],
     "monitoring": {
-      "checked_at": "2026-10-29T09:25:43.852Z",
+      "checked_at": "2026-10-29T11:23:32.044Z",
       "sources": [
         {
           "id": "bang-dream-live",
           "name": "BanG Dream! Live / Event",
           "url": "https://bang-dream.com/events/",
           "state": "success",
-          "last_attempt_at": "2026-10-29T09:25:43.852Z",
-          "last_success_at": "2026-10-29T09:25:43.852Z",
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": "2026-10-29T11:23:32.044Z",
           "pages": 37,
           "discovered": 37,
           "deferred": 0,
-          "retained": 0,
+          "retained": 1,
           "issues": []
         },
         {
@@ -12911,8 +14003,8 @@
           "name": "BanG Dream! 新闻",
           "url": "https://bang-dream.com/news/",
           "state": "success",
-          "last_attempt_at": "2026-10-29T09:25:43.852Z",
-          "last_success_at": "2026-10-29T09:25:43.852Z",
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": "2026-10-29T11:23:32.044Z",
           "pages": 1,
           "discovered": 1,
           "deferred": 0,
@@ -12924,8 +14016,8 @@
           "name": "Bushiroad Creative",
           "url": "https://bushiroad-creative.com/",
           "state": "success",
-          "last_attempt_at": "2026-10-29T09:25:43.852Z",
-          "last_success_at": "2026-10-29T09:25:43.852Z",
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": "2026-10-29T11:23:32.044Z",
           "pages": 5,
           "discovered": 5,
           "deferred": 0,
@@ -12937,10 +14029,10 @@
           "name": "虹咲官网新闻",
           "url": "https://www.lovelive-anime.jp/nijigasaki/topics.php",
           "state": "success",
-          "last_attempt_at": "2026-10-29T09:25:43.852Z",
-          "last_success_at": "2026-10-29T09:25:43.852Z",
-          "pages": 8,
-          "discovered": 8,
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": "2026-10-29T11:23:32.044Z",
+          "pages": 9,
+          "discovered": 9,
           "deferred": 0,
           "retained": 1,
           "issues": []
@@ -12950,8 +14042,8 @@
           "name": "少女歌剧新闻",
           "url": "https://revuestarlight.com/news/",
           "state": "success",
-          "last_attempt_at": "2026-10-29T09:25:43.852Z",
-          "last_success_at": "2026-10-29T09:25:43.852Z",
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": "2026-10-29T11:23:32.044Z",
           "pages": 10,
           "discovered": 10,
           "deferred": 0,
@@ -12976,10 +14068,10 @@
           "name": "SWEETS PARADISE",
           "url": "https://www.sweets-paradise.jp/collaboration/",
           "state": "success",
-          "last_attempt_at": "2026-10-29T09:25:43.852Z",
-          "last_success_at": "2026-10-29T09:25:43.852Z",
-          "pages": 1,
-          "discovered": 1,
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": "2026-10-29T11:23:32.044Z",
+          "pages": 2,
+          "discovered": 2,
           "deferred": 0,
           "retained": 0,
           "issues": []
@@ -12989,16 +14081,144 @@
           "name": "少女歌剧 Live / Event",
           "url": "https://revuestarlight.com/event/",
           "state": "success",
-          "last_attempt_at": "2026-10-29T09:25:43.852Z",
-          "last_success_at": "2026-10-29T09:25:43.852Z",
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": "2026-10-29T11:23:32.044Z",
           "pages": 9,
           "discovered": 9,
+          "deferred": 0,
+          "retained": 0,
+          "issues": []
+        },
+        {
+          "id": "hasunosora-official",
+          "name": "莲之空 · 新闻与 Live",
+          "url": "https://www.lovelive-anime.jp/hasunosora/news/",
+          "state": "success",
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": "2026-10-29T11:23:32.044Z",
+          "pages": 13,
+          "discovered": 13,
+          "deferred": 0,
+          "retained": 0,
+          "issues": []
+        },
+        {
+          "id": "liella-official",
+          "name": "Liella! · 新闻与 Live",
+          "url": "https://www.lovelive-anime.jp/yuigaoka/topics/",
+          "state": "partial",
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": null,
+          "pages": 8,
+          "discovered": 9,
+          "deferred": 0,
+          "retained": 0,
+          "issues": [
+            "HTTP 403：本次未能读取页面，原因尚待确认。"
+          ]
+        },
+        {
+          "id": "aqours-official",
+          "name": "Aqours · 新闻与 Live",
+          "url": "https://www.lovelive-anime.jp/uranohoshi/topics.php",
+          "state": "blocked",
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": null,
+          "pages": 0,
+          "discovered": null,
+          "deferred": 0,
+          "retained": 0,
+          "issues": [
+            "HTTP 403：本次未能读取页面，原因尚待确认。"
+          ]
+        },
+        {
+          "id": "muse-official",
+          "name": "μ's · 新闻与演出",
+          "url": "https://www.lovelive-anime.jp/otonokizaka/topics.php",
+          "state": "blocked",
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": null,
+          "pages": 0,
+          "discovered": null,
+          "deferred": 0,
+          "retained": 0,
+          "issues": [
+            "HTTP 403：本次未能读取页面，原因尚待确认。"
+          ]
+        },
+        {
+          "id": "ikizulive-official",
+          "name": "人生不易部 · 新闻与 Live",
+          "url": "https://www.lovelive-anime.jp/lovehigh/news/",
+          "state": "blocked",
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": null,
+          "pages": 0,
+          "discovered": null,
+          "deferred": 0,
+          "retained": 0,
+          "issues": [
+            "HTTP 403：本次未能读取页面，原因尚待确认。"
+          ]
+        },
+        {
+          "id": "lovelive-series-live",
+          "name": "Love Live! 跨企划演出",
+          "url": "https://www.lovelive-anime.jp/lovehigh/live/",
+          "state": "blocked",
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": null,
+          "pages": 0,
+          "discovered": null,
+          "deferred": 0,
+          "retained": 0,
+          "issues": [
+            "HTTP 403：本次未能读取页面，原因尚待确认。"
+          ]
+        },
+        {
+          "id": "gakuen-idolmaster-live",
+          "name": "学园偶像大师 · 官方巡演",
+          "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/",
+          "state": "success",
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": "2026-10-29T11:23:32.044Z",
+          "pages": 4,
+          "discovered": 4,
+          "deferred": 0,
+          "retained": 0,
+          "issues": []
+        },
+        {
+          "id": "gakuen-idolmaster-news",
+          "name": "学园偶像大师 · 厂牌新闻",
+          "url": "https://gakuen-label.idolmaster-official.jp/news",
+          "state": "success",
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": "2026-10-29T11:23:32.044Z",
+          "pages": 1,
+          "discovered": 1,
+          "deferred": 0,
+          "retained": 0,
+          "issues": []
+        },
+        {
+          "id": "gakuen-idolmaster-portal",
+          "name": "学园偶像大师 · 综合门户新闻",
+          "url": "https://idolmaster-official.jp/news?page_index=1",
+          "state": "success",
+          "last_attempt_at": "2026-10-29T11:23:32.044Z",
+          "last_success_at": "2026-10-29T11:23:32.044Z",
+          "pages": 5,
+          "discovered": 5,
           "deferred": 0,
           "retained": 0,
           "issues": []
         }
       ],
       "unread_announcement_ids": [
+        "ab15a4c0651f6ca2a5460888",
         "63e9f9ae966e1ff95609391c",
         "5967750a617af6af7a547eb7"
       ]

@@ -5,7 +5,7 @@ import { TripShopping } from "./shopping";
 import { useState } from "react";
 import { CalendarDays, MapPin, Plus, Trash2 } from "lucide-react";
 import type { Catalog, Trip } from "@/lib/schema";
-import { cities, tripSchema } from "@/lib/schema";
+import { cityChoices, tripSchema } from "@/lib/schema";
 import { descendants, tripMatches } from "@/lib/domain";
 import { usePersonal } from "./personal";
 import { AddVenue, Empty, EventCollectionCard, IPChoices } from "./events";
@@ -130,7 +130,7 @@ export function TripPage({
                     })
                   }
                 >
-                  {cities.map((c) => (
+                  {cityChoices(catalog.events).map((c) => (
                     <option key={c}>{c}</option>
                   ))}
                 </select>

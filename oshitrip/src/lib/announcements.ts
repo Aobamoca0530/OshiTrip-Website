@@ -65,7 +65,7 @@ export const announcementSchema = z.object({
     })
     .optional(),
 });
-export const announcementsSchema = z.array(announcementSchema).max(120);
+export const announcementsSchema = z.array(announcementSchema).max(500);
 export type Announcement = z.infer<typeof announcementSchema>;
 export function announcementKind(item: Announcement): "offline" | "live" {
   if (item.activity) return item.activity.kind;
