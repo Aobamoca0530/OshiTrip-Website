@@ -194,7 +194,7 @@ GitHub Actions 的 **Package Windows portable app** 工作流支持手动构建�
 
 Windows 和 Mac 的工具单独打包，不依赖主程序或 Node.js。在目标平台运行 `pnpm package:cleanup`，生成 `dist/OshiTrip-Cleanup-<版本>-windows-x64.zip` 或 `dist/OshiTrip-Cleanup-<版本>-macos-<架构>.zip` 及 SHA256。需要系统 .NET Framework 编译器（Windows）或 Xcode Command Line Tools（Mac）；无需构建网站或下载运行时。输出目录必须不存在，避免覆盖已有产物。
 
-独立工作流 **Package standalone desktop cleanup tools** 可直接构建 Windows、Apple Silicon 和 Intel 三份清理 ZIP，无需安装网站依赖。原有两条桌面打包工作流也会额外构建并上传清理 ZIP。工具可以用于已有 1.6.0 及采用相同目录布局的旧桌面包；主程序已手动删除时仍能清理残留活动缓存。正式发布需另行上传对应清理工具产物，现有应用版本号与更新源保持不变。
+独立工作流 **Package standalone desktop cleanup tools** 可直接构建 Windows、Apple Silicon 和 Intel 三份清理 ZIP，无需安装网站依赖。运行时勾选 `publish`，三平台全部编译、测试成功后才发布独立的 `cleanup-v<版本>` Release，上传前后核对三份 ZIP 与 SHA256 文件；不替换主应用的 latest Release 或更新源。原有两条桌面打包工作流也会额外构建并上传清理 ZIP。工具可以用于已有 1.6.0 及采用相同目录布局的旧桌面包；主程序已手动删除时仍能清理残留活动缓存。
 
 - **仅清理缓存**：删除当前用户 OshiTrip 专用目录的 `data` 和 `launcher.log`；默认保留 `port.txt`。只有勾选“同时重置访问地址”才删除端口设置。未知文件与 Mac 并发锁 `.maintenance.lock` 保留。
 - **卸载并清理**：选择完整的 Windows 程序目录或 Mac 的 `OshiTrip.app`，确认具体路径后移入回收站／废纸篓，再清理缓存。只处理选中的一个程序副本；Windows 工具需放在待卸载目录之外。包含额外顶层文件或链接的 Windows 包会被拒绝，避免误选。
