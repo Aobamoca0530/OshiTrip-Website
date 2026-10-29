@@ -90,7 +90,7 @@ function MobileApp() {
     window.addEventListener("oshitrip-activate-update", onUpdate);
     void navigator.serviceWorker.register("./sw.js", { updateViaCache: "none" }).then(reg => {
       if (disposed) return;
-      const inspect = () => { if (!disposed && reg.waiting) setWaiting(reg.waiting); };
+      const inspect = () => { if (!disposed) setWaiting(navigator.serviceWorker.controller ? reg.waiting : null); };
       inspect();
       reg.addEventListener("updatefound", () => reg.installing?.addEventListener("statechange", inspect));
       void navigator.serviceWorker.ready.then(() => { if (!disposed) setOffline("已可离线使用"); });
