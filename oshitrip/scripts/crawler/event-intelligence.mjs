@@ -40,7 +40,7 @@ export function explicitDates(text) {
   }
   return [...new Set(dates)];
 }
-function timeInEvidence(value, quote) {
+export function timeInEvidence(value, quote) {
   if (!value) return true;
   if (!value.endsWith('+09:00')) return false;
   const [day, time] = value.split('T');

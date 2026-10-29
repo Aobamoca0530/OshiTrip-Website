@@ -43,7 +43,7 @@ v1/v2/v3 数据包继续生成，保留各自的字段、校验和算法和未�
 
 ### 每日自动采集
 
-`.github/workflows/public-data.yml` 每天北京时间 09:17 运行，也可在 Actions 手动运行。不依赖本机开机或 Supabase；采集不需要 AI 密钥，自动翻译需要。统一入口为 `pnpm maintain:public`，完成采集、翻译复核、数据包、SQL、类型、lint 和测试后提交 main。完整步骤与模型契约见 [官方消息维护流程](docs/official-news-workflow.md)。机器人提交不会再触发普通 push CI，因此工作流内已执行校验。
+`.github/workflows/public-data.yml` 每天北京时间 22:00 运行，也可在 Actions 手动运行。不依赖本机开机或 Supabase；采集不需要 AI 密钥，自动翻译需要。统一入口为 `pnpm maintain:public`，完成采集、翻译复核、数据包、SQL、类型、lint 和测试后提交 main。完整步骤与模型契约见 [官方消息维护流程](docs/official-news-workflow.md)。机器人提交不会再触发普通 push CI，因此工作流内已执行校验。
 
 来源为 BanG Dream! 公告与 Live 目录（前两页）、虹咲官网新闻、少女歌剧新闻与 Live/Event 详情目录、Bushiroad Creative、SWEETS PARADISE。BanG Dream! Live 每轮最多 40 篇，其他来源最多 16 篇；页面请求至少间隔 2 秒，目录链接先筛选再分配预算。官方活动目录同时识别页面分类与正文，不要求标题必须出现 Live。报告记录发现数量及因预算延期的 URL。页面返回 403、429、重定向或结构变化时保留旧资料；全部来源失败时不发布。最多保留最近变更的 120 条公告，不能保证覆盖全部新活动。
 

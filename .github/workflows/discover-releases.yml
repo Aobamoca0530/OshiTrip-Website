@@ -11,8 +11,8 @@ on:
           - check
           - crawl
   schedule:
-    # 09:17 China / 10:17 Japan; scheduling can be delayed.
-    - cron: "17 1 * * *"
+    # 22:00 China / 23:00 Japan (14:00 UTC); scheduling can be delayed.
+    - cron: "0 14 * * *"
 permissions:
   contents: read
 concurrency:

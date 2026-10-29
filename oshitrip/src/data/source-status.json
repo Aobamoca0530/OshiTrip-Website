@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-29T12:15:33.162Z",
+  "checked_at": "2026-10-29T12:48:06.373Z",
   "sources": [
     {
       "id": "bang-dream-live",
@@ -174,16 +174,14 @@
       "id": "liella-official",
       "name": "Liella! · 新闻与 Live",
       "url": "https://www.lovelive-anime.jp/yuigaoka/topics/",
-      "state": "blocked",
-      "last_attempt_at": "2026-10-29T12:15:33.162Z",
-      "last_success_at": null,
-      "pages": 0,
-      "discovered": 3,
-      "deferred": 3,
+      "state": "success",
+      "last_attempt_at": "2026-10-29T12:48:06.373Z",
+      "last_success_at": "2026-10-29T12:48:06.373Z",
+      "pages": 5,
+      "discovered": 5,
+      "deferred": 0,
       "retained": 0,
-      "issues": [
-        "HTTP 403：本次未能读取页面，原因尚待确认。"
-      ]
+      "issues": []
     },
     {
       "id": "gakuen-idolmaster-live",

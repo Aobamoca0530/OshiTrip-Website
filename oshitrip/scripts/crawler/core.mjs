@@ -208,6 +208,7 @@ export function extractObservation(html, url, kind = "release-source") {
   );
   const text = textFromHtml(body);
   const title =
+    (new URL(url).hostname === 'www.lovelive-anime.jp' && /\/(?:news|topics)\/detail\.php$/.test(new URL(url).pathname) && textFromHtml(body.match(/<h5\b[^>]*>([^]*?)<\/h5>/i)?.[1] || '')) ||
     (new URL(url).hostname === 'www.lovelive-anime.jp' && !url.includes('/nijigasaki/') && textFromHtml(html.match(/<meta\b[^>]*property=["']og:title["'][^>]*content=(["'])([^]*?)\1[^>]*>/i)?.[2] || '').split(/\s+[|｜]\s+|｜(?:PROJECT NEWS|ライブ|ラブライブ|「)/)[0]) ||
     (new URL(url).hostname === 'idolmaster-official.jp' && text.match(/公演名\n([^\n]+)/)?.[1]) ||
     (new URL(url).hostname === "www.lovelive-anime.jp" &&
@@ -503,7 +504,7 @@ export async function crawlSource(
   for (const indexUrl of indexes) {
     try {
       const html = await read(indexUrl);
-      // New announcements must not be starved by a long list of fixed seed URLs.
+      // Discover new announcements even when tracked details are configured.
       discovered.push(...discoverLinks(html, { ...source, index_url: indexUrl }, acceptDiscoveredLink));
     } catch (e) {
       errors.push(`官方目录：${e.message}`);
@@ -511,7 +512,8 @@ export async function crawlSource(
       if ([401, 403, 429].includes(e.httpStatus)) { accessStopped = true; break; }
     }
   }
-  urls = [...new Set([...discovered, ...urls])];
+  // Explicitly tracked Live/details must not be starved by a busy news index.
+  urls = [...new Set(source.public_fetch_enabled ? [...urls, ...discovered] : [...discovered, ...urls])];
   const selected = accessStopped ? [] : urls.slice(0, Math.min(source.public_fetch_enabled ? 80 : 30, limit));
   let attempted = 0;
   for (const url of selected) {

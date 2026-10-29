@@ -7,8 +7,8 @@ on:
         type: boolean
         default: false
   schedule:
-    # 09:17 China / 10:17 Japan. GitHub scheduling may be delayed.
-    - cron: "17 1 * * *"
+    # 22:00 China / 23:00 Japan (14:00 UTC). GitHub scheduling may be delayed.
+    - cron: "0 14 * * *"
 permissions:
   contents: write
 concurrency:
@@ -59,7 +59,7 @@ jobs:
       - name: Publish validated snapshots
         if: github.ref == 'refs/heads/main' && inputs.validate_only != true
         run: |
-          git add src/data/catalog.json src/data/announcements.json src/data/source-status.json src/data/public-meta.json scripts/crawler/excluded-sources.json ../data/public-v1.json ../data/public-v2.json ../data/public-v3.json ../data/public-v4.json
+          git add src/data/catalog.json src/data/releases.json src/data/announcements.json src/data/source-status.json src/data/public-meta.json scripts/crawler/excluded-sources.json ../data/public-v1.json ../data/public-v2.json ../data/public-v3.json ../data/public-v4.json
           git add supabase/seed.sql supabase/releases-seed.sql supabase/stores-seed.sql supabase/setup-new-project.sql
           if git diff --cached --quiet; then exit 0; fi
           git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "data: refresh official announcements and image links"
@@ -73,4 +73,5 @@ jobs:
             oshitrip/var/public-crawler/report.json
             oshitrip/var/public-crawler/assistant-queue.json
             oshitrip/var/public-crawler/observations.json
+            oshitrip/var/public-crawler/ticket-products-report.json
           retention-days: 14

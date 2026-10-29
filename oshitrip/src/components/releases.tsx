@@ -1,6 +1,7 @@
 "use client";
 import type { Franchise } from "@/lib/schema";
-import { orderedFranchises } from "@/lib/franchises";
+import { orderedFranchises, releaseFranchiseGroups } from "@/lib/franchises";
+import { descendants } from "@/lib/domain";
 
 import { ReleaseTable, StoreFinder } from "./shopping";
 import type { Store } from "@/lib/shopping";
@@ -74,6 +75,7 @@ export function ReleaseExplorer({
   const [upcoming, setUpcoming] = useState(false);
   const [status, setStatus] = useState("");
   const [sort, setSort] = useState("release");
+  const allowed = ip ? descendants(ip, franchises) : null;
   const today = new Date(now.getTime() + 9 * 3600000)
     .toISOString()
     .slice(0, 10);
@@ -84,7 +86,7 @@ export function ReleaseExplorer({
           `${p.title} ${p.summary} ${p.lotteries.map((l) => l.title).join(" ")}`
             .toLowerCase()
             .includes(query.toLowerCase())) &&
-        (!ip || p.franchise_ids.includes(ip)) &&
+        (!allowed || p.franchise_ids.some(id => allowed.has(id))) &&
         (!upcoming || Boolean(p.release_on && p.release_on >= today)) &&
         (!status ||
           p.lotteries.some((l) => windowStatus(l.window, now) === status)),
@@ -179,7 +181,12 @@ export function ReleaseExplorer({
               </select>
             </label>
           </div>
-          <ReleaseTable products={filtered} stores={stores} />
+          {releaseFranchiseGroups(filtered, franchises).map(group => (
+            <section className="section-space" key={group.id} aria-label={`${group.label}抽选商品`} data-testid="release-ip-group">
+              <h2>{group.label} <span className="count">{group.products.length}</span></h2>
+              <ReleaseTable products={group.products} stores={stores} />
+            </section>
+          ))}
           {!filtered.length && (
             <div className="empty">
               <h2>没有匹配的商品</h2>

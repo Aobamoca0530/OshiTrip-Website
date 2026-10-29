@@ -1,4 +1,7 @@
 import { test, expect } from "@playwright/test";
+import fs from 'node:fs';
+const releaseFixtures=JSON.parse(fs.readFileSync('src/data/releases.json','utf8')) as {status:string;release_on:string|null}[];
+const publishedProducts=releaseFixtures.filter(p=>p.status==='published');
 test("shopping table places lottery dates last and matches branches after release within city stays", async ({
   page,
 }) => {
@@ -131,9 +134,9 @@ test("release filters combine and unknown lotteries are never presented as open"
 }) => {
   await page.goto("/releases");
   await page.clock.runFor(30001);
-  await expect(page.getByTestId("release-card")).toHaveCount(7);
+  await expect(page.getByTestId("release-card")).toHaveCount(publishedProducts.length);
   await page.getByLabel("仅看今日及以后发售").check();
-  await expect(page.getByTestId("release-card")).toHaveCount(4);
+  await expect(page.getByTestId("release-card")).toHaveCount(publishedProducts.filter(p=>p.release_on && p.release_on>='2026-10-28').length);
   await page.getByRole("combobox", { name: "关联企划" }).selectOption("mygo");
   await expect(page.getByTestId("release-card")).toHaveCount(1);
   await page
@@ -142,5 +145,23 @@ test("release filters combine and unknown lotteries are never presented as open"
   await expect(page.getByTestId("release-card")).toHaveCount(0);
   await expect(page.getByText("没有匹配的商品")).toBeVisible();
   await page.getByRole("button", { name: "清空筛选" }).click();
-  await expect(page.getByTestId("release-card")).toHaveCount(7);
+  await expect(page.getByTestId("release-card")).toHaveCount(publishedProducts.length);
+});
+
+test('Liella vouchers and historical Live applications are grouped by IP with distinct Day1/Day2',async({page})=>{
+  await page.goto('/releases');
+  await page.getByRole('combobox',{name:'关联企划',exact:true}).selectOption('liella');
+  await expect(page.getByTestId('release-card')).toHaveCount(2);
+  await expect(page.getByTestId('release-ip-group').getByRole('heading',{level:2})).toContainText('Liella!');
+  await page.getByRole('combobox',{name:'Live 报名企划',exact:true}).selectOption('liella');
+  const live=page.getByTestId('live-lottery-card').filter({hasText:'八巡'});
+  await live.locator('summary').click();
+  await expect(live).toContainText('2026-11-18 12:00');
+  await expect(live).toContainText('2026-11-27 12:00');
+  await expect(live.getByRole('link',{name:'ラブライブ！スーパースター!! ファンディスク第2弾',exact:false})).toBeVisible();
+  await page.getByRole('combobox',{name:'Live 报名企划',exact:true}).selectOption('lovelive');
+  await expect(page.getByTestId('live-lottery-card').filter({hasText:'103期毕业公演'})).toHaveCount(1);
+  await page.getByRole('combobox',{name:'Live 报名企划',exact:true}).selectOption('starlight');
+  await expect(page.getByTestId('live-lottery-card').first()).toBeVisible();
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1)).toBe(true);
 });

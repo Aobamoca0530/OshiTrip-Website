@@ -46,10 +46,10 @@ describe("bounded review-only release crawler", () => {
     expect(
       result.observations.map((o: { source_url: string }) => o.source_url),
     ).toEqual([
+      "https://bang-dream.com/discographies/4215/",
       "https://bang-dream.com/discographies/22/",
-      "https://bang-dream.com/discographies/33/",
     ]);
-    expect(result.deferred_urls).toEqual(source.urls);
+    expect(result.deferred_urls).toEqual(["https://bang-dream.com/discographies/33/"]);
     expect(result.discovered).toBe(3);
   });
   it("extracts facts and raw evidence without inventing lottery-to-edition links or stock", () => {

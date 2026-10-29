@@ -1,6 +1,6 @@
 # 官方消息、Live 与线下活动维护流程
 
-流程版本：1.0.0。维护者、Codex、本地定时任务和 GitHub Actions 共用本流程；入口是 `pnpm maintain:public`。此命令准备并校验本地发布文件，只有检查全部通过后才能提交并推送到统一数据仓库。程序不携带 Git 凭据，也不替用户创建服务商 API Key。
+流程版本：1.1.0。维护者、Codex、本地定时任务和 GitHub Actions 共用本流程；入口是 `pnpm maintain:public`。此命令准备并校验本地发布文件，只有检查全部通过后才能提交并推送到统一数据仓库。程序不携带 Git 凭据，也不替用户创建服务商 API Key。
 
 ## 固定步骤
 
@@ -94,7 +94,7 @@ pnpm maintain:public --replay
 
 `nijigasaki-news` 配置 `transport: "browser"` 和 `browser_mode: "headed"`，统一采集入口调用 Playwright Chromium 的临时浏览器上下文，以普通有界面模式运行。robots.txt 也由同一个浏览器读取，避免不同请求方式取得不同规则响应；沿用原有 robots 匹配与失败处理策略。目录和详情由浏览器读取 DOM，随后使用同一个 `extractObservation`、正文指纹、翻译、独立复核与证据校验流程。未采用用户浏览器档案、Cookie 导入、代理、User-Agent 覆写、隐身插件或验证绕过。页面间隔至少 2 秒，单页导航超时 20 秒，正文上限 1.5 MB，robots 上限 100 KB，详情沿用每轮 16 页预算。只接受原地址内容，过滤 iframe、第三方资源和后台接口；403/401/429 停止该来源本轮采集。失败仍保留原资料及核实时间。
 
-本地安装 `pnpm exec playwright install chromium` 后运行 `pnpm maintain:public`；已安装 Edge 的 Windows 可设置 `CRAWLER_BROWSER_CHANNEL=msedge`，维护时会临时打开浏览器窗口并在结束时关闭。浏览器仅用于维护脚本，不随 Windows 用户客户端运行。GitHub 每日任务自动安装 Chromium，以 `xvfb-run --auto-servernum pnpm maintain:public` 提供虚拟显示器，按北京时间 **09:17** 的原有计划运行（平台可能延迟）。这是 [Playwright 官方支持的 Linux 有界面运行方式](https://playwright.dev/docs/ci#running-headed)。报告记录 `transport` 和 `browser_mode`，Actions 摘要单列浏览器来源结果，不能用整体任务通过来推断虹咲采集成功。
+本地安装 `pnpm exec playwright install chromium` 后运行 `pnpm maintain:public`；已安装 Edge 的 Windows 可设置 `CRAWLER_BROWSER_CHANNEL=msedge`，维护时会临时打开浏览器窗口并在结束时关闭。浏览器仅用于维护脚本，不随 Windows 用户客户端运行。GitHub 每日任务自动安装 Chromium，以 `xvfb-run --auto-servernum pnpm maintain:public` 提供虚拟显示器，按北京时间 **22:00** 的每日计划运行（平台可能延迟）。这是 [Playwright 官方支持的 Linux 有界面运行方式](https://playwright.dev/docs/ci#running-headed)。报告记录 `transport` 和 `browser_mode`，Actions 摘要单列浏览器来源结果，不能用整体任务通过来推断虹咲采集成功。
 
 2026-10-29 北京时间 06:38–06:42 的 [首次 GitHub Actions 实测](https://github.com/Aobamoca0530/OshiTrip-Website/actions/runs/40781445206) 已成功安装并启动无头 Chromium，但虹咲目录返回 HTTP 403，取得 0 页，7 个已知详情延期；其他六个来源取得 63 页。应用内浏览器可读不等于无头采集可读。该运行也暴露了空 `DASHSCOPE_BASE_URL` 导致测试失败的问题，现已将空值按未配置处理并补充回归测试。报告显示云端翻译与审核均未配置 API 密钥，新增内容继续进入人工待办，不自动批准。
 
@@ -109,6 +109,18 @@ pnpm maintain:public --replay
 [07:23–07:32 的云端验证](https://github.com/Aobamoca0530/OshiTrip-Website/actions/runs/40786880547) 也取得虹咲 8 篇详情，`browser_mode: headed`、`robots: rules`、0 错误、0 页延期，维护步骤和 210 项测试通过，证明普通模式可在每日运行环境采集。该运行最后因 main 同时出现新提交而推送被拒绝；维护者下载原始报告，在最新代码上执行 `pnpm maintain:public --replay` 校验后同步数据，保留云端采集时间。云端报告另有翻译接口 HTTP 429，相关内容保留待审核；这是模型服务问题，与官网采集成功分别记录。
 
 手动运行同一个工作流并勾选 `validate_only` 时，完整执行采集和维护校验，但不推送数据；虹咲未完整取得正文会让验证步骤失败。普通每日运行保留失败来源状态并允许其他已校验来源更新。报告附件保留 14 天。2026-10-29 本机独立无头 Edge 实测仍返回 HTTP 403，不能把应用内浏览器成功推广为本机或云端定时任务成功；云端结果需以实际工作流报告为准。
+
+## 定向复查、附券商品与 IP 分类（流程 1.1.0）
+
+1. 完整例行采集仍使用 `pnpm maintain:public`。复查单一来源可执行 `pnpm maintain:public --source=liella-official`；只能选择已启用来源，不能和 `--replay` 混用。需要本地已有 observations/report。定向采集沿用普通浏览器、robots、频率和页面预算；固定跟踪详情优先于发现链接。其他来源的正文及每来源报告保留原时间，不能因补抓一个来源而刷新整个站群的核实日期。源站 401/403/429 停止该轮同域访问。
+2. 新闻标题优先使用正文标题：Liella 部分页面的 `og:title` 只是“ニュース”，此前会漏掉叶月恋菜单。生日菜单必须有实体店及地址证据，不能把通販生日商品当现场活动。图片继续从官方正文提取并保留出处；图片可展示不等于图中文字已经审核，Live 海报不能作为商品封面。
+3. `--contract` 输出 `ticket_product_candidate`、`verified_ticket_product` 的实际 Schema 及提示词，供 OpenAI、百炼、DeepSeek 和维护代理共用。候选需要另行对照原文复核；只有实际完成复核的维护者才能写 `scripts/crawler/verified-ticket-products.json`。不得将模型候选直接写成已批准记录。每条绑定 `source_hash`、商品原名、附券版本、发售日、各场日期/会场、Day1/Day2、报名开始/截止及连续原文。审核拒绝、日期或时区不匹配不得发布；正文变化撤销旧商品发布资格并进入 `ticket-products-report.json` 待办。
+4. 资料不足时价格、SKU、店铺特典、库存和封面留空。一般抽选、先着售票、附周边票、升席票不能自动推定为“须购CD附券”。已截止附券轮次保留历史状态，当前一般抽选另行说明；每个序列号可申请的场次和张数分别核实。
+5. `pnpm maintain:public --replay` 在生成公共数据前执行 `prepare-ticket-products.mjs`，核验并投影到既有 `releases.json`，随后执行数据、SQL、类型、lint、测试。未读到来源时保留旧资料与旧核实时间，不产生新的验证日期。新增手工活动复核可在 `verified-readings.json` 附 `review` 原文与结论；证据错误或明确拒绝不能批准。
+6. “Live 抽选与发售”同时展示按系列/子 IP 分组的附券商品和此前采集的 Live 报名列表；父 IP 筛选包含全部子 IP。跨系列商品只展示一次，但能被任一关联系列筛选到。Live 列表保留已有中文票务说明、场次、官方链接和待复核状态；尚无商品记录不等于无需附券。历史条目和待复核条目不推断为正在报名。
+7. 本聊天的本地任务与 GitHub `public-data.yml`、`discover-releases.yml` 均设为北京时间每日 **22:00**（GitHub 为 UTC 14:00，平台可能延迟）。本地代理需电脑及应用运行；GitHub 云端任务不依赖本机开机。云端商品发现仍受 `CRAWLER_ENABLED` 等既有配置控制，改时间不会替用户启用该开关。同一时段有新提交时保留双方内容、合并后重新校验，不强推。
+
+本轮普通浏览器读取 Liella 的八巡、`musubu` 项目和叶月恋 YURINAN 菜单成功。项目正式名称为「Liella!と結ぶプロジェクト」，其中体育祭已于 2026 年 9 月结束。八巡三站六日已按 Day1 迷你专辑 / Day2 Fan Disc 分开；补入两种莲之空103期毕业公演附券商品及两种已截止的石川公演历史附券商品，共6条。叶月恋菜单正文的销售段落未写年份、预约规则未说明，已翻译并保留图片，但不强行批准为正式行程活动。商品封面未得到证据，不以演出海报替代。
 
 ## 2026-10-29 漏项复核范围
 

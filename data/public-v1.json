@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "revision": "877eec5333e25c1e9e0a6e502cc7c336aef8ef9b4fd9f5044f10175ba97d479a",
-  "publishedAt": "2026-10-29T12:27:36.605Z",
+  "revision": "1b4cad0f3b478a9dd035aa4632d6d175f61b6e3cebc10b79937e10a06a7421d7",
+  "publishedAt": "2026-10-29T13:03:49.572Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -3675,6 +3675,492 @@
           ]
         },
         {
+          "id": "auto-1c624082c33b649c",
+          "slug": "official-1c624082c33b649c",
+          "title_ja": "ラブライブ！サンシャイン!! 第５回沼津地元愛まつり",
+          "title_zh": "Aqours 第五届沼津地元爱祭",
+          "category": "其他联动",
+          "summary": "2027年3月20–22日在沼津キラメッセぬまづ举办，每日昼夜两场、出演成员不同。最新一轮官方先行抽选已于2026年10月25日23:59（日本时间）截止，10月31日公布结果。同期地元爱物产展另设会场，细节尚待公布。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/30/1002/g4jfzkV9elMRjdWG/xMliz5BPocxHQzNT.jpeg",
+            "alt": "Aqours 第五届沼津地元爱祭",
+            "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-1c624082c33b649c-rule-0",
+              "kind": "参加",
+              "title": "三天六场",
+              "text_zh": "每天昼场13:00入场、14:00开演；夜场17:30入场、18:30开演。3月20日伊波杏树、小宫有纱、降幡爱；21日逢田梨香子、高槻加奈子、铃木爱奈；22日诹访七香、齐藤朱夏、小林爱香。",
+              "evidence_ja": "開催概要・出演者\n＜Day.1＞\n2027年3月20日（土）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】伊波杏樹（高海千歌役）、小宮有紗（黒澤ダイヤ役）、降幡 愛（黒澤ルビィ役）\n＜Day.2＞\n2027年3月21日（日）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】逢田梨香子（桜内梨子役）、高槻かなこ（国木田花丸役）、鈴木愛奈（小原鞠莉役）\n＜Day.3＞\n2027年3月22日（月・祝）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】諏訪ななか（松浦果南役）、斉藤朱夏（渡辺 曜役）、小林愛香（津島善子役）\n会場\nキラメッセぬまづ（静岡県沼津市大手1丁目1−4）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-1c624082c33b649c-rule-1",
+              "kind": "参加",
+              "title": "票种与视线限制",
+              "text_zh": "指定席及注释指定席均为普通8,500日元、附周边11,500日元（含税）。注释席可能看不清或看不到部分出演者、演出及舞台。",
+              "evidence_ja": "チケット\n全席指定（グッズ付き）：11,500円（税込）\n全席指定：8,500円（税込）\n・2026/9/25追記\n注釈付き指定席（グッズ付き）：11,500円（税込）\n注釈付き指定席：8,500円（税込）\n※注釈付き指定席は出演者、演出及びステージの一部が見えにくい、または一部が見えないお席となります。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-1c624082c33b649c-rule-2",
+              "kind": "参加",
+              "title": "附周边票须下载兑换券",
+              "text_zh": "特典为按演出日设计的B6亚克力板，含复制签名与序列号；当天现场领取，未领取作废，不邮寄，瑕疵仅当天更换。申请者和同行者均需能安装eplus App的手机，事前分配独立周边兑换券，否则同行者不能领取。",
+              "evidence_ja": "＜グッズ付きチケットについて＞\n箔押しメンバー複製サイン＆シリアルナンバー入り B6アクリルプレート (公演日別デザイン)\n※グッズは公演当日に会場でのお渡しを予定しております。\n当日の受け渡しに関する詳細は後日ご案内いたします。\n※公演当日にお受け取りができない場合は無効となります。\n事前・事後の発送は行いませんので、あらかじめご了承ください。\n※不良品の交換は当日のみ対応いたします。\n※グッズ付きチケットをご購入の方は、別途「グッズ引換券」（スマチケ）のダウンロードが必要となります。「グッズ引換券」のダウンロードにはイープラスアプリ（無料）のインストールが必要です。\n※複数枚お申込みの場合、事前に必ず同行者様へ「グッズ引換券」の分配をおこなってください。\n「グッズ引換券」を分配していない場合、同行者様はグッズのお受け取りができません。\n※同行者の方もイープラスアプリ（無料）をインストールできるスマートフォンが必要です。（申込者の方と同様の動作機種・推奨環境が必要です）\n※チケットご購入時の手数料に、グッズ引換にかかる手数料も含まれます。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-1c624082c33b649c-rule-3",
+              "kind": "参加",
+              "title": "最新抽选已截止",
+              "text_zh": "官方先行9月26日18:00至10月25日23:59受理；10月31日13:00起公布结果，付款至11月3日21:00。每人每场最多4张，可报多场，四种票均在本轮销售。均为日本时间，旧页眉“受理中”不能替代日期判断。",
+              "evidence_ja": "＜オフィシャル先行（抽選）＞★どなたでもお申し込みいただけます！★\n本受付では、全席指定（グッズ付き／グッズなし）と注釈付き指定席（グッズ付き／グッズなし）の4券種を販売いたします。\n■受付URL： https://eplus.jp/jimoai2027/\n■受付期間：2026年9月26日（土）18:00～10月25日（日）23:59\n■当落発表：2026年10月31日（土）13:00～\n■入金期間：2026年10月31日（土）13:00～11月3日（火・祝）21:00\n※枚数制限：お一人様、1公演につき4枚までお申込み可能（複数公演申込可）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-1c624082c33b649c-rule-4",
+              "kind": "参加",
+              "title": "身份与取消",
+              "text_zh": "3岁以上收费，需免费eplus会员，另收手续费；仅受理期内可改退申请，中选后不能取消购买。所有入场者包括同行者须登记人脸照片，并携带照片证件。",
+              "evidence_ja": "●注意事項●\n※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-1c624082c33b649c-rule-5",
+              "kind": "参加",
+              "title": "同期物产展",
+              "text_zh": "沼津地元爱物产展在Plaza Verde Convention Hall A，地点不同于演出主会场；具体开放时间和参加方式尚待更新。",
+              "evidence_ja": "同時開催\n沼津地元愛物産展\nプラサヴェルデ コンベンションホールA（〒410-0801 静岡県沼津市大手町1-1-4）\n（詳細は近日更新予定！）\nhttps://www.plazaverde.jp/jimoai-event/",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "本轮已截止。官方写明任何人都可报名，无商品附券前提；每人每场最多4张。每天昼夜两场。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T12:15:33.162Z",
+          "updated_at": "2026-10-29T12:15:33.162Z",
+          "franchise_ids": [
+            "lovelive",
+            "aqours"
+          ],
+          "venues": [
+            {
+              "id": "auto-1c624082c33b649c-venue-df00c5abca",
+              "city": "沼津",
+              "name": "キラメッセぬまづ",
+              "address": null,
+              "start_date": "2027-03-20",
+              "end_date": "2027-03-20",
+              "rounds": [
+                {
+                  "id": "auto-1c624082c33b649c-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-09-26T18:00:00+09:00",
+                  "closes_at": "2026-10-25T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+                  "note": "本轮已截止。官方写明任何人都可报名，无商品附券前提；每人每场最多4张。每天昼夜两场。"
+                }
+              ]
+            },
+            {
+              "id": "auto-1c624082c33b649c-venue-5d3c7db104",
+              "city": "沼津",
+              "name": "キラメッセぬまづ",
+              "address": null,
+              "start_date": "2027-03-21",
+              "end_date": "2027-03-21",
+              "rounds": [
+                {
+                  "id": "auto-1c624082c33b649c-round-1",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-09-26T18:00:00+09:00",
+                  "closes_at": "2026-10-25T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+                  "note": "本轮已截止。官方写明任何人都可报名，无商品附券前提；每人每场最多4张。每天昼夜两场。"
+                }
+              ]
+            },
+            {
+              "id": "auto-1c624082c33b649c-venue-f67278f082",
+              "city": "沼津",
+              "name": "キラメッセぬまづ",
+              "address": null,
+              "start_date": "2027-03-22",
+              "end_date": "2027-03-22",
+              "rounds": [
+                {
+                  "id": "auto-1c624082c33b649c-round-2",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-09-26T18:00:00+09:00",
+                  "closes_at": "2026-10-25T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+                  "note": "本轮已截止。官方写明任何人都可报名，无商品附券前提；每人每场最多4张。每天昼夜两场。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-1c624082c33b649c-source",
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T12:15:33.162Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-9cfb2d214ec41aea",
+          "slug": "official-9cfb2d214ec41aea",
+          "title_ja": "Guilty Kiss Musical Performance 漆黒のWanted Ghost",
+          "title_zh": "Guilty Kiss 音乐剧《漆黑的 Wanted Ghost》",
+          "category": "音乐和声优活动",
+          "summary": "2026年11月22、23日在沼津市民文化中心各演两场。这是3DCG音乐剧，声优本人不登台。现场普通指定席9,800日元，SPWN一般先到先得售票至11月12日23:59（日本时间），售完可提前结束；附周边票已截止。不能以配信票入场。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/04/18/1002/c56700lQDN6V4XEY/N7odUamdfI4wq7eg.jpeg",
+            "alt": "Guilty Kiss 音乐剧《漆黑的 Wanted Ghost》",
+            "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-9cfb2d214ec41aea-rule-0",
+              "kind": "参加",
+              "title": "四场演出",
+              "text_zh": "11月22、23日各有昼夜两场：昼场12:30入场、13:30开演；夜场16:30入场、17:30开演。四场剧情视点和音乐Live曲目不同。",
+              "evidence_ja": "公演日時\nDay.1 2026年11月22日（日）\n昼公演 拒絶への恐怖 - Fear of Rejection - 12:30開場／13:30開演\n夜公演 境遇への反発 - Against Odds - 16:30開場／17:30開演\nDay.2 2026年11月23日（月祝）\n昼公演 結果への焦燥 - Chasing Results - 12:30開場／13:30開演\n夜公演 魂の重奏 - Ensemble of Souls - 16:30開場／17:30開演\n※公演途中より、一部異なる演出と視点から結末へ至る物語をお届けします。\n舞台内容\n完全オリジナルストーリーによる、ミュージカルパフォーマンス\n※芝居と楽曲で構成される「演劇」となります。\n※加えて出演者によるカーテンコール/MCと、公演毎に楽曲が異なる「音楽ライブ」を別途で予定しております。\n※Day.2 夜公演の音楽ライブパートのみスマートフォンでの撮影をOKとする予定です。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-9cfb2d214ec41aea-rule-1",
+              "kind": "参加",
+              "title": "演出性质",
+              "text_zh": "场馆为沼津市民文化中心；出演角色是樱内梨子、津岛善子、小原鞠莉。演出为3DCG音乐剧，没有声优现场登台。",
+              "evidence_ja": "会場\n沼津市民文化センター\n出演\n桜内梨子（リリー役）、津島善子（ヨハネ役）、小原鞠莉（マリー役）\n※本公演は3DCGミュージカルであり、キャストの登壇はありません。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-9cfb2d214ec41aea-rule-2",
+              "kind": "参加",
+              "title": "现场票价与赠品",
+              "text_zh": "普通全席指定9,800日元，附周边14,800日元（含税）；附周边为梨子B5亚克力板及Guilty Kiss三款徽章。配信票价格不同，不提供现场入场资格。",
+              "evidence_ja": "チケット料金\n＜現地＞\nグッズ付き全席指定チケット：14,800円（税込）\n全席指定チケット：9,800円（税込）\n＜SPWN配信＞ ※公演同時＋アーカイブ\nグッズ付き配信チケット：7,800円（税込）\n配信チケット：4,800円（税込）\n＜VRChat配信＞ ※公演同時＋アーカイブ\nグッズ付きVRChat配信チケット：11,800円（税込）\nVRChat配信チケット：8,800円（税込）\n＜現地＞グッズ付き全席指定チケット特典\nB5アクリルパネル【桜内梨子】＋アクリルバッジ3種【Guilty Kiss】セット",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-9cfb2d214ec41aea-rule-3",
+              "kind": "参加",
+              "title": "一般售票",
+              "text_zh": "普通票SPWN受理为8月28日18:00至11月12日23:59（日本时间）；沼津市民文化中心另有售票入口，只公布起售时间。附周边票9月27日23:59已截止。售完提前结束，付款失效时可能重新释放库存，不能据此保证有票。",
+              "evidence_ja": "現地チケット：一般先着\n----------\n■受付URL：\nグッズ付き全席指定チケット\nSPWN https://spwn.jp/events/evt_MAEeuurU5wuiqfJCIifc\n販売期間 2026年8月28日（金）18:00～9月27日（日）23:59まで\n全席指定チケット\nSPWN https://spwn.jp/events/evt_MAEeuurU5wuiqfJCIifc\n販売期間 2026年8月28日（金）18:00～11月12日（木）23:59まで\n沼津市民文化センター https://p-ticket.jp/numazu-ccc\n販売期間 2026年8月28日（金）18:00～\n※先着順での販売となります。予定枚数に達し次第、受付を終了いたします。\n※決済流れ等の理由により一部在庫が復活する場合もございます。\n----------",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-9cfb2d214ec41aea-rule-4",
+              "kind": "参加",
+              "title": "特典领取",
+              "text_zh": "现场票特典须持票本人在演出当天领取，未领取作废，不提前或事后邮寄；不良品仅当天办理更换。",
+              "evidence_ja": "〇現地チケット\n・来場者特典は会場にてチケットをお持ちのご本人様と引き換えとなります。\n・公演当日にお受け取りができない場合は無効となります。事前・事後の発送は行いませんので、あらかじめご了承ください。\n・不良品の交換は当日のみ対応いたします。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-9cfb2d214ec41aea-rule-5",
+              "kind": "参加",
+              "title": "入场、退款与转让",
+              "text_zh": "3岁以上收费，需SPWN会员，另收手续费。除延期或取消外不能退票或更改票种；电子票不发行纸票，携带照片证件。不能转让全部同票种门票，至少一张须本人使用；不同票种或批次不能保证连座。",
+              "evidence_ja": "●注意事項●\n※3歳以上有料（入場時に確認させていただく場合がございます。）\n※お申込み時にSPWNの会員登録（無料）が必要です。\n※会場は全席指定席です。\n※チケットの他に各種手数料が必要となります。\n※イベントページ内の「申込前に注意事項を必ずお読みください」を必ずご確認いただきお申し込みください。\n※公演延期ないし中止の場合を除き、払い戻しおよびチケットの種別変更はできません。\n※券種をまたいでチケットを複数枚お申込みいただいた場合、両方当選およびいずれかのチケットのみ当選となる場合もございますのでご了承ください。\n※応募状況によっては全て落選の可能性もございます。\n※抽選、販売期間及び券種をまたいでのチケット複数枚申込では、お席を連番でご用意することはできません。あらかじめご了承ください。\n※同じ券種を複数枚お申し込みいただいた場合、全てのチケットを他人に譲渡することはできません。一枚は必ずご本人がご使用ください。\n※チケットの転売は禁止しております。\n※ご入場の際に会場にて、身分証明書の確認をさせていただく場合がございます。顔写真付きの身分証明書をご持参ください。\n※チケットは電子チケットとなります。紙媒体での発券はいたしませんのでご注意ください。\n※その他注意事項につきましては、 SPWNのイベントページ をご確認ください。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-9cfb2d214ec41aea-rule-6",
+              "kind": "参加",
+              "title": "手机拍摄范围",
+              "text_zh": "官网仅计划允许Day2夜场的音乐Live部分用手机拍摄，不能扩大到整场演剧。",
+              "evidence_ja": "※Day.2 夜公演の音楽ライブパートのみスマートフォンでの撮影をOKとする予定です。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "普通现场票SPWN先着销售；不需把附周边票/配信票当作CD抽选资格。售完提前结束，每天昼夜场次详见规则。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T12:15:33.162Z",
+          "updated_at": "2026-10-29T12:15:33.162Z",
+          "franchise_ids": [
+            "lovelive",
+            "aqours"
+          ],
+          "venues": [
+            {
+              "id": "auto-9cfb2d214ec41aea-venue-da2fa36162",
+              "city": "沼津",
+              "name": "沼津市民文化センター",
+              "address": null,
+              "start_date": "2026-11-22",
+              "end_date": "2026-11-22",
+              "rounds": [
+                {
+                  "id": "auto-9cfb2d214ec41aea-round-0",
+                  "label": "官方参加方式",
+                  "method": "先着预约",
+                  "kind": "fixed",
+                  "opens_at": "2026-08-28T18:00:00+09:00",
+                  "closes_at": "2026-11-12T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+                  "note": "普通现场票SPWN先着销售；不需把附周边票/配信票当作CD抽选资格。售完提前结束，每天昼夜场次详见规则。"
+                }
+              ]
+            },
+            {
+              "id": "auto-9cfb2d214ec41aea-venue-c2d0237e08",
+              "city": "沼津",
+              "name": "沼津市民文化センター",
+              "address": null,
+              "start_date": "2026-11-23",
+              "end_date": "2026-11-23",
+              "rounds": [
+                {
+                  "id": "auto-9cfb2d214ec41aea-round-1",
+                  "label": "官方参加方式",
+                  "method": "先着预约",
+                  "kind": "fixed",
+                  "opens_at": "2026-08-28T18:00:00+09:00",
+                  "closes_at": "2026-11-12T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+                  "note": "普通现场票SPWN先着销售；不需把附周边票/配信票当作CD抽选资格。售完提前结束，每天昼夜场次详见规则。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-9cfb2d214ec41aea-source",
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T12:15:33.162Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-a48a7b8fd72221ef",
+          "slug": "official-a48a7b8fd72221ef",
+          "title_ja": "LoveLive! Orchestra Concert＜2027年公演＞",
+          "title_zh": "μ's 嘉宾演唱：LoveLive! Orchestra Concert 2027",
+          "category": "音乐和声优活动",
+          "summary": "2027年1月10–11日在千叶县文化会馆举办，由管弦乐团演奏、μ's五位成员嘉宾演唱。1月10日17:30开演，11日12:00及16:30两场。一般第一次抽选至11月23日23:59（日本时间），每人每场最多4张。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/image.php?img_path=/lovelive/jp/live/2026/09/24/1002/IBCb2VrhHf38f0QG/82CxKr6QnTcTlRGE.jpeg",
+            "alt": "μ's 嘉宾演唱：LoveLive! Orchestra Concert 2027",
+            "source_url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-a48a7b8fd72221ef-rule-0",
+              "kind": "参加",
+              "title": "三场演出",
+              "text_zh": "1月10日16:30入场17:30开演；11日昼场11:00入场12:00开演，夜场15:30入场16:30开演。",
+              "evidence_ja": "【日程】\nDay.1 2027年1月10日（日） 16:30開場／17:30開演\nDay.2 2027年1月11日（月・祝） ＜昼公演＞11:00開場／12:00開演 ＜夜公演＞15:30開場／16:30開演\n【会場】\n千葉県文化会館",
+              "source_url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-a48a7b8fd72221ef-rule-1",
+              "kind": "参加",
+              "title": "门票",
+              "text_zh": "指定席11,000日元（含税）；配信另行公布，不把配信票当现场票。",
+              "evidence_ja": "【チケット料金】\n全席指定：11,000円（税込）\n※＜有料生配信＞の同時実施を予定しております。詳細は後日ご案内いたします。\n※天候・災害等の諸事情により、開演時間・公演内容の変更、延期、または中止させていただく場合がございます。",
+              "source_url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-a48a7b8fd72221ef-rule-2",
+              "kind": "参加",
+              "title": "一般第一次抽选",
+              "text_zh": "10月24日12:00至11月23日23:59（日本时间），11月28日13:00起公布结果；付款至12月1日21:00，每人每场最多4张，可申请多场。",
+              "evidence_ja": "一般発売（1次抽選）\n■受付URL： https://eplus.jp/lovelive_orchestra2027/\n■受付期間：2026年10月24日（土）12:00～11月23日（月・祝）23:59\n■当落発表：2026年11月28日（土）13:00～\n■入金期間：2026年11月28日（土）13:00～12月1日（火）21:00\n※枚数制限：お一人様、1公演につき4枚まで（複数公演申込可）",
+              "source_url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-a48a7b8fd72221ef-rule-3",
+              "kind": "参加",
+              "title": "一般第二次抽选",
+              "text_zh": "11月28日12:00至12月20日23:59（日本时间），12月25日13:00起公布结果；每人每场最多4张，仅信用卡支付。",
+              "evidence_ja": "一般発売（2次抽選）\n■受付URL： https://eplus.jp/lovelive_orchestra2027/\n■受付期間：2026年11月28日（土）12:00～12月20日（日）23:59\n■当落発表：2026年12月25日（金）13:00～\n※枚数制限：お一人様、1公演につき4枚まで（複数公演申込可）\n※クレジットカード決済のみ受付となります。",
+              "source_url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-a48a7b8fd72221ef-rule-4",
+              "kind": "参加",
+              "title": "年龄与实名",
+              "text_zh": "3岁以下禁止入场，3岁以上收费；需要eplus会员、申请者及同行者人脸照片登记，携带照片身份证件。中选后不能取消，另有手续费。",
+              "evidence_ja": "●注意事項●\n※3歳以上有料（3歳未満のお子様はご入場いただけません）\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを2枚以上購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。\n▼顔認証入場システムのご利用について\nhttps://eplus.jp/faceticket_about/\n■同行者登録とは？\nhttps://eplus.jp/sf/guide/fellow-ep/\n■【同行者登録】手続きはこちら\nhttps://member.eplus.jp/update-dokosha\n※受付開始前からお手続きいただけます。",
+              "source_url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "一般第一次抽选，每人每场最多4张；官网未列附券商品要求。第二次为11月28日12:00至12月20日23:59，另见规则；1月11日昼夜两场。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T12:15:33.162Z",
+          "updated_at": "2026-10-29T12:15:33.162Z",
+          "franchise_ids": [
+            "lovelive",
+            "muse"
+          ],
+          "venues": [
+            {
+              "id": "auto-a48a7b8fd72221ef-venue-3d31b56c62",
+              "city": "千叶",
+              "name": "千葉県文化会館",
+              "address": null,
+              "start_date": "2027-01-10",
+              "end_date": "2027-01-10",
+              "rounds": [
+                {
+                  "id": "auto-a48a7b8fd72221ef-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-10-24T12:00:00+09:00",
+                  "closes_at": "2026-11-23T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+                  "note": "一般第一次抽选，每人每场最多4张；官网未列附券商品要求。第二次为11月28日12:00至12月20日23:59，另见规则；1月11日昼夜两场。"
+                }
+              ]
+            },
+            {
+              "id": "auto-a48a7b8fd72221ef-venue-c4791abbca",
+              "city": "千叶",
+              "name": "千葉県文化会館",
+              "address": null,
+              "start_date": "2027-01-11",
+              "end_date": "2027-01-11",
+              "rounds": [
+                {
+                  "id": "auto-a48a7b8fd72221ef-round-1",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-10-24T12:00:00+09:00",
+                  "closes_at": "2026-11-23T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+                  "note": "一般第一次抽选，每人每场最多4张；官网未列附券商品要求。第二次为11月28日12:00至12月20日23:59，另见规则；1月11日昼夜两场。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-a48a7b8fd72221ef-source",
+              "url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T12:15:33.162Z"
+            }
+          ]
+        },
+        {
           "id": "auto-96f2d29dd4fe37bf",
           "slug": "official-96f2d29dd4fe37bf",
           "title_ja": "LoveLive! Series 15th Anniversary ラブライブ！フェス",
@@ -3845,6 +4331,160 @@
           ]
         },
         {
+          "id": "auto-70dd2d30c1a28bb3",
+          "slug": "official-70dd2d30c1a28bb3",
+          "title_ja": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ Link Live Dream ～103期卒業公演～｜LIVE＆EVENT",
+          "title_zh": "莲之空 Link Live Dream「103期毕业公演」",
+          "category": "音乐和声优活动",
+          "summary": "2027年1月23、24日在东京日本武道馆举办。Day1与Day2分别使用Extra单曲及电影BD特装限定版附券报名，开始日期不同，均于11月8日23:59（日本时间）截止。花宫初奈仅Day2出演。升席须先中选并付款，另行抽选。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/10/14/1002/FyGJDIH74hlE7GXY/4d7rb3OPiFwtiDJ1.jpeg",
+            "alt": "莲之空 Link Live Dream「103期毕业公演」",
+            "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-70dd2d30c1a28bb3-rule-0",
+              "kind": "参加",
+              "title": "场次与出演差异",
+              "text_zh": "1月23日16:00入场、17:00开演；24日14:30入场、15:30开演。花宫初奈仅第二天出演。",
+              "evidence_ja": "【日程】\nDay.1 2027年1月23日(土) 16:00開場／17:00開演\nDay.2 2027年1月24日(日) 14:30開場／15:30開演\n【会場】\n東京・日本武道館\n【出演】\n蓮ノ空女学院スクールアイドルクラブ\n楡井希実（日野下花帆役）、花宮初奈（乙宗 梢役）、野中ここな（村野さやか役）、佐々木琴子（夕霧綴理役）、菅 叶和（大沢瑠璃乃役）、月音こな（藤島 慈役）、櫻井陽菜（百生吟子役）、葉山風花（徒町小鈴役）、来栖りん（安養寺姫芽役）、三宅美羽（セラス 柳田 リリエンフェルト役）、進藤あまね（桂城 泉役）\n※花宮初奈（乙宗 梢役）はDay.2 のみ出演となります。",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-70dd2d30c1a28bb3-rule-1",
+              "kind": "参加",
+              "title": "Day1附券",
+              "text_zh": "10月14日发行Extra单曲附券：10月14日12:00至11月8日23:59受理；每序列号最多2张，11月14日13:00公布结果，中选后至11月17日21:00付款。均为日本时间。",
+              "evidence_ja": "★お申込み対象：Day.1 2027年1月23日（土）公演\n2026年10月14日（水）発売\n蓮ノ空女学院スクールアイドルクラブ Extraシングル\n「タイトル未定」\n封入申込券にて受付\n----------\n■受付期間：2026年10月14日（水）12:00～11月8日（日）23:59\n■当落発表：2026年11月14日（土）13:00～\n■入金期間：2026年11月14日（土）13:00～11月17日（火）21:00\n※枚数制限：『シリアルNo.』1つにつき、Day.1公演に2枚までお申込み可能\n----------",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-70dd2d30c1a28bb3-rule-2",
+              "kind": "参加",
+              "title": "Day2附券",
+              "text_zh": "9月25日发行电影Bloom Garden Party BD特装限定版附券：9月25日12:00至11月8日23:59受理，每序列号最多2张；结果及付款时间与Day1相同。",
+              "evidence_ja": "★お申込み対象：Day.2 2027年1月24日（日）公演\n2026年9月25日（金）発売\n『映画 ラブライブ！蓮ノ空女学院スクールアイドルクラブ Bloom Garden Party』Blu-ray（特装限定版）\n封入申込券にて受付\n----------\n■受付期間：2026年9月25日（金）12:00～11月8日（日）23:59\n■当落発表：2026年11月14日（土）13:00～\n■入金期間：2026年11月14日（土）13:00～11月17日（火）21:00\n※枚数制限：『シリアルNo.』1つにつき、Day.2公演に2枚までお申込み可能\n----------",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-70dd2d30c1a28bb3-rule-3",
+              "kind": "参加",
+              "title": "票价及U-20",
+              "text_zh": "指定席13,000日元，U-20票6,500日元；U-20计划随一般销售开放，参加者和同行者须在演出当天未满20岁并接受年龄核实，每人每场最多2张。",
+              "evidence_ja": "【チケット料金】\n全席指定：13,000円（税込）\nU-20割引チケット：6,500円（税込）\nアリーナアップグレードチケット（グッズ付き）：＋13,000円\n----------\n＜U-20割引チケットについて＞\n本公演は、20歳未満の方にもご参加いただきやすくするため、対象の方に向け「U-20割引チケット」を販売いたします。\n・ 公演当日時点で20歳未満の方が購入できるチケットとなります。\n・一般発売に合わせ販売予定です。枚数には限りがございますので、あらかじめご了承ください。\n・当日はご入場にあたり、年齢を確認できる身分証明書を確認させていただきます。\n・U-20割引チケットはお一人様1公演につき2枚までお申込みいただけますが、同行者の方も公演当日時点で20歳未満の方に限ります。あらかじめご了承ください。\n----------",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-70dd2d30c1a28bb3-rule-4",
+              "kind": "参加",
+              "title": "升席不是门票",
+              "text_zh": "升席另加13,000日元，仅最速先行中选并完成付款的原申请者可申请；分两轮抽选，第二轮信用卡付款限定。不能把升席当作普通门票购买。",
+              "evidence_ja": "＜アップグレード受付（1次抽選）＞\n----------\n■受付期間：2026年11月21日（土）12:00～11月29日（日）23:59\n■当落発表：2026年12月5日（土）13:00～\n■入金期間：2026年12月5日（土）13:00～12月8日（火）21:00\n※支払い方法：クレジットカード・コンビニ／ATM・ネットバンキング（ペイジー）がお選びいただけます。\n----------\n＜アップグレード受付（2次抽選）＞\n----------\n■受付期間：2026年12月5日（土）12:00～12月13日（日）23:59\n■当落発表：2026年12月19日（土）13:00～\n※支払い方法：クレジットカードのみとなります。\n----------\n※受付URLは最速先行抽選でチケット購入済みの方でお申込ご本人様のみへイープラスよりメールでご案内いたします。\nメールが届かない場合はお申込ご本人様のイープラスサイト内「申込み履歴（申込み状況照会）」の当選したチケットの詳細から受付URLをご確認いただけます。\n▼申込み履歴（申込み状況照会）\nhttps://eplus.jp/jyoukyou/\n※同行者様には受付URLのご案内はいたしません。",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-70dd2d30c1a28bb3-rule-5",
+              "kind": "参加",
+              "title": "身份核实",
+              "text_zh": "申请者及同行者都须登记人脸照片，并携带带照片的官方身份证件；3岁以上收费，票价外另收手续费。",
+              "evidence_ja": "●注意事項●\n※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、先着順ではなく、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "两天须使用不同附券商品。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T12:15:33.162Z",
+          "updated_at": "2026-10-29T12:15:33.162Z",
+          "franchise_ids": [
+            "lovelive",
+            "hasunosora"
+          ],
+          "venues": [
+            {
+              "id": "auto-70dd2d30c1a28bb3-venue-16b993f8c7",
+              "city": "东京",
+              "name": "日本武道館",
+              "address": null,
+              "start_date": "2027-01-23",
+              "end_date": "2027-01-23",
+              "rounds": [
+                {
+                  "id": "auto-70dd2d30c1a28bb3-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-10-14T12:00:00+09:00",
+                  "closes_at": "2026-11-08T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+                  "note": "Day1：Extra单曲附券，每序列号最多2张。官网仍标标题未定。"
+                }
+              ]
+            },
+            {
+              "id": "auto-70dd2d30c1a28bb3-venue-c6b9428ee3",
+              "city": "东京",
+              "name": "日本武道館",
+              "address": null,
+              "start_date": "2027-01-24",
+              "end_date": "2027-01-24",
+              "rounds": [
+                {
+                  "id": "auto-70dd2d30c1a28bb3-round-1",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-09-25T12:00:00+09:00",
+                  "closes_at": "2026-11-08T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+                  "note": "Day2：电影Bloom Garden Party Blu-ray特装限定版附券，每序列号最多2张。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-70dd2d30c1a28bb3-source",
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T12:15:33.162Z"
+            }
+          ]
+        },
+        {
           "id": "auto-69db4e82e137a6d8",
           "slug": "official-69db4e82e137a6d8",
           "title_ja": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ Link Live Dream ～106期新入生入部記念公演～｜LIVE＆EVENT",
@@ -3960,6 +4600,388 @@
               "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106",
               "label": "官方正文 · 机器辅助整理",
               "checked_at": "2026-10-29T12:15:33.162Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-4dd06bfcf0d0abb2",
+          "slug": "official-4dd06bfcf0d0abb2",
+          "title_ja": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ Link Live Dream ～おいでよ！石川大観光Ⅱ～｜LIVE＆EVENT",
+          "title_zh": "莲之空 Link Live Dream「来吧！石川大观光Ⅱ」",
+          "category": "音乐和声优活动",
+          "summary": "2026年11月28、29日在金泽石川县产业展示馆4号馆举办。一般销售第一次抽选已于10月25日截止；第二次为10月31日12:00至11月8日23:59（日本时间），信用卡付款限定，每人每场最多2张。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/10/05/1002/EAZx7GnmotnpmGJZ/y2mnAXODKayAqlBL.jpeg",
+            "alt": "莲之空 Link Live Dream「来吧！石川大观光Ⅱ」",
+            "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-4dd06bfcf0d0abb2-rule-0",
+              "kind": "参加",
+              "title": "场次",
+              "text_zh": "11月28日15:30入场、16:30开演；29日14:30入场、15:30开演，均为日本时间。",
+              "evidence_ja": "【日程】\nDay.1 2026年11月28日(土) 15:30開場／16:30開演\nDay.2 2026年11月29日(日) 14:30開場／15:30開演\n【会場】\n石川・石川県産業展示館（4号館）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-4dd06bfcf0d0abb2-rule-1",
+              "kind": "参加",
+              "title": "两轮一般抽选",
+              "text_zh": "第一次10月10日至25日已截止；第二次10月31日12:00至11月8日23:59，11月13日13:00起公布结果，每人每场最多2张，仅信用卡支付。",
+              "evidence_ja": "＜一般発売（1次抽選）＞\n----------\n■受付URL： https://eplus.jp/hasunosora-lld/\n■受付期間：2026年10月10日（土）12:00～10月25日（日）23:59\n■当落発表：2026年10月31日（土）13:00～\n■入金期間：2026年10月31日（土）13:00～11月3日（火・祝）21:00\n※枚数制限：お一人様、 1公演につき2枚までお申込み可能。（複数公演申込可能）\n----------\n＜一般発売（2次抽選）＞\n----------\n■受付URL： https://eplus.jp/hasunosora-lld/\n■受付期間：2026年10月31日（土）12:00～11月8日（日）23:59\n■当落発表：2026年11月13日（金）13:00～\n※枚数制限：お一人様、 1公演につき2枚までお申込み可能。（複数公演申込可能）\n※クレジットカード決済のみ受付となります。\n----------",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-4dd06bfcf0d0abb2-rule-2",
+              "kind": "参加",
+              "title": "门票",
+              "text_zh": "指定席13,000日元，U-20为6,500日元，升席另加13,000日元；U-20申请者与同行者都须当天未满20岁。",
+              "evidence_ja": "【チケット料金】\n全席指定：13,000円（税込）\nU-20割引チケット：6,500円（税込）\nアップグレードチケット（グッズ付き）：＋13,000円\n----------\n＜U-20割引チケットについて＞\n本公演は、20歳未満の方にもご参加いただきやすくするため、対象の方に向け「U-20割引チケット」を販売いたします。\n・ 公演当日時点で20歳未満の方が購入できるチケットとなります。\n・一般発売に合わせ販売予定です。枚数には限りがございますので、あらかじめご了承ください。\n・当日はご入場にあたり、年齢を確認できる身分証明書を確認させていただきます。\n・U-20割引チケットはお一人様1公演につき2枚までお申込みいただけますが、同行者の方も公演当日時点で20歳未満の方に限ります。あらかじめご了承ください。\n----------",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-4dd06bfcf0d0abb2-rule-3",
+              "kind": "参加",
+              "title": "升席",
+              "text_zh": "升席抽选10月17日至25日已截止，仅原最速先行中选并付款者可申请；同行者、账号及张数须与原中选记录一致。",
+              "evidence_ja": "＜アップグレード抽選受付＞\n----------\n■受付期間：2026年10月17日（土）12:00～10月25日（日）23:59\n■当落発表：2026年10月31日（土）13:00～\n※クレジットカード決済のみ受付となります。\n----------\n※受付URLは最速先行抽選でチケット購入済みの方でお申込ご本人様のみへイープラスよりメールでご案内いたします。\nメールが届かない場合はお申込ご本人様のイープラスサイト内「申込み履歴（申込み状況照会）」の当選したチケットの詳細から受付URLをご確認いただけます。\n▼申込み履歴（申込み状況照会）\nhttps://eplus.jp/jyoukyou/\n※同行者様には受付URLのご案内はいたしません。\n＜お申込み条件＞\n【対象のお客様】\n最速先行抽選受付にて「全席指定：13,000円（税込）」のチケットにご当選され、ご入金が完了のお申込ご本人様。\n※ご当選・ご入金された公演日・会員情報と同一アカウントのお申込ご本人様が抽選対象となります。最速先行抽選受付にて当選された申込者様のアカウントでお申込みください。登録情報を変更されたり、異なるアカウント情報、異なる同行者でお申込みをされた場合、無効となりますのでご注意ください。\n※同一アカウントのお申込みでも、最速先行抽選受付で当選された同行者様が、「アップグレードチケット」の受付で申込者様としてお申込みをされた場合は、無効となりますのでご注意ください。\n例）最速先行抽選受付にてAさんが申込者、Bさんが同行者として当選\n⇒「アップグレードチケット」の受付はBさんが申込者、Aさんが同行者の場合無効\n※最速先行抽選受付にて2枚購入済みの場合、2枚全てが「アップグレードチケット」の対象となり、一部のみを「アップグレードチケット」としてお申込みは無効となります。\n必ず、最速先行抽選受付にて当選したチケットと同枚数にて、「アップグレードチケット」をお申込みください。\n※チケット代金の他に各種手数料が必要となります。\n※アップグレードチケットご購入者様は優先配席を保証いたしますが、エリアの一部の席につきまして、「全席指定」の方が配席される可能性がございます。何卒ご理解の程、お願い申し上げます。\n※「アップグレードチケット」に抽選で落選した場合は、当選済みの「全席指定」でのご入場・ご観覧となります。",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-4dd06bfcf0d0abb2-rule-4",
+              "kind": "参加",
+              "title": "实名与费用",
+              "text_zh": "3岁以上收费；需eplus会员，票价外另有手续费。申请者及同行者登记人脸照片，携带照片身份证件。",
+              "evidence_ja": "●注意事項●\n※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、先着順ではなく、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "一般第二次抽选，只能信用卡付款，每人每场2张。商品附券先行已截止，不能再购买商品来参加已结束的轮次。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T12:15:33.162Z",
+          "updated_at": "2026-10-29T12:15:33.162Z",
+          "franchise_ids": [
+            "lovelive",
+            "hasunosora"
+          ],
+          "venues": [
+            {
+              "id": "auto-4dd06bfcf0d0abb2-venue-38376609c6",
+              "city": "金泽",
+              "name": "石川県産業展示館（4号館）",
+              "address": null,
+              "start_date": "2026-11-28",
+              "end_date": "2026-11-28",
+              "rounds": [
+                {
+                  "id": "auto-4dd06bfcf0d0abb2-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-10-31T12:00:00+09:00",
+                  "closes_at": "2026-11-08T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+                  "note": "一般第二次抽选，只能信用卡付款，每人每场2张。商品附券先行已截止，不能再购买商品来参加已结束的轮次。"
+                }
+              ]
+            },
+            {
+              "id": "auto-4dd06bfcf0d0abb2-venue-72525ff36f",
+              "city": "金泽",
+              "name": "石川県産業展示館（4号館）",
+              "address": null,
+              "start_date": "2026-11-29",
+              "end_date": "2026-11-29",
+              "rounds": [
+                {
+                  "id": "auto-4dd06bfcf0d0abb2-round-1",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-10-31T12:00:00+09:00",
+                  "closes_at": "2026-11-08T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+                  "note": "一般第二次抽选，只能信用卡付款，每人每场2张。商品附券先行已截止，不能再购买商品来参加已结束的轮次。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-4dd06bfcf0d0abb2-source",
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T12:15:33.162Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-81f284dd403980ef",
+          "slug": "official-81f284dd403980ef",
+          "title_ja": "ラブライブ！スーパースター!! Liella! 8th LoveLive! Tour ～Our Song, Our Dreams～",
+          "title_zh": "Liella! 八巡「Our Song, Our Dreams」",
+          "category": "音乐和声优活动",
+          "summary": "2027年3月6–7日东京有明Arena、4月24–25日福冈Marine Messe B馆、5月8–9日名古屋Port Messe第1展示馆。每站Day1和Day2对应不同商品附券和报名开始日，均于12月14日23:59（日本时间）截止；票价和开演时间尚待公布。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/live/2026/09/03/1002/NxLuZEh2hhMek7is/p1h3XcoSoKvN2x1g.jpeg",
+            "alt": "Liella! 八巡「Our Song, Our Dreams」",
+            "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-81f284dd403980ef-rule-0",
+              "kind": "参加",
+              "title": "三站日程",
+              "text_zh": "东京3月6–7日、福冈4月24–25日、名古屋5月8–9日；不可将爱知县作为城市名称。",
+              "evidence_ja": "＜東京公演＞\n【日程】\nDay.1 2027年3月6日（土）\nDay.2 2027年3月7日（日）\n【会場】\n東京・有明アリーナ\n【公演に関するお問い合わせ先】\nインフォメーションデスク https://information-desk.info/\n＜福岡公演＞\n【日程】\nDay.1 2027年4月24日（土）\nDay.2 2027年4月25日（日）\n【会場】\n福岡・マリンメッセ福岡B館\n【公演に関するお問い合わせ先】\nBEA 092−712−4221（平日12:00〜16:00）\n＜愛知公演＞\n【日程】\nDay.1 2027年5月8日（土）\nDay.2 2027年5月9日（日）\n【会場】\n愛知・ポートメッセなごや 第1展示館\n【公演に関するお問い合わせ先】\nキョードー東海 052-972-7466 （月～金 12:00～18:00/土 10:00～13:00（※日曜・祝日は休業））",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-81f284dd403980ef-rule-1",
+              "kind": "参加",
+              "title": "Day1附券",
+              "text_zh": "各站Day1使用11月18日发行的八巡主题歌迷你专辑附券；11月18日12:00至12月14日23:59受理，每序列号各站Day1分别最多4张。12月19日13:00预计公布结果，付款至22日21:00，日本时间。",
+              "evidence_ja": "★お申込み対象公演：東京Day.1公演、福岡Day.1公演、愛知Day.1公演\n2026年11月18日（水）発売『ラブライブ！スーパースター!! Liella! 8th LoveLive! Tour ～Our Song, Our Dreams～』テーマソングミニアルバム封入の申込券にて受付\n----------\n■受付期間：2026年11月18日（水）12:00～12月14日（月）23:59\n■当落発表：2026年12月19日（土）13:00予定\n■入金期間：2026年12月19日（土）13:00～12月22日（火）21:00\n※枚数制限：『シリアルNo.』1つにつき、各会場のDay.1公演にそれぞれ4枚までお申込み可能（複数公演申込可能）。\n----------",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-81f284dd403980ef-rule-2",
+              "kind": "参加",
+              "title": "Day2附券",
+              "text_zh": "各站Day2使用11月27日发行的Fan Disc第2弹附券；11月27日12:00至12月14日23:59受理，每序列号各站Day2分别最多4张，结果及付款时间与Day1相同。",
+              "evidence_ja": "★お申込み対象公演：東京Day.2公演、福岡Day.2公演、愛知Day.2公演\n2026年11月27日（金）発売「ラブライブ！スーパースター!! ファンディスク第2弾 わくわく地域活動 ～Liella!と結ぶプロジェクト特別編～」封入の申込券にて受付\n----------\n■受付期間：2026年11月27日（金）12:00～12月14日（月）23:59\n■当落発表：2026年12月19日（土）13:00予定\n■入金期間：2026年12月19日（土）13:00～12月22日（火）21:00\n※枚数制限：『シリアルNo.』1つにつき、各会場のDay.2公演にそれぞれ4枚までお申込み可能（複数公演申込可能）。\n----------",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-81f284dd403980ef-rule-3",
+              "kind": "参加",
+              "title": "尚未公布",
+              "text_zh": "开场、开演时间及票价后续公布，升席安排也待后续公告。",
+              "evidence_ja": "※開場・開演時間、チケット代など、そのほかの詳細は後日ご案内いたします。",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-81f284dd403980ef-rule-4",
+              "kind": "参加",
+              "title": "实名及年龄",
+              "text_zh": "3岁以上收费；申请者与同行者均需登记人脸照片并携带带照片的官方身份证件，需eplus会员；抽选不是先到先得。",
+              "evidence_ja": "注意事項\n※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、先着順ではなく、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。\n▼顔認証入場システムのご利用について\nhttps://eplus.jp/faceticket_about/\n■同行者登録とは？\nhttps://eplus.jp/sf/guide/fellow-ep/\n■【同行者登録】手続きはこちら\nhttps://member.eplus.jp/update-dokosha\n※受付開始前からお手続きいただけます。",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "各站Day1、Day2使用不同商品附券，请分别查看场次。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T12:48:06.373Z",
+          "updated_at": "2026-10-29T12:48:06.373Z",
+          "franchise_ids": [
+            "lovelive",
+            "liella"
+          ],
+          "venues": [
+            {
+              "id": "auto-81f284dd403980ef-venue-7e9457ba98",
+              "city": "东京",
+              "name": "有明アリーナ",
+              "address": null,
+              "start_date": "2027-03-06",
+              "end_date": "2027-03-06",
+              "rounds": [
+                {
+                  "id": "auto-81f284dd403980ef-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-18T12:00:00+09:00",
+                  "closes_at": "2026-12-14T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+                  "note": "Day1使用11月18日发行的八巡主题歌迷你专辑附券；每序列号各站Day1分别最多4张，不适用于Day2。票价、开演及升席详情未公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-81f284dd403980ef-venue-d5947fb2ae",
+              "city": "东京",
+              "name": "有明アリーナ",
+              "address": null,
+              "start_date": "2027-03-07",
+              "end_date": "2027-03-07",
+              "rounds": [
+                {
+                  "id": "auto-81f284dd403980ef-round-1",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-27T12:00:00+09:00",
+                  "closes_at": "2026-12-14T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+                  "note": "Day2使用11月27日发行的Fan Disc第2弹附券；每序列号各站Day2分别最多4张，不适用于Day1。票价、开演及升席详情未公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-81f284dd403980ef-venue-cf10c89c61",
+              "city": "福冈",
+              "name": "マリンメッセ福岡B館",
+              "address": null,
+              "start_date": "2027-04-24",
+              "end_date": "2027-04-24",
+              "rounds": [
+                {
+                  "id": "auto-81f284dd403980ef-round-2",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-18T12:00:00+09:00",
+                  "closes_at": "2026-12-14T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+                  "note": "Day1使用11月18日发行的八巡主题歌迷你专辑附券；每序列号各站Day1分别最多4张，不适用于Day2。票价、开演及升席详情未公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-81f284dd403980ef-venue-7c5911bc1f",
+              "city": "福冈",
+              "name": "マリンメッセ福岡B館",
+              "address": null,
+              "start_date": "2027-04-25",
+              "end_date": "2027-04-25",
+              "rounds": [
+                {
+                  "id": "auto-81f284dd403980ef-round-3",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-27T12:00:00+09:00",
+                  "closes_at": "2026-12-14T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+                  "note": "Day2使用11月27日发行的Fan Disc第2弹附券；每序列号各站Day2分别最多4张，不适用于Day1。票价、开演及升席详情未公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-81f284dd403980ef-venue-4a6b19a882",
+              "city": "名古屋",
+              "name": "ポートメッセなごや 第1展示館",
+              "address": null,
+              "start_date": "2027-05-08",
+              "end_date": "2027-05-08",
+              "rounds": [
+                {
+                  "id": "auto-81f284dd403980ef-round-4",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-18T12:00:00+09:00",
+                  "closes_at": "2026-12-14T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+                  "note": "Day1使用11月18日发行的八巡主题歌迷你专辑附券；每序列号各站Day1分别最多4张，不适用于Day2。票价、开演及升席详情未公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-81f284dd403980ef-venue-13a44585bb",
+              "city": "名古屋",
+              "name": "ポートメッセなごや 第1展示館",
+              "address": null,
+              "start_date": "2027-05-09",
+              "end_date": "2027-05-09",
+              "rounds": [
+                {
+                  "id": "auto-81f284dd403980ef-round-5",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-27T12:00:00+09:00",
+                  "closes_at": "2026-12-14T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+                  "note": "Day2使用11月27日发行的Fan Disc第2弹附券；每序列号各站Day2分别最多4张，不适用于Day1。票价、开演及升席详情未公布。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-81f284dd403980ef-source",
+              "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T12:48:06.373Z"
             }
           ]
         }
@@ -8992,6 +10014,452 @@
             "label": "Roselia 10周年巡演官方公告",
             "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
             "checked_on": "2026-10-28"
+          }
+        ]
+      },
+      {
+        "id": "ticket-liella-8th-day1",
+        "slug": "ticket-liella-8th-day1",
+        "title": "ラブライブ！スーパースター!! Liella! 8th LoveLive! Tour ～Our Song, Our Dreams～",
+        "franchise_ids": [
+          "lovelive",
+          "liella"
+        ],
+        "release_on": "2026-11-18",
+        "summary": "八巡各站Day1的主题歌迷你专辑附券。商品详细版号与价格尚未核实。",
+        "status": "published",
+        "updated_at": "2026-10-29T12:58:40.994Z",
+        "editions": [
+          {
+            "id": "enclosed-ticket",
+            "label": "テーマソングミニアルバム",
+            "sku": "",
+            "price_yen": null,
+            "eligibility": "每个序列号可申请东京、福冈、爱知各站Day1分别最多4张，可报多站；不能用于Day2。"
+          }
+        ],
+        "lotteries": [
+          {
+            "id": "ticket-liella-8th-day1-0",
+            "title": "Liella! 八巡 · 东京 Day1 最速先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-81f284dd403980ef",
+            "live_dates": [
+              "2027-03-06"
+            ],
+            "venue": "有明アリーナ",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2026-11-18T12:00:00+09:00",
+              "closes_at": "2026-12-14T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "每个序列号可申请东京、福冈、爱知各站Day1分别最多4张，可报多站；不能用于Day2。",
+              "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
+              "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
+              "票价、开场/开演与升席细节后续公布。"
+            ],
+            "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
+          },
+          {
+            "id": "ticket-liella-8th-day1-1",
+            "title": "Liella! 八巡 · 福冈 Day1 最速先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-81f284dd403980ef",
+            "live_dates": [
+              "2027-04-24"
+            ],
+            "venue": "マリンメッセ福岡B館",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2026-11-18T12:00:00+09:00",
+              "closes_at": "2026-12-14T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "每个序列号可申请东京、福冈、爱知各站Day1分别最多4张，可报多站；不能用于Day2。",
+              "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
+              "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
+              "票价、开场/开演与升席细节后续公布。"
+            ],
+            "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
+          },
+          {
+            "id": "ticket-liella-8th-day1-2",
+            "title": "Liella! 八巡 · 名古屋 Day1 最速先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-81f284dd403980ef",
+            "live_dates": [
+              "2027-05-08"
+            ],
+            "venue": "ポートメッセなごや 第1展示館",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2026-11-18T12:00:00+09:00",
+              "closes_at": "2026-12-14T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "每个序列号可申请东京、福冈、爱知各站Day1分别最多4张，可报多站；不能用于Day2。",
+              "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
+              "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
+              "票价、开场/开演与升席细节后续公布。"
+            ],
+            "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
+          }
+        ],
+        "offers": [],
+        "campaigns": [],
+        "sources": [
+          {
+            "label": "官方Live页面 · 附券商品与场次已复核",
+            "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+            "checked_on": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "ticket-liella-8th-day2",
+        "slug": "ticket-liella-8th-day2",
+        "title": "ラブライブ！スーパースター!! ファンディスク第2弾 わくわく地域活動 ～Liella!と結ぶプロジェクト特別編～",
+        "franchise_ids": [
+          "lovelive",
+          "liella"
+        ],
+        "release_on": "2026-11-27",
+        "summary": "八巡各站Day2的Fan Disc第2弹附券。",
+        "status": "published",
+        "updated_at": "2026-10-29T12:58:40.994Z",
+        "editions": [
+          {
+            "id": "enclosed-ticket",
+            "label": "附申込券版本（具体版号未核实）",
+            "sku": "",
+            "price_yen": null,
+            "eligibility": "每个序列号可申请东京、福冈、爱知各站Day2分别最多4张，可报多站；不能用于Day1。"
+          }
+        ],
+        "lotteries": [
+          {
+            "id": "ticket-liella-8th-day2-0",
+            "title": "Liella! 八巡 · 东京 Day2 最速先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-81f284dd403980ef",
+            "live_dates": [
+              "2027-03-07"
+            ],
+            "venue": "有明アリーナ",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2026-11-27T12:00:00+09:00",
+              "closes_at": "2026-12-14T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "每个序列号可申请东京、福冈、爱知各站Day2分别最多4张，可报多站；不能用于Day1。",
+              "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
+              "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
+              "票价、开场/开演与升席细节后续公布。"
+            ],
+            "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
+          },
+          {
+            "id": "ticket-liella-8th-day2-1",
+            "title": "Liella! 八巡 · 福冈 Day2 最速先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-81f284dd403980ef",
+            "live_dates": [
+              "2027-04-25"
+            ],
+            "venue": "マリンメッセ福岡B館",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2026-11-27T12:00:00+09:00",
+              "closes_at": "2026-12-14T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "每个序列号可申请东京、福冈、爱知各站Day2分别最多4张，可报多站；不能用于Day1。",
+              "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
+              "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
+              "票价、开场/开演与升席细节后续公布。"
+            ],
+            "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
+          },
+          {
+            "id": "ticket-liella-8th-day2-2",
+            "title": "Liella! 八巡 · 名古屋 Day2 最速先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-81f284dd403980ef",
+            "live_dates": [
+              "2027-05-09"
+            ],
+            "venue": "ポートメッセなごや 第1展示館",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2026-11-27T12:00:00+09:00",
+              "closes_at": "2026-12-14T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "每个序列号可申请东京、福冈、爱知各站Day2分别最多4张，可报多站；不能用于Day1。",
+              "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
+              "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
+              "票价、开场/开演与升席细节后续公布。"
+            ],
+            "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
+          }
+        ],
+        "offers": [],
+        "campaigns": [],
+        "sources": [
+          {
+            "label": "官方Live页面 · 附券商品与场次已复核",
+            "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+            "checked_on": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "ticket-hasu-103-day1",
+        "slug": "ticket-hasu-103-day1",
+        "title": "蓮ノ空女学院スクールアイドルクラブ Extraシングル",
+        "franchise_ids": [
+          "lovelive",
+          "hasunosora"
+        ],
+        "release_on": "2026-10-14",
+        "summary": "103期毕业公演Day1使用Extra单曲附券；本次官网Live正文仍将曲名标为「タイトル未定」。",
+        "status": "published",
+        "updated_at": "2026-10-29T12:58:40.994Z",
+        "editions": [
+          {
+            "id": "enclosed-ticket",
+            "label": "附申込券版本（具体版号未核实）",
+            "sku": "",
+            "price_yen": null,
+            "eligibility": "每序列号仅可申请Day1，最多2张。"
+          }
+        ],
+        "lotteries": [
+          {
+            "id": "ticket-hasu-103-day1-0",
+            "title": "莲之空103期毕业公演 Day1 最速先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-70dd2d30c1a28bb3",
+            "live_dates": [
+              "2027-01-23"
+            ],
+            "venue": "日本武道館",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2026-10-14T12:00:00+09:00",
+              "closes_at": "2026-11-08T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "每序列号仅可申请Day1，最多2张。",
+              "11月14日13:00公布结果，付款至11月17日21:00（日本时间）。",
+              "花宫初奈仅Day2出演；全席指定13,000日元。升席另抽选并收费，须先中选且付款。",
+              "需eplus会员、人脸登记及照片证件；3岁以上收费，另收手续费。"
+            ],
+            "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103"
+          }
+        ],
+        "offers": [],
+        "campaigns": [],
+        "sources": [
+          {
+            "label": "官方Live页面 · 附券商品与场次已复核",
+            "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+            "checked_on": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "ticket-hasu-103-day2",
+        "slug": "ticket-hasu-103-day2",
+        "title": "映画 ラブライブ！蓮ノ空女学院スクールアイドルクラブ Bloom Garden Party",
+        "franchise_ids": [
+          "lovelive",
+          "hasunosora"
+        ],
+        "release_on": "2026-09-25",
+        "summary": "103期毕业公演Day2使用电影Blu-ray特装限定版附券。",
+        "status": "published",
+        "updated_at": "2026-10-29T12:58:40.994Z",
+        "editions": [
+          {
+            "id": "enclosed-ticket",
+            "label": "Blu-ray（特装限定版）",
+            "sku": "",
+            "price_yen": null,
+            "eligibility": "每序列号仅可申请Day2，最多2张。"
+          }
+        ],
+        "lotteries": [
+          {
+            "id": "ticket-hasu-103-day2-0",
+            "title": "莲之空103期毕业公演 Day2 最速先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-70dd2d30c1a28bb3",
+            "live_dates": [
+              "2027-01-24"
+            ],
+            "venue": "日本武道館",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2026-09-25T12:00:00+09:00",
+              "closes_at": "2026-11-08T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "每序列号仅可申请Day2，最多2张。",
+              "11月14日13:00公布结果，付款至11月17日21:00（日本时间）。",
+              "花宫初奈仅Day2出演；全席指定13,000日元。升席另抽选并收费，须先中选且付款。",
+              "需eplus会员、人脸登记及照片证件；3岁以上收费，另收手续费。"
+            ],
+            "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103"
+          }
+        ],
+        "offers": [],
+        "campaigns": [],
+        "sources": [
+          {
+            "label": "官方Live页面 · 附券商品与场次已复核",
+            "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+            "checked_on": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "ticket-hasu-ishikawa-day1",
+        "slug": "ticket-hasu-ishikawa-day1",
+        "title": "Petals of History",
+        "franchise_ids": [
+          "lovelive",
+          "hasunosora"
+        ],
+        "release_on": "2026-07-22",
+        "summary": "石川大观光Ⅱ Day1的历史附券先行，现已截止。下一轮为一般抽选，不应为已结束的附券轮次再购商品。",
+        "status": "published",
+        "updated_at": "2026-10-29T12:58:40.994Z",
+        "editions": [
+          {
+            "id": "enclosed-ticket",
+            "label": "オリジナルサウンドトラック",
+            "sku": "",
+            "price_yen": null,
+            "eligibility": "每个序列号申请Day1最多2张；本轮已结束。"
+          }
+        ],
+        "lotteries": [
+          {
+            "id": "ticket-hasu-ishikawa-day1-0",
+            "title": "莲之空 石川大观光Ⅱ Day1 已截止的商品附券先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-4dd06bfcf0d0abb2",
+            "live_dates": [
+              "2026-11-28"
+            ],
+            "venue": "石川県産業展示館（4号館）",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2026-07-22T12:00:00+09:00",
+              "closes_at": "2026-09-13T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "每个序列号申请Day1最多2张；本轮已结束。",
+              "本附券轮次已截止。下一轮一般抽选为10月31日12:00至11月8日23:59（日本时间），每人每场2张，仅信用卡付款。",
+              "商品资格不保证中选，商品发售日不同于现场日期。"
+            ],
+            "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream"
+          }
+        ],
+        "offers": [],
+        "campaigns": [],
+        "sources": [
+          {
+            "label": "官方Live页面 · 附券商品与场次已复核",
+            "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+            "checked_on": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "ticket-hasu-ishikawa-day2",
+        "slug": "ticket-hasu-ishikawa-day2",
+        "title": "おいでよ！石川大観光Ⅱ",
+        "franchise_ids": [
+          "lovelive",
+          "hasunosora"
+        ],
+        "release_on": "2026-09-21",
+        "summary": "石川大观光Ⅱ Day2的历史附券先行，现已截止。下一轮为一般抽选，不应为已结束的附券轮次再购商品。",
+        "status": "published",
+        "updated_at": "2026-10-29T12:58:40.994Z",
+        "editions": [
+          {
+            "id": "enclosed-ticket",
+            "label": "2nd SPECIALアルバム",
+            "sku": "",
+            "price_yen": null,
+            "eligibility": "每个序列号申请Day2最多2张；本轮已结束。"
+          }
+        ],
+        "lotteries": [
+          {
+            "id": "ticket-hasu-ishikawa-day2-0",
+            "title": "莲之空 石川大观光Ⅱ Day2 已截止的商品附券先行",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-4dd06bfcf0d0abb2",
+            "live_dates": [
+              "2026-11-29"
+            ],
+            "venue": "石川県産業展示館（4号館）",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2026-09-21T12:00:00+09:00",
+              "closes_at": "2026-10-05T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "每个序列号申请Day2最多2张；本轮已结束。",
+              "本附券轮次已截止。下一轮一般抽选为10月31日12:00至11月8日23:59（日本时间），每人每场2张，仅信用卡付款。",
+              "商品资格不保证中选，商品发售日不同于现场日期。"
+            ],
+            "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream"
+          }
+        ],
+        "offers": [],
+        "campaigns": [],
+        "sources": [
+          {
+            "label": "官方Live页面 · 附券商品与场次已复核",
+            "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+            "checked_on": "2026-10-29"
           }
         ]
       }

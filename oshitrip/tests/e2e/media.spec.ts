@@ -51,7 +51,7 @@ test("retailer image changes with the product edition and added band filter work
     await page
       .getByRole("combobox", { name: "商品版本", exact: true })
       .selectOption(edition);
-    const expected = p.images.filter(
+    const expected = (p.images || []).filter(
       (i) =>
         i.kind === "bonus" &&
         i.retailer === "アニメイト(通販含む)" &&

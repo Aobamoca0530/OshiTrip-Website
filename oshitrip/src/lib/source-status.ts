@@ -99,6 +99,7 @@ const reportSchema = z.object({
     z.object({
       id: z.string(),
       status: z.string(),
+      checked_at: date.optional(),
       pages: count.optional(),
       discovered: count.optional(),
       deferred_urls: z.array(z.string()).optional(),
@@ -158,10 +159,10 @@ export function buildSourceStatus(input: {
         state,
         last_attempt_at:
           active && row
-            ? report.checked_at
+            ? (row.checked_at || report.checked_at)
             : (previous?.last_attempt_at ?? null),
         last_success_at: complete
-          ? report.checked_at
+          ? (row?.checked_at || report.checked_at)
           : (previous?.last_success_at ?? null),
         pages: active ? pages : null,
         discovered: active ? discovered : null,

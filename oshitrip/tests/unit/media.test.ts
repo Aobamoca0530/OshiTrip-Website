@@ -36,6 +36,8 @@ describe("official media and extended discovery", () => {
     expect(
       releasesSchema
         .parse(products)
+        // Ticket-page evidence does not establish a product cover image.
+        .filter((p) => !p.id.startsWith('ticket-'))
         .every((p) => p.images?.some((i) => i.kind === "cover")),
     ).toBe(true);
   });

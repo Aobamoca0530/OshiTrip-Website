@@ -3,7 +3,12 @@
     "id": "bushiroad-20th-anniversary-book",
     "slug": "bushiroad-20th-anniversary-book",
     "title": "ブシロード20周年記念 アニバーサリーブック",
-    "franchise_ids": ["bang-dream", "ave-mujica", "starlight", "lovelive"],
+    "franchise_ids": [
+      "bang-dream",
+      "ave-mujica",
+      "starlight",
+      "lovelive"
+    ],
     "release_on": "2027-01-08",
     "summary": "武士道20周年纪念书：附最速先行抽选申込券。Live 将于 2027 年 6 月 12、13 日在横滨 Arena 举办。",
     "status": "published",
@@ -21,9 +26,14 @@
       {
         "id": "bushiroad-20th-fastest",
         "title": "ブシロード20周年記念ライブ 最速先行",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "event_slug": "bushiroad-20th-live-2027",
-        "live_dates": ["2027-06-12", "2027-06-13"],
+        "live_dates": [
+          "2027-06-12",
+          "2027-06-13"
+        ],
         "venue": "横浜アリーナ（横滨 Arena）",
         "window": {
           "opens_on": null,
@@ -44,7 +54,9 @@
       {
         "id": "book-shop-0",
         "retailer": "Amazon",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "bonus": "独立店铺特典尚未核实。书内两种附录属于商品内容，不能视为该店独家赠品。",
         "preorder": {
           "opens_on": null,
@@ -60,7 +72,9 @@
       {
         "id": "book-shop-1",
         "retailer": "ブシロード オンラインストア",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "bonus": "独立店铺特典尚未核实。书内两种附录属于商品内容，不能视为该店独家赠品。",
         "preorder": {
           "opens_on": null,
@@ -76,7 +90,9 @@
       {
         "id": "book-shop-2",
         "retailer": "ゲーマーズ",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "bonus": "独立店铺特典尚未核实。书内两种附录属于商品内容，不能视为该店独家赠品。",
         "preorder": {
           "opens_on": null,
@@ -92,7 +108,9 @@
       {
         "id": "book-shop-3",
         "retailer": "アニメイト",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "bonus": "独立店铺特典尚未核实。书内两种附录属于商品内容，不能视为该店独家赠品。",
         "preorder": {
           "opens_on": null,
@@ -108,7 +126,9 @@
       {
         "id": "book-shop-4",
         "retailer": "メロンブックス",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "bonus": "独立店铺特典尚未核实。书内两种附录属于商品内容，不能视为该店独家赠品。",
         "preorder": {
           "opens_on": null,
@@ -124,7 +144,9 @@
       {
         "id": "book-shop-5",
         "retailer": "書泉・芳林堂書店",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "bonus": "独立店铺特典尚未核实。书内两种附录属于商品内容，不能视为该店独家赠品。",
         "preorder": {
           "opens_on": null,
@@ -140,7 +162,9 @@
       {
         "id": "book-shop-6",
         "retailer": "楽天ブックス",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "bonus": "独立店铺特典尚未核实。书内两种附录属于商品内容，不能视为该店独家赠品。",
         "preorder": {
           "opens_on": null,
@@ -156,7 +180,9 @@
       {
         "id": "book-shop-7",
         "retailer": "赤い熊さん",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "bonus": "独立店铺特典尚未核实。书内两种附录属于商品内容，不能视为该店独家赠品。",
         "preorder": {
           "opens_on": null,
@@ -172,7 +198,9 @@
       {
         "id": "book-shop-8",
         "retailer": "あみあみ",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "bonus": "独立店铺特典尚未核实。书内两种附录属于商品内容，不能视为该店独家赠品。",
         "preorder": {
           "opens_on": null,
@@ -188,7 +216,9 @@
       {
         "id": "book-shop-9",
         "retailer": "Joshinディスクピア",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "bonus": "独立店铺特典尚未核实。书内两种附录属于商品内容，不能视为该店独家赠品。",
         "preorder": {
           "opens_on": null,
@@ -204,7 +234,9 @@
       {
         "id": "book-shop-10",
         "retailer": "タワーレコード",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "bonus": "独立店铺特典尚未核实。书内两种附录属于商品内容，不能视为该店独家赠品。",
         "preorder": {
           "opens_on": null,
@@ -220,7 +252,9 @@
       {
         "id": "book-shop-11",
         "retailer": "HMV&BOOKS online",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "bonus": "独立店铺特典尚未核实。书内两种附录属于商品内容，不能视为该店独家赠品。",
         "preorder": {
           "opens_on": null,
@@ -236,7 +270,9 @@
       {
         "id": "book-shop-12",
         "retailer": "ヨドバシカメラ",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "bonus": "独立店铺特典尚未核实。书内两种附录属于商品内容，不能视为该店独家赠品。",
         "preorder": {
           "opens_on": null,
@@ -252,7 +288,9 @@
       {
         "id": "book-shop-13",
         "retailer": "カドスト（角川商店）",
-        "edition_ids": ["book"],
+        "edition_ids": [
+          "book"
+        ],
         "bonus": "独立店铺特典尚未核实。书内两种附录属于商品内容，不能视为该店独家赠品。",
         "preorder": {
           "opens_on": null,
@@ -310,7 +348,10 @@
     "id": "mygo-setensai",
     "slug": "mygo-setensai",
     "title": "MyGO!!!!! 9th Single「世点彩」",
-    "franchise_ids": ["bang-dream", "mygo"],
+    "franchise_ids": [
+      "bang-dream",
+      "mygo"
+    ],
     "release_on": "2026-11-11",
     "summary": "两种版本的首批均附 2027 年 MyGO!!!!! 单独 Live 最速先行抽选券。店铺特典按版本分别列出。",
     "status": "published",
@@ -335,7 +376,10 @@
       {
         "id": "mygo-2027",
         "title": "2027年開催予定 MyGO!!!!!単独ライブイベント 最速先行",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "event_slug": null,
         "live_dates": [],
         "venue": null,
@@ -357,7 +401,9 @@
       {
         "id": "shop-0-bd",
         "retailer": "ブシロード オンラインストア",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "L判照片",
         "preorder": {
           "opens_on": null,
@@ -373,7 +419,9 @@
       {
         "id": "shop-0-cd",
         "retailer": "ブシロード オンラインストア",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片",
         "preorder": {
           "opens_on": null,
@@ -389,7 +437,9 @@
       {
         "id": "shop-1-bd",
         "retailer": "アニメイト（含通販）",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "亚克力钥匙扣＋56mm徽章＋L判照片（燈）",
         "preorder": {
           "opens_on": null,
@@ -405,7 +455,9 @@
       {
         "id": "shop-1-cd",
         "retailer": "アニメイト（含通販）",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片（燈）",
         "preorder": {
           "opens_on": null,
@@ -421,7 +473,9 @@
       {
         "id": "shop-2-bd",
         "retailer": "HMV・HMV&BOOKS online",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "57mm徽章＋L判照片（愛音）",
         "preorder": {
           "opens_on": null,
@@ -437,7 +491,9 @@
       {
         "id": "shop-2-cd",
         "retailer": "HMV・HMV&BOOKS online",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片（愛音）",
         "preorder": {
           "opens_on": null,
@@ -453,7 +509,9 @@
       {
         "id": "shop-3-bd",
         "retailer": "ゲーマーズ",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "亚克力立牌＋56mm徽章＋L判照片（楽奈）",
         "preorder": {
           "opens_on": null,
@@ -469,7 +527,9 @@
       {
         "id": "shop-3-cd",
         "retailer": "ゲーマーズ",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片（楽奈）",
         "preorder": {
           "opens_on": null,
@@ -485,7 +545,9 @@
       {
         "id": "shop-4-bd",
         "retailer": "楽天ブックス",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "57mm徽章＋L判照片（そよ）",
         "preorder": {
           "opens_on": null,
@@ -501,7 +563,9 @@
       {
         "id": "shop-4-cd",
         "retailer": "楽天ブックス",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片（そよ）",
         "preorder": {
           "opens_on": null,
@@ -517,7 +581,9 @@
       {
         "id": "shop-5-bd",
         "retailer": "タワーレコード（部分店铺除外）",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "57mm徽章＋L判照片（立希）",
         "preorder": {
           "opens_on": null,
@@ -533,7 +599,9 @@
       {
         "id": "shop-5-cd",
         "retailer": "タワーレコード（部分店铺除外）",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片（立希）",
         "preorder": {
           "opens_on": null,
@@ -549,7 +617,9 @@
       {
         "id": "shop-6-bd",
         "retailer": "あみあみ",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "2L判照片",
         "preorder": {
           "opens_on": null,
@@ -565,7 +635,9 @@
       {
         "id": "shop-6-cd",
         "retailer": "あみあみ",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "2L判照片",
         "preorder": {
           "opens_on": null,
@@ -581,7 +653,9 @@
       {
         "id": "shop-7-bd",
         "retailer": "ソフマップ・アニメガ",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "100mm方形亚克力板＋76mm亚克力杯垫",
         "preorder": {
           "opens_on": null,
@@ -597,7 +671,9 @@
       {
         "id": "shop-7-cd",
         "retailer": "ソフマップ・アニメガ",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "76mm亚克力杯垫",
         "preorder": {
           "opens_on": null,
@@ -613,7 +689,9 @@
       {
         "id": "shop-8-bd",
         "retailer": "TSUTAYA RECORDS（部分店铺除外）",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "方形照片",
         "preorder": {
           "opens_on": null,
@@ -629,7 +707,9 @@
       {
         "id": "shop-8-cd",
         "retailer": "TSUTAYA RECORDS（部分店铺除外）",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "方形照片",
         "preorder": {
           "opens_on": null,
@@ -645,7 +725,9 @@
       {
         "id": "shop-9-bd",
         "retailer": "WonderGOO / 新星堂（部分店铺除外，含网店）",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "徽章＋L判照片",
         "preorder": {
           "opens_on": null,
@@ -661,7 +743,9 @@
       {
         "id": "shop-9-cd",
         "retailer": "WonderGOO / 新星堂（部分店铺除外，含网店）",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片",
         "preorder": {
           "opens_on": null,
@@ -677,7 +761,9 @@
       {
         "id": "shop-10-bd",
         "retailer": "赤い熊さん",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "57mm徽章＋L判照片",
         "preorder": {
           "opens_on": null,
@@ -693,7 +779,9 @@
       {
         "id": "shop-10-cd",
         "retailer": "赤い熊さん",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片",
         "preorder": {
           "opens_on": null,
@@ -709,7 +797,9 @@
       {
         "id": "shop-11-bd",
         "retailer": "Joshinディスクピア（含网店）",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "57mm圆形徽章",
         "preorder": {
           "opens_on": null,
@@ -725,7 +815,9 @@
       {
         "id": "shop-11-cd",
         "retailer": "Joshinディスクピア（含网店）",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "57mm圆形徽章",
         "preorder": {
           "opens_on": null,
@@ -741,7 +833,9 @@
       {
         "id": "shop-12-bd",
         "retailer": "diskunion（部分店铺除外）",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "双面钥匙扣",
         "preorder": {
           "opens_on": null,
@@ -757,7 +851,9 @@
       {
         "id": "shop-12-cd",
         "retailer": "diskunion（部分店铺除外）",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "双面钥匙扣",
         "preorder": {
           "opens_on": null,
@@ -773,7 +869,9 @@
       {
         "id": "shop-13-bd",
         "retailer": "Neowing",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "58mm方形徽章＋89×89mm方形照片",
         "preorder": {
           "opens_on": null,
@@ -789,7 +887,9 @@
       {
         "id": "shop-13-cd",
         "retailer": "Neowing",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "89×89mm方形照片",
         "preorder": {
           "opens_on": null,
@@ -805,7 +905,9 @@
       {
         "id": "shop-14-bd",
         "retailer": "メロンブックス",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "56mm镭射覆膜徽章（オーバーホロ缶バッジ）",
         "preorder": {
           "opens_on": null,
@@ -821,7 +923,9 @@
       {
         "id": "shop-14-cd",
         "retailer": "メロンブックス",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "56mm镭射覆膜徽章（オーバーホロ缶バッジ）",
         "preorder": {
           "opens_on": null,
@@ -898,7 +1002,10 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "ブシロード オンラインストア"
       },
       {
@@ -907,7 +1014,9 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "アニメイト（含通販）"
       },
       {
@@ -916,7 +1025,9 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "アニメイト（含通販）"
       },
       {
@@ -925,7 +1036,9 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "HMV・HMV&BOOKS online"
       },
       {
@@ -934,7 +1047,9 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "HMV・HMV&BOOKS online"
       },
       {
@@ -943,7 +1058,9 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "ゲーマーズ"
       },
       {
@@ -952,7 +1069,9 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "ゲーマーズ"
       },
       {
@@ -961,7 +1080,9 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "楽天ブックス"
       },
       {
@@ -970,7 +1091,9 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "楽天ブックス"
       },
       {
@@ -979,7 +1102,10 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "あみあみ"
       },
       {
@@ -988,7 +1114,9 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "ソフマップ・アニメガ"
       },
       {
@@ -997,7 +1125,9 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "ソフマップ・アニメガ"
       },
       {
@@ -1006,7 +1136,9 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "赤い熊さん"
       },
       {
@@ -1015,7 +1147,9 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "赤い熊さん"
       },
       {
@@ -1024,7 +1158,9 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "Neowing"
       },
       {
@@ -1033,7 +1169,9 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "Neowing"
       },
       {
@@ -1042,7 +1180,10 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "メロンブックス"
       },
       {
@@ -1051,7 +1192,10 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "メロンブックス"
       },
       {
@@ -1060,7 +1204,10 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "メロンブックス"
       },
       {
@@ -1069,7 +1216,10 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "メロンブックス"
       },
       {
@@ -1078,7 +1228,10 @@
         "source_url": "https://bushiroad-music.com/musics/brmm-11098/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "メロンブックス"
       }
     ]
@@ -1087,7 +1240,10 @@
     "id": "ave-mujica-kami-no-na-wo",
     "slug": "ave-mujica-kami-no-na-wo",
     "title": "Ave Mujica ミニAlbum「神の名を」",
-    "franchise_ids": ["bang-dream", "ave-mujica"],
+    "franchise_ids": [
+      "bang-dream",
+      "ave-mujica"
+    ],
     "release_on": "2026-10-21",
     "summary": "三种版本首批附带 2027 年春以后 Ave Mujica 单独 Live 最速先行抽选券。",
     "status": "published",
@@ -1119,7 +1275,11 @@
       {
         "id": "ave-2027",
         "title": "2027年春以降開催予定 Ave Mujica単独ライブイベント 最速先行",
-        "edition_ids": ["special", "bd", "cd"],
+        "edition_ids": [
+          "special",
+          "bd",
+          "cd"
+        ],
         "event_slug": null,
         "live_dates": [],
         "venue": null,
@@ -1141,7 +1301,9 @@
       {
         "id": "shop-0-bd",
         "retailer": "ブシロード オンラインストア",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "57mm徽章＋L判照片",
         "preorder": {
           "opens_on": null,
@@ -1157,7 +1319,9 @@
       {
         "id": "shop-0-cd",
         "retailer": "ブシロード オンラインストア",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片",
         "preorder": {
           "opens_on": null,
@@ -1173,7 +1337,9 @@
       {
         "id": "shop-1-bd",
         "retailer": "アニメイト（含通販）",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "亚克力钥匙扣＋56mm徽章＋L判照片（ドロリス）",
         "preorder": {
           "opens_on": null,
@@ -1189,7 +1355,9 @@
       {
         "id": "shop-1-cd",
         "retailer": "アニメイト（含通販）",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片（ドロリス）",
         "preorder": {
           "opens_on": null,
@@ -1205,7 +1373,9 @@
       {
         "id": "shop-2-bd",
         "retailer": "タワーレコード（部分店铺除外）",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "57mm徽章＋L判照片（モーティス）",
         "preorder": {
           "opens_on": null,
@@ -1221,7 +1391,9 @@
       {
         "id": "shop-2-cd",
         "retailer": "タワーレコード（部分店铺除外）",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片（モーティス）",
         "preorder": {
           "opens_on": null,
@@ -1237,7 +1409,9 @@
       {
         "id": "shop-3-bd",
         "retailer": "楽天ブックス",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "亚克力钥匙扣＋57mm徽章＋L判照片（ティモリス）",
         "preorder": {
           "opens_on": null,
@@ -1253,7 +1427,9 @@
       {
         "id": "shop-3-cd",
         "retailer": "楽天ブックス",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片（ティモリス）",
         "preorder": {
           "opens_on": null,
@@ -1269,7 +1445,9 @@
       {
         "id": "shop-4-bd",
         "retailer": "HMV・HMV&BOOKS online",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "57mm徽章＋L判照片（アモーリス）",
         "preorder": {
           "opens_on": null,
@@ -1285,7 +1463,9 @@
       {
         "id": "shop-4-cd",
         "retailer": "HMV・HMV&BOOKS online",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片（アモーリス）",
         "preorder": {
           "opens_on": null,
@@ -1301,7 +1481,9 @@
       {
         "id": "shop-5-bd",
         "retailer": "ゲーマーズ",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "亚克力钥匙扣＋56mm徽章＋L判照片（オブリビオニス）",
         "preorder": {
           "opens_on": null,
@@ -1317,7 +1499,9 @@
       {
         "id": "shop-5-cd",
         "retailer": "ゲーマーズ",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "56mm徽章＋L判照片（オブリビオニス）",
         "preorder": {
           "opens_on": null,
@@ -1333,7 +1517,9 @@
       {
         "id": "shop-6-bd",
         "retailer": "あみあみ",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "2L判照片",
         "preorder": {
           "opens_on": null,
@@ -1349,7 +1535,9 @@
       {
         "id": "shop-6-cd",
         "retailer": "あみあみ",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "2L判照片",
         "preorder": {
           "opens_on": null,
@@ -1365,7 +1553,9 @@
       {
         "id": "shop-7-bd",
         "retailer": "WonderGOO / 新星堂（部分店铺除外，含网店）",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "徽章＋L判照片",
         "preorder": {
           "opens_on": null,
@@ -1381,7 +1571,9 @@
       {
         "id": "shop-7-cd",
         "retailer": "WonderGOO / 新星堂（部分店铺除外，含网店）",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片",
         "preorder": {
           "opens_on": null,
@@ -1397,7 +1589,9 @@
       {
         "id": "shop-8-bd",
         "retailer": "ソフマップ・アニメガ",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "透明迷你色纸＋76mm亚克力杯垫",
         "preorder": {
           "opens_on": null,
@@ -1413,7 +1607,9 @@
       {
         "id": "shop-8-cd",
         "retailer": "ソフマップ・アニメガ",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "76mm亚克力杯垫",
         "preorder": {
           "opens_on": null,
@@ -1429,7 +1625,9 @@
       {
         "id": "shop-9-bd",
         "retailer": "TSUTAYA RECORDS（部分店铺除外）",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "方形照片",
         "preorder": {
           "opens_on": null,
@@ -1445,7 +1643,9 @@
       {
         "id": "shop-9-cd",
         "retailer": "TSUTAYA RECORDS（部分店铺除外）",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "方形照片",
         "preorder": {
           "opens_on": null,
@@ -1461,7 +1661,9 @@
       {
         "id": "shop-10-bd",
         "retailer": "赤い熊さん",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "57mm徽章＋L判照片",
         "preorder": {
           "opens_on": null,
@@ -1477,7 +1679,9 @@
       {
         "id": "shop-10-cd",
         "retailer": "赤い熊さん",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判照片",
         "preorder": {
           "opens_on": null,
@@ -1493,7 +1697,9 @@
       {
         "id": "shop-11-bd",
         "retailer": "diskunion（部分店铺除外）",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "双面钥匙扣",
         "preorder": {
           "opens_on": null,
@@ -1509,7 +1715,9 @@
       {
         "id": "shop-11-cd",
         "retailer": "diskunion（部分店铺除外）",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "双面钥匙扣",
         "preorder": {
           "opens_on": null,
@@ -1525,7 +1733,9 @@
       {
         "id": "shop-12-bd",
         "retailer": "Joshinディスクピア（含网店）",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "57mm徽章",
         "preorder": {
           "opens_on": null,
@@ -1541,7 +1751,9 @@
       {
         "id": "shop-12-cd",
         "retailer": "Joshinディスクピア（含网店）",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "57mm徽章",
         "preorder": {
           "opens_on": null,
@@ -1557,7 +1769,9 @@
       {
         "id": "shop-13-bd",
         "retailer": "Neowing",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "58mm方形徽章＋89×89mm方形照片",
         "preorder": {
           "opens_on": null,
@@ -1573,7 +1787,9 @@
       {
         "id": "shop-13-cd",
         "retailer": "Neowing",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "89×89mm方形照片",
         "preorder": {
           "opens_on": null,
@@ -1589,7 +1805,9 @@
       {
         "id": "shop-14-bd",
         "retailer": "メロンブックス",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "56mm镭射覆膜徽章（オーバーホロ缶バッジ）",
         "preorder": {
           "opens_on": null,
@@ -1605,7 +1823,9 @@
       {
         "id": "shop-14-cd",
         "retailer": "メロンブックス",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "56mm镭射覆膜徽章（オーバーホロ缶バッジ）",
         "preorder": {
           "opens_on": null,
@@ -1621,7 +1841,9 @@
       {
         "id": "shop-special",
         "retailer": "ブシロード オンラインストア",
-        "edition_ids": ["special"],
+        "edition_ids": [
+          "special"
+        ],
         "bonus": "57mm徽章＋L判照片",
         "preorder": {
           "opens_on": null,
@@ -1659,7 +1881,10 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "special"],
+        "edition_ids": [
+          "bd",
+          "special"
+        ],
         "retailer": "ブシロード オンラインストア"
       },
       {
@@ -1668,7 +1893,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "ブシロード オンラインストア"
       },
       {
@@ -1677,7 +1904,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "アニメイト（含通販）"
       },
       {
@@ -1686,7 +1915,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "アニメイト（含通販）"
       },
       {
@@ -1695,7 +1926,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "楽天ブックス"
       },
       {
@@ -1704,7 +1937,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "楽天ブックス"
       },
       {
@@ -1713,7 +1948,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "HMV・HMV&BOOKS online"
       },
       {
@@ -1722,7 +1959,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "HMV・HMV&BOOKS online"
       },
       {
@@ -1731,7 +1970,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "ゲーマーズ"
       },
       {
@@ -1740,7 +1981,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "ゲーマーズ"
       },
       {
@@ -1749,7 +1992,10 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "あみあみ"
       },
       {
@@ -1758,7 +2004,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "ソフマップ・アニメガ"
       },
       {
@@ -1767,7 +2015,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "ソフマップ・アニメガ"
       },
       {
@@ -1776,7 +2026,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "赤い熊さん"
       },
       {
@@ -1785,7 +2037,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "赤い熊さん"
       },
       {
@@ -1794,7 +2048,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "Neowing"
       },
       {
@@ -1803,7 +2059,9 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "Neowing"
       },
       {
@@ -1812,7 +2070,10 @@
         "source_url": "https://bang-dream.com/discographies/4238/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "メロンブックス"
       }
     ]
@@ -1821,7 +2082,10 @@
     "id": "ras-i-am-who-i-am",
     "slug": "ras-i-am-who-i-am",
     "title": "RAISE A SUILEN 16th Single「I AM WHO I AM」",
-    "franchise_ids": ["bang-dream", "raise-a-suilen"],
+    "franchise_ids": [
+      "bang-dream",
+      "raise-a-suilen"
+    ],
     "release_on": "2026-11-04",
     "summary": "官网确认初回生产分附 Live 抽选申込券，已按版本整理官方公布的店铺特典。线下目录目前覆盖 Animate 与 Gamers 的部分分店，库存需向具体分店查询。",
     "status": "published",
@@ -1846,7 +2110,10 @@
       {
         "id": "fastest",
         "title": "RAISE A SUILEN LIVE TOUR 2027 最速先行抽选",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "event_slug": "ras-tour2027",
         "live_dates": [
           "2027-04-04",
@@ -1874,7 +2141,10 @@
         "id": "verified-shop-0-0",
         "retailer": "ブシロード オンラインストア",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -1890,7 +2160,9 @@
         "id": "verified-shop-1-1",
         "retailer": "タワーレコード(一部店舗を除く)",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm/LAYER ver.)＋L判ブロマイド(LAYER ver.)",
         "preorder": {
           "opens_on": null,
@@ -1906,7 +2178,9 @@
         "id": "verified-shop-1-2",
         "retailer": "タワーレコード(一部店舗を除く)",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(LAYER ver.)",
         "preorder": {
           "opens_on": null,
@@ -1922,7 +2196,9 @@
         "id": "verified-shop-2-3",
         "retailer": "アニメイト(通販含む)",
         "retailer_id": "animate",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(56mm/LOCKver.)＋L判ブロマイド(LOCKver.)",
         "preorder": {
           "opens_on": null,
@@ -1938,7 +2214,9 @@
         "id": "verified-shop-2-4",
         "retailer": "アニメイト(通販含む)",
         "retailer_id": "animate",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(LOCKver.)",
         "preorder": {
           "opens_on": null,
@@ -1954,7 +2232,9 @@
         "id": "verified-shop-3-5",
         "retailer": "楽天ブックス",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm/MASKING ver.)＋L判ブロマイド(MASKING ver.)",
         "preorder": {
           "opens_on": null,
@@ -1970,7 +2250,9 @@
         "id": "verified-shop-3-6",
         "retailer": "楽天ブックス",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(MASKING ver.)",
         "preorder": {
           "opens_on": null,
@@ -1986,7 +2268,9 @@
         "id": "verified-shop-4-7",
         "retailer": "HMV,HMV＆BOOKS online",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm/PAREO ver.)＋L判ブロマイド(PAREO ver.)",
         "preorder": {
           "opens_on": null,
@@ -2002,7 +2286,9 @@
         "id": "verified-shop-4-8",
         "retailer": "HMV,HMV＆BOOKS online",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(PAREO ver.)",
         "preorder": {
           "opens_on": null,
@@ -2018,7 +2304,9 @@
         "id": "verified-shop-5-9",
         "retailer": "ゲーマーズ",
         "retailer_id": "gamers",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "アクリルスタンド(CHU² ver.)＋缶バッジ(56mm/CHU² ver.)+ L 判ブロマイド(CHU² ver.)",
         "preorder": {
           "opens_on": null,
@@ -2034,7 +2322,9 @@
         "id": "verified-shop-5-10",
         "retailer": "ゲーマーズ",
         "retailer_id": "gamers",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(CHU² ver.)",
         "preorder": {
           "opens_on": null,
@@ -2050,7 +2340,10 @@
         "id": "verified-shop-6-11",
         "retailer": "あみあみ",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "2L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -2066,7 +2359,9 @@
         "id": "verified-shop-7-12",
         "retailer": "ソフマップ・アニメガ",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "アクリルコースター(76ｍｍ)＋アクリルパネル(100ｍｍ×100mm)",
         "preorder": {
           "opens_on": null,
@@ -2082,7 +2377,9 @@
         "id": "verified-shop-7-13",
         "retailer": "ソフマップ・アニメガ",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "アクリルコースター(76mm)",
         "preorder": {
           "opens_on": null,
@@ -2098,7 +2395,10 @@
         "id": "verified-shop-8-14",
         "retailer": "TSUTAYA RECORDS(一部店舗除く)",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "ましかくブロマイド",
         "preorder": {
           "opens_on": null,
@@ -2114,7 +2414,9 @@
         "id": "verified-shop-9-15",
         "retailer": "WonderGOO/新星堂(一部店舗を除く)/新星堂WonderGOOオンライン",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ＋L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -2130,7 +2432,9 @@
         "id": "verified-shop-9-16",
         "retailer": "WonderGOO/新星堂(一部店舗を除く)/新星堂WonderGOOオンライン",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -2146,7 +2450,9 @@
         "id": "verified-shop-10-17",
         "retailer": "赤い熊さん",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm)＋L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -2162,7 +2468,9 @@
         "id": "verified-shop-10-18",
         "retailer": "赤い熊さん",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -2178,7 +2486,10 @@
         "id": "verified-shop-11-19",
         "retailer": "diskunion(一部店舗除く)",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "両面キーホルダー",
         "preorder": {
           "opens_on": null,
@@ -2194,7 +2505,10 @@
         "id": "verified-shop-12-20",
         "retailer": "Joshinディスクピア(Joshin webショップ 含む)",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "缶バッジ(57mm)丸型",
         "preorder": {
           "opens_on": null,
@@ -2210,7 +2524,9 @@
         "id": "verified-shop-13-21",
         "retailer": "Neowing",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "スクエア缶バッジ(58mm)＋ましかくブロマイド(89×89mm)",
         "preorder": {
           "opens_on": null,
@@ -2226,7 +2542,9 @@
         "id": "verified-shop-13-22",
         "retailer": "Neowing",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "ましかくブロマイド(89×89mm)",
         "preorder": {
           "opens_on": null,
@@ -2242,7 +2560,10 @@
         "id": "verified-shop-14-23",
         "retailer": "メロンブックス",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "オーバーホロ缶バッジ(56㎜)",
         "preorder": {
           "opens_on": null,
@@ -2284,7 +2605,10 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "ブシロード オンラインストア"
       },
       {
@@ -2293,7 +2617,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "タワーレコード(一部店舗を除く)"
       },
       {
@@ -2302,7 +2628,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "タワーレコード(一部店舗を除く)"
       },
       {
@@ -2311,7 +2639,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "アニメイト(通販含む)"
       },
       {
@@ -2320,7 +2650,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "アニメイト(通販含む)"
       },
       {
@@ -2329,7 +2661,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "楽天ブックス"
       },
       {
@@ -2338,7 +2672,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "楽天ブックス"
       },
       {
@@ -2347,7 +2683,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "HMV,HMV＆BOOKS online"
       },
       {
@@ -2356,7 +2694,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "HMV,HMV＆BOOKS online"
       },
       {
@@ -2365,7 +2705,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "ゲーマーズ"
       },
       {
@@ -2374,7 +2716,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "ゲーマーズ"
       },
       {
@@ -2383,7 +2727,10 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "あみあみ"
       },
       {
@@ -2392,7 +2739,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "ソフマップ・アニメガ"
       },
       {
@@ -2401,7 +2750,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "ソフマップ・アニメガ"
       },
       {
@@ -2410,7 +2761,10 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "TSUTAYA RECORDS(一部店舗除く)"
       },
       {
@@ -2419,7 +2773,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "WonderGOO/新星堂(一部店舗を除く)/新星堂WonderGOOオンライン"
       },
       {
@@ -2428,7 +2784,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "WonderGOO/新星堂(一部店舗を除く)/新星堂WonderGOOオンライン"
       },
       {
@@ -2437,7 +2795,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "赤い熊さん"
       },
       {
@@ -2446,7 +2806,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "赤い熊さん"
       },
       {
@@ -2455,7 +2817,10 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "diskunion(一部店舗除く)"
       },
       {
@@ -2464,7 +2829,10 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "Joshinディスクピア(Joshin webショップ 含む)"
       },
       {
@@ -2473,7 +2841,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "Neowing"
       },
       {
@@ -2482,7 +2852,9 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "Neowing"
       },
       {
@@ -2491,7 +2863,10 @@
         "source_url": "https://bang-dream.com/discographies/4215/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "メロンブックス"
       }
     ]
@@ -2500,7 +2875,10 @@
     "id": "yumemita-its-our-choice",
     "slug": "yumemita-its-our-choice",
     "title": "夢限大みゅーたいぷ 2nd Album「It’s our choice」",
-    "franchise_ids": ["bang-dream", "yumemita"],
+    "franchise_ids": [
+      "bang-dream",
+      "yumemita"
+    ],
     "release_on": "2027-01-27",
     "summary": "官网确认初回生产分附 Live 抽选申込券，已按版本整理官方公布的店铺特典。线下目录目前覆盖 Animate 与 Gamers 的部分分店，库存需向具体分店查询。",
     "status": "published",
@@ -2525,7 +2903,10 @@
       {
         "id": "fastest",
         "title": "2027年 夢限大みゅーたいぷ 单独 Live 最速先行",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "event_slug": null,
         "live_dates": [],
         "venue": null,
@@ -2547,7 +2928,10 @@
         "id": "verified-shop-0-0",
         "retailer": "ブシロード オンラインストア",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -2563,7 +2947,9 @@
         "id": "verified-shop-1-1",
         "retailer": "アニメイト(通販含む)",
         "retailer_id": "animate",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(56mm/仲町あられver.)+ましかくブロマイド(仲町あられver.)",
         "preorder": {
           "opens_on": null,
@@ -2579,7 +2965,9 @@
         "id": "verified-shop-1-2",
         "retailer": "アニメイト(通販含む)",
         "retailer_id": "animate",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "ましかくブロマイド(仲町あられver.)",
         "preorder": {
           "opens_on": null,
@@ -2595,7 +2983,9 @@
         "id": "verified-shop-2-3",
         "retailer": "楽天ブックス",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm/宮永ののかver.)＋正方形ステッカー(宮永ののかver.)",
         "preorder": {
           "opens_on": null,
@@ -2611,7 +3001,9 @@
         "id": "verified-shop-2-4",
         "retailer": "楽天ブックス",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "正方形ステッカー(宮永ののかver.)",
         "preorder": {
           "opens_on": null,
@@ -2627,7 +3019,9 @@
         "id": "verified-shop-3-5",
         "retailer": "タワーレコード（一部店舗を除く）",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ（57mm/峰月律 ver.)＋ホログラムカード(峰月律ver.)",
         "preorder": {
           "opens_on": null,
@@ -2643,7 +3037,9 @@
         "id": "verified-shop-3-6",
         "retailer": "タワーレコード（一部店舗を除く）",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "ホログラムカード(峰月律ver.)",
         "preorder": {
           "opens_on": null,
@@ -2659,7 +3055,9 @@
         "id": "verified-shop-4-7",
         "retailer": "HMV,HMV＆BOOKS online",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm/藤都子ver.)＋チェキ風ブロマイド(藤都子ver.)",
         "preorder": {
           "opens_on": null,
@@ -2675,7 +3073,9 @@
         "id": "verified-shop-4-8",
         "retailer": "HMV,HMV＆BOOKS online",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "チェキ風ブロマイド(藤都子ver.)",
         "preorder": {
           "opens_on": null,
@@ -2691,7 +3091,9 @@
         "id": "verified-shop-5-9",
         "retailer": "ゲーマーズ",
         "retailer_id": "gamers",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(56㎜/千石ユノver.)＋ましかくブロマイド(千石ユノver.)",
         "preorder": {
           "opens_on": null,
@@ -2707,7 +3109,9 @@
         "id": "verified-shop-5-10",
         "retailer": "ゲーマーズ",
         "retailer_id": "gamers",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "ましかくブロマイド(千石ユノver.)",
         "preorder": {
           "opens_on": null,
@@ -2723,7 +3127,10 @@
         "id": "verified-shop-6-11",
         "retailer": "あみあみ",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "2L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -2739,7 +3146,9 @@
         "id": "verified-shop-7-12",
         "retailer": "ソフマップ・アニメガ",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "アクリルパネル(100ｍｍ四方)+アクリルコースター(76mm)",
         "preorder": {
           "opens_on": null,
@@ -2755,7 +3164,9 @@
         "id": "verified-shop-7-13",
         "retailer": "ソフマップ・アニメガ",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "アクリルコースター(76mm)",
         "preorder": {
           "opens_on": null,
@@ -2771,7 +3182,10 @@
         "id": "verified-shop-8-14",
         "retailer": "TSUTAYA RECORDS（一部店舗を除く）",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "ましかくブロマイド",
         "preorder": {
           "opens_on": null,
@@ -2787,7 +3201,9 @@
         "id": "verified-shop-9-15",
         "retailer": "WonderGOO/新星堂（一部店舗を除く）/新星堂WonderGOOオンライン",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm)+L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -2803,7 +3219,9 @@
         "id": "verified-shop-9-16",
         "retailer": "WonderGOO/新星堂（一部店舗を除く）/新星堂WonderGOOオンライン",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -2819,7 +3237,9 @@
         "id": "verified-shop-10-17",
         "retailer": "赤い熊さん",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm)+L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -2835,7 +3255,9 @@
         "id": "verified-shop-10-18",
         "retailer": "赤い熊さん",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -2851,7 +3273,10 @@
         "id": "verified-shop-11-19",
         "retailer": "Joshinディスクピア(Joshin webショップ 含む)",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "缶バッジ(57mm)丸型",
         "preorder": {
           "opens_on": null,
@@ -2867,7 +3292,9 @@
         "id": "verified-shop-12-20",
         "retailer": "Neowing",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "スクエア缶バッジ（58mm）＋ましかくブロマイド（89×89mm）",
         "preorder": {
           "opens_on": null,
@@ -2883,7 +3310,9 @@
         "id": "verified-shop-12-21",
         "retailer": "Neowing",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "ましかくブロマイド（89×89mm）",
         "preorder": {
           "opens_on": null,
@@ -2899,7 +3328,10 @@
         "id": "verified-shop-13-22",
         "retailer": "メロンブックス",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "オーバーホロ缶バッジ(56㎜)",
         "preorder": {
           "opens_on": null,
@@ -2936,7 +3368,10 @@
     "id": "yumemita-seizon-no-arasuji",
     "slug": "yumemita-seizon-no-arasuji",
     "title": "夢限大みゅーたいぷ 5th Single「これはぼくたちの生存のあらすじ」",
-    "franchise_ids": ["bang-dream", "yumemita"],
+    "franchise_ids": [
+      "bang-dream",
+      "yumemita"
+    ],
     "release_on": "2026-09-30",
     "summary": "官网确认初回生产分附 Live 抽选申込券，已按版本整理官方公布的店铺特典。线下目录目前覆盖 Animate 与 Gamers 的部分分店，库存需向具体分店查询。",
     "status": "published",
@@ -2961,9 +3396,15 @@
       {
         "id": "fukuoka-miyagi",
         "title": "夢限大みゅーたいぷ 2027 巡演 福岡・宮城 最速先行",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "event_slug": null,
-        "live_dates": ["2027-01-31", "2027-02-07"],
+        "live_dates": [
+          "2027-01-31",
+          "2027-02-07"
+        ],
         "venue": "Zepp Fukuoka / 仙台PIT",
         "window": {
           "opens_on": null,
@@ -2980,9 +3421,16 @@
       {
         "id": "hokkaido-osaka",
         "title": "夢限大みゅーたいぷ 2027 巡演 北海道・大阪 最速先行",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "event_slug": null,
-        "live_dates": ["2027-02-20", "2027-03-04", "2027-03-05"],
+        "live_dates": [
+          "2027-02-20",
+          "2027-03-04",
+          "2027-03-05"
+        ],
         "venue": "Zepp Sapporo / Zepp Osaka Bayside",
         "window": {
           "opens_on": null,
@@ -2999,9 +3447,15 @@
       {
         "id": "tokyo-aichi",
         "title": "夢限大みゅーたいぷ 2027 巡演 東京・愛知 最速先行",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "event_slug": null,
-        "live_dates": ["2027-03-25", "2027-03-26"],
+        "live_dates": [
+          "2027-03-25",
+          "2027-03-26"
+        ],
         "venue": "Zepp DiverCity / Zepp Nagoya",
         "window": {
           "opens_on": null,
@@ -3021,7 +3475,10 @@
         "id": "verified-shop-0-0",
         "retailer": "ブシロード オンラインストア",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -3037,7 +3494,9 @@
         "id": "verified-shop-1-1",
         "retailer": "アニメイト(通販含む)",
         "retailer_id": "animate",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(56mm/仲町あられver.)+L判ブロマイド(仲町あられver.)",
         "preorder": {
           "opens_on": null,
@@ -3053,7 +3512,9 @@
         "id": "verified-shop-1-2",
         "retailer": "アニメイト(通販含む)",
         "retailer_id": "animate",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(仲町あられver.)",
         "preorder": {
           "opens_on": null,
@@ -3069,7 +3530,9 @@
         "id": "verified-shop-2-3",
         "retailer": "楽天ブックス",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm/宮永ののかver.)＋L判ブロマイド(宮永ののかver.)",
         "preorder": {
           "opens_on": null,
@@ -3085,7 +3548,9 @@
         "id": "verified-shop-2-4",
         "retailer": "楽天ブックス",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(宮永ののかver.)",
         "preorder": {
           "opens_on": null,
@@ -3101,7 +3566,9 @@
         "id": "verified-shop-3-5",
         "retailer": "タワーレコード（一部店舗を除く）",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ（57mm/峰月律 ver.) ＋L判ブロマイド(峰月律 ver.)",
         "preorder": {
           "opens_on": null,
@@ -3117,7 +3584,9 @@
         "id": "verified-shop-3-6",
         "retailer": "タワーレコード（一部店舗を除く）",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(峰月律 ver.)",
         "preorder": {
           "opens_on": null,
@@ -3133,7 +3602,9 @@
         "id": "verified-shop-4-7",
         "retailer": "HMV,HMV＆BOOKS online",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm/藤都子ver.)＋L判ブロマイド(藤都子 ver.)",
         "preorder": {
           "opens_on": null,
@@ -3149,7 +3620,9 @@
         "id": "verified-shop-4-8",
         "retailer": "HMV,HMV＆BOOKS online",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(藤都子ver.)",
         "preorder": {
           "opens_on": null,
@@ -3165,7 +3638,9 @@
         "id": "verified-shop-5-9",
         "retailer": "ゲーマーズ",
         "retailer_id": "gamers",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(56mm/千石ユノver.)＋L判ブロマイド(千石ユノver.)",
         "preorder": {
           "opens_on": null,
@@ -3181,7 +3656,9 @@
         "id": "verified-shop-5-10",
         "retailer": "ゲーマーズ",
         "retailer_id": "gamers",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(千石ユノver.)",
         "preorder": {
           "opens_on": null,
@@ -3197,7 +3674,10 @@
         "id": "verified-shop-6-11",
         "retailer": "あみあみ",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "2L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -3213,7 +3693,9 @@
         "id": "verified-shop-7-12",
         "retailer": "ソフマップ・アニメガ",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "アクリルコースター（76ｍｍ）＋アクリルパネル(100mm)",
         "preorder": {
           "opens_on": null,
@@ -3229,7 +3711,9 @@
         "id": "verified-shop-7-13",
         "retailer": "ソフマップ・アニメガ",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "アクリルコースター（76ｍｍ）",
         "preorder": {
           "opens_on": null,
@@ -3245,7 +3729,10 @@
         "id": "verified-shop-8-14",
         "retailer": "TSUTAYA RECORDS（一部店舗除く）",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -3261,7 +3748,9 @@
         "id": "verified-shop-9-15",
         "retailer": "WonderGOO/新星堂（一部店舗を除く）/新星堂WonderGOOオンライン",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ+L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -3277,7 +3766,9 @@
         "id": "verified-shop-9-16",
         "retailer": "WonderGOO/新星堂（一部店舗を除く）/新星堂WonderGOOオンライン",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -3293,7 +3784,9 @@
         "id": "verified-shop-10-17",
         "retailer": "赤い熊さん",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm)+L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -3309,7 +3802,9 @@
         "id": "verified-shop-10-18",
         "retailer": "赤い熊さん",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -3325,7 +3820,10 @@
         "id": "verified-shop-11-19",
         "retailer": "diskunion(一部店舗を除く)",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "両面キーホルダー",
         "preorder": {
           "opens_on": null,
@@ -3341,7 +3839,9 @@
         "id": "verified-shop-12-20",
         "retailer": "Joshinディスクピア(Joshin webショップ 含む)",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm)",
         "preorder": {
           "opens_on": null,
@@ -3357,7 +3857,9 @@
         "id": "verified-shop-13-21",
         "retailer": "Neowing",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm)+L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -3373,7 +3875,9 @@
         "id": "verified-shop-13-22",
         "retailer": "Neowing",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -3389,7 +3893,10 @@
         "id": "verified-shop-14-23",
         "retailer": "メロンブックス",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "オーバーホロ缶バッジ(56mm)",
         "preorder": {
           "opens_on": null,
@@ -3431,7 +3938,10 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "ブシロード オンラインストア"
       },
       {
@@ -3440,7 +3950,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "アニメイト(通販含む)"
       },
       {
@@ -3449,7 +3961,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "アニメイト(通販含む)"
       },
       {
@@ -3458,7 +3972,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "楽天ブックス"
       },
       {
@@ -3467,7 +3983,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "楽天ブックス"
       },
       {
@@ -3476,7 +3994,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "タワーレコード（一部店舗を除く）"
       },
       {
@@ -3485,7 +4005,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "タワーレコード（一部店舗を除く）"
       },
       {
@@ -3494,7 +4016,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "HMV,HMV＆BOOKS online"
       },
       {
@@ -3503,7 +4027,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "HMV,HMV＆BOOKS online"
       },
       {
@@ -3512,7 +4038,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "ゲーマーズ"
       },
       {
@@ -3521,7 +4049,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "ゲーマーズ"
       },
       {
@@ -3530,7 +4060,10 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "あみあみ"
       },
       {
@@ -3539,7 +4072,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "ソフマップ・アニメガ"
       },
       {
@@ -3548,7 +4083,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "ソフマップ・アニメガ"
       },
       {
@@ -3557,7 +4094,10 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "TSUTAYA RECORDS（一部店舗除く）"
       },
       {
@@ -3566,7 +4106,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "WonderGOO/新星堂（一部店舗を除く）/新星堂WonderGOOオンライン"
       },
       {
@@ -3575,7 +4117,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "WonderGOO/新星堂（一部店舗を除く）/新星堂WonderGOOオンライン"
       },
       {
@@ -3584,7 +4128,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "赤い熊さん"
       },
       {
@@ -3593,7 +4139,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "赤い熊さん"
       },
       {
@@ -3602,7 +4150,10 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "diskunion(一部店舗を除く)"
       },
       {
@@ -3611,7 +4162,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "Joshinディスクピア(Joshin webショップ 含む)"
       },
       {
@@ -3620,7 +4173,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "Neowing"
       },
       {
@@ -3629,7 +4184,9 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "Neowing"
       },
       {
@@ -3638,7 +4195,10 @@
         "source_url": "https://bang-dream.com/discographies/4210/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "メロンブックス"
       }
     ]
@@ -3647,7 +4207,10 @@
     "id": "roselia-lehre-der-rose",
     "slug": "roselia-lehre-der-rose",
     "title": "Roselia 10th Anniversary Best Album「Lehre der Rose」",
-    "franchise_ids": ["bang-dream", "roselia"],
+    "franchise_ids": [
+      "bang-dream",
+      "roselia"
+    ],
     "release_on": "2026-08-26",
     "summary": "官网确认初回生产分附 Live 抽选申込券，已按版本整理官方公布的店铺特典。线下目录目前覆盖 Animate 与 Gamers 的部分分店，库存需向具体分店查询。 特装盘另有延期发货和相关会场销售中止公告。",
     "status": "published",
@@ -3679,9 +4242,18 @@
       {
         "id": "fastest",
         "title": "Roselia 10th Anniversary LIVE TOUR 最速先行",
-        "edition_ids": ["bd", "cd", "special"],
+        "edition_ids": [
+          "bd",
+          "cd",
+          "special"
+        ],
         "event_slug": "roselia-10th-anniversary-live-tour",
-        "live_dates": ["2027-01-30", "2027-02-28", "2027-03-14", "2027-04-25"],
+        "live_dates": [
+          "2027-01-30",
+          "2027-02-28",
+          "2027-03-14",
+          "2027-04-25"
+        ],
         "venue": "TOYOTA ARENA TOKYO、愛知県芸術劇場 大ホール、仙台サンプラザホール、福岡サンパレス",
         "window": {
           "opens_on": null,
@@ -3701,7 +4273,10 @@
         "id": "verified-shop-0-0",
         "retailer": "ブシロード オンラインストア",
         "retailer_id": null,
-        "edition_ids": ["special", "bd"],
+        "edition_ids": [
+          "special",
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm)＋L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -3717,7 +4292,9 @@
         "id": "verified-shop-0-1",
         "retailer": "ブシロード オンラインストア",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -3733,7 +4310,9 @@
         "id": "verified-shop-1-2",
         "retailer": "アニメイト(通販含む)",
         "retailer_id": "animate",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "アクリルスタンド(湊友希那ver.)+缶バッジ(56㎜/湊友希那ver.)＋L判ブロマイド(湊友希那ver.)",
         "preorder": {
           "opens_on": null,
@@ -3749,7 +4328,9 @@
         "id": "verified-shop-1-3",
         "retailer": "アニメイト(通販含む)",
         "retailer_id": "animate",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(湊友希那ver.)",
         "preorder": {
           "opens_on": null,
@@ -3765,7 +4346,9 @@
         "id": "verified-shop-2-4",
         "retailer": "楽天ブックス",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "アクリルスタンド(75mm 角+40mm/氷川紗夜 ver.)＋缶バッジ(57mm/氷川紗夜 ver.)＋L 判ブロマイド(氷川紗夜 ver.)",
         "preorder": {
           "opens_on": null,
@@ -3781,7 +4364,9 @@
         "id": "verified-shop-2-5",
         "retailer": "楽天ブックス",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(氷川紗夜ver.)",
         "preorder": {
           "opens_on": null,
@@ -3797,7 +4382,9 @@
         "id": "verified-shop-3-6",
         "retailer": "ゲーマーズ",
         "retailer_id": "gamers",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "アクリルスタンド(今井リサver.)+缶バッジ(56㎜/今井リサver.)＋L判ブロマイド(今井リサver.)",
         "preorder": {
           "opens_on": null,
@@ -3813,7 +4400,9 @@
         "id": "verified-shop-3-7",
         "retailer": "ゲーマーズ",
         "retailer_id": "gamers",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(今井リサver.)",
         "preorder": {
           "opens_on": null,
@@ -3829,7 +4418,9 @@
         "id": "verified-shop-4-8",
         "retailer": "HMV,HMV＆BOOKS online",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm/宇田川あこver.)＋L判ブロマイド(宇田川あこver.)",
         "preorder": {
           "opens_on": null,
@@ -3845,7 +4436,9 @@
         "id": "verified-shop-4-9",
         "retailer": "HMV,HMV＆BOOKS online",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(宇田川あこver.)",
         "preorder": {
           "opens_on": null,
@@ -3861,7 +4454,9 @@
         "id": "verified-shop-5-10",
         "retailer": "タワーレコード(一部店舗を除く)",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm/白金燐子ver.) ＋L判ブロマイド(白金燐子ver.)",
         "preorder": {
           "opens_on": null,
@@ -3877,7 +4472,9 @@
         "id": "verified-shop-5-11",
         "retailer": "タワーレコード(一部店舗を除く)",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド(白金燐子ver.)",
         "preorder": {
           "opens_on": null,
@@ -3893,7 +4490,10 @@
         "id": "verified-shop-6-12",
         "retailer": "あみあみ",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "2L判ブロマイド＋缶バッジ(57mm)",
         "preorder": {
           "opens_on": null,
@@ -3909,7 +4509,9 @@
         "id": "verified-shop-7-13",
         "retailer": "ソフマップ・アニメガ",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "アクリルコースター(76ｍｍ)＋アクリルパネル(100ｍｍ四方)",
         "preorder": {
           "opens_on": null,
@@ -3925,7 +4527,9 @@
         "id": "verified-shop-7-14",
         "retailer": "ソフマップ・アニメガ",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "アクリルコースター(76ｍｍ)",
         "preorder": {
           "opens_on": null,
@@ -3941,7 +4545,10 @@
         "id": "verified-shop-8-15",
         "retailer": "TSUTAYA RECORDS(一部店舗除く)",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "ましかくブロマイド",
         "preorder": {
           "opens_on": null,
@@ -3957,7 +4564,9 @@
         "id": "verified-shop-9-16",
         "retailer": "WonderGOO/新星堂(一部店舗を除く)/新星堂WonderGOOオンライン",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ+L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -3973,7 +4582,9 @@
         "id": "verified-shop-9-17",
         "retailer": "WonderGOO/新星堂(一部店舗を除く)/新星堂WonderGOOオンライン",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -3989,7 +4600,9 @@
         "id": "verified-shop-10-18",
         "retailer": "赤い熊さん",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "缶バッジ(57mm)+L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -4005,7 +4618,9 @@
         "id": "verified-shop-10-19",
         "retailer": "赤い熊さん",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "L判ブロマイド",
         "preorder": {
           "opens_on": null,
@@ -4021,7 +4636,10 @@
         "id": "verified-shop-11-20",
         "retailer": "diskunion(一部店舗除く)",
         "retailer_id": null,
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "bonus": "両面キーホルダー",
         "preorder": {
           "opens_on": null,
@@ -4037,7 +4655,9 @@
         "id": "verified-shop-12-21",
         "retailer": "Joshinディスクピア(Joshin webショップ 含む)",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "アクリルキーホルダー(100mm×50mm)",
         "preorder": {
           "opens_on": null,
@@ -4053,7 +4673,9 @@
         "id": "verified-shop-12-22",
         "retailer": "Joshinディスクピア(Joshin webショップ 含む)",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "アクリルカード(80×57mmサイズ、透明アクリル1mm厚)",
         "preorder": {
           "opens_on": null,
@@ -4069,7 +4691,9 @@
         "id": "verified-shop-13-23",
         "retailer": "Neowing",
         "retailer_id": null,
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "bonus": "スクエア缶バッジ(58mm)＋ましかくブロマイド(89×89mm)",
         "preorder": {
           "opens_on": null,
@@ -4085,7 +4709,9 @@
         "id": "verified-shop-13-24",
         "retailer": "Neowing",
         "retailer_id": null,
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "bonus": "ましかくブロマイド(89×89mm)",
         "preorder": {
           "opens_on": null,
@@ -4127,7 +4753,10 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "special"],
+        "edition_ids": [
+          "bd",
+          "special"
+        ],
         "retailer": "ブシロード オンラインストア"
       },
       {
@@ -4136,7 +4765,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "ブシロード オンラインストア"
       },
       {
@@ -4145,7 +4776,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "アニメイト(通販含む)"
       },
       {
@@ -4154,7 +4787,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "アニメイト(通販含む)"
       },
       {
@@ -4163,7 +4798,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "楽天ブックス"
       },
       {
@@ -4172,7 +4809,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "楽天ブックス"
       },
       {
@@ -4181,7 +4820,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "ゲーマーズ"
       },
       {
@@ -4190,7 +4831,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "ゲーマーズ"
       },
       {
@@ -4199,7 +4842,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "HMV,HMV＆BOOKS online"
       },
       {
@@ -4208,7 +4853,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "HMV,HMV＆BOOKS online"
       },
       {
@@ -4217,7 +4864,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "タワーレコード(一部店舗を除く)"
       },
       {
@@ -4226,7 +4875,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "タワーレコード(一部店舗を除く)"
       },
       {
@@ -4235,7 +4886,10 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "あみあみ"
       },
       {
@@ -4244,7 +4898,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "ソフマップ・アニメガ"
       },
       {
@@ -4253,7 +4909,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "ソフマップ・アニメガ"
       },
       {
@@ -4262,7 +4920,10 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "TSUTAYA RECORDS(一部店舗除く)"
       },
       {
@@ -4271,7 +4932,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "WonderGOO/新星堂(一部店舗を除く)/新星堂WonderGOOオンライン"
       },
       {
@@ -4280,7 +4943,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "WonderGOO/新星堂(一部店舗を除く)/新星堂WonderGOOオンライン"
       },
       {
@@ -4289,7 +4954,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "赤い熊さん"
       },
       {
@@ -4298,7 +4965,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "赤い熊さん"
       },
       {
@@ -4307,7 +4976,10 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd", "cd"],
+        "edition_ids": [
+          "bd",
+          "cd"
+        ],
         "retailer": "diskunion(一部店舗除く)"
       },
       {
@@ -4316,7 +4988,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "Joshinディスクピア(Joshin webショップ 含む)"
       },
       {
@@ -4325,7 +4999,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "Joshinディスクピア(Joshin webショップ 含む)"
       },
       {
@@ -4334,7 +5010,9 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["bd"],
+        "edition_ids": [
+          "bd"
+        ],
         "retailer": "Neowing"
       },
       {
@@ -4343,8 +5021,456 @@
         "source_url": "https://bang-dream.com/discographies/4181/",
         "checked_on": "2026-10-28",
         "kind": "bonus",
-        "edition_ids": ["cd"],
+        "edition_ids": [
+          "cd"
+        ],
         "retailer": "Neowing"
+      }
+    ]
+  },
+  {
+    "id": "ticket-liella-8th-day1",
+    "slug": "ticket-liella-8th-day1",
+    "title": "ラブライブ！スーパースター!! Liella! 8th LoveLive! Tour ～Our Song, Our Dreams～",
+    "franchise_ids": [
+      "lovelive",
+      "liella"
+    ],
+    "release_on": "2026-11-18",
+    "summary": "八巡各站Day1的主题歌迷你专辑附券。商品详细版号与价格尚未核实。",
+    "status": "published",
+    "updated_at": "2026-10-29T12:58:40.994Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "テーマソングミニアルバム",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "每个序列号可申请东京、福冈、爱知各站Day1分别最多4张，可报多站；不能用于Day2。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-liella-8th-day1-0",
+        "title": "Liella! 八巡 · 东京 Day1 最速先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-81f284dd403980ef",
+        "live_dates": [
+          "2027-03-06"
+        ],
+        "venue": "有明アリーナ",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-18T12:00:00+09:00",
+          "closes_at": "2026-12-14T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "每个序列号可申请东京、福冈、爱知各站Day1分别最多4张，可报多站；不能用于Day2。",
+          "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
+          "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
+          "票价、开场/开演与升席细节后续公布。"
+        ],
+        "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
+      },
+      {
+        "id": "ticket-liella-8th-day1-1",
+        "title": "Liella! 八巡 · 福冈 Day1 最速先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-81f284dd403980ef",
+        "live_dates": [
+          "2027-04-24"
+        ],
+        "venue": "マリンメッセ福岡B館",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-18T12:00:00+09:00",
+          "closes_at": "2026-12-14T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "每个序列号可申请东京、福冈、爱知各站Day1分别最多4张，可报多站；不能用于Day2。",
+          "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
+          "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
+          "票价、开场/开演与升席细节后续公布。"
+        ],
+        "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
+      },
+      {
+        "id": "ticket-liella-8th-day1-2",
+        "title": "Liella! 八巡 · 名古屋 Day1 最速先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-81f284dd403980ef",
+        "live_dates": [
+          "2027-05-08"
+        ],
+        "venue": "ポートメッセなごや 第1展示館",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-18T12:00:00+09:00",
+          "closes_at": "2026-12-14T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "每个序列号可申请东京、福冈、爱知各站Day1分别最多4张，可报多站；不能用于Day2。",
+          "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
+          "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
+          "票价、开场/开演与升席细节后续公布。"
+        ],
+        "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+        "checked_on": "2026-10-29"
+      }
+    ]
+  },
+  {
+    "id": "ticket-liella-8th-day2",
+    "slug": "ticket-liella-8th-day2",
+    "title": "ラブライブ！スーパースター!! ファンディスク第2弾 わくわく地域活動 ～Liella!と結ぶプロジェクト特別編～",
+    "franchise_ids": [
+      "lovelive",
+      "liella"
+    ],
+    "release_on": "2026-11-27",
+    "summary": "八巡各站Day2的Fan Disc第2弹附券。",
+    "status": "published",
+    "updated_at": "2026-10-29T12:58:40.994Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "附申込券版本（具体版号未核实）",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "每个序列号可申请东京、福冈、爱知各站Day2分别最多4张，可报多站；不能用于Day1。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-liella-8th-day2-0",
+        "title": "Liella! 八巡 · 东京 Day2 最速先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-81f284dd403980ef",
+        "live_dates": [
+          "2027-03-07"
+        ],
+        "venue": "有明アリーナ",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-27T12:00:00+09:00",
+          "closes_at": "2026-12-14T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "每个序列号可申请东京、福冈、爱知各站Day2分别最多4张，可报多站；不能用于Day1。",
+          "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
+          "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
+          "票价、开场/开演与升席细节后续公布。"
+        ],
+        "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
+      },
+      {
+        "id": "ticket-liella-8th-day2-1",
+        "title": "Liella! 八巡 · 福冈 Day2 最速先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-81f284dd403980ef",
+        "live_dates": [
+          "2027-04-25"
+        ],
+        "venue": "マリンメッセ福岡B館",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-27T12:00:00+09:00",
+          "closes_at": "2026-12-14T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "每个序列号可申请东京、福冈、爱知各站Day2分别最多4张，可报多站；不能用于Day1。",
+          "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
+          "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
+          "票价、开场/开演与升席细节后续公布。"
+        ],
+        "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
+      },
+      {
+        "id": "ticket-liella-8th-day2-2",
+        "title": "Liella! 八巡 · 名古屋 Day2 最速先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-81f284dd403980ef",
+        "live_dates": [
+          "2027-05-09"
+        ],
+        "venue": "ポートメッセなごや 第1展示館",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-27T12:00:00+09:00",
+          "closes_at": "2026-12-14T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "每个序列号可申请东京、福冈、爱知各站Day2分别最多4张，可报多站；不能用于Day1。",
+          "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
+          "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
+          "票价、开场/开演与升席细节后续公布。"
+        ],
+        "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+        "checked_on": "2026-10-29"
+      }
+    ]
+  },
+  {
+    "id": "ticket-hasu-103-day1",
+    "slug": "ticket-hasu-103-day1",
+    "title": "蓮ノ空女学院スクールアイドルクラブ Extraシングル",
+    "franchise_ids": [
+      "lovelive",
+      "hasunosora"
+    ],
+    "release_on": "2026-10-14",
+    "summary": "103期毕业公演Day1使用Extra单曲附券；本次官网Live正文仍将曲名标为「タイトル未定」。",
+    "status": "published",
+    "updated_at": "2026-10-29T12:58:40.994Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "附申込券版本（具体版号未核实）",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "每序列号仅可申请Day1，最多2张。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-hasu-103-day1-0",
+        "title": "莲之空103期毕业公演 Day1 最速先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-70dd2d30c1a28bb3",
+        "live_dates": [
+          "2027-01-23"
+        ],
+        "venue": "日本武道館",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-10-14T12:00:00+09:00",
+          "closes_at": "2026-11-08T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "每序列号仅可申请Day1，最多2张。",
+          "11月14日13:00公布结果，付款至11月17日21:00（日本时间）。",
+          "花宫初奈仅Day2出演；全席指定13,000日元。升席另抽选并收费，须先中选且付款。",
+          "需eplus会员、人脸登记及照片证件；3岁以上收费，另收手续费。"
+        ],
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+        "checked_on": "2026-10-29"
+      }
+    ]
+  },
+  {
+    "id": "ticket-hasu-103-day2",
+    "slug": "ticket-hasu-103-day2",
+    "title": "映画 ラブライブ！蓮ノ空女学院スクールアイドルクラブ Bloom Garden Party",
+    "franchise_ids": [
+      "lovelive",
+      "hasunosora"
+    ],
+    "release_on": "2026-09-25",
+    "summary": "103期毕业公演Day2使用电影Blu-ray特装限定版附券。",
+    "status": "published",
+    "updated_at": "2026-10-29T12:58:40.994Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "Blu-ray（特装限定版）",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "每序列号仅可申请Day2，最多2张。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-hasu-103-day2-0",
+        "title": "莲之空103期毕业公演 Day2 最速先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-70dd2d30c1a28bb3",
+        "live_dates": [
+          "2027-01-24"
+        ],
+        "venue": "日本武道館",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-09-25T12:00:00+09:00",
+          "closes_at": "2026-11-08T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "每序列号仅可申请Day2，最多2张。",
+          "11月14日13:00公布结果，付款至11月17日21:00（日本时间）。",
+          "花宫初奈仅Day2出演；全席指定13,000日元。升席另抽选并收费，须先中选且付款。",
+          "需eplus会员、人脸登记及照片证件；3岁以上收费，另收手续费。"
+        ],
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+        "checked_on": "2026-10-29"
+      }
+    ]
+  },
+  {
+    "id": "ticket-hasu-ishikawa-day1",
+    "slug": "ticket-hasu-ishikawa-day1",
+    "title": "Petals of History",
+    "franchise_ids": [
+      "lovelive",
+      "hasunosora"
+    ],
+    "release_on": "2026-07-22",
+    "summary": "石川大观光Ⅱ Day1的历史附券先行，现已截止。下一轮为一般抽选，不应为已结束的附券轮次再购商品。",
+    "status": "published",
+    "updated_at": "2026-10-29T12:58:40.994Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "オリジナルサウンドトラック",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "每个序列号申请Day1最多2张；本轮已结束。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-hasu-ishikawa-day1-0",
+        "title": "莲之空 石川大观光Ⅱ Day1 已截止的商品附券先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-4dd06bfcf0d0abb2",
+        "live_dates": [
+          "2026-11-28"
+        ],
+        "venue": "石川県産業展示館（4号館）",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-07-22T12:00:00+09:00",
+          "closes_at": "2026-09-13T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "每个序列号申请Day1最多2张；本轮已结束。",
+          "本附券轮次已截止。下一轮一般抽选为10月31日12:00至11月8日23:59（日本时间），每人每场2张，仅信用卡付款。",
+          "商品资格不保证中选，商品发售日不同于现场日期。"
+        ],
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+        "checked_on": "2026-10-29"
+      }
+    ]
+  },
+  {
+    "id": "ticket-hasu-ishikawa-day2",
+    "slug": "ticket-hasu-ishikawa-day2",
+    "title": "おいでよ！石川大観光Ⅱ",
+    "franchise_ids": [
+      "lovelive",
+      "hasunosora"
+    ],
+    "release_on": "2026-09-21",
+    "summary": "石川大观光Ⅱ Day2的历史附券先行，现已截止。下一轮为一般抽选，不应为已结束的附券轮次再购商品。",
+    "status": "published",
+    "updated_at": "2026-10-29T12:58:40.994Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "2nd SPECIALアルバム",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "每个序列号申请Day2最多2张；本轮已结束。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-hasu-ishikawa-day2-0",
+        "title": "莲之空 石川大观光Ⅱ Day2 已截止的商品附券先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-4dd06bfcf0d0abb2",
+        "live_dates": [
+          "2026-11-29"
+        ],
+        "venue": "石川県産業展示館（4号館）",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-09-21T12:00:00+09:00",
+          "closes_at": "2026-10-05T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "每个序列号申请Day2最多2张；本轮已结束。",
+          "本附券轮次已截止。下一轮一般抽选为10月31日12:00至11月8日23:59（日本时间），每人每场2张，仅信用卡付款。",
+          "商品资格不保证中选，商品发售日不同于现场日期。"
+        ],
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+        "checked_on": "2026-10-29"
       }
     ]
   }

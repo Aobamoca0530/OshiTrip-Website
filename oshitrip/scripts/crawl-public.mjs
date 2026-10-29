@@ -7,7 +7,7 @@ import { createImageReviewer, bailianEndpoint } from './crawler/image-rules.mjs'
 import { mergeAnnouncements } from './crawler/public-news.mjs';
 import { loadDataSchema } from './load-data-schema.mjs';
 import { createProjectFilter, relevantAnnouncement } from './crawler/project-filter.mjs';
-import { classifyOffline, translateActivity, validateReading, reviewActivity, eventFromReading, pendingActivity, explicitDates } from './crawler/event-intelligence.mjs';
+import { classifyOffline, translateActivity, validateReading, reviewActivity, eventFromReading, pendingActivity, explicitDates, reviewSchema, containsEvidence } from './crawler/event-intelligence.mjs';
 import { resolveAI, publicAIConfig } from './crawler/ai-provider.mjs';
 import { classifyAnnouncement } from './crawler/offline-filter.mjs';
 import { deduplicateSeriesNews } from './crawler/lovelive-news.mjs';
@@ -17,17 +17,22 @@ const projectFilter = createProjectFilter(JSON.parse(await fs.readFile('scripts/
 const relevant = (sourceId, title) => relevantAnnouncement(sourceId, title, projectFilter);
 const pruneOnly = process.argv.includes('--prune-only');
 const replay = process.argv.includes('--replay');
+const sourceId = process.argv.find(arg => arg.startsWith('--source='))?.slice(9);
+if (sourceId && (replay || pruneOnly)) throw new Error('--source cannot be combined with replay/prune');
 if (pruneOnly && replay) throw new Error('--prune-only 与 --replay 不能同时使用');
 const translationConfig = resolveAI('translation');
 const reviewConfig = resolveAI('review');
 // Explicitly selected public HTML sources. This is a project crawl decision,
 // not a claim of a copyright license. Robots/HTTP access restrictions still apply.
 const enabled = new Set(PUBLIC_SOURCE_IDS);
-const sources = configured.filter(s => enabled.has(s.id)).map(s => ({ ...s, public_fetch_enabled: true, index_url: s.id === 'sweets-paradise' ? 'https://www.sweets-paradise.jp/collaboration/' : s.index_url }));
-const lastReport = replay ? JSON.parse(await fs.readFile('var/public-crawler/report.json', 'utf8')) : null;
-const stamp = lastReport?.checked_at || new Date().toISOString();
-const report = { checked_at: stamp, sources: lastReport?.sources || [], items: 0, images: 0 };
-let observations = replay ? JSON.parse(await fs.readFile('var/public-crawler/observations.json', 'utf8')) : [];
+if (sourceId && !enabled.has(sourceId)) throw new Error('Unknown or disabled public source');
+const sources = configured.filter(s => enabled.has(s.id) && (!sourceId || s.id === sourceId)).map(s => ({ ...s, public_fetch_enabled: true, index_url: s.id === 'sweets-paradise' ? 'https://www.sweets-paradise.jp/collaboration/' : s.index_url }));
+const lastReport = replay || sourceId ? JSON.parse(await fs.readFile('var/public-crawler/report.json', 'utf8')) : null;
+const stamp = replay ? lastReport.checked_at : new Date().toISOString();
+const retainedReports = sourceId ? lastReport.sources.filter(s => s.id !== sourceId).map(s => ({ ...s, checked_at: s.checked_at || lastReport.checked_at })) : [];
+const report = { checked_at: stamp, sources: replay ? lastReport.sources : retainedReports, items: 0, images: 0 };
+let observations = replay || sourceId ? JSON.parse(await fs.readFile('var/public-crawler/observations.json', 'utf8')) : [];
+if (sourceId) observations = observations.filter(row => row.source.id !== sourceId).map(row => ({ ...row, observed_at: row.observed_at || lastReport.sources.find(s => s.id === row.source.id)?.checked_at || lastReport.checked_at }));
 const existing = JSON.parse(await fs.readFile('src/data/announcements.json', 'utf8'));
 const observedUrls = new Set();
 const policies = new Map();
@@ -41,7 +46,7 @@ for (const source of pruneOnly || replay ? [] : sources) {
       const liveDirectory = /\/live_detail\.php|\/otonokizaka\/event\//.test(url);
       const dates = liveDirectory ? explicitDates(title) : [];
       if (dates.length && dates.every(date => date < stamp.slice(0,10))) return false;
-      return relevant(source.id, title) && (['bang-dream-live', 'starlight-events', 'gakuen-idolmaster-live', 'gakuen-idolmaster-portal'].includes(source.id) || liveDirectory || classifyOffline(title) !== null || /抽選|先行|コラボ|イベント|ご当地情報|開催/.test(title));
+      return relevant(source.id, title) && (['bang-dream-live', 'starlight-events', 'gakuen-idolmaster-live', 'gakuen-idolmaster-portal'].includes(source.id) || liveDirectory || classifyOffline(title) !== null || /抽選|先行|コラボ|イベント|ご当地情報|開催|バースデー.*メニュー|記念メニュー/.test(title));
     } });
   const stoppedStatus = result.errors?.join(' ').match(/\bHTTP (401|403|429)\b/)?.[1];
   if (stoppedStatus) stoppedOrigins.set(source.origin, stoppedStatus);
@@ -54,7 +59,7 @@ observations = deduplicateSeriesNews(observations, existing);
 await fs.mkdir('var/public-crawler', { recursive: true });
 await fs.writeFile('var/public-crawler/observations.json', JSON.stringify(observations, null, 2));
 await fs.writeFile('var/public-crawler/report.json', JSON.stringify(report, null, 2) + '\n');
-if (!pruneOnly && !replay && !report.sources.some(source => source.pages > 0 || source.status === 'success')) throw new Error('No source returned a usable announcement; existing public data has been preserved.');
+if (!pruneOnly && !replay && !report.sources.some(source => (!sourceId || source.id === sourceId) && (source.pages > 0 || source.status === 'success'))) throw new Error('No source returned a usable announcement; existing public data has been preserved.');
 const previous = existing.filter(row => relevant(row.source_id, row.title) && (row.activity || classifyOffline(row.title)) && (!observedUrls.has(row.source_url) || observations.some(x => x.observation.source_url === row.source_url)));
 report.removed_unrelated = existing.length - previous.length;
 const catalog = JSON.parse(await fs.readFile('src/data/catalog.json', 'utf8'));
@@ -95,7 +100,11 @@ for (const { source, observation: o, observed_at } of observations) {
     if (!result.reading.offline) { excluded[o.source_url] = o.content_hash; next = next.filter(r => r.id !== row.id); report.translation.excluded++; continue; }
     const r = result.reading;
     let review = { state: 'pending', provider: 'manual', model: 'source-reviewed', reason: '等待对照原文审核' };
-    if (reviewedManually) review = { ...review, state: 'approved', reason: '已对照原文翻译并复核' };
+    if (reviewedManually) {
+      const verdict = override.review ? reviewSchema.parse(override.review) : null;
+      if (verdict && !verdict.evidence_ja.every(q => containsEvidence(o.body_text, q))) throw new Error('人工审核证据不在原文');
+      review = { ...review, state: verdict?.approved === false ? 'rejected' : 'approved', reason: verdict?.reason || '已对照原文翻译并复核' };
+    }
     else if (reviewConfig.configured && reviewsRemaining > 0) {
       reviewsRemaining--;
       try {

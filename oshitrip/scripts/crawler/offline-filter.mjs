@@ -10,6 +10,9 @@ export function classifyOffline(title, body = '') {
   if (/開催報告|公演レポート|ライブレポート|アーカイブ配信/.test(title)) return null;
   if (digital.test(title) && !physical.test(title)) return null;
   if (physical.test(title)) return 'offline';
+  // Birthday menus can be categorized as goods by the official news site.
+  // Require an actual store/address, not a mail-order birthday product.
+  if (/バースデー.*メニュー|記念メニュー/.test(title) && /販売店舗|店名/.test(body) && /住所/.test(body)) return 'offline';
   if (/カラオケ|スタンプラリー|マルシェ|地元愛まつり/.test(title)) return 'offline';
   if (/リリース記念(?:ライブ|公演)|発売記念(?:ライブ|公演)/.test(title) && !/配信|生放送/.test(title)) return 'live';
   if (live.test(title) && !sales.test(title) && !/配信|生放送/.test(title)) return 'live';

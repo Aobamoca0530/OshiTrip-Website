@@ -1,5 +1,112 @@
 [
   {
+    "id": "9c494d72add3b4bf6fd486c3",
+    "source_id": "liella-official",
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=musubu",
+    "title": "Liella!と結ぶプロジェクト",
+    "first_seen_at": "2026-10-29T12:48:06.373Z",
+    "last_seen_at": "2026-10-29T12:48:06.373Z",
+    "changed_at": "2026-10-29T12:48:06.373Z",
+    "content_hash": "ee6852de48b223c1fb13cd118e91ed5c3478f6d80ae3025785b991d734d4a640",
+    "related_event_ids": [],
+    "images": [
+      {
+        "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/live/2026/03/03/1002/bDZB1wj2bqTcLeug/azBmAlL2DDhHlwKo.jpeg",
+        "alt": "",
+        "kind": "unknown"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/live/2026/04/09/1002/FlTiBBVJ504CncVF/LnGMNX7zuAm2wR5T.jpeg",
+        "alt": "",
+        "kind": "unknown"
+      }
+    ],
+    "activity": {
+      "kind": "offline",
+      "state": "needs_review",
+      "title_zh": "Liella! と結ぶ项目：迷你专辑与已结束的结女体育祭",
+      "summary_zh": "项目正式名称为「Liella!と結ぶプロジェクト」。迷你专辑于2026年7月8日发行，共5种版本；结女体育祭已于2026年9月5、6日在东京体育馆主馆举行。本页未公布新的未来现场活动，Fan Disc栏仍写后续公布；八巡所用Fan Disc第2弹须按八巡票务页核对。",
+      "rules": [
+        {
+          "title": "迷你专辑版本",
+          "text_zh": "7月8日发售，新曲4首加Off Vocal共8曲；Original、Photo、儿童组、运动组、绿色组共5种版本。本页没有说明这些版本可用于八巡抽选。",
+          "evidence_ja": "『Liella!と結ぶプロジェクト』ミニアルバム発売！\nミニアルバム概要\n2026年7月8日（水）発売\n新規楽曲4曲＋各Off Vocalの計8曲\n全5形態\nオリジナル盤\nフォト盤\nチームこども盤\nチームスポーツ盤\nチームみどり盤"
+        },
+        {
+          "title": "已结束的体育祭",
+          "text_zh": "2026年9月5、6日，东京体育馆主馆，Liella!全员出演；目前已结束，不能当作即将举办的Live。",
+          "evidence_ja": "結女体育祭開催！\n■日程\nDay.1：2026年9月5日（土）\nDay.2：2026年9月6日（日）\n■会場\n東京体育館 メインアリーナ\n■出演\nLiella!\n伊達さゆり（澁谷かのん役）、Liyuu（唐 可可役）、岬 なこ（嵐 千砂都役）、ペイトン尚未（平安名すみれ役）、青山なぎさ（葉月 恋役）、鈴原希実（桜小路きな子役）、薮島朱音（米女メイ役）、大熊和奏（若菜四季役）、絵森 彩（鬼塚夏美役）、結那（ウィーン・マルガレーテ役）、坂倉 花（鬼塚冬毬役）"
+        },
+        {
+          "title": "Fan Disc信息待补",
+          "text_zh": "本项目页只写Fan Disc后续公布。八巡票务页已列第2弹全名及11月27日发售，不把两处页面更新进度混为一谈。",
+          "evidence_ja": "ファンディスク発売！\n詳細は後日お知らせします"
+        }
+      ],
+      "source_hash": "06bf84904da4c607eac881a3f5d38776bd6745fe1ca6275eae6b7a492c9bd70f",
+      "model": "source-reviewed",
+      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；复核后保留项目历史说明，未来场次及本页未写明的商品抽选资格不予推断。",
+      "review": {
+        "state": "approved",
+        "provider": "manual",
+        "model": "source-reviewed",
+        "reason": "复核后保留项目历史说明，未来场次及本页未写明的商品抽选资格不予推断。"
+      }
+    },
+    "image_readings": []
+  },
+  {
+    "id": "34922ee4eeed22d02bdd6fb9",
+    "source_id": "liella-official",
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6678",
+    "title": "ラブライブ！スーパースター!! × YURINAN から葉月 恋 バースデー記念メニュー発売のお知らせ！",
+    "first_seen_at": "2026-10-29T12:45:33.741Z",
+    "last_seen_at": "2026-10-29T12:45:33.741Z",
+    "changed_at": "2026-10-29T12:45:33.741Z",
+    "content_hash": "62627574f252d7b5e9e2bc0f968eadb49c43610a177ad6e8a9aa63504315c691",
+    "related_event_ids": [],
+    "images": [
+      {
+        "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/10/08/1002/aZ7H8Y9wQ4yfhQm1/0nzziAaxCwaTP86H.jpeg",
+        "alt": "",
+        "kind": "bonus"
+      }
+    ],
+    "activity": {
+      "kind": "offline",
+      "state": "needs_review",
+      "title_zh": "YURINAN 叶月恋生日限定菜单（11月1–30日）",
+      "summary_zh": "原宿YURINAN推出叶月恋生日草莓巧克力夹心铜锣烧800日元、奶油草莓茶1,000日元（含税）。每点1份指定菜单赠1张叶月恋镭射贴纸，送完改赠纸杯垫。公布销售期间为11月1–30日、营业11:00–19:00；该期间没有明写年份，暂不写入正式行程日期。",
+      "rules": [
+        {
+          "title": "铜锣烧",
+          "text_zh": "草莓巧克力夹心800日元（含税），固定叶月恋烙印，区别于普通菜单随机11款；含小麦、蛋、乳、大豆、明胶。",
+          "evidence_ja": "● いちごチョコサンド\n《焼印》\n葉月 恋\n※「Liella! どら焼きサンド」は通常11種の焼印をランダムで提供しておりますが、葉月 恋 焼印確定となります。\n《価格》\n800円（税込）\n《味の特徴》\nまるでムースのような濃厚ミルクチョコクリームと、ふんわりと甘酸っぱいいちごホイップをサンド。\nアクセントで散りばめたいちごパウダーが甘さを引き立てます。\n《アレルギー》\n小麦・卵・乳・大豆・ゼラチン\n《特典》\nいちごチョコサンド1点ご注文につきバースデー限定「葉月 恋ホロステッカー」を1枚プレゼント！\n※ 期間中でも、バースデー限定ホロステッカーはなくなり次第、紙コースター（葉月 恋ver.）のお渡しとなります。"
+        },
+        {
+          "title": "饮品与赠品",
+          "text_zh": "奶油草莓茶1,000日元（含税），含乳、大豆。每点1份指定菜单赠1张生日镭射贴纸；即使仍在活动期，贴纸送完也会改赠叶月恋纸杯垫。",
+          "evidence_ja": "● クリームいちごティー\n《価格》\n1,000円（税込）\n《味の特徴》\nいちご果肉を使用した、フレッシュないちごティー。\n軽やかな甘さのクリームホイップが味わいを深める、ほっと安らぐ一杯に。\n《アレルギー》\n乳・大豆\n《特典》\nクリームいちごティー1点ご注文につきバースデー限定「葉月 恋ホロステッカー」を1枚プレゼント！\n※ 期間中でも、バースデー限定ホロステッカーはなくなり次第、紙コースター（葉月 恋ver.）のお渡しとなります。"
+        },
+        {
+          "title": "期间、店址与售罄",
+          "text_zh": "11月1–30日，11:00–19:00；东京都涩谷区神宫前1-7-5。原文销售段落缺少年份；未写预约规则，不视为无需预约。当天售罄情况查官方X，计划可能变更。",
+          "evidence_ja": "【販売期間】\n11月1日（日）〜11月30日（月）\n◎ 販売店舗情報\n店名：YURINAN -ゆうりんあん-\n営業時間：11時〜19時\n住所：東京都渋谷区神宮前1-7-5\n公式X： https://x.com/yurin_an_"
+        }
+      ],
+      "source_hash": "7f22d671a5eddd5102bc249a3eacaafc1cc7ddd9746a0e3e7a2d701db2a3f119",
+      "model": "source-reviewed",
+      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已逐项核对价格、过敏原、固定烙印、每份赠品及售完替代品；年份与预约方式不足，保持待审核。",
+      "review": {
+        "state": "approved",
+        "provider": "manual",
+        "model": "source-reviewed",
+        "reason": "已逐项核对价格、过敏原、固定烙印、每份赠品及售完替代品；年份与预约方式不足，保持待审核。"
+      }
+    },
+    "image_readings": []
+  },
+  {
     "id": "1c624082c33b649c8b8ffd8f",
     "source_id": "aqours-official",
     "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
@@ -8,7 +115,9 @@
     "last_seen_at": "2026-10-29T12:15:33.162Z",
     "changed_at": "2026-10-29T12:15:33.162Z",
     "content_hash": "105ed831d1f6a62d5a6189742ff97d8e025b1e97706d20ddfe6574ef483e417f",
-    "related_event_ids": [],
+    "related_event_ids": [
+      "auto-1c624082c33b649c"
+    ],
     "images": [
       {
         "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/30/1002/g4jfzkV9elMRjdWG/xMliz5BPocxHQzNT.jpeg",
@@ -33,7 +142,7 @@
     ],
     "activity": {
       "kind": "offline",
-      "state": "needs_review",
+      "state": "ready",
       "title_zh": "Aqours 第五届沼津地元爱祭",
       "summary_zh": "2027年3月20–22日在沼津キラメッセぬまづ举办，每日昼夜两场、出演成员不同。最新一轮官方先行抽选已于2026年10月25日23:59（日本时间）截止，10月31日公布结果。同期地元爱物产展另设会场，细节尚待公布。",
       "rules": [
@@ -70,12 +179,12 @@
       ],
       "source_hash": "91b18839a9b34a390a663b3381aa8a2f583f0de57861795fb9c3bd76835c7ccf",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "按官方正文复核现场日期、会场与当前/下一报名轮次；商品附券与一般售票分开，已结束轮次保留截止状态。"
       }
     },
     "image_readings": []
@@ -89,7 +198,9 @@
     "last_seen_at": "2026-10-29T12:15:33.162Z",
     "changed_at": "2026-10-29T12:15:33.162Z",
     "content_hash": "99695fc1b8702ce063c9f85d3dffd754cec4c597279035138db5145759c40364",
-    "related_event_ids": [],
+    "related_event_ids": [
+      "auto-4dd06bfcf0d0abb2"
+    ],
     "images": [
       {
         "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/10/05/1002/EAZx7GnmotnpmGJZ/y2mnAXODKayAqlBL.jpeg",
@@ -204,7 +315,7 @@
     ],
     "activity": {
       "kind": "live",
-      "state": "needs_review",
+      "state": "ready",
       "title_zh": "莲之空 Link Live Dream「来吧！石川大观光Ⅱ」",
       "summary_zh": "2026年11月28、29日在金泽石川县产业展示馆4号馆举办。一般销售第一次抽选已于10月25日截止；第二次为10月31日12:00至11月8日23:59（日本时间），信用卡付款限定，每人每场最多2张。",
       "rules": [
@@ -236,12 +347,12 @@
       ],
       "source_hash": "21e07da81ad4db867c82e9f8b789df957e6a07a4811eeb663fd4718bc8cbe36e",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "按官方正文复核现场日期、会场与当前/下一报名轮次；商品附券与一般售票分开，已结束轮次保留截止状态。"
       }
     },
     "image_readings": []
@@ -379,7 +490,9 @@
     "last_seen_at": "2026-10-29T12:15:33.162Z",
     "changed_at": "2026-10-29T12:15:33.162Z",
     "content_hash": "7a1b2d26112cbc5f89bffc03ed2302316bc1a4514e162cbac21c1b417b9d3755",
-    "related_event_ids": [],
+    "related_event_ids": [
+      "auto-70dd2d30c1a28bb3"
+    ],
     "images": [
       {
         "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/10/14/1002/FyGJDIH74hlE7GXY/4d7rb3OPiFwtiDJ1.jpeg",
@@ -424,7 +537,7 @@
     ],
     "activity": {
       "kind": "live",
-      "state": "needs_review",
+      "state": "ready",
       "title_zh": "莲之空 Link Live Dream「103期毕业公演」",
       "summary_zh": "2027年1月23、24日在东京日本武道馆举办。Day1与Day2分别使用Extra单曲及电影BD特装限定版附券报名，开始日期不同，均于11月8日23:59（日本时间）截止。花宫初奈仅Day2出演。升席须先中选并付款，另行抽选。",
       "rules": [
@@ -461,12 +574,12 @@
       ],
       "source_hash": "afd26599236bd7d23ef1fc3815c7ae131a851d98170a7ec09f299488c31de48d",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "再次核对Day1/Day2商品、日期及JST报名时段；保留官网Extra单曲标题未定，未从其他版本推定资格。"
       }
     },
     "image_readings": []
@@ -764,7 +877,9 @@
     "last_seen_at": "2026-10-29T12:15:33.162Z",
     "changed_at": "2026-10-29T12:15:33.162Z",
     "content_hash": "0c50d214567dea4feb992dbe9fb6596ae80fc378864cf864c40aaf49feb24295",
-    "related_event_ids": [],
+    "related_event_ids": [
+      "auto-9cfb2d214ec41aea"
+    ],
     "images": [
       {
         "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/04/18/1002/c56700lQDN6V4XEY/N7odUamdfI4wq7eg.jpeg",
@@ -859,7 +974,7 @@
     ],
     "activity": {
       "kind": "offline",
-      "state": "needs_review",
+      "state": "ready",
       "title_zh": "Guilty Kiss 音乐剧《漆黑的 Wanted Ghost》",
       "summary_zh": "2026年11月22、23日在沼津市民文化中心各演两场。这是3DCG音乐剧，声优本人不登台。现场普通指定席9,800日元，SPWN一般先到先得售票至11月12日23:59（日本时间），售完可提前结束；附周边票已截止。不能以配信票入场。",
       "rules": [
@@ -901,12 +1016,12 @@
       ],
       "source_hash": "f5c89df4d31d8b106bafd0b6c95148954736737a079c7f16a9723fb2a5573fe1",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "按官方正文复核现场日期、会场与当前/下一报名轮次；商品附券与一般售票分开，已结束轮次保留截止状态。"
       }
     },
     "image_readings": []
@@ -966,7 +1081,9 @@
     "last_seen_at": "2026-10-29T12:15:33.162Z",
     "changed_at": "2026-10-29T12:15:33.162Z",
     "content_hash": "f7bc0bbcf3313f0fab6c3350f32babd191e9e55eac0b6f464283d6c9c83edf66",
-    "related_event_ids": [],
+    "related_event_ids": [
+      "auto-a48a7b8fd72221ef"
+    ],
     "images": [
       {
         "url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/image.php?img_path=/lovelive/jp/live/2026/09/24/1002/IBCb2VrhHf38f0QG/82CxKr6QnTcTlRGE.jpeg",
@@ -1001,7 +1118,7 @@
     ],
     "activity": {
       "kind": "live",
-      "state": "needs_review",
+      "state": "ready",
       "title_zh": "μ's 嘉宾演唱：LoveLive! Orchestra Concert 2027",
       "summary_zh": "2027年1月10–11日在千叶县文化会馆举办，由管弦乐团演奏、μ's五位成员嘉宾演唱。1月10日17:30开演，11日12:00及16:30两场。一般第一次抽选至11月23日23:59（日本时间），每人每场最多4张。",
       "rules": [
@@ -1033,12 +1150,12 @@
       ],
       "source_hash": "2fc1a4f8e0fcca653060e8db8cb5b56d203ba4a6aee1ebd572d4d6737499ba04",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "按官方正文复核现场日期、会场与当前/下一报名轮次；商品附券与一般售票分开，已结束轮次保留截止状态。"
       }
     },
     "image_readings": []
@@ -1800,10 +1917,12 @@
     "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
     "title": "ラブライブ！スーパースター!! Liella! 8th LoveLive! Tour ～Our Song, Our Dreams～",
     "first_seen_at": "2026-10-29T11:18:59.617Z",
-    "last_seen_at": "2026-10-29T11:18:59.617Z",
+    "last_seen_at": "2026-10-29T12:48:06.373Z",
     "changed_at": "2026-10-29T11:18:59.617Z",
     "content_hash": "f00b762f160b868f0fefe7f491d3788d0e21f04ed5dd90471b7e078c396f113b",
-    "related_event_ids": [],
+    "related_event_ids": [
+      "auto-81f284dd403980ef"
+    ],
     "images": [
       {
         "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/live/2026/09/03/1002/NxLuZEh2hhMek7is/p1h3XcoSoKvN2x1g.jpeg",
@@ -1813,7 +1932,7 @@
     ],
     "activity": {
       "kind": "live",
-      "state": "needs_review",
+      "state": "ready",
       "title_zh": "Liella! 八巡「Our Song, Our Dreams」",
       "summary_zh": "2027年3月6–7日东京有明Arena、4月24–25日福冈Marine Messe B馆、5月8–9日名古屋Port Messe第1展示馆。每站Day1和Day2对应不同商品附券和报名开始日，均于12月14日23:59（日本时间）截止；票价和开演时间尚待公布。",
       "rules": [
@@ -1845,12 +1964,12 @@
       ],
       "source_hash": "d103aab0c657dc77faff0f06936c1b57a474941dee0d942e2750e20b9db13580",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "对照三站六日与两种商品原文再次核对；每场独立报名，票价/开演未知不补造，不将升席作为普通门票。"
       }
     },
     "image_readings": []

@@ -9,6 +9,13 @@ import keywords from '../../scripts/crawler/project-keywords.json';
 import { cityChoices } from '../../src/lib/schema';
 
 describe('expanded official project sources', () => {
+  it('retains birthday menus only when a physical store and address are stated',()=>{
+    const title='葉月 恋 バースデー記念メニュー発売のお知らせ';
+    expect(classifyOffline(title,'販売店舗 店名 YURINAN 住所 東京都')).toBe('offline');
+    expect(classifyOffline(title,'通販限定')).toBeNull();
+    const html=`<meta property="og:title" content="ニュース｜「ラブライブ！」公式サイト"><article><div class="newsbox"><h5>${title}</h5><p>販売店舗 店名 YURINAN 住所 東京都 ${'メニュー詳細。'.repeat(30)}</p></div></article>`;
+    expect(extractObservation(html,'https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6678','event-source').title).toBe(title);
+  });
   it('keeps series and children together when incoming rows are shuffled',()=>{
     const rows=[{id:'muse',name:"μ's",parent_id:'lovelive'},{id:'bd',name:'BanG Dream!',parent_id:null},{id:'lovelive',name:'Love Live!',parent_id:null},{id:'aqours',name:'Aqours',parent_id:'lovelive'}];
     expect(franchiseGroups(rows).find(g=>g.root.id==='lovelive')?.members.map(f=>f.id)).toEqual(['lovelive','muse','aqours']);

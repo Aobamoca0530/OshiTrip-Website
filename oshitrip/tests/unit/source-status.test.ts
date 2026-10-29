@@ -42,6 +42,12 @@ function build(
 }
 
 describe("source status projection", () => {
+  it('does not refresh another source timestamp during a scoped collection',()=>{
+    const result=buildSourceStatus({report:{checked_at:'2026-10-29T12:00:00Z',sources:[{id:'test',checked_at:stamp,status:'success',pages:1,discovered:1}]},sources,enabled:['test'],announcements:[item],observedUrls:[item.source_url]});
+    expect(result.sources[0].last_attempt_at).toBe(stamp);
+    expect(result.sources[0].last_success_at).toBe(stamp);
+    expect(maintenanceStages({sourceId:'liella-official'})[0][1]).toContain('--source=liella-official');
+  });
   it("distinguishes successful empty results, total failures and partial coverage", () => {
     expect(build("success", 0).sources[0].state).toBe("empty");
     expect(build("failed", 0, ["HTTP 403"]).sources[0].state).toBe("failed");
@@ -157,9 +163,9 @@ describe("source status projection", () => {
   it("prepares the projection before the shared bundle and all validation stages", () => {
     expect(
       maintenanceStages()
-        .slice(0, 3)
+        .slice(0, 4)
         .map((row) => row[0]),
-    ).toEqual(["collect", "prepare-source-status", "prepare-public-data"]);
+    ).toEqual(["collect", "prepare-source-status", "prepare-ticket-products", "prepare-public-data"]);
   });
   it("preserves the v3 parsed-schema checksum for older clients, while v4 includes status", () => {
     const data = {
