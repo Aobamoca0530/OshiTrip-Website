@@ -2,4 +2,7 @@ body { padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-are
 .data-sync-bar { flex-wrap: wrap; }
 .data-sync-bar > div { min-width: 0; flex: 1 1 240px; }
 .data-sync-bar small { overflow-wrap: anywhere; }
-@media (max-width: 600px) { .data-sync-bar .button { min-height: 44px; } }
+@media (max-width: 640px) {
+  .data-sync-bar > div { flex-basis: auto; }
+  .data-sync-bar .button { min-height: 44px; }
+}

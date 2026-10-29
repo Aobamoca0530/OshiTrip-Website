@@ -1,10 +1,16 @@
 name: Package desktop and Android apps
 on:
   workflow_dispatch:
+    inputs:
+      android_only:
+        description: Build Android only
+        type: boolean
+        default: false
 permissions:
   contents: read
 jobs:
   desktop:
+    if: ${{ !inputs.android_only }}
     strategy:
       fail-fast: false
       matrix:
@@ -60,11 +66,14 @@ jobs:
         with:
           version: 11.25.0
           package_json_file: oshitrip/package.json
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v6
         with:
           distribution: temurin
           java-version: '21'
-      - uses: android-actions/setup-android@v3
+      - uses: android-actions/setup-android@v4
+        with:
+          packages: 'platform-tools platforms;android-36 build-tools;36.0.0'
+          log-accepted-android-sdk-licenses: false
       - run: pnpm install --frozen-lockfile
       - run: pnpm typecheck
       - run: pnpm android:sync
