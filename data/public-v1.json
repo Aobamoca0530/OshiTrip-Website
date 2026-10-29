@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "revision": "a376919cb70b53fa078204408edcdb0585c84ec33b3569769f420a92ee3dd86f",
-  "publishedAt": "2026-10-28T23:35:57.517Z",
+  "revision": "3db4bb7718c2b751d64f33f3ae3dc6626e57d1347512135d250063b613817548",
+  "publishedAt": "2026-10-29T07:14:26.700Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -2319,7 +2319,7 @@
             "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/23171008/fb5e4f97-d6cee7d9-06a58ce7-aa638717.png",
             "alt": "Ave Mujica 第8次演唱会「Discrimen Fati」",
             "source_url": "https://bang-dream.com/events/avemujica-8th/",
-            "checked_on": "2026-10-28"
+            "checked_on": "2026-10-29"
           },
           "gallery": [],
           "benefits": [],
@@ -2333,7 +2333,7 @@
               "source_url": "https://bang-dream.com/events/avemujica-8th/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-aab9c2d03dc15575-rule-1",
@@ -2344,7 +2344,7 @@
               "source_url": "https://bang-dream.com/events/avemujica-8th/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-aab9c2d03dc15575-rule-2",
@@ -2355,7 +2355,7 @@
               "source_url": "https://bang-dream.com/events/avemujica-8th/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-aab9c2d03dc15575-rule-3",
@@ -2366,7 +2366,7 @@
               "source_url": "https://bang-dream.com/events/avemujica-8th/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-aab9c2d03dc15575-rule-4",
@@ -2377,7 +2377,7 @@
               "source_url": "https://bang-dream.com/events/avemujica-8th/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             }
           ],
           "fees": null,
@@ -2386,8 +2386,8 @@
             "需迷你专辑「神の名を」首批附券；S/A单日票、一般指定单日票、两日通票分开受理，优先顺序见中文规则。"
           ],
           "status": "published",
-          "verified_at": "2026-10-28T23:22:53.916Z",
-          "updated_at": "2026-10-28T23:22:53.916Z",
+          "verified_at": "2026-10-29T07:04:25.917Z",
+          "updated_at": "2026-10-29T07:04:25.917Z",
           "franchise_ids": [
             "bang-dream",
             "ave-mujica"
@@ -2447,7 +2447,7 @@
               "id": "auto-aab9c2d03dc15575-source",
               "url": "https://bang-dream.com/events/avemujica-8th/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-28T23:22:53.916Z"
+              "checked_at": "2026-10-29T07:04:25.917Z"
             }
           ]
         },
@@ -2462,7 +2462,7 @@
             "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/01101412/792592a1-3953d6b8-282c8cdc-873ba4a7.png",
             "alt": "RAISE A SUILEN 2027 巡回演唱会",
             "source_url": "https://bang-dream.com/events/ras-tour2027/",
-            "checked_on": "2026-10-28"
+            "checked_on": "2026-10-29"
           },
           "gallery": [],
           "benefits": [],
@@ -2476,7 +2476,7 @@
               "source_url": "https://bang-dream.com/events/ras-tour2027/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-16ad5931165da640-rule-1",
@@ -2487,7 +2487,7 @@
               "source_url": "https://bang-dream.com/events/ras-tour2027/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-16ad5931165da640-rule-2",
@@ -2498,7 +2498,7 @@
               "source_url": "https://bang-dream.com/events/ras-tour2027/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             }
           ],
           "fees": null,
@@ -2507,8 +2507,8 @@
             "凭 RAISE A SUILEN 16th Single「I AM WHO I AM」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
           ],
           "status": "published",
-          "verified_at": "2026-10-28T23:22:53.916Z",
-          "updated_at": "2026-10-28T23:22:53.916Z",
+          "verified_at": "2026-10-29T07:04:25.917Z",
+          "updated_at": "2026-10-29T07:04:25.917Z",
           "franchise_ids": [
             "bang-dream",
             "raise-a-suilen"
@@ -2640,7 +2640,7 @@
               "id": "auto-16ad5931165da640-source",
               "url": "https://bang-dream.com/events/ras-tour2027/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-28T23:22:53.916Z"
+              "checked_at": "2026-10-29T07:04:25.917Z"
             }
           ]
         },
@@ -2655,7 +2655,7 @@
             "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/18103231/a33746f8-4b505a24-d398ab6f-b5004831.jpg",
             "alt": "藤都子现场活动「みやこのアトリエ」",
             "source_url": "https://bang-dream.com/events/miyako_atelier/",
-            "checked_on": "2026-10-28"
+            "checked_on": "2026-10-29"
           },
           "gallery": [],
           "benefits": [],
@@ -2669,7 +2669,7 @@
               "source_url": "https://bang-dream.com/events/miyako_atelier/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             }
           ],
           "fees": null,
@@ -2678,8 +2678,8 @@
             "票务详情及受理期间待公布，不能据此判断报名已开放。"
           ],
           "status": "published",
-          "verified_at": "2026-10-28T23:22:53.916Z",
-          "updated_at": "2026-10-28T23:22:53.916Z",
+          "verified_at": "2026-10-29T07:04:25.917Z",
+          "updated_at": "2026-10-29T07:04:25.917Z",
           "franchise_ids": [
             "bang-dream",
             "yumemita"
@@ -2715,7 +2715,7 @@
               "id": "auto-c96213b334859fe4-source",
               "url": "https://bang-dream.com/events/miyako_atelier/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-28T23:22:53.916Z"
+              "checked_at": "2026-10-29T07:04:25.917Z"
             }
           ]
         },
@@ -2730,7 +2730,7 @@
             "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/06131406/24c07056-66188784-55772d55-5bfdb1c2.jpg",
             "alt": "夢限大みゅーたいぷ 2027 巡演「YMMTric COUNTER POINT」",
             "source_url": "https://bang-dream.com/events/ymmt-tour2027/",
-            "checked_on": "2026-10-28"
+            "checked_on": "2026-10-29"
           },
           "gallery": [],
           "benefits": [],
@@ -2744,7 +2744,7 @@
               "source_url": "https://bang-dream.com/events/ymmt-tour2027/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-63e890fb109ff84b-rule-1",
@@ -2755,7 +2755,7 @@
               "source_url": "https://bang-dream.com/events/ymmt-tour2027/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-63e890fb109ff84b-rule-2",
@@ -2766,7 +2766,7 @@
               "source_url": "https://bang-dream.com/events/ymmt-tour2027/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-63e890fb109ff84b-rule-3",
@@ -2777,7 +2777,7 @@
               "source_url": "https://bang-dream.com/events/ymmt-tour2027/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             }
           ],
           "fees": null,
@@ -2786,8 +2786,8 @@
             "尚未完成各场次参与方式的结构化核实，请阅读中文规则及官方公告。"
           ],
           "status": "published",
-          "verified_at": "2026-10-28T23:22:53.916Z",
-          "updated_at": "2026-10-28T23:22:53.916Z",
+          "verified_at": "2026-10-29T07:04:25.917Z",
+          "updated_at": "2026-10-29T07:04:25.917Z",
           "franchise_ids": [
             "bang-dream",
             "yumemita"
@@ -2967,7 +2967,7 @@
               "id": "auto-63e890fb109ff84b-source",
               "url": "https://bang-dream.com/events/ymmt-tour2027/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-28T23:22:53.916Z"
+              "checked_at": "2026-10-29T07:04:25.917Z"
             }
           ]
         },
@@ -2982,7 +2982,7 @@
             "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/27160916/172a442f-f52d7f3c-72a971ec-d4dccad9.png",
             "alt": "Roselia 十周年巡回演唱会",
             "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
-            "checked_on": "2026-10-28"
+            "checked_on": "2026-10-29"
           },
           "gallery": [],
           "benefits": [],
@@ -2996,7 +2996,7 @@
               "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-97ebcc1904e05cee-rule-1",
@@ -3007,7 +3007,7 @@
               "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-97ebcc1904e05cee-rule-2",
@@ -3018,7 +3018,7 @@
               "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             }
           ],
           "fees": null,
@@ -3027,8 +3027,8 @@
             "凭 Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
           ],
           "status": "published",
-          "verified_at": "2026-10-28T23:22:53.916Z",
-          "updated_at": "2026-10-28T23:22:53.916Z",
+          "verified_at": "2026-10-29T07:04:25.917Z",
+          "updated_at": "2026-10-29T07:04:25.917Z",
           "franchise_ids": [
             "bang-dream",
             "roselia"
@@ -3136,7 +3136,7 @@
               "id": "auto-97ebcc1904e05cee-source",
               "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-28T23:22:53.916Z"
+              "checked_at": "2026-10-29T07:04:25.917Z"
             }
           ]
         },
@@ -3151,7 +3151,7 @@
             "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/11/11192055/cfca7c86-fcbbe235-5d1d197d-e59be363.jpg",
             "alt": "millsage 首场演唱会「极夜」",
             "source_url": "https://bang-dream.com/events/millsage_1st/",
-            "checked_on": "2026-10-28"
+            "checked_on": "2026-10-29"
           },
           "gallery": [],
           "benefits": [],
@@ -3165,7 +3165,7 @@
               "source_url": "https://bang-dream.com/events/millsage_1st/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-a0d13aed98742dfb-rule-1",
@@ -3176,7 +3176,7 @@
               "source_url": "https://bang-dream.com/events/millsage_1st/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             }
           ],
           "fees": null,
@@ -3185,8 +3185,8 @@
             "需首张单曲「鳴らす」首批附券，每人最多2张；全站席，禁止发光应援物。"
           ],
           "status": "published",
-          "verified_at": "2026-10-28T23:22:53.916Z",
-          "updated_at": "2026-10-28T23:22:53.916Z",
+          "verified_at": "2026-10-29T07:04:25.917Z",
+          "updated_at": "2026-10-29T07:04:25.917Z",
           "franchise_ids": [
             "bang-dream",
             "millsage"
@@ -3222,7 +3222,7 @@
               "id": "auto-a0d13aed98742dfb-source",
               "url": "https://bang-dream.com/events/millsage_1st/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-28T23:22:53.916Z"
+              "checked_at": "2026-10-29T07:04:25.917Z"
             }
           ]
         },
@@ -3237,7 +3237,7 @@
             "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/21095234/e2e6ec4f-026ee792-c19c4bde-e4861033.jpg",
             "alt": "仲町あられ 2026 演唱会「RESONEXT」",
             "source_url": "https://bang-dream.com/events/nakamachiarale_live2026/",
-            "checked_on": "2026-10-28"
+            "checked_on": "2026-10-29"
           },
           "gallery": [],
           "benefits": [],
@@ -3251,7 +3251,7 @@
               "source_url": "https://bang-dream.com/events/nakamachiarale_live2026/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-04c73e062516c03a-rule-1",
@@ -3262,7 +3262,7 @@
               "source_url": "https://bang-dream.com/events/nakamachiarale_live2026/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             }
           ],
           "fees": null,
@@ -3271,8 +3271,8 @@
             "仅电子票，每人最多2张；售罄即止，余票需查官方。昼场14:00、夜场19:15开演（日本时间）。"
           ],
           "status": "published",
-          "verified_at": "2026-10-28T23:22:53.916Z",
-          "updated_at": "2026-10-28T23:22:53.916Z",
+          "verified_at": "2026-10-29T07:04:25.917Z",
+          "updated_at": "2026-10-29T07:04:25.917Z",
           "franchise_ids": [
             "bang-dream",
             "yumemita"
@@ -3308,7 +3308,7 @@
               "id": "auto-04c73e062516c03a-source",
               "url": "https://bang-dream.com/events/nakamachiarale_live2026/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-28T23:22:53.916Z"
+              "checked_at": "2026-10-29T07:04:25.917Z"
             }
           ]
         },
@@ -3323,7 +3323,7 @@
             "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/06/12200218/831893d3-f2491352-7e8e8d09-e6759bb3.jpg",
             "alt": "一家Dumb Rock! 首场GIG「ピース＆グルーヴ」",
             "source_url": "https://bang-dream.com/events/ikka-dumb-rock_1st/",
-            "checked_on": "2026-10-28"
+            "checked_on": "2026-10-29"
           },
           "gallery": [],
           "benefits": [],
@@ -3337,7 +3337,7 @@
               "source_url": "https://bang-dream.com/events/ikka-dumb-rock_1st/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-0d9f7fdb753dc318-rule-1",
@@ -3348,7 +3348,7 @@
               "source_url": "https://bang-dream.com/events/ikka-dumb-rock_1st/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             }
           ],
           "fees": null,
@@ -3357,8 +3357,8 @@
             "需首张单曲「ピースフル・ピーシーズ！」首批附券，每人最多2张。"
           ],
           "status": "published",
-          "verified_at": "2026-10-28T23:22:53.916Z",
-          "updated_at": "2026-10-28T23:22:53.916Z",
+          "verified_at": "2026-10-29T07:04:25.917Z",
+          "updated_at": "2026-10-29T07:04:25.917Z",
           "franchise_ids": [
             "bang-dream",
             "ikka-dumb-rock"
@@ -3394,7 +3394,7 @@
               "id": "auto-0d9f7fdb753dc318-source",
               "url": "https://bang-dream.com/events/ikka-dumb-rock_1st/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-28T23:22:53.916Z"
+              "checked_at": "2026-10-29T07:04:25.917Z"
             }
           ]
         },
@@ -3409,7 +3409,7 @@
             "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/11/16140507/b14a9de2-809b40d7-3a92cf86-9938c638.jpg",
             "alt": "千石ユノ DJ 活动「YUNO’s PARTY Lv.3」",
             "source_url": "https://bang-dream.com/events/yumemita_yunos_party_lv3/",
-            "checked_on": "2026-10-28"
+            "checked_on": "2026-10-29"
           },
           "gallery": [],
           "benefits": [],
@@ -3423,7 +3423,7 @@
               "source_url": "https://bang-dream.com/events/yumemita_yunos_party_lv3/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             }
           ],
           "fees": null,
@@ -3432,8 +3432,8 @@
             "门票详情与受理期间后续公布；昼场13:00、夜场18:15开演（日本时间）。"
           ],
           "status": "published",
-          "verified_at": "2026-10-28T23:22:53.916Z",
-          "updated_at": "2026-10-28T23:22:53.916Z",
+          "verified_at": "2026-10-29T07:04:25.917Z",
+          "updated_at": "2026-10-29T07:04:25.917Z",
           "franchise_ids": [
             "bang-dream",
             "yumemita"
@@ -3469,7 +3469,7 @@
               "id": "auto-f065242309b768b9-source",
               "url": "https://bang-dream.com/events/yumemita_yunos_party_lv3/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-28T23:22:53.916Z"
+              "checked_at": "2026-10-29T07:04:25.917Z"
             }
           ]
         },
@@ -3484,7 +3484,7 @@
             "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/27161555/785831f3-88ed8c2e-7e6b5011-b95ffaf7.jpg",
             "alt": "集合！夢限大みゅーたいぷ健身部 ～闪耀吧！肱二头肌～",
             "source_url": "https://bang-dream.com/events/yumemita_kinntorebu2026/",
-            "checked_on": "2026-10-28"
+            "checked_on": "2026-10-29"
           },
           "gallery": [],
           "benefits": [],
@@ -3498,7 +3498,7 @@
               "source_url": "https://bang-dream.com/events/yumemita_kinntorebu2026/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             }
           ],
           "fees": null,
@@ -3507,8 +3507,8 @@
             "仅电子票，每人最多2张，昼场13:30、夜场17:30开演（日本时间）。"
           ],
           "status": "published",
-          "verified_at": "2026-10-28T23:22:53.916Z",
-          "updated_at": "2026-10-28T23:22:53.916Z",
+          "verified_at": "2026-10-29T07:04:25.917Z",
+          "updated_at": "2026-10-29T07:04:25.917Z",
           "franchise_ids": [
             "bang-dream",
             "yumemita"
@@ -3544,7 +3544,7 @@
               "id": "auto-574a22a1d83b735f-source",
               "url": "https://bang-dream.com/events/yumemita_kinntorebu2026/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-28T23:22:53.916Z"
+              "checked_at": "2026-10-29T07:04:25.917Z"
             }
           ]
         },
@@ -3568,7 +3568,7 @@
               "source_url": "https://revuestarlight.com/event/11130/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-7fb8374c18208450-rule-1",
@@ -3579,7 +3579,7 @@
               "source_url": "https://revuestarlight.com/event/11130/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "id": "auto-7fb8374c18208450-rule-2",
@@ -3590,7 +3590,7 @@
               "source_url": "https://revuestarlight.com/event/11130/",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             }
           ],
           "fees": null,
@@ -3599,8 +3599,8 @@
             "きゃにめ先行已截止。每人每场一种票种最多2张，须使用ポニキャンApp。后续售票请查看官方。"
           ],
           "status": "published",
-          "verified_at": "2026-10-28T23:22:53.916Z",
-          "updated_at": "2026-10-28T23:22:53.916Z",
+          "verified_at": "2026-10-29T07:04:25.917Z",
+          "updated_at": "2026-10-29T07:04:25.917Z",
           "franchise_ids": [
             "starlight"
           ],
@@ -3635,7 +3635,7 @@
               "id": "auto-7fb8374c18208450-source",
               "url": "https://revuestarlight.com/event/11130/",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-28T23:22:53.916Z"
+              "checked_at": "2026-10-29T07:04:25.917Z"
             }
           ]
         }
