@@ -1,7 +1,7 @@
 {
   "formatVersion": 2,
-  "revision": "09fd68ae811fcfac2788e6c2e697084911e532bd5b81ffc0d28aa6d8a0262ca0",
-  "publishedAt": "2026-10-29T14:08:58.501Z",
+  "revision": "b9633b04f187e22d4ac58d175e672c10627d11789f3e4a730394839777222d8f",
+  "publishedAt": "2026-10-29T14:35:13.088Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -142,52 +142,64 @@
           },
           "gallery": [
             {
-              "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2608_%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA_KV_0902FIX_%E7%AD%89%E8%BA%AB.jpg",
-              "alt": "五支乐队等身主视觉",
+              "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2608_%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA_%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E7%94%BB%E5%83%8F_w750%C3%97h511.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
               "source_url": "https://www.sweets-paradise.jp/collaboration/ournotes",
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2608_%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA_KV_0902FIX_%E7%AD%89%E8%BA%AB.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.sweets-paradise.jp/collaboration/ournotes",
+              "checked_on": "2026-10-29"
             },
             {
               "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/09/2608_%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA_KV_0902FIX_%E3%83%9F%E3%83%8B%E3%82%AD%E3%83%A3%E3%83%A9.jpg",
-              "alt": "五支乐队迷你角色主视觉",
+              "alt": "官方公告配图（图中文字请以原图为准）",
               "source_url": "https://www.sweets-paradise.jp/collaboration/ournotes",
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2609_%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1001_01.jpg",
-              "alt": "餐食、甜点与自助餐费用",
+              "alt": "官方公告配图（图中文字请以原图为准）",
               "source_url": "https://www.sweets-paradise.jp/collaboration/ournotes",
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2609_%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1001_02.jpg",
-              "alt": "饮品、吸管卡与热饮图案分组",
+              "alt": "官方公告配图（图中文字请以原图为准）",
               "source_url": "https://www.sweets-paradise.jp/collaboration/ournotes",
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2609_%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA_%E3%83%A1%E3%83%8B%E3%83%A5%E3%83%BC%E8%A1%A8_1001_03.jpg",
-              "alt": "纸餐垫与杯垫领取规则",
+              "alt": "官方公告配图（图中文字请以原图为准）",
               "source_url": "https://www.sweets-paradise.jp/collaboration/ournotes",
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA_%E6%B3%A8%E6%96%87%E5%88%B6%E9%99%90POP.jpg",
-              "alt": "餐食及饮品点单限制",
+              "alt": "官方公告配图（图中文字请以原图为准）",
               "source_url": "https://www.sweets-paradise.jp/collaboration/ournotes",
-              "checked_on": "2026-10-28"
-            },
-            {
-              "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA_%E8%B3%BC%E5%85%A5%E5%88%B6%E9%99%90POP.jpg",
-              "alt": "周边购买次数与数量限制",
-              "source_url": "https://www.sweets-paradise.jp/collaboration/ournotes",
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
             },
             {
               "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA_%E3%82%B0%E3%83%83%E3%82%BAPOP_1009.jpg",
-              "alt": "周边售价与意面零食内封贴纸",
+              "alt": "官方公告配图（图中文字请以原图为准）",
               "source_url": "https://www.sweets-paradise.jp/collaboration/ournotes",
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/2610_%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA_%E8%B3%BC%E5%85%A5%E5%88%B6%E9%99%90POP.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.sweets-paradise.jp/collaboration/ournotes",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.sweets-paradise.jp/wp-content/uploads/2026/10/BanG-Dream-Our-Notes%EF%BC%88%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA%EF%BC%81%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84%EF%BC%89%E3%82%A2%E3%83%AC%E3%83%AB%E3%82%B2%E3%83%B3%E8%A1%A8-1.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.sweets-paradise.jp/collaboration/ournotes",
+              "checked_on": "2026-10-29"
             }
           ],
           "benefits": [
@@ -857,6 +869,32 @@
             "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/",
             "checked_on": "2026-10-28"
           },
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/10185610/68a97586-82af2e92-fdb9a250-4094ccb4.jpg",
+              "alt": "MyGO!!!!! 9th LIVE「つなぎ目の向こうに」- 神戸再景編 -",
+              "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/30115049/1d6aa384-f4ad028f-1df08892-ae57e5cb-1024x924.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/17184339/531acae0-fe98cb89-e13d5a8b-45ce704b-1024x577.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/15100023/d8a1b723-825298fc-46145f3c-a9b78054-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th_hyogo/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "translated_rules": [
             {
               "id": "mygo-9th-kobe-2026-rule-0",
@@ -1009,6 +1047,20 @@
             "source_url": "https://bang-dream.com/events/millsage_ikka-dumb-rock/",
             "checked_on": "2026-10-28"
           },
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/08200702/f64f8451-317189bd-5e3aaa44-7ac66bd5.jpg",
+              "alt": "millsage×一家Dumb Rock! SPECIAL LIVE",
+              "source_url": "https://bang-dream.com/events/millsage_ikka-dumb-rock/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/15192501/bb85e4ba-8e444ee0-5c5a846f-11c07c98-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/millsage_ikka-dumb-rock/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "translated_rules": [
             {
               "id": "millsage-ikka-special-2027-rule-0",
@@ -1499,10 +1551,16 @@
           },
           "gallery": [
             {
-              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/15/1002/Cv4N4nrNGHWA158P/dJtkaYHzSUC8goOh.jpeg",
-              "alt": "Loft 先行销售商品一览",
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/15/1002/Hhk7MTBaF0EYEinT/ayqcTunH03zNIgTw.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
               "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6703",
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/15/1002/Cv4N4nrNGHWA158P/dJtkaYHzSUC8goOh.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6703",
+              "checked_on": "2026-10-29"
             }
           ],
           "benefits": [
@@ -2247,16 +2305,160 @@
           },
           "gallery": [
             {
-              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/iEkZ6kymUkfqYy3E/i4YJAfh04QWhUzhk.jpeg",
-              "alt": "第 6 弹联动饮品图",
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/AgYBR3xgMu2i6q0X/xdwNdjf1lIFDJkZy.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
               "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/xHCDdhfyVeIcJRbT/6f8FgVcI47ZrGXGL.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/g3Rlwuhckm8HMOvd/5YVRojoVYYgwRqrO.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/iEkZ6kymUkfqYy3E/i4YJAfh04QWhUzhk.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
             },
             {
               "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/lazeFrnKSCfrZ1ZJ/2AmFYI0BiSSBktIV.jpeg",
-              "alt": "第 6 弹联动饮品图（续）",
+              "alt": "官方公告配图（图中文字请以原图为准）",
               "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
-              "checked_on": "2026-10-28"
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/SxsOCxm49mXe0M9L/Uo9lKr1DsK9Rua99.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/RK59cN076Ve6rtUm/5Pak1nDLU6SVNK6e.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/v7H0TrHxThmLiq3k/qDcEWaTYcdSJ0fq9.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/jHqD4VEuLvwebLWF/fUFJUrBMMgMItjhk.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/UvEGWrBZBHUjyb6r/dh7Nxyg2uf1tCZaL.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/KddR5gzZUQMtQxQf/ZgALV6WzHwtBGEyd.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/p1FHR1PyGN8ow1xC/5yIYjZ6IEjvgmJsd.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/QRsy3NSQsXfjmDLN/MF1t9MimsnJjPrSm.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/MKaRlQy0eyGS3DBJ/3vaEqcfuZloZKGr0.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/wZZKmWAAssJymwy7/UoayPlOY9Amng8wm.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/cY5Ys6Hfda1WZwam/mKFuFMKfjpEnpiUu.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/q6oZC44y6VdqZZGj/grwZPbAYsAsZ7ZHn.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/krviwMNBFWBAh6P2/ZFttFfWWlScxgy7N.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/z6S8w2SFyLJMDbi5/2DOvlogMmqhtCrve.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/0hrOmvciISe1wpYW/UQ192WFBJshEwDXl.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/KEjNOt662dG7QEcj/0WfXppyyAuUldd8C.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/EWcsw8gtFLt9LXlK/Z3UgcYan1Roog713.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/yF3TfEDsgkgwvebe/JvuDP7KAqqFLBBF1.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/NYUlS3ETKXDt5hDF/hbu1ENUho9ozQWxB.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/ifnzMxmnM6dNMqyw/rz9D36HUGsOxEePs.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/08/28/1002/65OOvY3mpeuohi4a/DuLlVWQy2XRekUqb.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+              "checked_on": "2026-10-29"
             }
           ],
           "benefits": [
@@ -2308,7 +2510,7 @@
           ],
           "status": "published",
           "verified_at": "2026-10-28T12:00:00+09:00",
-          "updated_at": "2026-10-28T12:00:00+09:00",
+          "updated_at": "2026-10-29T14:02:14.341Z",
           "franchise_ids": [
             "lovelive",
             "nijigasaki"
@@ -2461,6 +2663,78 @@
                   "cutoff_time": null,
                   "url": "https://campaign.gendagigo.jp/2607/lovelive-cardgame-cafe/",
                   "note": "Stand 不需预约，拥挤时可能发整理券。"
+                }
+              ]
+            },
+            {
+              "id": "lovelive-gigo-card-phase6-2026-venue-c7e31b8d7f",
+              "city": "札幌",
+              "name": "GiGOココノススキノ",
+              "address": null,
+              "start_date": "2026-10-24",
+              "end_date": "2026-11-08",
+              "rounds": [
+                {
+                  "id": "lovelive-gigo-card-phase6-2026-round-1",
+                  "label": "官方参加方式",
+                  "method": "无需预约",
+                  "kind": "none",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+                  "note": "饮品站全期自由入场，拥挤时可能发整理券；不供应餐点甜品、不发物贩购物特典。秋叶原2号馆也不卖周边。"
+                }
+              ]
+            },
+            {
+              "id": "lovelive-gigo-card-phase6-2026-venue-b3629a550b",
+              "city": "福冈",
+              "name": "GiGO福岡天神",
+              "address": null,
+              "start_date": "2026-10-24",
+              "end_date": "2026-11-08",
+              "rounds": [
+                {
+                  "id": "lovelive-gigo-card-phase6-2026-round-7",
+                  "label": "官方参加方式",
+                  "method": "无需预约",
+                  "kind": "none",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+                  "note": "饮品站全期自由入场，拥挤时可能发整理券；不供应餐点甜品、不发物贩购物特典。秋叶原2号馆也不卖周边。"
+                }
+              ]
+            },
+            {
+              "id": "lovelive-gigo-card-phase6-2026-venue-da09c6f711",
+              "city": "熊本",
+              "name": "GiGOアミュプラザくまもと",
+              "address": null,
+              "start_date": "2026-10-24",
+              "end_date": "2026-11-08",
+              "rounds": [
+                {
+                  "id": "lovelive-gigo-card-phase6-2026-round-8",
+                  "label": "官方参加方式",
+                  "method": "无需预约",
+                  "kind": "none",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
+                  "note": "饮品站全期自由入场，拥挤时可能发整理券；不供应餐点甜品、不发物贩购物特典。秋叶原2号馆也不卖周边。"
                 }
               ]
             }
@@ -2726,7 +3000,14 @@
             "source_url": "https://bang-dream.com/events/ras-tour2027/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/01101412/792592a1-3953d6b8-282c8cdc-873ba4a7.png",
+              "alt": "RAISE A SUILEN LIVE TOUR 2027",
+              "source_url": "https://bang-dream.com/events/ras-tour2027/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -2919,7 +3200,14 @@
             "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/27160916/172a442f-f52d7f3c-72a971ec-d4dccad9.png",
+              "alt": "Roselia 10th Anniversary LIVE TOUR",
+              "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -3088,7 +3376,20 @@
             "source_url": "https://bang-dream.com/events/avemujica-8th/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/23171008/fb5e4f97-d6cee7d9-06a58ce7-aa638717.png",
+              "alt": "Ave Mujica 8th LIVE「Discrimen Fati」",
+              "source_url": "https://bang-dream.com/events/avemujica-8th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/23222012/6a8dd718-f8490098-bb306a7a-00f06299-1024x577.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica-8th/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -3231,7 +3532,14 @@
             "source_url": "https://bang-dream.com/events/miyako_atelier/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/18103231/a33746f8-4b505a24-d398ab6f-b5004831.jpg",
+              "alt": "みやこのアトリエ",
+              "source_url": "https://bang-dream.com/events/miyako_atelier/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -3306,7 +3614,14 @@
             "source_url": "https://bang-dream.com/events/ymmt-tour2027/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/06131406/24c07056-66188784-55772d55-5bfdb1c2.jpg",
+              "alt": "夢限大みゅーたいぷ LIVE TOUR 2027「YMMTric COUNTER POINT」",
+              "source_url": "https://bang-dream.com/events/ymmt-tour2027/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -3558,7 +3873,20 @@
             "source_url": "https://bang-dream.com/events/eleganza/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/15164842/a61da4d6-7f149f0f-4eb00663-f4409050.png",
+              "alt": "Morfonica LIVE「eleganza」",
+              "source_url": "https://bang-dream.com/events/eleganza/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/18121237/6ef94b14-56a114b4-1af78889-6e246664.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/eleganza/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -3683,7 +4011,14 @@
             "source_url": "https://bang-dream.com/events/millsage_1st/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/11/11192055/cfca7c86-fcbbe235-5d1d197d-e59be363.jpg",
+              "alt": "millsage LIVE 001「極夜」",
+              "source_url": "https://bang-dream.com/events/millsage_1st/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -3769,7 +4104,26 @@
             "source_url": "https://bang-dream.com/events/nakamachiarale_live2026/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/21095234/e2e6ec4f-026ee792-c19c4bde-e4861033.jpg",
+              "alt": "NAKAMACHI ARALE LIVE 2026「RESONEXT」",
+              "source_url": "https://bang-dream.com/events/nakamachiarale_live2026/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/24162640/62cc68bd-b219e096-3ce0d867-14f7ff4e.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/nakamachiarale_live2026/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/24162742/4389b2e7-48c59d23-4d29d329-7ad979c8.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/nakamachiarale_live2026/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -3855,7 +4209,14 @@
             "source_url": "https://bang-dream.com/events/ikka-dumb-rock_1st/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/06/12200218/831893d3-f2491352-7e8e8d09-e6759bb3.jpg",
+              "alt": "一家Dumb Rock! 1st GIG「ピース＆グルーヴ」",
+              "source_url": "https://bang-dream.com/events/ikka-dumb-rock_1st/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -3941,7 +4302,14 @@
             "source_url": "https://bang-dream.com/events/yumemita_yunos_party_lv3/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/11/16140507/b14a9de2-809b40d7-3a92cf86-9938c638.jpg",
+              "alt": "千石ユノ主催DJイベント「YUNO’s PARTY Lv.3」",
+              "source_url": "https://bang-dream.com/events/yumemita_yunos_party_lv3/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -4016,7 +4384,14 @@
             "source_url": "https://bang-dream.com/events/yumemita_kinntorebu2026/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/27161555/785831f3-88ed8c2e-7e6b5011-b95ffaf7.jpg",
+              "alt": "集え！ゆめみた筋トレ部 ～輝け！上腕二頭筋～",
+              "source_url": "https://bang-dream.com/events/yumemita_kinntorebu2026/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -4091,7 +4466,128 @@
             "source_url": "https://bang-dream.com/events/avemujica_7th/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/06/23132122/1f0379e2-ab76fcf4-24b2cbd3-6dea12b1.jpg",
+              "alt": "Ave Mujica 7th LIVE「Virtus」",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/06/23125131/5267b848-aad8971f-3ded3dc3-856241d9-655x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/06/19171809/82b3c70c-7797cd40-85babece-24d58a8c-1024x577.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/17171732/e135409a-5625b869-2f41a892-4beab1bf-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/19144418/dbf9cc3d-9237f858-ccae24e7-ad34ba59-1024x1024.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/19143056/df51a77d-554678c5-33a46ec8-016b8127-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/19143120/c9d725c7-8487dbc2-25c13be1-79e82a07-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/19142812/c6ff342f-eba1571f-9bbaa081-2371e3a2-1024x1024.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/22132919/5534795a-8aa3317c-23eabc80-4c1f4146-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/22132935/fc08cb40-39ebb46d-dc445913-2ae927d9-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/19144746/29b8adae-3b69ee2c-9ad16199-c0bac173-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/19160330/bdf67070-10e808f1-e49e4de2-8218c69d-1024x724.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/19144940/7be35fbc-93f8f1c4-dd20ad1f-b2b6e106-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/06/20145003/4fa1ae5a-76311091-9d6fc84a-10e1544b-1024x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/19145424/386b8411-dc7d4623-6c25b395-cb5b4650-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/19145451/e7cfbd5e-3d00c52b-a347235b-8aeef0e0-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/19145646/5f29bec7-31b72998-7f65d199-0b144bb5-725x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/01131939/5b40a98e-3ad569c7-efb6e335-cf8b667a-1024x724.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/06/23223144/89d7f08b-f23d3a51-2b5531fd-7c8c7360-723x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/01132043/f6548f92-88764c76-94a756ff-c85b8458-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/avemujica_7th/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -4245,7 +4741,86 @@
             "source_url": "https://bang-dream.com/events/13th-live-day3/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/16111732/07b13383-94476c47-18382997-e0c1059c.png",
+              "alt": "BanG Dream! 13th☆LIVE DAY3 : RAISE A SUILEN「EXTREME EXPRESS」",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/05/20174113/bc2ac843-18b32f96-567cbf6b-7d9822f4-791x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/05/01132914/ce0f4801-c94b920b-c50e4918-47844ba8.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/07173017/bcab2509-bb42272c-38c5a9a7-ea158f14.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/02155111/9440c63c-57d492fd-de95e5e2-67c2be8f-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/02155114/e435def1-12ae2d5b-e756feef-1e2a3468-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/02155118/b8941deb-eeb19df0-a0654496-53ba7fc2-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/02154854/c9ba7017-bff064ac-d1c85932-edb54ab9-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/02112110/53b1be45-ea744b44-abee092b-243cdd40.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/02112113/941323a1-19cfad92-a1ec9fd6-d2973f99.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/07172548/464d109b-bcbec6ec-68f3e7d0-c444ff60-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30202401/dfb240c1-9ee06192-13b445d3-0924376e-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30202403/b9e273bb-a89b7e1f-6b3989ec-02bfde0e-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day3/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -4397,7 +4972,98 @@
             "source_url": "https://bang-dream.com/events/13th-live-day2/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/05/21225116/ef2d90cc-c2639dfd-75f6c0eb-5bab81aa.jpg",
+              "alt": "BanG Dream! 13th☆LIVE DAY2 : 夢限大みゅーたいぷ「DIMENSIONAL OVERLAP」",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/05/18185625/25fe68e0-4bd38e06-6d4ece90-afdda04e.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/05/01132914/ce0f4801-c94b920b-c50e4918-47844ba8.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/02103953/7f81ad23-d0fac783-ca9c7337-8e2ce096.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/09172928/ec13a5cf-1dea5a02-1bb605fa-cd5309c7.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/02160934/65219708-6db16071-ea2a5944-032d4989.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/02161004/0d109ae9-19a052e2-15e96de5-5025c262.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/02161039/f21ce464-afa73dee-0d137df1-05adbe2b.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/02105326/b9d181d4-537f22b5-e8d4fd40-195636c1.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/02105408/9b74a8de-45a75b80-00500c6a-d6390353.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/02154854/c9ba7017-bff064ac-d1c85932-edb54ab9.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/07172154/787f2f74-d28b7788-03fdb2db-ab27d183.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/28171258/6f216a0f-97f9a6b5-7b2aec4e-11e0e81d.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30202401/dfb240c1-9ee06192-13b445d3-0924376e-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30202403/b9e273bb-a89b7e1f-6b3989ec-02bfde0e-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day2/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -4549,7 +5215,86 @@
             "source_url": "https://bang-dream.com/events/13th-live-day1/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/24113355/7856fc99-6a2117bd-1891e8c5-9b2e33a8.png",
+              "alt": "BanG Dream! 13th☆LIVE DAY1 : Poppin",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/28162356/009962ce-3f45f30b-5372f284-698177d4.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/05/01132914/ce0f4801-c94b920b-c50e4918-47844ba8.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/07173010/67144cdd-c1157a53-0c15dd0a-de6af61e.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/02154650/d06d9a07-724c1378-b6aeefcb-69516341-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/02154653/729e43e0-9560b050-ad7dd3a6-128fb975-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/02154657/078df36d-47b25760-467ca4c7-a7d7aa49-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/02154854/c9ba7017-bff064ac-d1c85932-edb54ab9-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/02112059/d9a6c56e-e4910893-52289340-1b1ec503.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/02112102/1e2acf35-7d4452cc-24e2166f-d26641b5.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/07172551/a668715a-e1282e72-b7c770fc-f5a5fb82-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30202401/dfb240c1-9ee06192-13b445d3-0924376e-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30202403/b9e273bb-a89b7e1f-6b3989ec-02bfde0e-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/13th-live-day1/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -4701,7 +5446,68 @@
             "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/28134729/195fe342-0661de73-ed0f6b77-2c8ef77c.png",
+              "alt": "Morfonica LIVE「Movement」",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/05161644/3a85b842-fa54bc72-1332dc50-f7b4dc15-1024x778.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/17195416/fd0df728-d3d7c63f-3657cd5c-17ddbc14.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/18185148/fb00023f-ba508dc3-9006f6c5-4ddb8c51.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/11175024/beac7944-97c9047b-8d76b9bb-0a40aea3.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/11175034/3f7da29b-7000ec24-28d32bf1-bb51d110.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/11175037/c7da655c-4bf3f46d-e6659e4e-d5c02627-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/11175040/77d40fbf-5deff5e2-36493319-3d3cf54d-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/11175041/e37d920e-cf189383-748a426d-2cfa89e2.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/17184538/3d60ec42-9a637121-e269385e-5005f435-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/morfonica_live_2026/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -4831,7 +5637,122 @@
             "source_url": "https://bang-dream.com/events/lehre-der-rose/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/24205237/b08bce34-6239b5c9-5340cf8c-bf172c7c.jpg",
+              "alt": "Roselia「Lehre der Rose」 - Roselia 10th Anniversary Best Album「Lehre der Rose」リリース記念ライブ",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/03140742/77d28dea-2f7f4167-ecbf7348-3f688e66.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/24205540/73d67fb4-405d0a4e-aadcb3be-32615393.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/29111251/6a13e96d-87ca5b9c-ae521417-2556891e.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/17193456/4d2e0b1d-6cdfa010-5e1b2d2f-aaff1706-212x300.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/24212224/2976e1e6-57296fa4-300cd9d2-5d34d9f1-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/17193511/2e2af132-567ada1e-cab81237-e7e221df-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/24212229/c3867f41-4c2b92ee-38c4a67f-1f85e053-212x300.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/24212233/4958dc38-6aa4da91-9d298dd1-3756640a-212x300.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/17193517/3c0a3362-976b609c-c59b3c5c-9b5cdcb0-212x300.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/17193522/8c342b6e-e3722c01-6c9b670a-3d4ff025-300x300.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/02/26105613/2f9c624e-243e47ba-df72f604-1503f803-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/24212242/124caee2-2e35e37e-05c565bd-40740e19-1024x724.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/27154118/4eabe2f5-7ae62b8d-f48548ea-914743b8-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/27154125/29b58f05-8276932e-facedb2d-e19e24c6-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/28152059/1d95e4e3-d0accb8e-9f57a7ed-f2edcac8.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/28144355/b59c3e36-4595e24d-9d0cc5aa-3edd24f3-1024x576.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/28144358/fd1efed4-659e30a9-e99441ce-d5c13c45.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/28144414/5d232b9c-7090e2fb-fe56edd8-f44a7ed1-1024x1024.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/lehre-der-rose/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -4985,7 +5906,122 @@
             "source_url": "https://bang-dream.com/events/mygo_9th/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2025/12/30111746/3ee53085-769ca1f7-fd3184cb-3c60c8b4.jpg",
+              "alt": "MyGO!!!!! 9th LIVE「つなぎ目の向こうに」",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2025/12/13115347/5bd3557a-0c63da4e-a0a1fd04-8f78b317-999x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/01/16193611/0826f3a2-bc05bfdb-8eed84ea-5adcdad1-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2025/12/16162907/968d5f6c-81c60cfb-c97d63bb-725e7bc5-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/09162043/10b4997d-7fe84084-2b653d91-ad2cdcb5-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/09162052/1d2f8ecd-bcb97e46-3b2ee81f-f945341b-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/09162146/97ff5a43-8c7812ea-0ba7dcab-4ec6271a-1024x724.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/17163751/b8528db6-d2cfd438-7c93defe-d71daef4.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/17163801/db5e0bba-308edaa8-9cf547be-c4d96497.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/09163041/66e46098-556344cb-9e111e31-f77827e4-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/09163134/4e9fb36f-0da5fc05-c8932859-8765d333.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2025/12/16144439/654504ba-b7cbf770-d0e99b45-313bde97-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2025/12/16144507/50f545ef-99ec5c18-ab40d2c5-fc9af09f-724x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/13113239/9983f1b8-7830afc2-e78e52ca-2a152806-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/09182616/1e21ec6e-ad873706-19e93c0d-0cc85ec1-1024x576.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/01/08163834/fe272de8-e27ec932-f93f933c-540cceab-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/01/08153156/8f53c6b1-48db5d5a-eb5a5f84-ac3cb446-1024x576.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/01/08165216/de144aa0-71813c33-11880f7f-e64fa8ba-723x1024.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/15163239/dbd5b0d4-be318b61-63ee3959-4759728c-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/mygo_9th/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -5219,7 +6255,116 @@
             "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/04/18/1002/c56700lQDN6V4XEY/N7odUamdfI4wq7eg.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/QMMA8Zbzz8dI3IMM/btyKdHSgCC5BgRAY.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/1de9UPokGkOFsZj4/vFhEwZH6jAJkyFM0.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/aJRdgGrgliwMu95K/gZqHMY4CX1ho0pGM.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/ixgdTLxfF2W1fFRT/UgHDVIGOaWL8hvJS.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/atNMtURepYKSclfD/dlw8Ezrf28rw7Y6w.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/HTwZwoU7d4eqQ79Z/oLgDI2mfYUfjjUZt.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/27/1002/VL2BdYybyttYvOHc/lO2cDT2DBMzlfZAT.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/hvaS4VmT47x86BBr/9kXn0yYELCkIE1Cp.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/27/1002/mVvmlPCWvSSjE43l/t6YF7mi4NZxNRsrp.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/27/1002/oKrS3R0TgXodxGfH/Jy21F7tI9k6piGO3.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/3k5Bu3ANJMLKXI4X/Efv4MLwaT294O9lF.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/IDySlM2grP9pypHG/17E6HcaPluhQtdBC.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/7GqXkmAwXpvdmRJm/7UW26a7UT4uskGEB.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/OervKDRbJEyBKETk/RnSaxLuWyFO1cjXN.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/wWhN892LaZD6yGIx/f5RU2biYdgjNLSJf.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/OyCYlWKRJCWbXwyn/PypLGqFkovwsW2Qe.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/XeS46QBSmtpOjGt2/jgj6dcwXvYvWml6K.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -5384,7 +6529,32 @@
             "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/30/1002/g4jfzkV9elMRjdWG/xMliz5BPocxHQzNT.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/IIwiPe4JtKjKxyID/UExbot6o7UkXnczZ.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/roua832LtTWFqgRW/v89pV4rUdTPdYMwF.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/6AZoV3zwMRijcepL/8h7QelWnAdjXRtNr.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -5562,7 +6732,44 @@
             "source_url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/image.php?img_path=/lovelive/jp/live/2026/09/24/1002/IBCb2VrhHf38f0QG/82CxKr6QnTcTlRGE.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/image.php?img_path=/lovelive/jp/live/2026/10/07/1003/47zMQN5JfoSY3NMj/MYi4vBZkGRZEkJfT.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/image.php?img_path=/lovelive/jp/live/2026/10/07/1003/P4eKOanHU44ZADtj/D8novKuwZINWcCt3.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/image.php?img_path=/lovelive/jp/live/2026/10/07/1003/MNN310yVqQX5HFM9/CJpKNNmUqNrypW5e.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/image.php?img_path=/lovelive/jp/live/2026/10/07/1003/U5EoPXdQV4IFZ6Wd/q78jBwjdlssijrFb.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/image.php?img_path=/lovelive/jp/live/2026/10/07/1003/lchC3FOFqM9A0pmu/SxpVNS0dCa3s4dfQ.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -5705,7 +6912,212 @@
             "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/02/13/1002/MTLGhpBqwB7hnEwW/eHMg6nlsLyB31Vqd.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/06/23/1002/ezZMnQ0hwfRo1vly/evegYuG4huwGRm58.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/14/1002/9ASTs0ZpHuc6ak2Q/YYmeWvpMGeFDcLIT.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/02/20/1002/zyStMPmKQd0BK1Pk/sxefA7jk5JNDGoW9.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/04/13/1002/tnbkxdvxwMs3GYYP/5ysrdmzl3yBfNviu.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/02/20/1002/8YPB9nz5MESTolJn/HvoQaD2RX44MlnED.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/04/15/1002/V0gFwx0YYx3I1LfO/BgLDcM5dN7ld0uvP.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/02/20/1002/p1eTjC6AIY6WX7oB/enVADMixG3nW8MOl.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/04/13/1002/BDVJBBwEfkTe73Nd/f4MStoo21p5jmxv3.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/05/07/1002/1KyhL1jy41NJfLmk/6DXGrX93QM7Ngr5e.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/08/06/1002/eZ8gXl33263xrPYi/8fmcvGUaLVx6pOo8.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/08/06/1002/2JkQpFW46YZLCIWU/6xCgpTHaeuc4H7di.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/22/1002/2zpdSSS7DXzySmK3/qGb9YC71E25Vm5dz.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/HuNlLc1Huxjy9Bfl/nxxx5Zg5Mihpy2jq.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/Fs04w3VmIQQR8bHj/45C6zkF7pCPLigqI.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/U7tCgE5l1PD7Bgzl/UK0iaB1LxZ0XGUra.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/84YlAFnwbRo1KUIM/cWB9d0S0WnET3DlX.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/FswpRFO3EKGVnLws/6uq1t50e3QOOwJiN.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/9D3RVeAHtb68WQ64/sYT2bDGOOc4HzSVF.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/Q0cM1Hwu7Ox0m8KG/HJE1IQmmbWf0q24f.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/10/08/1003/jRdJY4pkPJaYJjBi/1wKpr6DTofUrpRtt.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/lqkcEPodqeAammZJ/WWKPSZFAVMtld1A8.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/n56rhry6quKnJ5IL/NTdK2w4SLKCGflrK.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/DcEb5apRddQ39XRc/TZxTV3GmXlvp40mI.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/sJ4wA8UjzhyhPtn0/125LbgmQqwUdz8Sy.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/vGvzCkiJYVlyHD2x/CXoqNGP6Ay3WEp6e.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/VKdw6jf2jU4kFsry/7FR2f4zLqWQxL25q.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/G0Etj431uPbtKfZ1/icEbtyOHMZA7paOQ.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/BHG8R7mO6yM6CT0p/WsW9SRVgsbUbyNke.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/xI9aOpJNQ8HI3efI/yULsyqloZumnnGAD.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/uk76lmngcO4cFXb1/vrFTni3aYfh62L3E.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/ghgB3obi6Rlz625U/RPWbx32sEFGpt1xf.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/Tusg4PXH0krkrtPv/nX4u5xdUlPPnpJj4.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/special/live/image.php?img_path=/lovelive/jp/live/2026/07/02/1002/NS8ZZN8pHxnapTEx/LW4OQTxFWtlrEyhT.png",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -5875,7 +7287,56 @@
             "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/10/14/1002/FyGJDIH74hlE7GXY/4d7rb3OPiFwtiDJ1.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/10/14/1002/h0qfqHv1AfvwcZ1Z/wm77KuI55wUJ5jld.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/10/14/1002/srtfSe7isCMq345A/volaifB8mRU6fdu0.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/10/14/1002/NO6lMUJ2hAeORI8v/yFhc5NZGMFBB1vEJ.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/10/14/1002/6gxN01HfUXCM7EiS/xpANcscp98GhAIlR.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/10/14/1002/AeNaTfsCTqI59QLS/rieCSDVwFiaCCTC1.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/10/14/1002/Kp9EC9LfaR8qJi9Q/oGV1EaisFB53RGpJ.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/10/14/1002/lNHUIzXZXQAhdHYl/x8myZOxyvc9U4Ryq.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -6029,7 +7490,14 @@
             "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/07/10/1002/ArSfpIbjy7mEVKSZ/H6vKaImomtMo5XkA.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -6148,7 +7616,140 @@
             "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
             "checked_on": "2026-10-29"
           },
-          "gallery": [],
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/10/05/1002/EAZx7GnmotnpmGJZ/y2mnAXODKayAqlBL.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/09/28/1002/phidjVEDY09eQLSi/XM2DggXnvnfOdZYE.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/09/28/1002/IEVJSfr1v9I5uZhL/CVkC8dJPTbbiddRR.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/09/28/1002/4Dy0AJCAQoxBtFi6/mpmxHuRXLylCSKOj.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/09/28/1002/E3x1yvILVvDscQKf/f7WsL39rmwhjZIPM.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/09/28/1002/NcTPcOPVCwfFE3pt/hbQFyCm79tcg6clm.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/09/28/1002/kVPJbqrk5Ib8G2Qm/MFJD5wHGYH1xYi5C.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/09/28/1002/kMeiv3n4PB8ER6aj/fwu49CVND88u2X0E.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/08/28/1003/pLeXr3ClD1LPVhod/2Uv9nZU9TZRx1Woz.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/08/28/1003/Y0KItG9Ja71z5jdl/Imy3HQ3j8xPWVX1y.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/08/28/1003/pj8F7Op91nrEvFv4/1hasWrEjVu4bqGRa.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/08/28/1003/3v5y2TpOLCPAwynH/JDIoOp13XYn4oCUn.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/08/28/1003/RM31XzAmoFPkv4gi/NlxNevQ2Owwj3OUV.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/08/28/1003/IMmo0hOfMtHSoXuM/jwKOLAjftFdlFsjU.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/08/28/1003/t8Usgva5tloNMQtm/uVHbhGCYneEtzSHe.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/08/28/1003/dPIDmRT3CPQ4KmtG/3BiIE2RmzgWk9CTI.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/08/28/1003/NkfNdpweRDzrG70i/EzNKpieYyrzSUZCz.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/08/28/1003/4QfYVmxWZI0W7aVY/1BuzZL9szMOaDoQx.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/08/28/1003/kGlEqd6VTz2q3RVf/25gmKbCB4BfioKmY.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/08/28/1003/MGSyTI2sLKC905vI/3XTDv8XKPogFJYHo.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/08/28/1003/3kxePsmqGkZhTFvI/1YoJzVqO5yxzuISD.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/live-event/image.php?img_path=/lovelive/jp/live/2026/09/18/1003/kTGDjJFyCdp7lS9V/7JcdSm09MGW4GtCh.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "checked_on": "2026-10-29"
+            }
+          ],
           "benefits": [],
           "translated_rules": [
             {
@@ -6273,6 +7874,1144 @@
             {
               "id": "auto-4dd06bfcf0d0abb2-source",
               "url": "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T14:02:14.341Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-12799e94fdc2df29",
+          "slug": "official-12799e94fdc2df29",
+          "title_ja": "『イキヅライブ！ LOVELIVE! BLUEBIRD』のポップアップストア 「POP UP SHOP ～Winter♡Date～」 が東京アニメセンター in DNP PLAZA SHIBUYAにて開催決定！",
+          "title_zh": "人生不易部「Winter♡Date」涩谷快闪",
+          "category": "快闪店",
+          "summary": "2026年11月13–29日在涩谷MODI 2楼东京Anime Center举办，11:00–19:00。首三天10:45–10:50发入场抽签整理券，非先到先得；每满3,000日元赠随机贴纸。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/lovelive/jp/news/2026/10/16/1002/eplWX8YUqyUyAJ3d/pCqFGgknUEGHRr40.jpeg",
+            "alt": "人生不易部「Winter♡Date」涩谷快闪",
+            "source_url": "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6679",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/lovelive/jp/news/2026/10/16/1002/eplWX8YUqyUyAJ3d/pCqFGgknUEGHRr40.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6679",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/lovelive/jp/news/2026/10/16/1002/W5XWdPG0DAZ4PNxy/7XlPoVQ8cT20PPrV.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6679",
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-12799e94fdc2df29-rule-0",
+              "kind": "参加",
+              "title": "日期与场馆",
+              "text_zh": "11月13–29日，11:00–19:00；东京涩谷MODI 2楼，营业时间与商场可能不同。",
+              "evidence_ja": "【 開催場所】 東京アニメセンター in DNP PLAZA SHIBUYA\n(東京都渋谷区神南1丁目21-3 渋谷MODI 2F)\n【開催期間】 2026年11月13日（金）～11月29日（日）\n【営業時間】 11:00～19:00\n※施設の営業時間とは異なります。\n※開催内容は予告なく変更になる場合がございます。",
+              "source_url": "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6679",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-12799e94fdc2df29-rule-1",
+              "kind": "参加",
+              "title": "限购",
+              "text_zh": "每笔结账：随机商品每款最多20件，非随机商品每款每种最多3件；限制可能调整。",
+              "evidence_ja": "・ランダム商品のご購入は、1会計につき各商品20個まで。\n・オープン商品のご購入は、1会計につき、各商品各種3個まで。",
+              "source_url": "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6679",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-12799e94fdc2df29-rule-2",
+              "kind": "参加",
+              "title": "赠品",
+              "text_zh": "每笔消费每满3,000日元（含税）获随机贴纸1张，全14种；出示EPOS卡再额外赠1张，不能选图，送完即止。",
+              "evidence_ja": "●購入特典\n1会計につき、3,000円（税込）お買い上げいただくごとに、「ランダムステッカー」（全14種）を\n1枚プレゼント！\n●エポスカード特典\nイベント会場でエポスカードをご提示いただいたお客様には、「ランダムステッカー」（全14種）を\n追加でもう1枚プレゼント！\n※特典は無くなり次第終了いたします。\n※「ランダムステッカー」の絵柄は選べません。",
+              "source_url": "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6679",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-12799e94fdc2df29-rule-3",
+              "kind": "参加",
+              "title": "首三天抽签入场",
+              "text_zh": "11月13–15日在涩谷MODI前10:45–10:50发券，约11:10在店门口和官方X公布抽签结果；按号码指定时间返回。10:50尚未排队则无法领券。",
+              "evidence_ja": "【 シャッフル入場に関するご案内 】\n●11月13日（金）~15日（日）についてはシャッフル入場を実施させていただきます。\n先着順ではございませんので予めご了承ください。\n・渋谷モディ館前にて整理券を配布いたします。\n整理券配布予定時間：10:45-10:50\n・11:10頃に抽選結果を東京アニメセンター入口および東京アニメセンター公式X（@anime_tokyo）にて発表いたします。\n・お手持ちの整理券番号の指定時刻に、再度お集まりください。\n・整理券をご希望の方は、配布開始時間（10:45）にお集まりくださいますようお願いいたします。\n※ご注意\n・10:50の段階でお並びいただいていない場合は、シャッフル整理券をお渡しできません。",
+              "source_url": "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6679",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-12799e94fdc2df29-rule-4",
+              "kind": "参加",
+              "title": "同行与其他日期",
+              "text_zh": "无整理券者须等整理券时段结束后自由入场；同行者要同时入场则按各自号码最晚时段入场。其他日期遇拥挤也可能抽签或限流。",
+              "evidence_ja": "・整理券をお持ちでないお客様は、整理券枠がすべて終了した後の【フリー入場】からのご案内となります。\n・お連れ様と同時入場をご希望の場合は、皆様がお持ちの整理券番号の案内時間のうち一番遅い回にてご案内いたします。\n・シャッフル入場対象時間であっても、整理券をお持ちの方がすべて入場されたあとはフリー入場とさせていただきます。\n・上記の日程以外でも、店内へのご入場をお待ちいただいているお客様が多数いらっしゃる場合は入場順の抽選、入場制限を行う場合がございます。",
+              "source_url": "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6679",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-12799e94fdc2df29-rule-5",
+              "kind": "参加",
+              "title": "通販区别",
+              "text_zh": "网上预订11月24日18:00至12月7日23:59，日本时间；预计2027年1月底起发货，通販没有购物贴纸或EPOS特典。",
+              "evidence_ja": "■WEB通販について\nバンダイナムコフィルムワークス公式通販サイトA-on STOREにて、11月24日（火）18時から12月7日（月）23時59分まで、本イベント商品の通販予約受付を実施いたします。\n【サイトURL】 https://a-onstore.jp/shop/winter-date/\n【受注期間】 2026年11月24日（火）18:00～12月7日（月）23:59\n【お届け予定日】 2027年1月末ごろより順次お届け予定\n※A-on STOREページは11月24日（火）18時にオープンとなります。\n※商品は後日お届けになります。\n※通販では購入特典、エポスカード特典はございません。",
+              "source_url": "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6679",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "11月13–15日10:45–10:50发抽签整理券，非先到先得；约11:10公布结果。其余日期也可能按拥挤情况抽签或限流。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T14:02:14.341Z",
+          "updated_at": "2026-10-29T14:02:14.341Z",
+          "franchise_ids": [
+            "lovelive",
+            "ikizulive"
+          ],
+          "venues": [
+            {
+              "id": "auto-12799e94fdc2df29-venue-d4399f414d",
+              "city": "东京",
+              "name": "東京アニメセンター in DNP PLAZA SHIBUYA",
+              "address": null,
+              "start_date": "2026-11-13",
+              "end_date": "2026-11-29",
+              "rounds": [
+                {
+                  "id": "auto-12799e94fdc2df29-round-0",
+                  "label": "官方参加方式",
+                  "method": "当日整理券",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6679",
+                  "note": "11月13–15日10:45–10:50发抽签整理券，非先到先得；约11:10公布结果。其余日期也可能按拥挤情况抽签或限流。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-12799e94fdc2df29-source",
+              "url": "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6679",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T14:02:14.341Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-27cc406bf0a3900e",
+          "slug": "official-27cc406bf0a3900e",
+          "title_ja": "学園アイドルマスター LIVE TOUR -標- ファイナル公演",
+          "title_zh": "学园偶像大师 LIVE TOUR「标」最终公演",
+          "category": "音乐和声优活动",
+          "summary": "2026年11月7、8日在横滨K Arena举办，两天均计划15:30入场、17:00开演（日本时间）。本页仅为演出概要，票务价格、申请与余票须另查官方TICKET页面。",
+          "image": {
+            "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_fukui.png",
+            "alt": "学园偶像大师 LIVE TOUR「标」最终公演",
+            "source_url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [
+            {
+              "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_fukui.png",
+              "alt": "福井公演",
+              "source_url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_fukuoka.png",
+              "alt": "福岡公演",
+              "source_url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_iwate.png",
+              "alt": "岩手公演",
+              "source_url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_final.png",
+              "alt": "ファイナル公演",
+              "source_url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/img_final.webp",
+              "alt": "ファイナル公演 ビジュアル",
+              "source_url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php",
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-27cc406bf0a3900e-rule-0",
+              "kind": "参加",
+              "title": "日期与场馆",
+              "text_zh": "11月7、8日，两天均15:30入场17:00开演，K Arena横滨。",
+              "evidence_ja": "開催日時\n2026年11月7日(土) 15：30開場／17：00開演 (予定)\n2026年11月8日(日) 15：30開場／17：00開演 (予定)\n場所\nKアリーナ横浜",
+              "source_url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-27cc406bf0a3900e-rule-1",
+              "kind": "参加",
+              "title": "变更可能",
+              "text_zh": "出演人员与时间可能调整，突发伤病可能导致当日出演取消或变更，不应因此把整场演出标为取消。",
+              "evidence_ja": "※出演者および各公演時間等は予告なく変更になる場合がございます。",
+              "source_url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "本页只公布两日演出概要，15:30开场、17:00开演（日本时间，预定）。票价、申请与余票须查官方TICKET页；未确认可购票。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T14:02:14.341Z",
+          "updated_at": "2026-10-29T14:02:14.341Z",
+          "franchise_ids": [
+            "idolmaster",
+            "gakuen-idolmaster"
+          ],
+          "venues": [
+            {
+              "id": "auto-27cc406bf0a3900e-venue-06380fe331",
+              "city": "横滨",
+              "name": "Kアリーナ横浜",
+              "address": null,
+              "start_date": "2026-11-07",
+              "end_date": "2026-11-08",
+              "rounds": [
+                {
+                  "id": "auto-27cc406bf0a3900e-round-0",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php",
+                  "note": "本页只公布两日演出概要，15:30开场、17:00开演（日本时间，预定）。票价、申请与余票须查官方TICKET页；未确认可购票。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-27cc406bf0a3900e-source",
+              "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T14:02:14.341Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-35517508cbd07a8f",
+          "slug": "official-35517508cbd07a8f",
+          "title_ja": "カクダイ製菓（愛知県名古屋市）が製造・販売する「クッピーラムネ」と「ラブライブ！シリーズ」のコラボレーション決定！！",
+          "title_zh": "Love Live! × クッピーラムネ 名古屋 PremiumShop 联动",
+          "category": "快闪店",
+          "summary": "为纪念Love Live! Fes在名古屋举行，系列与名古屋零食品牌クッピーラムネ合作推出新绘插画。线下销售点于2026年11月13日至16日在AEON MALL名古屋Dome前2楼美食广场旁连桥营业，10:00–21:00。具体商品、价格和入场安排待后续公布；这不是演唱会场次。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/28/1002/S9j3ef0Xv5bIH8WK/oyBor1Vdj8JIbCrK.jpeg",
+            "alt": "Love Live! × クッピーラムネ 名古屋 PremiumShop 联动",
+            "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6729",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/28/1002/S9j3ef0Xv5bIH8WK/oyBor1Vdj8JIbCrK.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6729",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/27/1002/pNJxcCi9f6z5GmSd/Elg0lrIDL6sICAfH.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6729",
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-35517508cbd07a8f-rule-0",
+              "kind": "参加",
+              "title": "销售点与营业时间",
+              "text_zh": "地点为AEON MALL名古屋Dome前2楼美食广场旁连桥；11月13日至16日，10:00–21:00。",
+              "evidence_ja": "イオンモールナゴヤドーム前 2階フードコート横ブリッジ\nイオンモールナゴヤドーム前 HP： https://www.aeon.jp/sc/nagoyadomemae/\n開催期間：2026年11月13日(金)～11月16日(月)\n営業時間：10:00～21:00",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6729",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-35517508cbd07a8f-rule-1",
+              "kind": "参加",
+              "title": "后续信息",
+              "text_zh": "商品细节尚待后续公告，库存与销售情况以PremiumShop官方更新为准。",
+              "evidence_ja": "詳細は続報をお待ちください♪",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6729",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "仅确认线下销售点、日期与10:00–21:00营业时间；商品、价格及入场安排待续报，不代表无需预约或库存可用。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T14:02:14.341Z",
+          "updated_at": "2026-10-29T14:02:14.341Z",
+          "franchise_ids": [
+            "lovelive"
+          ],
+          "venues": [
+            {
+              "id": "auto-35517508cbd07a8f-venue-1f486e68c7",
+              "city": "名古屋",
+              "name": "イオンモールナゴヤドーム前 2階フードコート横ブリッジ",
+              "address": null,
+              "start_date": "2026-11-13",
+              "end_date": "2026-11-16",
+              "rounds": [
+                {
+                  "id": "auto-35517508cbd07a8f-round-0",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6729",
+                  "note": "仅确认线下销售点、日期与10:00–21:00营业时间；商品、价格及入场安排待续报，不代表无需预约或库存可用。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-35517508cbd07a8f-source",
+              "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6729",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T14:02:14.341Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-859eb48cedf3ebad",
+          "slug": "official-859eb48cedf3ebad",
+          "title_ja": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ × #カラオケの鉄人 コラボ詳細情報解禁のお知らせ！",
+          "title_zh": "莲之空 × 卡拉OK铁人「Dreamy Parlor!」",
+          "category": "联动咖啡厅",
+          "summary": "2026年10月29日至12月13日在全国11家店举办，覆盖东京、福冈、大阪、名古屋、松山、京都、新潟、札幌。6家店设主题房，每人每2小时2,200日元；周边满2,000日元赠随机明信片，饮品赠杯垫。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/HM1gMtfUDnbnGsNY/wugzjbX7TttJPyph.jpeg",
+            "alt": "莲之空 × 卡拉OK铁人「Dreamy Parlor!」",
+            "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/HM1gMtfUDnbnGsNY/wugzjbX7TttJPyph.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/q9jHkUNWZGhu668t/eWuOUTeMJFkIHUIE.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/TuPN28FWpTkw6ABh/FpcAww2ek7LumvzN.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/cwpn8vreGx2DxGGq/wDKq2zotqYDydpra.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/EM1g9bwdX9rWInV4/QnHEOpjiwG0CPHVL.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/NDIF3BD8Hmv23dmB/YQrOzsRMnV77lRY7.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-859eb48cedf3ebad-rule-0",
+              "kind": "参加",
+              "title": "活动期间及11店",
+              "text_zh": "10月29日至12月13日；东京4店及福冈天神、大阪难波、名古屋名站、松山银天街、京都河原町、新潟万代City、札幌薄野。并非每家都有主题房。",
+              "evidence_ja": "【開催期間】\n2026年10月29日(木)～2026年12月13日(日)\n【開催場所】\nカラオケの鉄人 全国11店舗\n新宿大ガード店、池袋東口店、渋谷道玄坂店、秋葉原電気街店、福岡天神店、大阪なんば店、名古屋名駅店、松山銀天街店、京都河原町店、新潟万代シティ店、札幌すすきの店\n※コンセプトルームの展開有無は店舗によって異なります。",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-859eb48cedf3ebad-rule-1",
+              "kind": "参加",
+              "title": "周边赠品",
+              "text_zh": "周边购买金额达到2,000日元（含税）赠随机明信片1张，共9种；原文不是“每满2,000日元”。",
+              "evidence_ja": "【販売グッズ】\nコラボ店舗各店にて、ジャージメイドな描き下ろしイラストを使用したコラボグッズの販売をいたします！\nコラボグッズを¥2,000(税込)以上ご購入で特典ポストカード（全9種）をランダムで1枚プレゼントいたします。",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-859eb48cedf3ebad-rule-2",
+              "kind": "参加",
+              "title": "饮品及挑战",
+              "text_zh": "指定歌曲挑战100分可获饮品特典全套，66/77/88/99分获1张。",
+              "evidence_ja": "【課題曲チャレンジ】\nコラボ店舗各店にて、課題曲チャレンジを開催！\n採点機能を入れて指定の楽曲を歌うと特典に応じた特典をゲットできます。\n100点達成でドリンク特典のコンプリートセットを、ゾロ目（66,77,88,99点）達成でドリンク特典を1枚プレゼントいたします！",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-859eb48cedf3ebad-rule-3",
+              "kind": "参加",
+              "title": "主题房",
+              "text_zh": "10月19日18:00（日本时间）开始预约。新宿大Guard、涩谷道玄坂、秋叶原电气街、福冈天神、大阪难波、名古屋名站6店；每人每2小时2,200日元（含税）。",
+              "evidence_ja": "【コンセプトルーム】\n一部店舗では、描き下ろしイラストと一緒にカラオケを楽しめるコンセプトルームも展開いたします！\nコンセプトルームは10/19(月)18:00より予約開始！\n◼︎開催店舗\n新宿大ガード店、渋谷道玄坂店、秋葉原電気街店、福岡天神店、大阪なんば店、名古屋名駅店\n◼︎利用料金\nお一人様1枠（2時間）：¥2,200 (税込)",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-859eb48cedf3ebad-rule-4",
+              "kind": "参加",
+              "title": "饮品特典",
+              "text_zh": "点联动饮品赠杯垫1张；另有附额外特典的套餐。",
+              "evidence_ja": "【コラボドリンク】\nコラボ店舗各店にてメンバーをイメージしたコラボドリンクの販売をいたします！\nコラボドリンクをご注文で特典コースターを1枚プレゼントいたします。\nまた、追加の特典がついたセットメニューもございます！",
+              "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "普通饮品、物贩与主题房条件不同，请按门店说明确认；不能据此认定无需预约。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T14:02:14.341Z",
+          "updated_at": "2026-10-29T14:02:14.341Z",
+          "franchise_ids": [
+            "lovelive",
+            "hasunosora"
+          ],
+          "venues": [
+            {
+              "id": "auto-859eb48cedf3ebad-venue-018ed99238",
+              "city": "东京",
+              "name": "新宿大ガード店",
+              "address": null,
+              "start_date": "2026-10-29",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-859eb48cedf3ebad-round-0",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+                  "note": "本店设主题房，每人每2小时2,200日元；公告写10月19日18:00起预约，但没有明确抽选/先着类型和结束时刻。普通饮品及物贩入场请另向门店确认。"
+                }
+              ]
+            },
+            {
+              "id": "auto-859eb48cedf3ebad-venue-e7c705472b",
+              "city": "东京",
+              "name": "池袋東口店",
+              "address": null,
+              "start_date": "2026-10-29",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-859eb48cedf3ebad-round-1",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+                  "note": "本店列入联动饮品和周边销售门店，未列入主题房名单。普通入店安排请向门店确认。"
+                }
+              ]
+            },
+            {
+              "id": "auto-859eb48cedf3ebad-venue-8af0ec8c4c",
+              "city": "东京",
+              "name": "渋谷道玄坂店",
+              "address": null,
+              "start_date": "2026-10-29",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-859eb48cedf3ebad-round-2",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+                  "note": "本店设主题房，每人每2小时2,200日元；公告写10月19日18:00起预约，但没有明确抽选/先着类型和结束时刻。普通饮品及物贩入场请另向门店确认。"
+                }
+              ]
+            },
+            {
+              "id": "auto-859eb48cedf3ebad-venue-4f17dd43d1",
+              "city": "东京",
+              "name": "秋葉原電気街店",
+              "address": null,
+              "start_date": "2026-10-29",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-859eb48cedf3ebad-round-3",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+                  "note": "本店设主题房，每人每2小时2,200日元；公告写10月19日18:00起预约，但没有明确抽选/先着类型和结束时刻。普通饮品及物贩入场请另向门店确认。"
+                }
+              ]
+            },
+            {
+              "id": "auto-859eb48cedf3ebad-venue-84f45a5c4b",
+              "city": "福冈",
+              "name": "福岡天神店",
+              "address": null,
+              "start_date": "2026-10-29",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-859eb48cedf3ebad-round-4",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+                  "note": "本店设主题房，每人每2小时2,200日元；公告写10月19日18:00起预约，但没有明确抽选/先着类型和结束时刻。普通饮品及物贩入场请另向门店确认。"
+                }
+              ]
+            },
+            {
+              "id": "auto-859eb48cedf3ebad-venue-0345b955e9",
+              "city": "大阪",
+              "name": "大阪なんば店",
+              "address": null,
+              "start_date": "2026-10-29",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-859eb48cedf3ebad-round-5",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+                  "note": "本店设主题房，每人每2小时2,200日元；公告写10月19日18:00起预约，但没有明确抽选/先着类型和结束时刻。普通饮品及物贩入场请另向门店确认。"
+                }
+              ]
+            },
+            {
+              "id": "auto-859eb48cedf3ebad-venue-2e7bad2528",
+              "city": "名古屋",
+              "name": "名古屋名駅店",
+              "address": null,
+              "start_date": "2026-10-29",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-859eb48cedf3ebad-round-6",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+                  "note": "本店设主题房，每人每2小时2,200日元；公告写10月19日18:00起预约，但没有明确抽选/先着类型和结束时刻。普通饮品及物贩入场请另向门店确认。"
+                }
+              ]
+            },
+            {
+              "id": "auto-859eb48cedf3ebad-venue-5b736b94a8",
+              "city": "松山",
+              "name": "松山銀天街店",
+              "address": null,
+              "start_date": "2026-10-29",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-859eb48cedf3ebad-round-7",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+                  "note": "本店列入联动饮品和周边销售门店，未列入主题房名单。普通入店安排请向门店确认。"
+                }
+              ]
+            },
+            {
+              "id": "auto-859eb48cedf3ebad-venue-fe9cf400b1",
+              "city": "京都",
+              "name": "京都河原町店",
+              "address": null,
+              "start_date": "2026-10-29",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-859eb48cedf3ebad-round-8",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+                  "note": "本店列入联动饮品和周边销售门店，未列入主题房名单。普通入店安排请向门店确认。"
+                }
+              ]
+            },
+            {
+              "id": "auto-859eb48cedf3ebad-venue-26db3cedbd",
+              "city": "新潟",
+              "name": "新潟万代シティ店",
+              "address": null,
+              "start_date": "2026-10-29",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-859eb48cedf3ebad-round-9",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+                  "note": "本店列入联动饮品和周边销售门店，未列入主题房名单。普通入店安排请向门店确认。"
+                }
+              ]
+            },
+            {
+              "id": "auto-859eb48cedf3ebad-venue-bb36c9803a",
+              "city": "札幌",
+              "name": "札幌すすきの店",
+              "address": null,
+              "start_date": "2026-10-29",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-859eb48cedf3ebad-round-10",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+                  "note": "本店列入联动饮品和周边销售门店，未列入主题房名单。普通入店安排请向门店确认。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-859eb48cedf3ebad-source",
+              "url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6708",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T14:02:14.341Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-a216c08c0bdd5b5a",
+          "slug": "official-a216c08c0bdd5b5a",
+          "title_ja": "ラブライブ！シリーズ オフィシャルカードゲーム POP UP STORE～Royal Holiday～",
+          "title_zh": "Love Live! 官方卡牌游戏「Royal Holiday」快闪店",
+          "category": "快闪店",
+          "summary": "依次在秋叶原（2026年9月11日至27日）、大阪（10月17日至25日）、名古屋（11月7日至15日）举办。销售魔法少女风插画周边和部分卡牌商品，设购买限制与双重满赠。",
+          "image": {
+            "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04224250/ll_ocg_bcr_Royal_main_bunner_nashi-1024x576.jpg",
+            "alt": "Love Live! 官方卡牌游戏「Royal Holiday」快闪店",
+            "source_url": "https://bushiroad-creative.com/topics/103670/",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04224250/ll_ocg_bcr_Royal_main_bunner_nashi-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/25154328/1_LL_acrylic_diorama_all_ari.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/25154338/2_LL_acstky_all_ari.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/25154348/3_LL_passcase_all_ari.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/25154357/4_LL_Acrylbadge_all_ari.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/25154404/5_LL_TR_SQbadge_ari.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/25154411/6_LL_atre_acrylcardkey_ari.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/05110505/01_%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%83%87%E3%83%83%E3%82%AD-%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/05110509/02_%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%83%87%E3%83%83%E3%82%AD-%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/05110514/03_%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%83%87%E3%83%83%E3%82%AD-%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81%E8%93%AE%E3%83%8E%E7%A9%BA%E5%A5%B3%E5%AD%A6%E9%99%A2%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%82%AF%E3%83%A9%E3%83%96.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/05110518/04_%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%83%87%E3%83%83%E3%82%AD-%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC-cheer.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/05110526/06_%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC-%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/05110624/07_%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC-%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/05110716/08_%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC-%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81%E8%93%AE%E3%83%8E%E7%A9%BA%E5%A5%B3%E5%AD%A6%E9%99%A2%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%82%AF%E3%83%A9%E3%83%96.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/05110721/09_%E3%83%97%E3%83%AC%E3%83%9F%E3%82%A2%E3%83%A0%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC-%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%EF%BC%81%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC-DUO.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/05110725/10_%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%91%E3%83%83%E3%82%AF-NEXT-STEP.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/05110729/11_%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%91%E3%83%83%E3%82%AF-%E5%A4%8F%E3%80%81%E3%81%AF%E3%81%98%E3%81%BE%E3%82%8B%E3%80%82.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/05110734/12_%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%91%E3%83%83%E3%82%AF-SAPPHIRE-MOON.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/05110739/13_%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%91%E3%83%83%E3%82%AF-Anniversary-2026.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/05110742/14_%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%91%E3%83%83%E3%82%AF-Royal-Holiday.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/05110746/15_%E3%83%96%E3%83%BC%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%91%E3%83%83%E3%82%AF-MELLOW-MOMENT.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04222023/ll_tcg_bcr_tokuten_postcard_ari.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04222037/ll_tcg_bcr_tokuten_PRcard_ari.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-a216c08c0bdd5b5a-rule-0",
+              "kind": "参加",
+              "title": "购买限制",
+              "text_zh": "每次结账新品每款最多3件；随机新品最多3盒或等量单包，既有商品未设置数量限制。",
+              "evidence_ja": "・1会計につき 新商品 各種3点まで\n・トレーディング 新商品 ：3BOX（3BOX相当のPACK数量まで）\n※既存商品につきましては、制限を設けておりません",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            },
+            {
+              "id": "auto-a216c08c0bdd5b5a-rule-1",
+              "kind": "参加",
+              "title": "双重满赠",
+              "text_zh": "每单每满含税3,000日元随机赠明信片1张（3款），并赠高海千歌PR卡1张；PR卡每单上限4张，赠完即止。",
+              "evidence_ja": "Wお買い上げ特典\n2種のお買い上げ特典をご用意しました。\n3,000円（税込）お買い上げごとに、【特典①】【特典②】をそれぞれプレゼント！\n【特典①】ポストカード（全3種）\n期間中、1会計3,000円（税込）お買い上げごとに【ポストカード（全3種）】をランダムで1枚プレゼント！\n※特典は無くなり次第終了致します\n【特典②】PRカード（全1種）\n期間中、 1会計3,000円（税込）お買い上げごとに 【漫画イラスト 高海千歌 PRカード（全1種）】 を1枚プレゼント！\n※配布は一会計につき4枚を上限とさせていただきます\n※特典は無くなり次第終了致します\n問い合わせ窓口",
+              "source_url": "https://bushiroad-creative.com/topics/103670/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "正文没有明确入场预约安排，请出发前查看各店官方说明；不得据此认定无需预约。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T14:02:14.341Z",
+          "updated_at": "2026-10-29T14:02:14.341Z",
+          "franchise_ids": [
+            "lovelive"
+          ],
+          "venues": [
+            {
+              "id": "auto-a216c08c0bdd5b5a-venue-df935682b1",
+              "city": "东京",
+              "name": "ブシロード クリエイティブストア 秋葉原本店",
+              "address": null,
+              "start_date": "2026-09-11",
+              "end_date": "2026-09-27",
+              "rounds": [
+                {
+                  "id": "auto-a216c08c0bdd5b5a-round-0",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bushiroad-creative.com/topics/103670/",
+                  "note": "正文没有明确入场预约安排，请出发前查看各店官方说明；不得据此认定无需预约。"
+                }
+              ]
+            },
+            {
+              "id": "auto-a216c08c0bdd5b5a-venue-e77d9f72ed",
+              "city": "大阪",
+              "name": "ジーストア大阪",
+              "address": null,
+              "start_date": "2026-10-17",
+              "end_date": "2026-10-25",
+              "rounds": [
+                {
+                  "id": "auto-a216c08c0bdd5b5a-round-1",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bushiroad-creative.com/topics/103670/",
+                  "note": "正文没有明确入场预约安排，请出发前查看各店官方说明；不得据此认定无需预约。"
+                }
+              ]
+            },
+            {
+              "id": "auto-a216c08c0bdd5b5a-venue-3f5dcf78c2",
+              "city": "名古屋",
+              "name": "ジーストア名古屋",
+              "address": null,
+              "start_date": "2026-11-07",
+              "end_date": "2026-11-15",
+              "rounds": [
+                {
+                  "id": "auto-a216c08c0bdd5b5a-round-2",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bushiroad-creative.com/topics/103670/",
+                  "note": "正文没有明确入场预约安排，请出发前查看各店官方说明；不得据此认定无需预约。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-a216c08c0bdd5b5a-source",
+              "url": "https://bushiroad-creative.com/topics/103670/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-29T14:02:14.341Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-deac21c214072d05",
+          "slug": "official-deac21c214072d05",
+          "title_ja": "EVANESCENCE 2026 JAPAN",
+          "title_zh": "EVANESCENCE 2026日本巡演：Ave Mujica助演",
+          "category": "音乐和声优活动",
+          "summary": "Ave Mujica确定作为助演嘉宾参加2026年12月1日、2日东京SGC HALL ARIAKE及12月4日大阪Zepp Osaka Bayside的演出。票务安排需查看主办方官网；东京与大阪是不同场次。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/16165759/96725b6d-b821699e-9fd7703b-e2fff352.png",
+            "alt": "EVANESCENCE 2026日本巡演：Ave Mujica助演",
+            "source_url": "https://bang-dream.com/events/evanescence_avemujica/",
+            "checked_on": "2026-10-29"
+          },
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/16165759/96725b6d-b821699e-9fd7703b-e2fff352.png",
+              "alt": "EVANESCENCE 2026 JAPAN",
+              "source_url": "https://bang-dream.com/events/evanescence_avemujica/",
+              "checked_on": "2026-10-29"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/03/25102810/1b53ad57-5622dcb7-25c9c849-114aacb3.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/evanescence_avemujica/",
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-deac21c214072d05-rule-0",
+              "kind": "参加",
+              "title": "出演身份",
+              "text_zh": "Ave Mujica是本次日本巡演的助演嘉宾。",
+              "evidence_ja": "「EVANESCENCE 2026 JAPAN」のサポート・アクトとして、バンドリ！からAve Mujicaの出演が決定。",
+              "source_url": "https://bang-dream.com/events/evanescence_avemujica/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-29"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "主公告没有列出票务轮次、售价和申请时段，请查看所附主办方官网；未确认余票。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-29T14:02:14.341Z",
+          "updated_at": "2026-10-29T14:02:14.341Z",
+          "franchise_ids": [
+            "bang-dream",
+            "ave-mujica"
+          ],
+          "venues": [
+            {
+              "id": "auto-deac21c214072d05-venue-097a00c1a1",
+              "city": "东京",
+              "name": "SGC HALL ARIAKE",
+              "address": null,
+              "start_date": "2026-12-01",
+              "end_date": "2026-12-02",
+              "rounds": [
+                {
+                  "id": "auto-deac21c214072d05-round-0",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/evanescence_avemujica/",
+                  "note": "主公告没有列出票务轮次、售价和申请时段，请查看所附主办方官网；未确认余票。"
+                }
+              ]
+            },
+            {
+              "id": "auto-deac21c214072d05-venue-3ad602f0ff",
+              "city": "大阪",
+              "name": "Zepp Osaka Bayside",
+              "address": null,
+              "start_date": "2026-12-04",
+              "end_date": "2026-12-04",
+              "rounds": [
+                {
+                  "id": "auto-deac21c214072d05-round-1",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/evanescence_avemujica/",
+                  "note": "主公告没有列出票务轮次、售价和申请时段，请查看所附主办方官网；未确认余票。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-deac21c214072d05-source",
+              "url": "https://bang-dream.com/events/evanescence_avemujica/",
               "label": "官方正文 · 机器辅助整理",
               "checked_at": "2026-10-29T14:02:14.341Z"
             }
@@ -12244,7 +14983,9 @@
         "last_seen_at": "2026-10-29T14:02:14.341Z",
         "changed_at": "2026-10-29T14:02:14.341Z",
         "content_hash": "f9f0d53e2b0ca4807b0fc455c5fae20beb7e84e490b2a5aafc022f304461bc73",
-        "related_event_ids": [],
+        "related_event_ids": [
+          "auto-859eb48cedf3ebad"
+        ],
         "images": [
           {
             "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/HM1gMtfUDnbnGsNY/wugzjbX7TttJPyph.jpeg",
@@ -13166,7 +15907,9 @@
         "last_seen_at": "2026-10-29T14:02:14.341Z",
         "changed_at": "2026-10-29T11:23:32.044Z",
         "content_hash": "5d7587f9c5c0566b9a5fcaeba80896087f69eca7a91da9bcd077dc90a8e0136f",
-        "related_event_ids": [],
+        "related_event_ids": [
+          "auto-27cc406bf0a3900e"
+        ],
         "images": [
           {
             "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_fukui.png",
@@ -13419,7 +16162,9 @@
         "last_seen_at": "2026-10-29T14:02:14.341Z",
         "changed_at": "2026-10-29T11:18:53.047Z",
         "content_hash": "29bbdb48f51df92bbdd77316567ea080c834fa1a25c19c54188ba8227ff44e5c",
-        "related_event_ids": [],
+        "related_event_ids": [
+          "auto-12799e94fdc2df29"
+        ],
         "images": [
           {
             "url": "https://www.lovelive-anime.jp/lovelive/jp/news/2026/10/16/1002/eplWX8YUqyUyAJ3d/pCqFGgknUEGHRr40.jpeg",
@@ -13495,7 +16240,9 @@
         "last_seen_at": "2026-10-29T14:02:14.341Z",
         "changed_at": "2026-10-28T23:14:16.762Z",
         "content_hash": "0004dfd4e45d0a8e900f2a4747c3ff00b7a304d715df20ac505b92141e7421d7",
-        "related_event_ids": [],
+        "related_event_ids": [
+          "auto-35517508cbd07a8f"
+        ],
         "images": [
           {
             "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/28/1002/S9j3ef0Xv5bIH8WK/oyBor1Vdj8JIbCrK.jpeg",
@@ -14664,7 +17411,9 @@
         "last_seen_at": "2026-10-29T14:02:14.341Z",
         "changed_at": "2026-10-28T18:14:42.476Z",
         "content_hash": "f2ad656cf918fedcc1a914442895f16f5a8fac92f0a14cfd91b4a92fcf9f8dfb",
-        "related_event_ids": [],
+        "related_event_ids": [
+          "auto-deac21c214072d05"
+        ],
         "images": [
           {
             "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/16165759/96725b6d-b821699e-9fd7703b-e2fff352.png",
@@ -15988,7 +18737,9 @@
         "last_seen_at": "2026-10-29T14:02:14.341Z",
         "changed_at": "2026-10-27T21:57:21.961Z",
         "content_hash": "3de0a6bce65ac44980a4b661086c24e54560c317249d12d51238984b73394f79",
-        "related_event_ids": [],
+        "related_event_ids": [
+          "auto-a216c08c0bdd5b5a"
+        ],
         "images": [
           {
             "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04224250/ll_ocg_bcr_Royal_main_bunner_nashi-1024x576.jpg",

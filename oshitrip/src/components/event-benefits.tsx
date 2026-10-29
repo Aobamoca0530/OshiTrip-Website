@@ -5,9 +5,10 @@ export function EventBenefits({ event }: { event: OshiEvent }) {
   if (!event.benefits?.length && !event.gallery?.length) return null;
   return (
     <section className="panel section-space" id="benefits">
-      <h2>商品图片与特典 / 满赠</h2>
+      <h2>官方图片与特典 / 满赠</h2>
       <p className="helper">
         金额为含税日元。活动期限不代表赠品仍有库存；出发前请向门店确认。
+        官方配图包含海报、菜单及商品图；收录图片不代表图中文字已逐项核实。
       </p>
       <div className="benefit-list">
         {!!event.benefits?.length && <h3>特典 / 满赠条件</h3>}

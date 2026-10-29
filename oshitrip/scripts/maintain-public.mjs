@@ -23,6 +23,7 @@ if (args.includes('--contract')) {
     const queue = JSON.parse(await fs.readFile('var/public-crawler/assistant-queue.json', 'utf8'));
     const ticketReport = JSON.parse(await fs.readFile('var/public-crawler/ticket-products-report.json', 'utf8'));
     report.pending_ticket_products = ticketReport.pending.length;
+    report.discovery = crawl.discovery;
     report.pending = queue.items.length + queue.missing_observations.length;
     report.unavailable_sources = crawl.sources.filter(s => s.status !== 'success').map(s => s.id);
     report.deferred_pages = crawl.sources.reduce((n, s) => n + (s.deferred_urls?.length || 0), 0);

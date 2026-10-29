@@ -14,6 +14,7 @@ import { classifyOffline, translateActivity, validateReading, reviewActivity, ev
 import { resolveAI, publicAIConfig } from './crawler/ai-provider.mjs';
 import { classifyAnnouncement } from './crawler/offline-filter.mjs';
 import { deduplicateSeriesNews } from './crawler/lovelive-news.mjs';
+import { prioritizeDiscovery, syncApprovedGallery, discoveryReport, useManualReading } from './crawler/discovery-promotion.mjs';
 
 const configured = JSON.parse(await fs.readFile('scripts/crawler/sources.json', 'utf8'));
 const projectFilter = createProjectFilter(JSON.parse(await fs.readFile('scripts/crawler/project-keywords.json', 'utf8')));
@@ -66,6 +67,7 @@ if (!pruneOnly && !replay && !report.sources.some(source => (!sourceId || source
 const previous = existing.filter(row => relevant(row.source_id, row.title) && (row.activity || classifyOffline(row.title)) && (!observedUrls.has(row.source_url) || observations.some(x => x.observation.source_url === row.source_url)));
 report.removed_unrelated = existing.length - previous.length;
 const catalog = JSON.parse(await fs.readFile('src/data/catalog.json', 'utf8'));
+const eventOrder = new Map(catalog.events.map((event, index) => [event.id, index]));
 catalog.events = catalog.events.filter(e => !e.id.startsWith('auto-') || !e.sources.some(s => observedUrls.has(s.url) && !observations.some(x => x.observation.source_url === s.url)));
 let next = mergeAnnouncements(previous, observations, catalog, stamp);
 const overrides = JSON.parse(await fs.readFile('scripts/crawler/verified-readings.json', 'utf8'));
@@ -76,15 +78,18 @@ report.ai = { translation: publicAIConfig(translationConfig), review: publicAICo
 report.review = { approved: 0, pending: 0, rejected: 0 };
 const queue = [];
 report.translation = { translated: 0, cached: 0, pending: 0, excluded: 0, errors: [] };
-for (const { source, observation: o, observed_at } of observations) {
+for (const { source, observation: o, observed_at } of prioritizeDiscovery(observations, next)) {
   const row = next.find(r => r.source_url === o.source_url);
   if (excluded[o.source_url] === o.content_hash) { next = next.filter(r => r.id !== row.id); report.translation.excluded++; continue; }
   const old = existing.find(r => r.source_url === o.source_url);
   const override = overrides[o.source_url];
-  const reviewedManually = override?.source_hash === o.content_hash;
   const supporting = confirmedBookingMethods(o);
   const supportingHash = supporting.length ? createHash('sha256').update(JSON.stringify(supporting)).digest('hex') : null;
-  if (!reviewedManually && old?.activity?.source_hash === o.content_hash && old.activity.review?.state === 'approved' && (old.activity.supporting_evidence_hash || null) === supportingHash) {
+  const approvedCache = old?.activity?.source_hash === o.content_hash && old.activity.state === 'ready' && old.activity.review?.state === 'approved' && catalog.events.some(e => old.related_event_ids.includes(e.id)) && (old.activity.supporting_evidence_hash || null) === supportingHash;
+  // Incomplete old manual summaries neither block AI completion nor replace a
+  // later approved result when a provider is temporarily unavailable.
+  const reviewedManually = useManualReading(override, o.content_hash, translationConfig.configured, approvedCache, reading => validateReading(reading, o, catalog.franchises));
+  if (!reviewedManually && approvedCache) {
     row.activity = old.activity; report.translation.cached++; continue;
   }
   const kind = classifyAnnouncement(source, o);
@@ -96,7 +101,7 @@ for (const { source, observation: o, observed_at } of observations) {
     let result, model;
     if (reviewedManually) {
       result = validateReading(override.reading, o, catalog.franchises); model = 'source-reviewed';
-    } else if (old?.activity?.source_hash === o.content_hash && old.activity.proposal) {
+    } else if (old?.activity?.source_hash === o.content_hash && old.activity.proposal && validateReading(old.activity.proposal, o, catalog.franchises).ready) {
       // Preserve a successful translation while review is missing or out of budget.
       result = validateReading(old.activity.proposal, o, catalog.franchises); model = old.activity.model;
     } else if (translationConfig.configured && remaining > 0) {
@@ -134,12 +139,18 @@ for (const { source, observation: o, observed_at } of observations) {
     report.translation.errors.push({ source_url: o.source_url, error: /^AI 服务 HTTP \d{3}$/.test(error.message) ? error.message : '翻译或证据校验失败，保留待处理' });
   }
 }
+catalog.events.sort((a, b) => (eventOrder.get(a.id) ?? Infinity) - (eventOrder.get(b.id) ?? Infinity) || a.id.localeCompare(b.id));
 for (const row of next) {
   // Older announcements without an activity record also enter discovery immediately.
   row.activity ??= pendingActivity({ content_hash: row.content_hash }, classifyOffline(row.title) || 'offline', '等待对照官方原文翻译与审核');
   const observation = observations.find(x => x.observation.source_url === row.source_url)?.observation;
   row.related_event_ids = catalog.events.filter(e => e.sources.some(s => s.url === row.source_url || (observation && eventIdentityLinks(observation).includes(s.url))) || (!observation && row.related_event_ids.includes(e.id))).map(e => e.id);
+  const captured = observations.find(x => x.observation.source_url === row.source_url);
+  if (captured) for (const event of catalog.events.filter(e => row.related_event_ids.includes(e.id))) syncApprovedGallery(event, row, captured.observed_at || stamp);
 }
+const promotion = discoveryReport(next, observations, catalog, existing, stamp);
+report.discovery = { multi_image: promotion.total, promoted: promotion.promoted, published: promotion.published, pending: promotion.pending };
+await fs.writeFile('var/public-crawler/discovery-review-report.json', JSON.stringify(promotion, null, 2) + '\n');
 const imageCacheFile = 'var/public-crawler/image-cache.json';
 let imageCache = new Map();
 try { imageCache = new Map(JSON.parse(await fs.readFile(imageCacheFile, 'utf8'))); } catch { /* No cache yet. */ }

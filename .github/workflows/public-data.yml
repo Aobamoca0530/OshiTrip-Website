@@ -74,4 +74,5 @@ jobs:
             oshitrip/var/public-crawler/assistant-queue.json
             oshitrip/var/public-crawler/observations.json
             oshitrip/var/public-crawler/ticket-products-report.json
+            oshitrip/var/public-crawler/discovery-review-report.json
           retention-days: 14

@@ -35,7 +35,7 @@
       ],
       "source_hash": "0858a5c6287fc8d53314c443ed4c2893ffdef6f70d6a3d96cf0e94c7a159a284",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -76,7 +76,7 @@
       ],
       "source_hash": "d20b3767c3880833504565d869f3513dfdee3d6ed34c171f06f7a5f3e6966fc6",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -95,7 +95,9 @@
     "last_seen_at": "2026-10-29T14:02:14.341Z",
     "changed_at": "2026-10-29T14:02:14.341Z",
     "content_hash": "f9f0d53e2b0ca4807b0fc455c5fae20beb7e84e490b2a5aafc022f304461bc73",
-    "related_event_ids": [],
+    "related_event_ids": [
+      "auto-859eb48cedf3ebad"
+    ],
     "images": [
       {
         "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/10/16/1002/HM1gMtfUDnbnGsNY/wugzjbX7TttJPyph.jpeg",
@@ -130,7 +132,7 @@
     ],
     "activity": {
       "kind": "offline",
-      "state": "needs_review",
+      "state": "ready",
       "title_zh": "莲之空 × 卡拉OK铁人「Dreamy Parlor!」",
       "summary_zh": "2026年10月29日至12月13日在全国11家店举办，覆盖东京、福冈、大阪、名古屋、松山、京都、新潟、札幌。6家店设主题房，每人每2小时2,200日元；周边满2,000日元赠随机明信片，饮品赠杯垫。",
       "rules": [
@@ -146,23 +148,28 @@
         },
         {
           "title": "饮品及挑战",
-          "text_zh": "点联动饮品赠杯垫1张；指定歌曲挑战100分可获饮品特典全套，66/77/88/99分获1张。套餐另有额外特典。",
+          "text_zh": "指定歌曲挑战100分可获饮品特典全套，66/77/88/99分获1张。",
           "evidence_ja": "【課題曲チャレンジ】\nコラボ店舗各店にて、課題曲チャレンジを開催！\n採点機能を入れて指定の楽曲を歌うと特典に応じた特典をゲットできます。\n100点達成でドリンク特典のコンプリートセットを、ゾロ目（66,77,88,99点）達成でドリンク特典を1枚プレゼントいたします！"
         },
         {
           "title": "主题房",
           "text_zh": "10月19日18:00（日本时间）开始预约。新宿大Guard、涩谷道玄坂、秋叶原电气街、福冈天神、大阪难波、名古屋名站6店；每人每2小时2,200日元（含税）。",
           "evidence_ja": "【コンセプトルーム】\n一部店舗では、描き下ろしイラストと一緒にカラオケを楽しめるコンセプトルームも展開いたします！\nコンセプトルームは10/19(月)18:00より予約開始！\n◼︎開催店舗\n新宿大ガード店、渋谷道玄坂店、秋葉原電気街店、福岡天神店、大阪なんば店、名古屋名駅店\n◼︎利用料金\nお一人様1枠（2時間）：¥2,200 (税込)"
+        },
+        {
+          "title": "饮品特典",
+          "text_zh": "点联动饮品赠杯垫1张；另有附额外特典的套餐。",
+          "evidence_ja": "【コラボドリンク】\nコラボ店舗各店にてメンバーをイメージしたコラボドリンクの販売をいたします！\nコラボドリンクをご注文で特典コースターを1枚プレゼントいたします。\nまた、追加の特典がついたセットメニューもございます！"
         }
       ],
       "source_hash": "0e4a868de5e432f66eca274d85efb34f8945e6cac93149d9308b9d811ac5faa5",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "已对照采集正文逐项复核日期、场馆与已公布参与条件；未公布的报名细节明确保留未知，未读取的图中文字不作为规则依据。"
       }
     },
     "image_readings": []
@@ -238,7 +245,7 @@
       ],
       "source_hash": "e1b2937e7d9721abf1798ecde93bdeaa07b8240854e5a5a4664c1d216fb365b1",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -720,7 +727,7 @@
       ],
       "source_hash": "51c15d542a96186680db27469c01ce824b5aeb554daabe4a6d6775575ee223dc",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -869,7 +876,7 @@
       ],
       "source_hash": "d0c934403bd3b30c4a2e92e2fb05119e441658221685de851de72ffe3270f369",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -1311,7 +1318,7 @@
       ],
       "source_hash": "0f6a1657b2c1675134742be8733be8023e54238c20ac58ac7f6874a96cb1158e",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -1445,7 +1452,7 @@
       ],
       "source_hash": "51bee6c6c5da628d00a1529b82b2838c6cde077969b15553f5a8bb03b502ea24",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -1511,7 +1518,7 @@
       ],
       "source_hash": "3409eb9383927b9a04661c7a466f8daca3c181c2f46847d848ce2bd190f9c202",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -1665,7 +1672,7 @@
       ],
       "source_hash": "7338087f18ac11a4f7a5678728d8426703c80caf52ccc85b7d323b99ed73e8a6",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；首次补充这条旧公告的中文摘要，日期与场馆对照正文；明确历史已结束，不推断未列的票务或图片限购。保留待审核。",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；首次补充这条旧公告的中文摘要，日期与场馆对照正文；明确历史已结束，不推断未列的票务或图片限购。保留待审核。",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -1684,7 +1691,9 @@
     "last_seen_at": "2026-10-29T14:02:14.341Z",
     "changed_at": "2026-10-29T11:23:32.044Z",
     "content_hash": "5d7587f9c5c0566b9a5fcaeba80896087f69eca7a91da9bcd077dc90a8e0136f",
-    "related_event_ids": [],
+    "related_event_ids": [
+      "auto-27cc406bf0a3900e"
+    ],
     "images": [
       {
         "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/assets/images/common/btn_fukui.png",
@@ -1714,7 +1723,7 @@
     ],
     "activity": {
       "kind": "live",
-      "state": "needs_review",
+      "state": "ready",
       "title_zh": "学园偶像大师 LIVE TOUR「标」最终公演",
       "summary_zh": "2026年11月7、8日在横滨K Arena举办，两天均计划15:30入场、17:00开演（日本时间）。本页仅为演出概要，票务价格、申请与余票须另查官方TICKET页面。",
       "rules": [
@@ -1731,12 +1740,12 @@
       ],
       "source_hash": "a3b1613c721b323da6ae016992caadb173ca20e99d612e6383234f270a5a7432",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "已对照采集正文逐项复核日期、场馆与已公布参与条件；未公布的报名细节明确保留未知，未读取的图中文字不作为规则依据。"
       }
     },
     "image_readings": []
@@ -1815,7 +1824,7 @@
       ],
       "source_hash": "6a0a04c37c18177e364134804f58d45cecced5c4f33eb1a61d591cb547b91d66",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；首次补充这条旧公告的中文摘要，日期与场馆对照正文；明确历史已结束，不推断未列的票务或图片限购。保留待审核。",
+      "reason": "复核仍标记有未确定信息；多场馆尚未逐站核对参与方式，暂不用于行程匹配；首次补充这条旧公告的中文摘要，日期与场馆对照正文；明确历史已结束，不推断未列的票务或图片限购。保留待审核。",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -1870,7 +1879,7 @@
       ],
       "source_hash": "b863b1c6e818570c5668e27491e1dc32221af913c8f2dd2373e9b461a1c1b31a",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -1954,7 +1963,7 @@
       ],
       "source_hash": "88dd2ea94a27a6636c6caee110f2998fd1ffb416f64a033edf13437f837d5b18",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；首次补充这条旧公告的中文摘要，日期与场馆对照正文；明确历史已结束，不推断未列的票务或图片限购。保留待审核。",
+      "reason": "复核仍标记有未确定信息；多场馆尚未逐站核对参与方式，暂不用于行程匹配；首次补充这条旧公告的中文摘要，日期与场馆对照正文；明确历史已结束，不推断未列的票务或图片限购。保留待审核。",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -2038,7 +2047,7 @@
       ],
       "source_hash": "29a50232528d89759e1cfe1992e207574dfa7a569b88a3a046c2bf6e0dd06f8f",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；首次补充这条旧公告的中文摘要，日期与场馆对照正文；明确历史已结束，不推断未列的票务或图片限购。保留待审核。",
+      "reason": "复核仍标记有未确定信息；多场馆尚未逐站核对参与方式，暂不用于行程匹配；首次补充这条旧公告的中文摘要，日期与场馆对照正文；明确历史已结束，不推断未列的票务或图片限购。保留待审核。",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -2167,7 +2176,7 @@
       ],
       "source_hash": "63c127eddc1056d79c12ffb9e62af2da5864183afe048cfea5fe44c7b7b913ee",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -2186,7 +2195,9 @@
     "last_seen_at": "2026-10-29T14:02:14.341Z",
     "changed_at": "2026-10-29T11:18:53.047Z",
     "content_hash": "29bbdb48f51df92bbdd77316567ea080c834fa1a25c19c54188ba8227ff44e5c",
-    "related_event_ids": [],
+    "related_event_ids": [
+      "auto-12799e94fdc2df29"
+    ],
     "images": [
       {
         "url": "https://www.lovelive-anime.jp/lovelive/jp/news/2026/10/16/1002/eplWX8YUqyUyAJ3d/pCqFGgknUEGHRr40.jpeg",
@@ -2201,7 +2212,7 @@
     ],
     "activity": {
       "kind": "offline",
-      "state": "needs_review",
+      "state": "ready",
       "title_zh": "人生不易部「Winter♡Date」涩谷快闪",
       "summary_zh": "2026年11月13–29日在涩谷MODI 2楼东京Anime Center举办，11:00–19:00。首三天10:45–10:50发入场抽签整理券，非先到先得；每满3,000日元赠随机贴纸。",
       "rules": [
@@ -2238,12 +2249,12 @@
       ],
       "source_hash": "5db3480857d150ba733942f8f622dd16192c2e5535b13f160bb0de9358d5907d",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "已对照采集正文逐项复核日期、场馆与已公布参与条件；未公布的报名细节明确保留未知，未读取的图中文字不作为规则依据。"
       }
     },
     "image_readings": []
@@ -2363,7 +2374,7 @@
       ],
       "source_hash": "636c0083371ded029a3b3a89e0bb8acc49d218ca5cc026adde62d0fe6e06b5ad",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -2382,7 +2393,9 @@
     "last_seen_at": "2026-10-29T14:02:14.341Z",
     "changed_at": "2026-10-28T23:14:16.762Z",
     "content_hash": "0004dfd4e45d0a8e900f2a4747c3ff00b7a304d715df20ac505b92141e7421d7",
-    "related_event_ids": [],
+    "related_event_ids": [
+      "auto-35517508cbd07a8f"
+    ],
     "images": [
       {
         "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/28/1002/S9j3ef0Xv5bIH8WK/oyBor1Vdj8JIbCrK.jpeg",
@@ -2397,7 +2410,7 @@
     ],
     "activity": {
       "kind": "offline",
-      "state": "needs_review",
+      "state": "ready",
       "title_zh": "Love Live! × クッピーラムネ 名古屋 PremiumShop 联动",
       "summary_zh": "为纪念Love Live! Fes在名古屋举行，系列与名古屋零食品牌クッピーラムネ合作推出新绘插画。线下销售点于2026年11月13日至16日在AEON MALL名古屋Dome前2楼美食广场旁连桥营业，10:00–21:00。具体商品、价格和入场安排待后续公布；这不是演唱会场次。",
       "rules": [
@@ -2414,12 +2427,12 @@
       ],
       "source_hash": "92939dedacf2221f1b17d0e4b8040d25de7a4039e95b5fb757892f33df191459",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "已对照采集正文逐项复核日期、场馆与已公布参与条件；未公布的报名细节明确保留未知，未读取的图中文字不作为规则依据。"
       }
     },
     "image_readings": []
@@ -2459,7 +2472,7 @@
       "rules": [],
       "source_hash": "ae4f7aa0c958287c98256fa24cb4a7438befeb486ab55998ce52dc2c3a400284",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -2655,7 +2668,7 @@
       "rules": [],
       "source_hash": "7fa58c3c5dffff1fde4542da80cca136885cfdecb24cdd8ac47afe67605c2c60",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -2690,7 +2703,7 @@
       "rules": [],
       "source_hash": "cc16ac1eeb22d330891a9aa19f5a54e7c1dd63f40410c75350cdf5d510d14da1",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -2730,7 +2743,7 @@
       "rules": [],
       "source_hash": "46aa494b0066a009d0d1d5967fb605f5e8ddf19863cf48bf675a63780250f632",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -2775,7 +2788,7 @@
       "rules": [],
       "source_hash": "54969dbc003d127ba6243f7129e00e75479796088819906b2214fcd59c779dbd",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -2825,7 +2838,7 @@
       "rules": [],
       "source_hash": "a20434745baee1407d2dee9286662407c2b8aab2cda457fd144e90e4af6a4416",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -2905,7 +2918,7 @@
       "rules": [],
       "source_hash": "78bc376a535e227c7ee2acbec66aeb9211483ed5f210840fa5278e7c5fa3ba1a",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -2950,7 +2963,7 @@
       "rules": [],
       "source_hash": "92382d984438c2c488a106fa64213a3ea619dd7a1524eb6024e221280e237e9f",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -3038,7 +3051,7 @@
       "rules": [],
       "source_hash": "46a8fc7275af31c54a015943ae85e3515daa04b8f6c5830dd123822142d66993",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -3078,7 +3091,7 @@
       "rules": [],
       "source_hash": "d73235f4bf3aac55e698b9c1ca2cebc35d7f99b811e836d52281def714894386",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -3113,7 +3126,7 @@
       "rules": [],
       "source_hash": "307b160db1032bb183d96f6356846a227691a5b6ba62dc8f35b80c03f3f175e6",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -3163,7 +3176,7 @@
       "rules": [],
       "source_hash": "df49cc746fc448c4f4f2b759584c6b613b16e4d24c3961a51de01c585b80a6a0",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -3270,7 +3283,7 @@
       "rules": [],
       "source_hash": "cc37314d3dd2b5e448e844c5e3b48dd3430e86547af7e955b2e1b2d091749a85",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -3453,7 +3466,7 @@
       "rules": [],
       "source_hash": "0f2376234024199fe604ef83c7c62c884eef2e09b0738d8b070f4bb693cb70df",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -3667,7 +3680,7 @@
       ],
       "source_hash": "5c4459a6fe877c57100236975d391e6351851904a436db85dc3b851a7ae4eab2",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -3707,7 +3720,7 @@
       "rules": [],
       "source_hash": "84e30c20e74e059192ed42d6ae2b26b93cb55d0f240f457ba56e51de7e5ace1b",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -3896,7 +3909,7 @@
       ],
       "source_hash": "1ca87258a8e74c69d9f8f85b53df6ef3e287084c6f2fa04c939dbc803ba6208a",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -3931,7 +3944,7 @@
       "rules": [],
       "source_hash": "eba17ef398bd6e658aa0d748375afa42d0e63ff0b1f9c8ae709cc4dc741564fa",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -4162,7 +4175,7 @@
       "rules": [],
       "source_hash": "a87483445e4211efb2c633a13612e3bce1104baa68e4435356e9b0afdcf55350",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -4334,7 +4347,9 @@
     "last_seen_at": "2026-10-29T14:02:14.341Z",
     "changed_at": "2026-10-28T18:14:42.476Z",
     "content_hash": "f2ad656cf918fedcc1a914442895f16f5a8fac92f0a14cfd91b4a92fcf9f8dfb",
-    "related_event_ids": [],
+    "related_event_ids": [
+      "auto-deac21c214072d05"
+    ],
     "images": [
       {
         "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/07/16165759/96725b6d-b821699e-9fd7703b-e2fff352.png",
@@ -4349,7 +4364,7 @@
     ],
     "activity": {
       "kind": "live",
-      "state": "needs_review",
+      "state": "ready",
       "title_zh": "EVANESCENCE 2026日本巡演：Ave Mujica助演",
       "summary_zh": "Ave Mujica确定作为助演嘉宾参加2026年12月1日、2日东京SGC HALL ARIAKE及12月4日大阪Zepp Osaka Bayside的演出。票务安排需查看主办方官网；东京与大阪是不同场次。",
       "rules": [
@@ -4361,12 +4376,12 @@
       ],
       "source_hash": "4de714c35429207b79783a1d19e728f3e30b46f319d1cb6622f489ce3c96c823",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "已对照采集正文逐项复核日期、场馆与已公布参与条件；未公布的报名细节明确保留未知，未读取的图中文字不作为规则依据。"
       }
     },
     "image_readings": []
@@ -4396,7 +4411,7 @@
       "rules": [],
       "source_hash": "36167e41045c73910ed6c17a60ba961a94d5772ccf29bf8d15dac0d5075e55e4",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -4446,7 +4461,7 @@
       "rules": [],
       "source_hash": "a525d648aa11906fa3cb26280a8bbd659782437a39a3ece3694dbc4739b96857",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -4511,7 +4526,7 @@
       "rules": [],
       "source_hash": "8977b9249634b09af792a3231c79fc25edf88f233952b2414dc7f5c3e12f1efc",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -4645,39 +4660,49 @@
     ],
     "activity": {
       "kind": "offline",
-      "state": "needs_review",
+      "state": "ready",
       "title_zh": "BanG Dream! Our Notes × SWEETS PARADISE联动咖啡",
       "summary_zh": "2026年11月起在9家门店分批举办，各店开始和结束日期不同。联动餐饮需另付自助餐费用；周边只售予点用联动菜单的顾客，不能只买周边。预约通过官方App，按先到先得受理。",
       "rules": [
         {
-          "title": "餐饮费用与加单",
-          "text_zh": "联动菜单需另付自助餐费用；餐食、甜品只能入店时点单，饮料可加点至使用结束前30分钟，店方可按当日情况限制。",
-          "evidence_ja": "※フードとデザートのオーダーは、「ご入店時のみ」ご注文いただけます。"
+          "title": "费用与点单",
+          "text_zh": "联动菜单另付自助餐费用；餐食和甜品只能入店时点单，饮料可加点至使用结束前30分钟，店方可按情况限制或拒绝加单。",
+          "evidence_ja": "【コラボメニューのご注文について】\n※コラボメニューのご利用には、コラボメニュー代金と別途バイキング料金のご注文が必要です。\n※フードとデザートのオーダーは、「ご入店時のみ」ご注文いただけます。\n※ドリンクの追加オーダーは、「ご利用終了時刻30分前まで」とさせていただきます。\nただし、当日の状況により追加数量の制限やご注文をお断りする場合がございます。\n詳しくは、ご来店時に店舗スタッフにお尋ねください。"
         },
         {
-          "title": "周边购买",
-          "text_zh": "仅限点用联动餐饮者购买，不能只买周边；不接受商品预订或留货，须在入店使用时限内购买。",
-          "evidence_ja": "・開催店舗ではコラボグッズはコラボメニューをご飲食していただいたお客様のみご購入いただけます。\nグッズのみでのご購入はできません。予めご了承ください。"
+          "title": "周边购买资格",
+          "text_zh": "只向点用联动餐饮的顾客销售周边，不能只买周边；不接受预订或留货，须在入店时限内购买。商品、特典均可能售罄，图片中的具体限购数尚未核实，请查看原图及店员说明。",
+          "evidence_ja": "・開催店舗ではコラボグッズはコラボメニューをご飲食していただいたお客様のみご購入いただけます。\nグッズのみでのご購入はできません。予めご了承ください。\n・コラボグッズの事前ご予約やお取り置きは一切承っておりません。\n・コラボグッズのご購入はご入店からの制限時間内にお願いをいたしております。予めご了承ください。\n・一部商品は予告なく販売を終了する場合がございます。また、お品切れの場合もございます。予めご了承ください。"
         },
         {
           "title": "App预约",
-          "text_zh": "从希望到店日的5周前至前一天20:00可通过App预约，不受理当日预约；每个账号同一时间只能保留一个日期时段预约。",
-          "evidence_ja": "※アプリでのご予約はご利用希望日の5週間前からご利用希望日前日20時まで承っております。当日のご予約はできません。"
+          "text_zh": "官方App先到先得；到店日前5周至前一天20:00预约，当日不可预约。一个账号仅可保留一个日期时段；未预约可能无法入店。",
+          "evidence_ja": "【お席のご予約について】 をご参照ください。\n※開催期間・店舗や企画内容は予告なく変更となる場合がございます。\n※各店の営業時間や店休日などはHP内の店舗情報や直接店舗までお問合せください。\n==================================================\n【ご利用について】\n※コラボメニューのご利用には、コラボメニュー代金と別途バイキング料金のご注文が必要です。\n※ご予約のないお客様は当日の空席状況によりご入店までにお時間をいただいたり、ご入店いただけない場合がございます。予めご了承くださいませ。\n※店舗の座席数には限りがございます。\n※ご利用希望日当日にキャンセルする際は、店舗にお電話にてご連絡をお願いいたします。\n※各店の営業時間や店休日などは、スイパラHP内の店舗情報や直接店舗までお問合せください。\n【お席のご予約について】\n※お席の事前予約はスイーツパラダイスアプリにて承ります。各日先着順となりますのでご了承ください。\n※ご予約はスイーツパラダイスアプリのみからとなります。\n■スイーツパラダイスアプリからのご予約\nhttps://www.sweets-paradise.jp/app/\n※アプリでのご予約はご利用希望日の5週間前からご利用希望日前日20時まで承っております。当日のご予約はできません。\n※アプリからのご予約は、１アカウントにつき１日時のみ予約が可能です。複数日時のご予約はできませんのでご注意ください。\n予約をキャンセルいただくか、予約日時を過ぎると新たに予約が可能となります。"
         },
         {
-          "title": "同行与年龄",
-          "text_zh": "同行所有人必须购买相同套餐，无论是否点联动餐；小学生及以下需监护人陪同。",
-          "evidence_ja": "※ご利用に際し年齢制限はございませんが、小学生以下のお客様は保護者様同伴の上でご利用をお願いしております。"
+          "title": "无预约与取消",
+          "text_zh": "无预约视空位安排，可能等候或无法入店；到店当天取消须电话联系门店。",
+          "evidence_ja": "※ご予約のないお客様は当日の空席状況によりご入店までにお時間をいただいたり、ご入店いただけない場合がございます。予めご了承くださいませ。\n※店舗の座席数には限りがございます。\n※ご利用希望日当日にキャンセルする際は、店舗にお電話にてご連絡をお願いいたします。"
+        },
+        {
+          "title": "同行者与年龄",
+          "text_zh": "同组所有人均须购买同一套餐，不论是否点联动餐；没有年龄限制，小学生及以下需监护人陪同。",
+          "evidence_ja": "※スイーツパラダイスで開催されるコラボレーションカフェをグループでご利用される際は、コラボメニューご注文の有無にかかわらず、グループ全員が同コースのご購入が必要となります。\n※ご利用に際し年齢制限はございませんが、小学生以下のお客様は保護者様同伴の上でご利用をお願いしております。"
+        },
+        {
+          "title": "服装与拍摄",
+          "text_zh": "禁止Cosplay入店，店员判断为Cosplay时也可能拒绝入店；公开照片须保护其他顾客隐私，禁止店内及显示屏录像，使用时间外不要在店内或店门口交换特典。",
+          "evidence_ja": "※カフェ店内へはコスプレをしてのご利用はお断りしております。また、スタッフがコスプレと判断するもの（一般の日常生活をおくっている上で見かけない格好等）は、たとえご本人様はコスプレではないと主張されても入場をお断りさせていただく場合がございます。\n※店内で撮影された写真をインターネット上に掲載する場合、他のお客様のプライバシーの保護のため、個人が特定できないようご配慮ください。\n※ご利用時間外での店内、店頭での交流、特典やグッズトレーディング行為等は他のお客様のご迷惑となりますのでご遠慮ください。\n※開催期間・店舗や企画内容は予告なく変更となる場合がございます。\n※店内及びモニターなどの動画撮影はご遠慮いただいております。"
         }
       ],
       "source_hash": "7d01ce2e8fde6ce1cc2b36a207e1de6a7f280ef46d8e4ec8b128ffad30410f6d",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "已对照采集正文逐项复核日期、场馆与已公布参与条件；未公布的报名细节明确保留未知，未读取的图中文字不作为规则依据。"
       }
     },
     "image_readings": []
@@ -5207,7 +5232,7 @@
       ],
       "source_hash": "efe03e7901dd63abff52dec4eab2516712c3519da9fa408a7a8af51c14ebbdd8",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -5391,7 +5416,7 @@
       ],
       "source_hash": "753620d4299eb1144f3e338702f7722379401a531e663dfc495d257eb9359891",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -5447,7 +5472,7 @@
       ],
       "source_hash": "1cca9c6729e4750a354bc9b3fb35c27d0f817173a859bc184cfdbddcd8030ca3",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -5487,7 +5512,7 @@
       ],
       "source_hash": "0124074b89ffca0f8acdae105d083eadff66e997ec603008649a77c4e482e793",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -5548,7 +5573,7 @@
       ],
       "source_hash": "46b130f9ac529f3860457772abe90fffe72df743b8b4562f0c3b84536f30f7df",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -5601,7 +5626,7 @@
       ],
       "source_hash": "0a7bfeda8af0ee59d9a32253db6a16634728aa34956e6a04d9f85201850a0919",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -5637,7 +5662,7 @@
     ],
     "activity": {
       "kind": "offline",
-      "state": "needs_review",
+      "state": "ready",
       "title_zh": "虹咲学园「幼稚园老师」主题 Loft 双城快闪",
       "summary_zh": "东京吉祥寺Loft于2026年11月18日至12月8日，大阪难波Loft于12月23日至2027年1月5日举办。销售幼稚园老师主题新绘周边；会场每笔消费每满3,000日元（含税）赠送随机迷你贴纸1张，全13种。入场方式和商品限购未在正文明确。",
       "rules": [
@@ -5659,12 +5684,12 @@
       ],
       "source_hash": "847f8ece8bc8fda291235757f88d75370abb1a489d226c94985493d2c4c6438e",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "已对照采集正文逐项复核日期、场馆与已公布参与条件；未公布的报名细节明确保留未知，未读取的图中文字不作为规则依据。"
       }
     },
     "image_readings": []
@@ -5715,7 +5740,7 @@
       ],
       "source_hash": "d39820c294ce6d8e85d2346a7594f3b4ecbe2cd7b9767e91c8c9a694b71d19e7",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -5811,7 +5836,7 @@
       ],
       "source_hash": "7451a53af912d3edc68905ed9b02ae1b8b306ed90097182fe343bf1680ffab5b",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -5852,7 +5877,7 @@
       ],
       "source_hash": "b466e3a4c0bf71d17e5391faf7a5ef033a24d75f939d2029ce907607bd4a2693",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -5892,7 +5917,7 @@
       ],
       "source_hash": "880caf21fd65578f233860b7b924c950781e1974504ae3a568e6b7dd1cf3e57b",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -6048,9 +6073,9 @@
     ],
     "activity": {
       "kind": "offline",
-      "state": "needs_review",
-      "title_zh": "Love Live! 官方卡牌 × GiGO咖啡厅第4至6弹规则",
-      "summary_zh": "整体活动为2026年7月11日至11月8日；当前第6弹为10月24日至11月8日，采用卡包插画，含上原步梦。秋叶原3号馆咖啡厅须事前预约；各咖啡饮品站以自由入场为主，拥挤时可能发整理券。冈山店已于9月30日结束，不包含在当前可参加门店中。",
+      "state": "ready",
+      "title_zh": "Love Live! 官方卡牌 × GiGO咖啡厅第6弹",
+      "summary_zh": "整体活动为2026年7月11日至11月8日；当前第6弹为10月24日至11月8日，采用卡包插画，含上原步梦。秋叶原3号馆咖啡厅须事前预约；各咖啡饮品站以自由入场为主，拥挤时可能发整理券。冈山店已于9月30日结束，不包含在当前可参加门店中。 本次行程只录入第6弹日期与仍参与的9家门店。",
       "rules": [
         {
           "title": "当前第6弹",
@@ -6110,12 +6135,12 @@
       ],
       "source_hash": "68c1b742dd50a2e3654c3cde6a81a21be19cecd93ceb0053a8482427e3e9aef8",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "已对照采集正文逐项复核日期、场馆与已公布参与条件；未公布的报名细节明确保留未知，未读取的图中文字不作为规则依据。"
       }
     },
     "image_readings": []
@@ -6156,7 +6181,7 @@
       ],
       "source_hash": "75c3640bbce9e8e34bff78552a0d8dbba254bb5ff04d23e7bcabbdf4569e728f",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -6204,7 +6229,7 @@
       ],
       "source_hash": "4103d36624cdbdff7d4a007ee3497e63e144be17df0d5c3b99168bcdd3868c19",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -6239,7 +6264,7 @@
       ],
       "source_hash": "f9058d065a61438ca769232ad9ca07accdf3b3da5826165d804690d62b7362aa",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -6279,7 +6304,7 @@
       ],
       "source_hash": "7e0fab7b51155e8fe3a0f7b1946467cb6e28509d64c5c6f90d92c07d9273ff95",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -6440,7 +6465,7 @@
       ],
       "source_hash": "512271fcacff1c3d50f0d0cdacb0d710a78105636435a295ccd1e675297b1dab",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -6493,7 +6518,7 @@
       ],
       "source_hash": "8a9dd2530a05e0fc0bc844a43725916feeeb2617703fa62299bc9304961b79bd",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -6704,7 +6729,7 @@
       ],
       "source_hash": "ecbed071d41fd6ce4458104f1e3e3086ce856bea81612a1a8f6b03f5aa9e90f6",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -6723,7 +6748,9 @@
     "last_seen_at": "2026-10-29T14:02:14.341Z",
     "changed_at": "2026-10-27T21:57:21.961Z",
     "content_hash": "3de0a6bce65ac44980a4b661086c24e54560c317249d12d51238984b73394f79",
-    "related_event_ids": [],
+    "related_event_ids": [
+      "auto-a216c08c0bdd5b5a"
+    ],
     "images": [
       {
         "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/04224250/ll_ocg_bcr_Royal_main_bunner_nashi-1024x576.jpg",
@@ -6843,7 +6870,7 @@
     ],
     "activity": {
       "kind": "offline",
-      "state": "needs_review",
+      "state": "ready",
       "title_zh": "Love Live! 官方卡牌游戏「Royal Holiday」快闪店",
       "summary_zh": "依次在秋叶原（2026年9月11日至27日）、大阪（10月17日至25日）、名古屋（11月7日至15日）举办。销售魔法少女风插画周边和部分卡牌商品，设购买限制与双重满赠。",
       "rules": [
@@ -6855,17 +6882,17 @@
         {
           "title": "双重满赠",
           "text_zh": "每单每满含税3,000日元随机赠明信片1张（3款），并赠高海千歌PR卡1张；PR卡每单上限4张，赠完即止。",
-          "evidence_ja": "※配布は一会計につき4枚を上限とさせていただきます"
+          "evidence_ja": "Wお買い上げ特典\n2種のお買い上げ特典をご用意しました。\n3,000円（税込）お買い上げごとに、【特典①】【特典②】をそれぞれプレゼント！\n【特典①】ポストカード（全3種）\n期間中、1会計3,000円（税込）お買い上げごとに【ポストカード（全3種）】をランダムで1枚プレゼント！\n※特典は無くなり次第終了致します\n【特典②】PRカード（全1種）\n期間中、 1会計3,000円（税込）お買い上げごとに 【漫画イラスト 高海千歌 PRカード（全1種）】 を1枚プレゼント！\n※配布は一会計につき4枚を上限とさせていただきます\n※特典は無くなり次第終了致します\n問い合わせ窓口"
         }
       ],
       "source_hash": "3d665da5528a7db4a9193042ec073f10d2cae33d9e75059977d690e3f880cc4d",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
+        "reason": "已对照采集正文逐项复核日期、场馆与已公布参与条件；未公布的报名细节明确保留未知，未读取的图中文字不作为规则依据。"
       }
     },
     "image_readings": []
@@ -6963,7 +6990,7 @@
       ],
       "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",
@@ -7000,7 +7027,7 @@
       ],
       "source_hash": "1ba884dfb2dae9402f810cd0dcb8c4a564134644439aa07d637ec09b80cf3e3f",
       "model": "source-reviewed",
-      "reason": "日期、场地或参与规则有未确定信息，暂不用于行程匹配；已对照原文翻译并复核",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
       "review": {
         "state": "approved",
         "provider": "manual",

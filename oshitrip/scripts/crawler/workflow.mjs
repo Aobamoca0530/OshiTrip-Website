@@ -4,7 +4,7 @@ import { supportingBookingEvidenceSchema } from './supporting-booking-evidence.m
 import { ticketProductSchema, verifiedTicketProductSchema, TICKET_PRODUCT_INSTRUCTIONS } from './ticket-products.mjs';
 import { readingSchema, reviewSchema, TRANSLATION_INSTRUCTIONS, REVIEW_INSTRUCTIONS } from './event-intelligence.mjs';
 
-export const WORKFLOW_VERSION = '1.2.0';
+export const WORKFLOW_VERSION = '1.3.0';
 export function workflowContract() {
   return {
     workflow_version: WORKFLOW_VERSION,
@@ -27,9 +27,11 @@ export function workflowContract() {
       'Prepare local bundles first; publish to the remote only after all checks pass.',
       'Ticket products require separate source-bound review. Never infer a purchase requirement from a general lottery.',
       'Source-scoped runs retain all other sources and their original observation/report timestamps; explicit seed pages precede discovered links.',
+      'Multiple distinct images prioritize review, never authorize publication. Partial manual summaries may be completed by configured translation and independent review providers; explicit manual rejections remain binding.',
+      'Approved activities carry up to 40 distinct official image links into discovery, including on cached runs. Collection provenance does not verify text inside images. Missing booking details stay unknown, never free entry.',
     ],
     commands: { collect_and_validate: 'pnpm maintain:public', collect_one_source: 'pnpm maintain:public --source=liella-official', apply_cached_observations: 'pnpm maintain:public --replay', contract: 'pnpm maintain:public --contract', provider_status: 'pnpm ai:check' },
-    files: { observations: 'var/public-crawler/observations.json', queue: 'var/public-crawler/assistant-queue.json', verified: 'scripts/crawler/verified-readings.json', verified_ticket_products: 'scripts/crawler/verified-ticket-products.json', run_report: 'var/public-crawler/workflow-report.json' },
+    files: { observations: 'var/public-crawler/observations.json', queue: 'var/public-crawler/assistant-queue.json', discovery_review: 'var/public-crawler/discovery-review-report.json', verified: 'scripts/crawler/verified-readings.json', verified_ticket_products: 'scripts/crawler/verified-ticket-products.json', run_report: 'var/public-crawler/workflow-report.json' },
   };
 }
 
