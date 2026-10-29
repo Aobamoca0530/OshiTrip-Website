@@ -13,6 +13,8 @@ export default defineConfig([
   },
   globalIgnores([
     ".next/**",
+    "mobile-dist/**",
+    "android/**",
     ".desktop-cache/**",
     "next-env.d.ts",
     "playwright-report/**",

@@ -47,7 +47,7 @@ test("home to Osaka search, official App details and persistent favorites", asyn
 });
 test("real boundary dates, filters and empty states", async ({ page }) => {
   await page.goto(
-    "/events?city=京都&start=2026-11-23&end=2026-11-23&category=联动咖啡厅",
+    "/events?ip=our-notes&city=京都&start=2026-11-23&end=2026-11-23&category=联动咖啡厅",
   );
   await expect(page.getByTestId("event-card")).toHaveCount(1);
   await page.getByLabel("旅行城市").selectOption("神户");

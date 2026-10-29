@@ -4,6 +4,7 @@ import { PersonalProvider } from "@/components/personal";
 import { DataSyncBar } from "@/components/data-sync";
 import { sharedDataEnabled, sharedDataService } from "@/lib/shared-data";
 import "./globals.css";
+import { AppUpdate } from "@/components/app-update";
 export const metadata: Metadata = {
   title: {
     default: "OshiTrip · 下一站，去见你的喜欢",
@@ -25,6 +26,7 @@ export default async function RootLayout({
           </a>
           <Header />
           <main id="main" className="main-container">
+            <AppUpdate />
             {syncStatus && <DataSyncBar initial={syncStatus} />}
             {children}
           </main>

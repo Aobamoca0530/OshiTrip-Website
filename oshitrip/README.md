@@ -162,3 +162,22 @@ node scripts/test-windows-package.mjs
 启动器仅监听 `127.0.0.1`。端口偏好和日志放在 `%LOCALAPPDATA%\OshiTrip`；关闭窗口会停止其创建的后台进程。首次运行通常使用 43187 端口，后续使用已保存端口。端口临时冲突不会覆盖已保存的地址。
 
 GitHub Actions 的 **Package Windows portable app** 工作流支持手动构建，成功后可在该次运行的 Artifacts 下载 ZIP。构建产物不提交到源码仓库。
+
+
+## 手机与 Mac 构建
+
+版本号以 package.json 为准。Android versionCode 自动按 major × 1000000 + minor × 1000 + patch 生成，minor / patch 均应小于1000。桌面继续使用 Next.js standalone；手机版使用 Vite 打包已有 React 组件、相同的领域规则和经校验的公共资料，不依赖 Next.js 服务器，也不打包私有配置或管理数据库入口。
+
+- 手机版：运行 pnpm build:mobile；产物为 mobile-dist/，可部署到任意 HTTPS 静态托管。使用 hash 路由，支持 GitHub Pages 子路径。首次访问缓存整套页面资源，旧页面在用户点击更新前继续使用旧缓存。
+- Android：运行 pnpm android:sync，然后在 android/ 运行 gradlew assembleRelease lintRelease。发布构建需提供 ANDROID_KEYSTORE_PATH、ANDROID_KEYSTORE_PASSWORD、ANDROID_KEY_ALIAS、ANDROID_KEY_PASSWORD。签名密钥必须长期保留；更换密钥无法覆盖更新原安装。不要提交 keystore 或密码。使用 scripts/collect-android.mjs 校验签名并生成 APK 和 SHA256。
+- Mac：在目标架构的 Mac 上运行 pnpm package:mac，生成 .app 的 ZIP 和 SHA256。脚本验证官方 Node.js 校验和、编译 AppKit 启动器并测试打包服务与退出清理。Apple Silicon 和 Intel 分别构建，尚未公证。
+- Windows：继续使用 pnpm package:windows 和 node scripts/test-windows-package.mjs。
+- 验证：pnpm typecheck、pnpm lint、pnpm test、pnpm build；手机版另外运行 pnpm build:mobile 和 pnpm exec playwright test --config mobile/playwright.config.ts。
+
+GitHub Actions 的 Package desktop and Android apps 工作流手动构建四个平台，产物存于 Artifacts。Android 需要仓库 Secrets：ANDROID_KEYSTORE_BASE64（keystore 的 base64）、ANDROID_KEYSTORE_PASSWORD、ANDROID_KEY_ALIAS、ANDROID_KEY_PASSWORD。同一长期签名密钥用于所有版本，不使用临时调试密钥发布。
+
+Deploy iPhone and mobile web app 工作流构建并测试手机版，部署到 GitHub Pages。仓库 Pages 的 Source 应为 GitHub Actions。
+
+软件更新源为仓库根目录 data/app-release.json。**先完成安装包验证并发布正式 GitHub Release，再修改该文件中的 version、notes 和 url 并推送 main**，避免提示用户下载不存在的版本。仅接受本仓库 HTTPS Release 链接，使用数值语义版本比较，失败保留当前功能。更新源只发布已完成版本，不用于执行脚本或自动安装。
+
+Mac 本地缓存与日志：~/Library/Application Support/OshiTrip；默认端口43187，端口冲突时停止并提示，避免切换地址导致误以为收藏丢失。Mac 与 Windows 仅监听127.0.0.1。

@@ -1,0 +1,38 @@
+import { test, expect } from "@playwright/test";
+test("mobile routes, favorites, reload and offline launch", async ({ page, context }) => {
+  const errors: string[] = [];
+  page.on("pageerror", error => errors.push(error.message));
+  await page.goto("/");
+  await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
+  await page.evaluate(async () => { await navigator.serviceWorker.ready; });
+  await page.reload();
+  await page.getByRole("link", { name: "发现活动", exact: true }).first().click();
+  await expect(page.getByRole("heading", { name: "发现活动", exact: true })).toBeVisible();
+  const detail = page.locator('a[href^="#/events/"]').first();
+  await detail.click();
+  await expect(page.getByRole("heading", { name: "活动与参加条件" })).toBeVisible();
+  const favorite = page.getByRole("button", { name: "收藏活动", exact: true });
+  await favorite.click();
+  await page.reload();
+  await expect(page.getByRole("button", { name: "取消收藏活动", exact: true })).toBeVisible();
+  await context.setOffline(true);
+  await page.reload();
+  await expect(page.getByRole("heading", { name: "活动与参加条件" })).toBeVisible();
+  await page.getByRole("link", { name: "我的旅行", exact: true }).first().click();
+  await expect(page.getByRole("heading", { name: "我的旅行", exact: true })).toBeVisible();
+  await page.getByRole("link", { name: "抽选与发售", exact: true }).first().click();
+  await expect(page.getByRole("heading", { name: "Live 抽选与发售", exact: true })).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBe(true);
+  expect(errors).toEqual([]);
+});
+test("startup update prompt and failure fallback", async ({ page }) => {
+  await page.route("**/data/app-release.json", route => route.fulfill({ json: { version: "9.0.0", notes: "更新测试", url: "https://github.com/Aobamoca0530/OshiTrip-Website/releases/tag/v9.0.0" } }));
+  await page.goto("/");
+  await expect(page.getByRole("link", { name: "查看新版与下载" })).toBeVisible();
+  await page.getByRole("button", { name: "稍后", exact: true }).click();
+  await expect(page.getByText("本次稍后更新，下次打开仍会检查。")).toBeVisible();
+  await page.route("**/data/app-release.json", route => route.abort());
+  await page.getByRole("button", { name: "检查软件更新" }).click();
+  await expect(page.getByText("暂时无法检查软件更新，仍可继续使用。")).toBeVisible();
+  await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
+});

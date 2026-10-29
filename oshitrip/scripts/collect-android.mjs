@@ -1,0 +1,16 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { createHash } from 'node:crypto';
+import { spawnSync } from 'node:child_process';
+const version = JSON.parse(await fs.readFile('package.json', 'utf8')).version;
+const source = 'android/app/build/outputs/apk/release/app-release.apk';
+const sdk = process.env.ANDROID_HOME || process.env.ANDROID_SDK_ROOT;
+if (!sdk) throw new Error('Android SDK missing');
+const builds = (await fs.readdir(path.join(sdk, 'build-tools'))).sort((a,b) => a.localeCompare(b, undefined, {numeric:true}));
+const result = spawnSync(path.join(sdk, 'build-tools', builds.at(-1), 'apksigner'), ['verify', '--verbose', source], { stdio: 'inherit' });
+if (result.error || result.status !== 0) throw new Error('APK signature verification failed');
+await fs.mkdir('../dist', { recursive: true });
+const name = `OshiTrip-${version}-android.apk`;
+const bytes = await fs.readFile(source);
+await fs.writeFile(`../dist/${name}`, bytes);
+await fs.writeFile(`../dist/${name}.sha256`, `${createHash('sha256').update(bytes).digest('hex')}  ${name}\n`);

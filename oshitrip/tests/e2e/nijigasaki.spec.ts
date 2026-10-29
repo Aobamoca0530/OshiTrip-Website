@@ -25,7 +25,7 @@ test("Nijigasaki gifts, closed dates and detail attribution", async ({
   await expect(
     bonus.getByRole("link", { name: "查看官方领取条件" }),
   ).toHaveAttribute("href", "https://www.cocollabo.net/pages/nijigasaki");
-  await expect(bonus.getByTestId("official-image")).toHaveCount(2);
+  await expect(bonus.getByTestId("official-image")).toHaveCount(3);
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth + 1,

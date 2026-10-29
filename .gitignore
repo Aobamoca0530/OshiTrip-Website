@@ -28,3 +28,6 @@ oshitrip/项目结构讲解.md
 # Portable Windows builds and downloaded runtime archives.
 dist/
 oshitrip/.desktop-cache/
+oshitrip/mobile-dist/
+*.jks
+*.keystore

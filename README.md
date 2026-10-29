@@ -43,11 +43,24 @@ OshiTrip 是一个面向日本 IP 联动活动与跑活旅行的查询网站。�
 
 网站整理活动信息，并保留官方来源，方便进一步查阅。尚未核实的内容会保留为未知；目前收录范围仍在逐步完善，信息不代表实时库存或预约名额。出发和预约前，请以主办方最新公告为准。
 
+## 📱 手机与 Mac 版本（1.6.0）
+
+- **Android**：在 [Release 下载页](https://github.com/Aobamoca0530/OshiTrip-Website/releases/tag/v1.6.0) 下载签名 APK，允许浏览器安装此应用后打开。支持 Android 7.0 及以上，需要可用的现代 Android System WebView。后续安装同签名新版可保留应用内数据，不要先卸载。
+- **iPhone / iPad**：Safari 打开 [OshiTrip 手机版](https://aobamoca0530.github.io/OshiTrip-Website/)，选择“分享 → 添加到主屏幕”。首次联网打开，看到“已可离线使用”后可离线重开。无需 TestFlight 或 Apple 开发者账号。
+- **Mac**：在同一下载页选择 Apple Silicon 的 macos-arm64 ZIP 或 Intel 的 macos-x64 ZIP。解压后将 OshiTrip.app 拖入“应用程序”，双击启动。关闭启动器停止服务。尚未进行 Apple Developer ID 签名和公证，首次运行可能需在“系统设置 → 隐私与安全性”允许打开。支持 macOS 13.5 及以上。
+- **Windows**：下载 1.6.0 windows-x64 ZIP，解压后运行 OshiTrip.exe。使用原浏览器和地址可继续读取原收藏。
+
+**启动更新提示**：1.6.0 起，打开应用后检查软件版本，发现新版会显示更新说明和下载入口，可选择稍后更新。活动资料仍单独自动更新；检查失败不影响使用。1.5.0 及更早启动包需先手动升级一次，无法通过资料更新自动获得新版程序功能。这里是应用内提示，不是在应用关闭后发送系统通知，也不会静默安装程序。
+
+手机版包含活动筛选与详情、Live 抽选与商品、官方新消息、来源状态、收藏和旅行安排。内置活动文字资料，联网检查统一数据包，校验通过后缓存；图片、地图和官方链接需联网。收藏和行程保存在各自设备和应用中，Android、iPhone、电脑浏览器之间不会自动同步。卸载、清除应用或浏览器数据可能丢失私人安排。
+
+网页安装版使用 GitHub Pages，部署和更新由仓库 Actions 管理。新的页面资源下载后会提示“立即更新页面”，不会自动刷新正在编辑的行程。
+
 ## 🛠️ 本地运行
 
 ### 🪟 Windows 双击启动版
 
-不想安装开发环境，可以从 [1.5.0 Release](https://github.com/Aobamoca0530/OshiTrip-Website/releases/tag/v1.5.0-windows) 下载 **OshiTrip-1.5.0-windows-x64.zip**。
+不想安装开发环境，可以从 [1.6.0 Release](https://github.com/Aobamoca0530/OshiTrip-Website/releases/tag/v1.6.0) 下载 **OshiTrip-1.6.0-windows-x64.zip**。
 
 1. 将整个压缩包解压到可写文件夹。
 2. 双击 **OshiTrip.exe**，等待浏览器自动打开。

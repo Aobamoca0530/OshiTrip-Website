@@ -1,0 +1,92 @@
+name: Package desktop and Android apps
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  desktop:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            platform: windows
+          - os: macos-15
+            platform: mac-arm64
+          - os: macos-15-intel
+            platform: mac-x64
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 40
+    defaults:
+      run:
+        working-directory: oshitrip
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: 24.19.0
+      - uses: pnpm/action-setup@v6.1.0
+        with:
+          version: 11.25.0
+          package_json_file: oshitrip/package.json
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm test
+      - if: matrix.platform == 'windows'
+        run: pnpm package:windows
+      - if: matrix.platform == 'windows'
+        run: node scripts/test-windows-package.mjs
+      - if: matrix.platform != 'windows'
+        run: pnpm package:mac
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: OshiTrip-${{ matrix.platform }}
+          path: |
+            dist/*.zip
+            dist/*.sha256
+          if-no-files-found: error
+  android:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: oshitrip
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.1.0
+        with:
+          node-version: 24.19.0
+      - uses: pnpm/action-setup@v6.1.0
+        with:
+          version: 11.25.0
+          package_json_file: oshitrip/package.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: android-actions/setup-android@v3
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm android:sync
+      - name: Build signed Android release
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          test -n "$ANDROID_KEYSTORE_BASE64"
+          export ANDROID_KEYSTORE_PATH="$RUNNER_TEMP/oshitrip-release.jks"
+          printf '%s' "$ANDROID_KEYSTORE_BASE64" | base64 --decode > "$ANDROID_KEYSTORE_PATH"
+          trap 'rm -f "$ANDROID_KEYSTORE_PATH"' EXIT
+          cd android
+          bash gradlew assembleRelease lintRelease --no-daemon
+          cd ..
+          node scripts/collect-android.mjs
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: OshiTrip-android
+          path: |
+            dist/*.apk
+            dist/*.sha256
+          if-no-files-found: error

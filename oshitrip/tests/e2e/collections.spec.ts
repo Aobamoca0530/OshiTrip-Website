@@ -19,7 +19,7 @@ test("one collection keeps all nine branches, filtered dates and image-backed Ch
     "每人每次入店只能结账购买周边 1 次",
   );
   await expect(page.locator("#venues .venue-row")).toHaveCount(9);
-  await expect(page.locator("#benefits .event-gallery img")).toHaveCount(8);
+  await expect(page.locator("#benefits .event-gallery img")).toHaveCount(10);
   const rule = page
     .locator("#rules article")
     .filter({ hasText: "首次餐食甜点合计" });
