@@ -44,6 +44,14 @@ describe('source-bound ticket products',()=>{
     expect(liella.products).toHaveLength(2);
     expect(items.some(i=>i.franchise_ids.includes('starlight'))).toBe(true);
     expect(items.some(i=>i.franchise_ids.includes('gakuen-idolmaster'))).toBe(true);
-    expect(items.find(i=>i.url.endsWith('_id=3rdLIVE'))?.pending).toBe(true);
+    // Live source corrections can legitimately promote this announcement.
+    // Exercise both review states without pinning the current daily snapshot.
+    const live=announcementsSchema.parse(rawNews).find(a=>a.source_url.endsWith('_id=3rdLIVE'))!;
+    expect(live.activity).toBeDefined();
+    for (const [state,pending] of [['needs_review',true],['ready',false]] as const) {
+      const sample={...live,activity:{...live.activity!,state}};
+      const result=liveLotteryItems([sample],catalog.events,releasesSchema.parse(rawReleases));
+      expect(result.find(i=>i.url===live.source_url)?.pending).toBe(pending);
+    }
   });
 });
