@@ -6,12 +6,17 @@ import { readingSchema, reviewSchema, TRANSLATION_INSTRUCTIONS, REVIEW_INSTRUCTI
 import { verifiedImageSchema } from './verified-images.mjs';
 import { IMAGE_TRANSLATION_INSTRUCTIONS } from './image-rules.mjs';
 
-export const WORKFLOW_VERSION = '1.4.0';
+export const WORKFLOW_VERSION = '1.5.0';
+export function canSkipUnchanged(crawl, hasPendingEdits) {
+  return crawl.updates?.mode === 'updates' && crawl.updates.no_content_change === true
+    && !crawl.updates.state_changed && !hasPendingEdits;
+}
 export function workflowContract() {
   return {
     workflow_version: WORKFLOW_VERSION,
     documentation: 'docs/official-news-workflow.md',
     providers: ['openai', 'bailian', 'deepseek', 'manual'],
+    daily_scope: { mode: 'updates', detail_limit: 5, image_limit: 8, recent_days: 14, historical_backfill: false, state: 'scripts/crawler/update-state.json' },
     stages: ['collect', 'classify-and-deduplicate', 'translate', 'independent-review', 'validate-evidence', 'prepare-public-data', 'check', 'publish'],
     inputs: { observation: z.toJSONSchema(observationSchema), verified_booking_method: z.toJSONSchema(supportingBookingEvidenceSchema) },
     outputs: { translation: z.toJSONSchema(readingSchema), review: z.toJSONSchema(reviewSchema), ticket_product_candidate: z.toJSONSchema(ticketProductSchema), verified_ticket_product: z.toJSONSchema(verifiedTicketProductSchema), verified_image: z.toJSONSchema(verifiedImageSchema) },
@@ -29,19 +34,19 @@ export function workflowContract() {
       'Changed source invalidates prior approval. Failed requests preserve prior data and do not count as fresh verification.',
       'Prepare local bundles first; publish to the remote only after all checks pass.',
       'Ticket products require separate source-bound review. Never infer a purchase requirement from a general lottery.',
-      'Source-scoped runs retain all other sources and their original observation/report timestamps; explicit seed pages precede discovered links.',
+      'Daily checks inspect index updates, at most five details and eight images, without historical backfill. Full/source-scoped audits are explicit; source-scoped runs retain other sources and original timestamps.',
       'Multiple distinct images prioritize review, never authorize publication. Partial manual summaries may be completed by configured translation and independent review providers; explicit manual rejections remain binding.',
       'Approved activities carry up to 40 distinct official image links into discovery, including on cached runs. Collection provenance does not verify text inside images. Missing booking details stay unknown, never free entry.',
     ],
-    commands: { collect_and_validate: 'pnpm maintain:public', daily_publish: 'pnpm maintain:public --publish', publish_reviewed_snapshot: 'pnpm maintain:public --replay --publish', collect_one_source: 'pnpm maintain:public --source=liella-official', apply_cached_observations: 'pnpm maintain:public --replay', contract: 'pnpm maintain:public --contract', provider_status: 'pnpm ai:check' },
+    commands: { collect_and_validate: 'pnpm maintain:public', check_updates: 'pnpm maintain:public --collect-only', full_explicit_audit: 'pnpm maintain:public --full', daily_publish: 'pnpm maintain:public --publish', publish_reviewed_snapshot: 'pnpm maintain:public --replay --publish', collect_one_source: 'pnpm maintain:public --source=liella-official', apply_cached_observations: 'pnpm maintain:public --replay', contract: 'pnpm maintain:public --contract', provider_status: 'pnpm ai:check' },
     files: { observations: 'var/public-crawler/observations.json', queue: 'var/public-crawler/assistant-queue.json', discovery_review: 'var/public-crawler/discovery-review-report.json', image_review: 'var/public-crawler/image-review-report.json', verified: 'scripts/crawler/verified-readings.json', verified_ticket_products: 'scripts/crawler/verified-ticket-products.json', run_report: 'var/public-crawler/workflow-report.json', history: 'var/public-crawler/runs', lock: 'var/public-crawler/maintenance.lock' },
   };
 }
 
-/** @param {{replay?: boolean, sourceId?: string}} options */
-export function maintenanceStages({ replay = false, sourceId } = {}) {
+/** @param {{replay?: boolean, sourceId?: string, full?: boolean}} options */
+export function maintenanceStages({ replay = false, sourceId, full = false } = {}) {
   return [
-    ['collect', ['scripts/crawl-public.mjs', ...(replay ? ['--replay'] : []), ...(sourceId ? [`--source=${sourceId}`] : [])]],
+    ['collect', ['scripts/crawl-public.mjs', ...(replay ? ['--replay'] : !full && !sourceId ? ['--updates'] : []), ...(sourceId ? [`--source=${sourceId}`] : [])]],
     ['check-browser-collection', ['scripts/check-browser-collection.mjs']],
     ['prepare-source-status', ['scripts/build-source-status.mjs']],
     ['prepare-ticket-products', ['scripts/prepare-ticket-products.mjs']],

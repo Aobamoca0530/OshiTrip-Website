@@ -11,6 +11,7 @@ export const PUBLIC_FILES = [
   'scripts/crawler/excluded-sources.json', 'scripts/crawler/verified-readings.json',
   'scripts/crawler/verified-ticket-products.json', 'scripts/crawler/verified-booking-evidence.json',
   'scripts/crawler/verified-image-readings.json',
+  'scripts/crawler/update-state.json',
   'supabase/seed.sql', 'supabase/releases-seed.sql', 'supabase/stores-seed.sql', 'supabase/setup-new-project.sql',
   '../data/public-v1.json', '../data/public-v2.json', '../data/public-v3.json', '../data/public-v4.json',
 ];

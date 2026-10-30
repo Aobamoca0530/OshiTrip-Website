@@ -8,6 +8,8 @@ const catalog = await read('src/data/catalog.json');
 const releases = await read('src/data/releases.json');
 const ids = new Set();
 const pending = [];
+const report = await read('var/public-crawler/report.json');
+const incremental = report.updates?.mode === 'updates';
 for (const input of records) {
   const record = verifiedTicketProductSchema.parse(input), p = record.product;
   if (ids.has(p.id)) throw new Error('Duplicate verified ticket product');
@@ -15,7 +17,7 @@ for (const input of records) {
   const old = releases.findIndex(r => r.id === p.id);
   const observation = observations.find(row => row.observation.source_url === p.source_url)?.observation;
   // Failed/unread sources do not manufacture a new verification date.
-  if (!observation) { pending.push({id:p.id,source_url:p.source_url,reason:'本轮未读到正文，保留已有资料及原核实日期'}); continue; }
+  if (!observation) { if (!incremental) pending.push({id:p.id,source_url:p.source_url,reason:'本轮未读到正文，保留已有资料及原核实日期'}); continue; }
   if (observation.content_hash !== p.source_hash) {
     if (old >= 0) releases[old].status = 'review';
     pending.push({id:p.id,source_url:p.source_url,reason:'正文已变化，旧审批失效；重新核对商品与场次后才能发布'});

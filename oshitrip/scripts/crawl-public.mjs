@@ -17,12 +17,14 @@ import { deduplicateSeriesNews } from './crawler/lovelive-news.mjs';
 import { prioritizeDiscovery, syncApprovedGallery, discoveryReport, useManualReading } from './crawler/discovery-promotion.mjs';
 import { imageReviewQueue } from './crawler/image-queue.mjs';
 import { syncVerifiedImageRules, verifiedImageSchema } from './crawler/verified-images.mjs';
+import { createUpdatePlanner, updateIndexes, substantiveObservation, UPDATE_IMAGE_LIMIT } from './crawler/incremental.mjs';
 
 const configured = JSON.parse(await fs.readFile('scripts/crawler/sources.json', 'utf8'));
 const projectFilter = createProjectFilter(JSON.parse(await fs.readFile('scripts/crawler/project-keywords.json', 'utf8')));
 const relevant = (sourceId, title) => relevantAnnouncement(sourceId, title, projectFilter);
 const pruneOnly = process.argv.includes('--prune-only');
 const replay = process.argv.includes('--replay');
+const updates = process.argv.includes('--updates');
 const sourceId = process.argv.find(arg => arg.startsWith('--source='))?.slice(9);
 if (sourceId && (replay || pruneOnly)) throw new Error('--source cannot be combined with replay/prune');
 if (pruneOnly && replay) throw new Error('--prune-only 与 --replay 不能同时使用');
@@ -40,6 +42,13 @@ const report = { checked_at: stamp, sources: replay ? lastReport.sources : retai
 let observations = replay || sourceId ? JSON.parse(await fs.readFile('var/public-crawler/observations.json', 'utf8')) : [];
 if (sourceId) observations = observations.filter(row => row.source.id !== sourceId).map(row => ({ ...row, observed_at: row.observed_at || lastReport.sources.find(s => s.id === row.source.id)?.checked_at || lastReport.checked_at }));
 const existing = JSON.parse(await fs.readFile('src/data/announcements.json', 'utf8'));
+const catalog = JSON.parse(await fs.readFile('src/data/catalog.json', 'utf8'));
+const excluded = JSON.parse(await fs.readFile('scripts/crawler/excluded-sources.json', 'utf8'));
+const planner = updates && !replay ? createUpdatePlanner({
+  state: JSON.parse(await fs.readFile('scripts/crawler/update-state.json', 'utf8')),
+  announcements: existing, excluded, catalog, now: stamp,
+}) : null;
+const incremental = updates || (replay && lastReport.updates?.mode === 'updates');
 const observedUrls = new Set();
 const policies = new Map();
 const stoppedOrigins = new Map();
@@ -48,7 +57,7 @@ observations = observations.filter(({ source, observation: o }) => relevant(sour
 for (const source of pruneOnly || replay ? [] : sources) {
   const result = stoppedOrigins.has(source.origin)
     ? { observations: [], status: 'blocked', errors: [`HTTP ${stoppedOrigins.get(source.origin)}：同站点已停止本轮访问`], deferred_urls: source.urls, discovered: source.urls.length, transport: source.transport || 'http' }
-    : await crawlPublicSource(source, { limit: source.page_limit || (source.id === 'bang-dream-live' ? 40 : 16), acceptDiscoveredLink: ({ url, title }) => {
+    : await crawlPublicSource(planner ? updateIndexes(source) : source, { ...(planner ? { selectDetailUrls: (entries, result) => planner.select(source, entries, result) } : {}), limit: source.page_limit || (source.id === 'bang-dream-live' ? 40 : 16), acceptDiscoveredLink: ({ url, title }) => {
       const liveDirectory = /\/live_detail\.php|\/otonokizaka\/event\//.test(url);
       const dates = liveDirectory ? explicitDates(title) : [];
       if (dates.length && dates.every(date => date < stamp.slice(0,10))) return false;
@@ -56,24 +65,47 @@ for (const source of pruneOnly || replay ? [] : sources) {
     } });
   const stoppedStatus = result.errors?.join(' ').match(/\bHTTP (401|403|429)\b/)?.[1];
   if (stoppedStatus) stoppedOrigins.set(source.origin, stoppedStatus);
-  for (const o of result.observations) observedUrls.add(o.source_url);
+  planner?.finish(result.observations);
+  const incoming = planner ? result.observations.filter(o => substantiveObservation(o, existing.find(row => row.source_url === o.source_url))) : result.observations;
+  for (const o of incoming) observedUrls.add(o.source_url);
   if (result.robots_rules) policies.set(source.id, result.robots_rules);
-  report.sources.push({ id: source.id, transport: result.transport, browser_mode: result.browser_mode, status: result.status, robots: result.robots_status || 'not-checked', pages: result.observations.length, discovered: result.discovered, deferred_urls: result.deferred_urls || [], excluded: result.observations.filter(o => !relevant(source.id, o.title)).length, errors: result.errors, access_diagnostics: result.access_diagnostics || [] });
-  for (const observation of result.observations) if (relevant(source.id, observation.title) && classifyAnnouncement(source, observation)) observations.push({ source, observation });
+  report.sources.push({ id: source.id, transport: result.transport, browser_mode: result.browser_mode, status: result.status, robots: result.robots_status || 'not-checked', pages: result.observations.length, index_pages: result.index_pages || 0, scope: planner ? 'updates' : 'full', discovered: result.discovered, deferred_urls: result.deferred_urls || [], excluded: result.observations.filter(o => !relevant(source.id, o.title)).length, errors: result.errors, access_diagnostics: result.access_diagnostics || [] });
+  for (const observation of incoming) if (relevant(source.id, observation.title) && classifyAnnouncement(source, observation)) observations.push({ source, observation, observed_at: stamp });
 }
 observations = deduplicateSeriesNews(observations, existing);
+if (planner) {
+  report.updates = { ...planner.summary(), changed_urls: observations.map(x => x.observation.source_url) };
+  for (const row of report.sources) row.deferred_urls = report.updates.pending_urls.filter(url => planner.state.entries[url]?.source_id === row.id);
+} else if (incremental) report.updates = lastReport.updates;
 await fs.mkdir('var/public-crawler', { recursive: true });
 await fs.writeFile('var/public-crawler/observations.json', JSON.stringify(observations, null, 2));
+if (planner && observations.length) {
+  await fs.mkdir('var/public-crawler/update-batches', { recursive: true });
+  await fs.writeFile(`var/public-crawler/update-batches/${stamp.replaceAll(':', '-')}.json`, JSON.stringify(observations, null, 2) + '\n');
+}
 await fs.writeFile('var/public-crawler/report.json', JSON.stringify(report, null, 2) + '\n');
 if (!pruneOnly && !replay && !report.sources.some(source => (!sourceId || source.id === sourceId) && (source.pages > 0 || source.status === 'success'))) throw new Error('No source returned a usable announcement; existing public data has been preserved.');
+if (planner) await fs.writeFile('scripts/crawler/update-state.json', JSON.stringify(planner.state, null, 2) + '\n');
+// An unchanged index is a complete lightweight check, not a request to replay
+// historical review queues or regenerate every public bundle.
+if (planner && !observedUrls.size) {
+  report.items = existing.length;
+  report.images = existing.reduce((n, row) => n + row.images.length, 0);
+  report.updates.no_content_change = true;
+  report.discovery = { total: 0, multi_image: 0, promoted: 0, published: 0, pending: 0 };
+  await fs.writeFile('var/public-crawler/report.json', JSON.stringify(report, null, 2) + '\n');
+  await fs.writeFile('var/public-crawler/assistant-queue.json', JSON.stringify({ workflow_version: WORKFLOW_VERSION, checked_at: stamp, scope: 'updates', items: [], missing_observations: [], historical_pending: existing.filter(row => row.activity?.state !== 'ready').length }, null, 2) + '\n');
+  await fs.writeFile('var/public-crawler/discovery-review-report.json', JSON.stringify({ checked_at: stamp, scope: 'updates', ...report.discovery, items: [] }, null, 2) + '\n');
+  await fs.writeFile('var/public-crawler/image-review-report.json', JSON.stringify({ checked_at: stamp, scope: 'updates', total: 0, pending: 0, needs_review: 0, failed: 0, source_unavailable: 0, reviewed_snapshot: 0, items: [] }, null, 2) + '\n');
+  console.log(JSON.stringify(report, null, 2));
+  process.exit(0);
+}
 const previous = existing.filter(row => relevant(row.source_id, row.title) && (row.activity || classifyOffline(row.title)) && (!observedUrls.has(row.source_url) || observations.some(x => x.observation.source_url === row.source_url)));
 report.removed_unrelated = existing.length - previous.length;
-const catalog = JSON.parse(await fs.readFile('src/data/catalog.json', 'utf8'));
 const eventOrder = new Map(catalog.events.map((event, index) => [event.id, index]));
 catalog.events = catalog.events.filter(e => !e.id.startsWith('auto-') || !e.sources.some(s => observedUrls.has(s.url) && !observations.some(x => x.observation.source_url === s.url)));
 let next = mergeAnnouncements(previous, observations, catalog, stamp);
 const overrides = JSON.parse(await fs.readFile('scripts/crawler/verified-readings.json', 'utf8'));
-const excluded = JSON.parse(await fs.readFile('scripts/crawler/excluded-sources.json', 'utf8'));
 let remaining = translationConfig.limit;
 let reviewsRemaining = reviewConfig.limit;
 report.ai = { translation: publicAIConfig(translationConfig), review: publicAIConfig(reviewConfig) };
@@ -150,7 +182,8 @@ for (const row of next) {
   const captured = observations.find(x => x.observation.source_url === row.source_url);
   if (captured) for (const event of catalog.events.filter(e => row.related_event_ids.includes(e.id))) syncApprovedGallery(event, row, captured.observed_at || stamp);
 }
-const promotion = discoveryReport(next, observations, catalog, existing, stamp);
+const scoped = rows => incremental ? rows.filter(row => observations.some(x => x.observation.source_url === row.source_url)) : rows;
+const promotion = discoveryReport(scoped(next), observations, catalog, existing, stamp);
 report.discovery = { total: promotion.total, multi_image: promotion.items.filter(item => item.image_count >= 2).length, promoted: promotion.promoted, published: promotion.published, pending: promotion.pending };
 await fs.writeFile('var/public-crawler/discovery-review-report.json', JSON.stringify(promotion, null, 2) + '\n');
 const imageCacheFile = 'var/public-crawler/image-cache.json';
@@ -164,6 +197,7 @@ const imageProvider = process.env.IMAGE_RULE_PROVIDER || (process.env.OPENAI_API
 const imageKey = imageProvider === 'bailian' ? process.env.DASHSCOPE_API_KEY : process.env.OPENAI_API_KEY;
 const reviewImage = createImageReviewer({ provider: imageProvider, apiKey: imageKey, model: process.env.IMAGE_RULE_MODEL || (imageProvider === 'bailian' ? 'qwen3-vl-plus' : 'gpt-4.1-mini'), cache: imageCache });
 const imageAttempts = [];
+let imageBudget = incremental ? UPDATE_IMAGE_LIMIT : Infinity;
 for (const { source, observation: o } of prioritizeDiscovery(observations, next)) {
   const row = next.find(r => r.source_url === o.source_url);
   if (!row) continue;
@@ -176,6 +210,8 @@ for (const { source, observation: o } of prioritizeDiscovery(observations, next)
     + (/注意|予約|参加|入場|購入|特典|メニュー|商品|グッズ|ルール|整理券/.test(`${image.alt} ${image.context}`) ? 1 : 0);
   const candidates = [...o.images].sort((a, b) => priority(b) - priority(a)).slice(0, 4);
   for (const image of candidates) {
+    if (imageBudget <= 0) break;
+    imageBudget--;
     const result = await reviewImage(image, { source, permits: path => policies.has(source.id) && robotsAllows(policies.get(source.id), path), pause: ms => new Promise(resolve => setTimeout(resolve, ms)) });
     imageAttempts.push({ source_url: o.source_url, ...result });
     if ([401, 403, 429].includes(result.source_http_status)) {
@@ -194,7 +230,7 @@ await fs.writeFile(imageCacheFile, JSON.stringify([...imageCache].slice(-400)));
 const verifiedImages = JSON.parse(await fs.readFile('scripts/crawler/verified-image-readings.json', 'utf8')).map(record => verifiedImageSchema.parse(record));
 if (new Set(verifiedImages.map(record => `${record.source_url}\n${record.url}`)).size !== verifiedImages.length) throw new Error('Duplicate image review records');
 syncVerifiedImageRules(catalog, next, observations, verifiedImages, imageAttempts);
-const imageQueue = imageReviewQueue(next, observations, imageAttempts, stamp, verifiedImages);
+const imageQueue = imageReviewQueue(scoped(next), observations, imageAttempts, stamp, verifiedImages);
 await fs.writeFile('var/public-crawler/image-review-report.json', JSON.stringify(imageQueue, null, 2) + '\n');
 const { publicDataSchema } = await loadDataSchema();
 // Validate through the same application schema before replacing the file.
@@ -206,7 +242,7 @@ await fs.writeFile('scripts/crawler/excluded-sources.json', JSON.stringify(exclu
 report.items = next.length;
 report.images = next.reduce((sum, item) => sum + item.images.length, 0);
 await fs.writeFile('var/public-crawler/report.json', JSON.stringify(report, null, 2) + '\n');
-await fs.writeFile('var/public-crawler/assistant-queue.json', JSON.stringify({ workflow_version: WORKFLOW_VERSION, contract_command: 'pnpm maintain:public --contract', checked_at: stamp, items: queue, missing_observations: next.filter(r => r.activity.state !== 'ready' && !observations.some(x => x.observation.source_url === r.source_url)).map(r => ({ source_url: r.source_url, title: r.title })) }, null, 2) + '\n');
+await fs.writeFile('var/public-crawler/assistant-queue.json', JSON.stringify({ workflow_version: WORKFLOW_VERSION, contract_command: 'pnpm maintain:public --contract', checked_at: stamp, scope: incremental ? 'updates' : 'full', historical_pending: incremental ? next.filter(r => r.activity.state !== 'ready' && !observedUrls.has(r.source_url)).length : 0, items: queue, missing_observations: incremental ? [] : next.filter(r => r.activity.state !== 'ready' && !observations.some(x => x.observation.source_url === r.source_url)).map(r => ({ source_url: r.source_url, title: r.title })) }, null, 2) + '\n');
 console.log(JSON.stringify(report, null, 2));
 if (queue.length) console.log(`::warning::${queue.length} 条官方公告等待翻译或复核，已进入发现活动待审核区；详见 assistant-queue.json。`);
 if (process.env.GITHUB_STEP_SUMMARY) await fs.appendFile(process.env.GITHUB_STEP_SUMMARY, `## Official announcements\n${report.items} announcements; ${report.images} image links.\n\n${report.sources.map(s => `- ${s.id}: ${s.status} (${s.pages} pages)`).join('\n')}\n`);

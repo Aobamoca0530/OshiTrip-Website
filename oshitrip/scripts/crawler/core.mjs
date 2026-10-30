@@ -330,6 +330,9 @@ export function allowedUrl(value, source) {
 /** @type {(link: {url: string, title: string}) => boolean} */
 const acceptEveryLink = () => true;
 export function discoverLinks(html, source, acceptLink = acceptEveryLink) {
+  return discoverEntries(html, source, acceptLink).map(entry => entry.url);
+}
+export function discoverEntries(html, source, acceptLink = acceptEveryLink) {
   const links = new Map();
   for (const m of html.matchAll(/<a\b[^>]*href\s*=\s*["']([^"']+)["'][^>]*>([^]*?)<\/a>/gi)) {
     try {
@@ -341,7 +344,23 @@ export function discoverLinks(html, source, acceptLink = acceptEveryLink) {
             new RegExp(p).test(u.pathname),
           ))
       ) {
-        const title = textFromHtml(m[2]) || textFromHtml([...m[2].matchAll(/\balt=["']([^"']*)["']/gi)].map(a => a[1]).join(' '));
+        let title = textFromHtml(m[2]) || textFromHtml([...m[2].matchAll(/\balt=["']([^"']*)["']/gi)].map(a => a[1]).join(' '));
+        // Dates/update markers may sit next to the anchor inside its list card.
+        // Do not hash surrounding navigation or the whole changing homepage.
+        for (const tag of ['li', 'article']) {
+          const before = html.slice(0, m.index);
+          const openings = [...before.matchAll(new RegExp(`<${tag}\\b`, 'gi'))];
+          const nearest = openings.at(-1)?.index ?? -1;
+          if (nearest < 0 || before.slice(nearest).toLowerCase().includes(`</${tag}>`)) continue;
+          const end = html.toLowerCase().indexOf(`</${tag}>`, m.index + m[0].length);
+          if (end < 0 || end - nearest > 3000) continue;
+          const card = html.slice(nearest, end);
+          const metadata = [...card.matchAll(/<time\b[^>]*>([^]*?)<\/time>|datetime=["']([^"']+)["']|(?:更新|UPDATE)[^<]{0,35}/gi)]
+            .map(x => textFromHtml(x[0]));
+          const dates = textFromHtml(card).match(/20\d{2}[年./-]\d{1,2}[月./-]\d{1,2}/g) || [];
+          title += ` ${[...new Set([...dates, ...metadata])].join(' ')}`;
+          break;
+        }
         const titles = links.get(u.href) || [];
         if (title) titles.push(title);
         links.set(u.href, titles);
@@ -350,7 +369,8 @@ export function discoverLinks(html, source, acceptLink = acceptEveryLink) {
       /* Ignore non-URL links. */
     }
   }
-  return [...links].filter(([url, titles]) => !titles.length || titles.some(title => acceptLink({ url, title }))).map(([url]) => url);
+  return [...links].filter(([url, titles]) => !titles.length || titles.some(title => acceptLink({ url, title })))
+    .map(([url, titles]) => ({ url, title: [...new Set(titles)].join('\n') }));
 }
 // Fail closed when robots is unavailable; longest matching rule wins, allow wins ties.
 export function robotsAllows(text, path, agent = "oshitripbot") {
@@ -439,6 +459,10 @@ export async function fetchLimited(
   }
   return Buffer.concat(chunks).toString("utf8");
 }
+/**
+ * @param {object} source
+ * @param {{fetcher?: typeof fetch, readPage?: (url: string, policy: {permits: (path: string) => boolean}) => Promise<string>, readRobots?: (url: string) => Promise<string>, pause?: (ms: number) => Promise<void>, limit?: number, imageReviewer?: Function, acceptDiscoveredLink?: (link: {url: string, title: string}) => boolean, selectDetailUrls?: (entries: Array<{url: string, title: string}>, result: {complete: boolean}) => string[]}} options
+ */
 export async function crawlSource(
   source,
   {
@@ -449,6 +473,7 @@ export async function crawlSource(
     limit = 20,
     imageReviewer,
     acceptDiscoveredLink = acceptEveryLink,
+    selectDetailUrls,
   } = {},
 ) {
   if (
@@ -500,12 +525,17 @@ export async function crawlSource(
   let urls = [...source.urls];
   const indexes = [...new Set([source.index_url, ...(source.index_urls || [])].filter(Boolean))].slice(0, 3);
   const discovered = [];
+  const entries = [];
+  let indexPages = 0;
   let accessStopped = false;
   for (const indexUrl of indexes) {
     try {
       const html = await read(indexUrl);
+      indexPages++;
       // Discover new announcements even when tracked details are configured.
-      discovered.push(...discoverLinks(html, { ...source, index_url: indexUrl }, acceptDiscoveredLink));
+      const found = discoverEntries(html, { ...source, index_url: indexUrl }, acceptDiscoveredLink);
+      entries.push(...found);
+      discovered.push(...found.map(entry => entry.url));
     } catch (e) {
       errors.push(`官方目录：${e.message}`);
       if (e.diagnostic) accessDiagnostics.push({ url: indexUrl, ...e.diagnostic });
@@ -514,6 +544,7 @@ export async function crawlSource(
   }
   // Explicitly tracked Live/details must not be starved by a busy news index.
   urls = [...new Set(source.public_fetch_enabled ? [...urls, ...discovered] : [...discovered, ...urls])];
+  if (selectDetailUrls) urls = accessStopped ? [] : selectDetailUrls(entries, { complete: !errors.length });
   const selected = accessStopped ? [] : urls.slice(0, Math.min(source.public_fetch_enabled ? 80 : 30, limit));
   let attempted = 0;
   for (const url of selected) {
@@ -542,5 +573,5 @@ export async function crawlSource(
       if ([401, 403, 429].includes(e.httpStatus)) break;
     }
   }
-  return { status: errors.length ? "failed" : "success", observations, errors, access_diagnostics: accessDiagnostics, robots_status: robotsStatus, robots_rules: robots, discovered: urls.length, attempted, deferred_urls: urls.slice(attempted) };
+  return { status: errors.length ? "failed" : "success", observations, errors, access_diagnostics: accessDiagnostics, robots_status: robotsStatus, robots_rules: robots, discovered: urls.length, attempted, index_pages: indexPages, deferred_urls: urls.slice(attempted) };
 }

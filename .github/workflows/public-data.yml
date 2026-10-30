@@ -1,4 +1,4 @@
-name: Daily collection, translation, review and discovery publication
+name: Daily official updates and small-batch publication
 on:
   workflow_dispatch:
     inputs:
@@ -35,7 +35,7 @@ jobs:
       - name: Install collector browser
         run: pnpm exec playwright install --with-deps chromium
       - id: maintain
-        name: Collect images, translate, review and publish discovery
+        name: Check index updates and publish a bounded batch
         run: |
           if [ "$PUBLISH_SNAPSHOTS" = "true" ]; then
             xvfb-run --auto-servernum pnpm maintain:public --publish
@@ -51,14 +51,14 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           EVENT_TRANSLATION_PROVIDER: ${{ vars.EVENT_TRANSLATION_PROVIDER || 'auto' }}
           EVENT_TRANSLATION_MODEL: ${{ vars.EVENT_TRANSLATION_MODEL }}
-          EVENT_TRANSLATION_LIMIT: 24
+          EVENT_TRANSLATION_LIMIT: 5
           EVENT_REVIEW_PROVIDER: ${{ vars.EVENT_REVIEW_PROVIDER || 'auto' }}
           EVENT_REVIEW_MODEL: ${{ vars.EVENT_REVIEW_MODEL }}
-          EVENT_REVIEW_LIMIT: 24
+          EVENT_REVIEW_LIMIT: 5
           CRAWLER_IMAGE_RULES: "true"
           IMAGE_RULE_PROVIDER: ${{ vars.IMAGE_RULE_PROVIDER }}
           IMAGE_RULE_MODEL: ${{ vars.IMAGE_RULE_MODEL }}
-          CRAWLER_IMAGE_LIMIT: 4
+          CRAWLER_IMAGE_LIMIT: 8
       - uses: actions/upload-artifact@v7.0.2
         if: always()
         with:
@@ -72,4 +72,5 @@ jobs:
             oshitrip/var/public-crawler/discovery-review-report.json
             oshitrip/var/public-crawler/image-review-report.json
             oshitrip/var/public-crawler/runs/
+            oshitrip/var/public-crawler/update-batches/
           retention-days: 14
