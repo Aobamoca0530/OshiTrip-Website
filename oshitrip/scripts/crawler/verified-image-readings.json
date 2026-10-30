@@ -1,1 +1,208 @@
-[]
+[
+  {
+    "source_url": "https://bang-dream.com/events/nakamachiarale_live2026/",
+    "source_hash": "8a3a2c089c28da44d6a9d407cc97fc657f3032d1f55e931a59820d1c711a661a",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/21095234/e2e6ec4f-026ee792-c19c4bde-e4861033.jpg",
+    "sha256": "2016e20887cea1cb3a33ab58bf1b5924736eaea014f269047862e9fe44737178",
+    "reviewed_at": "2026-10-30T14:27:19.177Z",
+    "approved": true,
+    "reason": "实际读取并复核：RESONEXT人物主视觉，仅标题与年份；没有参加或购买规则，不将海报当商品封面。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/nakamachiarale_live2026/",
+    "source_hash": "8a3a2c089c28da44d6a9d407cc97fc657f3032d1f55e931a59820d1c711a661a",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/24162640/62cc68bd-b219e096-3ce0d867-14f7ff4e.png",
+    "sha256": "77153354161189ead5df49bf790ac762ff4b4eb7417457c9dd7258232587ccf2",
+    "reviewed_at": "2026-10-30T14:27:19.180Z",
+    "approved": true,
+    "reason": "实际读取并复核：特典卡正面样张，标有sample与日期；没有额外领取或购买条件。日期不写入活动时刻。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/nakamachiarale_live2026/",
+    "source_hash": "8a3a2c089c28da44d6a9d407cc97fc657f3032d1f55e931a59820d1c711a661a",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/24162742/4389b2e7-48c59d23-4d29d329-7ad979c8.png",
+    "sha256": "fd566833e49ddae21e732d65a0055741252af730f5ed5046e7d2f95693965b4a",
+    "reviewed_at": "2026-10-30T14:27:19.181Z",
+    "approved": false,
+    "reason": "实际读取：卡背样张文字被官方模糊，无法辨认，不根据轮廓猜读，不批准文字规则。",
+    "reading": {
+      "rules": [],
+      "unreadable": true
+    }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/yumemita_kinntorebu2026/",
+    "source_hash": "9d6be717dc2db637ca55cc26a3c5dcab8e749c3e6c365fd0d50bb0db4af8bd22",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/27161555/785831f3-88ed8c2e-7e6b5011-b95ffaf7.jpg",
+    "sha256": "cc7575d0df2e95d21016565d3ab3e5ae1995523cc19fc41069a76c6f9a64a9cf",
+    "reviewed_at": "2026-10-30T14:27:19.181Z",
+    "approved": true,
+    "reason": "实际读取并复核：健身部活动标题标识，未列参加规则。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/yumemita_kinntorebu2026/",
+    "source_hash": "9d6be717dc2db637ca55cc26a3c5dcab8e749c3e6c365fd0d50bb0db4af8bd22",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/09/27133423/c1ed5a66-6638b0b4-9153e038-7fb61d58.jpg",
+    "sha256": "237716c1882765136670138663beb1ed7121871f1cb93987bde3a6d088d5b86c",
+    "reviewed_at": "2026-10-30T14:27:19.182Z",
+    "approved": true,
+    "reason": "实际读取并二次逐项核对：区域示意与站位指定说明清晰；图上日期不决定结构化活动日期。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "参加",
+          "title": "全部为指定站位",
+          "evidence_ja": "観覧エリアは全てスタンディング（立ち位置指定）となります。",
+          "text_zh": "所有观看区域均为站立席，站立位置指定。",
+          "uncertain": false
+        },
+        {
+          "kind": "其他",
+          "title": "区域图仅为示意",
+          "evidence_ja": "画像はイメージです。実際の比率とは異なる場合がございます。",
+          "text_zh": "区域图是示意图，实际比例可能不同。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://revuestarlight.com/event/11083/",
+    "source_hash": "05ce51c103f5cd7ddb86f871f582bbf892e9578ca1d21585b6c4a7eb3d91d1a2",
+    "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/06/30184200/7aadb0dbfbebb02c45a2e636ec0c0803.png",
+    "sha256": "dafb7cc392ed4a7285a37f96308851ffcaa2a0a15938c3bcb9527f87170953ab",
+    "reviewed_at": "2026-10-30T14:27:19.183Z",
+    "approved": true,
+    "reason": "实际读取并二次核对来场特典图：贴纸各款1枚及PR卡1枚；不把卡面游戏文本当活动参加规则。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "特典",
+          "title": "来场特典内容",
+          "evidence_ja": "フレークシールセット",
+          "text_zh": "来场特典包括图示贴纸组，图中列出10款。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "贴纸各款一枚",
+          "evidence_ja": "各種1枚ずつ封入！",
+          "text_zh": "贴纸组每款各装1枚，不是随机只取其中一款。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "PR卡数量",
+          "evidence_ja": "ヴァイスシュヴァルツブラウ PRカード1枚",
+          "text_zh": "另含1张Weiß Schwarz Blau PR卡。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://revuestarlight.com/event/11083/",
+    "source_hash": "05ce51c103f5cd7ddb86f871f582bbf892e9578ca1d21585b6c4a7eb3d91d1a2",
+    "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/06/26175949/cade73b945a9bea208b85a3522614df3-scaled.jpg",
+    "sha256": "1f764c5f27b719ce2930d31904a9287069f2adfd5777e32340bc6a76e20cc2e9",
+    "reviewed_at": "2026-10-30T14:27:19.183Z",
+    "approved": true,
+    "reason": "实际读取并再次核对商品价目图：逐项确认含税金额、PACK/BOX单位、每单胶囊次数和随机特典；不能据图保证库存。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "特典",
+          "title": "同笔满赠",
+          "evidence_ja": "1会計税込3,000円ご購入ごとに 特典ブロマイド全10種から ランダムで1枚プレゼント！",
+          "text_zh": "同笔消费每满3,000日元含税，从全部10款特典生写真中随机赠1张。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "特典送完即止",
+          "evidence_ja": "特典はなくなり次第終了となります。",
+          "text_zh": "特典数量有限，送完即止。",
+          "uncertain": false
+        },
+        {
+          "kind": "购买",
+          "title": "镜面标志钥匙扣",
+          "evidence_ja": "ミラーアクリルロゴキーホルダー",
+          "text_zh": "镜面亚克力标志钥匙扣为1,100日元（含税，图示价格）。",
+          "uncertain": false
+        },
+        {
+          "kind": "购买",
+          "title": "角色钥匙扣",
+          "evidence_ja": "うさぎでんたろう＆シャンティーシャシャンティ アクリルキーホルダー",
+          "text_zh": "うさぎでんたろう＆シャンティーシャシャンティ亚克力钥匙扣为1,210日元（含税，图示价格）。",
+          "uncertain": false
+        },
+        {
+          "kind": "购买",
+          "title": "演员立牌与生写真套装",
+          "evidence_ja": "アーティストアクリルスタンド",
+          "text_zh": "演员亚克力立牌每款1,870日元含税；下方生写真套装每款660日元含税，均以价目图所列为准。",
+          "uncertain": false
+        },
+        {
+          "kind": "购买",
+          "title": "交易贴纸PACK与BOX",
+          "evidence_ja": "トレーディングアーティスト ショートステッカーセット",
+          "text_zh": "交易演员短贴纸套装全20种，每PACK含2张、880日元含税；每BOX为10PACK、8,800日元含税。不据此保证全套。",
+          "uncertain": false
+        },
+        {
+          "kind": "购买",
+          "title": "胶囊商品每单限次",
+          "evidence_ja": "1会計につき10回まで",
+          "text_zh": "两种胶囊亚克力吊饰分别标明每次结账最多10次，每次500日元含税；各全10种，每胶囊1个。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://revuestarlight.com/event/11083/",
+    "source_hash": "05ce51c103f5cd7ddb86f871f582bbf892e9578ca1d21585b6c4a7eb3d91d1a2",
+    "url": "https://revuestarlight.com/wordpress/wp-content/uploads/2026/06/26175938/RS_tokuten_blomide_ari.jpg",
+    "sha256": "86ffaffb6807eee97f2555e08a96c9b7102c3ced6e701eed17d55b70bf965b7d",
+    "reviewed_at": "2026-10-30T14:27:19.184Z",
+    "approved": true,
+    "reason": "实际读取并复核：10种特典生写真样张、L版尺寸和图片示意说明；图上没有额外满赠门槛。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "特典",
+          "title": "生写真尺寸与样张",
+          "evidence_ja": "サイズ L版サイズ",
+          "text_zh": "图示生写真为L版尺寸。",
+          "uncertain": false
+        },
+        {
+          "kind": "其他",
+          "title": "示意图",
+          "evidence_ja": "画像はイメージです。実際とは異なります。",
+          "text_zh": "图片是示意，实际物品可能不同。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  }
+]
