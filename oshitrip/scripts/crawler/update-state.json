@@ -1,5 +1,955 @@
 {
   "version": 3,
-  "sources": {},
-  "entries": {}
+  "sources": {
+    "bang-dream-live": true,
+    "bang-dream-news": true,
+    "bushiroad-creative": true,
+    "nijigasaki-news": true,
+    "starlight-news": true,
+    "sweets-paradise": true,
+    "starlight-events": true,
+    "aqours-official": true,
+    "muse-official": true,
+    "ikizulive-official": true,
+    "lovelive-series-live": true,
+    "hasunosora-official": true,
+    "liella-official": true,
+    "gakuen-idolmaster-live": true,
+    "gakuen-idolmaster-news": true,
+    "gakuen-idolmaster-portal": true
+  },
+  "entries": {
+    "https://bang-dream.com/events/avemujica-8th/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "ave-mujica"
+      ],
+      "signature": "9e47a76a7fefdb8f726c46cbf3b7e94a9e50854c540631cd418331f65e613a4e",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/ras-tour2027/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "raise-a-suilen"
+      ],
+      "signature": "9864d2077d3d7e04759d15db2b5e3cdc884872462b5cc04d5e5a4bf8caca0a8e",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/miyako_atelier/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "yumemita"
+      ],
+      "signature": "bc053b5c27011ee4664f237516ffd4575d5601da1f8fba5265b96af2e006d7a2",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/ymmt-tour2027/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "yumemita"
+      ],
+      "signature": "4f53a17a1eacda26d6071c1a8a91ca8218271935c6a02da1a833b2c80b6dd8f5",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "roselia"
+      ],
+      "signature": "7b24f32d97c850ac38212006cfb80d802e15889e45a20e89b993a601b57cacd8",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/kimuchikura-anisama-seoul-2027/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "bang-dream"
+      ],
+      "signature": "dcc7397813f9d30a282ccf7a5902e624f9a55b413350c4d25f83f3c8ffcb21c1",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/millsage_ikka-dumb-rock/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "bang-dream"
+      ],
+      "signature": "f97b57b7a306c80de639988399dbad8bfd14822468df04e2176a1029f3fa5f88",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/eleganza/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "morfonica"
+      ],
+      "signature": "4f998a124c66242554d235afdef9df7f1e1d1df6eeb6c294c574b0153b028b63",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/mygo_9th_hongkong/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "mygo"
+      ],
+      "signature": "c6bbb97dea6ccc4aeaf7f61acccbc8f86232e8cc17cfd0ab543532304ec00cad",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/millsage_1st/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "millsage"
+      ],
+      "signature": "b0e84c446a7a04b1c2910bac12694675170f0f6b391092bb3600cf9db524b0ab",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/nakamachiarale_live2026/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "yumemita"
+      ],
+      "signature": "c3e62356312149241977b0f566aaa2564efaefbcfaf10afa6e1f539c9b895a27",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/ikka-dumb-rock_1st/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "ikka-dumb-rock"
+      ],
+      "signature": "31f557d066b2566353edecfef4f4030d42239ce49eacaacc7305ead0192d8024",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/yumemita_yunos_party_lv3/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "yumemita"
+      ],
+      "signature": "e5534f599faf0bb6f38ba2ae2c9216f17e2ad490213b28a8b56dc8988211cabf",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/evanescence_avemujica/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "ave-mujica"
+      ],
+      "signature": "f9696240d3b9df8a4968a10255a8f07d001b554461bf7646d536c3739a59e5d3",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/wonderlivet-2026/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "bang-dream"
+      ],
+      "signature": "9904768c5a47e38fe6d815383e84a1f7a110cfd5e54bd09875160c7801d3737a",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/yumemita_kinntorebu2026/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "yumemita"
+      ],
+      "signature": "f23bd96ed8555242a94b51bdfcd937a36384bdbcbafcf4b6b0ff30f747ba501c",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/mygo_9th_hyogo/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "mygo"
+      ],
+      "signature": "0812fdbd338a25234029980f6a903b17231e21ddde40566cafc2286b9607d46e",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/bushiroad-fashion-journey/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "bang-dream"
+      ],
+      "signature": "07d5b99688fcb8e58e860082154d0e1aeea537523008c02f0bf9d36890069a2f",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/avemujica_7th/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "ave-mujica"
+      ],
+      "signature": "85eb9233f580c2c9f863991298af96110cc6efcb9be51bf1895275bf9247c7c7",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/machiasobi_vol31/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "bang-dream"
+      ],
+      "signature": "13f19bab664646e628a837b26829bd5e58412d674ade130c895e13ad5121b1cf",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/news/2441/": {
+      "source_id": "bang-dream-news",
+      "projects": [
+        "our-notes"
+      ],
+      "signature": "a952266617dbb9fdbf07d9faedd47809339ceb74c4f5420ec2c8abaacb6361c5",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bushiroad-creative.com/topics/106258/": {
+      "source_id": "bushiroad-creative",
+      "projects": [
+        "bang-dream"
+      ],
+      "signature": "b19f666eff56e97295d6767764de3ca889a30732d3bb1f4595e48bd35a20c388",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bushiroad-creative.com/topics/104688/": {
+      "source_id": "bushiroad-creative",
+      "projects": [
+        "nijigasaki"
+      ],
+      "signature": "b0b7f4fa662f90ecf9e3c016825e45a4ed2a719f28d1db5313b73e33ad8e82d5",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bushiroad-creative.com/topics/104208/": {
+      "source_id": "bushiroad-creative",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "763976e43a73116f9cafd4ab1ca64b270b987730537a58c325b73b6c7ade0873",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bushiroad-creative.com/topics/103670/": {
+      "source_id": "bushiroad-creative",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "627517628507569ae60f3d7dead8a51252c0f89308131803e9254dbb632eeb45",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://bushiroad-creative.com/topics/106228/": {
+      "source_id": "bushiroad-creative",
+      "projects": [
+        "ave-mujica"
+      ],
+      "signature": "56d811be95e6056e0c303a8fcee0e60ad454fd2349a6eb7c0800f8466259e8e2",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6763": {
+      "source_id": "nijigasaki-news",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "f72be6cd184c92ab240a6064c137b57705717029de2f5b6a02f4386e1dfa572f",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6739": {
+      "source_id": "nijigasaki-news",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "4f448cabc0f788f2c1b4cbe72fb44b66b58dea622032cc57ca569824d85b09c1",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6743": {
+      "source_id": "nijigasaki-news",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "3f147f19d5dc3038d4f812b36fc5e5c4022a38ff6e7c969bcb04ad391484d374",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/news/11223/": {
+      "source_id": "starlight-news",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "55e4f18b317d72fb0f282e34196d9db4344bcd7988d5dcf3f4db39a2e450e6a0",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/news/11142/": {
+      "source_id": "starlight-news",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "31d85ecbfccf27bc2b38e11726e5b14dfb29af0596ce6b7618192ae2100081cc",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/news/11122/": {
+      "source_id": "starlight-news",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "74980abeaefd48fb9b397e0fc37e22aade2e22f8e0651156df0235d7afcb80a7",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/news/11070/": {
+      "source_id": "starlight-news",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "8c110d783a9eac569099cfd6945cd5924214fe2f1126b37f89a645cdf3471658",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/news/11073/": {
+      "source_id": "starlight-news",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "cd1819463dada6ef2a3cbe199c2346210de6e1922cee49828a862ba5a633f730",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/news/11055/": {
+      "source_id": "starlight-news",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "175c620dc4b3c18a69e9e4e1c85594b82da7256ac37eaace48462922ea2f50ac",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/news/11036/": {
+      "source_id": "starlight-news",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "24cc613727ec16444ffd05fcb1f3cb1799cfeb2f03b9b8111bc40512cc5481d0",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/news/10970/": {
+      "source_id": "starlight-news",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "9f010871ac9b9b067d06d784011493cfd9e9e3c66406b764c153a547b1e1e45b",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/news/10889/": {
+      "source_id": "starlight-news",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "8df4ac9d60f5b1a3c776ff64c5913f2c04e65074e33e89a31e2dad7523fb2515",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.sweets-paradise.jp/collaboration/ournotes": {
+      "source_id": "sweets-paradise",
+      "projects": [
+        "our-notes"
+      ],
+      "signature": "0c3228aca88e77a14bf23fe27f033395c2578e1aab4b9a1b02dc11ea74e2f371",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/event/11292/": {
+      "source_id": "starlight-events",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "4772f762e53606e9f6c2a1e23e8d5b6de38ea132507c107838f8c55c4ae15287",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/event/11130/": {
+      "source_id": "starlight-events",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "0cb0ba3c829bf07aa610a70db07b231b920a2d31a7c3f0bfbb03d59bad3c7392",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/event/11086/": {
+      "source_id": "starlight-events",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "4538d9bcac600e711c9d43c518ee753de0ddb0cbdf139d30236757104f91f8ad",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/event/11083/": {
+      "source_id": "starlight-events",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "42d9c032b114993dcfbd208cecf041dbb9c05f14ba24846acc650d64ef38638e",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/event/10843/": {
+      "source_id": "starlight-events",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "ded7b5912f1a6b2b9c67f6371e897e746c01c2546b1bd127931cdf8310556ef3",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/event/10578/": {
+      "source_id": "starlight-events",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "4c8234f0022586542ed9b7ac9bf3f59c40c54cef99349ef4c6b04ceabc88dadd",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/event/10666/": {
+      "source_id": "starlight-events",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "b67ce2d3d7fb034fed3d0e4cca282f977d34f4de488c0afa750271d565289a3e",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/event/10663/": {
+      "source_id": "starlight-events",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "96d50822fe9358056219bd4816261334138b48058a355bf99b911aa737dd6e55",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/event/10548/": {
+      "source_id": "starlight-events",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "9a68642e6148ea0e6ba039e8e65bf481876a51c564965e00d1d2aaf1c275967f",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th": {
+      "source_id": "aqours-official",
+      "projects": [
+        "aqours"
+      ],
+      "signature": "0feb9fc9b4a74e66a574414b6d2d16e8093055ba91150ef8e89a6d08630f8f39",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表标题或日期变化"
+    },
+    "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767": {
+      "source_id": "aqours-official",
+      "projects": [
+        "aqours"
+      ],
+      "signature": "9705bad60d568a7fe8e9d13c8df795f12d75cbb66a33ab13a72719744aa2ac34",
+      "first_seen_on": "2026-10-31",
+      "burst_day": "2026-10-31",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6763": {
+      "source_id": "aqours-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "f72be6cd184c92ab240a6064c137b57705717029de2f5b6a02f4386e1dfa572f",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6739": {
+      "source_id": "aqours-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "4f448cabc0f788f2c1b4cbe72fb44b66b58dea622032cc57ca569824d85b09c1",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost": {
+      "source_id": "aqours-official",
+      "projects": [
+        "aqours"
+      ],
+      "signature": "2a14c05178b49783e90d324cd6be9696e1a798b002e1f6a9d523a6eab434355e",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/otonokizaka/detail.php?p=01_6763": {
+      "source_id": "muse-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "f72be6cd184c92ab240a6064c137b57705717029de2f5b6a02f4386e1dfa572f",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/otonokizaka/detail.php?p=01_6741": {
+      "source_id": "muse-official",
+      "projects": [
+        "nijigasaki"
+      ],
+      "signature": "566d1b41dc3709ff20f8c4a82d57f399a87a274cb21d7f13f6e4db78c05bed31",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/otonokizaka/detail.php?p=01_6739": {
+      "source_id": "muse-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "4f448cabc0f788f2c1b4cbe72fb44b66b58dea622032cc57ca569824d85b09c1",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/otonokizaka/event/lovelive4dx/": {
+      "source_id": "muse-official",
+      "projects": [
+        "muse"
+      ],
+      "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/otonokizaka/event/lovelive_orchestra2027/": {
+      "source_id": "muse-official",
+      "projects": [
+        "muse"
+      ],
+      "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6763": {
+      "source_id": "ikizulive-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "5ea5851e8d1aabc72ce2f87e9fa176755fddf1f3e2074e0d0128aa2581373377",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6739": {
+      "source_id": "ikizulive-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "bce563cf53846d736e48b67e2db6b198a985a6eca15ee14042b8daf84cbf9c57",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6729": {
+      "source_id": "ikizulive-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "51e8d42d6a80a8460af986cafa0e7aaeed779a4e4b101cf4863ad7e93949b064",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6679": {
+      "source_id": "ikizulive-official",
+      "projects": [
+        "ikizulive"
+      ],
+      "signature": "7a7fb90e2f44ed3682bc5f1eb96467442ad914922f4669b198e210f1b4d27e0d",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6661": {
+      "source_id": "ikizulive-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "d5e5c13a6eb44cb4ba7e88c2faa9d94aa88da062784dc8a0d0dd7674ab8b554a",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=3rdLIVE": {
+      "source_id": "ikizulive-official",
+      "projects": [
+        "ikizulive"
+      ],
+      "signature": "7424da13c7634c02f2486707f8a1a2ec0d9f6d47a57894eee6269eae983ab755",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest": {
+      "source_id": "lovelive-series-live",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "cd33835b7dbe40464430adf682eb426dededf54e3d2072be318c703db43879c5",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6763": {
+      "source_id": "hasunosora-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "89524b2bdac1df2d55244fb7e8cd8eb39122940f3dd9ec0836f4c1fd54cbb7fd",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6738": {
+      "source_id": "hasunosora-official",
+      "projects": [
+        "hasunosora"
+      ],
+      "signature": "acf1131de6d4e9da4d707f4ea278907c11caf781fe1e320c03d308b95c295291",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6739": {
+      "source_id": "hasunosora-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "58152b21cb32b41990ea71ca78d08e288dae859469f061122327db2dccfcf5e4",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6743": {
+      "source_id": "hasunosora-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "3a0f0becdeb343e067a74903215cae8502f2676e8cf84f5d6b231e2ae2f709b5",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6729": {
+      "source_id": "hasunosora-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "49bda760a35fe8c8dbe285fae27b0f2baedae3283f1690aa12e3a86374813a87",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream103": {
+      "source_id": "hasunosora-official",
+      "projects": [
+        "hasunosora"
+      ],
+      "signature": "81bb0b767270170da64d799a1328cdaeabfc57c653dd2db25f9ae28079a963e8",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream106": {
+      "source_id": "hasunosora-official",
+      "projects": [
+        "hasunosora"
+      ],
+      "signature": "e310b1839d647beb4400f7c2c82ebfba870d1d37a9b84fcea93107c259649a96",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/hasunosora/live-event/live_detail.php?p=LLDream": {
+      "source_id": "hasunosora-official",
+      "projects": [
+        "hasunosora"
+      ],
+      "signature": "0eb33353c728f4ca3e4f748e4916f99e6cc3794d43536ad8197f8bc78c34b8c6",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6763": {
+      "source_id": "liella-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "f72be6cd184c92ab240a6064c137b57705717029de2f5b6a02f4386e1dfa572f",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6751": {
+      "source_id": "liella-official",
+      "projects": [
+        "liella"
+      ],
+      "signature": "94fa17d726171a922e9eca4fac577fee2f83c1b89f028ea2be8a1df24f219460",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6739": {
+      "source_id": "liella-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "4f448cabc0f788f2c1b4cbe72fb44b66b58dea622032cc57ca569824d85b09c1",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour": {
+      "source_id": "liella-official",
+      "projects": [
+        "liella"
+      ],
+      "signature": "449834d60af60cd10aa49bcb0203eef7e75beeaa1bdf0b6fee7c9e2350592b58",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表标题或日期变化"
+    },
+    "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=musubu": {
+      "source_id": "liella-official",
+      "projects": [
+        "liella"
+      ],
+      "signature": "f4005a278bdacd772e2892d2c5ff816df347e9aa03eb36c725691dd2bf01e47a",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/fukui.php": {
+      "source_id": "gakuen-idolmaster-live",
+      "projects": [
+        "gakuen-idolmaster"
+      ],
+      "signature": "3074753218eb25bea87615175a2b54252c1117585b5c8eb575a17bfbd9ec8c58",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/fukuoka.php": {
+      "source_id": "gakuen-idolmaster-live",
+      "projects": [
+        "gakuen-idolmaster"
+      ],
+      "signature": "3141bbca7b8ae6bdb89f83094bb79a2fe008a1942a2c9099cdd6bbf0ed93dbdd",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/iwate.php": {
+      "source_id": "gakuen-idolmaster-live",
+      "projects": [
+        "gakuen-idolmaster"
+      ],
+      "signature": "a5980753a39294a8957bef1e079d3a9d7721ce307d3f0a7b14c0379c7fb74cf2",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php": {
+      "source_id": "gakuen-idolmaster-live",
+      "projects": [
+        "gakuen-idolmaster"
+      ],
+      "signature": "1c956b12c2ad6690e41ff6f99bc1776322367c001df5508d8a3420330af8784d",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表标题或日期变化"
+    },
+    "https://idolmaster-official.jp/news/01_20231": {
+      "source_id": "gakuen-idolmaster-portal",
+      "projects": [
+        "gakuen-idolmaster"
+      ],
+      "signature": "01388e6f6afb980ef413c2cfc56c0a77c004d78cf849e4439e7c1bffe8037553",
+      "first_seen_on": "2026-10-31",
+      "burst_day": null,
+      "pending": false,
+      "reason": "列表新增且未收录"
+    }
+  },
+  "daily_usage": {
+    "day": "2026-10-31",
+    "projects": {
+      "lovelive": [
+        "www.lovelive-anime.jp:news:01_6739"
+      ],
+      "aqours": [
+        "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+        "www.lovelive-anime.jp:news:01_6767"
+      ],
+      "liella": [
+        "www.lovelive-anime.jp:news:01_6751",
+        "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
+      ],
+      "gakuen-idolmaster": [
+        "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php"
+      ]
+    }
+  }
 }

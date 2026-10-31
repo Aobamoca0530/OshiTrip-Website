@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "revision": "b59411a7c46536b632ca3e8f2032e8cc6535e41fafc1851f5a1c29e79e37e0f6",
-  "publishedAt": "2026-10-30T14:34:28.980Z",
+  "revision": "4ca9b6b10ee1ed07991c3bdcebb20405ee45b318f12487034c9aeadac651c70f",
+  "publishedAt": "2026-10-31T14:06:13.013Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -10636,6 +10636,350 @@
               "url": "https://www.lovelive-anime.jp/lovehigh/live/live_detail.php?_id=3rdLIVE",
               "label": "官方正文 · 机器辅助整理",
               "checked_at": "2026-10-30T14:10:44.737Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-50f5f45cf4408056",
+          "slug": "official-50f5f45cf4408056",
+          "title_ja": "ラブライブ！スーパースター!!×相模原市 コラボスタンプラリー実施のお知らせ",
+          "title_zh": "Love Live! Superstar!! × 相模原市联动集章活动",
+          "category": "其他联动",
+          "summary": "2026年11月7日至12月27日，在相模原市4个地点举办联动集章活动，各点设置Liella!等身大立牌等展示；可从任一地点开始。集齐4枚章可在市立博物馆或sagamix兑换特制贴纸。JAXA仅明确11月7日14:00以后可自由入场，其余入场条件、休馆日和各点营业时间需查各场馆官网。图片链接已收录，图中文字本轮未能核实。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/10/29/1002/CUMZ6lejDASCcxF2/rZYHA1grHxjietGr.jpeg",
+            "alt": "Love Live! Superstar!! × 相模原市联动集章活动",
+            "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6751",
+            "checked_on": "2026-10-31"
+          },
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/10/29/1002/CUMZ6lejDASCcxF2/rZYHA1grHxjietGr.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6751",
+              "checked_on": "2026-10-31"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-50f5f45cf4408056-rule-0",
+              "kind": "参加",
+              "title": "活动期间与开始方式",
+              "text_zh": "令和8年即2026年，活动期为11月7日（土）至12月27日（日）。市内4处设置集章台，集章纸预定在这4处摆放，可从任一处开始；设有Liella!成员等身大立牌等。",
+              "evidence_ja": "・実施期間\n令和8年11月7日（土）～12月27日（日）まで\n・概要\nスタンプ台は相模原市内、下記設置箇所に記載の4箇所に設置します。\nスタンプラリーシートは下記4か所に配架予定、どこからでもスタートすることが可能です。\nスタンプ設置箇所にはLiella!のメンバーの等身大パネル等を設置します。",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6751",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-31"
+            },
+            {
+              "id": "auto-50f5f45cf4408056-rule-1",
+              "kind": "参加",
+              "title": "四个集章地点",
+              "text_zh": "相模湖观光案内所（绿区与濑1183）；JAXA相模原校园宇宙科学探查交流栋（中央区由野台3-1-1）；相模原市立博物馆（中央区高根3-1-15）；sagamix（南区相模大野3-2-1，bono相模大野购物中心2楼）。",
+              "evidence_ja": "・スタンプ設置箇所※\n〇相模湖観光案内所 （相模原市緑区与瀬１１８３）\nhttps://sagamiko.info/archives/52\n〇JAXA相模原キャンパス宇宙科学探査交流棟 （相模原市中央区由野台3-1-1）※\nhttps://www.isas.jaxa.jp/visit/\n〇相模原市立博物館 （相模原市中央区高根３－１－１５）\nhttps://sagamiharacitymuseum.jp/\n〇さがみはらアンテナショップsagamix （相模原市南区相模大野3-2-1ボーノ相模大野ショッピングセンター２階\nhttps://www.e-sagamihara.com/topics/topics-971/",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6751",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-31"
+            },
+            {
+              "id": "auto-50f5f45cf4408056-rule-2",
+              "kind": "参加",
+              "title": "各点开放日和JAXA入场限制",
+              "text_zh": "各处开放日和营业时间以各自官网为准。11月7日因JAXA特别开放活动，仅明确14:00以后可自由入场；当天更早时段的条件以及11月8日以后的入场方式须查官网。不得认定活动全期无需预约。",
+              "evidence_ja": "※開館日、営業時間については各スポットの公式サイトをご確認ください。\n※11月7日（土）はJAXA相模原キャンパス特別公開2026を実施中のため、14時以降に自由入場が可能となります。11月8日以降の入場については公式サイトをご確認ください。",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6751",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-31"
+            },
+            {
+              "id": "auto-50f5f45cf4408056-rule-3",
+              "kind": "参加",
+              "title": "集章特典与兑换地点",
+              "text_zh": "集齐全部4枚印章可获特制贴纸；兑换地点为相模原市立博物馆或sagamix。正文未列兑换数量限制、领取时限、库存或费用条件，不能据此保证有货或无其他要求。",
+              "evidence_ja": "・クリア限定特典\n４つのスタンプをすべて集めた方に、クリア限定特典として特製ステッカーをプレゼントします。\n〈クリア限定特典配布場所〉 相模原市立博物館／さがみはらアンテナショップsagamix",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6751",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-31"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "正文未说明整个集章活动是否需要预约或付费，不能视为无需预约；各点开放日与营业时间须查各自官网。 JAXA仅明确11月7日14:00后可自由入场，11月8日以后的入场条件请查官网。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-31T13:58:44.410Z",
+          "updated_at": "2026-10-31T13:58:44.410Z",
+          "franchise_ids": [
+            "liella"
+          ],
+          "venues": [
+            {
+              "id": "auto-50f5f45cf4408056-venue-c356863e89",
+              "city": "相模原",
+              "name": "相模湖観光案内所",
+              "address": null,
+              "start_date": "2026-11-07",
+              "end_date": "2026-12-27",
+              "rounds": [
+                {
+                  "id": "auto-50f5f45cf4408056-round-0",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6751",
+                  "note": "正文未说明整个集章活动是否需要预约或付费，不能视为无需预约；各点开放日与营业时间须查各自官网。地址：相模原市绿区与濑1183；开放日与时间见 https://sagamiko.info/archives/52 。"
+                }
+              ]
+            },
+            {
+              "id": "auto-50f5f45cf4408056-venue-39b8444b78",
+              "city": "相模原",
+              "name": "JAXA相模原キャンパス宇宙科学探査交流棟",
+              "address": null,
+              "start_date": "2026-11-07",
+              "end_date": "2026-12-27",
+              "rounds": [
+                {
+                  "id": "auto-50f5f45cf4408056-round-1",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6751",
+                  "note": "正文未说明整个集章活动是否需要预约或付费，不能视为无需预约；各点开放日与营业时间须查各自官网。地址：相模原市中央区由野台3-1-1；11月7日特别开放当天仅14:00以后可自由入场，不能扩大为全天或全期自由入场；11月8日起的入场方式见 https://www.isas.jaxa.jp/visit/ 。"
+                }
+              ]
+            },
+            {
+              "id": "auto-50f5f45cf4408056-venue-e3f2800350",
+              "city": "相模原",
+              "name": "相模原市立博物館",
+              "address": null,
+              "start_date": "2026-11-07",
+              "end_date": "2026-12-27",
+              "rounds": [
+                {
+                  "id": "auto-50f5f45cf4408056-round-2",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6751",
+                  "note": "正文未说明整个集章活动是否需要预约或付费，不能视为无需预约；各点开放日与营业时间须查各自官网。地址：相模原市中央区高根3-1-15；开放日与时间见 https://sagamiharacitymuseum.jp/ 。也是特典兑换处。"
+                }
+              ]
+            },
+            {
+              "id": "auto-50f5f45cf4408056-venue-35ea3bd227",
+              "city": "相模原",
+              "name": "さがみはらアンテナショップsagamix",
+              "address": null,
+              "start_date": "2026-11-07",
+              "end_date": "2026-12-27",
+              "rounds": [
+                {
+                  "id": "auto-50f5f45cf4408056-round-3",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6751",
+                  "note": "正文未说明整个集章活动是否需要预约或付费，不能视为无需预约；各点开放日与营业时间须查各自官网。地址：相模原市南区相模大野3-2-1，bono相模大野购物中心2楼；开放时间见 https://www.e-sagamihara.com/topics/topics-971/ 。也是特典兑换处。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-50f5f45cf4408056-source",
+              "url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6751",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-31T13:58:44.410Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-7fe220332289c14c",
+          "slug": "official-7fe220332289c14c",
+          "title_ja": "あげつち商店街×ラブライブ!サンシャイン!! クリスマスパーティ2026開催のお知らせ",
+          "title_zh": "上土商店街 × Love Live! Sunshine!! 圣诞交流会2026",
+          "category": "其他联动",
+          "summary": "2026年12月20日15:00—19:00（预计）在沼津河畔酒店4楼举办粉丝与商店街交流晚宴，每人17,000日元，定员400人。11月1日12:00至11月5日23:59接受抽选报名，可能提前截止；每人、每组仅可报名一次，最多2人。中奖并按期汇款后才算预约完成。官方图片链接已收录，但本轮未取得可验证的图片内容。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/10/31/1002/Ne8XrSqm2Kz26TWL/ppeJjWWeLXzLsIny.jpeg",
+            "alt": "上土商店街 × Love Live! Sunshine!! 圣诞交流会2026",
+            "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767",
+            "checked_on": "2026-10-31"
+          },
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/10/31/1002/Ne8XrSqm2Kz26TWL/ppeJjWWeLXzLsIny.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767",
+              "checked_on": "2026-10-31"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-7fe220332289c14c-rule-0",
+              "kind": "参加",
+              "title": "日期、会场与地址",
+              "text_zh": "2026年12月20日（日）15:00—19:00，时间为预计；会场为沼津河畔酒店4楼大宴会厅 Shangri-La，地址沼津市上土町100番地之1。",
+              "evidence_ja": "1、開催日時\n2026年12月20日(日)15:00～19:00(予定)\n2、開催場所\n沼津リバーサイドホテル 4階 大宴会場 (シャングリラ)\n沼津市上土町100番地の1\nhttp://www.numazu-rs-hotel.com",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-31"
+            },
+            {
+              "id": "auto-7fe220332289c14c-rule-1",
+              "kind": "参加",
+              "title": "费用和重复报名限制",
+              "text_zh": "每人17,000日元（含税），一次最多申请2人；每人、每组仅限一次。交换代表人与同行者姓名重复申请，或更换邮箱重复报名均无效。",
+              "evidence_ja": "3、イベント参加料金\n1名様 17,000円(税込) ※お申込みは2名様まで\n※1人1エントリー、1組1エントリーまでとなります。\n2名申し込みの際名前を入れ替えてのお申込み、アドレスを変えてお申込み等は無効といたします。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-31"
+            },
+            {
+              "id": "auto-7fe220332289c14c-rule-2",
+              "kind": "参加",
+              "title": "定员",
+              "text_zh": "定员400人；申请人数超过定员时，在报名结束后抽选。",
+              "evidence_ja": "4、イベント定員\n400名様 ※申込みエントリーが定員を超えた場合はエントリー終了後、抽選とさせていただきます。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-31"
+            },
+            {
+              "id": "auto-7fe220332289c14c-rule-3",
+              "kind": "参加",
+              "title": "活动内容",
+              "text_zh": "与上土商店街及相关人士交流；提供酒店特制西式套餐和软饮料、奖品娱乐活动，以及参加者限定原创特典。特典具体内容未在正文公布。",
+              "evidence_ja": "5、イベント内容\n①ラブライブ!サンシャイン!!のファンとあげつち商店街や関係者との交流会\n②沼津リバーサイドホテル特製のコース料理(洋食)とソフトドリンク\n③豪華景品のあたるお楽しみイベント\n④参加者限定のオリジナル特典付き",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-31"
+            },
+            {
+              "id": "auto-7fe220332289c14c-rule-4",
+              "kind": "参加",
+              "title": "报名轮次",
+              "text_zh": "通过官方所附表单报名，11月1日（日）12:00至11月5日（四）23:59受理，可能因申请量提前截止；以抽选决定结果。若首轮人数不足，可能追加招募，尚未确定第二轮。该报名段落未重述年份，准确受理时段请以报名入口为准。",
+              "evidence_ja": "次ページの申込みフォームによりエントリーをお願いいたします。エントリー受付は11月1日(日)12:00～11月5日(木)23:59の間となります。また一定のエントリー数に達した場合は早めに受付を終了する場合がございますので、その際はご了承くださいませ。 エントリーされた方の中から抽選により当落を決めさせていただきます。(一次受付にて一定のエントリー数に達しなかった場合は二次募集をする場合がございます。)",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-31"
+            },
+            {
+              "id": "auto-7fe220332289c14c-rule-5",
+              "kind": "参加",
+              "title": "结果通知、付款和预约成立",
+              "text_zh": "截止后1周内，中奖与落选者都会收到邮件。中奖者取得预约编号后，须在指定期限内通过金融机构汇款，手续费自理；确认到账才算正式预约。逾期未到账自动取消。正文未公布统一付款截止日。",
+              "evidence_ja": "抽選に当選された方、落選された方、ともにお申込み締め切り後1週間以内にメールにてご連絡させていただきます。 当選された方には予約番号をご案内いたしますので、指定の期限内に金融機関にてイベント代金のお振込みをお願いいたします。 (お振込み手数料はお客様のご負担にてお願いいたします。) お振込みが確認された時点で正式予約完了となります。 期限内にお振込みが確認されない場合は自動的にキャンセルになりますので、ご注意ください。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-31"
+            },
+            {
+              "id": "auto-7fe220332289c14c-rule-6",
+              "kind": "参加",
+              "title": "同行者登记",
+              "text_zh": "2人参加须填写同行者姓名；代表者与同行者互换姓名分别申请无效。",
+              "evidence_ja": "7、お願い\n※お申込みは1人1エントリーまでとなります。より多くの皆様にご参加できるようご協力をよろしくお願い申し上げます。\n※2名参加希望の方はご同行者様のお名前をご記入お願い致します。代表者とご同行者さまそれぞれ名前を入れ替えてのお申込みは無効となります。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-31"
+            },
+            {
+              "id": "auto-7fe220332289c14c-rule-7",
+              "kind": "参加",
+              "title": "主办与申请入口",
+              "text_zh": "由沼津上土商店街与沼津河畔酒店主办；申请入口见原文链接。正文未说明年龄限制、食物过敏安排或取消退款条件，参加前须向主办确认。",
+              "evidence_ja": "8、主催\n沼津上土商店街/沼津リバーサイドホテル\nお申込みフォーム\nhttps://biz.entryto.net/detail.php?e_id=53",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-10-31"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "官方写明11月1日12:00至11月5日23:59接受报名（日本当地时间），可能提前截止；报名段落未重述年份，准确受理时段请以报名入口为准。通过公告所附 https://biz.entryto.net/detail.php?e_id=53 报名；此处未读取表单，不能保证当前受理或余位。"
+          ],
+          "status": "published",
+          "verified_at": "2026-10-31T13:58:44.410Z",
+          "updated_at": "2026-10-31T13:58:44.410Z",
+          "franchise_ids": [
+            "aqours"
+          ],
+          "venues": [
+            {
+              "id": "auto-7fe220332289c14c-venue-cbdf59c7b2",
+              "city": "沼津",
+              "name": "沼津リバーサイドホテル",
+              "address": null,
+              "start_date": "2026-12-20",
+              "end_date": "2026-12-20",
+              "rounds": [
+                {
+                  "id": "auto-7fe220332289c14c-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767",
+                  "note": "官方写明11月1日12:00至11月5日23:59接受报名（日本当地时间），可能提前截止；报名段落未重述年份，准确受理时段请以报名入口为准。通过公告所附 https://biz.entryto.net/detail.php?e_id=53 报名；此处未读取表单，不能保证当前受理或余位。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-7fe220332289c14c-source",
+              "url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-10-31T13:58:44.410Z"
             }
           ]
         }
