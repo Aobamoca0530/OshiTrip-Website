@@ -23,6 +23,12 @@ const observation = {
   body_text: body,
 };
 describe("offline activity understanding", () => {
+  it("reads explicit Reiwa ranges without inventing years or accepting invalid era dates", () => {
+    expect(explicitDates("令和8年11月7日（土）～12月27日（日）まで")).toEqual(["2026-11-07", "2026-12-27"]);
+    expect(explicitDates("令和元年5月1日")).toEqual(["2019-05-01"]);
+    expect(explicitDates("令和元年4月30日、令和8年2月30日、令和0年11月7日")).toEqual([]);
+    expect(explicitDates("令和8年のお知らせ\n11月7日～12月27日")).toEqual([]);
+  });
   it("preserves different application deadlines for each tour stop", () => {
     const r = verified["https://bang-dream.com/events/ymmt-tour2027/"].reading;
     const body = [

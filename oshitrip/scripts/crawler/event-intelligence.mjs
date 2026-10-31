@@ -25,7 +25,15 @@ export const readingSchema = z.object({
 const normalize = text => text.normalize('NFKC').replace(/\s+/g, '');
 export function containsEvidence(body, quote) { return !!quote && normalize(body).includes(normalize(quote)); }
 export function explicitDates(text) {
-  const normalized = text.normalize('NFKC');
+  // Convert an explicit Reiwa year only; never infer a year from publication dates.
+  const normalized = text.normalize('NFKC').replace(/令和\s*(元|[1-9]\d?)\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日/g,
+    (original, era, month, day) => {
+      const year = era === '元' ? 2019 : 2018 + Number(era);
+      const iso = `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
+      const stamp = Date.parse(iso);
+      return iso >= '2019-05-01' && !Number.isNaN(stamp) && new Date(stamp).toISOString().slice(0, 10) === iso
+        ? `${year}年${month}月${day}日` : original;
+    });
   const dates = [];
   for (const m of normalized.matchAll(/(20\d{2})\s*[年/.-]\s*(\d{1,2})\s*[月/.-]\s*(\d{1,2})\s*日?/g)) {
     let month = m[2], offset = m.index + m[0].length;
