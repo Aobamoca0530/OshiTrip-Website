@@ -17,7 +17,7 @@ import { deduplicateSeriesNews } from './crawler/lovelive-news.mjs';
 import { prioritizeDiscovery, syncApprovedGallery, discoveryReport, useManualReading } from './crawler/discovery-promotion.mjs';
 import { imageReviewQueue } from './crawler/image-queue.mjs';
 import { syncVerifiedImageRules, verifiedImageSchema } from './crawler/verified-images.mjs';
-import { createUpdatePlanner, updateIndexes, substantiveObservation, sourceProjects, UPDATE_IMAGE_LIMIT } from './crawler/incremental.mjs';
+import { createUpdatePlanner, updateIndexes, substantiveObservation, sourceProjects, UPDATE_IMAGE_LIMIT, UPDATE_BATCH_LIMIT } from './crawler/incremental.mjs';
 
 const configured = JSON.parse(await fs.readFile('scripts/crawler/sources.json', 'utf8'));
 const projects = JSON.parse(await fs.readFile('scripts/crawler/project-keywords.json', 'utf8'));
@@ -26,7 +26,8 @@ const matchProjects = createProjectMatcher(projects);
 const relevant = (sourceId, title) => relevantAnnouncement(sourceId, title, projectFilter);
 const pruneOnly = process.argv.includes('--prune-only');
 const replay = process.argv.includes('--replay');
-const updates = process.argv.includes('--updates');
+const continuing = process.argv.includes('--continue-updates');
+const updates = process.argv.includes('--updates') || continuing;
 const sourceId = process.argv.find(arg => arg.startsWith('--source='))?.slice(9);
 if (sourceId && (replay || pruneOnly)) throw new Error('--source cannot be combined with replay/prune');
 if (pruneOnly && replay) throw new Error('--prune-only 与 --replay 不能同时使用');
@@ -37,7 +38,7 @@ const reviewConfig = resolveAI('review');
 const enabled = new Set(PUBLIC_SOURCE_IDS);
 if (sourceId && !enabled.has(sourceId)) throw new Error('Unknown or disabled public source');
 const sources = configured.filter(s => enabled.has(s.id) && (!sourceId || s.id === sourceId)).map(s => ({ ...s, public_fetch_enabled: true, index_url: s.id === 'sweets-paradise' ? 'https://www.sweets-paradise.jp/collaboration/' : s.index_url }));
-const lastReport = replay || sourceId ? JSON.parse(await fs.readFile('var/public-crawler/report.json', 'utf8')) : null;
+const lastReport = replay || sourceId || continuing ? JSON.parse(await fs.readFile('var/public-crawler/report.json', 'utf8')) : null;
 const stamp = replay ? lastReport.checked_at : new Date().toISOString();
 const retainedReports = sourceId ? lastReport.sources.filter(s => s.id !== sourceId).map(s => ({ ...s, checked_at: s.checked_at || lastReport.checked_at })) : [];
 const report = { checked_at: stamp, sources: replay ? lastReport.sources : retainedReports, items: 0, images: 0 };
@@ -50,34 +51,38 @@ const planner = updates && !replay ? createUpdatePlanner({
   state: JSON.parse(await fs.readFile('scripts/crawler/update-state.json', 'utf8')),
   announcements: existing, excluded, catalog, now: stamp,
   projectsFor: (source, title) => sourceProjects(source, title, matchProjects),
+  continuation: continuing,
 }) : null;
 const incremental = updates || (replay && lastReport.updates?.mode === 'updates');
 const observedUrls = new Set();
 const policies = new Map();
-const stoppedOrigins = new Map();
+const stoppedOrigins = new Map(Object.entries(planner?.blockedOrigins || {}));
+const continuationSources = planner?.summary().continuation_source_ids || [];
+if (continuing) report.sources = lastReport.sources.map(s => ({ ...s, checked_at: s.checked_at || lastReport.checked_at }));
 for (const { observation: o } of observations) observedUrls.add(o.source_url);
 observations = observations.filter(({ source, observation: o }) => relevant(source.id, o.title) && classifyAnnouncement(source, o));
-for (const source of pruneOnly || replay ? [] : sources) {
+for (const source of pruneOnly || replay ? [] : sources.filter(s => !continuing || continuationSources.includes(s.id))) {
   const result = stoppedOrigins.has(source.origin)
     ? { observations: [], status: 'blocked', errors: [`HTTP ${stoppedOrigins.get(source.origin)}：同站点已停止本轮访问`], deferred_urls: source.urls, discovered: source.urls.length, transport: source.transport || 'http' }
-    : await crawlPublicSource(planner ? updateIndexes(source) : source, { ...(planner ? { selectDetailUrls: async (entries, result) => {
+    : await crawlPublicSource(planner ? { ...updateIndexes(source), ...(continuing ? { index_url: null, index_urls: [] } : {}) } : source, { ...(planner ? { selectDetailUrls: async (entries, result) => {
       const urls = planner.select(source, entries, result);
       await fs.writeFile('scripts/crawler/update-state.next.json', JSON.stringify(planner.state, null, 2) + '\n');
       await fs.rename('scripts/crawler/update-state.next.json', 'scripts/crawler/update-state.json');
       return urls;
-    } } : {}), limit: source.page_limit || (source.id === 'bang-dream-live' ? 40 : 16), acceptDiscoveredLink: ({ url, title }) => {
+    } } : {}), limit: planner ? UPDATE_BATCH_LIMIT : source.page_limit || (source.id === 'bang-dream-live' ? 40 : 16), acceptDiscoveredLink: ({ url, title }) => {
       const liveDirectory = /\/live_detail\.php|\/otonokizaka\/event\//.test(url);
       const dates = liveDirectory ? explicitDates(title) : [];
       if (dates.length && dates.every(date => date < stamp.slice(0,10))) return false;
       return relevant(source.id, title) && (['bang-dream-live', 'starlight-events', 'gakuen-idolmaster-live', 'gakuen-idolmaster-portal'].includes(source.id) || liveDirectory || classifyOffline(title) !== null || /抽選|先行|コラボ|イベント|ご当地情報|開催|バースデー.*メニュー|記念メニュー/.test(title));
     } });
   const stoppedStatus = result.errors?.join(' ').match(/\bHTTP (401|403|429)\b/)?.[1];
-  if (stoppedStatus) stoppedOrigins.set(source.origin, stoppedStatus);
+  if (stoppedStatus) { stoppedOrigins.set(source.origin, stoppedStatus); planner?.stopOrigin(source.origin, stoppedStatus); }
   planner?.finish(result.observations);
   const incoming = planner ? result.observations.filter(o => substantiveObservation(o, existing.find(row => row.source_url === o.source_url))) : result.observations;
   for (const o of incoming) observedUrls.add(o.source_url);
   if (result.robots_rules) policies.set(source.id, result.robots_rules);
-  report.sources.push({ id: source.id, transport: result.transport, browser_mode: result.browser_mode, status: result.status, robots: result.robots_status || 'not-checked', pages: result.observations.length, index_pages: result.index_pages || 0, scope: planner ? 'updates' : 'full', discovered: result.discovered, deferred_urls: result.deferred_urls || [], excluded: result.observations.filter(o => !relevant(source.id, o.title)).length, errors: result.errors, access_diagnostics: result.access_diagnostics || [] });
+  if (continuing) report.sources = report.sources.filter(s => s.id !== source.id);
+  report.sources.push({ id: source.id, transport: result.transport, browser_mode: result.browser_mode, status: result.status, robots: result.robots_status || 'not-checked', pages: result.observations.length, index_pages: result.index_pages || 0, scope: planner ? 'updates' : 'full', continuation: continuing, discovered: result.discovered, deferred_urls: result.deferred_urls || [], excluded: result.observations.filter(o => !relevant(source.id, o.title)).length, errors: result.errors, access_diagnostics: result.access_diagnostics || [] });
   for (const observation of incoming) if (relevant(source.id, observation.title) && classifyAnnouncement(source, observation)) observations.push({ source, observation, observed_at: stamp });
 }
 observations = deduplicateSeriesNews(observations, existing);
@@ -92,8 +97,8 @@ if (planner && observations.length) {
   await fs.writeFile(`var/public-crawler/update-batches/${stamp.replaceAll(':', '-')}.json`, JSON.stringify(observations, null, 2) + '\n');
 }
 await fs.writeFile('var/public-crawler/report.json', JSON.stringify(report, null, 2) + '\n');
-if (!pruneOnly && !replay && !report.sources.some(source => (!sourceId || source.id === sourceId) && (source.pages > 0 || source.status === 'success'))) throw new Error('No source returned a usable announcement; existing public data has been preserved.');
 if (planner) await fs.writeFile('scripts/crawler/update-state.json', JSON.stringify(planner.state, null, 2) + '\n');
+if (!pruneOnly && !replay && !report.sources.some(source => (!sourceId || source.id === sourceId) && (source.pages > 0 || source.status === 'success'))) throw new Error('No source returned a usable announcement; existing public data has been preserved.');
 // An unchanged index is a complete lightweight check, not a request to replay
 // historical review queues or regenerate every public bundle.
 if (planner && !observedUrls.size) {
@@ -224,6 +229,7 @@ for (const { source, observation: o } of prioritizeDiscovery(observations, next)
     imageAttempts.push({ source_url: o.source_url, ...result });
     if ([401, 403, 429].includes(result.source_http_status)) {
       stoppedOrigins.set(source.origin, result.source_http_status);
+      planner?.stopOrigin(source.origin, result.source_http_status);
       break;
     }
     // Image-only readings remain visibly unverified and never set travel or ticket dates.
@@ -249,6 +255,10 @@ await fs.writeFile('src/data/catalog.json', JSON.stringify(catalog, null, 2) + '
 await fs.writeFile('scripts/crawler/excluded-sources.json', JSON.stringify(excluded, null, 2) + '\n');
 report.items = next.length;
 report.images = next.reduce((sum, item) => sum + item.images.length, 0);
+if (planner) {
+  report.updates = { ...report.updates, ...planner.summary() };
+  await fs.writeFile('scripts/crawler/update-state.json', JSON.stringify(planner.state, null, 2) + '\n');
+}
 await fs.writeFile('var/public-crawler/report.json', JSON.stringify(report, null, 2) + '\n');
 await fs.writeFile('var/public-crawler/assistant-queue.json', JSON.stringify({ workflow_version: WORKFLOW_VERSION, contract_command: 'pnpm maintain:public --contract', checked_at: stamp, scope: incremental ? 'updates' : 'full', historical_pending: incremental ? next.filter(r => r.activity.state !== 'ready' && !observedUrls.has(r.source_url)).length : 0, items: queue, missing_observations: incremental ? [] : next.filter(r => r.activity.state !== 'ready' && !observations.some(x => x.observation.source_url === r.source_url)).map(r => ({ source_url: r.source_url, title: r.title })) }, null, 2) + '\n');
 console.log(JSON.stringify(report, null, 2));

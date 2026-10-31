@@ -39,6 +39,11 @@ jobs:
         run: |
           if [ "$PUBLISH_SNAPSHOTS" = "true" ]; then
             xvfb-run --auto-servernum pnpm maintain:public --publish
+            # Only drain today's already-discovered changes in small batches.
+            # Continuations never rescan indexes or retry blocked origins.
+            while node --input-type=module -e 'import fs from "node:fs"; const r = JSON.parse(fs.readFileSync("var/public-crawler/workflow-report.json", "utf8")); process.exit(r.updates?.continuation_urls?.length ? 0 : 1)'; do
+              xvfb-run --auto-servernum pnpm maintain:public --continue-updates --publish
+            done
           else
             xvfb-run --auto-servernum pnpm maintain:public
           fi

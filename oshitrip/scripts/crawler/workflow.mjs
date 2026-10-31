@@ -6,7 +6,7 @@ import { readingSchema, reviewSchema, TRANSLATION_INSTRUCTIONS, REVIEW_INSTRUCTI
 import { verifiedImageSchema } from './verified-images.mjs';
 import { IMAGE_TRANSLATION_INSTRUCTIONS } from './image-rules.mjs';
 
-export const WORKFLOW_VERSION = '1.5.0';
+export const WORKFLOW_VERSION = '1.5.1';
 export function canSkipUnchanged(crawl, hasPendingEdits) {
   return crawl.updates?.mode === 'updates' && crawl.updates.no_content_change === true
     && !crawl.updates.state_changed && !hasPendingEdits;
@@ -16,7 +16,7 @@ export function workflowContract() {
     workflow_version: WORKFLOW_VERSION,
     documentation: 'docs/official-news-workflow.md',
     providers: ['openai', 'bailian', 'deepseek', 'manual'],
-    daily_scope: { mode: 'updates', detail_limit_per_project_per_day: 5, quota_timezone: 'Asia/Shanghai', project_groups: ['bang-dream', 'lovelive', 'starlight', 'gakuen-idolmaster'], image_limit: 8, recent_days: 14, historical_backfill: false, state: 'scripts/crawler/update-state.json' },
+    daily_scope: { mode: 'updates', baseline_daily_limit_per_ip: 5, per_ip_batch_limit: 5, total_batch_limit: 20, allow_today_update_overflow: true, quota_timezone: 'Asia/Shanghai', grouping: 'BanG Dream! / Love Live! sub-IPs; series-wide or joint news uses the shared-series group', image_limit: 8, recent_days: 14, historical_backfill: false, continuation_command: 'pnpm maintain:public --continue-updates --collect-only', state: 'scripts/crawler/update-state.json' },
     stages: ['collect', 'classify-and-deduplicate', 'translate', 'independent-review', 'validate-evidence', 'prepare-public-data', 'check', 'publish'],
     inputs: { observation: z.toJSONSchema(observationSchema), verified_booking_method: z.toJSONSchema(supportingBookingEvidenceSchema) },
     outputs: { translation: z.toJSONSchema(readingSchema), review: z.toJSONSchema(reviewSchema), ticket_product_candidate: z.toJSONSchema(ticketProductSchema), verified_ticket_product: z.toJSONSchema(verifiedTicketProductSchema), verified_image: z.toJSONSchema(verifiedImageSchema) },
@@ -34,7 +34,7 @@ export function workflowContract() {
       'Changed source invalidates prior approval. Failed requests preserve prior data and do not count as fresh verification.',
       'Prepare local bundles first; publish to the remote only after all checks pass.',
       'Ticket products require separate source-bound review. Never infer a purchase requirement from a general lottery.',
-      'Daily checks inspect index updates, at most five detail attempts per project per Beijing calendar day and eight images per run, without historical backfill. Daily quotas persist across runs; explicit full/source-scoped audits retain other sources and original timestamps.',
+      'Daily checks group BanG Dream!/Love Live! sub-IPs separately. Five is a baseline and per-IP batch size, not a cap on today\'s verified listing updates. Continue only today\'s queued changes, without rereading indexes, failed URLs, stopped origins or old backlog. Each batch has at most twenty details and eight images.',
       'Multiple distinct images prioritize review, never authorize publication. Partial manual summaries may be completed by configured translation and independent review providers; explicit manual rejections remain binding.',
       'Approved activities carry up to 40 distinct official image links into discovery, including on cached runs. Collection provenance does not verify text inside images. Missing booking details stay unknown, never free entry.',
     ],
@@ -43,10 +43,10 @@ export function workflowContract() {
   };
 }
 
-/** @param {{replay?: boolean, sourceId?: string, full?: boolean}} options */
-export function maintenanceStages({ replay = false, sourceId, full = false } = {}) {
+/** @param {{replay?: boolean, sourceId?: string, full?: boolean, continueUpdates?: boolean}} options */
+export function maintenanceStages({ replay = false, sourceId, full = false, continueUpdates = false } = {}) {
   return [
-    ['collect', ['scripts/crawl-public.mjs', ...(replay ? ['--replay'] : !full && !sourceId ? ['--updates'] : []), ...(sourceId ? [`--source=${sourceId}`] : [])]],
+    ['collect', ['scripts/crawl-public.mjs', ...(replay ? ['--replay'] : !full && !sourceId ? ['--updates'] : []), ...(continueUpdates ? ['--continue-updates'] : []), ...(sourceId ? [`--source=${sourceId}`] : [])]],
     ['check-browser-collection', ['scripts/check-browser-collection.mjs']],
     ['prepare-source-status', ['scripts/build-source-status.mjs']],
     ['prepare-ticket-products', ['scripts/prepare-ticket-products.mjs']],

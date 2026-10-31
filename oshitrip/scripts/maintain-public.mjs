@@ -6,10 +6,11 @@ import { acquireRunLock, preparePublication, publishValidated, saveRunReport, gi
 import { WORKFLOW_VERSION, workflowContract, maintenanceStages, runStages, canSkipUnchanged } from './crawler/workflow.mjs';
 
 const args = process.argv.slice(2);
-if (args.some(arg => !['--replay', '--contract', '--publish', '--collect-only', '--full'].includes(arg) && !/^--source=[a-z0-9-]+$/.test(arg))) throw new Error('Unsupported maintenance argument');
+if (args.some(arg => !['--replay', '--contract', '--publish', '--collect-only', '--full', '--continue-updates'].includes(arg) && !/^--source=[a-z0-9-]+$/.test(arg))) throw new Error('Unsupported maintenance argument');
 if (args.includes('--collect-only') && (args.includes('--publish') || args.includes('--replay'))) throw new Error('--collect-only cannot be combined with --publish or --replay');
 if (args.includes('--full') && args.includes('--replay')) throw new Error('--full cannot be combined with --replay');
 const sourceId = args.find(arg => arg.startsWith('--source='))?.slice(9);
+if (args.includes('--continue-updates') && (sourceId || args.includes('--full') || args.includes('--replay'))) throw new Error('--continue-updates cannot be combined with full/source/replay');
 if (sourceId && args.includes('--replay')) throw new Error('--source cannot be combined with --replay');
 if (args.includes('--contract')) {
   console.log(JSON.stringify(workflowContract(), null, 2));
@@ -27,7 +28,7 @@ if (args.includes('--contract')) {
       child.once('error', reject);
       child.once('exit', code => resolve(code));
     });
-    const stages = maintenanceStages({ replay: args.includes('--replay'), sourceId, full: args.includes('--full') });
+    const stages = maintenanceStages({ replay: args.includes('--replay'), sourceId, full: args.includes('--full'), continueUpdates: args.includes('--continue-updates') });
     await runStages(stages.slice(0, 1), execute, report);
     const crawl = JSON.parse(await fs.readFile('var/public-crawler/report.json', 'utf8'));
     report.updates = crawl.updates;
