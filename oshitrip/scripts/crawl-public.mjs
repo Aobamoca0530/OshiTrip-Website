@@ -9,7 +9,7 @@ import { crawlPublicSource } from './crawler/browser.mjs';
 import { createImageReviewer, bailianEndpoint } from './crawler/image-rules.mjs';
 import { mergeAnnouncements } from './crawler/public-news.mjs';
 import { loadDataSchema } from './load-data-schema.mjs';
-import { createProjectFilter, relevantAnnouncement } from './crawler/project-filter.mjs';
+import { createProjectFilter, createProjectMatcher, relevantAnnouncement } from './crawler/project-filter.mjs';
 import { classifyOffline, translateActivity, validateReading, reviewActivity, eventFromReading, pendingActivity, explicitDates, reviewSchema, containsEvidence } from './crawler/event-intelligence.mjs';
 import { resolveAI, publicAIConfig } from './crawler/ai-provider.mjs';
 import { classifyAnnouncement } from './crawler/offline-filter.mjs';
@@ -17,10 +17,12 @@ import { deduplicateSeriesNews } from './crawler/lovelive-news.mjs';
 import { prioritizeDiscovery, syncApprovedGallery, discoveryReport, useManualReading } from './crawler/discovery-promotion.mjs';
 import { imageReviewQueue } from './crawler/image-queue.mjs';
 import { syncVerifiedImageRules, verifiedImageSchema } from './crawler/verified-images.mjs';
-import { createUpdatePlanner, updateIndexes, substantiveObservation, UPDATE_IMAGE_LIMIT } from './crawler/incremental.mjs';
+import { createUpdatePlanner, updateIndexes, substantiveObservation, sourceProjects, UPDATE_IMAGE_LIMIT } from './crawler/incremental.mjs';
 
 const configured = JSON.parse(await fs.readFile('scripts/crawler/sources.json', 'utf8'));
-const projectFilter = createProjectFilter(JSON.parse(await fs.readFile('scripts/crawler/project-keywords.json', 'utf8')));
+const projects = JSON.parse(await fs.readFile('scripts/crawler/project-keywords.json', 'utf8'));
+const projectFilter = createProjectFilter(projects);
+const matchProjects = createProjectMatcher(projects);
 const relevant = (sourceId, title) => relevantAnnouncement(sourceId, title, projectFilter);
 const pruneOnly = process.argv.includes('--prune-only');
 const replay = process.argv.includes('--replay');
@@ -47,6 +49,7 @@ const excluded = JSON.parse(await fs.readFile('scripts/crawler/excluded-sources.
 const planner = updates && !replay ? createUpdatePlanner({
   state: JSON.parse(await fs.readFile('scripts/crawler/update-state.json', 'utf8')),
   announcements: existing, excluded, catalog, now: stamp,
+  projectsFor: (source, title) => sourceProjects(source, title, matchProjects),
 }) : null;
 const incremental = updates || (replay && lastReport.updates?.mode === 'updates');
 const observedUrls = new Set();
@@ -57,7 +60,12 @@ observations = observations.filter(({ source, observation: o }) => relevant(sour
 for (const source of pruneOnly || replay ? [] : sources) {
   const result = stoppedOrigins.has(source.origin)
     ? { observations: [], status: 'blocked', errors: [`HTTP ${stoppedOrigins.get(source.origin)}：同站点已停止本轮访问`], deferred_urls: source.urls, discovered: source.urls.length, transport: source.transport || 'http' }
-    : await crawlPublicSource(planner ? updateIndexes(source) : source, { ...(planner ? { selectDetailUrls: (entries, result) => planner.select(source, entries, result) } : {}), limit: source.page_limit || (source.id === 'bang-dream-live' ? 40 : 16), acceptDiscoveredLink: ({ url, title }) => {
+    : await crawlPublicSource(planner ? updateIndexes(source) : source, { ...(planner ? { selectDetailUrls: async (entries, result) => {
+      const urls = planner.select(source, entries, result);
+      await fs.writeFile('scripts/crawler/update-state.next.json', JSON.stringify(planner.state, null, 2) + '\n');
+      await fs.rename('scripts/crawler/update-state.next.json', 'scripts/crawler/update-state.json');
+      return urls;
+    } } : {}), limit: source.page_limit || (source.id === 'bang-dream-live' ? 40 : 16), acceptDiscoveredLink: ({ url, title }) => {
       const liveDirectory = /\/live_detail\.php|\/otonokizaka\/event\//.test(url);
       const dates = liveDirectory ? explicitDates(title) : [];
       if (dates.length && dates.every(date => date < stamp.slice(0,10))) return false;

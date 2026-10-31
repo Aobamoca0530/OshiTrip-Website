@@ -1,11 +1,13 @@
 import { describe, expect, it } from 'vitest';
-import { createUpdatePlanner, updateIndexes, updateKey, substantiveObservation } from '../../scripts/crawler/incremental.mjs';
+import { createUpdatePlanner, updateIndexes, updateKey, substantiveObservation, sourceProjects } from '../../scripts/crawler/incremental.mjs';
+import { createProjectMatcher } from '../../scripts/crawler/project-filter.mjs';
+import projects from '../../scripts/crawler/project-keywords.json';
 import { crawlSource, discoverEntries } from '../../scripts/crawler/core.mjs';
 import { canSkipUnchanged, maintenanceStages } from '../../scripts/crawler/workflow.mjs';
 
 const now='2026-10-31T12:00:00+09:00';
 const source={id:'test',origin:'https://example.com',index_url:'https://example.com/news/',index_urls:['https://example.com/news/page/2/'],urls:['https://example.com/news/1/'],public_fetch_enabled:true,path_patterns:['^/news/(?:[0-9]+/|page/2/)?$'],discovery_patterns:['^/news/[0-9]+/$']};
-const empty=()=>({version:1,sources:{},entries:{}});
+const empty=()=>({version:2,sources:{},entries:{}});
 const options=()=>({state:empty(),announcements:[{source_url:source.urls[0]}],excluded:{},catalog:{events:[]},now});
 const entry=(id:number,title='2026.10.31 新イベント')=>({url:`https://example.com/news/${id}/`,title});
 const complete={complete:true};
@@ -40,16 +42,37 @@ describe('incremental official update checks',()=>{
     const ended=createUpdatePlanner({...options(),state:p.state,catalog:{events:[{sources:[{url:entry(1).url}],venues:[{end_date:'2025-12-31'}]}]}});
     expect(ended.select(source,[entry(1,'2026.10.31 更新')],complete)).toEqual([]);
   });
-  it('caps the whole run at five details and retains overflow for subsequent runs',()=>{
-    const p=createUpdatePlanner(options());
-    const a=p.select(source,[entry(2),entry(3),entry(4)],complete);
-    const b=p.select({...source,id:'b'},[entry(5),entry(6),entry(7)],complete);
-    const c=p.select({...source,id:'c'},[entry(8),entry(9)],complete);
-    expect([...a,...b,...c]).toHaveLength(5);
-    p.finish([...a,...b,...c].map(source_url=>({source_url})));
-    expect(p.summary().pending_urls).toEqual([entry(4).url,entry(7).url,entry(9).url]);
-    const next=createUpdatePlanner({...options(),state:p.state});
-    expect(next.select(source,[],complete)).toEqual([entry(4).url]);
+  it('shares five daily reads across one project and gives another project its own five',()=>{
+    const projectsFor=(s:{id:string})=>[s.id==='other'?'other-project':'same-project'];
+    const p=createUpdatePlanner({...options(),projectsFor});
+    const a=p.select(source,[2,3,4,5,6,7].map(n=>entry(n)),complete);
+    const b=p.select({...source,id:'news'},[entry(8)],complete);
+    const c=p.select({...source,id:'other'},[9,10,11,12,13,14].map(n=>entry(n)),complete);
+    expect(a).toHaveLength(5);expect(b).toEqual([]);expect(c).toHaveLength(5);
+    p.finish([...a,...c].map(source_url=>({source_url})));
+    const next=createUpdatePlanner({...options(),projectsFor,state:p.state});
+    expect(next.select(source,[],complete)).toEqual([]);
+    expect(next.summary().daily_usage).toEqual({'same-project':5,'other-project':5});
+    const tomorrow=createUpdatePlanner({...options(),projectsFor,state:p.state,now:'2026-11-01T12:00:00+08:00'});
+    expect(tomorrow.select(source,[],complete)).toEqual([entry(7).url]);
+  });
+  it('resets quotas at Beijing midnight and counts failed attempts across restarts',()=>{
+    const p=createUpdatePlanner({...options(),now:'2026-10-31T15:59:00Z'});
+    expect(p.select(source,[2,3,4,5,6,7].map(n=>entry(n)),complete)).toHaveLength(5);
+    const restarted=createUpdatePlanner({...options(),state:p.state,now:'2026-10-31T15:59:59Z'});
+    expect(restarted.select(source,[],complete)).toEqual([]);
+    const midnight=createUpdatePlanner({...options(),state:p.state,now:'2026-10-31T16:00:00Z'});
+    expect(midnight.select(source,[],complete)).toHaveLength(5);
+    expect(midnight.summary().quota_day).toBe('2026-11-01');
+  });
+  it('uses the four configured project groups and classifies shared retailers by title',()=>{
+    const match=createProjectMatcher(projects);
+    expect(sourceProjects({id:'nijigasaki-news'},'',match)).toEqual(['lovelive']);
+    expect(sourceProjects({id:'liella-official'},'',match)).toEqual(['lovelive']);
+    expect(sourceProjects({id:'starlight-events'},'',match)).toEqual(['starlight']);
+    expect(sourceProjects({id:'bushiroad-creative'},'BanG Dream! 新商品',match)).toEqual(['bang-dream']);
+    expect(sourceProjects({id:'sweets-paradise'},'学園アイドルマスター × ラブライブ！',match)).toEqual(['lovelive','gakuen-idolmaster']);
+    expect(sourceProjects({id:'sweets-paradise'},'',match)).toEqual([]);
   });
   it('does not treat a republished Love Live news URL as a new uncollected article',()=>{
     const url='https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_1234';

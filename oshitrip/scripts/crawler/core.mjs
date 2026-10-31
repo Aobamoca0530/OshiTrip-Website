@@ -461,7 +461,7 @@ export async function fetchLimited(
 }
 /**
  * @param {object} source
- * @param {{fetcher?: typeof fetch, readPage?: (url: string, policy: {permits: (path: string) => boolean}) => Promise<string>, readRobots?: (url: string) => Promise<string>, pause?: (ms: number) => Promise<void>, limit?: number, imageReviewer?: Function, acceptDiscoveredLink?: (link: {url: string, title: string}) => boolean, selectDetailUrls?: (entries: Array<{url: string, title: string}>, result: {complete: boolean}) => string[]}} options
+ * @param {{fetcher?: typeof fetch, readPage?: (url: string, policy: {permits: (path: string) => boolean}) => Promise<string>, readRobots?: (url: string) => Promise<string>, pause?: (ms: number) => Promise<void>, limit?: number, imageReviewer?: Function, acceptDiscoveredLink?: (link: {url: string, title: string}) => boolean, selectDetailUrls?: (entries: Array<{url: string, title: string}>, result: {complete: boolean}) => string[] | Promise<string[]>}} options
  */
 export async function crawlSource(
   source,
@@ -544,7 +544,7 @@ export async function crawlSource(
   }
   // Explicitly tracked Live/details must not be starved by a busy news index.
   urls = [...new Set(source.public_fetch_enabled ? [...urls, ...discovered] : [...discovered, ...urls])];
-  if (selectDetailUrls) urls = accessStopped ? [] : selectDetailUrls(entries, { complete: !errors.length });
+  if (selectDetailUrls) urls = accessStopped ? [] : await selectDetailUrls(entries, { complete: !errors.length });
   const selected = accessStopped ? [] : urls.slice(0, Math.min(source.public_fetch_enabled ? 80 : 30, limit));
   let attempted = 0;
   for (const url of selected) {
