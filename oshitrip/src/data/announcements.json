@@ -1,5 +1,68 @@
 [
   {
+    "id": "87404a8ec7a814534d8729aa",
+    "source_id": "bang-dream-live",
+    "source_url": "https://bang-dream.com/events/29304/",
+    "title": "LISANI！TOKYO 2027",
+    "first_seen_at": "2026-11-01T14:03:15.951Z",
+    "last_seen_at": "2026-11-01T14:03:15.951Z",
+    "changed_at": "2026-11-01T14:03:15.951Z",
+    "content_hash": "ebf01dad79db69b31131b2e1ba7f0b4239b3357362271456696c7098939b9dcc",
+    "related_event_ids": [
+      "auto-87404a8ec7a81453"
+    ],
+    "images": [
+      {
+        "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30090922/f5a49ee6-333f1dfa-19af0c76-5e4ba328.jpg",
+        "alt": "LISANI！TOKYO 2027",
+        "kind": "unknown"
+      },
+      {
+        "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/31213643/11dff173-9cbbfadb-b82fcf35-5ca7d363.jpg",
+        "alt": "",
+        "kind": "unknown"
+      },
+      {
+        "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30091213/c11eaf90-c750abcb-882a03af-bc6ddb4f.jpg",
+        "alt": "",
+        "kind": "unknown"
+      }
+    ],
+    "activity": {
+      "kind": "live",
+      "state": "ready",
+      "title_zh": "LISANI！TOKYO 2027：Poppin’Party、millsage与一家Dumb Rock!出演",
+      "summary_zh": "2027年2月20日、21日在东京 TOYOTA ARENA TOKYO 举办。20日 SATURDAY STAGE 由 millsage、一家Dumb Rock!出演，21日 SUNDAY STAGE 由 Poppin’Party出演；两日均预计15:00入场、16:00开演（日本时间）。票务请查主办官网，本条公告未说明报名方式、受理时段及费用。",
+      "rules": [
+        {
+          "title": "两日场次与时间",
+          "text_zh": "2027年2月20日（周六）及21日（周日），两日均预计15:00入场、16:00开演，日本当地时间。会场为 TOYOTA ARENA TOKYO。",
+          "evidence_ja": "日程\n2027年2月20日(土) 開場15:00／開演16:00（予定）\n2027年2月21日(日) 開場15:00／開演16:00（予定）\n2月20日(土) SATURDAY STAGEにmillsage・一家Dumb Rock! が出演！\n2月21日(日) SUNDAY STAGEにPoppin'Partyが出演！\n会場\nTOYOTA ARENA TOKYO"
+        },
+        {
+          "title": "出演日期对应",
+          "text_zh": "millsage与一家Dumb Rock!出演2月20日 SATURDAY STAGE；Poppin’Party出演2月21日 SUNDAY STAGE。不可将三个团体都安排到同一天。",
+          "evidence_ja": "2月20日(土) SATURDAY STAGEにmillsage・一家Dumb Rock! が出演！\n2月21日(日) SUNDAY STAGEにPoppin'Partyが出演！"
+        },
+        {
+          "title": "票务条件尚待主办公告确认",
+          "text_zh": "本条出演公告仅指向主办官网 https://www.lisani.jp/live/ 查询售票信息，未列报名轮次、抽选或先着方式、受理时段、票价、年龄及张数限制；不能据此认定无需预约、正在售票或有余票。未公布任何购买附券商品的要求。",
+          "evidence_ja": "チケットの受付情報は公式サイトをご確認ください。\nhttps://www.lisani.jp/live/"
+        }
+      ],
+      "source_hash": "9a18a7b06f753214e2acba440bc8e8f2be92761d470b8ff4a579470b18d5c221",
+      "model": "source-reviewed",
+      "reason": "正文日期、地点及规则证据通过校验",
+      "review": {
+        "state": "approved",
+        "provider": "manual",
+        "model": "source-reviewed",
+        "reason": "已单独逐项对照完整正文复核：两日日期、场地、预计开场/开演时间及出演乐队对应一致。票务只提供主办查询入口，未臆造抽选轮次、费用、年龄限制或附券购买要求。三张原图已实际读取，没有新增参与或购票规则；结构化日期仅来自正文。"
+      }
+    },
+    "image_readings": []
+  },
+  {
     "id": "50f5f45cf44080564f040924",
     "source_id": "liella-official",
     "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6751",

@@ -1,7 +1,7 @@
 {
   "formatVersion": 4,
-  "revision": "44e12ff74fa3eddbbed0fcfc1a7233ba35b7149c3f666e45d66eb3df721611fd",
-  "publishedAt": "2026-10-31T14:06:13.013Z",
+  "revision": "2b10ffa5cd59bed908aae46b8f2a558f35be37e0633979eeaeb4ef4420a8f432",
+  "publishedAt": "2026-11-01T14:07:51.484Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -10982,6 +10982,147 @@
               "checked_at": "2026-10-31T13:58:44.410Z"
             }
           ]
+        },
+        {
+          "id": "auto-87404a8ec7a81453",
+          "slug": "official-87404a8ec7a81453",
+          "title_ja": "LISANI！TOKYO 2027",
+          "title_zh": "LISANI！TOKYO 2027：Poppin’Party、millsage与一家Dumb Rock!出演",
+          "category": "音乐和声优活动",
+          "summary": "2027年2月20日、21日在东京 TOYOTA ARENA TOKYO 举办。20日 SATURDAY STAGE 由 millsage、一家Dumb Rock!出演，21日 SUNDAY STAGE 由 Poppin’Party出演；两日均预计15:00入场、16:00开演（日本时间）。票务请查主办官网，本条公告未说明报名方式、受理时段及费用。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30090922/f5a49ee6-333f1dfa-19af0c76-5e4ba328.jpg",
+            "alt": "LISANI！TOKYO 2027：Poppin’Party、millsage与一家Dumb Rock!出演",
+            "source_url": "https://bang-dream.com/events/29304/",
+            "checked_on": "2026-11-01"
+          },
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30090922/f5a49ee6-333f1dfa-19af0c76-5e4ba328.jpg",
+              "alt": "LISANI！TOKYO 2027",
+              "source_url": "https://bang-dream.com/events/29304/",
+              "checked_on": "2026-11-01"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/31213643/11dff173-9cbbfadb-b82fcf35-5ca7d363.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/29304/",
+              "checked_on": "2026-11-01"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30091213/c11eaf90-c750abcb-882a03af-bc6ddb4f.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/29304/",
+              "checked_on": "2026-11-01"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-87404a8ec7a81453-rule-0",
+              "kind": "参加",
+              "title": "两日场次与时间",
+              "text_zh": "2027年2月20日（周六）及21日（周日），两日均预计15:00入场、16:00开演，日本当地时间。会场为 TOYOTA ARENA TOKYO。",
+              "evidence_ja": "日程\n2027年2月20日(土) 開場15:00／開演16:00（予定）\n2027年2月21日(日) 開場15:00／開演16:00（予定）\n2月20日(土) SATURDAY STAGEにmillsage・一家Dumb Rock! が出演！\n2月21日(日) SUNDAY STAGEにPoppin'Partyが出演！\n会場\nTOYOTA ARENA TOKYO",
+              "source_url": "https://bang-dream.com/events/29304/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-01"
+            },
+            {
+              "id": "auto-87404a8ec7a81453-rule-1",
+              "kind": "参加",
+              "title": "出演日期对应",
+              "text_zh": "millsage与一家Dumb Rock!出演2月20日 SATURDAY STAGE；Poppin’Party出演2月21日 SUNDAY STAGE。不可将三个团体都安排到同一天。",
+              "evidence_ja": "2月20日(土) SATURDAY STAGEにmillsage・一家Dumb Rock! が出演！\n2月21日(日) SUNDAY STAGEにPoppin'Partyが出演！",
+              "source_url": "https://bang-dream.com/events/29304/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-01"
+            },
+            {
+              "id": "auto-87404a8ec7a81453-rule-2",
+              "kind": "参加",
+              "title": "票务条件尚待主办公告确认",
+              "text_zh": "本条出演公告仅指向主办官网 https://www.lisani.jp/live/ 查询售票信息，未列报名轮次、抽选或先着方式、受理时段、票价、年龄及张数限制；不能据此认定无需预约、正在售票或有余票。未公布任何购买附券商品的要求。",
+              "evidence_ja": "チケットの受付情報は公式サイトをご確認ください。\nhttps://www.lisani.jp/live/",
+              "source_url": "https://bang-dream.com/events/29304/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-01"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "本条出演公告仅指向主办官网 https://www.lisani.jp/live/ 查询售票信息，未列报名轮次、抽选或先着方式、受理时段、票价、年龄及张数限制；不能据此认定无需预约、正在售票或有余票。未公布任何购买附券商品的要求。"
+          ],
+          "status": "published",
+          "verified_at": "2026-11-01T14:03:15.951Z",
+          "updated_at": "2026-11-01T14:03:15.951Z",
+          "franchise_ids": [
+            "poppin-party",
+            "millsage",
+            "ikka-dumb-rock"
+          ],
+          "venues": [
+            {
+              "id": "auto-87404a8ec7a81453-venue-02b9790e5d",
+              "city": "东京",
+              "name": "TOYOTA ARENA TOKYO",
+              "address": null,
+              "start_date": "2027-02-20",
+              "end_date": "2027-02-20",
+              "rounds": [
+                {
+                  "id": "auto-87404a8ec7a81453-round-0",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/29304/",
+                  "note": "2月20日 SATURDAY STAGE：millsage、一家Dumb Rock!。本条出演公告仅指向主办官网 https://www.lisani.jp/live/ 查询售票信息，未列报名轮次、抽选或先着方式、受理时段、票价、年龄及张数限制；不能据此认定无需预约、正在售票或有余票。未公布任何购买附券商品的要求。"
+                }
+              ]
+            },
+            {
+              "id": "auto-87404a8ec7a81453-venue-88854fdc94",
+              "city": "东京",
+              "name": "TOYOTA ARENA TOKYO",
+              "address": null,
+              "start_date": "2027-02-21",
+              "end_date": "2027-02-21",
+              "rounds": [
+                {
+                  "id": "auto-87404a8ec7a81453-round-1",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/29304/",
+                  "note": "2月21日 SUNDAY STAGE：Poppin’Party。本条出演公告仅指向主办官网 https://www.lisani.jp/live/ 查询售票信息，未列报名轮次、抽选或先着方式、受理时段、票价、年龄及张数限制；不能据此认定无需预约、正在售票或有余票。未公布任何购买附券商品的要求。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-87404a8ec7a81453-source",
+              "url": "https://bang-dream.com/events/29304/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-11-01T14:03:15.951Z"
+            }
+          ]
         }
       ]
     },
@@ -16904,6 +17045,63 @@
       }
     ],
     "announcements": [
+      {
+        "id": "87404a8ec7a814534d8729aa",
+        "source_id": "bang-dream-live",
+        "source_url": "https://bang-dream.com/events/29304/",
+        "title": "LISANI！TOKYO 2027",
+        "first_seen_at": "2026-11-01T14:03:15.951Z",
+        "last_seen_at": "2026-11-01T14:03:15.951Z",
+        "changed_at": "2026-11-01T14:03:15.951Z",
+        "content_hash": "ebf01dad79db69b31131b2e1ba7f0b4239b3357362271456696c7098939b9dcc",
+        "related_event_ids": [
+          "auto-87404a8ec7a81453"
+        ],
+        "images": [
+          {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30090922/f5a49ee6-333f1dfa-19af0c76-5e4ba328.jpg",
+            "alt": "LISANI！TOKYO 2027",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/31213643/11dff173-9cbbfadb-b82fcf35-5ca7d363.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30091213/c11eaf90-c750abcb-882a03af-bc6ddb4f.jpg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "ready",
+          "title_zh": "LISANI！TOKYO 2027：Poppin’Party、millsage与一家Dumb Rock!出演",
+          "summary_zh": "2027年2月20日、21日在东京 TOYOTA ARENA TOKYO 举办。20日 SATURDAY STAGE 由 millsage、一家Dumb Rock!出演，21日 SUNDAY STAGE 由 Poppin’Party出演；两日均预计15:00入场、16:00开演（日本时间）。票务请查主办官网，本条公告未说明报名方式、受理时段及费用。",
+          "source_hash": "9a18a7b06f753214e2acba440bc8e8f2be92761d470b8ff4a579470b18d5c221",
+          "model": "source-reviewed",
+          "reason": "正文日期、地点及规则证据通过校验",
+          "rules": [
+            {
+              "title": "两日场次与时间",
+              "text_zh": "2027年2月20日（周六）及21日（周日），两日均预计15:00入场、16:00开演，日本当地时间。会场为 TOYOTA ARENA TOKYO。",
+              "evidence_ja": "日程\n2027年2月20日(土) 開場15:00／開演16:00（予定）\n2027年2月21日(日) 開場15:00／開演16:00（予定）\n2月20日(土) SATURDAY STAGEにmillsage・一家Dumb Rock! が出演！\n2月21日(日) SUNDAY STAGEにPoppin'Partyが出演！\n会場\nTOYOTA ARENA TOKYO"
+            },
+            {
+              "title": "出演日期对应",
+              "text_zh": "millsage与一家Dumb Rock!出演2月20日 SATURDAY STAGE；Poppin’Party出演2月21日 SUNDAY STAGE。不可将三个团体都安排到同一天。",
+              "evidence_ja": "2月20日(土) SATURDAY STAGEにmillsage・一家Dumb Rock! が出演！\n2月21日(日) SUNDAY STAGEにPoppin'Partyが出演！"
+            },
+            {
+              "title": "票务条件尚待主办公告确认",
+              "text_zh": "本条出演公告仅指向主办官网 https://www.lisani.jp/live/ 查询售票信息，未列报名轮次、抽选或先着方式、受理时段、票价、年龄及张数限制；不能据此认定无需预约、正在售票或有余票。未公布任何购买附券商品的要求。",
+              "evidence_ja": "チケットの受付情報は公式サイトをご確認ください。\nhttps://www.lisani.jp/live/"
+            }
+          ]
+        }
+      },
       {
         "id": "50f5f45cf44080564f040924",
         "source_id": "liella-official",
@@ -24088,17 +24286,17 @@
       }
     ],
     "monitoring": {
-      "checked_at": "2026-10-31T13:58:44.410Z",
+      "checked_at": "2026-11-01T14:03:15.951Z",
       "sources": [
         {
           "id": "bang-dream-live",
           "name": "BanG Dream! Live / Event",
           "url": "https://bang-dream.com/events/",
-          "state": "empty",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
-          "pages": 0,
-          "discovered": 0,
+          "state": "success",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
+          "pages": 1,
+          "discovered": 1,
           "deferred": 0,
           "retained": 37,
           "issues": []
@@ -24108,8 +24306,8 @@
           "name": "BanG Dream! 新闻",
           "url": "https://bang-dream.com/news/",
           "state": "empty",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -24121,8 +24319,8 @@
           "name": "Bushiroad Creative",
           "url": "https://bushiroad-creative.com/",
           "state": "empty",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -24133,11 +24331,11 @@
           "id": "nijigasaki-news",
           "name": "虹咲官网新闻",
           "url": "https://www.lovelive-anime.jp/nijigasaki/topics.php",
-          "state": "success",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
-          "pages": 1,
-          "discovered": 1,
+          "state": "empty",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
+          "pages": 0,
+          "discovered": 0,
           "deferred": 0,
           "retained": 9,
           "issues": []
@@ -24147,8 +24345,8 @@
           "name": "少女歌剧新闻",
           "url": "https://revuestarlight.com/news/",
           "state": "empty",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -24173,8 +24371,8 @@
           "name": "SWEETS PARADISE",
           "url": "https://www.sweets-paradise.jp/collaboration/",
           "state": "empty",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -24186,8 +24384,8 @@
           "name": "少女歌剧 Live / Event",
           "url": "https://revuestarlight.com/event/",
           "state": "empty",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -24199,12 +24397,12 @@
           "name": "Aqours · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/uranohoshi/topics.php",
           "state": "success",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
           "pages": 2,
           "discovered": 2,
           "deferred": 0,
-          "retained": 3,
+          "retained": 4,
           "issues": []
         },
         {
@@ -24212,8 +24410,8 @@
           "name": "μ's · 新闻与演出",
           "url": "https://www.lovelive-anime.jp/otonokizaka/topics.php",
           "state": "empty",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -24224,11 +24422,11 @@
           "id": "ikizulive-official",
           "name": "人生不易部 · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/lovehigh/news/",
-          "state": "empty",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
-          "pages": 0,
-          "discovered": 0,
+          "state": "success",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
+          "pages": 1,
+          "discovered": 1,
           "deferred": 0,
           "retained": 4,
           "issues": []
@@ -24238,8 +24436,8 @@
           "name": "Love Live! 跨企划演出",
           "url": "https://www.lovelive-anime.jp/lovehigh/live/",
           "state": "empty",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -24251,8 +24449,8 @@
           "name": "莲之空 · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/hasunosora/news/",
           "state": "empty",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -24264,12 +24462,12 @@
           "name": "Liella! · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/yuigaoka/topics/",
           "state": "success",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
-          "pages": 2,
-          "discovered": 2,
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
+          "pages": 1,
+          "discovered": 1,
           "deferred": 0,
-          "retained": 3,
+          "retained": 4,
           "issues": []
         },
         {
@@ -24277,8 +24475,8 @@
           "name": "学园偶像大师 · 官方巡演",
           "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/",
           "state": "success",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
           "pages": 1,
           "discovered": 1,
           "deferred": 0,
@@ -24290,8 +24488,8 @@
           "name": "学园偶像大师 · 厂牌新闻",
           "url": "https://gakuen-label.idolmaster-official.jp/news",
           "state": "empty",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -24303,8 +24501,8 @@
           "name": "学园偶像大师 · 综合门户新闻",
           "url": "https://idolmaster-official.jp/news?page_index=1",
           "state": "empty",
-          "last_attempt_at": "2026-10-31T13:58:44.410Z",
-          "last_success_at": "2026-10-31T13:58:44.410Z",
+          "last_attempt_at": "2026-11-01T14:03:15.951Z",
+          "last_success_at": "2026-11-01T14:03:15.951Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -24313,6 +24511,8 @@
         }
       ],
       "unread_announcement_ids": [
+        "50f5f45cf44080564f040924",
+        "7fe220332289c14c7aa8cf97",
         "04c73e062516c03ae9d78430",
         "1c624082c33b649c8b8ffd8f",
         "1cd0ce24546c0919ec620abf",

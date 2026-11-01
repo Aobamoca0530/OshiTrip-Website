@@ -553,8 +553,8 @@
         "aqours"
       ],
       "signature": "0feb9fc9b4a74e66a574414b6d2d16e8093055ba91150ef8e89a6d08630f8f39",
-      "first_seen_on": "2026-10-31",
-      "burst_day": null,
+      "first_seen_on": "2026-11-01",
+      "burst_day": "2026-11-01",
       "pending": false,
       "reason": "列表标题或日期变化"
     },
@@ -596,11 +596,11 @@
       "projects": [
         "aqours"
       ],
-      "signature": "2a14c05178b49783e90d324cd6be9696e1a798b002e1f6a9d523a6eab434355e",
-      "first_seen_on": "2026-10-31",
-      "burst_day": null,
+      "signature": "c31bf6bb261bd42165241c0ea0a1a9bacdef663b77a8d69ce7d435e5ee1d1233",
+      "first_seen_on": "2026-11-01",
+      "burst_day": "2026-11-01",
       "pending": false,
-      "reason": "列表新增且未收录"
+      "reason": "列表标题或日期变化"
     },
     "https://www.lovelive-anime.jp/otonokizaka/detail.php?p=01_6763": {
       "source_id": "muse-official",
@@ -861,8 +861,8 @@
         "liella"
       ],
       "signature": "449834d60af60cd10aa49bcb0203eef7e75beeaa1bdf0b6fee7c9e2350592b58",
-      "first_seen_on": "2026-10-31",
-      "burst_day": null,
+      "first_seen_on": "2026-11-01",
+      "burst_day": "2026-11-01",
       "pending": false,
       "reason": "列表标题或日期变化"
     },
@@ -916,8 +916,8 @@
         "gakuen-idolmaster"
       ],
       "signature": "1c956b12c2ad6690e41ff6f99bc1776322367c001df5508d8a3420330af8784d",
-      "first_seen_on": "2026-10-31",
-      "burst_day": null,
+      "first_seen_on": "2026-11-01",
+      "burst_day": "2026-11-01",
       "pending": false,
       "reason": "列表标题或日期变化"
     },
@@ -931,20 +931,44 @@
       "burst_day": null,
       "pending": false,
       "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/29304/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "bang-dream"
+      ],
+      "signature": "0a750972e5ba65a9db47c9ed19105e98db4afb0e8ea08a5dfba6b02dcae613df",
+      "first_seen_on": "2026-11-01",
+      "burst_day": "2026-11-01",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6768": {
+      "source_id": "ikizulive-official",
+      "projects": [
+        "ikizulive"
+      ],
+      "signature": "9230f06cef23e26d10324435dcbeb17f9f189f7722486c4372d8277296850fc9",
+      "first_seen_on": "2026-11-01",
+      "burst_day": "2026-11-01",
+      "pending": false,
+      "reason": "列表新增且未收录"
     }
   },
   "daily_usage": {
-    "day": "2026-10-31",
+    "day": "2026-11-01",
     "projects": {
-      "lovelive": [
-        "www.lovelive-anime.jp:news:01_6739"
+      "bang-dream": [
+        "https://bang-dream.com/events/29304/"
       ],
       "aqours": [
         "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-        "www.lovelive-anime.jp:news:01_6767"
+        "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost"
+      ],
+      "ikizulive": [
+        "www.lovelive-anime.jp:news:01_6768"
       ],
       "liella": [
-        "www.lovelive-anime.jp:news:01_6751",
         "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
       ],
       "gakuen-idolmaster": [

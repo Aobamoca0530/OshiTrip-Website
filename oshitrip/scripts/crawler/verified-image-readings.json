@@ -204,5 +204,44 @@
       ],
       "unreadable": false
     }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/29304/",
+    "source_hash": "9a18a7b06f753214e2acba440bc8e8f2be92761d470b8ff4a579470b18d5c221",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30090922/f5a49ee6-333f1dfa-19af0c76-5e4ba328.jpg",
+    "sha256": "7cbe97a6ae451b6f138490731ac078dcd9dc221208e6cc3c474f7c38ea6c7e38",
+    "reviewed_at": "2026-11-01T14:07:30.006Z",
+    "approved": true,
+    "reason": "实际读图并二次核对：主视觉文字为「LISANI! TOKYO 2027」「02.20 SATURDAY STAGE」「02.21 SUNDAY STAGE」「TOYOTA ARENA TOKYO」。与正文一致；图中没有报名或其他参与规则，不使用图像设定日期。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/29304/",
+    "source_hash": "9a18a7b06f753214e2acba440bc8e8f2be92761d470b8ff4a579470b18d5c221",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/31213643/11dff173-9cbbfadb-b82fcf35-5ca7d363.jpg",
+    "sha256": "6a4d7d441f3358476cfb2f25b275ef80ae12d7dc2848234d7a00be226b2862c9",
+    "reviewed_at": "2026-11-01T14:07:30.006Z",
+    "approved": true,
+    "reason": "实际读图并二次核对：白底 millsage 与一家Dumb Rock! 标识及版权文字，无参与、购票或预约规则。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/29304/",
+    "source_hash": "9a18a7b06f753214e2acba440bc8e8f2be92761d470b8ff4a579470b18d5c221",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30091213/c11eaf90-c750abcb-882a03af-bc6ddb4f.jpg",
+    "sha256": "cb073cc46eb7d4173e84a9e94f5e6f765e2cea40efe992c50be55fbb418eb066",
+    "reviewed_at": "2026-11-01T14:07:30.006Z",
+    "approved": true,
+    "reason": "实际读图并二次核对：出演者宣传合照及「©BanG Dream! Project」版权文字，无参与、购票或预约规则。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
   }
 ]
