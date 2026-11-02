@@ -1,7 +1,7 @@
 {
   "formatVersion": 2,
-  "revision": "70bc6afac7449475b3fd7e416435d4a0a423386feae7115baf70dc637230b00d",
-  "publishedAt": "2026-11-01T14:07:51.484Z",
+  "revision": "6453ac7aa7b0cabc82ff1a5706a8e781f1c2404895fbf01559e16f3d4e174052",
+  "publishedAt": "2026-11-02T14:04:04.776Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -11123,6 +11123,301 @@
               "checked_at": "2026-11-01T14:03:15.951Z"
             }
           ]
+        },
+        {
+          "id": "auto-48935219a39829fb",
+          "slug": "official-48935219a39829fb",
+          "title_ja": "「ラブライブ！シリーズ×アトレ秋葉原」&「ラブライブ！サンシャイン!! POP UP SHOP」開催決定！",
+          "title_zh": "Love Live! 系列 × atre秋叶原馆内联动暨 Aqours POP UP SHOP",
+          "category": "快闪店",
+          "summary": "2026年11月27日至12月10日，在atre秋叶原开展馆内装饰联动，并在atre秋叶原1的2楼活动区举办Aqours快闪店。营业10:00—21:00，最后一天20:00结束。11月27、28日至15:00的指定场次须先着预约，11月16日18:00起受理；商品与特典详情及预约表单拟11月13日公布。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/CAw0u7gSHZTBbXOd/HWPPgl0RFxK7mf0F.jpeg",
+            "alt": "Love Live! 系列 × atre秋叶原馆内联动暨 Aqours POP UP SHOP",
+            "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6769",
+            "checked_on": "2026-11-02"
+          },
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/CAw0u7gSHZTBbXOd/HWPPgl0RFxK7mf0F.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6769",
+              "checked_on": "2026-11-02"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-48935219a39829fb-rule-0",
+              "kind": "参加",
+              "title": "馆内联动",
+              "text_zh": "11月27日至12月10日，atre秋叶原举办Love Live!系列馆内装饰联动，使用Aqours九人的冬季制服和虚拟形象服装新绘图；馆内各店消费可获得原创特典，具体消费条件未在此公布。",
+              "evidence_ja": "①「ラブライブ！シリーズ×アトレ秋葉原」の開催が決定！\n2026年11月27日（金）～2026年12月10日（木）の期間、アトレ秋葉原をラブライブ！シリーズがジャック！\n今回のアトレジャックでは、Aqours9人の「冬制服」描き下ろしイラストと、「アバター衣装」描き下ろしイラストが登場！\n期間中はアトレ秋葉原のラッピングに加え、館内各ショップのご利用でオリジナル特典をプレゼントいたします。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6769",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-02"
+            },
+            {
+              "id": "auto-48935219a39829fb-rule-1",
+              "kind": "参加",
+              "title": "快闪店场地及营业时间",
+              "text_zh": "atre秋叶原1，2楼活动区；地址东京都千代田区外神田1-17-6。2026年11月27日至12月10日，10:00—21:00；12月10日最后一天20:00关店。营业时间可能随商场调整。",
+              "evidence_ja": "【開催場所】アトレ秋葉原1 2階イベントスペース （東京都千代田区外神田1-17-6）\n【開催期間】2026年11月27日（金）～2026年12月10日（木）\n【営業時間】10:00～21:00 ※12月10日（木）最終日は20:00閉店となります\n※営業時間等はアトレ秋葉原1に準じて変更になる場合がございます。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6769",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-02"
+            },
+            {
+              "id": "auto-48935219a39829fb-rule-2",
+              "kind": "参加",
+              "title": "限流与排队",
+              "text_zh": "可能根据店内情况发放整理券或限制入店；请勿在店铺周边等候。",
+              "evidence_ja": "※店内状況に応じて整理券配布など、入店制限を設ける場合もございます。予めご了承ください。\n※店頭周辺での待機はご遠慮いただきますようお願い申し上げます。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6769",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-02"
+            },
+            {
+              "id": "auto-48935219a39829fb-rule-3",
+              "kind": "参加",
+              "title": "商品与购买特典",
+              "text_zh": "内容、商品及购买特典详情计划于2026年11月13日公布，目前不能确定价格、限购或特典门槛。",
+              "evidence_ja": "■内容／商品詳細／購入特典\n2026年11月13日（金）に詳細発表予定です。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6769",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-02"
+            },
+            {
+              "id": "auto-48935219a39829fb-rule-4",
+              "kind": "参加",
+              "title": "先着预约适用范围",
+              "text_zh": "11月27日、28日截至15:00的指定入店场次实行事前先着预约；每人每日仅可申请1次。不能将这一要求扩展为整个活动期统一预约，也不能认为其他时段已确认无需预约。",
+              "evidence_ja": "■ ご入場案内\n11月27日（金）、および11月28日（土）の一部時間帯は混雑が予想されるため、事前予約（先着）による入店制限を実施いたします。\n＜事前予約（先着）対象期間＞\n◆2026年11月27日(金) ～15:00までの回\n◆2026年11月28日(土) ～15:00までの回\n※お一人様、各日1回のみお申し込みが可能です。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6769",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-02"
+            },
+            {
+              "id": "auto-48935219a39829fb-rule-5",
+              "kind": "参加",
+              "title": "预约注册、开始时间与满额截止",
+              "text_zh": "须注册ナムコパークス会员。2026年11月16日18:00起受理（日本时间），表单拟11月13日公布；各场计划名额满即停止，没有统一截止时刻。到场前须阅读入场票所载方式和注意事项。",
+              "evidence_ja": "＜事前予約（先着）申込方法＞\nお申込みには「ナムコパークス」(運営：株式会社バンダイナムコアミューズメント)の新規会員登録が必要となります。\n※「ナムコパークス」新規会員登録は こちら から行えます。\nhttps://parks2.bandainamco-am.co.jp/ext/bandainamco_id_connect.html\n事前予約（先着）お申込み期間：2026年11月16日(月) 18:00～\n申込フォーム：2026年11月13日（金）にご案内いたします。\n※各回予定数に達し次第終了となります。\n※ご入場当日は、入場チケット記載の入場方法や注意事項を必ずお読みの上ご来場ください。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6769",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-02"
+            },
+            {
+              "id": "auto-48935219a39829fb-rule-6",
+              "kind": "参加",
+              "title": "自由入场仅为计划",
+              "text_zh": "11月28日15:00以后计划自由入场，详情由官方X @LoveLive_ofs 发布；拥挤时仍可能限流或派发整理券。11月27日15:00后如何入场未明确，须另查公告。",
+              "evidence_ja": "＜フリー入場のご案内＞\n2026年11月28日(土)15:00以降のご入場に関しては、フリー入場を予定しておりますが、詳細はラブライブ！シリーズ オフィシャルストア スクールアイドルシアター 公式X (@LoveLive_ofs)よりお知らせいたします。\n※混雑状況に応じて入場規制や整理券の配布を行う場合がございますので、予めご了承ください。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6769",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-02"
+            },
+            {
+              "id": "auto-48935219a39829fb-rule-7",
+              "kind": "参加",
+              "title": "后续查询入口",
+              "text_zh": "运营更新请查官方X https://x.com/LoveLive_ofs 及 https://bandainamco-am.co.jp/chara_shop/lovelive-officialstore 。",
+              "evidence_ja": "▽運営に関する情報は、公式X・HPよりご案内いたします。\nラブライブ！シリーズ オフィシャルストア スクールアイドルシアター 公式X\nhttps://x.com/LoveLive_ofs\nラブライブ！シリーズ オフィシャルストア スクールアイドルシアター 公式HP\nhttps://bandainamco-am.co.jp/chara_shop/lovelive-officialstore",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6769",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-02"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "仅11月27日和28日至15:00的指定场次采用先着预约，每人每天限1次；11月16日18:00起受理，各场满额即止。须注册ナムコパークス，表单拟11月13日公布。11月28日15:00以后计划自由入场，仍可能限流或派整理券；11月27日15:00后方式未明确，须查官方X。时间均为日本当地时间。"
+          ],
+          "status": "published",
+          "verified_at": "2026-11-02T13:56:17.834Z",
+          "updated_at": "2026-11-02T13:56:17.834Z",
+          "franchise_ids": [
+            "lovelive",
+            "aqours"
+          ],
+          "venues": [
+            {
+              "id": "auto-48935219a39829fb-venue-63aa5eabc7",
+              "city": "东京",
+              "name": "アトレ秋葉原1 2階イベントスペース",
+              "address": null,
+              "start_date": "2026-11-27",
+              "end_date": "2026-12-10",
+              "rounds": [
+                {
+                  "id": "auto-48935219a39829fb-round-0",
+                  "label": "官方参加方式",
+                  "method": "先着预约",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-16T18:00:00+09:00",
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6769",
+                  "note": "仅11月27日和28日至15:00的指定场次采用先着预约，每人每天限1次；11月16日18:00起受理，各场满额即止。须注册ナムコパークス，表单拟11月13日公布。11月28日15:00以后计划自由入场，仍可能限流或派整理券；11月27日15:00后方式未明确，须查官方X。时间均为日本当地时间。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-48935219a39829fb-source",
+              "url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6769",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-11-02T13:56:17.834Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-fa667bd396c53327",
+          "slug": "official-fa667bd396c53327",
+          "title_ja": "「ラブライブ！虹ヶ咲学園スクールアイドル同好会」 天王寺 璃奈誕生日記念上映会 開催！",
+          "title_zh": "天王寺璃奈生日纪念上映会",
+          "category": "其他联动",
+          "summary": "2026年11月13日在东京台场联合影城举办，连映虹咲完结篇第1章与第2章，赠璃奈生日卡及第2弹随机胶片。普通安静观影场，无声优登台，不允许应援或荧光棒；票价统一3,600日元，FLEXOUND另加200日元。场次时间和购票方式须查影城官网。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/27/1002/WlgxnFsHgtvE6BYl/XYJKamLekHlFpveS.jpeg",
+            "alt": "天王寺璃奈生日纪念上映会",
+            "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6732",
+            "checked_on": "2026-11-02"
+          },
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/27/1002/WlgxnFsHgtvE6BYl/XYJKamLekHlFpveS.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6732",
+              "checked_on": "2026-11-02"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-fa667bd396c53327-rule-0",
+              "kind": "参加",
+              "title": "日期、场馆与观影形式",
+              "text_zh": "2026年11月13日（周五）在台场联合影城举办普通上映；安静观影，不声援、不使用荧光棒。",
+              "evidence_ja": "2026年11月13日(金)に天王寺璃奈誕生日記念上映会を実施いたします。\n当日は、お越しいただいた皆様にお誕生日のメンバーの『バースデーカード』をプレゼント。\nじっくり鑑賞、声援なし、サイリウムなしの通常上映回での開催決定！\nルールとマナーを守って、みんなで璃奈の誕生日をお祝いしましょう♪\n■概要\n【日程】 11月13日(金)\n【会場】 ユナイテッド・シネマ アクアシティお台場",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6732",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-02"
+            },
+            {
+              "id": "auto-fa667bd396c53327-rule-1",
+              "kind": "参加",
+              "title": "上映作品与入场赠品",
+              "text_zh": "上映《Love Live! 虹咲学园学园偶像同好会 完结篇》第1章及第2章；赠天王寺璃奈生日卡，以及第2弹入场特典“完结篇第2章随机胶片”。",
+              "evidence_ja": "【上映作品】\n映画『ラブライブ！虹ヶ咲学園スクールアイドル同好会 完結編 第1章』\n映画『ラブライブ！虹ヶ咲学園スクールアイドル同好会 完結編 第2章』\n【入場者プレゼント】\n・天王寺 璃奈バースデーカード、\n・第2弾入場者プレゼント「『完結編 第2章』コマフィルム（ランダム）」",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6732",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-02"
+            },
+            {
+              "id": "auto-fa667bd396c53327-rule-2",
+              "kind": "参加",
+              "title": "票价与不可使用的优惠",
+              "text_zh": "统一票价3,600日元；FLEXOUND座席另加200日元。不可使用ムビチケ、预售券、各类折扣、优惠价、优惠券、招待券或免费观影服务。",
+              "evidence_ja": "【チケット料金】\n3,600円均一 ※ムビチケ使用不可\n※FLEXOUNDはチケット料金＋200円\n※ムビチケ・前売券使用不可。\n※各種割引、サービスプライス、クーポンなど利用不可。\n※招待券利用不可、無料になるサービス不可。",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6732",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-02"
+            },
+            {
+              "id": "auto-fa667bd396c53327-rule-3",
+              "kind": "参加",
+              "title": "购票入口",
+              "text_zh": "具体上映时间及购票方式请查影城官网 https://www.unitedcinemas.jp/odaiba 。本公告没有提供售票轮次或受理时间。",
+              "evidence_ja": "【チケット販売】\n誕生日記念上映会の上映時間やチケットの購入方法の詳細は劇場HPをご確認下さい。\nhttps://www.unitedcinemas.jp/odaiba",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6732",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-02"
+            },
+            {
+              "id": "auto-fa667bd396c53327-rule-4",
+              "kind": "参加",
+              "title": "无声优登台与现场礼仪",
+              "text_zh": "无声优登台；请就座观影，不妨碍他人。现场不提供更衣处，请勿在影城洗手间更衣。",
+              "evidence_ja": "※キャスト登壇はございません。予めご了承ください。\n※周りの方のご鑑賞を妨げないよう、 ご着席の上、 お楽しみください。\n※お着替え等の場所のご用意はございません。劇場内トイレでのお着替えはご遠慮ください。",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6732",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-02"
+            },
+            {
+              "id": "auto-fa667bd396c53327-rule-5",
+              "kind": "参加",
+              "title": "禁止记录、应援器材及扰客行为",
+              "text_zh": "放映中严禁摄影、录音等记录行为；禁止携带荧光棒、手灯及火源器具，禁止使用发声物。不得妨碍他人，扰客者将被要求退场；不理解或不遵守注意事项者会被拒绝观影。",
+              "evidence_ja": "◆注意事項\n注意事項をご理解いただけない方はご鑑賞をお断りさせていただきます。\n※キャスト登壇はございません。予めご了承ください。\n※周りの方のご鑑賞を妨げないよう、 ご着席の上、 お楽しみください。\n※お着替え等の場所のご用意はございません。劇場内トイレでのお着替えはご遠慮ください。\n※上映中の撮影、録音等の記録行為は固くお断りいたします。\n※サイリウムやペンライト、火器類の持ち込みや、音の出るものの使用はすべて禁止とさせていただきます。\n※周りの方に弊害が及ぶ行為は禁止とさせていただきます。\n周りの方に迷惑をかける行為があった場合、ご退場いただきます。",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6732",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-02"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "上映时间、售票方式、开售时刻、年龄和限购条件在本公告中未说明，请查 https://www.unitedcinemas.jp/odaiba 。不能据此视为无需购票、正在售票或有余票。"
+          ],
+          "status": "published",
+          "verified_at": "2026-11-02T13:56:17.834Z",
+          "updated_at": "2026-11-02T13:56:17.834Z",
+          "franchise_ids": [
+            "nijigasaki"
+          ],
+          "venues": [
+            {
+              "id": "auto-fa667bd396c53327-venue-541454e536",
+              "city": "东京",
+              "name": "ユナイテッド・シネマ アクアシティお台場",
+              "address": null,
+              "start_date": "2026-11-13",
+              "end_date": "2026-11-13",
+              "rounds": [
+                {
+                  "id": "auto-fa667bd396c53327-round-0",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6732",
+                  "note": "上映时间、售票方式、开售时刻、年龄和限购条件在本公告中未说明，请查 https://www.unitedcinemas.jp/odaiba 。不能据此视为无需购票、正在售票或有余票。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-fa667bd396c53327-source",
+              "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6732",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-11-02T13:56:17.834Z"
+            }
+          ]
         }
       ]
     },
@@ -17045,6 +17340,130 @@
       }
     ],
     "announcements": [
+      {
+        "id": "09b2bb28952e5ad0c56e5153",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6760",
+        "title": "「虹ヶ咲学園キッチンカー」より通常メニュー発売のお知らせ",
+        "first_seen_at": "2026-11-02T13:56:17.834Z",
+        "last_seen_at": "2026-11-02T13:56:17.834Z",
+        "changed_at": "2026-11-02T13:56:17.834Z",
+        "content_hash": "54d2cb0dff89b45c15e43137eb076084664ec73c7b1b4c953eab466252bff0ad",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/30/1002/d78BnMSVLB6FhFrP/BkLNWNB6nIkCo4d3.jpeg",
+            "alt": "",
+            "kind": "menu"
+          }
+        ]
+      },
+      {
+        "id": "48935219a39829fb3413729e",
+        "source_id": "aqours-official",
+        "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6769",
+        "title": "「ラブライブ！シリーズ×アトレ秋葉原」&「ラブライブ！サンシャイン!! POP UP SHOP」開催決定！",
+        "first_seen_at": "2026-11-02T13:56:17.834Z",
+        "last_seen_at": "2026-11-02T13:56:17.834Z",
+        "changed_at": "2026-11-02T13:56:17.834Z",
+        "content_hash": "c48afd55bed4e4b2782ed5c02c250386a786940422a057c0250a8b21b1e04677",
+        "related_event_ids": [
+          "auto-48935219a39829fb"
+        ],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/CAw0u7gSHZTBbXOd/HWPPgl0RFxK7mf0F.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "5ff5514150c5e86f42a14369",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6755",
+        "title": "「NTTドコモ×ラブライブ！シリーズ コラボキャンペーン」第2弾がスタート！",
+        "first_seen_at": "2026-11-02T13:56:17.834Z",
+        "last_seen_at": "2026-11-02T13:56:17.834Z",
+        "changed_at": "2026-11-02T13:56:17.834Z",
+        "content_hash": "e26ceafbdc5cda181a2f810f06d259dc637106c64a3fb9dc4943eca9eebf9a07",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/30/1002/OYTJl0D12uFTiHys/bxKOwiBCVcqnLmVd.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/30/1002/EUPBREprNwzA8c0X/Lox51OXN5TgeHDHy.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/30/1002/iAzgFc3sRtb1kPqo/aRVYLkXFHalQ6Jq8.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/30/1002/3ajcyj7maio5YU3R/sqndFwzhqVPMNZNk.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/30/1002/Yc0wWkqgYfDeTyFy/8JAFMwbjZxZ2wgyt.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/30/1002/fzaLSvDyjT2nokmL/Scp9zYjjn7v7s9TZ.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/30/1002/S4b0xeUgxWbRKe94/i4f4LHNTwlXUyw2J.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "9fc593b0ca57187ca4af7768",
+        "source_id": "aqours-official",
+        "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6756",
+        "title": "浦の星女学院キッチンカーより新メニューのお知らせ",
+        "first_seen_at": "2026-11-02T13:56:17.834Z",
+        "last_seen_at": "2026-11-02T13:56:17.834Z",
+        "changed_at": "2026-11-02T13:56:17.834Z",
+        "content_hash": "1f075ba05349d3478d774eca7c3c03b8d5f78cdcb4dd89c468518e9547f54ba4",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/10/30/1002/sCDCOaDoihE82w0w/le0CQwDKGNawZJ2J.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "fa667bd396c53327f8365074",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6732",
+        "title": "「ラブライブ！虹ヶ咲学園スクールアイドル同好会」 天王寺 璃奈誕生日記念上映会 開催！",
+        "first_seen_at": "2026-11-02T13:56:17.834Z",
+        "last_seen_at": "2026-11-02T13:56:17.834Z",
+        "changed_at": "2026-11-02T13:56:17.834Z",
+        "content_hash": "1a909a1d87fcb2d21e613f4c99d88e93ff6911c7ff0ace46835b9000ee8a5f3e",
+        "related_event_ids": [
+          "auto-fa667bd396c53327"
+        ],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/27/1002/WlgxnFsHgtvE6BYl/XYJKamLekHlFpveS.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
       {
         "id": "87404a8ec7a814534d8729aa",
         "source_id": "bang-dream-live",
