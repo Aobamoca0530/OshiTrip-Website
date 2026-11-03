@@ -117,12 +117,29 @@ describe("offline activity understanding", () => {
     ).toBeNull();
   });
   it("publishes grounded venues without inventing an open ticket window", () => {
-    const result = validateReading(reading, observation, catalog.franchises);
+    // This scenario must remain unannounced when the live RAS data gains dates.
+    const unannounced = {
+      ...structuredClone(reading),
+      rules: [],
+      booking: {
+        method: "尚未公布",
+        opens_at: null,
+        closes_at: null,
+        evidence_ja: "",
+        note_zh: "售票安排尚未公布。",
+        applies_to_all_venues: true,
+      },
+    };
+    const unannouncedObservation = {
+      ...observation,
+      body_text: unannounced.venues.map(v => v.evidence_ja).join("\n") + "\nチケット詳細は後日公開いたします。",
+    };
+    const result = validateReading(unannounced, unannouncedObservation, catalog.franchises);
     expect(result.ready).toBe(true);
     const event = eventSchema.parse(
       eventFromReading(
-        reading,
-        observation,
+        unannounced,
+        unannouncedObservation,
         [],
         "2026-10-28T08:00:00Z",
         undefined,
