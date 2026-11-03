@@ -243,5 +243,413 @@
       "rules": [],
       "unreadable": false
     }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/ras-tour2027/",
+    "source_hash": "5b2c59e8c7dbb7d3b5e7753115e895911e23c03b3480e897c2c17088bed8bd8f",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/01101412/792592a1-3953d6b8-282c8cdc-873ba4a7.png",
+    "sha256": "4e4bb7957b1fc4e23cc7e9d37907ffb34263581626a24d9fa328a5197800c9ae",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际查看：图片只有RAISE A SUILEN团体标志，没有票务规则，不是单曲商品封面。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/104208/",
+    "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/08/25135814/Animate_RSL_9th_banner1920%C3%971080-1024x576.jpg",
+    "sha256": "f57c2c7c1015b0927bd1c7eede9ca25df52c43ba6a7b6e7b0f235295fd168073",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际查看原图并复核：主视觉或商品示意图，不含额外参加、预约、限购规则；不把图片作为活动日期或售票时刻依据。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/104208/",
+    "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/03134851/RS_innocente_acst_set_ari.jpg",
+    "sha256": "b351e7304bd4e8357d627c127eb2a52d3fd42b64ebb0af1961fa04e598aea1ce",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际查看原图并复核：主视觉或商品示意图，不含额外参加、预约、限购规则；不把图片作为活动日期或售票时刻依据。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/104208/",
+    "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/03134903/RS_innocente_teacup_01ari.jpg",
+    "sha256": "88982b883c2150f2b5e006763c609f27bb20f5165f1e1aebc456a0a673581f13",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际查看原图并复核：主视觉或商品示意图，不含额外参加、预约、限购规则；不把图片作为活动日期或售票时刻依据。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/104208/",
+    "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/03134910/RS_innocente_file_ari.jpg",
+    "sha256": "f4827baf0a14b1d3ed8bf3824cdbc780cdcf01efd62f38b5b836365eb800cae5",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际查看原图并复核：主视觉或商品示意图，不含额外参加、预约、限购规则；不把图片作为活动日期或售票时刻依据。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/104208/",
+    "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/03134920/RS_innocente_acrylkey_set_ari.jpg",
+    "sha256": "7595e2a0f9067d0dc0701fbd1e3c895e15795ad56b9006b8d04f6133c6864a48",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际查看原图并复核：主视觉或商品示意图，不含额外参加、预约、限购规则；不把图片作为活动日期或售票时刻依据。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/104208/",
+    "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/03134924/RS_innocente_can_ari.jpg",
+    "sha256": "e1774ee20102a48071994c35b69cdfc501351cf169c068adb3c49939d8911952",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际读取原始图片并逐条再次核对日文短句、金额/随机种数、适用店铺和条件；原始字节SHA256已校验，未用图内日期替代正文活动日期。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "随机徽章包装",
+          "evidence_ja": "全9種 1PACK/1個入り 1BOX/9PACK入り",
+          "text_zh": "随机徽章全9款，每包1个、每盒9包；不能据此承诺整盒必定集齐。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/104208/",
+    "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/03134930/RS_innocente_sticker_ari.jpg",
+    "sha256": "4320e297dde781c033fde9fa002f987d73f09ddccf0b2e35617e525cc7c9cfdc",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际读取原始图片并逐条再次核对日文短句、金额/随机种数、适用店铺和条件；原始字节SHA256已校验，未用图内日期替代正文活动日期。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "随机贴纸包装",
+          "evidence_ja": "全13種 1PACK/1枚入り 1BOX/13PACK入り",
+          "text_zh": "随机缎面贴纸全13款，每包1张、每盒13包；不推定整盒必定集齐。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/104208/",
+    "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/03134937/RS_innocente_postcard_ari.jpg",
+    "sha256": "1dc0420beec6b729955f4a6bd75da6d866f691665f353c19f56eea95348f05ca",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际读取原始图片并逐条再次核对日文短句、金额/随机种数、适用店铺和条件；原始字节SHA256已校验，未用图内日期替代正文活动日期。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "随机邀请函风明信片包装",
+          "evidence_ja": "全9種 1PACK/1枚入り 1BOX/9PACK入り",
+          "text_zh": "随机明信片全9款，每包1张、每盒9包，信封为共通设计；不推定整盒必定集齐。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/104208/",
+    "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/03134948/RS_innocente_stageacst_02ari.jpg",
+    "sha256": "3a64df99f502c305181477be2ab953e3324437f596b921017de04e4e692bd7de",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际查看原图并复核：主视觉或商品示意图，不含额外参加、预约、限购规则；不把图片作为活动日期或售票时刻依据。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/104208/",
+    "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2024/07/02104933/a90c3fdc-e536-43d8-8d03-adcf1c93b1db-2.jpg",
+    "sha256": "f73d989e6e3598db0fbbde200ba60f1dc8fc89b763c2d2b8210077a8b39c9bf2",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际查看原图并复核：主视觉或商品示意图，不含额外参加、预约、限购规则；不把图片作为活动日期或售票时刻依据。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/104208/",
+    "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/13175955/RS_innocente_miller_01ari-2.jpg",
+    "sha256": "95360d14c8e21745622010a2f530b8561dd2a42534e9f50950538e6e2a788424",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际查看原图并复核：主视觉或商品示意图，不含额外参加、预约、限购规则；不把图片作为活动日期或售票时刻依据。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/104208/",
+    "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/07165700/Animate_RSL_9th_banner_tokuten-1024x576.jpg",
+    "sha256": "a8c105bccae84fe8b29a9636f3009dd17e269bc86bc842d6dcb5e9861084dfbe",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际读取原始图片并逐条再次核对日文短句、金额/随机种数、适用店铺和条件；原始字节SHA256已校验，未用图内日期替代正文活动日期。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "特典",
+          "title": "两店特典",
+          "evidence_ja": "アニメイト クリアカード（全9種）",
+          "text_zh": "Animate为透明卡全9种；单笔少女歌剧商品每满含税2,200日元随机赠1张，送完即止，网购/海外条件可能不同。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "Gamers特典",
+          "evidence_ja": "ゲーマーズ イラストシート（全9種）",
+          "text_zh": "Gamers为插画纸全9种，购买门槛同为每笔每满含税2,200日元；与集章赠品分开。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/104208/",
+    "source_hash": "a96a40ff01c0cc4e12ec6928c3a594922ed674840735ba712e590be00ff1d42a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/13180947/Animate_RSL_9th_stamp_B2_ol_web-1024x1448.jpg",
+    "sha256": "e50b8d1d55cd9f4878f1f6e435b3a6613d92246079600e07eb82b8a91d6c2f3b",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际读取原始图片并逐条再次核对日文短句、金额/随机种数、适用店铺和条件；原始字节SHA256已校验，未用图内日期替代正文活动日期。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "集章门槛",
+          "evidence_ja": "期間中対象の店舗にて1,100円（税込）お買い上げでスタンプを1つ押印。スタンプを2つ集めると特典のイラストカードをプレゼント。",
+          "text_zh": "期间在对象店购买含税1,100日元可盖1章，集齐2章可获插画卡；图片未说明能否同店重复或合并消费，不自行补充。",
+          "uncertain": false
+        },
+        {
+          "kind": "参加",
+          "title": "集章店与兑换地点",
+          "evidence_ja": "アニメイト秋葉原2号館7Fオンリーショップ",
+          "text_zh": "对象店及台纸领取处为Animate秋叶原2号馆7F Only Shop、AKIHABARA Gamers本店6F；特典仅在后者6F领取。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "兑换柜台",
+          "evidence_ja": "特典お渡し場所 AKIHABARAゲーマーズ本店6F",
+          "text_zh": "集章特典请到AKIHABARA Gamers本店6F领取；不同于每满2,200日元的购物特典。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6760",
+    "source_hash": "968b10618283eb45508456366d8051e24258fffd556d2e3796b9cdb81f1b6846",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/30/1002/d78BnMSVLB6FhFrP/BkLNWNB6nIkCo4d3.jpeg",
+    "sha256": "80176d63f73ad15be8e361a2f3b585c8e9cf515627ff5d8f9e5102ed5b3cf372",
+    "reviewed_at": "2026-11-03T20:03:58.463Z",
+    "approved": true,
+    "reason": "实际读取原始图片并逐条再次核对日文短句、金额/随机种数、适用店铺和条件；原始字节SHA256已校验，未用图内日期替代正文活动日期。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "点单",
+          "title": "饮品价格",
+          "evidence_ja": "ALL 700円（税込）",
+          "text_zh": "菜单饮品均为含税700日元。",
+          "uncertain": false
+        },
+        {
+          "kind": "点单",
+          "title": "过敏原标记",
+          "evidence_ja": "アレルゲン：乳",
+          "text_zh": "图中各饮品标记含乳；官方注明这是原材料九类过敏物质范围内的标记。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "随机杯垫",
+          "evidence_ja": "※特典はランダムでのお渡しとなり、絵柄はお選びいただけません。",
+          "text_zh": "饮品购买者特典为全13种原创杯垫，随机发放且不可选款；图中没有明确每杯赠送数量，不推定数量。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "数量与转售",
+          "evidence_ja": "※特典は無くなり次第終了となります。",
+          "text_zh": "特典送完即止，禁止转售；内容可能不预告调整。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "不足与瑕疵处理",
+          "evidence_ja": "※万が一、配布不備・不足があった場合は、ご購入当日に限り対応させていただきます。",
+          "text_zh": "发放遗漏或不足仅于购买当天处理；不影响图案的背面等轻微划痕、角损、凹痕、摩擦不属于不良换货范围。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/103056/",
+    "source_hash": "953c19d285cd7cb9081ab6b7c69e37a638f38bc2d61aa4f2ed88fb861e08bb3a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/07/15181303/agf_2026_bcr_bunner_6-1024x576.jpg",
+    "sha256": "bc359bd77518a90edb41d5d27bb0c6918d34745e01c8a5521244fe1c98181953",
+    "reviewed_at": "2026-11-03T20:09:14.065Z",
+    "approved": true,
+    "reason": "实际查看活动主视觉/商品示意，未发现额外参加预约条件；图像不作为活动日期或票务依据。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/103056/",
+    "source_hash": "953c19d285cd7cb9081ab6b7c69e37a638f38bc2d61aa4f2ed88fb861e08bb3a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/16111455/AGF_kisi_9thRSL_clearcard_tokuten_ari.jpg",
+    "sha256": "df807a9d27b146553205be136652ed9199668a98a4f17e4c78eafb1a38952847",
+    "reviewed_at": "2026-11-03T20:09:14.065Z",
+    "approved": true,
+    "reason": "实际查看活动主视觉/商品示意，未发现额外参加预约条件；图像不作为活动日期或票务依据。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/103056/",
+    "source_hash": "953c19d285cd7cb9081ab6b7c69e37a638f38bc2d61aa4f2ed88fb861e08bb3a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/22184633/rs_agf_site_bunner_3-1.jpg",
+    "sha256": "bebd0675d9a473f1f474287c801fe3773a592e28db0a4c29390a4000e55e0664",
+    "reviewed_at": "2026-11-03T20:09:14.065Z",
+    "approved": true,
+    "reason": "实际查看活动主视觉/商品示意，未发现额外参加预约条件；图像不作为活动日期或票务依据。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/103056/",
+    "source_hash": "953c19d285cd7cb9081ab6b7c69e37a638f38bc2d61aa4f2ed88fb861e08bb3a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/16110206/RSL_kishi_sticker_ari.jpg",
+    "sha256": "ab54d7b12f42d786577d07b59607d54a93f0ba8f4221edf94830a29483823d54",
+    "reviewed_at": "2026-11-03T20:09:14.065Z",
+    "approved": true,
+    "reason": "实际看图并再次逐条核对价格、包装数量、当场兑换与可选款范围；不用于活动日期或报名时刻。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "随机贴纸包装",
+          "evidence_ja": "全13種 1PACK/1枚入り 1BOX/13PACK入り",
+          "text_zh": "随机缎面贴纸共13款，每包1张、每盒13包；不承诺整盒集齐。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/103056/",
+    "source_hash": "953c19d285cd7cb9081ab6b7c69e37a638f38bc2d61aa4f2ed88fb861e08bb3a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/10/16104546/RSL_kishi_badge_ari.jpg",
+    "sha256": "f217a00001bd48e2d306afcdf84535fe97ab15ea73fc758c812ffd492247e3ed",
+    "reviewed_at": "2026-11-03T20:09:14.065Z",
+    "approved": true,
+    "reason": "实际看图并再次逐条核对价格、包装数量、当场兑换与可选款范围；不用于活动日期或报名时刻。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "随机徽章包装",
+          "evidence_ja": "全9種 1PACK/1個入り 1BOX/9PACK入り",
+          "text_zh": "随机徽章共9款，每包1个、每盒9包；不承诺整盒集齐。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bushiroad-creative.com/topics/103056/",
+    "source_hash": "953c19d285cd7cb9081ab6b7c69e37a638f38bc2d61aa4f2ed88fb861e08bb3a",
+    "url": "https://bushiroad-creative.com/wordpress/wp-content/uploads/2026/09/22154257/rs_agf_badge_kuji_bunner_2.jpg",
+    "sha256": "53bd68ab7aecd50faa11ff356ddd6e825d3eccdee4d17b552ccef4667e9ed3b5",
+    "reviewed_at": "2026-11-03T20:09:14.065Z",
+    "approved": true,
+    "reason": "实际看图并再次逐条核对价格、包装数量、当场兑换与可选款范围；不用于活动日期或报名时刻。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "商品抽奖价格",
+          "evidence_ja": "1回：￥1,000 税込",
+          "text_zh": "徽章商品抽奖每次含税1,000日元，随机获得绘图徽章或商品兑换徽章；不涉及现场门票资格。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "当日当场兑换",
+          "evidence_ja": "※当日中に引いたその場で引き換えをお願いいたします。",
+          "text_zh": "抽到兑换徽章时须当天在抽取处即时兑换对应商品，绘图徽章直接收取。可兑换B2布海报、心形亚克力立牌、亚克力杖或随机亚克力卡，按抽到的奖项兑换。",
+          "uncertain": false
+        },
+        {
+          "kind": "购买",
+          "title": "款式选择",
+          "evidence_ja": "アクリルステッキ ※選べます（先着順で選べます）",
+          "text_zh": "亚克力杖奖可按先到先得选择款式；随机绘图徽章与随机亚克力卡不能选款，不推定可跨奖项任选。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
   }
 ]

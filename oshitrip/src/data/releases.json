@@ -5762,5 +5762,158 @@
         "checked_on": "2026-10-29"
       }
     ]
+  },
+  {
+    "id": "ticket-ras-16th-iam-2027-tour",
+    "slug": "ticket-ras-16th-iam-2027-tour",
+    "title": "RAISE A SUILEN 16th Single「I AM WHO I AM」",
+    "franchise_ids": [
+      "bang-dream",
+      "raise-a-suilen"
+    ],
+    "release_on": null,
+    "summary": "第16张单曲初回生产分封入2027巡演最速先行抽选申请券；本演出页未写商品发售日。",
+    "status": "published",
+    "updated_at": "2026-11-03T20:03:58.463Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "初回生産分",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "须使用第16张单曲「I AM WHO I AM」初回生产分申请券；同一序列号可报两个不同公演，重复申请同场只计一次，重复中选不退款。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-ras-16th-iam-2027-tour-0",
+        "title": "RAISE A SUILEN 2027巡演・仙台最速先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-16ad5931165da640",
+        "live_dates": [
+          "2027-04-04"
+        ],
+        "venue": "仙台PIT",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-05T12:00:00+09:00",
+          "closes_at": "2026-12-14T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "须使用第16张单曲「I AM WHO I AM」初回生产分申请券；同一序列号可报两个不同公演，重复申请同场只计一次，重复中选不退款。",
+          "须使用第16张单曲「I AM WHO I AM」初回生产分申请券；同一序列号可报两个不同公演，重复申请同场只计一次，重复中选不退款。",
+          "购买商品与申请均不保证中选。"
+        ],
+        "source_url": "https://bang-dream.com/events/ras-tour2027/"
+      },
+      {
+        "id": "ticket-ras-16th-iam-2027-tour-1",
+        "title": "RAISE A SUILEN 2027巡演・札幌最速先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-16ad5931165da640",
+        "live_dates": [
+          "2027-04-10"
+        ],
+        "venue": "Zepp Sapporo",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-05T12:00:00+09:00",
+          "closes_at": "2026-12-14T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "须使用第16张单曲「I AM WHO I AM」初回生产分申请券；同一序列号可报两个不同公演，重复申请同场只计一次，重复中选不退款。",
+          "须使用第16张单曲「I AM WHO I AM」初回生产分申请券；同一序列号可报两个不同公演，重复申请同场只计一次，重复中选不退款。",
+          "购买商品与申请均不保证中选。"
+        ],
+        "source_url": "https://bang-dream.com/events/ras-tour2027/"
+      },
+      {
+        "id": "ticket-ras-16th-iam-2027-tour-2",
+        "title": "RAISE A SUILEN 2027巡演・东京最速先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-16ad5931165da640",
+        "live_dates": [
+          "2027-04-16"
+        ],
+        "venue": "Zepp Haneda (TOKYO)",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-05T12:00:00+09:00",
+          "closes_at": "2026-12-14T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "须使用第16张单曲「I AM WHO I AM」初回生产分申请券；同一序列号可报两个不同公演，重复申请同场只计一次，重复中选不退款。",
+          "须使用第16张单曲「I AM WHO I AM」初回生产分申请券；同一序列号可报两个不同公演，重复申请同场只计一次，重复中选不退款。",
+          "购买商品与申请均不保证中选。"
+        ],
+        "source_url": "https://bang-dream.com/events/ras-tour2027/"
+      },
+      {
+        "id": "ticket-ras-16th-iam-2027-tour-3",
+        "title": "RAISE A SUILEN 2027巡演・大阪最速先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-16ad5931165da640",
+        "live_dates": [
+          "2027-04-18"
+        ],
+        "venue": "Zepp Osaka Bayside",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-05T12:00:00+09:00",
+          "closes_at": "2026-12-14T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "须使用第16张单曲「I AM WHO I AM」初回生产分申请券；同一序列号可报两个不同公演，重复申请同场只计一次，重复中选不退款。",
+          "须使用第16张单曲「I AM WHO I AM」初回生产分申请券；同一序列号可报两个不同公演，重复申请同场只计一次，重复中选不退款。",
+          "购买商品与申请均不保证中选。"
+        ],
+        "source_url": "https://bang-dream.com/events/ras-tour2027/"
+      },
+      {
+        "id": "ticket-ras-16th-iam-2027-tour-4",
+        "title": "RAISE A SUILEN 2027巡演・名古屋最速先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-16ad5931165da640",
+        "live_dates": [
+          "2027-05-23"
+        ],
+        "venue": "名古屋 COMTEC PORTBASE",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-05T12:00:00+09:00",
+          "closes_at": "2026-12-14T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "须使用第16张单曲「I AM WHO I AM」初回生产分申请券；同一序列号可报两个不同公演，重复申请同场只计一次，重复中选不退款。",
+          "须使用第16张单曲「I AM WHO I AM」初回生产分申请券；同一序列号可报两个不同公演，重复申请同场只计一次，重复中选不退款。",
+          "购买商品与申请均不保证中选。"
+        ],
+        "source_url": "https://bang-dream.com/events/ras-tour2027/"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://bang-dream.com/events/ras-tour2027/",
+        "checked_on": "2026-11-03"
+      }
+    ]
   }
 ]
