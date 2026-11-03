@@ -2,6 +2,7 @@ import { createHash } from "node:crypto";
 import { z } from "zod";
 import { imageReviewSchema, pendingImage } from "./image-rules.mjs";
 import { accessDiagnostic, readErrorSample } from "./access-diagnostics.mjs";
+import { isLoveLiveImage } from './image-assets.mjs';
 
 const date = z
   .string()
@@ -126,13 +127,7 @@ export function extractImageCandidates(html, sourceUrl) {
     if (!raw) continue;
     try {
       const u = new URL(raw.replaceAll("&amp;", "&"), sourceUrl);
-      const loveLiveImage =
-        u.hostname === "www.lovelive-anime.jp" &&
-        /^\/(?:nijigasaki|hasunosora|yuigaoka|uranohoshi|otonokizaka|lovehigh|special)\/(?:module|news|topics|live|live-event|(?:shared|common)\/api|event\/[a-z0-9_-]+)\/image\.php$/.test(u.pathname) &&
-        [...u.searchParams.keys()].length === 1 &&
-        /^\/lovelive\/jp\/(?:news|live)\/[0-9/]+\/[\w/.-]+\.(?:png|jpe?g|webp)$/i.test(
-          u.searchParams.get("img_path") || "",
-        );
+      const loveLiveImage = isLoveLiveImage(u.href);
       const staticImage =
         /(?:uploads|assets|files|images|img|lovelive\/jp\/(?:news|live))\//.test(u.pathname) &&
         /\.(?:png|jpe?g|webp|avif)$/i.test(u.pathname);

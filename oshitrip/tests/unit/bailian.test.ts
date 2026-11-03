@@ -110,6 +110,9 @@ describe("Bailian vision integration", () => {
     );
   });
   it("applies paid-call budget only to uncached images across runs", async () => {
+    const { default: sharp } = await import('sharp');
+    const red = await sharp({ create: { width: 2, height: 2, channels: 3, background: 'red' } }).png().toBuffer();
+    const blue = await sharp({ create: { width: 2, height: 2, channels: 3, background: 'blue' } }).png().toBuffer();
     const context = {
       source: {
         origin: "https://www.sweets-paradise.jp",
@@ -124,7 +127,7 @@ describe("Bailian vision integration", () => {
     let calls = 0;
     const fetcher = vi.fn(async (u: Parameters<typeof fetch>[0]) => {
       if (String(u).includes("sweets-paradise"))
-        return new Response(String(u), {
+        return new Response(String(u).endsWith('/a.png') ? red : blue, {
           headers: { "content-type": "image/png" },
         });
       calls++;

@@ -1,5 +1,6 @@
 import { allowedUrl, crawlSource, fetchLimited, robotsAllows } from './core.mjs';
 import { accessDiagnostic } from './access-diagnostics.mjs';
+import { allowedImageUrl } from './image-assets.mjs';
 
 // Disposable, ordinary Chromium. No user profile, stealth flags or access retries.
 export function createBrowserReader(source, { channel = process.env.CRAWLER_BROWSER_CHANNEL, mode = source.browser_mode || 'headless' } = {}) {
@@ -9,11 +10,12 @@ export function createBrowserReader(source, { channel = process.env.CRAWLER_BROW
   let apiPolicy;
   const reader = {
     mode,
-    /** @param {string} url @param {{permits?: (path: string) => boolean, content?: 'html' | 'text'}} policy */
+    /** @param {string} url @param {{permits?: (path: string) => boolean, content?: 'html' | 'text' | 'image'}} policy */
     async read(url, { permits = () => false, content = 'html' } = {}) {
       const isRobots = content === 'text' && url === `${source.origin}/robots.txt`;
-      const maxBytes = isRobots ? 100000 : 1500000;
-      if ((!isRobots && !allowedUrl(url, source)) || !permits(new URL(url).pathname + new URL(url).search)) throw new Error('浏览器 URL 不在批准范围或 robots 禁止');
+      const isImage = content === 'image';
+      const maxBytes = isImage ? 8000000 : isRobots ? 100000 : 1500000;
+      if ((isImage ? !allowedImageUrl(url, source.origin) : !isRobots && !allowedUrl(url, source)) || !permits(new URL(url).pathname + new URL(url).search)) throw new Error('浏览器 URL 不在批准范围或 robots 禁止');
       if (launchError) throw launchError;
       if (source.id === 'gakuen-idolmaster-portal' && !apiPolicy) {
         try {
@@ -65,8 +67,13 @@ export function createBrowserReader(source, { channel = process.env.CRAWLER_BROW
           const diagnostic = accessDiagnostic({ status: response.status(), headers }, (await page.content()).slice(0, 32768));
           throw Object.assign(new Error(`HTTP ${response.status()}；${diagnostic.conclusion}`), { httpStatus: response.status(), diagnostic });
         }
-        if (!headers.get('content-type')?.includes(isRobots ? 'text/plain' : 'text/html')) throw new Error(isRobots ? 'robots 响应不是纯文本' : '响应不是 HTML');
         if (Number(headers.get('content-length')) > maxBytes) throw new Error('页面超过大小限制');
+        if (isImage) {
+          const buffer = await response.body();
+          if (buffer.length > maxBytes) throw new Error('图片超过大小限制');
+          return { buffer, contentType: headers.get('content-type') };
+        }
+        if (!headers.get('content-type')?.includes(isRobots ? 'text/plain' : 'text/html')) throw new Error(isRobots ? 'robots 响应不是纯文本' : '响应不是 HTML');
         if (source.id === 'gakuen-idolmaster-portal' && !isRobots) {
           try {
             await page.locator(new URL(url).pathname === '/news' ? 'a[href^="/news/01_"]' : '[data-theme="news_detail"] [class*="style_inner_content__"]').first().waitFor({ timeout: 12000 });
@@ -80,6 +87,7 @@ export function createBrowserReader(source, { channel = process.env.CRAWLER_BROW
       } finally { await page.close(); }
     },
     async readRobots(url) { return reader.read(url, { content: 'text', permits: () => true }); },
+    async readImage(url, permits) { return reader.read(url, { content: 'image', permits }); },
     async close() { if (browser) await browser.close(); },
   };
   return reader;

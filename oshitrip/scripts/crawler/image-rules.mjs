@@ -1,5 +1,6 @@
 import { createHash } from "node:crypto";
 import { z } from "zod";
+import { allowedImageUrl, validatedImageMime } from './image-assets.mjs';
 
 export const imageReadingSchema = z.object({
   rules: z
@@ -236,15 +237,8 @@ export function createImageReviewer({
     if (
       source.permission === "denied" ||
       !(source.public_fetch_enabled === true || (source.permission === "approved" && source.terms_checked_on && source.authorization_note?.trim())) ||
-      u.origin !== source.origin ||
-      u.username ||
-      u.password ||
-      u.search ||
-      u.hash ||
-      !/^https:$/.test(u.protocol) ||
-      !/(?:uploads|assets|files|images|img)\//.test(u.pathname) ||
-      !/\.(?:png|jpe?g|webp)$/i.test(u.pathname) ||
-      !permits(u.pathname)
+      !allowedImageUrl(u.href, source.origin) ||
+      !permits(u.pathname + u.search)
     )
       return pendingImage(
         image.url,
@@ -256,6 +250,13 @@ export function createImageReviewer({
     let sourceHttpStatus = null;
     try {
       await pause(2000);
+      let buffer;
+      if (source.transport === 'browser') {
+        const { createBrowserReader } = await import('./browser.mjs');
+        const reader = createBrowserReader(source);
+        try { ({ buffer } = await reader.readImage(u.href, permits)); }
+        finally { await reader.close(); }
+      } else {
       const response = await fetcher(u.href, {
         redirect: "manual",
         signal: AbortSignal.timeout(20000),
@@ -264,14 +265,13 @@ export function createImageReviewer({
           Accept: "image/png,image/jpeg,image/webp",
         },
       });
-      const mime = response.headers.get("content-type")?.split(";")[0];
       if (!response.ok) {
         sourceHttpStatus = response.status;
         throw new Error(`HTTP ${response.status}`);
       }
-      if (!["image/png", "image/jpeg", "image/webp"].includes(mime))
-        throw new Error("图片类型不支持");
-      const buffer = await bytes(response, 8000000);
+      buffer = await bytes(response, 8000000);
+      }
+      const mime = await validatedImageMime(buffer);
       sha256 = createHash("sha256").update(buffer).digest("hex");
       const key = `image-rules-v2:${provider}:${provider === "bailian" ? bailianEndpoint(baseUrl) : "openai"}:${model}:${sha256}`;
       const cached = cache.get(key);
@@ -307,7 +307,7 @@ export function createImageReviewer({
         ...pending,
         sha256,
         status: "failed",
-        source_http_status: sourceHttpStatus,
+        source_http_status: sourceHttpStatus || error.httpStatus || null,
         reason: `图片下载或识别失败${/^HTTP (401|403|429|5\d\d)$/.test(error.message) ? `（${error.message}）` : ""}，保留人工阅读；未生成可发布规则。`,
         model,
       };
