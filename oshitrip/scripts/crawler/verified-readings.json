@@ -7561,5 +7561,82 @@
       ]
     },
     "reviewed_at": "2026-11-03T20:09:14.065Z"
+  },
+  "https://bang-dream.com/events/anisama-fukuoka-2027/": {
+    "source_hash": "ba92ffac9f5088fe2600c9222814e6de5c6baacbb95a50b83cae0ec676438d05",
+    "reading": {
+      "offline": true,
+      "kind": "live",
+      "uncertain": false,
+      "title_zh": "ANISAMA FUKUOKA 2027：MyGO!!!!!与Ave Mujica分日出演",
+      "summary_zh": "2027年3月13、14日在福冈みずほPayPayドーム福岡举行。MyGO!!!!!于3月13日出演，Ave Mujica于3月14日出演；不能据此认为两组都参加两天。该出演公告未载票价、开演时间或报名方式，须另查音乐节官网。",
+      "category": "音乐和声优活动",
+      "franchise_ids": [
+        "bang-dream",
+        "mygo",
+        "ave-mujica"
+      ],
+      "rules": [
+        {
+          "title": "分日出演",
+          "text_zh": "MyGO!!!!!出演2027年3月13日（周六），Ave Mujica出演3月14日（周日）；两日地点均为福冈みずほPayPayドーム福岡。",
+          "evidence_ja": "日程\n2027年3月13日(土)・14日(日)\n3月13日(土)にMyGO!!!!!が出演！\n3月14日(日)にAve Mujicaが出演！\n出演アーティスト情報\n会場\nみずほPayPayドーム福岡"
+        },
+        {
+          "title": "官方后续信息入口",
+          "text_zh": "出演公告列出的音乐节官网为 https://anisama.tv/2027/fukuoka/。此页没有公布具体票务或入场条件，未知信息保持未公布。",
+          "evidence_ja": "「ANISAMA FUKUOKA 2027」公式サイト\nhttps://anisama.tv/2027/fukuoka/"
+        }
+      ],
+      "venues": [
+        {
+          "city": "福冈",
+          "name": "みずほPayPayドーム福岡",
+          "start_date": "2027-03-13",
+          "end_date": "2027-03-13",
+          "evidence_ja": "日程\n2027年3月13日(土)・14日(日)\n3月13日(土)にMyGO!!!!!が出演！\n3月14日(日)にAve Mujicaが出演！\n出演アーティスト情報\n会場\nみずほPayPayドーム福岡",
+          "booking": {
+            "method": "尚未公布",
+            "opens_at": null,
+            "closes_at": null,
+            "evidence_ja": "",
+            "note_zh": "这篇出演公告未列票价、开场/开演时刻、购票方式、报名轮次或参与限制。请在购票和出行前查阅ANISAMA FUKUOKA 2027官方页面 https://anisama.tv/2027/fukuoka/；不能据此认定无需预约、仍有余票或需要购买附券商品。",
+            "applies_to_all_venues": false
+          }
+        },
+        {
+          "city": "福冈",
+          "name": "みずほPayPayドーム福岡",
+          "start_date": "2027-03-14",
+          "end_date": "2027-03-14",
+          "evidence_ja": "日程\n2027年3月13日(土)・14日(日)\n3月13日(土)にMyGO!!!!!が出演！\n3月14日(日)にAve Mujicaが出演！\n出演アーティスト情報\n会場\nみずほPayPayドーム福岡",
+          "booking": {
+            "method": "尚未公布",
+            "opens_at": null,
+            "closes_at": null,
+            "evidence_ja": "",
+            "note_zh": "这篇出演公告未列票价、开场/开演时刻、购票方式、报名轮次或参与限制。请在购票和出行前查阅ANISAMA FUKUOKA 2027官方页面 https://anisama.tv/2027/fukuoka/；不能据此认定无需预约、仍有余票或需要购买附券商品。",
+            "applies_to_all_venues": false
+          }
+        }
+      ],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "这篇出演公告未列票价、开场/开演时刻、购票方式、报名轮次或参与限制。请在购票和出行前查阅ANISAMA FUKUOKA 2027官方页面 https://anisama.tv/2027/fukuoka/；不能据此认定无需预约、仍有余票或需要购买附券商品。",
+        "applies_to_all_venues": false
+      },
+      "cancelled": false
+    },
+    "review": {
+      "approved": true,
+      "reason": "实际完整阅读公告并再次对照译文，明确MyGO为3月13日、Ave Mujica为14日，两日场馆一致；票务与开演时刻缺失已逐场保留未知。五张原图已实际查看，均为主视觉、艺人照片或阵容图，没有附券、价格或预约规则，不从图内日期生成场次。",
+      "evidence_ja": [
+        "日程\n2027年3月13日(土)・14日(日)\n3月13日(土)にMyGO!!!!!が出演！\n3月14日(日)にAve Mujicaが出演！\n出演アーティスト情報\n会場\nみずほPayPayドーム福岡"
+      ]
+    },
+    "reviewed_at": "2026-11-04T15:48:50.754Z"
   }
 }

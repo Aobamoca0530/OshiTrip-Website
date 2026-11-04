@@ -555,7 +555,7 @@
       "signature": "0feb9fc9b4a74e66a574414b6d2d16e8093055ba91150ef8e89a6d08630f8f39",
       "first_seen_on": "2026-11-04",
       "burst_day": "2026-11-04",
-      "pending": false,
+      "pending": true,
       "reason": "列表标题或日期变化"
     },
     "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767": {
@@ -599,7 +599,7 @@
       "signature": "c31bf6bb261bd42165241c0ea0a1a9bacdef663b77a8d69ce7d435e5ee1d1233",
       "first_seen_on": "2026-11-04",
       "burst_day": "2026-11-04",
-      "pending": false,
+      "pending": true,
       "reason": "列表标题或日期变化"
     },
     "https://www.lovelive-anime.jp/otonokizaka/detail.php?p=01_6763": {
@@ -863,7 +863,7 @@
       "signature": "449834d60af60cd10aa49bcb0203eef7e75beeaa1bdf0b6fee7c9e2350592b58",
       "first_seen_on": "2026-11-04",
       "burst_day": "2026-11-04",
-      "pending": false,
+      "pending": true,
       "reason": "列表标题或日期变化"
     },
     "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=musubu": {
@@ -918,7 +918,7 @@
       "signature": "1c956b12c2ad6690e41ff6f99bc1776322367c001df5508d8a3420330af8784d",
       "first_seen_on": "2026-11-04",
       "burst_day": "2026-11-04",
-      "pending": false,
+      "pending": true,
       "reason": "列表标题或日期变化"
     },
     "https://idolmaster-official.jp/news/01_20231": {
@@ -1074,6 +1074,61 @@
       "burst_day": "2026-11-02",
       "pending": false,
       "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/anisama-fukuoka-2027/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "bang-dream"
+      ],
+      "signature": "82af2b2cdb5448c3e6cb22d095521f40e373a8f861360b50d2e68bc41412941a",
+      "first_seen_on": "2026-11-04",
+      "burst_day": "2026-11-04",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/news/11324/": {
+      "source_id": "starlight-news",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "a65e887228adea9c99793476c81f10407fbe96cf7f9149b8dc89862a9e89d420",
+      "first_seen_on": "2026-11-04",
+      "burst_day": "2026-11-04",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://revuestarlight.com/news/11326/": {
+      "source_id": "starlight-news",
+      "projects": [
+        "starlight"
+      ],
+      "signature": "61b3871ee3da7873c0889e5f64356662bdac3f7a2fa92b04add502b07ee09f9f",
+      "first_seen_on": "2026-11-04",
+      "burst_day": "2026-11-04",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://idolmaster-official.jp/news/01_20279": {
+      "source_id": "gakuen-idolmaster-portal",
+      "projects": [
+        "gakuen-idolmaster"
+      ],
+      "signature": "05ee02a3e9917a2b83fba7e7e328810a5d655b2a0c1cbcebbd08cd58f77b1c99",
+      "first_seen_on": "2026-11-04",
+      "burst_day": "2026-11-04",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://idolmaster-official.jp/news/01_20061": {
+      "source_id": "gakuen-idolmaster-portal",
+      "projects": [
+        "gakuen-idolmaster"
+      ],
+      "signature": "3165e0bc05c1ae17011e23f20ef44b2d47d40f404b452ddd3cb0fe5552bc93b3",
+      "first_seen_on": "2026-11-04",
+      "burst_day": "2026-11-04",
+      "pending": false,
+      "reason": "列表新增且未收录"
     }
   },
   "daily_usage": {
@@ -1087,7 +1142,16 @@
         "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
       ],
       "gakuen-idolmaster": [
-        "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php"
+        "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php",
+        "https://idolmaster-official.jp/news/01_20279",
+        "https://idolmaster-official.jp/news/01_20061"
+      ],
+      "bang-dream": [
+        "https://bang-dream.com/events/anisama-fukuoka-2027/"
+      ],
+      "starlight": [
+        "https://revuestarlight.com/news/11324/",
+        "https://revuestarlight.com/news/11326/"
       ]
     }
   }

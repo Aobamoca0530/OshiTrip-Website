@@ -1,7 +1,7 @@
 {
   "formatVersion": 2,
-  "revision": "19bd6d5ba67be36b4d811d0293235894445c7a22500b0e3517a65f15154f31c8",
-  "publishedAt": "2026-11-03T20:10:35.279Z",
+  "revision": "5c2f3d3a5dff45d7dc24f7f213da64c9c3b3ae90bf8dc7fcbf85856686408852",
+  "publishedAt": "2026-11-04T15:49:23.722Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -13210,6 +13210,148 @@
               "checked_at": "2026-11-03T19:51:01.164Z"
             }
           ]
+        },
+        {
+          "id": "auto-1c1071d3e690470e",
+          "slug": "official-1c1071d3e690470e",
+          "title_ja": "ANISAMA FUKUOKA 2027",
+          "title_zh": "ANISAMA FUKUOKA 2027：MyGO!!!!!与Ave Mujica分日出演",
+          "category": "音乐和声优活动",
+          "summary": "2027年3月13、14日在福冈みずほPayPayドーム福岡举行。MyGO!!!!!于3月13日出演，Ave Mujica于3月14日出演；不能据此认为两组都参加两天。该出演公告未载票价、开演时间或报名方式，须另查音乐节官网。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30172746/67020faa-a1e9d723-5b130348-fcc6fa8b.jpg",
+            "alt": "ANISAMA FUKUOKA 2027：MyGO!!!!!与Ave Mujica分日出演",
+            "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+            "checked_on": "2026-11-04"
+          },
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30172746/67020faa-a1e9d723-5b130348-fcc6fa8b.jpg",
+              "alt": "ANISAMA FUKUOKA 2027",
+              "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "checked_on": "2026-11-04"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/03/09141046/d0a3d557-5ea2f301-996e6402-7535e781.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "checked_on": "2026-11-04"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/03/25102810/1b53ad57-5622dcb7-25c9c849-114aacb3.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "checked_on": "2026-11-04"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30172653/c9228550-74c93a59-c3aa99f5-764ac7e6-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "checked_on": "2026-11-04"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30172650/d0074386-30b4e6ab-4034d650-fea5b327-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "checked_on": "2026-11-04"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-1c1071d3e690470e-rule-0",
+              "kind": "参加",
+              "title": "分日出演",
+              "text_zh": "MyGO!!!!!出演2027年3月13日（周六），Ave Mujica出演3月14日（周日）；两日地点均为福冈みずほPayPayドーム福岡。",
+              "evidence_ja": "日程\n2027年3月13日(土)・14日(日)\n3月13日(土)にMyGO!!!!!が出演！\n3月14日(日)にAve Mujicaが出演！\n出演アーティスト情報\n会場\nみずほPayPayドーム福岡",
+              "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-04"
+            },
+            {
+              "id": "auto-1c1071d3e690470e-rule-1",
+              "kind": "参加",
+              "title": "官方后续信息入口",
+              "text_zh": "出演公告列出的音乐节官网为 https://anisama.tv/2027/fukuoka/。此页没有公布具体票务或入场条件，未知信息保持未公布。",
+              "evidence_ja": "「ANISAMA FUKUOKA 2027」公式サイト\nhttps://anisama.tv/2027/fukuoka/",
+              "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-04"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "这篇出演公告未列票价、开场/开演时刻、购票方式、报名轮次或参与限制。请在购票和出行前查阅ANISAMA FUKUOKA 2027官方页面 https://anisama.tv/2027/fukuoka/；不能据此认定无需预约、仍有余票或需要购买附券商品。"
+          ],
+          "status": "published",
+          "verified_at": "2026-11-04T15:44:10.921Z",
+          "updated_at": "2026-11-04T15:44:10.921Z",
+          "franchise_ids": [
+            "bang-dream",
+            "mygo",
+            "ave-mujica"
+          ],
+          "venues": [
+            {
+              "id": "auto-1c1071d3e690470e-venue-74ad52fe41",
+              "city": "福冈",
+              "name": "みずほPayPayドーム福岡",
+              "address": null,
+              "start_date": "2027-03-13",
+              "end_date": "2027-03-13",
+              "rounds": [
+                {
+                  "id": "auto-1c1071d3e690470e-round-0",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+                  "note": "这篇出演公告未列票价、开场/开演时刻、购票方式、报名轮次或参与限制。请在购票和出行前查阅ANISAMA FUKUOKA 2027官方页面 https://anisama.tv/2027/fukuoka/；不能据此认定无需预约、仍有余票或需要购买附券商品。"
+                }
+              ]
+            },
+            {
+              "id": "auto-1c1071d3e690470e-venue-dc1b70c54c",
+              "city": "福冈",
+              "name": "みずほPayPayドーム福岡",
+              "address": null,
+              "start_date": "2027-03-14",
+              "end_date": "2027-03-14",
+              "rounds": [
+                {
+                  "id": "auto-1c1071d3e690470e-round-1",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+                  "note": "这篇出演公告未列票价、开场/开演时刻、购票方式、报名轮次或参与限制。请在购票和出行前查阅ANISAMA FUKUOKA 2027官方页面 https://anisama.tv/2027/fukuoka/；不能据此认定无需预约、仍有余票或需要购买附券商品。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-1c1071d3e690470e-source",
+              "url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-11-04T15:44:10.921Z"
+            }
+          ]
         }
       ]
     },
@@ -19285,6 +19427,46 @@
       }
     ],
     "announcements": [
+      {
+        "id": "1c1071d3e690470ee88cc8a1",
+        "source_id": "bang-dream-live",
+        "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+        "title": "ANISAMA FUKUOKA 2027",
+        "first_seen_at": "2026-11-04T15:44:10.921Z",
+        "last_seen_at": "2026-11-04T15:44:10.921Z",
+        "changed_at": "2026-11-04T15:44:10.921Z",
+        "content_hash": "0cd1c8884485d08ca92320bef6007d0f9dd41c4a55c0a9d40a8465076a2c9d60",
+        "related_event_ids": [
+          "auto-1c1071d3e690470e"
+        ],
+        "images": [
+          {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30172746/67020faa-a1e9d723-5b130348-fcc6fa8b.jpg",
+            "alt": "ANISAMA FUKUOKA 2027",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/03/09141046/d0a3d557-5ea2f301-996e6402-7535e781.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/03/25102810/1b53ad57-5622dcb7-25c9c849-114aacb3.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30172653/c9228550-74c93a59-c3aa99f5-764ac7e6-1024x576.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30172650/d0074386-30b4e6ab-4034d650-fea5b327-1024x576.jpg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
       {
         "id": "5967750a617af6af7a547eb7",
         "source_id": "bushiroad-creative",

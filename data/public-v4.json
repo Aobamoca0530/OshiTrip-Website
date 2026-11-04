@@ -1,7 +1,7 @@
 {
   "formatVersion": 4,
-  "revision": "2315956da092f0c75c7b206a55912d39323c8c105a288f7276f75800811676cd",
-  "publishedAt": "2026-11-03T20:10:35.279Z",
+  "revision": "fbf0914a504e77e00a3a842c97d7cc0ce00eecf928a5404162ff7d12398a1923",
+  "publishedAt": "2026-11-04T15:49:23.722Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -13210,6 +13210,148 @@
               "checked_at": "2026-11-03T19:51:01.164Z"
             }
           ]
+        },
+        {
+          "id": "auto-1c1071d3e690470e",
+          "slug": "official-1c1071d3e690470e",
+          "title_ja": "ANISAMA FUKUOKA 2027",
+          "title_zh": "ANISAMA FUKUOKA 2027：MyGO!!!!!与Ave Mujica分日出演",
+          "category": "音乐和声优活动",
+          "summary": "2027年3月13、14日在福冈みずほPayPayドーム福岡举行。MyGO!!!!!于3月13日出演，Ave Mujica于3月14日出演；不能据此认为两组都参加两天。该出演公告未载票价、开演时间或报名方式，须另查音乐节官网。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30172746/67020faa-a1e9d723-5b130348-fcc6fa8b.jpg",
+            "alt": "ANISAMA FUKUOKA 2027：MyGO!!!!!与Ave Mujica分日出演",
+            "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+            "checked_on": "2026-11-04"
+          },
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30172746/67020faa-a1e9d723-5b130348-fcc6fa8b.jpg",
+              "alt": "ANISAMA FUKUOKA 2027",
+              "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "checked_on": "2026-11-04"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/03/09141046/d0a3d557-5ea2f301-996e6402-7535e781.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "checked_on": "2026-11-04"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/03/25102810/1b53ad57-5622dcb7-25c9c849-114aacb3.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "checked_on": "2026-11-04"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30172653/c9228550-74c93a59-c3aa99f5-764ac7e6-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "checked_on": "2026-11-04"
+            },
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30172650/d0074386-30b4e6ab-4034d650-fea5b327-1024x576.jpg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "checked_on": "2026-11-04"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-1c1071d3e690470e-rule-0",
+              "kind": "参加",
+              "title": "分日出演",
+              "text_zh": "MyGO!!!!!出演2027年3月13日（周六），Ave Mujica出演3月14日（周日）；两日地点均为福冈みずほPayPayドーム福岡。",
+              "evidence_ja": "日程\n2027年3月13日(土)・14日(日)\n3月13日(土)にMyGO!!!!!が出演！\n3月14日(日)にAve Mujicaが出演！\n出演アーティスト情報\n会場\nみずほPayPayドーム福岡",
+              "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-04"
+            },
+            {
+              "id": "auto-1c1071d3e690470e-rule-1",
+              "kind": "参加",
+              "title": "官方后续信息入口",
+              "text_zh": "出演公告列出的音乐节官网为 https://anisama.tv/2027/fukuoka/。此页没有公布具体票务或入场条件，未知信息保持未公布。",
+              "evidence_ja": "「ANISAMA FUKUOKA 2027」公式サイト\nhttps://anisama.tv/2027/fukuoka/",
+              "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-04"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "这篇出演公告未列票价、开场/开演时刻、购票方式、报名轮次或参与限制。请在购票和出行前查阅ANISAMA FUKUOKA 2027官方页面 https://anisama.tv/2027/fukuoka/；不能据此认定无需预约、仍有余票或需要购买附券商品。"
+          ],
+          "status": "published",
+          "verified_at": "2026-11-04T15:44:10.921Z",
+          "updated_at": "2026-11-04T15:44:10.921Z",
+          "franchise_ids": [
+            "bang-dream",
+            "mygo",
+            "ave-mujica"
+          ],
+          "venues": [
+            {
+              "id": "auto-1c1071d3e690470e-venue-74ad52fe41",
+              "city": "福冈",
+              "name": "みずほPayPayドーム福岡",
+              "address": null,
+              "start_date": "2027-03-13",
+              "end_date": "2027-03-13",
+              "rounds": [
+                {
+                  "id": "auto-1c1071d3e690470e-round-0",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+                  "note": "这篇出演公告未列票价、开场/开演时刻、购票方式、报名轮次或参与限制。请在购票和出行前查阅ANISAMA FUKUOKA 2027官方页面 https://anisama.tv/2027/fukuoka/；不能据此认定无需预约、仍有余票或需要购买附券商品。"
+                }
+              ]
+            },
+            {
+              "id": "auto-1c1071d3e690470e-venue-dc1b70c54c",
+              "city": "福冈",
+              "name": "みずほPayPayドーム福岡",
+              "address": null,
+              "start_date": "2027-03-14",
+              "end_date": "2027-03-14",
+              "rounds": [
+                {
+                  "id": "auto-1c1071d3e690470e-round-1",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+                  "note": "这篇出演公告未列票价、开场/开演时刻、购票方式、报名轮次或参与限制。请在购票和出行前查阅ANISAMA FUKUOKA 2027官方页面 https://anisama.tv/2027/fukuoka/；不能据此认定无需预约、仍有余票或需要购买附券商品。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-1c1071d3e690470e-source",
+              "url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-11-04T15:44:10.921Z"
+            }
+          ]
         }
       ]
     },
@@ -19285,6 +19427,68 @@
       }
     ],
     "announcements": [
+      {
+        "id": "1c1071d3e690470ee88cc8a1",
+        "source_id": "bang-dream-live",
+        "source_url": "https://bang-dream.com/events/anisama-fukuoka-2027/",
+        "title": "ANISAMA FUKUOKA 2027",
+        "first_seen_at": "2026-11-04T15:44:10.921Z",
+        "last_seen_at": "2026-11-04T15:44:10.921Z",
+        "changed_at": "2026-11-04T15:44:10.921Z",
+        "content_hash": "0cd1c8884485d08ca92320bef6007d0f9dd41c4a55c0a9d40a8465076a2c9d60",
+        "related_event_ids": [
+          "auto-1c1071d3e690470e"
+        ],
+        "images": [
+          {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30172746/67020faa-a1e9d723-5b130348-fcc6fa8b.jpg",
+            "alt": "ANISAMA FUKUOKA 2027",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/03/09141046/d0a3d557-5ea2f301-996e6402-7535e781.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/03/25102810/1b53ad57-5622dcb7-25c9c849-114aacb3.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30172653/c9228550-74c93a59-c3aa99f5-764ac7e6-1024x576.jpg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/30172650/d0074386-30b4e6ab-4034d650-fea5b327-1024x576.jpg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "live",
+          "state": "ready",
+          "title_zh": "ANISAMA FUKUOKA 2027：MyGO!!!!!与Ave Mujica分日出演",
+          "summary_zh": "2027年3月13、14日在福冈みずほPayPayドーム福岡举行。MyGO!!!!!于3月13日出演，Ave Mujica于3月14日出演；不能据此认为两组都参加两天。该出演公告未载票价、开演时间或报名方式，须另查音乐节官网。",
+          "source_hash": "ba92ffac9f5088fe2600c9222814e6de5c6baacbb95a50b83cae0ec676438d05",
+          "model": "source-reviewed",
+          "reason": "正文日期、地点及规则证据通过校验",
+          "rules": [
+            {
+              "title": "分日出演",
+              "text_zh": "MyGO!!!!!出演2027年3月13日（周六），Ave Mujica出演3月14日（周日）；两日地点均为福冈みずほPayPayドーム福岡。",
+              "evidence_ja": "日程\n2027年3月13日(土)・14日(日)\n3月13日(土)にMyGO!!!!!が出演！\n3月14日(日)にAve Mujicaが出演！\n出演アーティスト情報\n会場\nみずほPayPayドーム福岡"
+            },
+            {
+              "title": "官方后续信息入口",
+              "text_zh": "出演公告列出的音乐节官网为 https://anisama.tv/2027/fukuoka/。此页没有公布具体票务或入场条件，未知信息保持未公布。",
+              "evidence_ja": "「ANISAMA FUKUOKA 2027」公式サイト\nhttps://anisama.tv/2027/fukuoka/"
+            }
+          ]
+        }
+      },
       {
         "id": "5967750a617af6af7a547eb7",
         "source_id": "bushiroad-creative",
@@ -27099,58 +27303,58 @@
       }
     ],
     "monitoring": {
-      "checked_at": "2026-11-03T19:51:01.164Z",
+      "checked_at": "2026-11-04T15:44:10.921Z",
       "sources": [
         {
           "id": "bang-dream-live",
           "name": "BanG Dream! Live / Event",
           "url": "https://bang-dream.com/events/",
           "state": "success",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
-          "last_success_at": "2026-11-03T19:51:01.164Z",
-          "pages": 37,
-          "discovered": 37,
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
+          "last_success_at": "2026-11-04T15:44:10.921Z",
+          "pages": 1,
+          "discovered": 1,
           "deferred": 0,
-          "retained": 0,
+          "retained": 38,
           "issues": []
         },
         {
           "id": "bang-dream-news",
           "name": "BanG Dream! 新闻",
           "url": "https://bang-dream.com/news/",
-          "state": "success",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
-          "last_success_at": "2026-11-03T19:51:01.164Z",
-          "pages": 1,
-          "discovered": 1,
+          "state": "empty",
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
+          "last_success_at": "2026-11-04T15:44:10.921Z",
+          "pages": 0,
+          "discovered": 0,
           "deferred": 0,
-          "retained": 0,
+          "retained": 1,
           "issues": []
         },
         {
           "id": "bushiroad-creative",
           "name": "Bushiroad Creative",
           "url": "https://bushiroad-creative.com/",
-          "state": "success",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
-          "last_success_at": "2026-11-03T19:51:01.164Z",
-          "pages": 5,
-          "discovered": 5,
+          "state": "empty",
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
+          "last_success_at": "2026-11-04T15:44:10.921Z",
+          "pages": 0,
+          "discovered": 0,
           "deferred": 0,
-          "retained": 0,
+          "retained": 6,
           "issues": []
         },
         {
           "id": "nijigasaki-news",
           "name": "虹咲官网新闻",
           "url": "https://www.lovelive-anime.jp/nijigasaki/topics.php",
-          "state": "success",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
-          "last_success_at": "2026-11-03T19:51:01.164Z",
-          "pages": 11,
-          "discovered": 11,
+          "state": "empty",
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
+          "last_success_at": "2026-11-04T15:44:10.921Z",
+          "pages": 0,
+          "discovered": 0,
           "deferred": 0,
-          "retained": 2,
+          "retained": 12,
           "issues": []
         },
         {
@@ -27158,12 +27362,12 @@
           "name": "少女歌剧新闻",
           "url": "https://revuestarlight.com/news/",
           "state": "success",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
-          "last_success_at": "2026-11-03T19:51:01.164Z",
-          "pages": 10,
-          "discovered": 10,
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
+          "last_success_at": "2026-11-04T15:44:10.921Z",
+          "pages": 2,
+          "discovered": 2,
           "deferred": 0,
-          "retained": 0,
+          "retained": 9,
           "issues": []
         },
         {
@@ -27183,121 +27387,117 @@
           "id": "sweets-paradise",
           "name": "SWEETS PARADISE",
           "url": "https://www.sweets-paradise.jp/collaboration/",
-          "state": "success",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
-          "last_success_at": "2026-11-03T19:51:01.164Z",
-          "pages": 1,
-          "discovered": 1,
+          "state": "empty",
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
+          "last_success_at": "2026-11-04T15:44:10.921Z",
+          "pages": 0,
+          "discovered": 0,
           "deferred": 0,
-          "retained": 1,
+          "retained": 2,
           "issues": []
         },
         {
           "id": "starlight-events",
           "name": "少女歌剧 Live / Event",
           "url": "https://revuestarlight.com/event/",
-          "state": "success",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
-          "last_success_at": "2026-11-03T19:51:01.164Z",
-          "pages": 9,
-          "discovered": 9,
+          "state": "empty",
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
+          "last_success_at": "2026-11-04T15:44:10.921Z",
+          "pages": 0,
+          "discovered": 0,
           "deferred": 0,
-          "retained": 0,
+          "retained": 9,
           "issues": []
         },
         {
           "id": "aqours-official",
           "name": "Aqours · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/uranohoshi/topics.php",
-          "state": "success",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
+          "state": "partial",
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
           "last_success_at": "2026-11-03T19:51:01.164Z",
-          "pages": 6,
-          "discovered": 6,
-          "deferred": 0,
-          "retained": 1,
+          "pages": 0,
+          "discovered": 0,
+          "deferred": 2,
+          "retained": 6,
           "issues": []
         },
         {
           "id": "muse-official",
           "name": "μ's · 新闻与演出",
           "url": "https://www.lovelive-anime.jp/otonokizaka/topics.php",
-          "state": "success",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
-          "last_success_at": "2026-11-03T19:51:01.164Z",
-          "pages": 5,
-          "discovered": 5,
+          "state": "empty",
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
+          "last_success_at": "2026-11-04T15:44:10.921Z",
+          "pages": 0,
+          "discovered": 0,
           "deferred": 0,
-          "retained": 2,
+          "retained": 4,
           "issues": []
         },
         {
           "id": "ikizulive-official",
           "name": "人生不易部 · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/lovehigh/news/",
-          "state": "success",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
-          "last_success_at": "2026-11-03T19:51:01.164Z",
-          "pages": 7,
-          "discovered": 7,
+          "state": "empty",
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
+          "last_success_at": "2026-11-04T15:44:10.921Z",
+          "pages": 0,
+          "discovered": 0,
           "deferred": 0,
-          "retained": 1,
+          "retained": 5,
           "issues": []
         },
         {
           "id": "lovelive-series-live",
           "name": "Love Live! 跨企划演出",
           "url": "https://www.lovelive-anime.jp/lovehigh/live/",
-          "state": "success",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
-          "last_success_at": "2026-11-03T19:51:01.164Z",
-          "pages": 1,
-          "discovered": 1,
+          "state": "empty",
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
+          "last_success_at": "2026-11-04T15:44:10.921Z",
+          "pages": 0,
+          "discovered": 0,
           "deferred": 0,
-          "retained": 0,
+          "retained": 1,
           "issues": []
         },
         {
           "id": "hasunosora-official",
           "name": "莲之空 · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/hasunosora/news/",
-          "state": "partial",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
-          "last_success_at": "2026-11-03T19:37:52.908Z",
-          "pages": 3,
-          "discovered": 9,
-          "deferred": 5,
-          "retained": 10,
-          "issues": [
-            "HTTP 403：本次未能读取页面，原因尚待确认。"
-          ]
+          "state": "empty",
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
+          "last_success_at": "2026-11-04T15:44:10.921Z",
+          "pages": 0,
+          "discovered": 0,
+          "deferred": 0,
+          "retained": 13,
+          "issues": []
         },
         {
           "id": "liella-official",
           "name": "Liella! · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/yuigaoka/topics/",
-          "state": "blocked",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
+          "state": "partial",
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
           "last_success_at": "2026-11-03T19:37:52.908Z",
           "pages": 0,
-          "discovered": 3,
-          "deferred": 3,
+          "discovered": 0,
+          "deferred": 1,
           "retained": 4,
-          "issues": [
-            "HTTP 403：本次未能读取页面，原因尚待确认。"
-          ]
+          "issues": []
         },
         {
           "id": "gakuen-idolmaster-live",
           "name": "学园偶像大师 · 官方巡演",
           "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/",
-          "state": "success",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
+          "state": "partial",
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
           "last_success_at": "2026-11-03T19:51:01.164Z",
-          "pages": 4,
-          "discovered": 4,
-          "deferred": 0,
-          "retained": 0,
+          "pages": 0,
+          "discovered": 0,
+          "deferred": 1,
+          "retained": 4,
           "issues": []
         },
         {
@@ -27305,8 +27505,8 @@
           "name": "学园偶像大师 · 厂牌新闻",
           "url": "https://gakuen-label.idolmaster-official.jp/news",
           "state": "empty",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
-          "last_success_at": "2026-11-03T19:51:01.164Z",
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
+          "last_success_at": "2026-11-04T15:44:10.921Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -27318,38 +27518,132 @@
           "name": "学园偶像大师 · 综合门户新闻",
           "url": "https://idolmaster-official.jp/news?page_index=1",
           "state": "success",
-          "last_attempt_at": "2026-11-03T19:51:01.164Z",
-          "last_success_at": "2026-11-03T19:51:01.164Z",
-          "pages": 4,
-          "discovered": 4,
+          "last_attempt_at": "2026-11-04T15:44:10.921Z",
+          "last_success_at": "2026-11-04T15:44:10.921Z",
+          "pages": 2,
+          "discovered": 2,
           "deferred": 0,
-          "retained": 1,
+          "retained": 2,
           "issues": []
         }
       ],
       "unread_announcement_ids": [
+        "5967750a617af6af7a547eb7",
+        "126401a7a866f9f2eebe414b",
+        "16ad5931165da6402598de69",
+        "96f2d29dd4fe37bfdd690843",
+        "09b2bb28952e5ad0c56e5153",
+        "48935219a39829fb3413729e",
+        "5ff5514150c5e86f42a14369",
+        "9fc593b0ca57187ca4af7768",
+        "fa667bd396c53327f8365074",
+        "87404a8ec7a814534d8729aa",
         "50f5f45cf44080564f040924",
+        "7fe220332289c14c7aa8cf97",
+        "04c73e062516c03ae9d78430",
+        "1c624082c33b649c8b8ffd8f",
+        "1cd0ce24546c0919ec620abf",
+        "30fb7128504cc0da31ecba16",
+        "574a22a1d83b735f9d20d6de",
         "5f0af0901b591f03f7aeb08a",
+        "93b590e9ad3ff3eda3a91e71",
+        "d540d28b52883eafd47ebf5e",
+        "e445d0d1659a0d7d9f9c22b2",
+        "f17f424f710069c806263124",
         "3d0295f7c66df5ff779e27d9",
         "7b39a46f58d94f315287136a",
         "859eb48cedf3ebadae9bc83d",
         "f25c77e1c21a3fd0228d91bf",
         "9c494d72add3b4bf6fd486c3",
         "34922ee4eeed22d02bdd6fb9",
+        "4dd06bfcf0d0abb2eb9e875e",
+        "69db4e82e137a6d85faa1a15",
         "6c08dbd6c0c23e7197a8a714",
+        "70dd2d30c1a28bb3346648ef",
         "7c75a2c370d9830cd6fb3027",
+        "9cfb2d214ec41aea7e96fcb8",
         "9efef2c6b6b816edc361d56e",
+        "a48a7b8fd72221efc2194a11",
         "b82e1e70622c4cd68516d242",
         "05dc8574efdf67c49cc9e519",
         "146b038a253352c20886e77b",
+        "27cc406bf0a3900e3e8b9bc5",
         "2a1bae84f11f661a20cad8b8",
+        "2fe70e863233e59886e0186a",
         "816362dea2b2656387551a7b",
         "d85d9cb0248adf13fa7546c4",
+        "f2d38c18557debf61f0b524a",
         "f86ba6cf06b5aed7cf0cc58a",
+        "fca84b7613dfcf4c48c379fa",
         "81f284dd403980ef9e9a209e",
         "e8f9e7616b711e63b2e4a67e",
+        "12799e94fdc2df297617c5c1",
+        "ca26a0cb7e16bb3282baa978",
         "35517508cbd07a8f008e9faf",
-        "63e9f9ae966e1ff95609391c"
+        "00435577cc20ed4f93fd928e",
+        "0c80a1d8f835ab8a6918a9ad",
+        "0d9f7fdb753dc3189bf27820",
+        "1392fef95dd8a2b66f937c9b",
+        "255d600405ff25dff0578a59",
+        "2f1c6028ffd8703477e6a01e",
+        "4963106bf899c62895a0fede",
+        "4daaf52db5610cdd8a99f6ce",
+        "4f3fd300a004b4d74a31d2e6",
+        "4fdf47aa644e427ea884232a",
+        "609276e522d1cc05a03f3995",
+        "6d0e9817399ab81c0cb3057b",
+        "77f22c48c8435b096a5f2d40",
+        "7d8c4e716fb8a6fccba82ca0",
+        "7fb8374c1820845098ac43d8",
+        "8d96093ede74512cab462147",
+        "9bce97b29ef2200a6858c40a",
+        "a73cada99860ec2d84cd60b2",
+        "ab15a4c0651f6ca2a5460888",
+        "ac962017f7fc741598c19ab5",
+        "b2eac18cccc052d0dd593d6a",
+        "b7a138e18395468e3f6bfbe2",
+        "bc85a25c9ebcbbe682b63a8e",
+        "c4b20905d91bcf5a3d2738e9",
+        "c96213b334859fe411005c39",
+        "ca706770d1403c47ed53f9c9",
+        "d7022644e8b1eedfa464dcb6",
+        "d7aa807ac7272d64679c41dc",
+        "deac21c214072d05f1339e10",
+        "e895f63dd4884e14f5eb18f0",
+        "fe2514bec06115a18654e3b0",
+        "ff8ed48f453e5c6d3cb7c48d",
+        "5a2f9a7aa3c0c12371c1d981",
+        "63e890fb109ff84bc95f6dd8",
+        "7fa5f43cc9f1a52b7b7f64f5",
+        "876f26dd0c37de44afcd6dea",
+        "9dde75e20fadc5ffdc6d0324",
+        "a0d13aed98742dfbb44e471a",
+        "aab9c2d03dc155751045110d",
+        "c4cf9251ade3e56b9b4c578a",
+        "f065242309b768b946256ef9",
+        "97ebcc1904e05ceeaadc3c8b",
+        "68cdd470d3fcbc4d743d32c5",
+        "08d360d60e091c36f6276bc4",
+        "27126eacd27fd1d0884913c0",
+        "352f82cb3f7861f691e4659c",
+        "3e4377f79d9b13a6cabd2406",
+        "460293924341f571b3abae18",
+        "52bd179ab4c4166f1fa89f5f",
+        "63e9f9ae966e1ff95609391c",
+        "6742ea1e9447868ab462ab22",
+        "9b8ea6b59ec88f7868880520",
+        "a1f3cfebfcf4fac0832daee9",
+        "b0b1dd28461a3857a1fb917a",
+        "b2f9cf322c26af286926d3b7",
+        "b4ecb38087da7c5d83354e73",
+        "d619118620b989d8d6da2979",
+        "de78d60fbbe4f9ed2b568e39",
+        "3343638c4bc492da6585902d",
+        "056bc7026c1178cd372bd3f4",
+        "750b3c12f1bb5fec5dbbb9f2",
+        "a216c08c0bdd5b5a38f27d1b",
+        "fc5d725cc12f30d3100d6299",
+        "560b515e77e2945704b3683d"
       ]
     }
   }
