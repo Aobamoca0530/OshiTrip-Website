@@ -4214,7 +4214,7 @@
     "release_on": "2026-08-26",
     "summary": "官网确认初回生产分附 Live 抽选申込券，已按版本整理官方公布的店铺特典。线下目录目前覆盖 Animate 与 Gamers 的部分分店，库存需向具体分店查询。 特装盘另有延期发货和相关会场销售中止公告。",
     "status": "published",
-    "updated_at": "2026-10-28T08:53:38.351Z",
+    "updated_at": "2026-11-04T15:59:37.781Z",
     "editions": [
       {
         "id": "bd",
@@ -4241,7 +4241,7 @@
     "lotteries": [
       {
         "id": "fastest",
-        "title": "Roselia 10th Anniversary LIVE TOUR 最速先行",
+        "title": "Roselia 10th Anniversary LIVE TOUR 最速先行（东京）",
         "edition_ids": [
           "bd",
           "cd",
@@ -4249,21 +4249,47 @@
         ],
         "event_slug": "roselia-10th-anniversary-live-tour",
         "live_dates": [
-          "2027-01-30",
+          "2027-01-30"
+        ],
+        "venue": "TOYOTA ARENA TOKYO",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-06T12:00:00+09:00",
+          "closes_at": "2026-11-30T23:59:00+09:00",
+          "note": "最速先行附券抽选；本轮时间均为日本时间。各组截止日期不同。"
+        },
+        "conditions": [
+          "凭《Lehre der Rose》初回生产分内附申请券报名，购买商品不保证中选。",
+          "同一序列号可申请两个不同场次；提交后可用同一序列号再次申请另一场。",
+          "同一序列号对同一场申请两次仅计一次；重复中选不退款。"
+        ],
+        "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/"
+      },
+      {
+        "id": "fastest-aichi-miyagi-fukuoka",
+        "title": "Roselia 10th Anniversary LIVE TOUR 最速先行（爱知・宫城・福冈）",
+        "edition_ids": [
+          "bd",
+          "cd",
+          "special"
+        ],
+        "event_slug": "roselia-10th-anniversary-live-tour",
+        "live_dates": [
           "2027-02-28",
           "2027-03-14",
           "2027-04-25"
         ],
-        "venue": "TOYOTA ARENA TOKYO、愛知県芸術劇場 大ホール、仙台サンプラザホール、福岡サンパレス",
+        "venue": "愛知県芸術劇場 大ホール、仙台サンプラザホール、福岡サンパレス",
         "window": {
           "opens_on": null,
-          "opens_at": null,
-          "closes_at": null,
-          "note": "巡演场次及附券资格已公布；票务详情和报名受理期间尚待官方公布。"
+          "opens_at": "2026-11-06T12:00:00+09:00",
+          "closes_at": "2026-12-07T23:59:00+09:00",
+          "note": "最速先行附券抽选；本轮时间均为日本时间。各组截止日期不同。"
         },
         "conditions": [
-          "仅适用于初回生产分附券商品。",
-          "购买商品不等于获得门票，申请规则请核对官方公告。"
+          "凭《Lehre der Rose》初回生产分内附申请券报名，购买商品不保证中选。",
+          "同一序列号可申请两个不同场次；提交后可用同一序列号再次申请另一场。",
+          "同一序列号对同一场申请两次仅计一次；重复中选不退款。"
         ],
         "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/"
       }
@@ -4734,7 +4760,7 @@
       {
         "label": "Roselia 10周年巡演官方公告",
         "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
-        "checked_on": "2026-10-28"
+        "checked_on": "2026-11-04"
       }
     ],
     "images": [

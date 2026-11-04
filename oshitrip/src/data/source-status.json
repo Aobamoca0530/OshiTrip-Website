@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-04T15:44:10.921Z",
+  "checked_at": "2026-11-04T15:59:37.781Z",
   "sources": [
     {
       "id": "bang-dream-live",
       "name": "BanG Dream! Live / Event",
       "url": "https://bang-dream.com/events/",
       "state": "success",
-      "last_attempt_at": "2026-11-04T15:44:10.921Z",
-      "last_success_at": "2026-11-04T15:44:10.921Z",
+      "last_attempt_at": "2026-11-04T15:59:37.781Z",
+      "last_success_at": "2026-11-04T15:59:37.781Z",
       "pages": 1,
       "discovered": 1,
       "deferred": 0,
@@ -224,6 +224,7 @@
     }
   ],
   "unread_announcement_ids": [
+    "1c1071d3e690470ee88cc8a1",
     "5967750a617af6af7a547eb7",
     "126401a7a866f9f2eebe414b",
     "16ad5931165da6402598de69",
@@ -317,7 +318,6 @@
     "aab9c2d03dc155751045110d",
     "c4cf9251ade3e56b9b4c578a",
     "f065242309b768b946256ef9",
-    "97ebcc1904e05ceeaadc3c8b",
     "68cdd470d3fcbc4d743d32c5",
     "08d360d60e091c36f6276bc4",
     "27126eacd27fd1d0884913c0",

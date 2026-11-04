@@ -3255,65 +3255,166 @@
       "title_ja": "Roselia 10th Anniversary LIVE TOUR",
       "title_zh": "Roselia 十周年巡回演唱会",
       "category": "音乐和声优活动",
-      "summary": "Roselia 十周年巡回演唱会，共 4 站。举办日期、会场及最速先行抽选所需附券商品已公布；票务详情和报名受理期间仍待官方后续公布。",
+      "summary": "Roselia 十周年巡演已公布东京、爱知、宫城、福冈四站，官网另有 and more 预告。最速先行均于2026年11月6日12:00开始；东京场11月30日23:59截止，其他三站12月7日23:59截止（日本时间）。需《Lehre der Rose》初回附券，同一序列号可申请两个不同场次。",
       "image": {
         "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/27160916/172a442f-f52d7f3c-72a971ec-d4dccad9.png",
         "alt": "Roselia 十周年巡回演唱会",
         "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
-        "checked_on": "2026-11-03"
+        "checked_on": "2026-11-04"
       },
       "gallery": [
         {
           "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/27160916/172a442f-f52d7f3c-72a971ec-d4dccad9.png",
           "alt": "Roselia 10th Anniversary LIVE TOUR",
           "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
-          "checked_on": "2026-11-03"
+          "checked_on": "2026-11-04"
+        },
+        {
+          "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/04112307/dc8001b5-523edeb7-91bd9200-b126a896-1024x577.jpg",
+          "alt": "官方公告配图（图中文字请以原图为准）",
+          "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+          "checked_on": "2026-11-04"
+        },
+        {
+          "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/04112310/2f4ef728-abd5e9e0-50a116f3-ff16e567-1024x577.jpg",
+          "alt": "官方公告配图（图中文字请以原图为准）",
+          "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+          "checked_on": "2026-11-04"
+        },
+        {
+          "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/04112317/edb16f16-5b15b35a-e91c2e25-001030b6-1024x577.jpg",
+          "alt": "官方公告配图（图中文字请以原图为准）",
+          "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+          "checked_on": "2026-11-04"
+        },
+        {
+          "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/04112314/5c3c2094-8673a2b4-5163d9ea-bb9f14f0-1024x577.jpg",
+          "alt": "官方公告配图（图中文字请以原图为准）",
+          "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+          "checked_on": "2026-11-04"
         }
       ],
       "benefits": [],
       "translated_rules": [
         {
-          "title": "最速先行抽选资格",
-          "text_zh": "凭 Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生产分内附的申请券参加最速先行抽选。购买商品不等于获得门票。",
-          "evidence_ja": "※ Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生産分に封入の申込券でご応募いただけます。",
+          "title": "东京最速先行",
+          "text_zh": "2026年11月6日12:00至11月30日23:59，日本时间。",
+          "evidence_ja": "最速先行抽選 (東京公演)\n受付期間：2026年11月6日(金) 12:00 ～ 11月30日(月) 23:59まで",
           "id": "auto-97ebcc1904e05cee-rule-0",
           "kind": "参加",
           "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
           "image_url": null,
           "image_sha256": null,
-          "checked_on": "2026-11-03"
+          "checked_on": "2026-11-04"
         },
         {
-          "title": "报名期间与票务详情",
-          "text_zh": "官方将另行公布票务详情和受理期间。当前不能据此判断报名已开放。",
-          "evidence_ja": "※チケットの詳細や受付期間は後日公開いたします。",
+          "title": "爱知、宫城、福冈最速先行",
+          "text_zh": "2026年11月6日12:00至12月7日23:59，日本时间。",
+          "evidence_ja": "最速先行抽選 (愛知・宮城・福岡公演)\n受付期間：2026年11月6日(金) 12:00 ～ 12月7日(月) 23:59まで",
           "id": "auto-97ebcc1904e05cee-rule-1",
           "kind": "参加",
           "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
           "image_url": null,
           "image_sha256": null,
-          "checked_on": "2026-11-03"
+          "checked_on": "2026-11-04"
         },
         {
-          "title": "现场注意事项",
-          "text_zh": "请在参加前阅读并遵守 Bushiroad Music 主办演出的注意事项；本场其他注意事项后续公布。",
-          "evidence_ja": "※その他の注意事項は後日公開いたします。",
+          "title": "附券资格",
+          "text_zh": "凭《Lehre der Rose》初回生产分内附申请券报名，购买商品不保证中选。",
+          "evidence_ja": "※ Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生産分に封入の申込券でご応募いただけます。",
           "id": "auto-97ebcc1904e05cee-rule-2",
           "kind": "参加",
           "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
           "image_url": null,
           "image_sha256": null,
-          "checked_on": "2026-11-03"
+          "checked_on": "2026-11-04"
+        },
+        {
+          "title": "序列号使用限制",
+          "text_zh": "同一序列号可申请两个不同场次；提交后可用同一序列号再次申请另一场。同一序列号对同一场申请两次仅计一次；重复中选不退款。",
+          "evidence_ja": "※同一シリアルNo.にて、 異なる2公演 のお申込みが可能です。\n例）東京公演に1回、愛知公演に1回ご応募\n※複数公演申込希望のお客様はお申込み完了後、同じシリアルNo.を使用して再度お申込みください。\n※重複当選に伴う返金はございませんので、予めご了承ください。\n※システム上、シリアル1種で同一公演に2回ご応募いただくこともできますが、その場合は1回のご応募としてカウントさせていただきます。\n例）東京公演に2回ご応募",
+          "id": "auto-97ebcc1904e05cee-rule-3",
+          "kind": "参加",
+          "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+          "image_url": null,
+          "image_sha256": null,
+          "checked_on": "2026-11-04"
+        },
+        {
+          "title": "票价与席种",
+          "text_zh": "含税：S席附特典24,200日元；A席附特典17,600日元；东京限定露台套房席附特典17,600日元（共用房间、拼席，可站立观看）；看台指定席附特典14,300日元；看台指定席9,900日元。",
+          "evidence_ja": "S席(特製グッズ付き)：24,200円(税込)\nA席(特製グッズ付き)：17,600円(税込)\nテラススイート席(特製グッズ付き)：17,600円(税込) ※東京公演のみ\nスタンド指定席(特製グッズ付き)：14,300円(税込)\nスタンド指定席：9,900円(税込)\n※「テラススイート席(特製グッズ付き)」は相部屋・相席となります。予めご了承ください。\nテラススイート席でも、立ってのご観覧が可能となります。",
+          "id": "auto-97ebcc1904e05cee-rule-4",
+          "kind": "参加",
+          "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+          "image_url": null,
+          "image_sha256": null,
+          "checked_on": "2026-11-04"
+        },
+        {
+          "title": "附特典票",
+          "text_zh": "迷你照片风卡（声优新拍实照）及声优留言卡，各会场设计不同、图案后续公开。东京：工藤晴香；爱知：中岛由贵；宫城：樱川惠；福冈：志崎桦音。相羽爱奈对应场次后续公布。",
+          "evidence_ja": "ミニフォト風カード(キャスト実写撮り下ろし)＋キャストメッセージカード\n※各会場ごとにデザインが異なります。デザインは後日公開いたします。\n・1月30日(土) 東京公演：氷川紗夜役 工藤晴香\n・2月28日(日) 愛知公演：今井リサ役 中島由貴\n・3月14日(日) 宮城公演：宇田川あこ役 櫻川めぐ\n・4月25日(日) 福岡公演：白金燐子役 志崎樺音\n・【後日公開】湊友希那役 相羽あいな",
+          "id": "auto-97ebcc1904e05cee-rule-5",
+          "kind": "参加",
+          "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+          "image_url": null,
+          "image_sha256": null,
+          "checked_on": "2026-11-04"
+        },
+        {
+          "title": "开场与开演",
+          "text_zh": "东京2027年1月30日16:30开场、18:00开演；爱知2月28日、宫城3月14日、福冈4月25日均16:00开场、17:00开演。均为预定日本时间。",
+          "evidence_ja": "東京公演\n日程：2027年1月30日(土) 開場16:30／開演18:00（予定）\n会場：TOYOTA ARENA TOKYO\n愛知公演\n日程：2027年2月28日(日) 開場16:00／開演17:00（予定）\n会場：愛知県芸術劇場 大ホール\n宮城公演\n日程：2027年3月14日(日) 開場16:00／開演17:00（予定）\n会場：仙台サンプラザホール\n福岡公演\n日程：2027年4月25日(日) 開場16:00／開演17:00（予定）\n会場：福岡サンパレス",
+          "id": "auto-97ebcc1904e05cee-rule-6",
+          "kind": "参加",
+          "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+          "image_url": null,
+          "image_sha256": null,
+          "checked_on": "2026-11-04"
+        },
+        {
+          "title": "入场与退票",
+          "text_zh": "未就学儿童不可入场；每张票限一人且仅适用于票面日期和会场。除演出取消或延期外不退款。附票特典原则上在现场领取，不接受事前或事后邮寄。",
+          "evidence_ja": "・未就学児の入場はできません。\n・チケットは券面に記載の公演日、会場でのみ有効となります。\n・1枚のチケットを複数のお客様で使用することはできません（チケット1枚につきお客様1名様のみのご入場となります）。\n・公演中止、延期の場合以外でのチケットの払い戻しはいかなる理由でも行いません。予めご了承ください。\n・グッズ付きチケットをご購入された場合、グッズは原則として会場でのお渡しとなります。いかなる理由でも事前または事後の発送は受け付けておりませんので予めご了承ください。グッズのお受け取り忘れにつきましても、開催当日のご申告のみ対応させていただきます。後日のご連絡にはお応えいたしかねますので、グッズはお忘れなくお受け取りください。その他入場時等の配布物につきましても同様とさせていただきます。",
+          "id": "auto-97ebcc1904e05cee-rule-7",
+          "kind": "参加",
+          "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+          "image_url": null,
+          "image_sha256": null,
+          "checked_on": "2026-11-04"
+        },
+        {
+          "title": "身份确认与转让",
+          "text_zh": "禁止转售及转让（电子票正规同行者分票功能除外）；可能实施本人确认，请携带官方规定的身份证件。详细证件、现场行为和祝花规则请阅读官网。",
+          "evidence_ja": "チケットの転売・譲渡は、いかなる場合も固く禁止しております。\n転売対策のため、入場前に全てのお客様についてご本人様確認を実施させていただく場合がございますので、公的な顔写真付身分証明書1点（免許証・パスポート・在留カード・障害者手帳・顔写真付クレジットカード・顔写真付住民基本台帳カード・マイナンバーカードなど）または顔写真付学生証（生徒手帳・学生手帳）1点を必ずご準備ください。\n顔写真付でない学生証（生徒手帳・学生手帳）をお持ちの方は、顔写真付でない学生証（生徒手帳・学生手帳）1点に加え、ご本人名義の保険証または保険証の写し1点の合計2点をご用意の上、ご来場ください。\n身分証をご提示いただけない場合、入場をお断りする場合がございます。\n※イープラス「スマチケ」など、電子チケットの分配機能を用いた同行者への分配は問題ございません。",
+          "id": "auto-97ebcc1904e05cee-rule-8",
+          "kind": "参加",
+          "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+          "image_url": null,
+          "image_sha256": null,
+          "checked_on": "2026-11-04"
+        },
+        {
+          "title": "礼物及信件",
+          "text_zh": "现场不收礼物和粉丝来信，不设置礼物箱。",
+          "evidence_ja": "・プレゼント・ファンレターはお控えください。プレゼントボックスも設置は致しません。",
+          "id": "auto-97ebcc1904e05cee-rule-9",
+          "kind": "参加",
+          "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+          "image_url": null,
+          "image_sha256": null,
+          "checked_on": "2026-11-04"
         }
       ],
       "fees": null,
       "conditions": [
         "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
-        "凭 Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+        "各站报名窗口分别列于场次：东京11月30日截止，爱知、宫城、福冈12月7日截止；均于11月6日12:00开放（日本时间）。"
       ],
       "status": "published",
-      "verified_at": "2026-11-03T19:51:01.164Z",
-      "updated_at": "2026-11-03T19:51:01.164Z",
+      "verified_at": "2026-11-04T15:59:37.781Z",
+      "updated_at": "2026-11-04T15:59:37.781Z",
       "franchise_ids": [
         "bang-dream",
         "roselia"
@@ -3331,15 +3432,15 @@
               "id": "auto-97ebcc1904e05cee-round-0",
               "label": "官方抽选报名",
               "method": "抽选报名",
-              "kind": "unannounced",
-              "opens_at": null,
-              "closes_at": null,
+              "kind": "fixed",
+              "opens_at": "2026-11-06T12:00:00+09:00",
+              "closes_at": "2026-11-30T23:59:00+09:00",
               "days_before": null,
               "open_time": null,
               "cutoff_days_before": null,
               "cutoff_time": null,
               "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
-              "note": "凭 Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+              "note": "最速先行；凭《Lehre der Rose》初回生产分内附申请券报名，购买商品不保证中选。同一序列号可申请两个不同场次；提交后可用同一序列号再次申请另一场。同一序列号对同一场申请两次仅计一次；重复中选不退款。 本场11月30日23:59截止，时间均为日本时间。"
             }
           ]
         },
@@ -3355,15 +3456,15 @@
               "id": "auto-97ebcc1904e05cee-round-1",
               "label": "官方抽选报名",
               "method": "抽选报名",
-              "kind": "unannounced",
-              "opens_at": null,
-              "closes_at": null,
+              "kind": "fixed",
+              "opens_at": "2026-11-06T12:00:00+09:00",
+              "closes_at": "2026-12-07T23:59:00+09:00",
               "days_before": null,
               "open_time": null,
               "cutoff_days_before": null,
               "cutoff_time": null,
               "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
-              "note": "凭 Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+              "note": "最速先行；凭《Lehre der Rose》初回生产分内附申请券报名，购买商品不保证中选。同一序列号可申请两个不同场次；提交后可用同一序列号再次申请另一场。同一序列号对同一场申请两次仅计一次；重复中选不退款。 本场12月7日23:59截止，时间均为日本时间。"
             }
           ]
         },
@@ -3379,15 +3480,15 @@
               "id": "auto-97ebcc1904e05cee-round-2",
               "label": "官方抽选报名",
               "method": "抽选报名",
-              "kind": "unannounced",
-              "opens_at": null,
-              "closes_at": null,
+              "kind": "fixed",
+              "opens_at": "2026-11-06T12:00:00+09:00",
+              "closes_at": "2026-12-07T23:59:00+09:00",
               "days_before": null,
               "open_time": null,
               "cutoff_days_before": null,
               "cutoff_time": null,
               "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
-              "note": "凭 Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+              "note": "最速先行；凭《Lehre der Rose》初回生产分内附申请券报名，购买商品不保证中选。同一序列号可申请两个不同场次；提交后可用同一序列号再次申请另一场。同一序列号对同一场申请两次仅计一次；重复中选不退款。 本场12月7日23:59截止，时间均为日本时间。"
             }
           ]
         },
@@ -3403,15 +3504,15 @@
               "id": "auto-97ebcc1904e05cee-round-3",
               "label": "官方抽选报名",
               "method": "抽选报名",
-              "kind": "unannounced",
-              "opens_at": null,
-              "closes_at": null,
+              "kind": "fixed",
+              "opens_at": "2026-11-06T12:00:00+09:00",
+              "closes_at": "2026-12-07T23:59:00+09:00",
               "days_before": null,
               "open_time": null,
               "cutoff_days_before": null,
               "cutoff_time": null,
               "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
-              "note": "凭 Roselia 10th Anniversary Best Album「Lehre der Rose」 初回生产分内附申请券报名。票务详情、开始及截止时间尚未公布。"
+              "note": "最速先行；凭《Lehre der Rose》初回生产分内附申请券报名，购买商品不保证中选。同一序列号可申请两个不同场次；提交后可用同一序列号再次申请另一场。同一序列号对同一场申请两次仅计一次；重复中选不退款。 本场12月7日23:59截止，时间均为日本时间。"
             }
           ]
         }
@@ -3421,7 +3522,7 @@
           "id": "auto-97ebcc1904e05cee-source",
           "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
           "label": "官方正文 · 机器辅助整理",
-          "checked_at": "2026-11-03T19:51:01.164Z"
+          "checked_at": "2026-11-04T15:59:37.781Z"
         }
       ]
     },
