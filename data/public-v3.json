@@ -1,7 +1,7 @@
 {
   "formatVersion": 3,
-  "revision": "b75d2a8d6c30eec0b93e768aa090694cf97d59d7d7e30b6af701b4a9bf756322",
-  "publishedAt": "2026-11-04T16:00:14.351Z",
+  "revision": "fd3eb27d83d44c5203c6ef78f9fb262c49b4102289a76bee67fbfcb341f38692",
+  "publishedAt": "2026-11-05T14:13:04.856Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -13453,6 +13453,640 @@
               "checked_at": "2026-11-04T15:44:10.921Z"
             }
           ]
+        },
+        {
+          "id": "auto-34c32074e759e14a",
+          "slug": "official-34c32074e759e14a",
+          "title_ja": "『LoveLive! Series 15th Anniversary ラブライブ！フェス』にて、キッチンカーの出店が決定！",
+          "title_zh": "Love Live! 15周年 Fes 名古屋餐车与大阪 HEP NAVIO 咖啡店联动",
+          "category": "其他联动",
+          "summary": "11月14、15日餐车在名古屋巨蛋供应限定饮品和杯垫，两天均于9:30开始，分别在16:30和15:30结束（日本时间）。同时持餐车与大阪联动咖啡店的消费小票可领双面插画卡。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/PWmZIS1c2ERFcEoI/Mbffj66mup5lBovN.jpeg",
+            "alt": "Love Live! 15周年 Fes 名古屋餐车与大阪 HEP NAVIO 咖啡店联动",
+            "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+            "checked_on": "2026-11-05"
+          },
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/PWmZIS1c2ERFcEoI/Mbffj66mup5lBovN.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "checked_on": "2026-11-05"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/AaRAASppLtf9qQWw/pRBVeOeIRCvV6QBF.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "checked_on": "2026-11-05"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-34c32074e759e14a-rule-0",
+              "kind": "参加",
+              "title": "出摊时间",
+              "text_zh": "日本时间11月14日9:30–16:30，11月15日9:30–15:30。地点为爱知县名古屋巨蛋。",
+              "evidence_ja": "【開催日時】\n2026年11月14日（土） 9:30～16:30\n2026年11月15日（日） 9:30～15:30\n【出店場所】\n愛知・ バンテリンドーム ナゴヤ",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "auto-34c32074e759e14a-rule-1",
+              "kind": "参加",
+              "title": "双店联动",
+              "text_zh": "出示餐车与大阪 THEキャラCAFE HEPナビオ店两处消费小票可领双面插画卡（共1款）。",
+              "evidence_ja": "また、2026年11月5日(木)より大阪にて開催される「ラブライブ！シリーズ×THEキャラCAFE HEPナビオ店」との連動キャンペーンの開催が決定♪\n両店舗でのご利用レシートを提示で、「両面イラストカード（全1種）」をプレゼントいたします！",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "auto-34c32074e759e14a-rule-2",
+              "kind": "参加",
+              "title": "支付与限购",
+              "text_zh": "可用现金、信用卡、IC或二维码支付。每单每部作品最多3杯，总计最多21杯；一次最多领取3杯。",
+              "evidence_ja": "・お会計は現金、クレジットカード、IC、QR決済がご利用いただけます。\n詳しくはレジにてスタッフへお尋ねください。\n・１回のお会計で各タイトル3杯まで、最大21杯までご注文いただけます。\n・ドリンクの引き換えは1度に3杯までとなります。",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "auto-34c32074e759e14a-rule-3",
+              "kind": "参加",
+              "title": "赠品与集章",
+              "text_zh": "随机赠品不可指定图案，送完即止，禁止转售。现场不办理结女、浦女餐车集章或相应赠品兑换。",
+              "evidence_ja": "・特典はランダムでのお渡しとなり、絵柄はお選びいただけません。\n・特典は無くなり次第終了となります。\n・特典の転売行為は禁止です。\n・現在開催中の結女キッチンカー、浦女キッチンカースタンプカードの押印及び特典の引き換えは行いません。",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "auto-34c32074e759e14a-rule-4",
+              "kind": "参加",
+              "title": "缺件与换货",
+              "text_zh": "分发有误或数量不足仅在购买当天处理。与图案无关处（如背面）的细小划痕、压角、凹痕、擦痕不予更换。",
+              "evidence_ja": "・万が一、配布不備・不足があった場合は、ご購入当日に限り対応させていただきます。\n・特典の不良交換は絵柄に関与しない箇所(背面など)は対象外です。\n(例)微細な傷/角潰れ/へこみ/スレ",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "verified-image-eebf47f70d52a840358c",
+              "kind": "点单",
+              "title": "饮品价格",
+              "text_zh": "A、B两款饮品每杯均为含税800日元。",
+              "evidence_ja": "ALL 800円（税込）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "image_url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/PWmZIS1c2ERFcEoI/Mbffj66mup5lBovN.jpeg",
+              "image_sha256": "f7633e5f6ce9136fc920ac4595f5552b0704fa5f76ec46839756e56c4e4d5494",
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "verified-image-db31c013800075dee84d",
+              "kind": "点单",
+              "title": "A款过敏原标注",
+              "text_zh": "A款草莓乳酸菌饮料标注含乳。",
+              "evidence_ja": "アレルゲン：乳",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "image_url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/PWmZIS1c2ERFcEoI/Mbffj66mup5lBovN.jpeg",
+              "image_sha256": "f7633e5f6ce9136fc920ac4595f5552b0704fa5f76ec46839756e56c4e4d5494",
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "verified-image-4dc5014ca560cff59f4f",
+              "kind": "特典",
+              "title": "每杯赠一枚杯垫",
+              "text_zh": "每杯赠一枚杯垫。可选七个作品之一，具体款式在该作品中随机发放。",
+              "evidence_ja": "下記7タイトルよりお好きなタイトルを1つお選びいただき、その中からランダムでお渡し",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "image_url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/PWmZIS1c2ERFcEoI/Mbffj66mup5lBovN.jpeg",
+              "image_sha256": "f7633e5f6ce9136fc920ac4595f5552b0704fa5f76ec46839756e56c4e4d5494",
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "verified-image-ae5b0cb3fa2f0511906e",
+              "kind": "特典",
+              "title": "三杯合购",
+              "text_zh": "三杯同时购买赠一张 Memories Snap，图示每部作品有两款可选。",
+              "evidence_ja": "ドリンク3杯同時購入で",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "image_url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/PWmZIS1c2ERFcEoI/Mbffj66mup5lBovN.jpeg",
+              "image_sha256": "f7633e5f6ce9136fc920ac4595f5552b0704fa5f76ec46839756e56c4e4d5494",
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "verified-image-89f294a6cf971f284566",
+              "kind": "特典",
+              "title": "两处收银台发放",
+              "text_zh": "凭两处小票，可在联动咖啡店或餐车收银台领取。",
+              "evidence_ja": "両店舗共にレジでの配布です。",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "image_url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/AaRAASppLtf9qQWw/pRBVeOeIRCvV6QBF.jpeg",
+              "image_sha256": "249728887f23e9c1c971fbe22b5df1ff7b12d12fb1c0ec682ab43015a7d62490",
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "verified-image-2a0ff8b60a539f099a79",
+              "kind": "特典",
+              "title": "有效小票",
+              "text_zh": "咖啡店小票有效期为11月5日至29日；餐车仅限11月14、15日的小票。",
+              "evidence_ja": "2026年11月5日（木）～11月29日（日）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "image_url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/AaRAASppLtf9qQWw/pRBVeOeIRCvV6QBF.jpeg",
+              "image_sha256": "249728887f23e9c1c971fbe22b5df1ff7b12d12fb1c0ec682ab43015a7d62490",
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "verified-image-8d26d399bde4e3fdff75",
+              "kind": "特典",
+              "title": "领卡期间",
+              "text_zh": "两店联动卡发放期为11月14日至29日，餐车仅14、15日发放。",
+              "evidence_ja": "2026年11月14日（土）～11月29日（日）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "image_url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/AaRAASppLtf9qQWw/pRBVeOeIRCvV6QBF.jpeg",
+              "image_sha256": "249728887f23e9c1c971fbe22b5df1ff7b12d12fb1c0ec682ab43015a7d62490",
+              "checked_on": "2026-11-05"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "公告未列入场预约方式、受理轮次或时刻。到店前请确认门店最新通知。"
+          ],
+          "status": "published",
+          "verified_at": "2026-11-05T14:06:24.884Z",
+          "updated_at": "2026-11-05T14:06:24.884Z",
+          "franchise_ids": [
+            "lovelive"
+          ],
+          "venues": [
+            {
+              "id": "auto-34c32074e759e14a-venue-1f96b2a272",
+              "city": "名古屋",
+              "name": "バンテリンドーム ナゴヤ",
+              "address": null,
+              "start_date": "2026-11-14",
+              "end_date": "2026-11-15",
+              "rounds": [
+                {
+                  "id": "auto-34c32074e759e14a-round-0",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+                  "note": "公告未说明购买饮品是否需持演出票。 公告未列入场预约方式、受理轮次或时刻。到店前请确认门店最新通知。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-34c32074e759e14a-source",
+              "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-11-05T14:06:24.884Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-9460e5aab33ea832",
+          "slug": "official-9460e5aab33ea832",
+          "title_ja": "ゲーマーズ、アニメイトにて「LoveLive! Series 15th Anniversary ラブライブ！フェス」開催記念フェアが決定！",
+          "title_zh": "Love Live! 15周年纪念展销活动：Gamers 店头抽奖与 animate 名古屋特展",
+          "category": "其他联动",
+          "summary": "11月10日至12月13日，Gamers 实体店与三家指定 animate 门店开展购物赠卡活动，另有七家 Gamers 举行店头抽奖。名古屋特展仅开到11月16日，展场位于第3太閤大楼6楼。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/05/1002/B2ApcX3MV1hvVuRZ/7qBo4gOl5VZsHFwE.jpeg",
+            "alt": "Love Live! 15周年纪念展销活动：Gamers 店头抽奖与 animate 名古屋特展",
+            "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+            "checked_on": "2026-11-05"
+          },
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/05/1002/B2ApcX3MV1hvVuRZ/7qBo4gOl5VZsHFwE.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+              "checked_on": "2026-11-05"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/05/1002/UcDQxThKn9w30U8N/CPV5zHxy7tfLSXSs.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+              "checked_on": "2026-11-05"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-9460e5aab33ea832-rule-0",
+              "kind": "参加",
+              "title": "购物赠卡",
+              "text_zh": "同一子系列每满1,100日元（含税）赠同系列资料卡一张，满16,500日元最多15张。共73款，款式不可选，送完即止。",
+              "evidence_ja": "期間中、対象店舗にて『ラブライブ！シリーズ』関連の映像・音楽商品、キャラクターグッズを、同一シリーズの商品毎に、ご購入税込1,100円(税込)毎に1枚、税込16,500円以上で15枚まで、ご購入いただいた商品と同じシリーズのデザインを使用した【15周年記念メンバープロフィールカード(全73種)】を1枚プレゼントいたします！\n※デザインはお選びいただけません。\n※数量限定の為、無くなり次第終了となります。",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "auto-9460e5aab33ea832-rule-1",
+              "kind": "参加",
+              "title": "门店与商品",
+              "text_zh": "Gamers 全部实体店以及 animate 名古屋、沼津、名古屋 PARCO 店参加。11月10日起发售的影音、音乐商品除外。只有 Gamers 参加门店也计入角色周边预订。",
+              "evidence_ja": "■開催期間：2026年11月10日（火）～2026年12月13日（日）\n■対象店舗：ゲーマーズ全店（オンラインショップ除く）、アニメイト名古屋、アニメイト沼津、アニメイト名古屋パルコ\n■対象商品：ラブライブ！シリーズ関連商品（映像・音楽商品、キャラクターグッズ）\n※11月10日(火)以降発売の映像・音楽商品は対象外です。\n※ゲーマーズ対象店舗のみ、キャラクターグッズのご予約商品も対象となります。",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "auto-9460e5aab33ea832-rule-2",
+              "kind": "参加",
+              "title": "合计范围",
+              "text_zh": "不同子系列不能合并凑满1,100日元。系列联合商品的赠卡从全部73款中发放。",
+              "evidence_ja": "※ご購入いただいた商品と同じシリーズのデザインを使用した特典をお渡しいたします。シリーズ合同商品については、全73種の中からお渡しいたします。デザインはお選びいただけませんので、ご了承ください。\n※同一シリーズの商品におけるご購入の合計金額が1,100円(税込)以上の場合に、特典配布の対象となります。異なるシリーズの商品を組み合わせて合計金額が1,100円(税込)以上となる場合は対象外となりますので、あらかじめご了承ください。",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "auto-9460e5aab33ea832-rule-3",
+              "kind": "参加",
+              "title": "七店抽奖",
+              "text_zh": "11月10日至12月13日，秋叶原总店、名古屋、沼津、台场、原宿、金泽、池袋七店购买指定影音、音乐商品或周边，每满3,000日元可参加一次店头奖品抽选。",
+              "evidence_ja": "＜ゲーマーズ 店頭抽選会＞\n期間中、対象のゲーマーズ店舗にて『ラブライブ！シリーズ』関連の映像・音楽商品、キャラクターグッズを、3,000円ご購入毎に豪華景品の当たる抽選会にご参加頂けます！\n■開催期間：2026年11月10日（火）～2026年12月13日（日）\n■対象店舗：AKIHABARAゲーマーズ本店・ゲーマーズ名古屋店・ゲーマーズ沼津店・ODAIBAゲーマーズ・原宿店ゲーマーズ・金沢ゲーマーズ、ゲーマーズ池袋店\n■対象商品：ラブライブ！シリーズ関連商品（映像・音楽商品、キャラクターグッズ）",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "auto-9460e5aab33ea832-rule-4",
+              "kind": "参加",
+              "title": "奖品",
+              "text_zh": "A奖为迷你立牌套装，七个企划分别每店一名，稍后交付。B奖为全部73款资料卡套组，每店十名。",
+              "evidence_ja": "■景品：A賞…ミニスタンディセット\n『ラブライブ！』 μ'ｓ賞：各店1名\n『ラブライブ！サンシャイン!!』 Aqours賞：各店1名\n『ラブライブ！虹ヶ咲学園スクールアイドル同好会』賞：各店1名\n『ラブライブ！スーパースター!!』 Liella! 賞：各店1名\n『蓮ノ空女学院スクールアイドルクラブ』賞：各店1名\n『イキヅライブ！ LOVELIVE! BLUEBIRD』 いきづらい部！賞：各店1名\n『スクールアイドルミュージカル』賞：各店1名\nB賞…15周年記念メンバープロフィールカード全73種セット：各店10名当選\n※A賞は後日お渡し予定となります。",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "auto-9460e5aab33ea832-rule-5",
+              "kind": "参加",
+              "title": "名古屋特展",
+              "text_zh": "11月10日至16日每天10:00–19:00（日本时间），等身立牌和15周年主视觉拍照点设在第3太閤大楼6楼。由 animate 名古屋步行约2–3分钟，由JR名古屋站太閤通口约5–6分钟。",
+              "evidence_ja": "■展示内容：等身大スタンディ展示、ラブライブ！シリーズ15周年記念KVイメージフォトスポット\n■展示期間：2026年11月10日(火)～11月16日(月)\n■開場時間：10時～19時\n■展示場所：第3太閤ビル 6階イベントスペース\n〒453-0015 愛知県名古屋市中村区椿町２１−２ 第３太閤ビル６F\n※アニメイト名古屋から徒歩２～3分の所、ＪＲ名古屋駅 太閤通口より徒歩５～６分の所",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "auto-9460e5aab33ea832-rule-6",
+              "kind": "参加",
+              "title": "现场须知",
+              "text_zh": "奖品、赠品及兑换券禁止转让或转售，请勿触摸展品。活动可能变更、延期或取消，详情以各店公告为准。",
+              "evidence_ja": "各施策の詳細は、各法人のキャンペーンページをご確認ください。\nゲーマーズ： https://www.gamers.co.jp/contents/event_fair/detail.php?id=8128\nアニメイト： https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116792\n※施策に関わる景品・特典・引換券等は、全て第三者への譲渡・オークション等での転売を禁止とさせていただきます。\n※都合により、予告なく変更・延期・中止となる場合がございます。予めご了承ください。\n※展示物にはお手を触れないようにお願いいたします。\n※お問い合わせは各店舗へお願いいたします。",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "verified-image-b3f724b3f9552e2393de",
+              "kind": "特典",
+              "title": "购物赠卡上限",
+              "text_zh": "同一系列商品每满1,100日元（含税）赠一张卡。",
+              "evidence_ja": "￥1,100（税込）毎に1枚",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+              "image_url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/05/1002/B2ApcX3MV1hvVuRZ/7qBo4gOl5VZsHFwE.jpeg",
+              "image_sha256": "8b4017e4bf6ef3aa05779497ccc44b53b2e39ddc88466cde7f60d7d10604cd8e",
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "verified-image-4fd7f0f704e8144693a3",
+              "kind": "特典",
+              "title": "最多15张",
+              "text_zh": "满16,500日元（含税）最多获15张。",
+              "evidence_ja": "￥16,500（税込）以上で15枚まで",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+              "image_url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/05/1002/B2ApcX3MV1hvVuRZ/7qBo4gOl5VZsHFwE.jpeg",
+              "image_sha256": "8b4017e4bf6ef3aa05779497ccc44b53b2e39ddc88466cde7f60d7d10604cd8e",
+              "checked_on": "2026-11-05"
+            },
+            {
+              "id": "verified-image-fee807d9571445728f5c",
+              "kind": "特典",
+              "title": "赠卡款式",
+              "text_zh": "购买特典为15周年成员资料卡，共73款。",
+              "evidence_ja": "15周年記念メンバープロフィールカード 全73種",
+              "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+              "image_url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/05/1002/UcDQxThKn9w30U8N/CPV5zHxy7tfLSXSs.jpeg",
+              "image_sha256": "aa94e2ba14f2a15b8921170e0a5ca4932654fe502d95aa1ed8de123f2b2de266",
+              "checked_on": "2026-11-05"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "公告未列入场预约方式、受理轮次或时刻。到店前请确认门店最新通知。"
+          ],
+          "status": "published",
+          "verified_at": "2026-11-05T14:06:24.884Z",
+          "updated_at": "2026-11-05T14:06:24.884Z",
+          "franchise_ids": [
+            "lovelive"
+          ],
+          "venues": [
+            {
+              "id": "auto-9460e5aab33ea832-venue-3e4e41538c",
+              "city": "名古屋",
+              "name": "アニメイト名古屋",
+              "address": null,
+              "start_date": "2026-11-10",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-9460e5aab33ea832-round-0",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+                  "note": "购物赠卡门店。 公告未列入场预约方式、受理轮次或时刻。到店前请确认门店最新通知。"
+                }
+              ]
+            },
+            {
+              "id": "auto-9460e5aab33ea832-venue-27db92b2f9",
+              "city": "沼津",
+              "name": "アニメイト沼津",
+              "address": null,
+              "start_date": "2026-11-10",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-9460e5aab33ea832-round-1",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+                  "note": "购物赠卡门店。 公告未列入场预约方式、受理轮次或时刻。到店前请确认门店最新通知。"
+                }
+              ]
+            },
+            {
+              "id": "auto-9460e5aab33ea832-venue-ef0361a3ca",
+              "city": "名古屋",
+              "name": "アニメイト名古屋パルコ",
+              "address": null,
+              "start_date": "2026-11-10",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-9460e5aab33ea832-round-2",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+                  "note": "购物赠卡门店。 公告未列入场预约方式、受理轮次或时刻。到店前请确认门店最新通知。"
+                }
+              ]
+            },
+            {
+              "id": "auto-9460e5aab33ea832-venue-1d1b5be73a",
+              "city": "东京",
+              "name": "AKIHABARAゲーマーズ本店",
+              "address": null,
+              "start_date": "2026-11-10",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-9460e5aab33ea832-round-3",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+                  "note": "七家店另设每满3,000日元的店内奖品抽选。 公告未列入场预约方式、受理轮次或时刻。到店前请确认门店最新通知。"
+                }
+              ]
+            },
+            {
+              "id": "auto-9460e5aab33ea832-venue-ab8511cc6e",
+              "city": "名古屋",
+              "name": "ゲーマーズ名古屋店",
+              "address": null,
+              "start_date": "2026-11-10",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-9460e5aab33ea832-round-4",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+                  "note": "七家店另设每满3,000日元的店内奖品抽选。 公告未列入场预约方式、受理轮次或时刻。到店前请确认门店最新通知。"
+                }
+              ]
+            },
+            {
+              "id": "auto-9460e5aab33ea832-venue-7ccfe6ba78",
+              "city": "沼津",
+              "name": "ゲーマーズ沼津店",
+              "address": null,
+              "start_date": "2026-11-10",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-9460e5aab33ea832-round-5",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+                  "note": "七家店另设每满3,000日元的店内奖品抽选。 公告未列入场预约方式、受理轮次或时刻。到店前请确认门店最新通知。"
+                }
+              ]
+            },
+            {
+              "id": "auto-9460e5aab33ea832-venue-2acecbf746",
+              "city": "东京",
+              "name": "ODAIBAゲーマーズ",
+              "address": null,
+              "start_date": "2026-11-10",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-9460e5aab33ea832-round-6",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+                  "note": "七家店另设每满3,000日元的店内奖品抽选。 公告未列入场预约方式、受理轮次或时刻。到店前请确认门店最新通知。"
+                }
+              ]
+            },
+            {
+              "id": "auto-9460e5aab33ea832-venue-55a763914d",
+              "city": "东京",
+              "name": "原宿店ゲーマーズ",
+              "address": null,
+              "start_date": "2026-11-10",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-9460e5aab33ea832-round-7",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+                  "note": "七家店另设每满3,000日元的店内奖品抽选。 公告未列入场预约方式、受理轮次或时刻。到店前请确认门店最新通知。"
+                }
+              ]
+            },
+            {
+              "id": "auto-9460e5aab33ea832-venue-bfba1d1cdc",
+              "city": "金泽",
+              "name": "金沢ゲーマーズ",
+              "address": null,
+              "start_date": "2026-11-10",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-9460e5aab33ea832-round-8",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+                  "note": "七家店另设每满3,000日元的店内奖品抽选。 公告未列入场预约方式、受理轮次或时刻。到店前请确认门店最新通知。"
+                }
+              ]
+            },
+            {
+              "id": "auto-9460e5aab33ea832-venue-a06663db5b",
+              "city": "东京",
+              "name": "ゲーマーズ池袋店",
+              "address": null,
+              "start_date": "2026-11-10",
+              "end_date": "2026-12-13",
+              "rounds": [
+                {
+                  "id": "auto-9460e5aab33ea832-round-9",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+                  "note": "七家店另设每满3,000日元的店内奖品抽选。 公告未列入场预约方式、受理轮次或时刻。到店前请确认门店最新通知。"
+                }
+              ]
+            },
+            {
+              "id": "auto-9460e5aab33ea832-venue-84b09264ce",
+              "city": "名古屋",
+              "name": "第3太閤ビル 6階イベントスペース",
+              "address": null,
+              "start_date": "2026-11-10",
+              "end_date": "2026-11-16",
+              "rounds": [
+                {
+                  "id": "auto-9460e5aab33ea832-round-10",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+                  "note": "特展开放时间为日本时间10:00–19:00。 公告未列入场预约方式、受理轮次或时刻。到店前请确认门店最新通知。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-9460e5aab33ea832-source",
+              "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-11-05T14:06:24.884Z"
+            }
+          ]
         }
       ]
     },
@@ -19554,6 +20188,175 @@
       }
     ],
     "announcements": [
+      {
+        "id": "34c32074e759e14aaf4b918c",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+        "title": "『LoveLive! Series 15th Anniversary ラブライブ！フェス』にて、キッチンカーの出店が決定！",
+        "first_seen_at": "2026-11-05T14:06:24.884Z",
+        "last_seen_at": "2026-11-05T14:06:24.884Z",
+        "changed_at": "2026-11-05T14:06:24.884Z",
+        "content_hash": "ec76ed952adc26c65f50e25d147eada64dd5f6286ec785a1eb1b49989ebbe79d",
+        "related_event_ids": [
+          "auto-34c32074e759e14a"
+        ],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/PWmZIS1c2ERFcEoI/Mbffj66mup5lBovN.jpeg",
+            "alt": "",
+            "kind": "menu"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/AaRAASppLtf9qQWw/pRBVeOeIRCvV6QBF.jpeg",
+            "alt": "",
+            "kind": "bonus"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "ready",
+          "title_zh": "Love Live! 15周年 Fes 名古屋餐车与大阪 HEP NAVIO 咖啡店联动",
+          "summary_zh": "11月14、15日餐车在名古屋巨蛋供应限定饮品和杯垫，两天均于9:30开始，分别在16:30和15:30结束（日本时间）。同时持餐车与大阪联动咖啡店的消费小票可领双面插画卡。",
+          "source_hash": "64a466a6346190b7b83baa1e3f2d0e354ef1b5c741dc8bdb1eb8d971bcdb8022",
+          "model": "source-reviewed",
+          "reason": "正文日期、地点及规则证据通过校验",
+          "rules": [
+            {
+              "title": "出摊时间",
+              "text_zh": "日本时间11月14日9:30–16:30，11月15日9:30–15:30。地点为爱知县名古屋巨蛋。",
+              "evidence_ja": "【開催日時】\n2026年11月14日（土） 9:30～16:30\n2026年11月15日（日） 9:30～15:30\n【出店場所】\n愛知・ バンテリンドーム ナゴヤ"
+            },
+            {
+              "title": "双店联动",
+              "text_zh": "出示餐车与大阪 THEキャラCAFE HEPナビオ店两处消费小票可领双面插画卡（共1款）。",
+              "evidence_ja": "また、2026年11月5日(木)より大阪にて開催される「ラブライブ！シリーズ×THEキャラCAFE HEPナビオ店」との連動キャンペーンの開催が決定♪\n両店舗でのご利用レシートを提示で、「両面イラストカード（全1種）」をプレゼントいたします！"
+            },
+            {
+              "title": "支付与限购",
+              "text_zh": "可用现金、信用卡、IC或二维码支付。每单每部作品最多3杯，总计最多21杯；一次最多领取3杯。",
+              "evidence_ja": "・お会計は現金、クレジットカード、IC、QR決済がご利用いただけます。\n詳しくはレジにてスタッフへお尋ねください。\n・１回のお会計で各タイトル3杯まで、最大21杯までご注文いただけます。\n・ドリンクの引き換えは1度に3杯までとなります。"
+            },
+            {
+              "title": "赠品与集章",
+              "text_zh": "随机赠品不可指定图案，送完即止，禁止转售。现场不办理结女、浦女餐车集章或相应赠品兑换。",
+              "evidence_ja": "・特典はランダムでのお渡しとなり、絵柄はお選びいただけません。\n・特典は無くなり次第終了となります。\n・特典の転売行為は禁止です。\n・現在開催中の結女キッチンカー、浦女キッチンカースタンプカードの押印及び特典の引き換えは行いません。"
+            },
+            {
+              "title": "缺件与换货",
+              "text_zh": "分发有误或数量不足仅在购买当天处理。与图案无关处（如背面）的细小划痕、压角、凹痕、擦痕不予更换。",
+              "evidence_ja": "・万が一、配布不備・不足があった場合は、ご購入当日に限り対応させていただきます。\n・特典の不良交換は絵柄に関与しない箇所(背面など)は対象外です。\n(例)微細な傷/角潰れ/へこみ/スレ"
+            }
+          ]
+        }
+      },
+      {
+        "id": "88df7796c9855181a61864d5",
+        "source_id": "hasunosora-official",
+        "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6773",
+        "title": "ラブライブ！蓮ノ空女学院スクールアイドルクラブ×８番らーめんコラボの第二弾の開催決定のお知らせ",
+        "first_seen_at": "2026-11-05T14:06:24.884Z",
+        "last_seen_at": "2026-11-05T14:06:24.884Z",
+        "changed_at": "2026-11-05T14:06:24.884Z",
+        "content_hash": "0edee3c6a69c3066bf5fc7437cb22ae0b867534b8057be1e5cd4880b01eabe17",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/11/05/1002/wcG6YEzP4acdSzmW/7TUw2CiCyY7SSAiA.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "莲之空 × 8番拉面第二弹联动",
+          "summary_zh": "石川、福井、长野三县的门店将推出联动菜单和使用全新绘制插画的周边。官方正文表示详情稍后公布，尚待确认逐店名单、日期及参与办法。",
+          "source_hash": "c78f43faaef01350802d3f34a4667400801c8041a7c660377f1edd2ce76fddcc",
+          "model": "source-reviewed",
+          "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；正文仅确认三县范围，未给出具体门店及对应日期。海报上的期间已单独核对，保留待审核，待门店与日期有正文证据后再进入正式活动。",
+          "rules": [
+            {
+              "title": "举办地区与内容",
+              "text_zh": "预定在石川县、福井县、长野县的门店推出联动菜单和新绘插画周边，具体门店和规则有待公布。",
+              "evidence_ja": "今回は石川県、福井県、長野県の店舗で描きおろしイラストを使用した、コラボメニュー、グッズの展開を予定しております。\n詳細は後日公開予定なのでお楽しみに！"
+            }
+          ]
+        }
+      },
+      {
+        "id": "9460e5aab33ea832d78b1290",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+        "title": "ゲーマーズ、アニメイトにて「LoveLive! Series 15th Anniversary ラブライブ！フェス」開催記念フェアが決定！",
+        "first_seen_at": "2026-11-05T14:06:24.884Z",
+        "last_seen_at": "2026-11-05T14:06:24.884Z",
+        "changed_at": "2026-11-05T14:06:24.884Z",
+        "content_hash": "412bb7e91a662089364041ca4b9395864ea893d3ee39f4e472d694f0753b9084",
+        "related_event_ids": [
+          "auto-9460e5aab33ea832"
+        ],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/05/1002/B2ApcX3MV1hvVuRZ/7qBo4gOl5VZsHFwE.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/05/1002/UcDQxThKn9w30U8N/CPV5zHxy7tfLSXSs.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "ready",
+          "title_zh": "Love Live! 15周年纪念展销活动：Gamers 店头抽奖与 animate 名古屋特展",
+          "summary_zh": "11月10日至12月13日，Gamers 实体店与三家指定 animate 门店开展购物赠卡活动，另有七家 Gamers 举行店头抽奖。名古屋特展仅开到11月16日，展场位于第3太閤大楼6楼。",
+          "source_hash": "6a5c30a828ff89aa24fb001fc5f9e8c03939458eef4a7c5dc854aa98635ca3d0",
+          "model": "source-reviewed",
+          "reason": "正文日期、地点及规则证据通过校验",
+          "rules": [
+            {
+              "title": "购物赠卡",
+              "text_zh": "同一子系列每满1,100日元（含税）赠同系列资料卡一张，满16,500日元最多15张。共73款，款式不可选，送完即止。",
+              "evidence_ja": "期間中、対象店舗にて『ラブライブ！シリーズ』関連の映像・音楽商品、キャラクターグッズを、同一シリーズの商品毎に、ご購入税込1,100円(税込)毎に1枚、税込16,500円以上で15枚まで、ご購入いただいた商品と同じシリーズのデザインを使用した【15周年記念メンバープロフィールカード(全73種)】を1枚プレゼントいたします！\n※デザインはお選びいただけません。\n※数量限定の為、無くなり次第終了となります。"
+            },
+            {
+              "title": "门店与商品",
+              "text_zh": "Gamers 全部实体店以及 animate 名古屋、沼津、名古屋 PARCO 店参加。11月10日起发售的影音、音乐商品除外。只有 Gamers 参加门店也计入角色周边预订。",
+              "evidence_ja": "■開催期間：2026年11月10日（火）～2026年12月13日（日）\n■対象店舗：ゲーマーズ全店（オンラインショップ除く）、アニメイト名古屋、アニメイト沼津、アニメイト名古屋パルコ\n■対象商品：ラブライブ！シリーズ関連商品（映像・音楽商品、キャラクターグッズ）\n※11月10日(火)以降発売の映像・音楽商品は対象外です。\n※ゲーマーズ対象店舗のみ、キャラクターグッズのご予約商品も対象となります。"
+            },
+            {
+              "title": "合计范围",
+              "text_zh": "不同子系列不能合并凑满1,100日元。系列联合商品的赠卡从全部73款中发放。",
+              "evidence_ja": "※ご購入いただいた商品と同じシリーズのデザインを使用した特典をお渡しいたします。シリーズ合同商品については、全73種の中からお渡しいたします。デザインはお選びいただけませんので、ご了承ください。\n※同一シリーズの商品におけるご購入の合計金額が1,100円(税込)以上の場合に、特典配布の対象となります。異なるシリーズの商品を組み合わせて合計金額が1,100円(税込)以上となる場合は対象外となりますので、あらかじめご了承ください。"
+            },
+            {
+              "title": "七店抽奖",
+              "text_zh": "11月10日至12月13日，秋叶原总店、名古屋、沼津、台场、原宿、金泽、池袋七店购买指定影音、音乐商品或周边，每满3,000日元可参加一次店头奖品抽选。",
+              "evidence_ja": "＜ゲーマーズ 店頭抽選会＞\n期間中、対象のゲーマーズ店舗にて『ラブライブ！シリーズ』関連の映像・音楽商品、キャラクターグッズを、3,000円ご購入毎に豪華景品の当たる抽選会にご参加頂けます！\n■開催期間：2026年11月10日（火）～2026年12月13日（日）\n■対象店舗：AKIHABARAゲーマーズ本店・ゲーマーズ名古屋店・ゲーマーズ沼津店・ODAIBAゲーマーズ・原宿店ゲーマーズ・金沢ゲーマーズ、ゲーマーズ池袋店\n■対象商品：ラブライブ！シリーズ関連商品（映像・音楽商品、キャラクターグッズ）"
+            },
+            {
+              "title": "奖品",
+              "text_zh": "A奖为迷你立牌套装，七个企划分别每店一名，稍后交付。B奖为全部73款资料卡套组，每店十名。",
+              "evidence_ja": "■景品：A賞…ミニスタンディセット\n『ラブライブ！』 μ'ｓ賞：各店1名\n『ラブライブ！サンシャイン!!』 Aqours賞：各店1名\n『ラブライブ！虹ヶ咲学園スクールアイドル同好会』賞：各店1名\n『ラブライブ！スーパースター!!』 Liella! 賞：各店1名\n『蓮ノ空女学院スクールアイドルクラブ』賞：各店1名\n『イキヅライブ！ LOVELIVE! BLUEBIRD』 いきづらい部！賞：各店1名\n『スクールアイドルミュージカル』賞：各店1名\nB賞…15周年記念メンバープロフィールカード全73種セット：各店10名当選\n※A賞は後日お渡し予定となります。"
+            },
+            {
+              "title": "名古屋特展",
+              "text_zh": "11月10日至16日每天10:00–19:00（日本时间），等身立牌和15周年主视觉拍照点设在第3太閤大楼6楼。由 animate 名古屋步行约2–3分钟，由JR名古屋站太閤通口约5–6分钟。",
+              "evidence_ja": "■展示内容：等身大スタンディ展示、ラブライブ！シリーズ15周年記念KVイメージフォトスポット\n■展示期間：2026年11月10日(火)～11月16日(月)\n■開場時間：10時～19時\n■展示場所：第3太閤ビル 6階イベントスペース\n〒453-0015 愛知県名古屋市中村区椿町２１−２ 第３太閤ビル６F\n※アニメイト名古屋から徒歩２～3分の所、ＪＲ名古屋駅 太閤通口より徒歩５～６分の所"
+            },
+            {
+              "title": "现场须知",
+              "text_zh": "奖品、赠品及兑换券禁止转让或转售，请勿触摸展品。活动可能变更、延期或取消，详情以各店公告为准。",
+              "evidence_ja": "各施策の詳細は、各法人のキャンペーンページをご確認ください。\nゲーマーズ： https://www.gamers.co.jp/contents/event_fair/detail.php?id=8128\nアニメイト： https://www.animate-onlineshop.jp/contents/fair_event/detail.php?id=116792\n※施策に関わる景品・特典・引換券等は、全て第三者への譲渡・オークション等での転売を禁止とさせていただきます。\n※都合により、予告なく変更・延期・中止となる場合がございます。予めご了承ください。\n※展示物にはお手を触れないようにお願いいたします。\n※お問い合わせは各店舗へお願いいたします。"
+            }
+          ]
+        }
+      },
       {
         "id": "97ebcc1904e05ceeaadc3c8b",
         "source_id": "bang-dream-live",

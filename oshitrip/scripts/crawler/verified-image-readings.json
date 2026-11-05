@@ -716,5 +716,152 @@
       "rules": [],
       "unreadable": false
     }
+  },
+  {
+    "source_hash": "6a5c30a828ff89aa24fb001fc5f9e8c03939458eef4a7c5dc854aa98635ca3d0",
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/05/1002/B2ApcX3MV1hvVuRZ/7qBo4gOl5VZsHFwE.jpeg",
+    "sha256": "8b4017e4bf6ef3aa05779497ccc44b53b2e39ddc88466cde7f60d7d10604cd8e",
+    "reviewed_at": "2026-11-05T14:12:00.265Z",
+    "approved": true,
+    "reason": "已对照购物门槛、上限及限量条件。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "特典",
+          "title": "购物赠卡上限",
+          "evidence_ja": "￥1,100（税込）毎に1枚",
+          "text_zh": "同一系列商品每满1,100日元（含税）赠一张卡。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "最多15张",
+          "evidence_ja": "￥16,500（税込）以上で15枚まで",
+          "text_zh": "满16,500日元（含税）最多获15张。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_hash": "6a5c30a828ff89aa24fb001fc5f9e8c03939458eef4a7c5dc854aa98635ca3d0",
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/05/1002/UcDQxThKn9w30U8N/CPV5zHxy7tfLSXSs.jpeg",
+    "sha256": "aa94e2ba14f2a15b8921170e0a5ca4932654fe502d95aa1ed8de123f2b2de266",
+    "reviewed_at": "2026-11-05T14:12:00.265Z",
+    "approved": true,
+    "reason": "实际查看了73款资料卡样图及标题。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "特典",
+          "title": "赠卡款式",
+          "evidence_ja": "15周年記念メンバープロフィールカード 全73種",
+          "text_zh": "购买特典为15周年成员资料卡，共73款。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_hash": "64a466a6346190b7b83baa1e3f2d0e354ef1b5c741dc8bdb1eb8d971bcdb8022",
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/PWmZIS1c2ERFcEoI/Mbffj66mup5lBovN.jpeg",
+    "sha256": "f7633e5f6ce9136fc920ac4595f5552b0704fa5f76ec46839756e56c4e4d5494",
+    "reviewed_at": "2026-11-05T14:12:00.265Z",
+    "approved": true,
+    "reason": "已对照两款饮品售价、过敏原标注、杯垫和三杯合购特典。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "点单",
+          "title": "饮品价格",
+          "evidence_ja": "ALL 800円（税込）",
+          "text_zh": "A、B两款饮品每杯均为含税800日元。",
+          "uncertain": false
+        },
+        {
+          "kind": "点单",
+          "title": "A款过敏原标注",
+          "evidence_ja": "アレルゲン：乳",
+          "text_zh": "A款草莓乳酸菌饮料标注含乳。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "每杯赠一枚杯垫",
+          "evidence_ja": "下記7タイトルよりお好きなタイトルを1つお選びいただき、その中からランダムでお渡し",
+          "text_zh": "每杯赠一枚杯垫。可选七个作品之一，具体款式在该作品中随机发放。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "三杯合购",
+          "evidence_ja": "ドリンク3杯同時購入で",
+          "text_zh": "三杯同时购买赠一张 Memories Snap，图示每部作品有两款可选。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_hash": "64a466a6346190b7b83baa1e3f2d0e354ef1b5c741dc8bdb1eb8d971bcdb8022",
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/02/1002/AaRAASppLtf9qQWw/pRBVeOeIRCvV6QBF.jpeg",
+    "sha256": "249728887f23e9c1c971fbe22b5df1ff7b12d12fb1c0ec682ab43015a7d62490",
+    "reviewed_at": "2026-11-05T14:12:00.265Z",
+    "approved": true,
+    "reason": "已复核双店收银台、小票有效期与特典发放期，区分餐车两日限制。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "特典",
+          "title": "两处收银台发放",
+          "evidence_ja": "両店舗共にレジでの配布です。",
+          "text_zh": "凭两处小票，可在联动咖啡店或餐车收银台领取。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "有效小票",
+          "evidence_ja": "2026年11月5日（木）～11月29日（日）",
+          "text_zh": "咖啡店小票有效期为11月5日至29日；餐车仅限11月14、15日的小票。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "领卡期间",
+          "evidence_ja": "2026年11月14日（土）～11月29日（日）",
+          "text_zh": "两店联动卡发放期为11月14日至29日，餐车仅14、15日发放。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_hash": "c78f43faaef01350802d3f34a4667400801c8041a7c660377f1edd2ce76fddcc",
+    "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6773",
+    "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/11/05/1002/wcG6YEzP4acdSzmW/7TUw2CiCyY7SSAiA.jpeg",
+    "sha256": "0da20f2af9a8ed99315c7e26321a31131475d8a3011cd5dfafa55d8346fc0ebd",
+    "reviewed_at": "2026-11-05T14:12:00.265Z",
+    "approved": true,
+    "reason": "原图写明联动期间，未列具体门店。仅保留图片文字。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "其他",
+          "title": "海报所示联动期间",
+          "evidence_ja": "2026年11月25日（水）～12月27日（日）",
+          "text_zh": "海报标示11月25日至12月27日。逐店日期仍待官方正文确认。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
   }
 ]
