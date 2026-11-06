@@ -1,7 +1,7 @@
 {
   "formatVersion": 4,
-  "revision": "1ba0d1baaeb1371f10c2952c30e0670bab24946ef78301a1ad8a911d5ac5cbd5",
-  "publishedAt": "2026-11-05T14:13:04.856Z",
+  "revision": "b8b4002f66ec2d0e818d84471d4b86013f8869e05af002252d93f7bb911ebec2",
+  "publishedAt": "2026-11-06T14:55:29.543Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -8603,309 +8603,6 @@
           ]
         },
         {
-          "id": "auto-1c624082c33b649c",
-          "slug": "official-1c624082c33b649c",
-          "title_ja": "ラブライブ！サンシャイン!! 第５回沼津地元愛まつり",
-          "title_zh": "Aqours 第五届沼津地元爱祭",
-          "category": "其他联动",
-          "summary": "2027年3月20–22日在沼津キラメッセぬまづ举办，每日昼夜两场、出演成员不同。最新一轮官方先行抽选已于2026年10月25日23:59（日本时间）截止，10月31日公布结果。同期地元爱物产展另设会场，细节尚待公布。",
-          "image": {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/30/1002/g4jfzkV9elMRjdWG/xMliz5BPocxHQzNT.jpeg",
-            "alt": "Aqours 第五届沼津地元爱祭",
-            "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-            "checked_on": "2026-11-03"
-          },
-          "gallery": [
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/30/1002/g4jfzkV9elMRjdWG/xMliz5BPocxHQzNT.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/IIwiPe4JtKjKxyID/UExbot6o7UkXnczZ.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/roua832LtTWFqgRW/v89pV4rUdTPdYMwF.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/6AZoV3zwMRijcepL/8h7QelWnAdjXRtNr.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/sZg7iYqvHMLpIdBu/5d3EDfeuYRxms5g5.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/hg8F5IhZSh1m2gwq/TcNf5goaBorfGyas.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/yvllAo1Ur97TK7yl/lJBW4ukurK3kCecm.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/1dxciUCD4Nr9OjSK/eBgqYqBRK0ONKc4i.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/kr3W6wApbq4Lvcpw/r8vdgZVczcN4GIeo.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/tc4yBqUw1CZksI3u/Vz2MJSqKSC6d2V0F.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/o6zh8ovcv7E1MTLx/VWzZ2X7VTMKYMPeb.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/8IAmrXG3wUBVt5aS/rL4YofpSpDd1Xj20.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/5Vcypz0ZWU76xwrZ/rufIz13yNMK2eAYz.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/hmyjehoSvvoZSWbN/c02fJe1zX0iK1OV9.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/G2FhFOCulI4fD1PJ/KewqCYET7ZHIhksP.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/fWjkDKia6U7EfYP9/M7BG8VXhSMe0zf3p.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            },
-            {
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/5DXdmwDufRg9ZV0q/9AFVGtGu840NB3bC.jpeg",
-              "alt": "官方公告配图（图中文字请以原图为准）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "checked_on": "2026-11-03"
-            }
-          ],
-          "benefits": [],
-          "translated_rules": [
-            {
-              "id": "auto-1c624082c33b649c-rule-0",
-              "kind": "参加",
-              "title": "三天六场",
-              "text_zh": "每天昼场13:00入场、14:00开演；夜场17:30入场、18:30开演。3月20日伊波杏树、小宫有纱、降幡爱；21日逢田梨香子、高槻加奈子、铃木爱奈；22日诹访七香、齐藤朱夏、小林爱香。",
-              "evidence_ja": "開催概要・出演者\n＜Day.1＞\n2027年3月20日（土）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】伊波杏樹（高海千歌役）、小宮有紗（黒澤ダイヤ役）、降幡 愛（黒澤ルビィ役）\n＜Day.2＞\n2027年3月21日（日）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】逢田梨香子（桜内梨子役）、高槻かなこ（国木田花丸役）、鈴木愛奈（小原鞠莉役）\n＜Day.3＞\n2027年3月22日（月・祝）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】諏訪ななか（松浦果南役）、斉藤朱夏（渡辺 曜役）、小林愛香（津島善子役）\n会場\nキラメッセぬまづ（静岡県沼津市大手1丁目1−4）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-11-03"
-            },
-            {
-              "id": "auto-1c624082c33b649c-rule-1",
-              "kind": "参加",
-              "title": "票种与视线限制",
-              "text_zh": "指定席及注释指定席均为普通8,500日元、附周边11,500日元（含税）。注释席可能看不清或看不到部分出演者、演出及舞台。",
-              "evidence_ja": "チケット\n全席指定（グッズ付き）：11,500円（税込）\n全席指定：8,500円（税込）\n・2026/9/25追記\n注釈付き指定席（グッズ付き）：11,500円（税込）\n注釈付き指定席：8,500円（税込）\n※注釈付き指定席は出演者、演出及びステージの一部が見えにくい、または一部が見えないお席となります。",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-11-03"
-            },
-            {
-              "id": "auto-1c624082c33b649c-rule-2",
-              "kind": "参加",
-              "title": "附周边票须下载兑换券",
-              "text_zh": "特典为按演出日设计的B6亚克力板，含复制签名与序列号；当天现场领取，未领取作废，不邮寄，瑕疵仅当天更换。申请者和同行者均需能安装eplus App的手机，事前分配独立周边兑换券，否则同行者不能领取。",
-              "evidence_ja": "＜グッズ付きチケットについて＞\n箔押しメンバー複製サイン＆シリアルナンバー入り B6アクリルプレート (公演日別デザイン)\n※グッズは公演当日に会場でのお渡しを予定しております。\n当日の受け渡しに関する詳細は後日ご案内いたします。\n※公演当日にお受け取りができない場合は無効となります。\n事前・事後の発送は行いませんので、あらかじめご了承ください。\n※不良品の交換は当日のみ対応いたします。\n※グッズ付きチケットをご購入の方は、別途「グッズ引換券」（スマチケ）のダウンロードが必要となります。「グッズ引換券」のダウンロードにはイープラスアプリ（無料）のインストールが必要です。\n※複数枚お申込みの場合、事前に必ず同行者様へ「グッズ引換券」の分配をおこなってください。\n「グッズ引換券」を分配していない場合、同行者様はグッズのお受け取りができません。\n※同行者の方もイープラスアプリ（無料）をインストールできるスマートフォンが必要です。（申込者の方と同様の動作機種・推奨環境が必要です）\n※チケットご購入時の手数料に、グッズ引換にかかる手数料も含まれます。",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-11-03"
-            },
-            {
-              "id": "auto-1c624082c33b649c-rule-3",
-              "kind": "参加",
-              "title": "最新抽选已截止",
-              "text_zh": "官方先行9月26日18:00至10月25日23:59受理；10月31日13:00起公布结果，付款至11月3日21:00。每人每场最多4张，可报多场，四种票均在本轮销售。均为日本时间，旧页眉“受理中”不能替代日期判断。",
-              "evidence_ja": "＜オフィシャル先行（抽選）＞★どなたでもお申し込みいただけます！★\n本受付では、全席指定（グッズ付き／グッズなし）と注釈付き指定席（グッズ付き／グッズなし）の4券種を販売いたします。\n■受付URL： https://eplus.jp/jimoai2027/\n■受付期間：2026年9月26日（土）18:00～10月25日（日）23:59\n■当落発表：2026年10月31日（土）13:00～\n■入金期間：2026年10月31日（土）13:00～11月3日（火・祝）21:00\n※枚数制限：お一人様、1公演につき4枚までお申込み可能（複数公演申込可）",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-11-03"
-            },
-            {
-              "id": "auto-1c624082c33b649c-rule-4",
-              "kind": "参加",
-              "title": "身份与取消",
-              "text_zh": "3岁以上收费，需免费eplus会员，另收手续费；仅受理期内可改退申请，中选后不能取消购买。所有入场者包括同行者须登记人脸照片，并携带照片证件。",
-              "evidence_ja": "●注意事項●\n※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-11-03"
-            },
-            {
-              "id": "auto-1c624082c33b649c-rule-5",
-              "kind": "参加",
-              "title": "同期物产展",
-              "text_zh": "沼津地元爱物产展在Plaza Verde Convention Hall A，地点不同于演出主会场；具体开放时间和参加方式尚待更新。",
-              "evidence_ja": "同時開催\n沼津地元愛物産展\nプラサヴェルデ コンベンションホールA（〒410-0801 静岡県沼津市大手町1-1-4）\n（詳細は近日更新予定！）\nhttps://www.plazaverde.jp/jimoai-event/",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-11-03"
-            },
-            {
-              "id": "auto-1c624082c33b649c-rule-6",
-              "kind": "参加",
-              "title": "新增事前网购与现场票务分开",
-              "text_zh": "周边事前网购于10月30日18:00至11月15日23:59受理（日本时间），预计2027年3月上旬起发送并于3月20日演出前送达。按订单号收费、不能合并寄送；各商品限量限购。此为商品网购，不代表已截止的现场抽选重新开放。",
-              "evidence_ja": "グッズ情報\n■事前通販受付\n2026年10月30日(金)18:00~11月15日(日)23:59\n※2027年3月上旬以降順次発送、3月20日(土)公演前のお届け予定\n※送料は注文番号ごとに必要となります。複数回のご注文をひとつにまとめて発送することはできません。\n※各商品お1人様あたりの注文点数制限を設定しております。\n※数量に限りがございます。なくなり次第終了予定となります。\n詳しくは各商品販売ページを参照ください。",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-11-03"
-            },
-            {
-              "id": "auto-1c624082c33b649c-rule-7",
-              "kind": "参加",
-              "title": "酒类与变更",
-              "text_zh": "禁止携带酒类或酒后入场；开场、开演或出演者变动不退票款及交通费等。",
-              "evidence_ja": "※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。",
-              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-11-03"
-            }
-          ],
-          "fees": null,
-          "conditions": [
-            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
-            "本轮已截止。官方写明任何人都可报名，无商品附券前提；每人每场最多4张。每天昼夜两场。"
-          ],
-          "status": "published",
-          "verified_at": "2026-11-03T19:51:01.164Z",
-          "updated_at": "2026-11-03T19:51:01.164Z",
-          "franchise_ids": [
-            "lovelive",
-            "aqours"
-          ],
-          "venues": [
-            {
-              "id": "auto-1c624082c33b649c-venue-df00c5abca",
-              "city": "沼津",
-              "name": "キラメッセぬまづ",
-              "address": null,
-              "start_date": "2027-03-20",
-              "end_date": "2027-03-20",
-              "rounds": [
-                {
-                  "id": "auto-1c624082c33b649c-round-0",
-                  "label": "官方抽选报名",
-                  "method": "抽选报名",
-                  "kind": "fixed",
-                  "opens_at": "2026-09-26T18:00:00+09:00",
-                  "closes_at": "2026-10-25T23:59:00+09:00",
-                  "days_before": null,
-                  "open_time": null,
-                  "cutoff_days_before": null,
-                  "cutoff_time": null,
-                  "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-                  "note": "本轮已截止。官方写明任何人都可报名，无商品附券前提；每人每场最多4张。每天昼夜两场。"
-                }
-              ]
-            },
-            {
-              "id": "auto-1c624082c33b649c-venue-5d3c7db104",
-              "city": "沼津",
-              "name": "キラメッセぬまづ",
-              "address": null,
-              "start_date": "2027-03-21",
-              "end_date": "2027-03-21",
-              "rounds": [
-                {
-                  "id": "auto-1c624082c33b649c-round-1",
-                  "label": "官方抽选报名",
-                  "method": "抽选报名",
-                  "kind": "fixed",
-                  "opens_at": "2026-09-26T18:00:00+09:00",
-                  "closes_at": "2026-10-25T23:59:00+09:00",
-                  "days_before": null,
-                  "open_time": null,
-                  "cutoff_days_before": null,
-                  "cutoff_time": null,
-                  "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-                  "note": "本轮已截止。官方写明任何人都可报名，无商品附券前提；每人每场最多4张。每天昼夜两场。"
-                }
-              ]
-            },
-            {
-              "id": "auto-1c624082c33b649c-venue-f67278f082",
-              "city": "沼津",
-              "name": "キラメッセぬまづ",
-              "address": null,
-              "start_date": "2027-03-22",
-              "end_date": "2027-03-22",
-              "rounds": [
-                {
-                  "id": "auto-1c624082c33b649c-round-2",
-                  "label": "官方抽选报名",
-                  "method": "抽选报名",
-                  "kind": "fixed",
-                  "opens_at": "2026-09-26T18:00:00+09:00",
-                  "closes_at": "2026-10-25T23:59:00+09:00",
-                  "days_before": null,
-                  "open_time": null,
-                  "cutoff_days_before": null,
-                  "cutoff_time": null,
-                  "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-                  "note": "本轮已截止。官方写明任何人都可报名，无商品附券前提；每人每场最多4张。每天昼夜两场。"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            {
-              "id": "auto-1c624082c33b649c-source",
-              "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-              "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-11-03T19:51:01.164Z"
-            }
-          ]
-        },
-        {
           "id": "auto-30fb7128504cc0da",
           "slug": "official-30fb7128504cc0da",
           "title_ja": "シークフェルト音楽学院 トーク＆バラエティイベント 伝説の補習授業！？",
@@ -14085,6 +13782,478 @@
               "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6772",
               "label": "官方正文 · 机器辅助整理",
               "checked_at": "2026-11-05T14:06:24.884Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-1c624082c33b649c",
+          "slug": "official-1c624082c33b649c",
+          "title_ja": "ラブライブ！サンシャイン!! 第５回沼津地元愛まつり",
+          "title_zh": "Aqours 第五届沼津地元爱祭",
+          "category": "其他联动",
+          "summary": "2027年3月20–22日在沼津キラメッセぬまづ举行，每天昼夜两场。一般发售抽选于2026年11月7日12:00至12月13日23:59受理（日本时间），每人每场最多4张。早期两轮抽选已结束。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/30/1002/g4jfzkV9elMRjdWG/xMliz5BPocxHQzNT.jpeg",
+            "alt": "Aqours 第五届沼津地元爱祭",
+            "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+            "checked_on": "2026-11-06"
+          },
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/30/1002/g4jfzkV9elMRjdWG/xMliz5BPocxHQzNT.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/IIwiPe4JtKjKxyID/UExbot6o7UkXnczZ.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/roua832LtTWFqgRW/v89pV4rUdTPdYMwF.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/6AZoV3zwMRijcepL/8h7QelWnAdjXRtNr.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/sZg7iYqvHMLpIdBu/5d3EDfeuYRxms5g5.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/hg8F5IhZSh1m2gwq/TcNf5goaBorfGyas.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/yvllAo1Ur97TK7yl/lJBW4ukurK3kCecm.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/1dxciUCD4Nr9OjSK/eBgqYqBRK0ONKc4i.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/kr3W6wApbq4Lvcpw/r8vdgZVczcN4GIeo.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/tc4yBqUw1CZksI3u/Vz2MJSqKSC6d2V0F.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/o6zh8ovcv7E1MTLx/VWzZ2X7VTMKYMPeb.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/8IAmrXG3wUBVt5aS/rL4YofpSpDd1Xj20.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/5Vcypz0ZWU76xwrZ/rufIz13yNMK2eAYz.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/hmyjehoSvvoZSWbN/c02fJe1zX0iK1OV9.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/G2FhFOCulI4fD1PJ/KewqCYET7ZHIhksP.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/fWjkDKia6U7EfYP9/M7BG8VXhSMe0zf3p.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/5DXdmwDufRg9ZV0q/9AFVGtGu840NB3bC.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "checked_on": "2026-11-06"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-1c624082c33b649c-rule-0",
+              "kind": "参加",
+              "title": "三天六场",
+              "text_zh": "每天昼场13:00入场、14:00开演；夜场17:30入场、18:30开演。3月20日伊波杏树、小宫有纱、降幡爱；21日逢田梨香子、高槻加奈子、铃木爱奈；22日诹访七香、齐藤朱夏、小林爱香。",
+              "evidence_ja": "開催概要・出演者\n＜Day.1＞\n2027年3月20日（土）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】伊波杏樹（高海千歌役）、小宮有紗（黒澤ダイヤ役）、降幡 愛（黒澤ルビィ役）\n＜Day.2＞\n2027年3月21日（日）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】逢田梨香子（桜内梨子役）、高槻かなこ（国木田花丸役）、鈴木愛奈（小原鞠莉役）\n＜Day.3＞\n2027年3月22日（月・祝）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】諏訪ななか（松浦果南役）、斉藤朱夏（渡辺 曜役）、小林愛香（津島善子役）\n会場\nキラメッセぬまづ（静岡県沼津市大手1丁目1−4）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "auto-1c624082c33b649c-rule-1",
+              "kind": "参加",
+              "title": "票种与视线限制",
+              "text_zh": "指定席及注释指定席均为普通8,500日元、附周边11,500日元（含税）。注释席可能看不清或看不到部分出演者、演出及舞台。",
+              "evidence_ja": "チケット\n全席指定（グッズ付き）：11,500円（税込）\n全席指定：8,500円（税込）\n・2026/9/25追記\n注釈付き指定席（グッズ付き）：11,500円（税込）\n注釈付き指定席：8,500円（税込）\n※注釈付き指定席は出演者、演出及びステージの一部が見えにくい、または一部が見えないお席となります。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "auto-1c624082c33b649c-rule-2",
+              "kind": "参加",
+              "title": "附周边票须下载兑换券",
+              "text_zh": "特典为按演出日设计的B6亚克力板，含复制签名与序列号；当天现场领取，未领取作废，不邮寄，瑕疵仅当天更换。申请者和同行者均需能安装eplus App的手机，事前分配独立周边兑换券，否则同行者不能领取。",
+              "evidence_ja": "＜グッズ付きチケットについて＞\n箔押しメンバー複製サイン＆シリアルナンバー入り B6アクリルプレート (公演日別デザイン)\n※グッズは公演当日に会場でのお渡しを予定しております。\n当日の受け渡しに関する詳細は後日ご案内いたします。\n※公演当日にお受け取りができない場合は無効となります。\n事前・事後の発送は行いませんので、あらかじめご了承ください。\n※不良品の交換は当日のみ対応いたします。\n※グッズ付きチケットをご購入の方は、別途「グッズ引換券」（スマチケ）のダウンロードが必要となります。「グッズ引換券」のダウンロードにはイープラスアプリ（無料）のインストールが必要です。\n※複数枚お申込みの場合、事前に必ず同行者様へ「グッズ引換券」の分配をおこなってください。\n「グッズ引換券」を分配していない場合、同行者様はグッズのお受け取りができません。\n※同行者の方もイープラスアプリ（無料）をインストールできるスマートフォンが必要です。（申込者の方と同様の動作機種・推奨環境が必要です）\n※チケットご購入時の手数料に、グッズ引換にかかる手数料も含まれます。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "auto-1c624082c33b649c-rule-3",
+              "kind": "参加",
+              "title": "身份与取消",
+              "text_zh": "3岁以上收费，需免费eplus会员，另收手续费；仅受理期内可改退申请，中选后不能取消购买。所有入场者包括同行者须登记人脸照片，并携带照片证件。",
+              "evidence_ja": "●注意事項●\n※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "auto-1c624082c33b649c-rule-4",
+              "kind": "参加",
+              "title": "同期物产展",
+              "text_zh": "沼津地元爱物产展在Plaza Verde Convention Hall A，地点不同于演出主会场；具体开放时间和参加方式尚待更新。",
+              "evidence_ja": "同時開催\n沼津地元愛物産展\nプラサヴェルデ コンベンションホールA（〒410-0801 静岡県沼津市大手町1-1-4）\n（詳細は近日更新予定！）\nhttps://www.plazaverde.jp/jimoai-event/",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "auto-1c624082c33b649c-rule-5",
+              "kind": "参加",
+              "title": "酒类与变更",
+              "text_zh": "禁止携带酒类或酒后入场；开场、开演或出演者变动不退票款及交通费等。",
+              "evidence_ja": "※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "auto-1c624082c33b649c-rule-6",
+              "kind": "参加",
+              "title": "一般发售抽选",
+              "text_zh": "指定席、注释指定席各有附周边和普通版，共四种票。本轮11月7日12:00至12月13日23:59受理，12月19日13:00起公布结果，付款截至12月22日21:00。每人每场最多4张，可报多场。全部为日本时间。报名入口 https://eplus.jp/jimoai2027/。",
+              "evidence_ja": "＜一般発売（抽選）＞\n本受付では、全席指定（グッズ付き／グッズなし）と注釈付き指定席（グッズ付き／グッズなし）の4券種を販売いたします。\n■受付URL： https://eplus.jp/jimoai2027/\n■受付期間：2026年11月7日（土）12:00～12月13日（日）23:59\n■当落発表：2026年12月19日（土）13:00～\n■入金期間：2026年12月19日（土）13:00～12月22日（火）21:00\n※枚数制限：お一人様、1公演につき4枚までお申込み可能（複数公演申込可）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "auto-1c624082c33b649c-rule-7",
+              "kind": "参加",
+              "title": "已结束的先行轮次",
+              "text_zh": "最速先行7月24日18:00至9月13日23:59，9月19日13:00公布结果、9月22日21:00付款截止。官方先行9月26日18:00至10月25日23:59，10月31日13:00公布结果、11月3日21:00付款截止。均为日本时间，两个旧轮次已结束。",
+              "evidence_ja": "＜最速先行抽選＞ 受付終了\n■受付URL： https://eplus.jp/jimoai2027/\n■受付期間：2026年7月24日（金）18:00～9月13日（日）23:59\n■当落発表：2026年9月19日（土）13:00～\n■入金期間：2026年9月19日（土）13:00～9月22日（火・祝）21:00\n※枚数制限：お一人様、1公演につき4枚までお申込み可能（複数公演申込可）\n________________________________________\n＜オフィシャル先行（抽選）＞ 受付終了\n本受付では、全席指定（グッズ付き／グッズなし）と注釈付き指定席（グッズ付き／グッズなし）の4券種を販売いたします。\n■受付URL： https://eplus.jp/jimoai2027/\n■受付期間：2026年9月26日（土）18:00～10月25日（日）23:59\n■当落発表：2026年10月31日（土）13:00～\n■入金期間：2026年10月31日（土）13:00～11月3日（火・祝）21:00\n※枚数制限：お一人様、1公演につき4枚までお申込み可能（複数公演申込可）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "auto-1c624082c33b649c-rule-8",
+              "kind": "参加",
+              "title": "周边事前网购",
+              "text_zh": "2026年10月30日18:00至11月15日23:59（日本时间）受理，预计2027年3月上旬起发送并于3月20日演出前送达。按订单号收运费，订单不能合并寄送，各商品限量限购。",
+              "evidence_ja": "グッズ情報\n■事前通販受付\n2026年10月30日(金)18:00~11月15日(日)23:59\n※2027年3月上旬以降順次発送、3月20日(土)公演前のお届け予定\n※送料は注文番号ごとに必要となります。複数回のご注文をひとつにまとめて発送することはできません。\n※各商品お1人様あたりの注文点数制限を設定しております。\n※数量に限りがございます。なくなり次第終了予定となります。\n詳しくは各商品販売ページを参照ください。",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "verified-image-0c3557e7d6ec739586f2",
+              "kind": "购买",
+              "title": "荧光棒事前网购",
+              "text_zh": "本场特别款荧光棒含税4,800日元。具有跳色按钮，九色可切换并设定点亮顺序。",
+              "evidence_ja": "ラブライブレード！サンシャイン!! ￥4,800（税込）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/hg8F5IhZSh1m2gwq/TcNf5goaBorfGyas.jpeg",
+              "image_sha256": "fabe8e6ac28a7079bfbdf3525894f41a23090cafcc82da08c86df11d4ec67e63",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "verified-image-7790206afb225ce8847d",
+              "kind": "其他",
+              "title": "荧光棒尺寸",
+              "text_zh": "全长约250毫米，发光部分直径约30毫米、长度约150毫米。",
+              "evidence_ja": "【全長】約250mm",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/hg8F5IhZSh1m2gwq/TcNf5goaBorfGyas.jpeg",
+              "image_sha256": "fabe8e6ac28a7079bfbdf3525894f41a23090cafcc82da08c86df11d4ec67e63",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "verified-image-1ba3ea26919d15da8766",
+              "kind": "购买",
+              "title": "T恤价格与材质",
+              "text_zh": "T恤每件含税3,500日元，材质为100%棉。",
+              "evidence_ja": "Tシャツ 各￥3,500（税込）",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/yvllAo1Ur97TK7yl/lJBW4ukurK3kCecm.jpeg",
+              "image_sha256": "d905addde40ad209dcdea6efa46e5baf4146c599d85dfafb7f27ac121bcb8880",
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "verified-image-5212ca193aabdc762f5b",
+              "kind": "其他",
+              "title": "T恤尺码",
+              "text_zh": "S码衣长66、衣宽49、袖长19厘米；Free码衣长74、衣宽55、袖长22厘米（相当于L）；Ultra码衣长81、衣宽63、袖长25厘米（相当于2XL）。",
+              "evidence_ja": "Sサイズ",
+              "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "image_url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/yvllAo1Ur97TK7yl/lJBW4ukurK3kCecm.jpeg",
+              "image_sha256": "d905addde40ad209dcdea6efa46e5baf4146c599d85dfafb7f27ac121bcb8880",
+              "checked_on": "2026-11-06"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "一般发售抽选，每人每场最多4张，可申请多个公演。需eplus会员及全体来场者人脸登记。正文未要求购买附券商品。"
+          ],
+          "status": "published",
+          "verified_at": "2026-11-06T14:50:27.409Z",
+          "updated_at": "2026-11-06T14:50:27.409Z",
+          "franchise_ids": [
+            "lovelive",
+            "aqours"
+          ],
+          "venues": [
+            {
+              "id": "auto-1c624082c33b649c-venue-df00c5abca",
+              "city": "沼津",
+              "name": "キラメッセぬまづ",
+              "address": null,
+              "start_date": "2027-03-20",
+              "end_date": "2027-03-20",
+              "rounds": [
+                {
+                  "id": "auto-1c624082c33b649c-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-07T12:00:00+09:00",
+                  "closes_at": "2026-12-13T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+                  "note": "一般发售抽选，每人每场最多4张，可申请多个公演。需eplus会员及全体来场者人脸登记。正文未要求购买附券商品。"
+                }
+              ]
+            },
+            {
+              "id": "auto-1c624082c33b649c-venue-5d3c7db104",
+              "city": "沼津",
+              "name": "キラメッセぬまづ",
+              "address": null,
+              "start_date": "2027-03-21",
+              "end_date": "2027-03-21",
+              "rounds": [
+                {
+                  "id": "auto-1c624082c33b649c-round-1",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-07T12:00:00+09:00",
+                  "closes_at": "2026-12-13T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+                  "note": "一般发售抽选，每人每场最多4张，可申请多个公演。需eplus会员及全体来场者人脸登记。正文未要求购买附券商品。"
+                }
+              ]
+            },
+            {
+              "id": "auto-1c624082c33b649c-venue-f67278f082",
+              "city": "沼津",
+              "name": "キラメッセぬまづ",
+              "address": null,
+              "start_date": "2027-03-22",
+              "end_date": "2027-03-22",
+              "rounds": [
+                {
+                  "id": "auto-1c624082c33b649c-round-2",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-07T12:00:00+09:00",
+                  "closes_at": "2026-12-13T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+                  "note": "一般发售抽选，每人每场最多4张，可申请多个公演。需eplus会员及全体来场者人脸登记。正文未要求购买附券商品。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-1c624082c33b649c-source",
+              "url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-11-06T14:50:27.409Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-a4047cd6c06d1a1f",
+          "slug": "official-a4047cd6c06d1a1f",
+          "title_ja": "【学マス】学園アイドルマスター LIVE TOUR -標- ファイナル公演はいよいよ明日から！ Kアリーナ横浜にて開催！",
+          "title_zh": "学园偶像大师「标」最终公演：K Arena 横滨现场物贩",
+          "category": "其他联动",
+          "summary": "11月7、8日每天10:00–17:00（日本时间），在K Arena横滨物贩特设帐篷销售联动商品。新增 Milk Harbor Mont Blanc 点心，每件附一张最终公演透明卡，并再售福井、福冈、岩手场的地方联动商品。现场物贩入场与限购条件需另查主办方。",
+          "image": null,
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-a4047cd6c06d1a1f-rule-0",
+              "kind": "参加",
+              "title": "物贩地点及时段",
+              "text_zh": "2026年11月7、8日每天日本时间10:00–17:00，于Kアリーナ横浜 物販特設テント开展。",
+              "evidence_ja": "物販日時\n2026年11月7日(土)10:00～17:00\n2026年11月8日(日)10:00～17:00\n物販場所\nKアリーナ横浜 物販特設テント",
+              "source_url": "https://idolmaster-official.jp/news/01_20274",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "auto-a4047cd6c06d1a1f-rule-1",
+              "kind": "参加",
+              "title": "横滨联动点心赠品",
+              "text_zh": "每购买一件「ミルクハーバー・モンブラン × 学園アイドルマスター」，赠最终公演主视觉透明卡一张。",
+              "evidence_ja": "「ミルクハーバー・モンブラン × 学園アイドルマスター」コラボ商品の発売が決定！\n会場にて、 「ミルクハーバー・モンブラン × 学園アイドルマスター」 を発売！\n「ミルクハーバー・モンブラン × 学園アイドルマスター」１点ご購入につき、\nファイナル公演 キービジュアルイラスト使用「ミルクハーバー・モンブラン ×学園アイドルマスター 特典クリアカード」を１枚お渡し！",
+              "source_url": "https://idolmaster-official.jp/news/01_20274",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "auto-a4047cd6c06d1a1f-rule-2",
+              "kind": "参加",
+              "title": "点心与包装",
+              "text_zh": "点心使用炼乳与蜂蜜，带栗子风味，初星学园校章和巡演标志各印4个，包装采用全员主视觉。",
+              "evidence_ja": "横浜銘菓である「ミルクハーバー・モンブラン」は、生地に練乳とはちみつを加えたしっとり感と、やさしく香る栗の風味にこだわった一品です。\n生地には、初星学園校章と標ツアーロゴが各4個ずつプリントされています。\n学マスのアイドル全員が集合した、ファイナル公演キービジュアルデザインのパッケージや、箱側面にあしらわれた「船に乗るはつみちゃん」にもぜひご注目ください！",
+              "source_url": "https://idolmaster-official.jp/news/01_20274",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "auto-a4047cd6c06d1a1f-rule-3",
+              "kind": "参加",
+              "title": "地方商品再售",
+              "text_zh": "再售福井眼镜坚面包、福冈めんツナかんかん、岩手チョコ南部PREMIUM Star Peanut，各附原地区透明卡。",
+              "evidence_ja": "各地方で販売した【全国銘品セレクション】も再販決定！\nファイナル公演では、\n・福井公演で販売した 「学園アイドルマスター×眼鏡堅麵麭」\n・福岡公演で販売した 「学園アイドルマスター×めんツナかんかん」\n・岩手公演で販売した 「学園アイドルマスター×チョコ南部PREMIUM Star Peanut」\nを販売！それぞれの商品に各地方のクリアカードが付属します！",
+              "source_url": "https://idolmaster-official.jp/news/01_20274",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-06"
+            },
+            {
+              "id": "auto-a4047cd6c06d1a1f-rule-4",
+              "kind": "参加",
+              "title": "配信票查询",
+              "text_zh": "另售线上观看票，销售截至11月23日18:00（日本时间）。线上观看入口 https://asobistage.asobistore.jp/event/gakuen_shirube_final/ticket。现场物贩参加条件需查现场公告。",
+              "evidence_ja": "配信チケット販売中！\n視聴チケットご購入はこちら！\n◆販売期間\n2026年10月20日(火) 20:00～2026年11月23日(月)18:00\n◆販売URL\nhttps://asobistage.asobistore.jp/event/gakuen_shirube_final/ticket",
+              "source_url": "https://idolmaster-official.jp/news/01_20274",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-06"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "本文未列现场预约方式、持票要求或限购，请查主办方后续通知。"
+          ],
+          "status": "published",
+          "verified_at": "2026-11-06T14:50:27.409Z",
+          "updated_at": "2026-11-06T14:50:27.409Z",
+          "franchise_ids": [
+            "idolmaster",
+            "gakuen-idolmaster"
+          ],
+          "venues": [
+            {
+              "id": "auto-a4047cd6c06d1a1f-venue-901a1d06e7",
+              "city": "横滨",
+              "name": "Kアリーナ横浜 物販特設テント",
+              "address": null,
+              "start_date": "2026-11-07",
+              "end_date": "2026-11-08",
+              "rounds": [
+                {
+                  "id": "auto-a4047cd6c06d1a1f-round-0",
+                  "label": "官方参加方式",
+                  "method": "尚未公布",
+                  "kind": "unannounced",
+                  "opens_at": null,
+                  "closes_at": null,
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://idolmaster-official.jp/news/01_20274",
+                  "note": "本文未列现场预约方式、持票要求或限购，请查主办方后续通知。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-a4047cd6c06d1a1f-source",
+              "url": "https://idolmaster-official.jp/news/01_20274",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-11-06T14:50:27.409Z"
             }
           ]
         }
@@ -20189,6 +20358,254 @@
     ],
     "announcements": [
       {
+        "id": "1c624082c33b649c8b8ffd8f",
+        "source_id": "aqours-official",
+        "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+        "title": "ラブライブ！サンシャイン!! 第５回沼津地元愛まつり",
+        "first_seen_at": "2026-10-29T12:15:33.162Z",
+        "last_seen_at": "2026-11-06T14:50:27.409Z",
+        "changed_at": "2026-11-06T14:50:27.409Z",
+        "content_hash": "a9a4727ea32be0578919d1c8dbf0c9f0e4341647c5f3b12975c97add389b0ff9",
+        "related_event_ids": [
+          "auto-1c624082c33b649c"
+        ],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/30/1002/g4jfzkV9elMRjdWG/xMliz5BPocxHQzNT.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/IIwiPe4JtKjKxyID/UExbot6o7UkXnczZ.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/roua832LtTWFqgRW/v89pV4rUdTPdYMwF.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/6AZoV3zwMRijcepL/8h7QelWnAdjXRtNr.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/sZg7iYqvHMLpIdBu/5d3EDfeuYRxms5g5.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/hg8F5IhZSh1m2gwq/TcNf5goaBorfGyas.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/yvllAo1Ur97TK7yl/lJBW4ukurK3kCecm.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/1dxciUCD4Nr9OjSK/eBgqYqBRK0ONKc4i.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/kr3W6wApbq4Lvcpw/r8vdgZVczcN4GIeo.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/tc4yBqUw1CZksI3u/Vz2MJSqKSC6d2V0F.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/o6zh8ovcv7E1MTLx/VWzZ2X7VTMKYMPeb.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/8IAmrXG3wUBVt5aS/rL4YofpSpDd1Xj20.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/5Vcypz0ZWU76xwrZ/rufIz13yNMK2eAYz.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/hmyjehoSvvoZSWbN/c02fJe1zX0iK1OV9.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/G2FhFOCulI4fD1PJ/KewqCYET7ZHIhksP.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/fWjkDKia6U7EfYP9/M7BG8VXhSMe0zf3p.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/5DXdmwDufRg9ZV0q/9AFVGtGu840NB3bC.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "ready",
+          "title_zh": "Aqours 第五届沼津地元爱祭",
+          "summary_zh": "2027年3月20–22日在沼津キラメッセぬまづ举行，每天昼夜两场。一般发售抽选于2026年11月7日12:00至12月13日23:59受理（日本时间），每人每场最多4张。早期两轮抽选已结束。",
+          "source_hash": "ac909e1cdab7492eaa6ed1491e5fa9439d037fd58ad1c7bafb594f068726ae25",
+          "model": "source-reviewed",
+          "reason": "正文日期、地点及规则证据通过校验",
+          "rules": [
+            {
+              "title": "三天六场",
+              "text_zh": "每天昼场13:00入场、14:00开演；夜场17:30入场、18:30开演。3月20日伊波杏树、小宫有纱、降幡爱；21日逢田梨香子、高槻加奈子、铃木爱奈；22日诹访七香、齐藤朱夏、小林爱香。",
+              "evidence_ja": "開催概要・出演者\n＜Day.1＞\n2027年3月20日（土）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】伊波杏樹（高海千歌役）、小宮有紗（黒澤ダイヤ役）、降幡 愛（黒澤ルビィ役）\n＜Day.2＞\n2027年3月21日（日）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】逢田梨香子（桜内梨子役）、高槻かなこ（国木田花丸役）、鈴木愛奈（小原鞠莉役）\n＜Day.3＞\n2027年3月22日（月・祝）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】諏訪ななか（松浦果南役）、斉藤朱夏（渡辺 曜役）、小林愛香（津島善子役）\n会場\nキラメッセぬまづ（静岡県沼津市大手1丁目1−4）"
+            },
+            {
+              "title": "票种与视线限制",
+              "text_zh": "指定席及注释指定席均为普通8,500日元、附周边11,500日元（含税）。注释席可能看不清或看不到部分出演者、演出及舞台。",
+              "evidence_ja": "チケット\n全席指定（グッズ付き）：11,500円（税込）\n全席指定：8,500円（税込）\n・2026/9/25追記\n注釈付き指定席（グッズ付き）：11,500円（税込）\n注釈付き指定席：8,500円（税込）\n※注釈付き指定席は出演者、演出及びステージの一部が見えにくい、または一部が見えないお席となります。"
+            },
+            {
+              "title": "附周边票须下载兑换券",
+              "text_zh": "特典为按演出日设计的B6亚克力板，含复制签名与序列号；当天现场领取，未领取作废，不邮寄，瑕疵仅当天更换。申请者和同行者均需能安装eplus App的手机，事前分配独立周边兑换券，否则同行者不能领取。",
+              "evidence_ja": "＜グッズ付きチケットについて＞\n箔押しメンバー複製サイン＆シリアルナンバー入り B6アクリルプレート (公演日別デザイン)\n※グッズは公演当日に会場でのお渡しを予定しております。\n当日の受け渡しに関する詳細は後日ご案内いたします。\n※公演当日にお受け取りができない場合は無効となります。\n事前・事後の発送は行いませんので、あらかじめご了承ください。\n※不良品の交換は当日のみ対応いたします。\n※グッズ付きチケットをご購入の方は、別途「グッズ引換券」（スマチケ）のダウンロードが必要となります。「グッズ引換券」のダウンロードにはイープラスアプリ（無料）のインストールが必要です。\n※複数枚お申込みの場合、事前に必ず同行者様へ「グッズ引換券」の分配をおこなってください。\n「グッズ引換券」を分配していない場合、同行者様はグッズのお受け取りができません。\n※同行者の方もイープラスアプリ（無料）をインストールできるスマートフォンが必要です。（申込者の方と同様の動作機種・推奨環境が必要です）\n※チケットご購入時の手数料に、グッズ引換にかかる手数料も含まれます。"
+            },
+            {
+              "title": "身份与取消",
+              "text_zh": "3岁以上收费，需免费eplus会员，另收手续费；仅受理期内可改退申请，中选后不能取消购买。所有入场者包括同行者须登记人脸照片，并携带照片证件。",
+              "evidence_ja": "●注意事項●\n※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。"
+            },
+            {
+              "title": "同期物产展",
+              "text_zh": "沼津地元爱物产展在Plaza Verde Convention Hall A，地点不同于演出主会场；具体开放时间和参加方式尚待更新。",
+              "evidence_ja": "同時開催\n沼津地元愛物産展\nプラサヴェルデ コンベンションホールA（〒410-0801 静岡県沼津市大手町1-1-4）\n（詳細は近日更新予定！）\nhttps://www.plazaverde.jp/jimoai-event/"
+            },
+            {
+              "title": "酒类与变更",
+              "text_zh": "禁止携带酒类或酒后入场；开场、开演或出演者变动不退票款及交通费等。",
+              "evidence_ja": "※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。"
+            },
+            {
+              "title": "一般发售抽选",
+              "text_zh": "指定席、注释指定席各有附周边和普通版，共四种票。本轮11月7日12:00至12月13日23:59受理，12月19日13:00起公布结果，付款截至12月22日21:00。每人每场最多4张，可报多场。全部为日本时间。报名入口 https://eplus.jp/jimoai2027/。",
+              "evidence_ja": "＜一般発売（抽選）＞\n本受付では、全席指定（グッズ付き／グッズなし）と注釈付き指定席（グッズ付き／グッズなし）の4券種を販売いたします。\n■受付URL： https://eplus.jp/jimoai2027/\n■受付期間：2026年11月7日（土）12:00～12月13日（日）23:59\n■当落発表：2026年12月19日（土）13:00～\n■入金期間：2026年12月19日（土）13:00～12月22日（火）21:00\n※枚数制限：お一人様、1公演につき4枚までお申込み可能（複数公演申込可）"
+            },
+            {
+              "title": "已结束的先行轮次",
+              "text_zh": "最速先行7月24日18:00至9月13日23:59，9月19日13:00公布结果、9月22日21:00付款截止。官方先行9月26日18:00至10月25日23:59，10月31日13:00公布结果、11月3日21:00付款截止。均为日本时间，两个旧轮次已结束。",
+              "evidence_ja": "＜最速先行抽選＞ 受付終了\n■受付URL： https://eplus.jp/jimoai2027/\n■受付期間：2026年7月24日（金）18:00～9月13日（日）23:59\n■当落発表：2026年9月19日（土）13:00～\n■入金期間：2026年9月19日（土）13:00～9月22日（火・祝）21:00\n※枚数制限：お一人様、1公演につき4枚までお申込み可能（複数公演申込可）\n________________________________________\n＜オフィシャル先行（抽選）＞ 受付終了\n本受付では、全席指定（グッズ付き／グッズなし）と注釈付き指定席（グッズ付き／グッズなし）の4券種を販売いたします。\n■受付URL： https://eplus.jp/jimoai2027/\n■受付期間：2026年9月26日（土）18:00～10月25日（日）23:59\n■当落発表：2026年10月31日（土）13:00～\n■入金期間：2026年10月31日（土）13:00～11月3日（火・祝）21:00\n※枚数制限：お一人様、1公演につき4枚までお申込み可能（複数公演申込可）"
+            },
+            {
+              "title": "周边事前网购",
+              "text_zh": "2026年10月30日18:00至11月15日23:59（日本时间）受理，预计2027年3月上旬起发送并于3月20日演出前送达。按订单号收运费，订单不能合并寄送，各商品限量限购。",
+              "evidence_ja": "グッズ情報\n■事前通販受付\n2026年10月30日(金)18:00~11月15日(日)23:59\n※2027年3月上旬以降順次発送、3月20日(土)公演前のお届け予定\n※送料は注文番号ごとに必要となります。複数回のご注文をひとつにまとめて発送することはできません。\n※各商品お1人様あたりの注文点数制限を設定しております。\n※数量に限りがございます。なくなり次第終了予定となります。\n詳しくは各商品販売ページを参照ください。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "320d0e1c2e4b9dace6d51a0a",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6764",
+        "title": "「虹ヶ咲学園キッチンカー」よりバースデー記念ドリンクメニュー販売のお知らせ",
+        "first_seen_at": "2026-11-06T14:50:27.409Z",
+        "last_seen_at": "2026-11-06T14:50:27.409Z",
+        "changed_at": "2026-11-06T14:50:27.409Z",
+        "content_hash": "7b5003d3bc8fe171cd57f3e8aaf971f884df8a83e1242890b61ff84de64b7c86",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/30/1002/AHZR4BJvztt9DHxJ/9dhHYEpTN5GvOtvW.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "虹咲学园餐车：天王寺璃奈生日纪念饮品",
+          "summary_zh": "11月13日至26日供应天王寺璃奈生日纪念饮品，购买可获特典照片，并展示生日看板。饮品及特典售完即止。正文未列具体出摊地址和逐日营业时刻，需查看餐车官方账号。",
+          "source_hash": "7d987b9b981a516c047dee6d55d99b157a8a3c32d4d3a82bd08dbd0d4ef9a1a2",
+          "model": "source-reviewed",
+          "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；正文日期与内容已核对，具体出摊地点及营业时刻不足，保留待审核。图片规则独立记录。",
+          "rules": [
+            {
+              "title": "生日饮品与特典",
+              "text_zh": "期间供应生日纪念饮品，购买可领特典照片，并展示生日看板。",
+              "evidence_ja": "『天王寺璃奈』お誕生日おめでとう！\n下記期間でバースデー記念ドリンクメニューの販売、記念ドリンクご購入者様への特典ブロマイドお渡し、バースデーボードの展示をいたします。\n【バースデー記念ドリンクメニュー】\n★天王寺璃奈 2026/11/13(金)～11/26(木)"
+            },
+            {
+              "title": "限量与营业信息",
+              "text_zh": "纪念饮品、特典照片发完即止。营业日期和时间请查官方账号 https://twitter.com/all_odaiba。",
+              "evidence_ja": "※記念ドリンク、特典ブロマイドの配布は無くなり次第終了となります。あらかじめご了承ください。\n営業日時等の詳細はこちらをご確認くださいませ。\n虹ヶ咲学園キッチンカーXアカウント(旧Twitter)： https://twitter.com/all_odaiba"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a4047cd6c06d1a1fdc013003",
+        "source_id": "gakuen-idolmaster-portal",
+        "source_url": "https://idolmaster-official.jp/news/01_20274",
+        "title": "【学マス】学園アイドルマスター LIVE TOUR -標- ファイナル公演はいよいよ明日から！ Kアリーナ横浜にて開催！",
+        "first_seen_at": "2026-11-06T14:50:27.409Z",
+        "last_seen_at": "2026-11-06T14:50:27.409Z",
+        "changed_at": "2026-11-06T14:50:27.409Z",
+        "content_hash": "fbf597bec2ff6fbf219eca134f210af2f0f979d16f2a5977bcbd5bba0f7755f1",
+        "related_event_ids": [
+          "auto-a4047cd6c06d1a1f"
+        ],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "ready",
+          "title_zh": "学园偶像大师「标」最终公演：K Arena 横滨现场物贩",
+          "summary_zh": "11月7、8日每天10:00–17:00（日本时间），在K Arena横滨物贩特设帐篷销售联动商品。新增 Milk Harbor Mont Blanc 点心，每件附一张最终公演透明卡，并再售福井、福冈、岩手场的地方联动商品。现场物贩入场与限购条件需另查主办方。",
+          "source_hash": "5904de66763572342078032819d6b844a5337a6770efd9568312a3a9411b07f3",
+          "model": "source-reviewed",
+          "reason": "正文日期、地点及规则证据通过校验",
+          "rules": [
+            {
+              "title": "物贩地点及时段",
+              "text_zh": "2026年11月7、8日每天日本时间10:00–17:00，于Kアリーナ横浜 物販特設テント开展。",
+              "evidence_ja": "物販日時\n2026年11月7日(土)10:00～17:00\n2026年11月8日(日)10:00～17:00\n物販場所\nKアリーナ横浜 物販特設テント"
+            },
+            {
+              "title": "横滨联动点心赠品",
+              "text_zh": "每购买一件「ミルクハーバー・モンブラン × 学園アイドルマスター」，赠最终公演主视觉透明卡一张。",
+              "evidence_ja": "「ミルクハーバー・モンブラン × 学園アイドルマスター」コラボ商品の発売が決定！\n会場にて、 「ミルクハーバー・モンブラン × 学園アイドルマスター」 を発売！\n「ミルクハーバー・モンブラン × 学園アイドルマスター」１点ご購入につき、\nファイナル公演 キービジュアルイラスト使用「ミルクハーバー・モンブラン ×学園アイドルマスター 特典クリアカード」を１枚お渡し！"
+            },
+            {
+              "title": "点心与包装",
+              "text_zh": "点心使用炼乳与蜂蜜，带栗子风味，初星学园校章和巡演标志各印4个，包装采用全员主视觉。",
+              "evidence_ja": "横浜銘菓である「ミルクハーバー・モンブラン」は、生地に練乳とはちみつを加えたしっとり感と、やさしく香る栗の風味にこだわった一品です。\n生地には、初星学園校章と標ツアーロゴが各4個ずつプリントされています。\n学マスのアイドル全員が集合した、ファイナル公演キービジュアルデザインのパッケージや、箱側面にあしらわれた「船に乗るはつみちゃん」にもぜひご注目ください！"
+            },
+            {
+              "title": "地方商品再售",
+              "text_zh": "再售福井眼镜坚面包、福冈めんツナかんかん、岩手チョコ南部PREMIUM Star Peanut，各附原地区透明卡。",
+              "evidence_ja": "各地方で販売した【全国銘品セレクション】も再販決定！\nファイナル公演では、\n・福井公演で販売した 「学園アイドルマスター×眼鏡堅麵麭」\n・福岡公演で販売した 「学園アイドルマスター×めんツナかんかん」\n・岩手公演で販売した 「学園アイドルマスター×チョコ南部PREMIUM Star Peanut」\nを販売！それぞれの商品に各地方のクリアカードが付属します！"
+            },
+            {
+              "title": "配信票查询",
+              "text_zh": "另售线上观看票，销售截至11月23日18:00（日本时间）。线上观看入口 https://asobistage.asobistore.jp/event/gakuen_shirube_final/ticket。现场物贩参加条件需查现场公告。",
+              "evidence_ja": "配信チケット販売中！\n視聴チケットご購入はこちら！\n◆販売期間\n2026年10月20日(火) 20:00～2026年11月23日(月)18:00\n◆販売URL\nhttps://asobistage.asobistore.jp/event/gakuen_shirube_final/ticket"
+            }
+          ]
+        }
+      },
+      {
         "id": "34c32074e759e14aaf4b918c",
         "source_id": "nijigasaki-news",
         "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6771",
@@ -21750,158 +22167,6 @@
               "title": "酒类与礼物",
               "text_zh": "馆内不售酒，也不得携带酒类；不接收礼物和粉丝来信。",
               "evidence_ja": "・会場内ではアルコールの販売はございません。また、アルコールの持ち込みは禁止とさせていただきます。\n・プレゼント・ファンレターはお控えください。プレゼントボックスも設置は致しません。"
-            }
-          ]
-        }
-      },
-      {
-        "id": "1c624082c33b649c8b8ffd8f",
-        "source_id": "aqours-official",
-        "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
-        "title": "ラブライブ！サンシャイン!! 第５回沼津地元愛まつり",
-        "first_seen_at": "2026-10-29T12:15:33.162Z",
-        "last_seen_at": "2026-11-03T19:51:01.164Z",
-        "changed_at": "2026-10-30T14:10:44.737Z",
-        "content_hash": "2830edcbe581ac44a57055a88e6de290e61e994d935f5455a9fe44ef741331b9",
-        "related_event_ids": [
-          "auto-1c624082c33b649c"
-        ],
-        "images": [
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/30/1002/g4jfzkV9elMRjdWG/xMliz5BPocxHQzNT.jpeg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/IIwiPe4JtKjKxyID/UExbot6o7UkXnczZ.jpeg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/roua832LtTWFqgRW/v89pV4rUdTPdYMwF.jpeg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/6AZoV3zwMRijcepL/8h7QelWnAdjXRtNr.jpeg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/sZg7iYqvHMLpIdBu/5d3EDfeuYRxms5g5.jpeg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/hg8F5IhZSh1m2gwq/TcNf5goaBorfGyas.jpeg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/yvllAo1Ur97TK7yl/lJBW4ukurK3kCecm.jpeg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/1dxciUCD4Nr9OjSK/eBgqYqBRK0ONKc4i.jpeg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/kr3W6wApbq4Lvcpw/r8vdgZVczcN4GIeo.jpeg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/tc4yBqUw1CZksI3u/Vz2MJSqKSC6d2V0F.jpeg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/o6zh8ovcv7E1MTLx/VWzZ2X7VTMKYMPeb.jpeg",
-            "alt": "",
-            "kind": "merchandise"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/8IAmrXG3wUBVt5aS/rL4YofpSpDd1Xj20.jpeg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/5Vcypz0ZWU76xwrZ/rufIz13yNMK2eAYz.jpeg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/hmyjehoSvvoZSWbN/c02fJe1zX0iK1OV9.jpeg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/G2FhFOCulI4fD1PJ/KewqCYET7ZHIhksP.jpeg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/fWjkDKia6U7EfYP9/M7BG8VXhSMe0zf3p.jpeg",
-            "alt": "",
-            "kind": "unknown"
-          },
-          {
-            "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/5DXdmwDufRg9ZV0q/9AFVGtGu840NB3bC.jpeg",
-            "alt": "",
-            "kind": "unknown"
-          }
-        ],
-        "image_readings": [],
-        "activity": {
-          "kind": "offline",
-          "state": "ready",
-          "title_zh": "Aqours 第五届沼津地元爱祭",
-          "summary_zh": "2027年3月20–22日在沼津キラメッセぬまづ举办，每日昼夜两场、出演成员不同。最新一轮官方先行抽选已于2026年10月25日23:59（日本时间）截止，10月31日公布结果。同期地元爱物产展另设会场，细节尚待公布。",
-          "source_hash": "4aa800534bc55f5518b2b4334c3c010f340fc9229dec634d353781541ef41c76",
-          "model": "source-reviewed",
-          "reason": "正文日期、地点及规则证据通过校验",
-          "rules": [
-            {
-              "title": "三天六场",
-              "text_zh": "每天昼场13:00入场、14:00开演；夜场17:30入场、18:30开演。3月20日伊波杏树、小宫有纱、降幡爱；21日逢田梨香子、高槻加奈子、铃木爱奈；22日诹访七香、齐藤朱夏、小林爱香。",
-              "evidence_ja": "開催概要・出演者\n＜Day.1＞\n2027年3月20日（土）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】伊波杏樹（高海千歌役）、小宮有紗（黒澤ダイヤ役）、降幡 愛（黒澤ルビィ役）\n＜Day.2＞\n2027年3月21日（日）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】逢田梨香子（桜内梨子役）、高槻かなこ（国木田花丸役）、鈴木愛奈（小原鞠莉役）\n＜Day.3＞\n2027年3月22日（月・祝）\n＜昼公演＞13:00開場／14:00開演\n＜夜公演＞17:30開場／18:30開演\n【出演】諏訪ななか（松浦果南役）、斉藤朱夏（渡辺 曜役）、小林愛香（津島善子役）\n会場\nキラメッセぬまづ（静岡県沼津市大手1丁目1−4）"
-            },
-            {
-              "title": "票种与视线限制",
-              "text_zh": "指定席及注释指定席均为普通8,500日元、附周边11,500日元（含税）。注释席可能看不清或看不到部分出演者、演出及舞台。",
-              "evidence_ja": "チケット\n全席指定（グッズ付き）：11,500円（税込）\n全席指定：8,500円（税込）\n・2026/9/25追記\n注釈付き指定席（グッズ付き）：11,500円（税込）\n注釈付き指定席：8,500円（税込）\n※注釈付き指定席は出演者、演出及びステージの一部が見えにくい、または一部が見えないお席となります。"
-            },
-            {
-              "title": "附周边票须下载兑换券",
-              "text_zh": "特典为按演出日设计的B6亚克力板，含复制签名与序列号；当天现场领取，未领取作废，不邮寄，瑕疵仅当天更换。申请者和同行者均需能安装eplus App的手机，事前分配独立周边兑换券，否则同行者不能领取。",
-              "evidence_ja": "＜グッズ付きチケットについて＞\n箔押しメンバー複製サイン＆シリアルナンバー入り B6アクリルプレート (公演日別デザイン)\n※グッズは公演当日に会場でのお渡しを予定しております。\n当日の受け渡しに関する詳細は後日ご案内いたします。\n※公演当日にお受け取りができない場合は無効となります。\n事前・事後の発送は行いませんので、あらかじめご了承ください。\n※不良品の交換は当日のみ対応いたします。\n※グッズ付きチケットをご購入の方は、別途「グッズ引換券」（スマチケ）のダウンロードが必要となります。「グッズ引換券」のダウンロードにはイープラスアプリ（無料）のインストールが必要です。\n※複数枚お申込みの場合、事前に必ず同行者様へ「グッズ引換券」の分配をおこなってください。\n「グッズ引換券」を分配していない場合、同行者様はグッズのお受け取りができません。\n※同行者の方もイープラスアプリ（無料）をインストールできるスマートフォンが必要です。（申込者の方と同様の動作機種・推奨環境が必要です）\n※チケットご購入時の手数料に、グッズ引換にかかる手数料も含まれます。"
-            },
-            {
-              "title": "最新抽选已截止",
-              "text_zh": "官方先行9月26日18:00至10月25日23:59受理；10月31日13:00起公布结果，付款至11月3日21:00。每人每场最多4张，可报多场，四种票均在本轮销售。均为日本时间，旧页眉“受理中”不能替代日期判断。",
-              "evidence_ja": "＜オフィシャル先行（抽選）＞★どなたでもお申し込みいただけます！★\n本受付では、全席指定（グッズ付き／グッズなし）と注釈付き指定席（グッズ付き／グッズなし）の4券種を販売いたします。\n■受付URL： https://eplus.jp/jimoai2027/\n■受付期間：2026年9月26日（土）18:00～10月25日（日）23:59\n■当落発表：2026年10月31日（土）13:00～\n■入金期間：2026年10月31日（土）13:00～11月3日（火・祝）21:00\n※枚数制限：お一人様、1公演につき4枚までお申込み可能（複数公演申込可）"
-            },
-            {
-              "title": "身份与取消",
-              "text_zh": "3岁以上收费，需免费eplus会员，另收手续费；仅受理期内可改退申请，中选后不能取消购买。所有入场者包括同行者须登记人脸照片，并携带照片证件。",
-              "evidence_ja": "●注意事項●\n※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。"
-            },
-            {
-              "title": "同期物产展",
-              "text_zh": "沼津地元爱物产展在Plaza Verde Convention Hall A，地点不同于演出主会场；具体开放时间和参加方式尚待更新。",
-              "evidence_ja": "同時開催\n沼津地元愛物産展\nプラサヴェルデ コンベンションホールA（〒410-0801 静岡県沼津市大手町1-1-4）\n（詳細は近日更新予定！）\nhttps://www.plazaverde.jp/jimoai-event/"
-            },
-            {
-              "title": "新增事前网购与现场票务分开",
-              "text_zh": "周边事前网购于10月30日18:00至11月15日23:59受理（日本时间），预计2027年3月上旬起发送并于3月20日演出前送达。按订单号收费、不能合并寄送；各商品限量限购。此为商品网购，不代表已截止的现场抽选重新开放。",
-              "evidence_ja": "グッズ情報\n■事前通販受付\n2026年10月30日(金)18:00~11月15日(日)23:59\n※2027年3月上旬以降順次発送、3月20日(土)公演前のお届け予定\n※送料は注文番号ごとに必要となります。複数回のご注文をひとつにまとめて発送することはできません。\n※各商品お1人様あたりの注文点数制限を設定しております。\n※数量に限りがございます。なくなり次第終了予定となります。\n詳しくは各商品販売ページを参照ください。"
-            },
-            {
-              "title": "酒类与变更",
-              "text_zh": "禁止携带酒类或酒后入场；开场、开演或出演者变动不退票款及交通费等。",
-              "evidence_ja": "※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。"
             }
           ]
         }
@@ -28288,15 +28553,15 @@
       }
     ],
     "monitoring": {
-      "checked_at": "2026-11-05T14:06:24.884Z",
+      "checked_at": "2026-11-06T14:50:27.409Z",
       "sources": [
         {
           "id": "bang-dream-live",
           "name": "BanG Dream! Live / Event",
           "url": "https://bang-dream.com/events/",
           "state": "empty",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -28308,8 +28573,8 @@
           "name": "BanG Dream! 新闻",
           "url": "https://bang-dream.com/news/",
           "state": "empty",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -28321,8 +28586,8 @@
           "name": "Bushiroad Creative",
           "url": "https://bushiroad-creative.com/",
           "state": "empty",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -28334,12 +28599,12 @@
           "name": "虹咲官网新闻",
           "url": "https://www.lovelive-anime.jp/nijigasaki/topics.php",
           "state": "success",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
           "pages": 2,
           "discovered": 2,
           "deferred": 0,
-          "retained": 12,
+          "retained": 14,
           "issues": []
         },
         {
@@ -28347,8 +28612,8 @@
           "name": "少女歌剧新闻",
           "url": "https://revuestarlight.com/news/",
           "state": "empty",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -28373,8 +28638,8 @@
           "name": "SWEETS PARADISE",
           "url": "https://www.sweets-paradise.jp/collaboration/",
           "state": "empty",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -28386,8 +28651,8 @@
           "name": "少女歌剧 Live / Event",
           "url": "https://revuestarlight.com/event/",
           "state": "empty",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -28399,12 +28664,12 @@
           "name": "Aqours · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/uranohoshi/topics.php",
           "state": "success",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
           "pages": 2,
           "discovered": 2,
           "deferred": 0,
-          "retained": 6,
+          "retained": 5,
           "issues": []
         },
         {
@@ -28412,8 +28677,8 @@
           "name": "μ's · 新闻与演出",
           "url": "https://www.lovelive-anime.jp/otonokizaka/topics.php",
           "state": "empty",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -28425,8 +28690,8 @@
           "name": "人生不易部 · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/lovehigh/news/",
           "state": "empty",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -28438,8 +28703,8 @@
           "name": "Love Live! 跨企划演出",
           "url": "https://www.lovelive-anime.jp/lovehigh/live/",
           "state": "empty",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -28450,13 +28715,13 @@
           "id": "hasunosora-official",
           "name": "莲之空 · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/hasunosora/news/",
-          "state": "success",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
-          "pages": 1,
-          "discovered": 1,
+          "state": "empty",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
+          "pages": 0,
+          "discovered": 0,
           "deferred": 0,
-          "retained": 13,
+          "retained": 14,
           "issues": []
         },
         {
@@ -28464,8 +28729,8 @@
           "name": "Liella! · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/yuigaoka/topics/",
           "state": "success",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
           "pages": 1,
           "discovered": 1,
           "deferred": 0,
@@ -28477,8 +28742,8 @@
           "name": "学园偶像大师 · 官方巡演",
           "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/",
           "state": "success",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
           "pages": 1,
           "discovered": 1,
           "deferred": 0,
@@ -28490,8 +28755,8 @@
           "name": "学园偶像大师 · 厂牌新闻",
           "url": "https://gakuen-label.idolmaster-official.jp/news",
           "state": "empty",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -28503,16 +28768,19 @@
           "name": "学园偶像大师 · 综合门户新闻",
           "url": "https://idolmaster-official.jp/news?page_index=1",
           "state": "success",
-          "last_attempt_at": "2026-11-05T14:06:24.884Z",
-          "last_success_at": "2026-11-05T14:06:24.884Z",
-          "pages": 2,
-          "discovered": 2,
+          "last_attempt_at": "2026-11-06T14:50:27.409Z",
+          "last_success_at": "2026-11-06T14:50:27.409Z",
+          "pages": 3,
+          "discovered": 3,
           "deferred": 0,
           "retained": 2,
           "issues": []
         }
       ],
       "unread_announcement_ids": [
+        "34c32074e759e14aaf4b918c",
+        "88df7796c9855181a61864d5",
+        "9460e5aab33ea832d78b1290",
         "97ebcc1904e05ceeaadc3c8b",
         "1c1071d3e690470ee88cc8a1",
         "5967750a617af6af7a547eb7",
@@ -28528,7 +28796,6 @@
         "50f5f45cf44080564f040924",
         "7fe220332289c14c7aa8cf97",
         "04c73e062516c03ae9d78430",
-        "1c624082c33b649c8b8ffd8f",
         "1cd0ce24546c0919ec620abf",
         "30fb7128504cc0da31ecba16",
         "574a22a1d83b735f9d20d6de",

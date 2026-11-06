@@ -863,5 +863,168 @@
       ],
       "unreadable": false
     }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6764",
+    "source_hash": "7d987b9b981a516c047dee6d55d99b157a8a3c32d4d3a82bd08dbd0d4ef9a1a2",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/10/30/1002/AHZR4BJvztt9DHxJ/9dhHYEpTN5GvOtvW.jpeg",
+    "sha256": "b5eaf8673f55efcaea622317484eb22aad0194506e581727e9c092a3011de266",
+    "reviewed_at": "2026-11-06T14:55:01.831Z",
+    "approved": true,
+    "reason": "实际逐项复核璃奈生日热饮的价格、配料、过敏原与底部特典注意事项；没有从图片推断出摊地点。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "点单",
+          "title": "生日热饮价格",
+          "evidence_ja": "HOT 700円（税込）",
+          "text_zh": "热饮每杯700日元（含税）。",
+          "uncertain": false
+        },
+        {
+          "kind": "点单",
+          "title": "配料及过敏原",
+          "evidence_ja": "ココア ＋ バニラシロップ ＋ ホイップクリーム ＋ マシュマロ",
+          "text_zh": "可可、香草糖浆、打发奶油及棉花糖；图中标注过敏原为乳。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "购买赠品",
+          "evidence_ja": "購入者特典 オリジナルブロマイド",
+          "text_zh": "购买生日饮品赠原创照片，赠品送完即止，禁止转售。",
+          "uncertain": false
+        },
+        {
+          "kind": "其他",
+          "title": "赠品处理",
+          "evidence_ja": "ご購入当日に限り対応させていただきます。",
+          "text_zh": "分发错误或数量不足仅在购买当天处理。与图案无关的背面等位置的细微损伤不予更换。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+    "source_hash": "ac909e1cdab7492eaa6ed1491e5fa9439d037fd58ad1c7bafb594f068726ae25",
+    "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/30/1002/g4jfzkV9elMRjdWG/xMliz5BPocxHQzNT.jpeg",
+    "sha256": "5f4ab5bb9b5c11f83cc343df1c933c31f32215e3c73a5408d6892807184e9c0f",
+    "reviewed_at": "2026-11-06T14:55:01.832Z",
+    "approved": true,
+    "reason": "实际读取原图并复核，为活动主视觉或纪念板样图，未包含额外参加限制。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+    "source_hash": "ac909e1cdab7492eaa6ed1491e5fa9439d037fd58ad1c7bafb594f068726ae25",
+    "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/IIwiPe4JtKjKxyID/UExbot6o7UkXnczZ.jpeg",
+    "sha256": "be00ef108746efe99e3580e0dfa5bd1b9e4f7d0750b3673c39d16667e3b87ce6",
+    "reviewed_at": "2026-11-06T14:55:01.832Z",
+    "approved": true,
+    "reason": "实际读取原图并复核，为活动主视觉或纪念板样图，未包含额外参加限制。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+    "source_hash": "ac909e1cdab7492eaa6ed1491e5fa9439d037fd58ad1c7bafb594f068726ae25",
+    "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/roua832LtTWFqgRW/v89pV4rUdTPdYMwF.jpeg",
+    "sha256": "b8127431bf6763ea07a9677c683f00cfec07e1916c52f34f4a8093774bb1c902",
+    "reviewed_at": "2026-11-06T14:55:01.833Z",
+    "approved": true,
+    "reason": "实际读取原图并复核，为活动主视觉或纪念板样图，未包含额外参加限制。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+    "source_hash": "ac909e1cdab7492eaa6ed1491e5fa9439d037fd58ad1c7bafb594f068726ae25",
+    "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/07/24/1002/6AZoV3zwMRijcepL/8h7QelWnAdjXRtNr.jpeg",
+    "sha256": "f69b1535fd56562f1263a4a51b34743366e8a9fb27d5ff17a70a946c8c3e1476",
+    "reviewed_at": "2026-11-06T14:55:01.833Z",
+    "approved": true,
+    "reason": "实际读取原图并复核，为活动主视觉或纪念板样图，未包含额外参加限制。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+    "source_hash": "ac909e1cdab7492eaa6ed1491e5fa9439d037fd58ad1c7bafb594f068726ae25",
+    "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/sZg7iYqvHMLpIdBu/5d3EDfeuYRxms5g5.jpeg",
+    "sha256": "0d5d29ec225677dde096e09d69c4b5fcdc01547c99de9828c5eb2900555215cc",
+    "reviewed_at": "2026-11-06T14:55:01.833Z",
+    "approved": true,
+    "reason": "实际读取，为School idol STORE商店入口横幅。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+    "source_hash": "ac909e1cdab7492eaa6ed1491e5fa9439d037fd58ad1c7bafb594f068726ae25",
+    "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/hg8F5IhZSh1m2gwq/TcNf5goaBorfGyas.jpeg",
+    "sha256": "fabe8e6ac28a7079bfbdf3525894f41a23090cafcc82da08c86df11d4ec67e63",
+    "reviewed_at": "2026-11-06T14:55:01.833Z",
+    "approved": true,
+    "reason": "实际核对事前通販荧光棒商品图，价格和规格清晰；正文未列商品附券条件。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "荧光棒事前网购",
+          "evidence_ja": "ラブライブレード！サンシャイン!! ￥4,800（税込）",
+          "text_zh": "本场特别款荧光棒含税4,800日元。具有跳色按钮，九色可切换并设定点亮顺序。",
+          "uncertain": false
+        },
+        {
+          "kind": "其他",
+          "title": "荧光棒尺寸",
+          "evidence_ja": "【全長】約250mm",
+          "text_zh": "全长约250毫米，发光部分直径约30毫米、长度约150毫米。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
+    "source_hash": "ac909e1cdab7492eaa6ed1491e5fa9439d037fd58ad1c7bafb594f068726ae25",
+    "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/10/30/1003/yvllAo1Ur97TK7yl/lJBW4ukurK3kCecm.jpeg",
+    "sha256": "d905addde40ad209dcdea6efa46e5baf4146c599d85dfafb7f27ac121bcb8880",
+    "reviewed_at": "2026-11-06T14:55:01.833Z",
+    "approved": true,
+    "reason": "实际核对T恤事前通販图，三档尺寸与含税价格清晰。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "T恤价格与材质",
+          "evidence_ja": "Tシャツ 各￥3,500（税込）",
+          "text_zh": "T恤每件含税3,500日元，材质为100%棉。",
+          "uncertain": false
+        },
+        {
+          "kind": "其他",
+          "title": "T恤尺码",
+          "evidence_ja": "Sサイズ",
+          "text_zh": "S码衣长66、衣宽49、袖长19厘米；Free码衣长74、衣宽55、袖长22厘米（相当于L）；Ultra码衣长81、衣宽63、袖长25厘米（相当于2XL）。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
   }
 ]
