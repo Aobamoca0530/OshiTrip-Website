@@ -1320,5 +1320,130 @@
       ],
       "unreadable": false
     }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+    "source_hash": "37770b6090c93d81a586428dd43efb49fca0fda73060c1b1b3388ce2c3f5594f",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/08/27160916/172a442f-f52d7f3c-72a971ec-d4dccad9.png",
+    "sha256": "ae0afcefe00ab1b138ff60d5230a38003ffaa133c073ca681683a130df5fbb2a",
+    "reviewed_at": "2026-11-07T14:08:21.161Z",
+    "approved": true,
+    "reason": "本次实际读取，为Roselia十周年标志，未包含参加规则。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+    "source_hash": "37770b6090c93d81a586428dd43efb49fca0fda73060c1b1b3388ce2c3f5594f",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/04112307/dc8001b5-523edeb7-91bd9200-b126a896-1024x577.jpg",
+    "sha256": "0bd42298875224cb8dbe99f606a460438d426227fddb4e16004ee1c8ec7ec909",
+    "reviewed_at": "2026-11-07T14:08:21.161Z",
+    "approved": true,
+    "reason": "本次实际读取座位图并再次核对区域及楼层标签；一般指定席标注与变更正文一致。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "参加",
+          "title": "东京席位示意",
+          "evidence_ja": "一般指定席",
+          "text_zh": "东京座位示意图显示S席在竞技场前部、A席在竞技场及三层侧边，一般指定席涵盖竞技场、三层与四层区域；另设露台套房区。",
+          "uncertain": false
+        },
+        {
+          "kind": "其他",
+          "title": "示意图说明",
+          "evidence_ja": "画像はイメージです。実際の比率とは異なる場合がございます。",
+          "text_zh": "图片为示意，实际比例可能不同。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+    "source_hash": "37770b6090c93d81a586428dd43efb49fca0fda73060c1b1b3388ce2c3f5594f",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/04112310/2f4ef728-abd5e9e0-50a116f3-ff16e567-1024x577.jpg",
+    "sha256": "320a422c70bef0dda5ef5deb9c376bbf9a20d466685f96773016bd2c3f1a80a3",
+    "reviewed_at": "2026-11-07T14:08:21.161Z",
+    "approved": true,
+    "reason": "本次实际读取座位图并再次核对区域及楼层标签；一般指定席标注与变更正文一致。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "参加",
+          "title": "爱知席位示意",
+          "evidence_ja": "一般指定席",
+          "text_zh": "爱知座位示意图显示S席和A席在一层，一般指定席在二至五层。",
+          "uncertain": false
+        },
+        {
+          "kind": "其他",
+          "title": "示意图说明",
+          "evidence_ja": "画像はイメージです。実際の比率とは異なる場合がございます。",
+          "text_zh": "图片为示意，实际比例可能不同。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+    "source_hash": "37770b6090c93d81a586428dd43efb49fca0fda73060c1b1b3388ce2c3f5594f",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/04112317/edb16f16-5b15b35a-e91c2e25-001030b6-1024x577.jpg",
+    "sha256": "df9554ced3049ee15b660a47ef3ccc5be5d511bee94b2dc8413ca9617ced4c04",
+    "reviewed_at": "2026-11-07T14:08:21.161Z",
+    "approved": true,
+    "reason": "本次实际读取座位图并再次核对区域及楼层标签；一般指定席标注与变更正文一致。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "参加",
+          "title": "宫城席位示意",
+          "evidence_ja": "一般指定席",
+          "text_zh": "宫城座位示意图显示S席和A席在一层，一般指定席在二层及三层。",
+          "uncertain": false
+        },
+        {
+          "kind": "其他",
+          "title": "示意图说明",
+          "evidence_ja": "画像はイメージです。実際の比率とは異なる場合がございます。",
+          "text_zh": "图片为示意，实际比例可能不同。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
+    "source_hash": "37770b6090c93d81a586428dd43efb49fca0fda73060c1b1b3388ce2c3f5594f",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/10/04112314/5c3c2094-8673a2b4-5163d9ea-bb9f14f0-1024x577.jpg",
+    "sha256": "086a6a2aeef892ca62a79772730f7a666cc4a17f05e29ace9ca3bc7ede72193f",
+    "reviewed_at": "2026-11-07T14:08:21.161Z",
+    "approved": true,
+    "reason": "本次实际读取座位图并再次核对区域及楼层标签；一般指定席标注与变更正文一致。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "参加",
+          "title": "福冈席位示意",
+          "evidence_ja": "一般指定席",
+          "text_zh": "福冈座位示意图显示S席和A席在一层，一般指定席涵盖一至三层。",
+          "uncertain": false
+        },
+        {
+          "kind": "其他",
+          "title": "示意图说明",
+          "evidence_ja": "画像はイメージです。実際の比率とは異なる場合がございます。",
+          "text_zh": "图片为示意，实际比例可能不同。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
   }
 ]

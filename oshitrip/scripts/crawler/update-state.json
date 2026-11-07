@@ -68,11 +68,11 @@
       "projects": [
         "roselia"
       ],
-      "signature": "7b24f32d97c850ac38212006cfb80d802e15889e45a20e89b993a601b57cacd8",
-      "first_seen_on": "2026-10-31",
-      "burst_day": null,
+      "signature": "1261fe5ea6e06daf2abf7cb31feb8041303490507b1e331ded9af44f5d106b60",
+      "first_seen_on": "2026-11-07",
+      "burst_day": "2026-11-07",
       "pending": false,
-      "reason": "列表新增且未收录"
+      "reason": "列表标题或日期变化"
     },
     "https://bang-dream.com/events/kimuchikura-anisama-seoul-2027/": {
       "source_id": "bang-dream-live",
@@ -553,8 +553,8 @@
         "aqours"
       ],
       "signature": "0feb9fc9b4a74e66a574414b6d2d16e8093055ba91150ef8e89a6d08630f8f39",
-      "first_seen_on": "2026-11-06",
-      "burst_day": "2026-11-06",
+      "first_seen_on": "2026-11-07",
+      "burst_day": "2026-11-07",
       "pending": false,
       "reason": "列表标题或日期变化"
     },
@@ -597,8 +597,8 @@
         "aqours"
       ],
       "signature": "c31bf6bb261bd42165241c0ea0a1a9bacdef663b77a8d69ce7d435e5ee1d1233",
-      "first_seen_on": "2026-11-06",
-      "burst_day": "2026-11-06",
+      "first_seen_on": "2026-11-07",
+      "burst_day": "2026-11-07",
       "pending": false,
       "reason": "列表标题或日期变化"
     },
@@ -861,8 +861,8 @@
         "liella"
       ],
       "signature": "449834d60af60cd10aa49bcb0203eef7e75beeaa1bdf0b6fee7c9e2350592b58",
-      "first_seen_on": "2026-11-06",
-      "burst_day": "2026-11-06",
+      "first_seen_on": "2026-11-07",
+      "burst_day": "2026-11-07",
       "pending": false,
       "reason": "列表标题或日期变化"
     },
@@ -916,8 +916,8 @@
         "gakuen-idolmaster"
       ],
       "signature": "1c956b12c2ad6690e41ff6f99bc1776322367c001df5508d8a3420330af8784d",
-      "first_seen_on": "2026-11-06",
-      "burst_day": "2026-11-06",
+      "first_seen_on": "2026-11-07",
+      "burst_day": "2026-11-07",
       "pending": false,
       "reason": "列表标题或日期变化"
     },
@@ -1404,16 +1404,35 @@
       "burst_day": "2026-11-06",
       "pending": false,
       "reason": "列表新增且未收录"
+    },
+    "https://idolmaster-official.jp/news/01_20322": {
+      "source_id": "gakuen-idolmaster-portal",
+      "projects": [
+        "gakuen-idolmaster"
+      ],
+      "signature": "6a0111fa5df074b94bace1750c3ba4197e9dfb895e2ec51189109765c12f459d",
+      "first_seen_on": "2026-11-07",
+      "burst_day": "2026-11-07",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://idolmaster-official.jp/news/01_20235": {
+      "source_id": "gakuen-idolmaster-portal",
+      "projects": [
+        "gakuen-idolmaster"
+      ],
+      "signature": "ed9527a599a5712c79e3ac111b57ea3eebbb61f3b3dc49880369aab9126df8e9",
+      "first_seen_on": "2026-11-07",
+      "burst_day": "2026-11-07",
+      "pending": false,
+      "reason": "列表新增且未收录"
     }
   },
   "daily_usage": {
-    "day": "2026-11-06",
+    "day": "2026-11-07",
     "projects": {
-      "lovelive": [
-        "www.lovelive-anime.jp:news:01_6779"
-      ],
-      "nijigasaki": [
-        "www.lovelive-anime.jp:news:01_6764"
+      "roselia": [
+        "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/"
       ],
       "aqours": [
         "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
@@ -1424,9 +1443,8 @@
       ],
       "gakuen-idolmaster": [
         "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php",
-        "https://idolmaster-official.jp/news/01_20274",
-        "https://idolmaster-official.jp/news/01_20284",
-        "https://idolmaster-official.jp/news/01_20283"
+        "https://idolmaster-official.jp/news/01_20322",
+        "https://idolmaster-official.jp/news/01_20235"
       ]
     }
   }
