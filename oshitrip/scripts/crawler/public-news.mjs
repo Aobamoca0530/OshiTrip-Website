@@ -35,6 +35,7 @@ export function mergeAnnouncements(previous, observations, catalog, stamp) {
       content_hash: hash,
       related_event_ids: catalog.events.filter(event => event.sources.some(s => s.url === o.source_url)).map(event => event.id),
       images,
+      ...(old?.event_identity ? { event_identity: old.event_identity } : {}),
       ...(old?.activity ? { activity: old.activity } : {}),
     });
   }

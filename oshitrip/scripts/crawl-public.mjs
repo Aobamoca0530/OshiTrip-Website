@@ -3,7 +3,7 @@ import { PUBLIC_SOURCE_IDS } from './crawler/public-sources.mjs';
 import fs from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { confirmedBookingMethods } from './crawler/supporting-booking-evidence.mjs';
-import { eventIdentityLinks } from './crawler/event-identity.mjs';
+import { eventIdentityLinks, withdrawAutomaticEvent } from './crawler/event-identity.mjs';
 import { robotsAllows } from './crawler/core.mjs';
 import { crawlPublicSource } from './crawler/browser.mjs';
 import { createImageReviewer, bailianEndpoint } from './crawler/image-rules.mjs';
@@ -142,8 +142,7 @@ for (const { source, observation: o, observed_at } of prioritizeDiscovery(observ
   const kind = classifyAnnouncement(source, o);
   row.activity = pendingActivity(o, kind, '等待中文翻译，尚不用于行程匹配');
   // A changed official page must not leave obsolete automatic booking rules active.
-  const former = catalog.events.find(e => e.id.startsWith('auto-') && e.sources.some(s => s.url === o.source_url));
-  if (former) catalog.events = catalog.events.filter(e => e.id !== former.id);
+  const former = withdrawAutomaticEvent(catalog, row);
   try {
     let result, model;
     if (reviewedManually) {

@@ -1,3 +1,18 @@
+// Retain only identity, never stale booking rules or an approval. This metadata
+// survives collect-only -> review -> replay but is stripped by the public schema.
+export function withdrawAutomaticEvent(catalog, row) {
+  const former = catalog.events.find(event => event.id.startsWith('auto-')
+    && event.sources.some(source => source.url === row.source_url));
+  if (former) {
+    row.event_identity = {
+      id: former.id, slug: former.slug,
+      venues: former.venues.map(({ id, name, start_date }) => ({ id, name, start_date })),
+    };
+    catalog.events = catalog.events.filter(event => event.id !== former.id);
+  }
+  return row.event_identity;
+}
+
 // Links between standalone concert detail pages often mean another day or a
 // related concert, not the same event. News articles can still link to details.
 export function eventIdentityLinks(observation) {
