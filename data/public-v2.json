@@ -1,7 +1,7 @@
 {
   "formatVersion": 2,
-  "revision": "23d41dcfe0ec39694091de33abb145298af21f4c1ccee5760a015c178ee20c29",
-  "publishedAt": "2026-11-07T16:15:49.632Z",
+  "revision": "19ffa80ea3a05e7580d01095b86f66b0b899b899fa0ee62a10810d7c521d5f01",
+  "publishedAt": "2026-11-08T14:37:59.751Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -20860,6 +20860,18 @@
       }
     ],
     "announcements": [
+      {
+        "id": "24623a7ff0f1f2216c247974",
+        "source_id": "gakuen-idolmaster-portal",
+        "source_url": "https://idolmaster-official.jp/news/01_20238",
+        "title": "【学マス標ツアー】学園アイドルマスター LIVE TOUR -標- ファイナル公演 DAY2 のご鑑賞ありがとうございました！本日の告知内容まとめはこちら！",
+        "first_seen_at": "2026-11-08T14:34:08.544Z",
+        "last_seen_at": "2026-11-08T14:34:08.544Z",
+        "changed_at": "2026-11-08T14:34:08.544Z",
+        "content_hash": "1a7ff65f1ce8b0092f0bac099244bbe5cb32f4e44fc2da5d4ba716a2cc3e2db1",
+        "related_event_ids": [],
+        "images": []
+      },
       {
         "id": "97ebcc1904e05ceeaadc3c8b",
         "source_id": "bang-dream-live",

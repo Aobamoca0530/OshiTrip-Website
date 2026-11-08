@@ -1,7 +1,7 @@
 {
   "formatVersion": 3,
-  "revision": "f9d1e3d094e93e7c4eb8985f1efb5ef59a6440560e2ad25890687a61008d8946",
-  "publishedAt": "2026-11-07T16:15:49.632Z",
+  "revision": "b59ae4eaa301ce85b6e24c13406e6abbbd11f08358f4fdfab650070831d889ac",
+  "publishedAt": "2026-11-08T14:37:59.751Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -20860,6 +20860,45 @@
       }
     ],
     "announcements": [
+      {
+        "id": "24623a7ff0f1f2216c247974",
+        "source_id": "gakuen-idolmaster-portal",
+        "source_url": "https://idolmaster-official.jp/news/01_20238",
+        "title": "【学マス標ツアー】学園アイドルマスター LIVE TOUR -標- ファイナル公演 DAY2 のご鑑賞ありがとうございました！本日の告知内容まとめはこちら！",
+        "first_seen_at": "2026-11-08T14:34:08.544Z",
+        "last_seen_at": "2026-11-08T14:34:08.544Z",
+        "changed_at": "2026-11-08T14:34:08.544Z",
+        "content_hash": "1a7ff65f1ce8b0092f0bac099244bbe5cb32f4e44fc2da5d4ba716a2cc3e2db1",
+        "related_event_ids": [],
+        "images": [],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "学园偶像大师「标」最终公演DAY2公告：2027年LaLaport五馆联动待公布详情",
+          "summary_zh": "DAY2演出结束后的公告汇总再次确认2027年LaLaport五馆联动，涉及TOKYO-BAY、丰洲、名古屋港明乐、甲子园和福冈；采用原创绘制插画，具体日期、场内地点、入场或预约安排尚未给出。与DAY1公告属于同一联动，不新增重复正式活动。其余内容主要为游戏、音乐发行和商品预订；这些发售及预订时间不作为线下活动日期。",
+          "source_hash": "b59de314c7a9a8859d5ab57f1c9d66da076c6e126f1b6434d70979e3dac673de",
+          "model": "source-reviewed",
+          "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已完整阅读并再次核对原文：仅确认LaLaport在2027年于五馆联动，缺逐馆日期及参加规则，继续待审核；与DAY1相同联动不重复建立活动。商品预订、音乐发行及游戏时间不当作现场日期，正文未说明附券，不推断购买要求。",
+          "rules": [
+            {
+              "title": "2027年五馆联动",
+              "text_zh": "LaLaport TOKYO-BAY、丰洲、名古屋港明乐、甲子园、福冈五馆将在2027年举办联动；原创插画相关企划筹备中，等待后续公告。尚无逐馆日期、场内地点、入场限制及预约轮次，不能认定无需预约。",
+              "evidence_ja": "学園アイドルマスター × 三井ショッピングパーク ららぽーと コラボ開催決定！\n学園アイドルマスターと三井ショッピングパーク ららぽーと とのコラボが、2027年に開催決定しました！\nららぽーとTOKYO-BAY、豊洲、名古屋みなとアクルス、甲子園、福岡の5施設にて開催となります。\nオリジナル描き下ろしイラストを使った様々な企画が進行中♪\n続報をお楽しみに！"
+            },
+            {
+              "title": "罗森商品预订不等于现场参加",
+              "text_zh": "罗森联动的「扮成炸鸡君迷你毛绒钥匙扣」将于11月10日开始预订。该段没有说明实体参加地点或入场规则，不据此创建线下活动或抽选附券商品。",
+              "evidence_ja": "「なりきる!? からあげクン ミニぬいキーホルダー」は11月10日からご予約開始です♪"
+            },
+            {
+              "title": "巡演影像与纪念商品",
+              "text_zh": "「标」巡演纪念官方商品和最终公演LIVE Blu-ray BOX开始接受订购。此公告没有写附带演唱会抽选券或版本对应关系，因此不生成附券商品记录。",
+              "evidence_ja": "学園アイドルマスター LIVE TOUR -標-\n開催記念公式グッズ受注スタート\n特設サイトはこちら！\n学園アイドルマスター LIVE TOUR -標- ファイナル公演\nLIVE Blu-ray BOX受注スタート！\nASOBI STOREはこちら！"
+            }
+          ]
+        }
+      },
       {
         "id": "97ebcc1904e05ceeaadc3c8b",
         "source_id": "bang-dream-live",
