@@ -1604,5 +1604,229 @@
       "unreadable": false,
       "rules": []
     }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6783",
+    "source_hash": "19c13d273f15846c460379be193a98979e1f0ee6179c49436ea3fbb04af0ef9f",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/qp6QxP4aYKiQa94s/UBBei1YMGpfvF0JB.jpeg",
+    "sha256": "e5f2df620988469117eaeae4ad8e321d74bb0ac848cfbed978fb54a0abc23466",
+    "reviewed_at": "2026-11-09T14:58:05.722Z",
+    "approved": true,
+    "reason": "已实际读取并复核虹咲珍宝珠主视觉；图中未见其他购买或参加规则，不将展示图视为抽选附券证据。",
+    "reading": {
+      "unreadable": false,
+      "rules": [
+        {
+          "kind": "其他",
+          "title": "店取预订、快闪与领取期分别标注",
+          "evidence_ja": "店頭受取期間は2027/01/25(月)まで",
+          "text_zh": "图示店取预订为2026年11月9日至15日、店头会期为2026年12月25日至2027年1月6日，店取领取截至2027年1月25日。已与正文核对；领取期限不是快闪结束日，不用图片单独推断入场报名。",
+          "uncertain": false
+        }
+      ]
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6791",
+    "source_hash": "094e49745a3c0a7a1db7a34819d6151c455dbe21bc77ecdde5c1ba154b613f1c",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/LvoGeFVolADuC1jd/SrYTpYUeCF4QKK6O.jpeg",
+    "sha256": "3aa1117d778a52c80468f41ee6c16ee53c7218be3cb2ff7f2a3f9dc5d918f56f",
+    "reviewed_at": "2026-11-09T14:58:05.726Z",
+    "approved": true,
+    "reason": "已实际读取并复核クッピーラムネ联动主视觉；图中未见其他购买或参加规则，不将展示图视为抽选附券证据。",
+    "reading": {
+      "unreadable": false,
+      "rules": [
+        {
+          "kind": "其他",
+          "title": "名古屋双会场",
+          "evidence_ja": "バンテリンドーム ナゴヤ／イオンモールナゴヤドーム前にてPremiumShop開催決定！",
+          "text_zh": "主视觉确认Vantelin Dome名古屋及永旺梦乐城名古屋巨蛋前两个销售点，没有入场预约或营业时间说明。",
+          "uncertain": false
+        }
+      ]
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6791",
+    "source_hash": "094e49745a3c0a7a1db7a34819d6151c455dbe21bc77ecdde5c1ba154b613f1c",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/6bpOeawk4nlmhhx2/VqVZutNMvcnw3MVp.jpeg",
+    "sha256": "2a67a1afe562dd5dc7078ba2caeaaab18f06fe6f1187c20a2b0b8cfaa8211517",
+    "reviewed_at": "2026-11-09T14:58:05.726Z",
+    "approved": true,
+    "reason": "已实际读取并复核クッピーラムネ品牌插画；图中未见其他购买或参加规则，不将展示图视为抽选附券证据。",
+    "reading": {
+      "unreadable": false,
+      "rules": []
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/JdhPl5XBaGa3pqpl/TmQyMpA0FSuneD06.jpeg",
+    "sha256": "4b40534c57a92f8d69bad8e29fc2d4cf44894122205baf33f95750c8dfdd9079",
+    "reviewed_at": "2026-11-09T14:58:05.728Z",
+    "approved": true,
+    "reason": "已实际读取并复核Liella心形立牌总览；图中未见其他购买或参加规则，不将展示图视为抽选附券证据。",
+    "reading": {
+      "unreadable": false,
+      "rules": []
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/vPIelzOhEt0XdkwC/dvvnxH9oxWvd7X8S.jpeg",
+    "sha256": "f944c8f2bbdb58f489cb1ae5e00ace6a182b08d68bfa32607822287de9a5f955",
+    "reviewed_at": "2026-11-09T14:58:05.728Z",
+    "approved": false,
+    "reason": "已实际读取香音礼盒示意：成员名称及商品展示可辨认，但留言卡正文在原始示意图中模糊，无法逐句翻译；保留未核实，不猜测内容。",
+    "reading": {
+      "unreadable": true,
+      "rules": []
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/CxFM55VqWLtoR6Df/KsD13KWAdoFAMLNQ.jpeg",
+    "sha256": "98305d864146e8b68216b74ae9a1169548897b44bc2ce51e736d680bfe6e2859",
+    "reviewed_at": "2026-11-09T14:58:05.728Z",
+    "approved": true,
+    "reason": "已实际读取并复核Liella礼盒包装；图中未见其他购买或参加规则，不将展示图视为抽选附券证据。",
+    "reading": {
+      "unreadable": false,
+      "rules": []
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/s1fjWPboAPwtcX5h/ZM7RrigJkXnVtN9N.jpeg",
+    "sha256": "0b08d32548a403bd53f73d28c89e1bcbd33e8052f6c291c75ae44a78c281c17c",
+    "reviewed_at": "2026-11-09T14:58:05.729Z",
+    "approved": false,
+    "reason": "已实际读取可可礼盒示意：成员名称及商品展示可辨认，但留言卡正文在原始示意图中模糊，无法逐句翻译；保留未核实，不猜测内容。",
+    "reading": {
+      "unreadable": true,
+      "rules": []
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/PI9aJOozxN3iAboe/3yo1BD6EL8fdyhhT.jpeg",
+    "sha256": "62d4b049ac478bc28fcb1c5b2a98c48fc17dd6c790d0d46cfb41141b3c14237b",
+    "reviewed_at": "2026-11-09T14:58:05.729Z",
+    "approved": false,
+    "reason": "已实际读取千砂都礼盒示意：成员名称及商品展示可辨认，但留言卡正文在原始示意图中模糊，无法逐句翻译；保留未核实，不猜测内容。",
+    "reading": {
+      "unreadable": true,
+      "rules": []
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/9Wxi5nY1J2iF8zFn/pVKYaPWcnQGmpXqv.jpeg",
+    "sha256": "9419f20aa3345d6d42cfab4efd65a65791e98beebf82878a45651d598f9a9ac3",
+    "reviewed_at": "2026-11-09T14:58:05.729Z",
+    "approved": false,
+    "reason": "已实际读取堇礼盒示意：成员名称及商品展示可辨认，但留言卡正文在原始示意图中模糊，无法逐句翻译；保留未核实，不猜测内容。",
+    "reading": {
+      "unreadable": true,
+      "rules": []
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/WfPTtuKHd9yLmSPp/3457VdePXE8bjotG.jpeg",
+    "sha256": "4f3ca4b880c0a732d0da16609b8ae705909415057b1b6df84b073f0647f33442",
+    "reviewed_at": "2026-11-09T14:58:05.730Z",
+    "approved": false,
+    "reason": "已实际读取恋礼盒示意：成员名称及商品展示可辨认，但留言卡正文在原始示意图中模糊，无法逐句翻译；保留未核实，不猜测内容。",
+    "reading": {
+      "unreadable": true,
+      "rules": []
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/xFFKNu3IvqISV7W2/gMm6vj4XSVhtpags.jpeg",
+    "sha256": "57770e6c4b79ce455582250cced7459d0c77b4fc60eb6cbe4be61543aac3aae8",
+    "reviewed_at": "2026-11-09T14:58:05.730Z",
+    "approved": false,
+    "reason": "已实际读取希奈子礼盒示意：成员名称及商品展示可辨认，但留言卡正文在原始示意图中模糊，无法逐句翻译；保留未核实，不猜测内容。",
+    "reading": {
+      "unreadable": true,
+      "rules": []
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/cpWsPPFAyiMw92XA/T2wIQz7bdas8mydK.jpeg",
+    "sha256": "4dfa8fa5b23f066b073dc33229a61a5f538f017169711f1b986616c683cb8d9a",
+    "reviewed_at": "2026-11-09T14:58:05.730Z",
+    "approved": false,
+    "reason": "已实际读取芽衣礼盒示意：成员名称及商品展示可辨认，但留言卡正文在原始示意图中模糊，无法逐句翻译；保留未核实，不猜测内容。",
+    "reading": {
+      "unreadable": true,
+      "rules": []
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/s1A5XKZJRuxURUyT/8Y7VRskIc5gnGmS9.jpeg",
+    "sha256": "50fe83f34b6e04776dd9b041156c447ea318997f201c32e46fdf37e9a3119b74",
+    "reviewed_at": "2026-11-09T14:58:05.731Z",
+    "approved": false,
+    "reason": "已实际读取四季礼盒示意：成员名称及商品展示可辨认，但留言卡正文在原始示意图中模糊，无法逐句翻译；保留未核实，不猜测内容。",
+    "reading": {
+      "unreadable": true,
+      "rules": []
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/8oxruLUw21DtIs5c/3F7iAgfXadTzqBPh.jpeg",
+    "sha256": "9cfc7449e8049f00e606230f3021f370e16d1c247075c76b202ba2e75871d373",
+    "reviewed_at": "2026-11-09T14:58:05.731Z",
+    "approved": false,
+    "reason": "已实际读取夏美礼盒示意：成员名称及商品展示可辨认，但留言卡正文在原始示意图中模糊，无法逐句翻译；保留未核实，不猜测内容。",
+    "reading": {
+      "unreadable": true,
+      "rules": []
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/IylDF5PpbSfzibbC/4Pkj1BviNtoF1UVW.jpeg",
+    "sha256": "dda02c8fb0300e362971159991e573ba357a92b023a0d1bfa1ae60e87c1e07e9",
+    "reviewed_at": "2026-11-09T14:58:05.731Z",
+    "approved": false,
+    "reason": "已实际读取玛格丽特礼盒示意：成员名称及商品展示可辨认，但留言卡正文在原始示意图中模糊，无法逐句翻译；保留未核实，不猜测内容。",
+    "reading": {
+      "unreadable": true,
+      "rules": []
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/YlxCh3Gev3mBpCRi/CBSglfVU3IKRRtnW.jpeg",
+    "sha256": "3bf309cea72ff587fcccc63149b645a52f0280ee16016025e2505c46478977f3",
+    "reviewed_at": "2026-11-09T14:58:05.732Z",
+    "approved": false,
+    "reason": "已实际读取冬毬礼盒示意：成员名称及商品展示可辨认，但留言卡正文在原始示意图中模糊，无法逐句翻译；保留未核实，不猜测内容。",
+    "reading": {
+      "unreadable": true,
+      "rules": []
+    }
   }
 ]

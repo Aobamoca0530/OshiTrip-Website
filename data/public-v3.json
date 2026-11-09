@@ -1,7 +1,7 @@
 {
   "formatVersion": 3,
-  "revision": "a51502531113e04a3110ab66f25ddf2517841d2bb62966664a5dbbd32300ab88",
-  "publishedAt": "2026-11-09T14:27:19.480Z",
+  "revision": "7b623dd80f2a53b05759eb146322094fc32612ff61972b18a4e39edcd98e8e8a",
+  "publishedAt": "2026-11-09T14:58:12.860Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -14128,7 +14128,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             },
             {
               "id": "auto-a4047cd6c06d1a1f-rule-1",
@@ -14139,7 +14139,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             },
             {
               "id": "auto-a4047cd6c06d1a1f-rule-2",
@@ -14150,7 +14150,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             },
             {
               "id": "auto-a4047cd6c06d1a1f-rule-3",
@@ -14161,7 +14161,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             },
             {
               "id": "auto-a4047cd6c06d1a1f-rule-4",
@@ -14172,7 +14172,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             }
           ],
           "fees": null,
@@ -14181,8 +14181,8 @@
             "本文未列现场预约方式、持票要求或限购，请查主办方后续通知。"
           ],
           "status": "published",
-          "verified_at": "2026-11-06T14:50:27.409Z",
-          "updated_at": "2026-11-06T14:50:27.409Z",
+          "verified_at": "2026-11-09T14:55:06.193Z",
+          "updated_at": "2026-11-09T14:55:06.193Z",
           "franchise_ids": [
             "idolmaster",
             "gakuen-idolmaster"
@@ -14218,7 +14218,7 @@
               "id": "auto-a4047cd6c06d1a1f-source",
               "url": "https://idolmaster-official.jp/news/01_20274",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-11-06T14:50:27.409Z"
+              "checked_at": "2026-11-09T14:55:06.193Z"
             }
           ]
         },
@@ -21106,7 +21106,7 @@
         "source_url": "https://idolmaster-official.jp/news/01_20238",
         "title": "【学マス標ツアー】学園アイドルマスター LIVE TOUR -標- ファイナル公演 DAY2 のご鑑賞ありがとうございました！本日の告知内容まとめはこちら！",
         "first_seen_at": "2026-11-08T14:34:08.544Z",
-        "last_seen_at": "2026-11-08T14:34:08.544Z",
+        "last_seen_at": "2026-11-09T14:55:06.193Z",
         "changed_at": "2026-11-08T14:34:08.544Z",
         "content_hash": "1a7ff65f1ce8b0092f0bac099244bbe5cb32f4e44fc2da5d4ba716a2cc3e2db1",
         "related_event_ids": [],
@@ -21267,7 +21267,7 @@
         "source_url": "https://idolmaster-official.jp/news/01_20322",
         "title": "【学マス】スチームパンクテーマの新作グッズ ～Gearbeat Concerto～ 発売決定！日本・中国にて本グッズのポップアップストアを同時開催♪",
         "first_seen_at": "2026-11-07T14:04:00.169Z",
-        "last_seen_at": "2026-11-07T14:04:00.169Z",
+        "last_seen_at": "2026-11-09T14:55:06.193Z",
         "changed_at": "2026-11-07T14:04:00.169Z",
         "content_hash": "205482a6d524288ad28a451363c0ecb7d923b894f49c1b7d4fcc56f23d2676fa",
         "related_event_ids": [],
@@ -21326,7 +21326,7 @@
         "source_url": "https://idolmaster-official.jp/news/01_20235",
         "title": "【学マス標ツアー】学園アイドルマスター LIVE TOUR -標- ファイナル公演 DAY1 のご鑑賞ありがとうございました！本日の告知内容まとめはこちら！",
         "first_seen_at": "2026-11-07T14:04:00.169Z",
-        "last_seen_at": "2026-11-07T14:04:00.169Z",
+        "last_seen_at": "2026-11-09T14:55:06.193Z",
         "changed_at": "2026-11-07T14:04:00.169Z",
         "content_hash": "992c4c33044c87bc42a8e0ffb818243245ab9eb0f33ced40a25f2d1013008910",
         "related_event_ids": [],
@@ -21557,7 +21557,7 @@
         "source_url": "https://idolmaster-official.jp/news/01_20274",
         "title": "【学マス】学園アイドルマスター LIVE TOUR -標- ファイナル公演はいよいよ明日から！ Kアリーナ横浜にて開催！",
         "first_seen_at": "2026-11-06T14:50:27.409Z",
-        "last_seen_at": "2026-11-06T14:50:27.409Z",
+        "last_seen_at": "2026-11-09T14:55:06.193Z",
         "changed_at": "2026-11-06T14:50:27.409Z",
         "content_hash": "fbf597bec2ff6fbf219eca134f210af2f0f979d16f2a5977bcbd5bba0f7755f1",
         "related_event_ids": [

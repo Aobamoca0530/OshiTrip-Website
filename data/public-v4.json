@@ -1,7 +1,7 @@
 {
   "formatVersion": 4,
-  "revision": "7f4f562c590cade963e93198522b3ec877c9303bd5c96099a2294805cf07fd37",
-  "publishedAt": "2026-11-09T14:27:19.480Z",
+  "revision": "40c364e3f62f3edc92b39349abaa7f44400677cde65dbbe0197f350c49c2fd80",
+  "publishedAt": "2026-11-09T14:58:12.860Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -14128,7 +14128,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             },
             {
               "id": "auto-a4047cd6c06d1a1f-rule-1",
@@ -14139,7 +14139,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             },
             {
               "id": "auto-a4047cd6c06d1a1f-rule-2",
@@ -14150,7 +14150,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             },
             {
               "id": "auto-a4047cd6c06d1a1f-rule-3",
@@ -14161,7 +14161,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             },
             {
               "id": "auto-a4047cd6c06d1a1f-rule-4",
@@ -14172,7 +14172,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             }
           ],
           "fees": null,
@@ -14181,8 +14181,8 @@
             "本文未列现场预约方式、持票要求或限购，请查主办方后续通知。"
           ],
           "status": "published",
-          "verified_at": "2026-11-06T14:50:27.409Z",
-          "updated_at": "2026-11-06T14:50:27.409Z",
+          "verified_at": "2026-11-09T14:55:06.193Z",
+          "updated_at": "2026-11-09T14:55:06.193Z",
           "franchise_ids": [
             "idolmaster",
             "gakuen-idolmaster"
@@ -14218,7 +14218,7 @@
               "id": "auto-a4047cd6c06d1a1f-source",
               "url": "https://idolmaster-official.jp/news/01_20274",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-11-06T14:50:27.409Z"
+              "checked_at": "2026-11-09T14:55:06.193Z"
             }
           ]
         },
@@ -21106,7 +21106,7 @@
         "source_url": "https://idolmaster-official.jp/news/01_20238",
         "title": "【学マス標ツアー】学園アイドルマスター LIVE TOUR -標- ファイナル公演 DAY2 のご鑑賞ありがとうございました！本日の告知内容まとめはこちら！",
         "first_seen_at": "2026-11-08T14:34:08.544Z",
-        "last_seen_at": "2026-11-08T14:34:08.544Z",
+        "last_seen_at": "2026-11-09T14:55:06.193Z",
         "changed_at": "2026-11-08T14:34:08.544Z",
         "content_hash": "1a7ff65f1ce8b0092f0bac099244bbe5cb32f4e44fc2da5d4ba716a2cc3e2db1",
         "related_event_ids": [],
@@ -21267,7 +21267,7 @@
         "source_url": "https://idolmaster-official.jp/news/01_20322",
         "title": "【学マス】スチームパンクテーマの新作グッズ ～Gearbeat Concerto～ 発売決定！日本・中国にて本グッズのポップアップストアを同時開催♪",
         "first_seen_at": "2026-11-07T14:04:00.169Z",
-        "last_seen_at": "2026-11-07T14:04:00.169Z",
+        "last_seen_at": "2026-11-09T14:55:06.193Z",
         "changed_at": "2026-11-07T14:04:00.169Z",
         "content_hash": "205482a6d524288ad28a451363c0ecb7d923b894f49c1b7d4fcc56f23d2676fa",
         "related_event_ids": [],
@@ -21326,7 +21326,7 @@
         "source_url": "https://idolmaster-official.jp/news/01_20235",
         "title": "【学マス標ツアー】学園アイドルマスター LIVE TOUR -標- ファイナル公演 DAY1 のご鑑賞ありがとうございました！本日の告知内容まとめはこちら！",
         "first_seen_at": "2026-11-07T14:04:00.169Z",
-        "last_seen_at": "2026-11-07T14:04:00.169Z",
+        "last_seen_at": "2026-11-09T14:55:06.193Z",
         "changed_at": "2026-11-07T14:04:00.169Z",
         "content_hash": "992c4c33044c87bc42a8e0ffb818243245ab9eb0f33ced40a25f2d1013008910",
         "related_event_ids": [],
@@ -21557,7 +21557,7 @@
         "source_url": "https://idolmaster-official.jp/news/01_20274",
         "title": "【学マス】学園アイドルマスター LIVE TOUR -標- ファイナル公演はいよいよ明日から！ Kアリーナ横浜にて開催！",
         "first_seen_at": "2026-11-06T14:50:27.409Z",
-        "last_seen_at": "2026-11-06T14:50:27.409Z",
+        "last_seen_at": "2026-11-09T14:55:06.193Z",
         "changed_at": "2026-11-06T14:50:27.409Z",
         "content_hash": "fbf597bec2ff6fbf219eca134f210af2f0f979d16f2a5977bcbd5bba0f7755f1",
         "related_event_ids": [
@@ -29448,7 +29448,7 @@
       }
     ],
     "monitoring": {
-      "checked_at": "2026-11-09T14:21:29.990Z",
+      "checked_at": "2026-11-09T14:55:06.193Z",
       "sources": [
         {
           "id": "bang-dream-live",
@@ -29662,26 +29662,20 @@
           "id": "gakuen-idolmaster-portal",
           "name": "学园偶像大师 · 综合门户新闻",
           "url": "https://idolmaster-official.jp/news?page_index=1",
-          "state": "failed",
-          "last_attempt_at": "2026-11-09T14:21:29.990Z",
-          "last_success_at": "2026-11-08T14:34:08.544Z",
-          "pages": 0,
-          "discovered": 0,
+          "state": "success",
+          "last_attempt_at": "2026-11-09T14:55:06.193Z",
+          "last_success_at": "2026-11-09T14:55:06.193Z",
+          "pages": 12,
+          "discovered": 12,
           "deferred": 0,
-          "retained": 6,
-          "issues": [
-            "读取或解析失败，详细诊断保留在维护报告中。"
-          ]
+          "retained": 2,
+          "issues": []
         }
       ],
       "unread_announcement_ids": [
-        "24623a7ff0f1f2216c247974",
         "97ebcc1904e05ceeaadc3c8b",
-        "a447a8a4834657f3f4b80c1c",
-        "cd253c3e90d11e6b26970866",
         "1c624082c33b649c8b8ffd8f",
         "320d0e1c2e4b9dace6d51a0a",
-        "a4047cd6c06d1a1fdc013003",
         "34c32074e759e14aaf4b918c",
         "88df7796c9855181a61864d5",
         "9460e5aab33ea832d78b1290",

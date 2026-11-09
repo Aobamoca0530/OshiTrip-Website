@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "revision": "dd912c4e38b86e8c423cb07c0f919e4160e63942a7deab7ce249918b8f6ef336",
-  "publishedAt": "2026-11-07T16:15:49.632Z",
+  "revision": "e8f1f820c9a84f54e58095cd20b6923a7f7daf42a7b1f017453e087e7f853a24",
+  "publishedAt": "2026-11-09T14:58:12.860Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -14128,7 +14128,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             },
             {
               "id": "auto-a4047cd6c06d1a1f-rule-1",
@@ -14139,7 +14139,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             },
             {
               "id": "auto-a4047cd6c06d1a1f-rule-2",
@@ -14150,7 +14150,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             },
             {
               "id": "auto-a4047cd6c06d1a1f-rule-3",
@@ -14161,7 +14161,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             },
             {
               "id": "auto-a4047cd6c06d1a1f-rule-4",
@@ -14172,7 +14172,7 @@
               "source_url": "https://idolmaster-official.jp/news/01_20274",
               "image_url": null,
               "image_sha256": null,
-              "checked_on": "2026-11-06"
+              "checked_on": "2026-11-09"
             }
           ],
           "fees": null,
@@ -14181,8 +14181,8 @@
             "本文未列现场预约方式、持票要求或限购，请查主办方后续通知。"
           ],
           "status": "published",
-          "verified_at": "2026-11-06T14:50:27.409Z",
-          "updated_at": "2026-11-06T14:50:27.409Z",
+          "verified_at": "2026-11-09T14:55:06.193Z",
+          "updated_at": "2026-11-09T14:55:06.193Z",
           "franchise_ids": [
             "idolmaster",
             "gakuen-idolmaster"
@@ -14218,7 +14218,7 @@
               "id": "auto-a4047cd6c06d1a1f-source",
               "url": "https://idolmaster-official.jp/news/01_20274",
               "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-11-06T14:50:27.409Z"
+              "checked_at": "2026-11-09T14:55:06.193Z"
             }
           ]
         },

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-09T14:21:29.990Z",
+  "checked_at": "2026-11-09T14:55:06.193Z",
   "sources": [
     {
       "id": "bang-dream-live",
@@ -213,26 +213,20 @@
       "id": "gakuen-idolmaster-portal",
       "name": "学园偶像大师 · 综合门户新闻",
       "url": "https://idolmaster-official.jp/news?page_index=1",
-      "state": "failed",
-      "last_attempt_at": "2026-11-09T14:21:29.990Z",
-      "last_success_at": "2026-11-08T14:34:08.544Z",
-      "pages": 0,
-      "discovered": 0,
+      "state": "success",
+      "last_attempt_at": "2026-11-09T14:55:06.193Z",
+      "last_success_at": "2026-11-09T14:55:06.193Z",
+      "pages": 12,
+      "discovered": 12,
       "deferred": 0,
-      "retained": 6,
-      "issues": [
-        "读取或解析失败，详细诊断保留在维护报告中。"
-      ]
+      "retained": 2,
+      "issues": []
     }
   ],
   "unread_announcement_ids": [
-    "24623a7ff0f1f2216c247974",
     "97ebcc1904e05ceeaadc3c8b",
-    "a447a8a4834657f3f4b80c1c",
-    "cd253c3e90d11e6b26970866",
     "1c624082c33b649c8b8ffd8f",
     "320d0e1c2e4b9dace6d51a0a",
-    "a4047cd6c06d1a1fdc013003",
     "34c32074e759e14aaf4b918c",
     "88df7796c9855181a61864d5",
     "9460e5aab33ea832d78b1290",
