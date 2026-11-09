@@ -1445,5 +1445,164 @@
       ],
       "unreadable": false
     }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6783",
+    "source_hash": "19c13d273f15846c460379be193a98979e1f0ee6179c49436ea3fbb04af0ef9f",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/I3JPJiKoHzucoGqz/aSu8kYDr08BudRKJ.jpeg",
+    "sha256": "b5878def8f3d9340c2bd045107ea6bb980c3091b7fd6aa162d014bbf9cd4574f",
+    "reviewed_at": "2026-11-09T14:27:12.620Z",
+    "approved": true,
+    "reason": "已实际读取原图并独立对照文字、价格与限制；不将图片单独用于活动日期或入场时刻。",
+    "reading": {
+      "unreadable": false,
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "商品价格（含税）",
+          "evidence_ja": "ハート型缶バッジ",
+          "text_zh": "心形徽章单个605日元、全套7,865日元；亚克力卡单个690、全套8,970；立牌各1,980；连接钥匙扣各1,320；极光透明包1,980；迷你立牌单个990，套装1为6,930、套装2为5,940日元。图为示意，实物可能不同。",
+          "uncertain": false
+        }
+      ]
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6783",
+    "source_hash": "19c13d273f15846c460379be193a98979e1f0ee6179c49436ea3fbb04af0ef9f",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/TC6i9SnfvqDDpQnE/Jg7GdatCP81uYOLo.jpeg",
+    "sha256": "6cdc4ba142146251820eb8e41ff9996cee908c095890332a4d662ae4c33c5eab",
+    "reviewed_at": "2026-11-09T14:27:12.625Z",
+    "approved": true,
+    "reason": "已实际读取原图并独立对照文字、价格与限制；不将图片单独用于活动日期或入场时刻。",
+    "reading": {
+      "unreadable": false,
+      "rules": [
+        {
+          "kind": "预约",
+          "title": "店取支付与领取",
+          "evidence_ja": "お支払い期限 11月15日［日］23:59まで",
+          "text_zh": "图示店取预订为11月9日至15日，付款截至11月15日23:59，支持信用卡、银行汇款、便利店支付、Paidy。12月25日起仅在门店营业时间内领取；应查店铺官网或X及对应商品页，确认营业时间、领取期限和所需物品。本图不作为活动日期或入场报名时刻依据。",
+          "uncertain": false
+        }
+      ]
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6783",
+    "source_hash": "19c13d273f15846c460379be193a98979e1f0ee6179c49436ea3fbb04af0ef9f",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/lhznAkrGQSsutufa/mX8oz46ejsazjqg0.jpeg",
+    "sha256": "974812b8006f3faaf84701fc921f9064ea66b5e62fed1ab2d066e077ade2c2f4",
+    "reviewed_at": "2026-11-09T14:27:12.626Z",
+    "approved": true,
+    "reason": "已实际读取原图并独立对照文字、价格与限制；不将图片单独用于活动日期或入场时刻。",
+    "reading": {
+      "unreadable": false,
+      "rules": [
+        {
+          "kind": "特典",
+          "title": "仅新品计入特典",
+          "evidence_ja": "新商品のみを2,200円(税込)お買い上げごとに",
+          "text_zh": "仅新品金额计算：每满2,200日元随机赠13种插画卡之一；满2,200日元随机赠糖果1个。不同订单金额不合并，店取预订适用，图案及口味不能选，现场送完即止。",
+          "uncertain": false
+        }
+      ]
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6791",
+    "source_hash": "094e49745a3c0a7a1db7a34819d6151c455dbe21bc77ecdde5c1ba154b613f1c",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/SoSGkQbVOPtr7paT/RzuSpHcBeK8DSbXD.jpeg",
+    "sha256": "83f4669aa3f7a915b8f09bfa87d4099419b317f19446596599f869e6d2fe12c4",
+    "reviewed_at": "2026-11-09T14:27:12.626Z",
+    "approved": true,
+    "reason": "已实际读取原图并独立对照文字、价格与限制；不将图片单独用于活动日期或入场时刻。",
+    "reading": {
+      "unreadable": false,
+      "rules": [
+        {
+          "kind": "其他",
+          "title": "双会场主视觉",
+          "evidence_ja": "バンテリンドーム ナゴヤ／イオンモールナゴヤドーム前にてPremiumShop開催決定！",
+          "text_zh": "图示确认PremiumShop在Vantelin Dome名古屋和永旺梦乐城名古屋巨蛋前举行；主视觉没有给出入场办法。",
+          "uncertain": false
+        }
+      ]
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6791",
+    "source_hash": "094e49745a3c0a7a1db7a34819d6151c455dbe21bc77ecdde5c1ba154b613f1c",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/YpCGGFAuIF7ouJjs/fmx6eIOFGWllBSdd.jpeg",
+    "sha256": "c2fe737d45961178106120f9e7aa6edce1878f1d22d0e42d7138985ab900505b",
+    "reviewed_at": "2026-11-09T14:27:12.627Z",
+    "approved": true,
+    "reason": "已实际读取原图并独立对照文字、价格与限制；不将图片单独用于活动日期或入场时刻。",
+    "reading": {
+      "unreadable": false,
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "购买数量限制",
+          "evidence_ja": "オープン：各3つまで（1メンバーにつき3つ）",
+          "text_zh": "可选款各最多3件（每成员3件）；随机款各最多15个；套装各最多2套；扭蛋有后续顾客等待时每人最多3次。限制可能按现场情况解除或变更。",
+          "uncertain": false
+        },
+        {
+          "kind": "购买",
+          "title": "商品含税价格",
+          "evidence_ja": "グッズラインナップ",
+          "text_zh": "磁铁扭蛋400日元，网购限定全套5,200；方形徽章550/全套3,300；拍立得风卡每包2张550/全套3,300；极光钥匙扣770/全套4,620；文件夹440；立牌1,760；摇摇钥匙扣990；铁盒贴纸1,980；场景立牌3,850；含3颗汽水糖束口袋1,980；手巾1,100；橡胶垫3,300日元。",
+          "uncertain": false
+        }
+      ]
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6791",
+    "source_hash": "094e49745a3c0a7a1db7a34819d6151c455dbe21bc77ecdde5c1ba154b613f1c",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/2zWBeEvQiaxRIQog/ozMuNEeQ9pvzLjVr.jpeg",
+    "sha256": "6b3751312eed448efe6757b0ec390e3a395cecda4020b7727e2e940156e55e73",
+    "reviewed_at": "2026-11-09T14:27:12.628Z",
+    "approved": true,
+    "reason": "已实际读取原图并独立对照文字、价格与限制；不将图片单独用于活动日期或入场时刻。",
+    "reading": {
+      "unreadable": false,
+      "rules": [
+        {
+          "kind": "特典",
+          "title": "店头及网购特典款式",
+          "evidence_ja": "店舗購入特典 全員集合ステッカー",
+          "text_zh": "两处现场销售点均赠全员集合贴纸，尺寸H55×86mm；网购赠全员集合照片卡，尺寸H127×89mm。金额门槛由正文另行核对。",
+          "uncertain": false
+        }
+      ]
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/1KrrDXeVQnnkeD4M/CM809WgBi7XiTvPl.jpeg",
+    "sha256": "3b586665982d5b3d689f6e1d3c69a44419293fc9b5ce9081aa366a73d7883c63",
+    "reviewed_at": "2026-11-09T14:27:12.629Z",
+    "approved": false,
+    "reason": "已看原图：礼盒总览，卡片上的留言文字被模糊化，无法逐句辨认；不认定全部图文审核通过。",
+    "reading": {
+      "unreadable": true,
+      "rules": []
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+    "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/WOeaR2bdnWHHvJw6/arEarvcyngFwPmT1.jpeg",
+    "sha256": "e91b402e38aa86889563a79b6de8504d399f96f2a3b3aec77d6e0550a1ec9845",
+    "reviewed_at": "2026-11-09T14:27:12.629Z",
+    "approved": true,
+    "reason": "已读取原图并复核：饼干展示照片，无参加、价格或预约文字。",
+    "reading": {
+      "unreadable": false,
+      "rules": []
+    }
   }
 ]

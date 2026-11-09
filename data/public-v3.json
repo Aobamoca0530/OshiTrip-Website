@@ -1,7 +1,7 @@
 {
   "formatVersion": 3,
-  "revision": "b59ae4eaa301ce85b6e24c13406e6abbbd11f08358f4fdfab650070831d889ac",
-  "publishedAt": "2026-11-08T14:37:59.751Z",
+  "revision": "a51502531113e04a3110ab66f25ddf2517841d2bb62966664a5dbbd32300ab88",
+  "publishedAt": "2026-11-09T14:27:19.480Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -20860,6 +20860,246 @@
       }
     ],
     "announcements": [
+      {
+        "id": "67f9299edc54ad47e9153bc1",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6791",
+        "title": "「クッピーラムネ」と「ラブライブ！シリーズ」のコラボレーション 商品情報＆購入特典のお知らせ",
+        "first_seen_at": "2026-11-09T14:21:29.990Z",
+        "last_seen_at": "2026-11-09T14:21:29.990Z",
+        "changed_at": "2026-11-09T14:21:29.990Z",
+        "content_hash": "f209ddec5b7b4bdfaf474c6f9c8053d72b8e64e8d96882bbae62778d67fae7ae",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/LvoGeFVolADuC1jd/SrYTpYUeCF4QKK6O.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/SoSGkQbVOPtr7paT/RzuSpHcBeK8DSbXD.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/YpCGGFAuIF7ouJjs/fmx6eIOFGWllBSdd.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/2zWBeEvQiaxRIQog/ozMuNEeQ9pvzLjVr.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/6bpOeawk4nlmhhx2/VqVZutNMvcnw3MVp.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "Love Live!×クッピーラムネ：名古屋双会场商品与购物特典",
+          "summary_zh": "公布名古屋两处销售点及不同的店头、网购特典。永旺梦乐城名古屋巨蛋前11月13日至16日10:00—21:00；Vantelin Dome名古屋北停车场11月14日9:30—约21:00、15日9:30—约20:00（均日本时间）。两地商品不同，本文没有明确入场预约规则。",
+          "source_hash": "094e49745a3c0a7a1db7a34819d6151c455dbe21bc77ecdde5c1ba154b613f1c",
+          "model": "source-reviewed",
+          "reason": "复核仍标记有未确定信息；多场馆尚未逐站核对参与方式，暂不用于行程匹配；正文翻译后独立逐项核对日期、地点、特典门槛、会期与领取期。没有明确入场安排，不写成无需预约，暂保留待审核。",
+          "rules": [
+            {
+              "title": "两会场销售与时段",
+              "text_zh": "公布名古屋两处销售点及不同的店头、网购特典。永旺梦乐城名古屋巨蛋前11月13日至16日10:00—21:00；Vantelin Dome名古屋北停车场11月14日9:30—约21:00、15日9:30—约20:00（均日本时间）。两地商品不同，本文没有明确入场预约规则。",
+              "evidence_ja": "▼販売場所情報\nラブライブ！シリーズ PremiumShop\n◆イオンモールナゴヤドーム前\n開催場所：〒461-0048 愛知県名古屋市東区矢田南4丁目102番3号\nイオンモールナゴヤドーム前2階フードコート横ブリッジ\nイオンモールナゴヤドーム前 HP： https://www.aeon.jp/sc/nagoyadomemae/\n開催期間：2026年11月13日(金)～11月16日(月)\n営業時間：10:00～21:00\n◆バンテリンドーム ナゴヤ\n開催場所：〒461-0047 愛知県名古屋市東区大幸南1丁目1番1号\nバンテリンドーム ナゴヤ 北駐車場\nバンテリンドーム ナゴヤ HP： https://www.nagoya-dome.co.jp/\n開催期間：2026年11月14日(土)・15日(日)\n営業時間：\n11月14日(土)：9:30～21:00頃\n11月15日(日)：9:30～20:00頃"
+            },
+            {
+              "title": "店头与网购特典",
+              "text_zh": "店头：含新品（不含扭蛋）消费满3,300日元，每笔送1张原创贴纸（1种）。网购：订单包含本联动对象商品且满3,300日元，每笔送1张原创照片卡（1种）。不是每满3,300日元就递增特典；两种特典不同。",
+              "evidence_ja": "購入特典\n・店舗購入特典\nPremiumShop店舗にて、新商品(カプセルトイを除く)を含む3,300円(税込)以上をご購入いただいたお客様に、1会計につき1枚オリジナルステッカー(1種)をお渡しいたします。\n・通販購入特典\n通販サイトにて、対象商品(ラブライブ！シリーズ×クッピーラムネ)を含む3,300円(税込)以上をご注文いただいたお客様に、1会計につき1枚オリジナルブロマイド(1種)をお付けいたします。"
+            },
+            {
+              "title": "商品差异与网购",
+              "text_zh": "两会场经销商品不同，以PremiumShop官网说明为准；网购于11月9日17时开始预订，这不是现场入场预约。",
+              "evidence_ja": "通販サイト＜PremiumShop Online＞では 11月9日(月)17 時よりご予約を開始いたしますので、会場にお越しいただくことが難しい方は、ぜひご利用ください。\n新商品\nイオンモール ナゴヤドーム前とバンテリンドーム ナゴヤではお取り扱いの商品が異なりますので、\n詳しくはPremiumShop HP： https://premiumshop.tokyo/lovelive-2611/ をご覧ください。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a86ac7299ac07946c73d4342",
+        "source_id": "liella-official",
+        "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+        "title": "『ラブライブ！スーパースター!!』Liella!が選んだバレンタインのチョコサンドクッキーが予約開始＆2027年バレンタインPOP UP SHOPの開催が決定！",
+        "first_seen_at": "2026-11-09T14:21:29.990Z",
+        "last_seen_at": "2026-11-09T14:21:29.990Z",
+        "changed_at": "2026-11-09T14:21:29.990Z",
+        "content_hash": "069dbc1dd7ff51cf70f750d523df71769ff44c7b732f0c7d22954c328753dd7e",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/1KrrDXeVQnnkeD4M/CM809WgBi7XiTvPl.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/WOeaR2bdnWHHvJw6/arEarvcyngFwPmT1.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/JdhPl5XBaGa3pqpl/TmQyMpA0FSuneD06.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/vPIelzOhEt0XdkwC/dvvnxH9oxWvd7X8S.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/CxFM55VqWLtoR6Df/KsD13KWAdoFAMLNQ.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/s1fjWPboAPwtcX5h/ZM7RrigJkXnVtN9N.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/PI9aJOozxN3iAboe/3yo1BD6EL8fdyhhT.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/9Wxi5nY1J2iF8zFn/pVKYaPWcnQGmpXqv.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/WfPTtuKHd9yLmSPp/3457VdePXE8bjotG.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/xFFKNu3IvqISV7W2/gMm6vj4XSVhtpags.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/cpWsPPFAyiMw92XA/T2wIQz7bdas8mydK.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/s1A5XKZJRuxURUyT/8Y7VRskIc5gnGmS9.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/8oxruLUw21DtIs5c/3F7iAgfXadTzqBPh.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/IylDF5PpbSfzibbC/4Pkj1BviNtoF1UVW.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/YlxCh3Gev3mBpCRi/CBSglfVU3IKRRtnW.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "Liella! 2027情人节有乐町快闪与巧克力饼干礼盒预订",
+          "summary_zh": "宣布2027年2月5日至23日在有乐町丸井8F举办情人节POP UP SHOP，入场方式及营业时间待后续。11款礼盒各3,850日元，线上预订截至2026年11月29日23:59，预计2027年2月上旬发售配送，快闪少量先行销售。正文对2月5日同时标注周五和周六，须确认后再正式发布。",
+          "source_hash": "db15805144dac86efd8f1ab992b0c67f85214ae0da9113c291dbcfcb02a72e7b",
+          "model": "source-reviewed",
+          "reason": "复核仍标记有未确定信息，暂不用于行程匹配；正文翻译后独立复核：2月5日星期标注冲突，入场规则未公布，暂不正式发布。重复的角色商品链接不认定为SKU证据。",
+          "rules": [
+            {
+              "title": "快闪地点与会期",
+              "text_zh": "有乐町丸井8F；主段写2027年2月5日（周五）至2月23日（周二・节假日）。现场礼盒数量限定，详情后续公布；文末另写2月5日（周六），存在星期冲突，保留待核。",
+              "evidence_ja": "さらに2025年・2026年に引き続き、2027年もバレンタインを記念して「ラブライブ！スーパースター!!」POP UP SHOPの開催が決定！\nお菓子セットにも使用されている2C＝がろあ先生描き下ろしのイラストを使用したグッズを販売予定です。イベントの詳細については後日お知らせいたしますのでお楽しみに♪\n「LoveLive!Days」presents 『ラブライブ！スーパースター!!』Valentine 2027 POP UP SHOP in有楽町マルイ\n■開催期間：2027年2月5日(金)～2月23日(火・祝)\n■開催場所：有楽町マルイ8F\n※『ラブライブ！スーパースター!!』Liella!’s Valentine 2027 お菓子セット (全11種)も数量限定でPOP UP SHOP店頭にて先行販売予定です。確実に手に入れるには【11月29日(日)23:59】までのご予約をおすすめいたします。\n※諸般の事情により、イベント情報は予告なく変更になる場合がございます。"
+            },
+            {
+              "title": "预订价格与交付",
+              "text_zh": "全11款礼盒各3,850日元（含税）；预订至2026年11月29日23:59，发售后依序配送；2027年2月上旬预计发售，2月5日活动先行销售。预订属于商品购买，不是入场预约。",
+              "evidence_ja": "各価格：3,850円（税込）\n予約期間：～2026年11月29日(日) 23:59\nお届け予定日：発売日以降、順次お届け予定\n発売日：2027年2月上旬発売予定【2027年2月5日(金)イベント先行販売】"
+            },
+            {
+              "title": "礼盒内容与过敏原",
+              "text_zh": "Colombin牛奶巧克力夹心猫舌饼干8片，过敏原为小麦、蛋、乳、大豆；标示保质期为制造后210天。附心形闪粉亚克力立牌、成员留言卡及原创包装盒；立牌尺寸因角色不同。",
+              "evidence_ja": "■商品仕様\n・チョコサンドクッキー\nコロンバン社製「メルヴェイユ（ミルクチョコレート）」8枚\n特定原材料等（アレルギー）…小麦・卵・乳・大豆\n※コンタミネーションなし\n賞味期限…製造後210日\n・ハート型ラメ入りアクリルスタンド\nサイズ：本体/約W13×H12cm、／台座：約W5.1×H4.9cm\n※キャラクターによりサイズが異なります\n素材：アクリル\n・メンバーからの愛がたっぷりメッセージカード\nサイズ：約W6.3×H8.8cm\n素材：紙\n・オリジナルBOX入れ\nサイズ：約W17.5×D14×H7cm\n素材：紙"
+            },
+            {
+              "title": "数量与变更提示",
+              "text_zh": "达到预定数量可能提前停止受理；规格和活动信息可能变更；商品图为示意，实物可能不同。现场礼盒数量有限。原文多个角色的商品链接重复，不能据此确认角色SKU。",
+              "evidence_ja": "※販売予定数に達した時点で受付を終了させていただく場合がございます。\n※商品仕様は予告なく変更になる場合がございます。予めご了承ください。\n※商品画像はイメージとなります。実際の商品と異なる場合がございます。\n※2027年2月5日(土)より開催のPOP UP SHOP店頭にて数量限定で先行販売予定です。確実に手に入れるにはカドストでの【11月29日(日)23:59】までのご予約をおすすめいたします。\n※諸般の事情により、イベント情報は予告なく変更になる場合がございます。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "e815358ba659fcb5106a0122",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6783",
+        "title": "『ラブライブ！虹ヶ咲学園スクールアイドル同好会』×『チュッパチャプス』コラボ決定！",
+        "first_seen_at": "2026-11-09T14:21:29.990Z",
+        "last_seen_at": "2026-11-09T14:21:29.990Z",
+        "changed_at": "2026-11-09T14:21:29.990Z",
+        "content_hash": "f3aa90e49c963ef9c59b7567cf1b63926f51a00b1b3972ae22ab72c6bf5bed5e",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/qp6QxP4aYKiQa94s/UBBei1YMGpfvF0JB.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/I3JPJiKoHzucoGqz/aSu8kYDr08BudRKJ.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/TC6i9SnfvqDDpQnE/Jg7GdatCP81uYOLo.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/lhznAkrGQSsutufa/mX8oz46ejsazjqg0.jpeg",
+            "alt": "",
+            "kind": "bonus"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "虹咲×珍宝珠联动：池袋P′PARCO快闪与店取预订",
+          "summary_zh": "2026年12月25日至2027年1月6日在池袋PARCO别馆P′PARCO 3F的eeo POP-UP STORE销售联动商品。店取预订截至11月15日，领取期间延长至2027年1月25日，不能把领取期当成快闪会期。入场安排及营业时间未说明。",
+          "source_hash": "19c13d273f15846c460379be193a98979e1f0ee6179c49436ea3fbb04af0ef9f",
+          "model": "source-reviewed",
+          "reason": "复核仍标记有未确定信息，暂不用于行程匹配；正文翻译后独立逐项核对日期、地点、特典门槛、会期与领取期。没有明确入场安排，不写成无需预约，暂保留待审核。",
+          "rules": [
+            {
+              "title": "店取预订与快闪会期",
+              "text_zh": "2026年12月25日至2027年1月6日在池袋PARCO别馆P′PARCO 3F的eeo POP-UP STORE销售联动商品。店取预订截至11月15日，领取期间延长至2027年1月25日，不能把领取期当成快闪会期。入场安排及营业时间未说明。",
+              "evidence_ja": "■新商品情報\n12/25(金)からの店頭発売に先駆けて、本日より店頭受取予約が開始！\n新商品を確実にご購入いただける店頭受取予約をぜひご利用ください！\n〇店頭受取予約期間：～2026/11/15(日)\n※上記期間にご予約いただいた商品は、2026/12/25(金)～2027/1/25(月)の期間に受取が可能です。\neeo Store online（公式X @eeo_store）\nhttps://eeo.today/store/101/title/8398\n〇店頭開催期間：2026/12/25(金)～2027/01/06(水)\neeo POP-UP STORE 池袋PARCO別館P′PARCO 3F（公式X @eeo_popup）\nhttps://eeo.today/pr/a3store/"
+            },
+            {
+              "title": "购物特典及限制",
+              "text_zh": "每笔消费购买新品每满2,200日元（含税）随机赠插画卡1张（共13种）；满2,200日元则随机赠珍宝珠1个，糖果不按金额倍增。例如4,400日元为卡2张、糖1个。金额不能跨账单累计；店取预订也适用；款式和口味不能挑选，店头特典送完即止。",
+              "evidence_ja": "■特典情報\n①新商品を2,200円(税込)お買い上げごとに、『イラストカード(全13種)』をランダムで1枚プレゼント！\n②新商品を2,200円(税込)以上お買い上げで、『チュッパチャプス』をランダムで1つプレゼント！\n例）1会計で4,400円(税込)お買い上げいただいた場合\n→イラストカード2枚・チュッパチャプス1つお渡しいたします。\n※1会計ごとの金額で配布されます。購入金額は合算されません。\n※どちらの特典も、店頭受取予約での購入も対象となります。\n※それぞれの絵柄・味はお選びいただけません。\n※店頭での特典配布はなくなり次第終了となります。"
+            }
+          ]
+        }
+      },
       {
         "id": "24623a7ff0f1f2216c247974",
         "source_id": "gakuen-idolmaster-portal",

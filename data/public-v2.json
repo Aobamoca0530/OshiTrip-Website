@@ -1,7 +1,7 @@
 {
   "formatVersion": 2,
-  "revision": "19ffa80ea3a05e7580d01095b86f66b0b899b899fa0ee62a10810d7c521d5f01",
-  "publishedAt": "2026-11-08T14:37:59.751Z",
+  "revision": "b696b0da74c8f50c99995269b6c3d787e054103f25aee639faace80f1a0d75a2",
+  "publishedAt": "2026-11-09T14:27:19.480Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -20860,6 +20860,165 @@
       }
     ],
     "announcements": [
+      {
+        "id": "67f9299edc54ad47e9153bc1",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6791",
+        "title": "「クッピーラムネ」と「ラブライブ！シリーズ」のコラボレーション 商品情報＆購入特典のお知らせ",
+        "first_seen_at": "2026-11-09T14:21:29.990Z",
+        "last_seen_at": "2026-11-09T14:21:29.990Z",
+        "changed_at": "2026-11-09T14:21:29.990Z",
+        "content_hash": "f209ddec5b7b4bdfaf474c6f9c8053d72b8e64e8d96882bbae62778d67fae7ae",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/LvoGeFVolADuC1jd/SrYTpYUeCF4QKK6O.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/SoSGkQbVOPtr7paT/RzuSpHcBeK8DSbXD.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/YpCGGFAuIF7ouJjs/fmx6eIOFGWllBSdd.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/2zWBeEvQiaxRIQog/ozMuNEeQ9pvzLjVr.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/09/1002/6bpOeawk4nlmhhx2/VqVZutNMvcnw3MVp.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "a86ac7299ac07946c73d4342",
+        "source_id": "liella-official",
+        "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786",
+        "title": "『ラブライブ！スーパースター!!』Liella!が選んだバレンタインのチョコサンドクッキーが予約開始＆2027年バレンタインPOP UP SHOPの開催が決定！",
+        "first_seen_at": "2026-11-09T14:21:29.990Z",
+        "last_seen_at": "2026-11-09T14:21:29.990Z",
+        "changed_at": "2026-11-09T14:21:29.990Z",
+        "content_hash": "069dbc1dd7ff51cf70f750d523df71769ff44c7b732f0c7d22954c328753dd7e",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/1KrrDXeVQnnkeD4M/CM809WgBi7XiTvPl.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/WOeaR2bdnWHHvJw6/arEarvcyngFwPmT1.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/JdhPl5XBaGa3pqpl/TmQyMpA0FSuneD06.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/vPIelzOhEt0XdkwC/dvvnxH9oxWvd7X8S.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/CxFM55VqWLtoR6Df/KsD13KWAdoFAMLNQ.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/s1fjWPboAPwtcX5h/ZM7RrigJkXnVtN9N.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/PI9aJOozxN3iAboe/3yo1BD6EL8fdyhhT.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/9Wxi5nY1J2iF8zFn/pVKYaPWcnQGmpXqv.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/WfPTtuKHd9yLmSPp/3457VdePXE8bjotG.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/xFFKNu3IvqISV7W2/gMm6vj4XSVhtpags.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/cpWsPPFAyiMw92XA/T2wIQz7bdas8mydK.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/s1A5XKZJRuxURUyT/8Y7VRskIc5gnGmS9.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/8oxruLUw21DtIs5c/3F7iAgfXadTzqBPh.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/IylDF5PpbSfzibbC/4Pkj1BviNtoF1UVW.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/YlxCh3Gev3mBpCRi/CBSglfVU3IKRRtnW.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "e815358ba659fcb5106a0122",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6783",
+        "title": "『ラブライブ！虹ヶ咲学園スクールアイドル同好会』×『チュッパチャプス』コラボ決定！",
+        "first_seen_at": "2026-11-09T14:21:29.990Z",
+        "last_seen_at": "2026-11-09T14:21:29.990Z",
+        "changed_at": "2026-11-09T14:21:29.990Z",
+        "content_hash": "f3aa90e49c963ef9c59b7567cf1b63926f51a00b1b3972ae22ab72c6bf5bed5e",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/qp6QxP4aYKiQa94s/UBBei1YMGpfvF0JB.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/I3JPJiKoHzucoGqz/aSu8kYDr08BudRKJ.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/TC6i9SnfvqDDpQnE/Jg7GdatCP81uYOLo.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/lhznAkrGQSsutufa/mX8oz46ejsazjqg0.jpeg",
+            "alt": "",
+            "kind": "bonus"
+          }
+        ]
+      },
       {
         "id": "24623a7ff0f1f2216c247974",
         "source_id": "gakuen-idolmaster-portal",

@@ -553,8 +553,8 @@
         "aqours"
       ],
       "signature": "0feb9fc9b4a74e66a574414b6d2d16e8093055ba91150ef8e89a6d08630f8f39",
-      "first_seen_on": "2026-11-08",
-      "burst_day": "2026-11-08",
+      "first_seen_on": "2026-11-09",
+      "burst_day": "2026-11-09",
       "pending": false,
       "reason": "列表标题或日期变化"
     },
@@ -597,8 +597,8 @@
         "aqours"
       ],
       "signature": "c31bf6bb261bd42165241c0ea0a1a9bacdef663b77a8d69ce7d435e5ee1d1233",
-      "first_seen_on": "2026-11-08",
-      "burst_day": "2026-11-08",
+      "first_seen_on": "2026-11-09",
+      "burst_day": "2026-11-09",
       "pending": false,
       "reason": "列表标题或日期变化"
     },
@@ -861,8 +861,8 @@
         "liella"
       ],
       "signature": "449834d60af60cd10aa49bcb0203eef7e75beeaa1bdf0b6fee7c9e2350592b58",
-      "first_seen_on": "2026-11-08",
-      "burst_day": "2026-11-08",
+      "first_seen_on": "2026-11-09",
+      "burst_day": "2026-11-09",
       "pending": false,
       "reason": "列表标题或日期变化"
     },
@@ -916,8 +916,8 @@
         "gakuen-idolmaster"
       ],
       "signature": "1c956b12c2ad6690e41ff6f99bc1776322367c001df5508d8a3420330af8784d",
-      "first_seen_on": "2026-11-08",
-      "burst_day": "2026-11-08",
+      "first_seen_on": "2026-11-09",
+      "burst_day": null,
       "pending": false,
       "reason": "列表标题或日期变化"
     },
@@ -1459,23 +1459,112 @@
       "burst_day": "2026-11-08",
       "pending": false,
       "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6783": {
+      "source_id": "nijigasaki-news",
+      "projects": [
+        "nijigasaki"
+      ],
+      "signature": "753c4c45d0726ce6b8bd4fdb0a71d8a1b92c943f77645e184aecd9ca3b3dd577",
+      "first_seen_on": "2026-11-09",
+      "burst_day": "2026-11-09",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6791": {
+      "source_id": "nijigasaki-news",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "f14f457dbab5c4ae49af6ecd927662f032099a914cc1a0ea877187c4f04b6cd0",
+      "first_seen_on": "2026-11-09",
+      "burst_day": "2026-11-09",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6791": {
+      "source_id": "aqours-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "f14f457dbab5c4ae49af6ecd927662f032099a914cc1a0ea877187c4f04b6cd0",
+      "first_seen_on": "2026-11-09",
+      "burst_day": "2026-11-09",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/otonokizaka/detail.php?p=01_6791": {
+      "source_id": "muse-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "f14f457dbab5c4ae49af6ecd927662f032099a914cc1a0ea877187c4f04b6cd0",
+      "first_seen_on": "2026-11-09",
+      "burst_day": "2026-11-09",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/lovehigh/news/detail.php?p=01_6791": {
+      "source_id": "ikizulive-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "1a6e1876d2f287a1986ec9cfdbe9175b7cfe47955c26515b9e6efe228b8823bf",
+      "first_seen_on": "2026-11-09",
+      "burst_day": "2026-11-09",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6791": {
+      "source_id": "hasunosora-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "59da7da5c5a00b49b30865931bc5c0600d9242561eff9b7d6aa0aa8bc6221f01",
+      "first_seen_on": "2026-11-09",
+      "burst_day": "2026-11-09",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6791": {
+      "source_id": "liella-official",
+      "projects": [
+        "lovelive"
+      ],
+      "signature": "f14f457dbab5c4ae49af6ecd927662f032099a914cc1a0ea877187c4f04b6cd0",
+      "first_seen_on": "2026-11-09",
+      "burst_day": "2026-11-09",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6786": {
+      "source_id": "liella-official",
+      "projects": [
+        "liella"
+      ],
+      "signature": "9ab27dcd12c4723c8b2124fb199384976ada11f52c7a4e5b6b0c177ed6f222b0",
+      "first_seen_on": "2026-11-09",
+      "burst_day": "2026-11-09",
+      "pending": false,
+      "reason": "列表新增且未收录"
     }
   },
   "daily_usage": {
-    "day": "2026-11-08",
+    "day": "2026-11-09",
     "projects": {
+      "nijigasaki": [
+        "www.lovelive-anime.jp:news:01_6783"
+      ],
+      "lovelive": [
+        "www.lovelive-anime.jp:news:01_6791"
+      ],
       "aqours": [
         "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
         "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost"
       ],
       "liella": [
-        "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
-      ],
-      "gakuen-idolmaster": [
-        "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/information/final.php",
-        "https://idolmaster-official.jp/news/01_20328",
-        "https://idolmaster-official.jp/news/01_20238",
-        "https://idolmaster-official.jp/news/01_20321"
+        "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+        "www.lovelive-anime.jp:news:01_6786"
       ]
     }
   }
