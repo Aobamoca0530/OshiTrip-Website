@@ -8562,5 +8562,125 @@
       ]
     },
     "reviewed_at": "2026-11-09T14:26:05.848Z"
+  },
+  "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6805": {
+    "source_hash": "97f2d7817d03ca0560d2e0eb6a958d360be5cdd82d38e9f483e5e28f14480054",
+    "reading": {
+      "offline": false,
+      "kind": "offline",
+      "uncertain": false,
+      "title_zh": "Aqours×三国ドライブ游戏内联动（非线下活动）",
+      "summary_zh": "Aqours与手机游戏《三国ドライブ》开展游戏内联动，期间为2026年11月10日至12月1日。联动卡池登场CYaRon!、AZALEA成员，以及樱内梨子、津岛善子、小原鞠莉；具体规则见游戏内公告，游戏基本免费、道具收费。没有现场活动。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "lovelive",
+        "aqours"
+      ],
+      "rules": [
+        {
+          "title": "消息范围核对",
+          "text_zh": "Aqours与手机游戏《三国ドライブ》开展游戏内联动，期间为2026年11月10日至12月1日。联动卡池登场CYaRon!、AZALEA成员，以及樱内梨子、津岛善子、小原鞠莉；具体规则见游戏内公告，游戏基本免费、道具收费。没有现场活动。",
+          "evidence_ja": "スマートフォン向けリアルタイム三国バトルRPG「三国ドライブ」にて、『ラブライブ！サンシャイン!!』とのコラボイベントの開催が決定いたしました！"
+        }
+      ],
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "非现场参加，不生成线下预约。",
+        "applies_to_all_venues": false
+      },
+      "cancelled": false
+    },
+    "review": {
+      "approved": true,
+      "reason": "已完整阅读并独立复核，为纯事后网购或游戏内联动，排除在线下活动合集之外，不将销售或游戏日期当作现场日期。",
+      "evidence_ja": [
+        "スマートフォン向けリアルタイム三国バトルRPG「三国ドライブ」にて、『ラブライブ！サンシャイン!!』とのコラボイベントの開催が決定いたしました！"
+      ]
+    },
+    "reviewed_at": "2026-11-10T14:13:44.908Z"
+  },
+  "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6780": {
+    "source_hash": "e2ce73b043503ce628cc37b4c57d39d22f8ca59ca51b16a23b3c0a3eff959433",
+    "reading": {
+      "offline": false,
+      "kind": "offline",
+      "uncertain": false,
+      "title_zh": "Aqours有乐町快闪事后网购（非线下活动）",
+      "summary_zh": "已结束的有乐町丸井7F Aqours快闪现开放事后网购，受理为2026年11月10日18:00至11月25日23:59，预计2027年1月下旬至2月下旬以后陆续发货；不是线下快闪重新开放。",
+      "category": "其他联动",
+      "franchise_ids": [
+        "lovelive",
+        "aqours"
+      ],
+      "rules": [
+        {
+          "title": "消息范围核对",
+          "text_zh": "已结束的有乐町丸井7F Aqours快闪现开放事后网购，受理为2026年11月10日18:00至11月25日23:59，预计2027年1月下旬至2月下旬以后陆续发货；不是线下快闪重新开放。",
+          "evidence_ja": "有楽町マルイ7Fにて開催しておりました、「ラブライブ！サンシャイン!! POP UP SHOP」の事後通販の受付を開始いたしました！"
+        }
+      ],
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "非现场参加，不生成线下预约。",
+        "applies_to_all_venues": false
+      },
+      "cancelled": false
+    },
+    "review": {
+      "approved": true,
+      "reason": "已完整阅读并独立复核，为纯事后网购或游戏内联动，排除在线下活动合集之外，不将销售或游戏日期当作现场日期。",
+      "evidence_ja": [
+        "有楽町マルイ7Fにて開催しておりました、「ラブライブ！サンシャイン!! POP UP SHOP」の事後通販の受付を開始いたしました！"
+      ]
+    },
+    "reviewed_at": "2026-11-10T14:13:44.909Z"
+  },
+  "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6787": {
+    "source_hash": "b2b773d0214c9c4458e4e021f9be4d8f209b0fda13d12315cc145fcf2c9371fa",
+    "reading": {
+      "offline": true,
+      "kind": "offline",
+      "uncertain": true,
+      "title_zh": "结女餐车11月17日—12月7日常规饮品菜单（地点待核）",
+      "summary_zh": "结女餐车常规饮品菜单适用于2026年11月17日至12月7日。周一至周五12:00—15:00、16:00—19:00；周末及日本节假日11:00—19:00（日本时间）。正文未列本轮营业地点、预约及排队安排，暂不作为正式活动。",
+      "category": "联动咖啡厅",
+      "franchise_ids": [
+        "lovelive",
+        "liella"
+      ],
+      "rules": [
+        {
+          "title": "日期、营业时间及缺失信息",
+          "text_zh": "结女餐车常规饮品菜单适用于2026年11月17日至12月7日。周一至周五12:00—15:00、16:00—19:00；周末及日本节假日11:00—19:00（日本时间）。正文未列本轮营业地点、预约及排队安排，暂不作为正式活动。",
+          "evidence_ja": "★通常ドリンク★\n【2026年11月17日（火）～12月7日（月）】\n営業時間：月～金12:00～15:00/16:00～19:00\n土日祝11:00～19:00"
+        }
+      ],
+      "venues": [],
+      "booking": {
+        "method": "尚未公布",
+        "opens_at": null,
+        "closes_at": null,
+        "evidence_ja": "",
+        "note_zh": "缺本轮营业地点及预约、排队安排，不推断无需预约。",
+        "applies_to_all_venues": false
+      },
+      "cancelled": false
+    },
+    "review": {
+      "approved": false,
+      "reason": "已翻译后独立复核正文日期与营业时间；缺本轮具体地点和参加限制，保持待审核。图中价格和特典单独复核，不据图创建场地。",
+      "evidence_ja": [
+        "★通常ドリンク★\n【2026年11月17日（火）～12月7日（月）】\n営業時間：月～金12:00～15:00/16:00～19:00\n土日祝11:00～19:00"
+      ]
+    },
+    "reviewed_at": "2026-11-10T14:13:44.909Z"
   }
 }

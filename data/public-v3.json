@@ -1,7 +1,7 @@
 {
   "formatVersion": 3,
-  "revision": "7b623dd80f2a53b05759eb146322094fc32612ff61972b18a4e39edcd98e8e8a",
-  "publishedAt": "2026-11-09T14:58:12.860Z",
+  "revision": "1d8a123af27ca0568c736bca6cde440d3995bc331652e92e42eefafd082f138b",
+  "publishedAt": "2026-11-10T14:13:53.343Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -20860,6 +20860,41 @@
       }
     ],
     "announcements": [
+      {
+        "id": "fdc224fad7ccb987ec71bc17",
+        "source_id": "liella-official",
+        "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6787",
+        "title": "「結ヶ丘女子高等学校キッチンカー」より新メニューのお知らせ",
+        "first_seen_at": "2026-11-10T14:09:50.431Z",
+        "last_seen_at": "2026-11-10T14:09:50.431Z",
+        "changed_at": "2026-11-10T14:09:50.431Z",
+        "content_hash": "9afb51845077ae00bc8b5f6351d6faf3c68875a587b4ef08235bad5c8c595637",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/91ODZKIJhXbvFDnQ/PD0JS0rmyil6o2Ze.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "结女餐车11月17日—12月7日常规饮品菜单（地点待核）",
+          "summary_zh": "结女餐车常规饮品菜单适用于2026年11月17日至12月7日。周一至周五12:00—15:00、16:00—19:00；周末及日本节假日11:00—19:00（日本时间）。正文未列本轮营业地点、预约及排队安排，暂不作为正式活动。",
+          "source_hash": "b2b773d0214c9c4458e4e021f9be4d8f209b0fda13d12315cc145fcf2c9371fa",
+          "model": "source-reviewed",
+          "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已翻译后独立复核正文日期与营业时间；缺本轮具体地点和参加限制，保持待审核。图中价格和特典单独复核，不据图创建场地。",
+          "rules": [
+            {
+              "title": "日期、营业时间及缺失信息",
+              "text_zh": "结女餐车常规饮品菜单适用于2026年11月17日至12月7日。周一至周五12:00—15:00、16:00—19:00；周末及日本节假日11:00—19:00（日本时间）。正文未列本轮营业地点、预约及排队安排，暂不作为正式活动。",
+              "evidence_ja": "★通常ドリンク★\n【2026年11月17日（火）～12月7日（月）】\n営業時間：月～金12:00～15:00/16:00～19:00\n土日祝11:00～19:00"
+            }
+          ]
+        }
+      },
       {
         "id": "67f9299edc54ad47e9153bc1",
         "source_id": "nijigasaki-news",

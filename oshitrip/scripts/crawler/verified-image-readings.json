@@ -1828,5 +1828,47 @@
       "unreadable": true,
       "rules": []
     }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6787",
+    "source_hash": "b2b773d0214c9c4458e4e021f9be4d8f209b0fda13d12315cc145fcf2c9371fa",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/91ODZKIJhXbvFDnQ/PD0JS0rmyil6o2Ze.jpeg",
+    "sha256": "41cf519ad6a11d351293fbf91cda2b03a71c215841d8be557bed083090bc0bbf",
+    "reviewed_at": "2026-11-10T14:13:44.915Z",
+    "approved": true,
+    "reason": "已读取原始菜单与放大的底部细则，翻译后再次核对价格、冷热、过敏原及特典；正文确认营业日期和时段，图片未提供具体地点。",
+    "reading": {
+      "unreadable": false,
+      "rules": [
+        {
+          "kind": "点单",
+          "title": "价格、冷热及配料",
+          "evidence_ja": "ALL 700円 税込",
+          "text_zh": "11款饮品均为700日元含税。香音为苹果派糖浆柴茶、希奈子为烤栗糖浆柴茶、四季为焦糖布丁糖浆柴茶，三款为热饮。可可为蓝色糖浆苹果汁、千砂都为热带蜜桃糖浆苹果汁、堇为蜜瓜糖浆苹果汁、恋为蓝莓糖浆酸奶风味饮料、芽衣为蔓越莓糖浆酸奶风味饮料、夏美为玫瑰糖浆苹果汁、玛格丽特为紫蜜瓜糖浆酸奶风味饮料、冬毬为弹珠汽水糖浆酸奶风味饮料，均为冷饮。各款均加鲜奶油与草莓脆粒。",
+          "uncertain": false
+        },
+        {
+          "kind": "点单",
+          "title": "图示过敏原",
+          "evidence_ja": "アレルゲン：乳、小麦",
+          "text_zh": "每款标示乳、小麦；页脚说明为原材料中9项指定过敏原的标记，不代表已排除其他过敏风险。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "饮品杯垫",
+          "evidence_ja": "ドリンクご注文のお客様限定 オリジナルコースタープレゼント!! 全11種",
+          "text_zh": "点购饮品的顾客可获原创杯垫，共11种。特典随机，不能选图，送完即止，禁止转售；图中未明确每杯赠送张数，不自行补充。",
+          "uncertain": false
+        },
+        {
+          "kind": "其他",
+          "title": "特典问题处理",
+          "evidence_ja": "ご購入当日に限り対応させていただきます",
+          "text_zh": "特典漏发或数量不足只在购买当天处理；与金箔加工无关的表面瑕疵不在更换范围，例如微细伤痕、划痕、凹痕、擦痕。内容可能不预告变更。",
+          "uncertain": false
+        }
+      ]
+    }
   }
 ]

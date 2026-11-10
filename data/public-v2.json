@@ -1,7 +1,7 @@
 {
   "formatVersion": 2,
-  "revision": "9bea9c20fe03ebfd9055c380e8b1bd82f91eefbd1a45ef3a5fed736d19a819a3",
-  "publishedAt": "2026-11-09T14:58:12.860Z",
+  "revision": "1378351142bac03bafc749620e2c865db51cabfa0ac761fe8da82dd77a6f6e58",
+  "publishedAt": "2026-11-10T14:13:53.343Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -20860,6 +20860,24 @@
       }
     ],
     "announcements": [
+      {
+        "id": "fdc224fad7ccb987ec71bc17",
+        "source_id": "liella-official",
+        "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6787",
+        "title": "「結ヶ丘女子高等学校キッチンカー」より新メニューのお知らせ",
+        "first_seen_at": "2026-11-10T14:09:50.431Z",
+        "last_seen_at": "2026-11-10T14:09:50.431Z",
+        "changed_at": "2026-11-10T14:09:50.431Z",
+        "content_hash": "9afb51845077ae00bc8b5f6351d6faf3c68875a587b4ef08235bad5c8c595637",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/91ODZKIJhXbvFDnQ/PD0JS0rmyil6o2Ze.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
       {
         "id": "67f9299edc54ad47e9153bc1",
         "source_id": "nijigasaki-news",
