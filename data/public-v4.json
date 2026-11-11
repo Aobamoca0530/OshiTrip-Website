@@ -1,7 +1,7 @@
 {
   "formatVersion": 4,
-  "revision": "d7b28601bcde674d63ef6f3ad77b1e164ba0fc1257e9af65d8d6f951ffcc00e8",
-  "publishedAt": "2026-11-10T14:13:53.343Z",
+  "revision": "c6a3873608b8f018d38185cf04ba5e9cbce95aca963c1337ea7621fa580e077a",
+  "publishedAt": "2026-11-11T15:23:16.827Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -20861,6 +20861,416 @@
     ],
     "announcements": [
       {
+        "id": "1a3c9673e6abad974918b807",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6785",
+        "title": "「Photoism × LoveLive! Series 15th Anniversary ラブライブ！フェス」コラボサービス開始の案内",
+        "first_seen_at": "2026-11-11T15:16:21.467Z",
+        "last_seen_at": "2026-11-11T15:16:21.467Z",
+        "changed_at": "2026-11-11T15:16:21.467Z",
+        "content_hash": "8a7fe79014f7441cfaa6018d6f9b82f1d75727922376b34aefff1b1816fb2a8f",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/fBulF7n3OW6MShaQ/aZ1FKd82fg2iojHZ.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/OmSdNDmoIdrEW9jv/qRSavigrAak6WCTh.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/qQYECcPZaEAKnfSJ/qixof70lWzFouIqT.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/u7ssrtqOLLmINi0G/6NQweBc8et5iJ4gF.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/LmDfFCjOzHjCBNlp/of05NgqfMSN9p5a7.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/Z2eWTadOSDJl6Yko/c3pUHIacvkNfO0VH.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/709k4EhA8U7O1f0U/unRaHJ61PQzjFLrg.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "Love Live!十五周年 Photoism 联动拍照服务",
+          "summary_zh": "2026年11月13日至2027年2月28日，Photoism推出Love Live!七个系列共73名偶像的合影框服务，公告称日本及全球门店可拍摄。原文提供日本门店列表入口，但未逐店列地址、营业时间、价格及参加限制，不虚构具体场地。",
+          "source_hash": "aaabadd844f7c47b22547aa3e5d5e5f53b9be009534111d91fba8791d750ba50",
+          "model": "source-reviewed",
+          "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已逐项核对服务期与73名偶像范围；缺逐店资料和参加规则，全球门店不直接当作一个日本场馆，保留待审核。",
+          "rules": [
+            {
+              "title": "系列与服务范围",
+              "text_zh": "2026年11月13日至2027年2月28日，Photoism推出Love Live!七个系列共73名偶像的合影框服务，公告称日本及全球门店可拍摄。原文提供日本门店列表入口，但未逐店列地址、营业时间、价格及参加限制，不虚构具体场地。",
+              "evidence_ja": "『LoveLive! Series 15th Anniversary ラブライブ！フェス』開催を記念し、2026年11月13日よりアイドル達とツーショット写真が撮れるPhotoism（フォトイズム）サービスがスタートします。\n本サービスでは、「ラブライブ！、ラブライブ！サンシャイン!!、ラブライブ！虹ヶ咲学園スクールアイドル同好会、ラブライブ！スーパースター!!、ラブライブ！蓮ノ空女学院スクールアイドルクラブ、イキヅライブ！ LOVELIVE! BLUEBIRD、スクールアイドルミュージカル」の総73名のアイドルが参加しますので、この機会に、推しのアイドル達とのツーショット写真を楽しみましょう！"
+            },
+            {
+              "title": "服务日期与门店范围",
+              "text_zh": "期间2026年11月13日至2027年2月28日；正文说明日本全国及全球Photoism门店，具体门店应以官网店铺列表为准。",
+              "evidence_ja": "【サービス期間】\n2026年11月13日（金）〜2027年2月28日（日）\n【撮影場所・店舗情報】\n日本全国のPhotoism店舗、\n全世界のPhotoism店舗で撮影できます。\n※日本国内の店舗一覧はこちら\nhttps://4cutphoto.com/gallery/"
+            }
+          ]
+        }
+      },
+      {
+        "id": "a1e69e2b8d339baf7fc7fd31",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6789",
+        "title": "ラブライブ！シリーズ×GiGOコラボカフェ秋葉原3号館10周年コラボカフェ詳細更新のお知らせ",
+        "first_seen_at": "2026-11-11T15:16:21.467Z",
+        "last_seen_at": "2026-11-11T15:16:21.467Z",
+        "changed_at": "2026-11-11T15:16:21.467Z",
+        "content_hash": "7b2bf2b1d5ef3eea87ea563b517c1c948e5b630f5955ad4e3f635abb1d8915f5",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/JvXoGYe0uqoVxcAS/QoNemrO0gsqSSvVz.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/SPvAr5iSf3sV1UU3/DwwtVusm7GXwmz4U.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/KRb3I9AvyhcjBsH8/iGnOcOkWrmhC9tZB.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/hdyVf8m1eSmBUP5f/JXByjfuaK7KMuwMx.jpeg",
+            "alt": "",
+            "kind": "menu"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/jxK806LYsfpuheDC/IngoNrvY3DpqHHkz.jpeg",
+            "alt": "",
+            "kind": "menu"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/TEwHg0pkuE67meLC/2mmfc6QWV0PPhuKu.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/7MfQTfMDLLBEOaec/GKtiAvdnEE72usAk.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/Nh6xB7YdEA12tGbC/TcITO43i76cprNNd.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/vbyaJjdQsJ05YGMX/ffb9ul9f9G0BH6nJ.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/KZkTIqUOUQQsi2PT/XNGkyfHkrNWqVCzS.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/0Q0xfxBw0UqZ3iR5/2HFDbb8XrpruLJBk.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/VjjZqLbZ54Zv0xeh/MREudwDorgnJ6e3S.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/6Tf2hcdOYiZ5XctJ/WoHv7E8ZiQ7ZWbkb.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/IT6OksCQ5ATRsJfq/5NZ6yX2CUWqnsMEf.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/A4trTId8Rgx9knwv/hhKpiaNxMUpBFxSq.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/KonkMXIUG6hLme9x/ZafgtveTpvbwgA7l.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/XLVbgVxOFDkxsV0j/Q9n96EPXgab6jRU1.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/Kg7OviDKI6WPCozA/YdrIi6Xwbik8fXFA.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "GiGO秋叶原3号馆十周年：虹咲首期菜单与特典",
+          "summary_zh": "十周年联动总会期为2026年11月21日至2027年4月11日，虹咲首期为11月21日至12月17日。秋叶原3号馆有餐饮，9家咖啡站仅饮品及物贩；咖啡站自由入场，拥挤时可能发整理券，不能把这条规则套用到3号馆。另有秋叶原5号馆虹咲烧。",
+          "source_hash": "3cce0c7f2f177b0bb4be4c82859eb147e164dfe423f0a454f7f646557bba1af0",
+          "model": "source-reviewed",
+          "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；完整核对正文及主馆、咖啡站、鲷鱼烧店的差异；主馆入场办法缺失，咖啡站分期适用日期需明确，不能用站点自由入场规则覆盖其他门店。保留待审核。",
+          "rules": [
+            {
+              "title": "店铺和不同参加规则",
+              "text_zh": "十周年联动总会期为2026年11月21日至2027年4月11日，虹咲首期为11月21日至12月17日。秋叶原3号馆有餐饮，9家咖啡站仅饮品及物贩；咖啡站自由入场，拥挤时可能发整理券，不能把这条规则套用到3号馆。另有秋叶原5号馆虹咲烧。 咖啡站包括札幌COCONO SUSUKINO、仙台、秋叶原2号馆、名古屋Market Square Sasashima、京都河原町OPA B1F、大阪道顿堀本店、永旺梦乐城冈山、福冈天神、熊本AMU PLAZA；后续期别另行公布。",
+              "evidence_ja": "GiGOコラボカフェ概要\n■イベント名：GiGOコラボカフェ秋葉原3号館10周年『ラブライブ！シリーズ』\n■開催期間：2026年11月21日(土)～2027年4月11日(日)\n■開催店舗：GiGOコラボカフェ秋葉原3号館\n■詳細スケジュール\n第1弾「虹ヶ咲」：2026年11月21日(土)～12月17日(木)\n※第2弾以降の日程は後日発表いたします。\n■GiGOコラボカフェスタンド開催店舗：\nGiGOココノススキノ／GiGO仙台／GiGO秋葉原2号館\nGiGOマーケットスクエアささしま／GiGO河原町オーパB1F\nGiGO大阪道頓堀本店／GiGOイオンモール岡山／GiGO福岡天神\nGiGOアミュプラザくまもと(全9店舗)\n※期間によって開催するシリーズが変更になります。\n※GiGOコラボカフェスタンドではドリンクのご提供と物販を行います。フード、デザートのご提供はございません。\n※GiGOコラボカフェスタンドは全日フリー入場制ですが、お客様の来店状況により入場整理券等の配布となる場合がございます。"
+            },
+            {
+              "title": "菜单价格与点单限制",
+              "text_zh": "饮品各750日元（12款成员饮料、热咖啡、热可可、冰乌龙茶）；复刻文字烧风炒乌冬和蛋包饭各1,760日元；A・ZU・NA、QU4RTZ、DiverDiva、R3BIRTH圣代各1,300日元。食物只能首次点单时每人选1款。周年三层餐盘3,200日元，每入场回仅5份，附随机食物特典2张；包含小挞、蛋糕、果冻、馒头、甜甜圈、千层蛋糕、鸡蛋面包和蜜橘卷心菜沙拉。全部含税；过敏或有相关顾虑请咨询店员。",
+              "evidence_ja": "■ドリンクメニュー：各750円(税込)\n『虹ヶ咲』メンバーをイメージしたドリンクを期間限定で販売いたします。\n・上原歩夢\n・中須かすみ\n・桜坂しずく\n・朝香果林\n・宮下 愛\n・近江彼方\n・優木せつ菜\n・エマ・ヴェルデ\n・天王寺璃奈\n・三船栞子\n・ミア・テイラー\n・鐘 嵐珠\n・ホットコーヒー\n・ホットココア\n・アイスウーロン茶\n■フードメニュー\n・もんじゃみやした もんじゃ風焼うどん(復刻メニュー)：1,760円(税込)\n・夢見るふわとろオムライス(復刻メニュー)：1,760円(税込)\n■パフェメニュー\n・A・ZU・NAのBlue！パフェ：1,300円(税込)\n・QU4RTZのPASTELパフェ：1,300円(税込)\n・DiverDivaのShadow Effectパフェ：1,300円(税込)\n・R3BIRTHのVroom Vroomパフェ：1,300円(税込)\n■スペシャルメニュー\n各入場回5食限定のスペシャルメニューです。\nスペシャルメニューご注文でフードノベルティがランダムで2枚もらえます。\n・GiGOコラボカフェ10周年記念プレートセット：3,200円(税込)\n上段：プチタルト、ケーキ、ゼリー\n中段：饅頭、ドーナッツ、ミルクレープ\n下段：たまごコッペパン、みかんコールスロー\n※第2弾以降の詳細は後日発表となります。\n※フードメニューは、ファーストオーダー時のみおひとり様いずれか1品ご注文いただけます。\n※アレルギーや持病をお持ちのお客さまで不安な点などございましたら、スタッフまでお問い合わせください。\n※写真はイメージです。"
+            },
+            {
+              "title": "餐饮特典",
+              "text_zh": "每份食物随机赠票券风透明卡1张，每杯饮品或每份圣代随机赠杯垫1张，两者各12种。不能选图，数量有限送完即止。",
+              "evidence_ja": "メニュー特典\nフードメニュー1品ご注文につきチケット風クリアカードがランダムで1枚もらえます。また、ドリンク1杯もしくはパフェ1品をご注文につきオリジナルコースターがランダムで1枚もらえます。\n・チケット風クリアカード(全12種・ランダム)\n・オリジナルコースター(全12種・ランダム)\n▲チケット風クリアカード(全12種)\n▲オリジナルコースター(全12種)\n※第2弾以降の詳細は後日発表となります。\n※各ノベルティの絵柄はランダムのため、お選びいただけません。\n※数量限定。なくなり次第、終了となります。\n※画像はイメージです。"
+            },
+            {
+              "title": "生日卡发放",
+              "text_zh": "使用联动咖啡的顾客结账时每人1张，数量有限。开始日期：2026年恋11/24、泉12/1、米娅12/6、理亚12/12、彼方12/16、慈12/20、冬毬12/28；2027年黛雅1/1、沙耶香1/13、花阳1/17、玛格丽特1/20、霞1/23、艾玛2/5、果南2/10、岚珠2/15、千砂都2/25、小铃2/28、步梦3/1、花丸3/4、海未3/15、雫4/3、希奈子4/10。未注明各卡结束日，不自行延长。",
+              "evidence_ja": "バースデーカードプレゼント！\nコラボカフェ開催期間中にバースデーを迎えるメンバーのバースデーカードを、期間中にコラボカフェをご利用されたお客さまおひとりにつき、お会計時に1枚進呈いたします。\n葉月 恋 2026年11月24日(火)～\n桂城 泉 2026年12月1日(火)～\nミア・テイラー 2026年12月6日(日)～\n鹿角理亞 2026年12月12日(土)～\n近江彼方 2026年12月16日(水)～\n藤島 慈 2026年12月20日(日)～\n鬼塚冬毬 2026年12月28日(月)～\n黒澤ダイヤ 2027年1月1日(金)～\n村野さやか 2027年1月13日(水)～\n小泉花陽 2027年1月17日(日)～\nウィーン・マルガレーテ 2027年1月20日(水)～\n中須かすみ 2027年1月23日(土)～\nエマ・ヴェルデ 2027年2月5日(金)～\n松浦果南 2027年2月10日(水)～\n鐘 嵐珠 2027年2月15日(月)～\n嵐 千紗都 2027年2月25日(木)～\n徒町小鈴 2027年2月28日(日)～\n上原歩夢 2027年3月1日(月)～\n国木田花丸 2027年3月4日(木)～\n園田海未 2027年3月15日(月)～\n桜坂しずく 2027年4月3日(土)～\n桜小路きな子 2027年4月10日(土)～\n※数量限定。なくなり次第、終了となります。"
+            },
+            {
+              "title": "商品、购物特典与网购",
+              "text_zh": "11月21日起立牌1,900日元、随机心形徽章660日元、随机后台通行证风缎面贴纸700日元，各12种。土产区每消费2,000日元含税随机赠限定迷你透明照片卡1张（12种），11月21日起发放，咖啡站不赠这项购物特典；后续图案另行公布。GiGO MALL首期网购11月24日12:00开始，可能缺部分商品或限购，售完即止。",
+              "evidence_ja": "GiGOコラボカフェオリジナルグッズ\n＜2026年11月21日(土)発売予定＞\n・GiGOコラボカフェ秋葉原10周年 ラブライブ！シリーズ アクリルスタンド(ニジガク)(全12種) 1,900円(税込)\n・GiGOコラボカフェ秋葉原10周年 ラブライブ！シリーズ ハート缶バッジ(ニジガク)(全12種・ランダム) 660円(税込)\n・GiGOコラボカフェ秋葉原10周年 ラブライブ！シリーズ バックパス風サテンステッカー(ニジガク)(全12種・ランダム) 700円(税込)\n▲アクリルスタンド(ニジガク)\n▲ハート缶バッジ(ニジガク)\n▲バックパス風サテンステッカー(ニジガク)\n※数量限定。なくなり次第、終了となります。\n※画像・イラストはイメージです。\n■購入特典\n物販コーナー「お土産屋」にて、商品のお会計2,000円(税込)ごとに限定ミニクリアブロマイド(全12種・ランダム)を1枚進呈いたします。\n第1弾：2026年11月21日(土)配布開始\n※各ノベルティの絵柄はランダムのため、お選びいただけません。\n※期間でデザインを変更予定です。\n※第2弾以降のデザインにつきましては、後日公開予定です。\n※GiGOコラボカフェスタンドでは、購入特典の配布はございません。\n※数量限定。なくなり次第、終了となります。\n※画像・イラストはイメージです。\n■オンライン販売\nGiGOコラボカフェオリジナルグッズを「GiGO MALL」にて通信販売いたします。\nhttps://shop.gigo-mall.com/\n【販売期間】\n第1弾:2026年11月24日(火)12:00より販売開始\n※数量限定。なくなり次第、終了となります。\n※一部取り扱いのない商品や、購入点数の制限を設けさせていただく場合もございます。予めご了承ください。"
+            },
+            {
+              "title": "限定景品与虹咲烧",
+              "text_zh": "限定景品11月21日起陆续登场，具体门店见专题。秋叶原5号馆虹咲烧11月21日至12月17日销售，650日元含税，奶油或红豆馅；每个随机赠13种杯垫之一，不能选图，数量有限，销售状态以门店公告为准。",
+              "evidence_ja": "GiGOグループのお店限定景品\nGiGOグループのお店限定景品が登場いたします。\n■2026年11月21日(土)より順次登場予定\n※数量限定。なくなり次第、終了となります。\n※対象店舗は特設ページをご確認ください。\n※画像・イラストはイメージです。\nコラボたい焼き「ニジガク焼き」\n虹ヶ咲のメンバーをモチーフにしたコラボたい焼き「ニジガク焼き」が表情をリニューアルして登場！\nご購入1点につき、オリジナルコースター(全13種)をランダムで1枚進呈いたします。\n■販売期間：2026年11月21日(土)～12月17日(木)\n■販売店舗：GiGOのたい焼き秋葉原5号館\n■販売価格：650円(税込)\n■フレーバー：プレミアムクリーム、小倉あん\n※第2弾以降の詳細は後日発表となります。\n※オリジナルコースターの絵柄はランダムのため、お選びいただけません。\n※数量限定。なくなり次第、終了となります。\n※画像・イラストはイメージです。\n※販売状況に関する最新情報は、各販売店舗のXにてお知らせいたします。"
+            }
+          ]
+        }
+      },
+      {
+        "id": "aec255da837ed37967876207",
+        "source_id": "aqours-official",
+        "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6782",
+        "title": "「ラブライブ！サンシャイン!!」×HMV POP UP SHOP 詳細情報の解禁！",
+        "first_seen_at": "2026-11-11T15:16:21.467Z",
+        "last_seen_at": "2026-11-11T15:16:21.467Z",
+        "changed_at": "2026-11-11T15:16:21.467Z",
+        "content_hash": "514a741ee9c2aab70aca890443d97306c0ed963a52e3214ab2bcd05193911b03",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/fdkjSvijFjLfCssU/aWPhwvq8VD7uZFQF.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/VT5eEdNlWife53py/XmJ5Za9DPPIdr7o9.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/H9Gj42VuUDdLiQ1p/rMngoRImpRitjuFu.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/XAup0OfQghPSNAXl/udwQjPXtRLPAWwnR.jpeg",
+            "alt": "",
+            "kind": "bonus"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/8QPcFDkNvaPszI6I/4DRsE6CepMU3PV7f.jpeg",
+            "alt": "",
+            "kind": "bonus"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "Aqours×HMV护士女仆主题快闪：东京与大阪",
+          "summary_zh": "东京HMV&BOOKS SHIBUYA：2026年12月2日至15日；大阪HMV&BOOKS NAMBA：2027年1月13日至31日。先行销售护士女仆主题新品并发特典，特典规则另见原图，正文未写入场及预约方式。",
+          "source_hash": "8a906023efec1d4cbfc31eca608b1eb3256c589c48a6fbbc185957b9dc668543",
+          "model": "source-reviewed",
+          "reason": "复核仍标记有未确定信息；多场馆尚未逐站核对参与方式，暂不用于行程匹配；分别核对两地日期地点；入场与预约规则未写明，商品预售或特典不是入场许可，保持待审核。",
+          "rules": [
+            {
+              "title": "两地会期",
+              "text_zh": "东京HMV&BOOKS SHIBUYA：2026年12月2日至15日；大阪HMV&BOOKS NAMBA：2027年1月13日至31日。先行销售护士女仆主题新品并发特典，特典规则另见原图，正文未写入场及预约方式。",
+              "evidence_ja": "＜東京会場＞\n【開催期間】2026年12月2日（水）～2026年12月15日（火）\n【開催場所】HMV&BOOKS SHIBUYA\n＜大阪会場＞\n【開催期間】2027年1月13日（水）～2027年1月31日（日）\n【開催場所】HMV&BOOKS NAMBA"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fd3ef5b17cb41dec79c8a31d",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6810",
+        "title": "『ラブライブ！虹ヶ咲学園スクールアイドル同好会』ニジガクメンバーからバレンタインのチョコサンドクッキーが予約開始＆2027年ホワイトデーPOP UP SHOPの開催が決定！",
+        "first_seen_at": "2026-11-11T15:16:21.467Z",
+        "last_seen_at": "2026-11-11T15:16:21.467Z",
+        "changed_at": "2026-11-11T15:16:21.467Z",
+        "content_hash": "93df8510971b1763d322c238b771141e45f35b3c4c776b7fdc69e5c247e0a279",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/K9Gk57ujWx1IqOiK/mKPXJ0byyDmsnMAC.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/mZNo5hJJD40P2tZm/gK32BJTOeX90m4nv.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/RlOIdLOyibOOsQxi/KgPaOQtrfBnt3Ao2.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/KAbuRCalkoBocARq/TWz4TvvGGDnVcMU3.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/jng8nMxnWRXiPYIW/g33OvvWIVT5ja1BX.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/D1NmnDAQYq7O8uq6/JtYCyCnB7vPUwChY.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/M57UqIF2ONG4N6de/uEb4WHOgcX4k2Pmw.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/IAWT9hmObMKwQtvr/uWE1upGc0cF5wSJn.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/xuNx2d1RxDi4MqI7/mMKejTsHKZvKGP33.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/wiy81Id1GdcFhNoL/Le7jkF2CJgSWEQir.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/h4ZMxkPK8hDbcZAU/7AsEWE51DuK8JQfO.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/XclCNnX7AGOwwdSI/Be2JKmklOXzIYjad.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/ybEJcleH0srLn2js/qblG9UnmWhn9PKBW.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/BcD9S7mDyDDE7nfh/XXoIyfm0YqTVc1T8.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/D4KD0bkPh544Tfsg/umdzAOye12QnM6G7.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/N7R4BLtKQTr8MPq9/LJZMOApIZ4ts4PpG.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/Y9fCX5yxyM6CJcbI/0lZscjZEslbIXOKr.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/Q9KLasJgzEAD0UO7/wdeXgBKgsCanuYYC.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/PFqnF7XmJrjaYPxq/wC4H8pdNtHBZf042.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ],
+        "image_readings": [],
+        "activity": {
+          "kind": "offline",
+          "state": "needs_review",
+          "title_zh": "虹咲 White Day 2027 有乐町快闪及13款礼盒预订",
+          "summary_zh": "2027年3月1日至14日在有乐町丸井8F举行白色情人节快闪；13款礼盒各3,850日元，线上预订至2026年12月6日23:59，预计2027年3月上旬发售配送，现场限量先行销售。高咲侑附照片卡和全员明信片，其余12人附留言卡。入场安排尚未说明。",
+          "source_hash": "6427813156dbfd519bb0f4f9681144c05041890b56366274242e3ff572b089db",
+          "model": "source-reviewed",
+          "reason": "复核仍标记有未确定信息，暂不用于行程匹配；日期地点已逐项核对，入场与预约规则未说明，保留待审核。商品销售时间不当作入场时间。",
+          "rules": [
+            {
+              "title": "会期与限量先行销售",
+              "text_zh": "有乐町丸井8F，2027年3月1日至14日；限量先行销售礼盒，详情后续公布，活动信息可能变更。",
+              "evidence_ja": "「LoveLive!Days」presents 『ラブライブ！虹ヶ咲学園スクールアイドル同好会』White Day 2027 POP UP SHOP in有楽町マルイ\n■開催期間：2027年3月1日(月)～3月14日(日)\n■開催場所：有楽町マルイ8F\n※『ラブライブ！虹ヶ咲学園スクールアイドル同好会』NIJIGAKU's White Day 2027 お菓子セット(全13種)も数量限定でPOP UP SHOP店頭にて先行販売予定です。確実に手に入れるには【12月6日(日)23:59】までのご予約をおすすめいたします。\n※諸般の事情により、イベント情報は予告なく変更になる場合がございます。"
+            },
+            {
+              "title": "预订与发售",
+              "text_zh": "各款3,850日元含税，预订截至2026年12月6日23:59；预计2027年3月上旬发售，发售后依序配送；3月1日活动先行销售。商品预订不等同入场预约。",
+              "evidence_ja": "各価格：3,850円（税込）\n予約期間：～2026年12月6日(日) 23:59\nお届け予定日：発売日以降、順次お届け予定\n発売日：2027年3月上旬発売予定【2027年3月1日(月)イベント先行販売】"
+            },
+            {
+              "title": "礼盒规格及高咲侑例外",
+              "text_zh": "Colombin甜巧克力夹心猫舌饼干8片，标示过敏原小麦、蛋、乳、大豆，保质期制造后210天；附心形闪粉亚克力立牌及原创盒。侑款附照片卡与全员明信片，不附成员留言卡；其他12款附各成员留言卡。立牌本体约13×12cm、底座约5×5cm，角色间有差异；卡片约6.3×8.8cm、侑明信片约14.8×10cm、盒约18.3×14×6.6cm。",
+              "evidence_ja": "■商品仕様\n➀高咲 侑\n・チョコサンドクッキー\nコロンバン社製「メルヴェイユ（スイートチョコレート）」8枚\n特定原材料等（アレルギー）…小麦・卵・乳・大豆\n※コンタミネーション→コンタミなし\n賞味期限…製造後210日\n・ハート型ラメ入りアクリルスタンド\nサイズ：本体/約W13×H12cm、台座/約W5×H5cm\n※キャラクターによりサイズが異なります\n素材：アクリル\n・フォトカード\n約W6.3×H8.8cm\n素材：紙\n・全員集合ポストカード\n約W14.8×H10cm\n素材：紙\n・オリジナルBOX入れ\nサイズ：約W18.3×D14×H6.6cm\n素材：紙\n②上原歩夢、中須かすみ、桜坂しずく、朝香果林、宮下 愛、近江彼方、優木せつ菜、エマ・ヴェルデ、天王寺璃奈、三船栞子、ミア・テイラー、鐘 嵐珠\n・チョコサンドクッキー\nコロンバン社製「メルヴェイユ（スイートチョコレート）」8枚\n特定原材料等（アレルギー）…小麦・卵・乳・大豆\n※コンタミネーション→コンタミなし\n賞味期限…製造後210日\n・ハート型ラメ入りアクリルスタンド\nサイズ：本体/約W13×H12cm、台座/約W5×H5cm\n※キャラクターによりサイズが異なります\n素材：アクリル\n・メンバーからの愛がたっぷりメッセージカード\nサイズ：約W6.3×H8.8cm\n素材：紙\n・オリジナルBOX入れ\nサイズ：約W18.3×D14×H6.6cm\n素材：紙"
+            },
+            {
+              "title": "数量及示意图",
+              "text_zh": "售达预定数量可能提前结束；规格可能变更，商品图是示意，实物可能不同。",
+              "evidence_ja": "※販売予定数に達した時点で受付を終了させていただく場合がございます。\n※商品仕様は予告なく変更になる場合がございます。予めご了承ください。\n※商品画像はイメージとなります。実際の商品と異なる場合がございます。\n※2027年3月1日(月)より開催のPOP UP SHOP店頭にて数量限定で先行販売予定です。確実に手に入れるにはカドストでの【12月6日(日)23:59】までのご予約をおすすめいたします。\n※諸般の事情により、イベント情報は予告なく変更になる場合がございます。"
+            }
+          ]
+        }
+      },
+      {
         "id": "fdc224fad7ccb987ec71bc17",
         "source_id": "liella-official",
         "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6787",
@@ -29483,15 +29893,15 @@
       }
     ],
     "monitoring": {
-      "checked_at": "2026-11-10T14:09:50.431Z",
+      "checked_at": "2026-11-11T15:16:21.467Z",
       "sources": [
         {
           "id": "bang-dream-live",
           "name": "BanG Dream! Live / Event",
           "url": "https://bang-dream.com/events/",
           "state": "empty",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -29503,8 +29913,8 @@
           "name": "BanG Dream! 新闻",
           "url": "https://bang-dream.com/news/",
           "state": "empty",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -29516,8 +29926,8 @@
           "name": "Bushiroad Creative",
           "url": "https://bushiroad-creative.com/",
           "state": "empty",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -29528,11 +29938,11 @@
           "id": "nijigasaki-news",
           "name": "虹咲官网新闻",
           "url": "https://www.lovelive-anime.jp/nijigasaki/topics.php",
-          "state": "empty",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
-          "pages": 0,
-          "discovered": 0,
+          "state": "success",
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
+          "pages": 3,
+          "discovered": 3,
           "deferred": 0,
           "retained": 17,
           "issues": []
@@ -29542,8 +29952,8 @@
           "name": "少女歌剧新闻",
           "url": "https://revuestarlight.com/news/",
           "state": "empty",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -29568,8 +29978,8 @@
           "name": "SWEETS PARADISE",
           "url": "https://www.sweets-paradise.jp/collaboration/",
           "state": "empty",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -29581,8 +29991,8 @@
           "name": "少女歌剧 Live / Event",
           "url": "https://revuestarlight.com/event/",
           "state": "empty",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -29594,8 +30004,8 @@
           "name": "Aqours · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/uranohoshi/topics.php",
           "state": "success",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
           "pages": 4,
           "discovered": 4,
           "deferred": 0,
@@ -29607,8 +30017,8 @@
           "name": "μ's · 新闻与演出",
           "url": "https://www.lovelive-anime.jp/otonokizaka/topics.php",
           "state": "empty",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -29620,8 +30030,8 @@
           "name": "人生不易部 · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/lovehigh/news/",
           "state": "empty",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -29633,8 +30043,8 @@
           "name": "Love Live! 跨企划演出",
           "url": "https://www.lovelive-anime.jp/lovehigh/live/",
           "state": "empty",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -29646,8 +30056,8 @@
           "name": "莲之空 · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/hasunosora/news/",
           "state": "empty",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -29659,12 +30069,12 @@
           "name": "Liella! · 新闻与 Live",
           "url": "https://www.lovelive-anime.jp/yuigaoka/topics/",
           "state": "success",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
-          "pages": 2,
-          "discovered": 2,
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
+          "pages": 1,
+          "discovered": 1,
           "deferred": 0,
-          "retained": 5,
+          "retained": 6,
           "issues": []
         },
         {
@@ -29672,8 +30082,8 @@
           "name": "学园偶像大师 · 官方巡演",
           "url": "https://idolmaster-official.jp/live_event/gkmas_livetour_shirube/",
           "state": "empty",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -29685,8 +30095,8 @@
           "name": "学园偶像大师 · 厂牌新闻",
           "url": "https://gakuen-label.idolmaster-official.jp/news",
           "state": "empty",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
           "pages": 0,
           "discovered": 0,
           "deferred": 0,
@@ -29698,16 +30108,17 @@
           "name": "学园偶像大师 · 综合门户新闻",
           "url": "https://idolmaster-official.jp/news?page_index=1",
           "state": "success",
-          "last_attempt_at": "2026-11-10T14:09:50.431Z",
-          "last_success_at": "2026-11-10T14:09:50.431Z",
-          "pages": 4,
-          "discovered": 4,
+          "last_attempt_at": "2026-11-11T15:16:21.467Z",
+          "last_success_at": "2026-11-11T15:16:21.467Z",
+          "pages": 1,
+          "discovered": 1,
           "deferred": 0,
           "retained": 6,
           "issues": []
         }
       ],
       "unread_announcement_ids": [
+        "fdc224fad7ccb987ec71bc17",
         "67f9299edc54ad47e9153bc1",
         "a86ac7299ac07946c73d4342",
         "e815358ba659fcb5106a0122",

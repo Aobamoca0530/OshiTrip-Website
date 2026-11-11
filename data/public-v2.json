@@ -1,7 +1,7 @@
 {
   "formatVersion": 2,
-  "revision": "1378351142bac03bafc749620e2c865db51cabfa0ac761fe8da82dd77a6f6e58",
-  "publishedAt": "2026-11-10T14:13:53.343Z",
+  "revision": "8fd75759bda0ea9e49289e3980fcd6aac1ed203adcea3b29f6856b5c70466564",
+  "publishedAt": "2026-11-11T15:23:16.827Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -20860,6 +20860,303 @@
       }
     ],
     "announcements": [
+      {
+        "id": "1a3c9673e6abad974918b807",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6785",
+        "title": "「Photoism × LoveLive! Series 15th Anniversary ラブライブ！フェス」コラボサービス開始の案内",
+        "first_seen_at": "2026-11-11T15:16:21.467Z",
+        "last_seen_at": "2026-11-11T15:16:21.467Z",
+        "changed_at": "2026-11-11T15:16:21.467Z",
+        "content_hash": "8a7fe79014f7441cfaa6018d6f9b82f1d75727922376b34aefff1b1816fb2a8f",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/fBulF7n3OW6MShaQ/aZ1FKd82fg2iojHZ.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/OmSdNDmoIdrEW9jv/qRSavigrAak6WCTh.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/qQYECcPZaEAKnfSJ/qixof70lWzFouIqT.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/u7ssrtqOLLmINi0G/6NQweBc8et5iJ4gF.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/LmDfFCjOzHjCBNlp/of05NgqfMSN9p5a7.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/Z2eWTadOSDJl6Yko/c3pUHIacvkNfO0VH.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/709k4EhA8U7O1f0U/unRaHJ61PQzjFLrg.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "a1e69e2b8d339baf7fc7fd31",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6789",
+        "title": "ラブライブ！シリーズ×GiGOコラボカフェ秋葉原3号館10周年コラボカフェ詳細更新のお知らせ",
+        "first_seen_at": "2026-11-11T15:16:21.467Z",
+        "last_seen_at": "2026-11-11T15:16:21.467Z",
+        "changed_at": "2026-11-11T15:16:21.467Z",
+        "content_hash": "7b2bf2b1d5ef3eea87ea563b517c1c948e5b630f5955ad4e3f635abb1d8915f5",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/JvXoGYe0uqoVxcAS/QoNemrO0gsqSSvVz.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/SPvAr5iSf3sV1UU3/DwwtVusm7GXwmz4U.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/KRb3I9AvyhcjBsH8/iGnOcOkWrmhC9tZB.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/hdyVf8m1eSmBUP5f/JXByjfuaK7KMuwMx.jpeg",
+            "alt": "",
+            "kind": "menu"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/jxK806LYsfpuheDC/IngoNrvY3DpqHHkz.jpeg",
+            "alt": "",
+            "kind": "menu"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/TEwHg0pkuE67meLC/2mmfc6QWV0PPhuKu.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/7MfQTfMDLLBEOaec/GKtiAvdnEE72usAk.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/Nh6xB7YdEA12tGbC/TcITO43i76cprNNd.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/vbyaJjdQsJ05YGMX/ffb9ul9f9G0BH6nJ.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/KZkTIqUOUQQsi2PT/XNGkyfHkrNWqVCzS.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/0Q0xfxBw0UqZ3iR5/2HFDbb8XrpruLJBk.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/VjjZqLbZ54Zv0xeh/MREudwDorgnJ6e3S.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/6Tf2hcdOYiZ5XctJ/WoHv7E8ZiQ7ZWbkb.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/IT6OksCQ5ATRsJfq/5NZ6yX2CUWqnsMEf.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/A4trTId8Rgx9knwv/hhKpiaNxMUpBFxSq.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/KonkMXIUG6hLme9x/ZafgtveTpvbwgA7l.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/XLVbgVxOFDkxsV0j/Q9n96EPXgab6jRU1.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/Kg7OviDKI6WPCozA/YdrIi6Xwbik8fXFA.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "id": "aec255da837ed37967876207",
+        "source_id": "aqours-official",
+        "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6782",
+        "title": "「ラブライブ！サンシャイン!!」×HMV POP UP SHOP 詳細情報の解禁！",
+        "first_seen_at": "2026-11-11T15:16:21.467Z",
+        "last_seen_at": "2026-11-11T15:16:21.467Z",
+        "changed_at": "2026-11-11T15:16:21.467Z",
+        "content_hash": "514a741ee9c2aab70aca890443d97306c0ed963a52e3214ab2bcd05193911b03",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/fdkjSvijFjLfCssU/aWPhwvq8VD7uZFQF.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/VT5eEdNlWife53py/XmJ5Za9DPPIdr7o9.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/H9Gj42VuUDdLiQ1p/rMngoRImpRitjuFu.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/XAup0OfQghPSNAXl/udwQjPXtRLPAWwnR.jpeg",
+            "alt": "",
+            "kind": "bonus"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/8QPcFDkNvaPszI6I/4DRsE6CepMU3PV7f.jpeg",
+            "alt": "",
+            "kind": "bonus"
+          }
+        ]
+      },
+      {
+        "id": "fd3ef5b17cb41dec79c8a31d",
+        "source_id": "nijigasaki-news",
+        "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6810",
+        "title": "『ラブライブ！虹ヶ咲学園スクールアイドル同好会』ニジガクメンバーからバレンタインのチョコサンドクッキーが予約開始＆2027年ホワイトデーPOP UP SHOPの開催が決定！",
+        "first_seen_at": "2026-11-11T15:16:21.467Z",
+        "last_seen_at": "2026-11-11T15:16:21.467Z",
+        "changed_at": "2026-11-11T15:16:21.467Z",
+        "content_hash": "93df8510971b1763d322c238b771141e45f35b3c4c776b7fdc69e5c247e0a279",
+        "related_event_ids": [],
+        "images": [
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/K9Gk57ujWx1IqOiK/mKPXJ0byyDmsnMAC.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/mZNo5hJJD40P2tZm/gK32BJTOeX90m4nv.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/RlOIdLOyibOOsQxi/KgPaOQtrfBnt3Ao2.jpeg",
+            "alt": "",
+            "kind": "merchandise"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/KAbuRCalkoBocARq/TWz4TvvGGDnVcMU3.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/jng8nMxnWRXiPYIW/g33OvvWIVT5ja1BX.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/D1NmnDAQYq7O8uq6/JtYCyCnB7vPUwChY.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/M57UqIF2ONG4N6de/uEb4WHOgcX4k2Pmw.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/IAWT9hmObMKwQtvr/uWE1upGc0cF5wSJn.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/xuNx2d1RxDi4MqI7/mMKejTsHKZvKGP33.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/wiy81Id1GdcFhNoL/Le7jkF2CJgSWEQir.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/h4ZMxkPK8hDbcZAU/7AsEWE51DuK8JQfO.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/XclCNnX7AGOwwdSI/Be2JKmklOXzIYjad.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/ybEJcleH0srLn2js/qblG9UnmWhn9PKBW.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/BcD9S7mDyDDE7nfh/XXoIyfm0YqTVc1T8.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/D4KD0bkPh544Tfsg/umdzAOye12QnM6G7.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/N7R4BLtKQTr8MPq9/LJZMOApIZ4ts4PpG.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/Y9fCX5yxyM6CJcbI/0lZscjZEslbIXOKr.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/Q9KLasJgzEAD0UO7/wdeXgBKgsCanuYYC.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          },
+          {
+            "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/PFqnF7XmJrjaYPxq/wC4H8pdNtHBZf042.jpeg",
+            "alt": "",
+            "kind": "unknown"
+          }
+        ]
+      },
       {
         "id": "fdc224fad7ccb987ec71bc17",
         "source_id": "liella-official",

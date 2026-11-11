@@ -1870,5 +1870,147 @@
         }
       ]
     }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6789",
+    "source_hash": "3cce0c7f2f177b0bb4be4c82859eb147e164dfe423f0a454f7f646557bba1af0",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/KZkTIqUOUQQsi2PT/XNGkyfHkrNWqVCzS.jpeg",
+    "sha256": "51f76225089a16e30babd3462b3eb7ca321175b7f0e0680149189a422455217f",
+    "reviewed_at": "2026-11-11T15:22:58.392Z",
+    "approved": true,
+    "reason": "三层周年餐盘实物示意，无点单文字；价格及限量依正文，不从图片推断。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6789",
+    "source_hash": "3cce0c7f2f177b0bb4be4c82859eb147e164dfe423f0a454f7f646557bba1af0",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/0Q0xfxBw0UqZ3iR5/2HFDbb8XrpruLJBk.jpeg",
+    "sha256": "a8b33caafee3e1446075174483fecb661645b093152074b0be221f9b61699c03",
+    "reviewed_at": "2026-11-11T15:22:58.396Z",
+    "approved": true,
+    "reason": "12款票券风透明卡样张，无额外领取规则。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6789",
+    "source_hash": "3cce0c7f2f177b0bb4be4c82859eb147e164dfe423f0a454f7f646557bba1af0",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/VjjZqLbZ54Zv0xeh/MREudwDorgnJ6e3S.jpeg",
+    "sha256": "bb26f0b4017011da23b3f3ca5dbf44520f9760d9453f300da6c8077e1b3e7cbf",
+    "reviewed_at": "2026-11-11T15:22:58.397Z",
+    "approved": true,
+    "reason": "12款圆形成员杯垫样张，无额外领取规则。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6789",
+    "source_hash": "3cce0c7f2f177b0bb4be4c82859eb147e164dfe423f0a454f7f646557bba1af0",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/KonkMXIUG6hLme9x/ZafgtveTpvbwgA7l.jpeg",
+    "sha256": "8ccb99414faa2527a8cb05686db3f850c580b5cd03549d9a8efcde4bee23cc73",
+    "reviewed_at": "2026-11-11T15:22:58.397Z",
+    "approved": true,
+    "reason": "12款迷你透明照片卡样张，无额外购买条件。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6789",
+    "source_hash": "3cce0c7f2f177b0bb4be4c82859eb147e164dfe423f0a454f7f646557bba1af0",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/Kg7OviDKI6WPCozA/YdrIi6Xwbik8fXFA.jpeg",
+    "sha256": "af92dee04768af52ad63e9976ac90e7240b9671f334a999774e63dd47a580648",
+    "reviewed_at": "2026-11-11T15:22:58.398Z",
+    "approved": true,
+    "reason": "实际读取虹咲烧海报并与正文交叉复核，日期和店铺一致；结构化日期仍以正文为据。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "特典",
+          "title": "虹咲烧杯垫",
+          "evidence_ja": "オリジナルコースター ランダム 全13種",
+          "text_zh": "原创杯垫全13种，随机发放；每个虹咲烧获1张的数量规则以正文为准。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6785",
+    "source_hash": "aaabadd844f7c47b22547aa3e5d5e5f53b9be009534111d91fba8791d750ba50",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/fBulF7n3OW6MShaQ/aZ1FKd82fg2iojHZ.jpeg",
+    "sha256": "1a35e27b2a064db22c220a85c26f708230a73fe8e20eff409031847a925ee1ab",
+    "reviewed_at": "2026-11-11T15:22:58.398Z",
+    "approved": true,
+    "reason": "实际读取μ's九名成员拍照框示意，未列售价、门店、参加或预约规则，不从样张推断。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6782",
+    "source_hash": "8a906023efec1d4cbfc31eca608b1eb3256c589c48a6fbbc185957b9dc668543",
+    "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/XAup0OfQghPSNAXl/udwQjPXtRLPAWwnR.jpeg",
+    "sha256": "baf54bf1cf7b1f8278bf151149321f4b1169b8bdef2d81a8ec718ad018766e6e",
+    "reviewed_at": "2026-11-11T15:22:58.399Z",
+    "approved": true,
+    "reason": "实际读取并独立复核九款特典迷你卡的消费门槛、随机发放与底部限制。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "特典",
+          "title": "每满2,000日元赠随机迷你卡",
+          "evidence_ja": "税込 2,000円 お買い上げごとに 特典ミニカードをランダムで1枚プレゼント！ 全9種",
+          "text_zh": "活动期间购买《Love Live! Sunshine!!》相关商品，每满2,000日元含税随机赠迷你卡1张，共9种，不能选图。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "数量及变更说明",
+          "evidence_ja": "特典はなくなり次第終了とさせていただきます。 内容は予告なく変更する場合がございます。 絵柄はお選びいただけません。",
+          "text_zh": "特典送完即止，内容可能不预告变更，图案不可选择；图片为示意，实物可能不同。发放可能因情况变更、延期或中止。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6782",
+    "source_hash": "8a906023efec1d4cbfc31eca608b1eb3256c589c48a6fbbc185957b9dc668543",
+    "url": "https://www.lovelive-anime.jp/uranohoshi/topics/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/8QPcFDkNvaPszI6I/4DRsE6CepMU3PV7f.jpeg",
+    "sha256": "ce9267b4ec9bbd1436b0664f9753b404cadb93913d5a2e188f654388b461d445",
+    "reviewed_at": "2026-11-11T15:22:58.399Z",
+    "approved": true,
+    "reason": "实际读取并独立复核会场限定插画卡门槛与事后网购不附赠的限制。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "特典",
+          "title": "会场每满4,000日元赠插画卡",
+          "evidence_ja": "会場限定 期間中、「ラブライブ！サンシャイン!!」関連商品を 税込4,000円 お買い上げごとに 特典イラストカードを1枚プレゼント！",
+          "text_zh": "会场限定：活动期间购买《Love Live! Sunshine!!》相关商品，每满4,000日元含税赠插画卡1张。",
+          "uncertain": false
+        },
+        {
+          "kind": "特典",
+          "title": "事后网购不附赠",
+          "evidence_ja": "特典はなくなり次第終了とさせていただきます。 内容は予告なく変更する場合がございます。 事後通販には付属いたしません。",
+          "text_zh": "特典送完即止，内容可能不预告变更，事后网购不附赠；图片为示意，实物可能不同，发放可能变更、延期或中止。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
   }
 ]
