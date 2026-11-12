@@ -2012,5 +2012,109 @@
       ],
       "unreadable": false
     }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6785",
+    "source_hash": "029de5a4e4c7c0264cf235db6ef21878166830557cb5397a9aa4bc9bb2169f88",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/9z2MMbwYtDJI4lLv/lWEUZ7NhZnV4GxPV.jpeg",
+    "sha256": "1e57bd5a493fb081c4afca4c5b6292e15e32cc6c4d482c994feb87ab612f38a5",
+    "reviewed_at": "2026-11-12T22:56:04.975Z",
+    "approved": true,
+    "reason": "μ's九人合影框样张；实际读取并复核，仅角色名及视觉，无额外价格、地点或参加规则。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6785",
+    "source_hash": "029de5a4e4c7c0264cf235db6ef21878166830557cb5397a9aa4bc9bb2169f88",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/Ki7IghYIlGRw4PLL/xs9LrSZknvZxkZup.jpeg",
+    "sha256": "381bbcd676330d51844c6feb1fb43a455d994ecd39dcfac30be79745811355ee",
+    "reviewed_at": "2026-11-12T22:56:04.978Z",
+    "approved": true,
+    "reason": "Aqours九人合影框样张；实际读取并复核，仅角色名及视觉，无额外价格、地点或参加规则。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6785",
+    "source_hash": "029de5a4e4c7c0264cf235db6ef21878166830557cb5397a9aa4bc9bb2169f88",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/5SqP77IHgBQF5s0H/U9t5IOUvgpFlwqt2.jpeg",
+    "sha256": "9ce6a9ca1a175ca03a5a32c5c963b788597e9dae09b94328d544307706ad1dc0",
+    "reviewed_at": "2026-11-12T22:56:04.980Z",
+    "approved": true,
+    "reason": "虹咲十三人（含侑）合影框样张；实际读取并复核，仅角色名及视觉，无额外价格、地点或参加规则。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6785",
+    "source_hash": "029de5a4e4c7c0264cf235db6ef21878166830557cb5397a9aa4bc9bb2169f88",
+    "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/QeqwDV2r2BgRw5qr/NmlZKGJgxFyDsj7t.jpeg",
+    "sha256": "e55022a7fdb4b35fd0762ffe6075f4fa66bb24312e4ca64c587cc0b5f05c2593",
+    "reviewed_at": "2026-11-12T22:56:04.981Z",
+    "approved": true,
+    "reason": "Liella!十一人合影框样张；实际读取并复核，仅角色名及视觉，无额外价格、地点或参加规则。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+    "source_hash": "7fb3b2f1bde31732121449f596c5b7210cb245c84f6ae150454bb41bcfe2515a",
+    "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/04/18/1002/c56700lQDN6V4XEY/N7odUamdfI4wq7eg.jpeg",
+    "sha256": "fde5838f69760ec7f6966f8ad7ec3405a498e86d82e88a02a9733b1cfeee8d66",
+    "reviewed_at": "2026-11-12T22:56:04.981Z",
+    "approved": true,
+    "reason": "实际读取演出主视觉，三名角色及演出标题，无报名规则；不当作商品封面。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+    "source_hash": "7fb3b2f1bde31732121449f596c5b7210cb245c84f6ae150454bb41bcfe2515a",
+    "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/QMMA8Zbzz8dI3IMM/btyKdHSgCC5BgRAY.jpeg",
+    "sha256": "f734ab846a9e652bffed98efeb148c6545187f463365a10fafb92bf9a12a0485",
+    "reviewed_at": "2026-11-12T22:56:04.982Z",
+    "approved": true,
+    "reason": "实际读取梨子亚克力板加三款成员徽章的现场票特典样张，与正文对应，无额外领取文字规则。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+    "source_hash": "7fb3b2f1bde31732121449f596c5b7210cb245c84f6ae150454bb41bcfe2515a",
+    "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/1de9UPokGkOFsZj4/vFhEwZH6jAJkyFM0.jpeg",
+    "sha256": "ab9889f4b1546a69c07f7b79d5621d54cbb0454c98f272765599a16eebea9e3c",
+    "reviewed_at": "2026-11-12T22:56:04.982Z",
+    "approved": true,
+    "reason": "实际读取鞠莉亚克力板的SPWN配信票特典样张，与正文对应，无额外规则。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+    "source_hash": "7fb3b2f1bde31732121449f596c5b7210cb245c84f6ae150454bb41bcfe2515a",
+    "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/aJRdgGrgliwMu95K/gZqHMY4CX1ho0pGM.jpeg",
+    "sha256": "1346c22f2778b0f65d65abd7081a07c94120728acc0ff94be68c0a7277893e82",
+    "reviewed_at": "2026-11-12T22:56:04.983Z",
+    "approved": true,
+    "reason": "实际读取善子亚克力板的VRChat配信票特典样张，与正文对应，无额外规则。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
   }
 ]

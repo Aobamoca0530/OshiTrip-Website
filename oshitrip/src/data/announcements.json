@@ -5,43 +5,43 @@
     "source_url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6785",
     "title": "「Photoism × LoveLive! Series 15th Anniversary ラブライブ！フェス」コラボサービス開始の案内",
     "first_seen_at": "2026-11-11T15:16:21.467Z",
-    "last_seen_at": "2026-11-11T15:16:21.467Z",
-    "changed_at": "2026-11-11T15:16:21.467Z",
-    "content_hash": "8a7fe79014f7441cfaa6018d6f9b82f1d75727922376b34aefff1b1816fb2a8f",
+    "last_seen_at": "2026-11-12T22:50:54.637Z",
+    "changed_at": "2026-11-12T22:50:54.637Z",
+    "content_hash": "97b1968a85fe20583d6e064f26b497eb332d2507d0b62b2d86f2998cf0a5c918",
     "related_event_ids": [],
     "images": [
       {
-        "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/fBulF7n3OW6MShaQ/aZ1FKd82fg2iojHZ.jpeg",
+        "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/9z2MMbwYtDJI4lLv/lWEUZ7NhZnV4GxPV.jpeg",
         "alt": "",
         "kind": "unknown"
       },
       {
-        "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/OmSdNDmoIdrEW9jv/qRSavigrAak6WCTh.jpeg",
+        "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/Ki7IghYIlGRw4PLL/xs9LrSZknvZxkZup.jpeg",
         "alt": "",
         "kind": "unknown"
       },
       {
-        "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/qQYECcPZaEAKnfSJ/qixof70lWzFouIqT.jpeg",
+        "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/5SqP77IHgBQF5s0H/U9t5IOUvgpFlwqt2.jpeg",
         "alt": "",
         "kind": "unknown"
       },
       {
-        "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/u7ssrtqOLLmINi0G/6NQweBc8et5iJ4gF.jpeg",
+        "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/QeqwDV2r2BgRw5qr/NmlZKGJgxFyDsj7t.jpeg",
         "alt": "",
         "kind": "unknown"
       },
       {
-        "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/LmDfFCjOzHjCBNlp/of05NgqfMSN9p5a7.jpeg",
+        "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/iTHwWO5KBOcnLrUk/jPjHX3ZP9tRiGIF9.jpeg",
         "alt": "",
         "kind": "unknown"
       },
       {
-        "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/Z2eWTadOSDJl6Yko/c3pUHIacvkNfO0VH.jpeg",
+        "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/MkmiKr2KQA2qOk6S/OEfpFcv8doPLpKX4.jpeg",
         "alt": "",
         "kind": "unknown"
       },
       {
-        "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/06/1002/709k4EhA8U7O1f0U/unRaHJ61PQzjFLrg.jpeg",
+        "url": "https://www.lovelive-anime.jp/nijigasaki/module/image.php?img_path=/lovelive/jp/news/2026/11/11/1002/DSje9yZ4GxK70BKK/VMOzGrdZYu48UK4c.jpeg",
         "alt": "",
         "kind": "unknown"
       }
@@ -63,14 +63,243 @@
           "evidence_ja": "【サービス期間】\n2026年11月13日（金）〜2027年2月28日（日）\n【撮影場所・店舗情報】\n日本全国のPhotoism店舗、\n全世界のPhotoism店舗で撮影できます。\n※日本国内の店舗一覧はこちら\nhttps://4cutphoto.com/gallery/"
         }
       ],
-      "source_hash": "aaabadd844f7c47b22547aa3e5d5e5f53b9be009534111d91fba8791d750ba50",
+      "source_hash": "029de5a4e4c7c0264cf235db6ef21878166830557cb5397a9aa4bc9bb2169f88",
       "model": "source-reviewed",
-      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已逐项核对服务期与73名偶像范围；缺逐店资料和参加规则，全球门店不直接当作一个日本场馆，保留待审核。",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；重新阅读11月12日更新正文：服务期与73名偶像范围不变，图片URL更新。仍无具体逐店场馆信息，保持待审核，不将全球范围当作一个可匹配场馆。",
       "review": {
         "state": "rejected",
         "provider": "manual",
         "model": "source-reviewed",
-        "reason": "已逐项核对服务期与73名偶像范围；缺逐店资料和参加规则，全球门店不直接当作一个日本场馆，保留待审核。"
+        "reason": "重新阅读11月12日更新正文：服务期与73名偶像范围不变，图片URL更新。仍无具体逐店场馆信息，保持待审核，不将全球范围当作一个可匹配场馆。"
+      }
+    },
+    "image_readings": []
+  },
+  {
+    "id": "9cfb2d214ec41aea7e96fcb8",
+    "source_id": "aqours-official",
+    "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
+    "title": "Guilty Kiss Musical Performance 漆黒のWanted Ghost",
+    "first_seen_at": "2026-10-29T12:15:33.162Z",
+    "last_seen_at": "2026-11-12T22:50:54.637Z",
+    "changed_at": "2026-11-12T22:50:54.637Z",
+    "content_hash": "dd7062330ff34983a3a5abd6becfb33d03c8eecf3e2bc57323b4c5f17c05bf95",
+    "related_event_ids": [
+      "auto-9cfb2d214ec41aea"
+    ],
+    "images": [
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/04/18/1002/c56700lQDN6V4XEY/N7odUamdfI4wq7eg.jpeg",
+        "alt": "",
+        "kind": "unknown"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/QMMA8Zbzz8dI3IMM/btyKdHSgCC5BgRAY.jpeg",
+        "alt": "",
+        "kind": "unknown"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/1de9UPokGkOFsZj4/vFhEwZH6jAJkyFM0.jpeg",
+        "alt": "",
+        "kind": "merchandise"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/aJRdgGrgliwMu95K/gZqHMY4CX1ho0pGM.jpeg",
+        "alt": "",
+        "kind": "merchandise"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/ixgdTLxfF2W1fFRT/UgHDVIGOaWL8hvJS.jpeg",
+        "alt": "",
+        "kind": "unknown"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/atNMtURepYKSclfD/dlw8Ezrf28rw7Y6w.jpeg",
+        "alt": "",
+        "kind": "unknown"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/HTwZwoU7d4eqQ79Z/oLgDI2mfYUfjjUZt.jpeg",
+        "alt": "",
+        "kind": "unknown"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/27/1002/VL2BdYybyttYvOHc/lO2cDT2DBMzlfZAT.jpeg",
+        "alt": "",
+        "kind": "merchandise"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/hvaS4VmT47x86BBr/9kXn0yYELCkIE1Cp.jpeg",
+        "alt": "",
+        "kind": "merchandise"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/27/1002/mVvmlPCWvSSjE43l/t6YF7mi4NZxNRsrp.jpeg",
+        "alt": "",
+        "kind": "merchandise"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/27/1002/oKrS3R0TgXodxGfH/Jy21F7tI9k6piGO3.jpeg",
+        "alt": "",
+        "kind": "merchandise"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/3k5Bu3ANJMLKXI4X/Efv4MLwaT294O9lF.jpeg",
+        "alt": "",
+        "kind": "unknown"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/IDySlM2grP9pypHG/17E6HcaPluhQtdBC.jpeg",
+        "alt": "",
+        "kind": "unknown"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/7GqXkmAwXpvdmRJm/7UW26a7UT4uskGEB.jpeg",
+        "alt": "",
+        "kind": "merchandise"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/OervKDRbJEyBKETk/RnSaxLuWyFO1cjXN.jpeg",
+        "alt": "",
+        "kind": "merchandise"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/wWhN892LaZD6yGIx/f5RU2biYdgjNLSJf.jpeg",
+        "alt": "",
+        "kind": "unknown"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/OyCYlWKRJCWbXwyn/PypLGqFkovwsW2Qe.jpeg",
+        "alt": "",
+        "kind": "unknown"
+      },
+      {
+        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/XeS46QBSmtpOjGt2/jgj6dcwXvYvWml6K.jpeg",
+        "alt": "",
+        "kind": "unknown"
+      }
+    ],
+    "event_identity": {
+      "id": "auto-9cfb2d214ec41aea",
+      "slug": "official-9cfb2d214ec41aea",
+      "venues": [
+        {
+          "id": "auto-9cfb2d214ec41aea-venue-da2fa36162",
+          "name": "沼津市民文化センター",
+          "start_date": "2026-11-22"
+        },
+        {
+          "id": "auto-9cfb2d214ec41aea-venue-c2d0237e08",
+          "name": "沼津市民文化センター",
+          "start_date": "2026-11-23"
+        }
+      ]
+    },
+    "activity": {
+      "kind": "offline",
+      "state": "ready",
+      "title_zh": "Guilty Kiss 音乐剧《漆黑的 Wanted Ghost》",
+      "summary_zh": "2026年11月22、23日在沼津市民文化中心各演两场。这是3DCG音乐剧，声优本人不登台。现场普通指定席9,800日元，SPWN先着售票已于11月12日23:59日本时间截止；文化中心另有售票入口但未写结束时间或余票。新增事后发货网购于11月12日18:00至2027年1月12日23:59受理，买周边不等于购票。",
+      "rules": [
+        {
+          "title": "四场演出",
+          "text_zh": "11月22、23日各有昼夜两场：昼场12:30入场、13:30开演；夜场16:30入场、17:30开演。四场剧情视点和音乐Live曲目不同。",
+          "evidence_ja": "公演日時\nDay.1 2026年11月22日（日）\n昼公演 拒絶への恐怖 - Fear of Rejection - 12:30開場／13:30開演\n夜公演 境遇への反発 - Against Odds - 16:30開場／17:30開演\nDay.2 2026年11月23日（月祝）\n昼公演 結果への焦燥 - Chasing Results - 12:30開場／13:30開演\n夜公演 魂の重奏 - Ensemble of Souls - 16:30開場／17:30開演\n※公演途中より、一部異なる演出と視点から結末へ至る物語をお届けします。\n舞台内容\n完全オリジナルストーリーによる、ミュージカルパフォーマンス\n※芝居と楽曲で構成される「演劇」となります。\n※加えて出演者によるカーテンコール/MCと、公演毎に楽曲が異なる「音楽ライブ」を別途で予定しております。\n※Day.2 夜公演の音楽ライブパートのみスマートフォンでの撮影をOKとする予定です。"
+        },
+        {
+          "title": "演出性质",
+          "text_zh": "场馆为沼津市民文化中心；出演角色是樱内梨子、津岛善子、小原鞠莉。演出为3DCG音乐剧，没有声优现场登台。",
+          "evidence_ja": "会場\n沼津市民文化センター\n出演\n桜内梨子（リリー役）、津島善子（ヨハネ役）、小原鞠莉（マリー役）\n※本公演は3DCGミュージカルであり、キャストの登壇はありません。"
+        },
+        {
+          "title": "现场票价与赠品",
+          "text_zh": "普通全席指定9,800日元，附周边14,800日元（含税）；附周边为梨子B5亚克力板及Guilty Kiss三款徽章。配信票价格不同，不提供现场入场资格。",
+          "evidence_ja": "チケット料金\n＜現地＞\nグッズ付き全席指定チケット：14,800円（税込）\n全席指定チケット：9,800円（税込）\n＜SPWN配信＞ ※公演同時＋アーカイブ\nグッズ付き配信チケット：7,800円（税込）\n配信チケット：4,800円（税込）\n＜VRChat配信＞ ※公演同時＋アーカイブ\nグッズ付きVRChat配信チケット：11,800円（税込）\nVRChat配信チケット：8,800円（税込）\n＜現地＞グッズ付き全席指定チケット特典\nB5アクリルパネル【桜内梨子】＋アクリルバッジ3種【Guilty Kiss】セット"
+        },
+        {
+          "title": "一般售票",
+          "text_zh": "普通票SPWN销售为2026年8月28日18:00至11月12日23:59日本时间，现已截止；附周边票9月27日23:59截止。文化中心另有售票入口，仅公布8月28日18:00开始，未公布结束或余票。售完提前结束，付款失效可能释放库存，不保证有票。",
+          "evidence_ja": "現地チケット：一般先着\n----------\n■受付URL：\nグッズ付き全席指定チケット\nSPWN https://spwn.jp/events/evt_MAEeuurU5wuiqfJCIifc\n販売期間 2026年8月28日（金）18:00～9月27日（日）23:59まで\n全席指定チケット\nSPWN https://spwn.jp/events/evt_MAEeuurU5wuiqfJCIifc\n販売期間 2026年8月28日（金）18:00～11月12日（木）23:59まで\n沼津市民文化センター https://p-ticket.jp/numazu-ccc\n販売期間 2026年8月28日（金）18:00～\n※先着順での販売となります。予定枚数に達し次第、受付を終了いたします。\n※決済流れ等の理由により一部在庫が復活する場合もございます。\n----------"
+        },
+        {
+          "title": "特典领取",
+          "text_zh": "现场票特典须持票本人在演出当天领取，未领取作废，不提前或事后邮寄；不良品仅当天办理更换。",
+          "evidence_ja": "〇現地チケット\n・来場者特典は会場にてチケットをお持ちのご本人様と引き換えとなります。\n・公演当日にお受け取りができない場合は無効となります。事前・事後の発送は行いませんので、あらかじめご了承ください。\n・不良品の交換は当日のみ対応いたします。"
+        },
+        {
+          "title": "入场、退款与转让",
+          "text_zh": "3岁以上收费，需SPWN会员，另收手续费。除延期或取消外不能退票或更改票种；电子票不发行纸票，携带照片证件。不能转让全部同票种门票，至少一张须本人使用；不同票种或批次不能保证连座。 禁止转售。不同票种可能同时中签、部分中签或全落选；申请前须阅读SPWN页面注意事项。",
+          "evidence_ja": "●注意事項●\n※3歳以上有料（入場時に確認させていただく場合がございます。）\n※お申込み時にSPWNの会員登録（無料）が必要です。\n※会場は全席指定席です。\n※チケットの他に各種手数料が必要となります。\n※イベントページ内の「申込前に注意事項を必ずお読みください」を必ずご確認いただきお申し込みください。\n※公演延期ないし中止の場合を除き、払い戻しおよびチケットの種別変更はできません。\n※券種をまたいでチケットを複数枚お申込みいただいた場合、両方当選およびいずれかのチケットのみ当選となる場合もございますのでご了承ください。\n※応募状況によっては全て落選の可能性もございます。\n※抽選、販売期間及び券種をまたいでのチケット複数枚申込では、お席を連番でご用意することはできません。あらかじめご了承ください。\n※同じ券種を複数枚お申し込みいただいた場合、全てのチケットを他人に譲渡することはできません。一枚は必ずご本人がご使用ください。\n※チケットの転売は禁止しております。\n※ご入場の際に会場にて、身分証明書の確認をさせていただく場合がございます。顔写真付きの身分証明書をご持参ください。\n※チケットは電子チケットとなります。紙媒体での発券はいたしませんのでご注意ください。\n※その他注意事項につきましては、 SPWNのイベントページ をご確認ください。"
+        },
+        {
+          "title": "手机拍摄范围",
+          "text_zh": "官网仅计划允许Day2夜场的音乐Live部分用手机拍摄，不能扩大到整场演剧。",
+          "evidence_ja": "※Day.2 夜公演の音楽ライブパートのみスマートフォンでの撮影をOKとする予定です。"
+        },
+        {
+          "title": "已截止的五轮抽选",
+          "text_zh": "以下均为2026年日本时间，全部已截止；每人每场最多4张，可申请多场。预售一抽4/24 18:00–5/10 23:59，5/15 13:00起结果，付款5/15 13:00–5/18 23:59；二抽5/22 18:00–6/7 23:59，6/12 13:00起结果，付款6/12 13:00–6/18 23:59；三抽6/19 18:00–7/5 23:59，7/10 13:00起结果，付款7/10 13:00–7/13 23:59；一般一抽7/17 18:00–7/26 23:59，7/31 13:00起结果，付款7/31 13:00–8/3 23:59；一般二抽8/7 18:00–8/16 23:59，8/21 13:00起结果，付款8/21 13:00–8/24 23:59。未写购买商品附券要求，不推定需要买CD。",
+          "evidence_ja": "現地チケット：プレオーダー先行抽選\n----------\n■受付URL： https://spwn.jp/events/evt_MAEeuurU5wuiqfJCIifc\n■受付期間：2026年4月24日（金）18:00～5月10日（日）23:59\n■当落発表：2026年5月15日（金）13:00～\n■入金期間：2026年5月15日（金）13:00～5月18日（月）23:59\n※枚数制限：お一人様1公演につき、4枚までお申込み可能（複数公演申込可）\n----------\n現地チケット：プレオーダー先行二次抽選\n----------\n■受付URL： https://spwn.jp/events/evt_MAEeuurU5wuiqfJCIifc\n■受付期間：2026年5月22日（金）18:00～6月7日（日）23:59\n■当落発表：2026年6月12日（金）13:00～\n■入金期間：2026年6月12日（金）13:00～6月18日（月）23:59\n※枚数制限：お一人様1公演につき、4枚までお申込み可能（複数公演申込可）\n----------\n現地チケット：プレオーダー先行三次抽選\n----------\n■受付URL： https://spwn.jp/events/evt_MAEeuurU5wuiqfJCIifc\n■受付期間：2026年6月19日（金）18:00～7月5日（日）23:59\n■当落発表：2026年7月10日（金）13:00～\n■入金期間：2026年7月10日（金）13:00～7月13日（月）23:59\n※枚数制限：お一人様1公演につき、4枚までお申込み可能（複数公演申込可）\n----------\n現地チケット：一般発売1次抽選\n----------\n■受付URL： https://spwn.jp/events/evt_MAEeuurU5wuiqfJCIifc\n■受付期間：2026年7月17日（金）18:00～7月26日（日）23:59\n■当落発表：2026年7月31日（金）13:00～\n■入金期間：2026年7月31日（金）13:00～8月3日（月）23:59\n※枚数制限：お一人様1公演につき、4枚までお申込み可能（複数公演申込可）\n----------\n現地チケット：一般発売2次抽選\n----------\n■受付URL： https://spwn.jp/events/evt_MAEeuurU5wuiqfJCIifc\n■受付期間：2026年8月7日（金）18:00～8月16日（日）23:59\n■当落発表：2026年8月21日（金）13:00～\n■入金期間：2026年8月21日（金）13:00～8月24日（月）23:59\n※枚数制限：お一人様1公演につき、4枚までお申込み可能（複数公演申込可）\n----------"
+        },
+        {
+          "title": "票务特典规格",
+          "text_zh": "现场附周边票为梨子B5亚克力板加Guilty Kiss三款徽章；SPWN附周边为鞠莉B5板，VRChat附周边为善子B5板，不能混同。板约182×257×3mm、亚克力；徽章约45×45×3mm，亚克力、铁、ABS。",
+          "evidence_ja": "＜現地＞グッズ付き全席指定チケット特典\nB5アクリルパネル【桜内梨子】＋アクリルバッジ3種【Guilty Kiss】セット\n商品仕様\n■アクリルパネル\nサイズ：B5サイズ（約 縦182mm×横257mm×厚さ3mm）\n素材：アクリル\n■アクリルバッジ\nサイズ：約 縦45mm×横45mm×厚さ3mm\n素材：アクリル、鉄、ABS\n＜SPWN配信＞グッズ付きSPWN配信チケット特典\nB5アクリルパネル【小原鞠莉】\n商品仕様\n■アクリルパネル\nサイズ：B5サイズ（約 縦182mm×横257mm×厚さ3mm）\n素材：アクリル\n＜VRChat配信＞グッズ付きVRChat配信チケット特典\nB5アクリルパネル【津島善子】\n商品仕様\n■アクリルパネル\nサイズ：B5サイズ（約 縦182mm×横257mm×厚さ3mm）\n素材：アクリル"
+        },
+        {
+          "title": "配信周边配送",
+          "text_zh": "SPWN须在账户配送地址页登记日本国内地址，另付运费1,000日元，冲绳、离岛及部分地区可能加特定运费。地址需在购买前与日本邮便邮编资料一致，错误或之后变更可能延迟配送；不良品收到后一周内联系。VRChat附周边也须日本地址及一致的邮编资料，地址问题可能延迟，不良品同样一周内联系；不把SPWN运费套给VRChat。VRChat购票需U账户，使用还需VRChat账户，仅PC版，手机及Quest独立版不支持。",
+          "evidence_ja": "〇SPWN配信チケット\n送料について\n・ご購入のお客様は、住所登録が必要となります。\n※SPWNの「アカウント情報」→「配送先住所の編集」より配送先のご登録をお願いいたします。\n※配送先の住所は日本国内に限ります。\n・特典の送付にはチケット料金とは別に【送料1,000円】がかかります。\n※商品の配送先が、沖縄・離島・一部地域の場合「特定送料」がかかる場合がございます。\n配送について\n・ご登録の住所に不備がある場合やご注文後に住所変更をされた場合、発送時期に発送ができない可能性がございます。あらかじめご了承ください。\n・ご住所はご購入前に日本郵便株式会社登録の郵便番号に紐づく住所にてご登録をお願いいたします。\n※日本郵便株式会社登録の郵便番号に紐づく情報と一致していない場合、誤配送を防ぐため配送時に確認のご連絡と修正をお願いしております。そのため発送時期に発送ができない可能性がございます。あらかじめご了承ください。\n・不良品の問い合わせは、お受け取りから1週間以内に お問い合わせ窓口 へお問い合わせください。\n〇 VRChat配信チケット\n購入について\n・チケットの購入にはUアカウントの登録が必要です。\n・VRChatの利用にはVRChatアカウントの登録が必要です。\n・PC版VRChatにのみ対応しております。スマートフォン版、およびMeta Quest単体等（スタンドアロン版）でのご参加はできかねますので、あらかじめご了承ください。\n配送について\n・グッズ付きVRChat配信チケットご購入のお客様は住所の登録が必要となります。\n・配送先の住所は日本国内に限ります。\n・ご登録の住所に不備がある場合やご注文後の住所が変更された場合、発送時期に発送ができない可能性がございます。あらかじめご了承ください。\n・ご住所はご購入前に日本郵便株式会社登録の郵便番号に紐づく住所にてご登録をお願いいたします。\n※日本郵便株式会社の郵便登録番号に紐づく情報と一致しない場合ご配送を防ぐため配送時に確認のご連絡と修正をお願いしております。そのため発送時期に発送ができない可能性がございます。あらかじめご了承ください。\n・不良品の問い合わせは、お受け取りから1週間以内に お問い合わせ窓口 へお問い合わせください。"
+        },
+        {
+          "title": "演出变更及轮椅联络",
+          "text_zh": "天气、灾害等可能造成时间内容变更、延期或取消。计划乘轮椅到场须提前联系SPWN客服（周一至五，节假日及年末年初除外）。",
+          "evidence_ja": "※天候・災害等の諸事情により、開演時間・公演内容の変更、延期、または中止させていただく場合がございます。\n公演に関するお問い合わせ先\nhttps://spwn.jp/contact （月曜日から金曜日（但し祝日、年末年始は除く））\n※車椅子でご来場予定の方は、上記までご連絡ください。"
+        },
+        {
+          "title": "配信与现场时刻有异",
+          "text_zh": "现场概要Day2夜场写17:30，SPWN和VRChat配信段却写13:30，存在冲突，不能据此确定Day2夜场直播时刻；以官方后续确认和购票页为准，不将13:30覆盖现场概要。其余配信Day1昼13:30/夜17:30、Day2昼13:30；各场回放至2027年1月12日23:59日本时间。",
+          "evidence_ja": "SPWN配信\n配信日時\nDay.1 昼公演：拒絶への恐怖 - Fear of Rejection -\n公演同時 2026年11月22日（日）13:30開演\nアーカイブ 2026年11月22日（日）～2027年1月12日（火）23:59\nDay.1 夜公演：境遇への反発 - Against Odds -\n公演同時 2026年11月22日（日）17:30開演\nアーカイブ 2026年11月22日（日）～2027年1月12日（火）23:59\nDay.2 昼公演：結果への焦燥 - Chasing Results -\n公演同時 2026年11月23日（月祝）13:30開演\nアーカイブ 2026年11月23日（月祝）～2027年1月12日（火）23:59\nDay.2 夜公演：魂の重奏 - Ensemble of Souls -\n公演同時 2026年11月23日（月祝）13:30開演\nアーカイブ 2026年11月23日（月祝）～2027年1月12日（火）23:59"
+        },
+        {
+          "title": "SPWN配信售票与限制",
+          "text_zh": "配信各4,800日元，售票2026年5月22日18:00至2027年1月5日23:59日本时间；附周边各7,800日元，正文并列7月12日与9月28日两个截止日，均已过，不推断哪项有效。可能提供开头免费配信，另收手续费；除延期取消外不退换。购买前确认网络及推荐设备，附周边必须预登记日本地址；每票仅能从2台设备观看。配信票不提供现场入场。",
+          "evidence_ja": "チケット料金／販売期間\nグッズ付きSPWN配信チケット 各公演7,800円\n2026年5月22日（金）18:00～2026年7月12日（日）23:59\n2026年5月22日（金）18:00～2026年9月28日（月）23:59\nSPWN配信チケット 各公演4,800円\n2026年5月22日（金）18:00～2027年1月5日（火）23:59\n＜SPWN＞\nhttps://spwn.jp/events/evt_QIZVGS1r09V2aUZPGDZ8\n※本公演は冒頭無料配信を行う場合がございます。\n※別途、異なる手数料がかかります。\n※チケットご購入後の公演延期・中止以外の理由に伴うキャンセル、変更、払い戻しはできません。\n※グッズ付きチケットをご購入の方は、ご購入前にSPWNのマイページ内「アカウント情報」→「配送先住所の編集」より、必ず日本国内の配送先住所のご登録をお願いいたします。住所に不備がある場合、イベント前までにお届けできない可能性がございます。\n※視聴方法の詳細および他注意事項については購入先のサイトよりご確認ください。\n※チケットのご購入前に、サイトに記載の注意事項をよくお読みいただき、視聴に適したインターネット環境・推奨環境をお持ちかどうか必ずご確認ください。\n※配信視聴チケットは1枚につき、2台の視聴デバイスからのみ視聴が可能となります。\n【SPWN配信チケットについてのお問合せ先】\nhttps://spwn.jp/contact （月曜日から金曜日（但し祝日、年末年始は除く））"
+        },
+        {
+          "title": "VRChat配信售票与限制",
+          "text_zh": "普通VRChat票每场8,800日元，2026年5月22日18:00至2027年1月12日12:00日本时间；附周边11,800日元，正文并列7月12日与9月28日两个截止日且列7月13日0:00–10:00停售，历史矛盾不当作当前售票承诺。仅PC版、每票1台设备，购买前实际测试运行；提前购票，临近开演购买可能中途才能观看，直播中不能倒带。可能开头免费，另收手续费，须高速稳定网络，网络问题由观众自行承担。",
+          "evidence_ja": "チケット料金／販売期間\nグッズ付きVRChat配信チケット 各公演11,800円\n2026年5月22日（金）18:00～2026年7月12日（日）23:59\n2026年5月22日（金）18:00～2026年9月28日（月）23:59\n※ただし7月13日（月）0:00～7月13日（月）10:00まではご購入いただけません。\nVRChat配信チケット 各公演8,800円\n2026年5月22日（金）18:00～2027年1月12日（火）12:00\n＜VRChat＞\nhttps://xr-marketplace.com/packages?workIDs=450\n※本公演は冒頭無料配信を行う場合がございます。\n※ライブ配信をご視聴されるお客様は、あらかじめ余裕を持ってご購入ください。開始直前でご購入の場合は、途中からの視聴になる場合がございます。\n※視聴方法の詳細および他注意事項については購入先のサイトよりご確認ください。\n※チケットのご購入前に、サイトに記載の注意事項をよくお読みいただき、イベント参加に適したインターネット環境・推奨環境をお持ちかどうか必ずご確認ください。\n※VRChat配信チケットご購入前に必ず事前にVRChatをプレイいただき、動作が可能環境かお確かめください。\n※VRChat配信チケットは1枚につき1台の視聴デバイスから視聴が可能となります。\n※途中から視聴した場合はその時点からのライブ配信となり、生配信中は巻き戻しての再生はできません。\n※本イベントはPC版VRChatにのみ対応しております。Questのみ（スタンドアロン）でのご参加はできかねますので、あらかじめご了承ください。\n※通信環境：動画視聴には高速で安定したインターネット回線が必要です。圏外や電波が弱い場所ではないか、パケット残容量はあるかを必ず事前に確認してください。共有Wi-Fiを使っている場合は、使用していない端末のWi-FiをOFFにする、ルータとの間に障害となるものを置かないなど工夫してください。お客様の通信状況によりイベント参加できない場合でも、一切の責任を負いません。\n※別途、異なる手数料がかかります。"
+        },
+        {
+          "title": "网购受理更新",
+          "text_zh": "事后发货网购：2026年11月12日18:00至2027年1月12日23:59日本时间。前三轮预售分别6月26日12:00–7月20日23:59、7月24日10:00–8月17日23:59、8月27日18:00–11月8日23:59，均已结束。周边销售不是入场票销售，也未说明附抽选券。",
+          "evidence_ja": "■事前通販受付期間： 2026年6月26日(金)12:00～7月20日(月)23:59\n■第2回事前通販受付期間： 2026年7月24日(金)10:00～8月17日(月)23:59\n■第3回事前通販：8月27日（木） 18:00 〜 11月8日（日） 23:59\n■事後発送通販：2026年11月12日（木）18:00 ～ 2027年1月12日（火）23:59\nhttps://spwn.jp/events/evt_QIZVGS1r09V2aUZPGDZ8/goods"
+        },
+        {
+          "title": "指环灯及T恤",
+          "text_zh": "三名成员指环灯各1,500日元，发光部约32×32×20mm、硅胶指环约37mm可伸缩，ABS本体，含2颗测试用CR1616电池。T恤3,500日元，纯棉、银色闪粉，S约衣长66/胸宽49/袖19cm，自由码约74/55/22cm相当L，Ultra约81/63/25cm相当2XL。",
+          "evidence_ja": "リングライト\n桜内梨子,津島善子,小原鞠莉\n各1,500円\n本公演特別仕様のリングライト！\n指に装着できる優れもの！キラキラで会場をいっぱいにしよう！\nサイズ：(発光部分)約 縦32mm×横32mm×厚さ20mm\n(リング部分)約37mm※シリコン製のため伸縮します\n素材：(本体)ABS樹脂(リング部分)シリコン\n備考：テスト用コイン型リチウム電池CR1616・2個入り\nTシャツ\nS,フリー,ウルトラ\n3,500円\n前面にはキービジュアル、背面には公演ロゴをデザインしたオリジナルTシャツ！キラキラ銀色ラメ仕様！\nサイズ：\nSサイズ（約 身丈66cm×身幅49cm×袖丈19cm）\nフリーサイズ（約 身丈74cm×身幅55cm×袖丈22cm）※Lサイズ相当\nウルトラサイズ（身丈約81cm×身幅63cm×袖丈25cm）※2XLサイズ相当\n素材：綿100%"
+        },
+        {
+          "title": "立牌与明信片",
+          "text_zh": "A/B两套服装各含梨子、善子、鞠莉，立牌各1,500日元，板约140×105×3mm、亚克力。明信片7张套装2,500日元，本体约148×100mm，信封约114×162mm。",
+          "evidence_ja": "アクリルスタンドA\n桜内梨子【衣装A】,津島善子【衣装A】,小原鞠莉【衣装A】\n各1,500円\n描き下ろしイラストをデザインしたアクリルスタンド！\n飾ってもOK！一緒におでかけしてもOK！\nサイズ：(プレートサイズ)約 縦140mm×横105mm×厚さ3mm\n素材：アクリル\nアクリルスタンドB\n桜内梨子【衣装B】,津島善子【衣装B】,小原鞠莉【衣装B】\n各1,500円\n描き下ろしイラストをデザインしたアクリルスタンド！\n飾ってもOK！一緒におでかけしてもOK！\nサイズ：(プレートサイズ)約 縦140mm×横105mm×厚さ3mm\n素材：アクリル\nポストカードセット\n2,500円\n7枚入りのポストカードセット！本公演の描き下ろしイラストが勢揃い！\nサイズ：(本体)約 縦148mm×横100mm\n(封筒セット)約 縦114mm×横162mm"
+        },
+        {
+          "title": "随机徽章及透明卡",
+          "text_zh": "徽章与透明卡均500日元，每份随机1个/张、各12种（普通6+SP6）；复数购买可能重复，不能选图。徽章直径约54mm，马口铁/铁/纸/PET；卡约85×55mm、PET。",
+          "evidence_ja": "トレーディング缶バッジ\n全12種・ランダム1個入\n500円\n描き下ろしイラストをデザインしたトレーディング缶バッジ！\n何が出るかはおたのしみ♪\n箔仕様の缶バッジが出たらラッキー！\n※全12種（ノーマル6種・SP6種）のうち1種が入っています。\n※ランダム商品のため、複数購入された場合重複する可能性がございます。また、絵柄に関してもご指定いただけません。予めご了承ください。\nサイズ：約 直径54mm\n素材：ブリキ、鉄、紙、PET\nトレーディングクリアカード\n全12種・ランダム1枚入\n500円\n描き下ろしイラストをデザインしたトレーディングクリアカード！\n何が出るかはおたのしみ♪\n箔仕様のクリアカードが出たらラッキー！\n※全12種（ノーマル6種・SP6種）のうち1種が入っています。\n※ランダム商品のため、複数購入された場合重複する可能性がございます。また、絵柄に関してもご指定いただけません。予めご了承ください。\nサイズ：約 縦85mm×横55mm\n素材：PET"
+        }
+      ],
+      "source_hash": "7fb3b2f1bde31732121449f596c5b7210cb245c84f6ae150454bb41bcfe2515a",
+      "model": "source-reviewed",
+      "reason": "正文日期、地点及规则证据通过校验",
+      "review": {
+        "state": "approved",
+        "provider": "manual",
+        "model": "source-reviewed",
+        "reason": "逐项重新核对现场两日会场、票价、五轮已截止抽选及一般销售，新增事后发货网购并区分票务。现场内容可确认；Day2夜场配信时刻与历史附周边配信售期冲突已明确保留，不将其用于现场结构化时间或余票判断。"
       }
     },
     "image_readings": []
@@ -4275,164 +4504,6 @@
         "provider": "manual",
         "model": "source-reviewed",
         "reason": "已对照原文翻译并复核"
-      }
-    },
-    "image_readings": []
-  },
-  {
-    "id": "9cfb2d214ec41aea7e96fcb8",
-    "source_id": "aqours-official",
-    "source_url": "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost",
-    "title": "Guilty Kiss Musical Performance 漆黒のWanted Ghost",
-    "first_seen_at": "2026-10-29T12:15:33.162Z",
-    "last_seen_at": "2026-11-03T19:51:01.164Z",
-    "changed_at": "2026-10-29T12:15:33.162Z",
-    "content_hash": "0c50d214567dea4feb992dbe9fb6596ae80fc378864cf864c40aaf49feb24295",
-    "related_event_ids": [
-      "auto-9cfb2d214ec41aea"
-    ],
-    "images": [
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/04/18/1002/c56700lQDN6V4XEY/N7odUamdfI4wq7eg.jpeg",
-        "alt": "",
-        "kind": "unknown"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/QMMA8Zbzz8dI3IMM/btyKdHSgCC5BgRAY.jpeg",
-        "alt": "",
-        "kind": "unknown"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/1de9UPokGkOFsZj4/vFhEwZH6jAJkyFM0.jpeg",
-        "alt": "",
-        "kind": "merchandise"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/aJRdgGrgliwMu95K/gZqHMY4CX1ho0pGM.jpeg",
-        "alt": "",
-        "kind": "merchandise"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/ixgdTLxfF2W1fFRT/UgHDVIGOaWL8hvJS.jpeg",
-        "alt": "",
-        "kind": "unknown"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/atNMtURepYKSclfD/dlw8Ezrf28rw7Y6w.jpeg",
-        "alt": "",
-        "kind": "unknown"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/HTwZwoU7d4eqQ79Z/oLgDI2mfYUfjjUZt.jpeg",
-        "alt": "",
-        "kind": "unknown"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/27/1002/VL2BdYybyttYvOHc/lO2cDT2DBMzlfZAT.jpeg",
-        "alt": "",
-        "kind": "merchandise"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/hvaS4VmT47x86BBr/9kXn0yYELCkIE1Cp.jpeg",
-        "alt": "",
-        "kind": "merchandise"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/27/1002/mVvmlPCWvSSjE43l/t6YF7mi4NZxNRsrp.jpeg",
-        "alt": "",
-        "kind": "merchandise"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/27/1002/oKrS3R0TgXodxGfH/Jy21F7tI9k6piGO3.jpeg",
-        "alt": "",
-        "kind": "merchandise"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/3k5Bu3ANJMLKXI4X/Efv4MLwaT294O9lF.jpeg",
-        "alt": "",
-        "kind": "unknown"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/IDySlM2grP9pypHG/17E6HcaPluhQtdBC.jpeg",
-        "alt": "",
-        "kind": "unknown"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/7GqXkmAwXpvdmRJm/7UW26a7UT4uskGEB.jpeg",
-        "alt": "",
-        "kind": "merchandise"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/OervKDRbJEyBKETk/RnSaxLuWyFO1cjXN.jpeg",
-        "alt": "",
-        "kind": "merchandise"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/wWhN892LaZD6yGIx/f5RU2biYdgjNLSJf.jpeg",
-        "alt": "",
-        "kind": "unknown"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/06/24/1002/OyCYlWKRJCWbXwyn/PypLGqFkovwsW2Qe.jpeg",
-        "alt": "",
-        "kind": "unknown"
-      },
-      {
-        "url": "https://www.lovelive-anime.jp/uranohoshi/live/image.php?img_path=/lovelive/jp/live/2026/05/20/1002/XeS46QBSmtpOjGt2/jgj6dcwXvYvWml6K.jpeg",
-        "alt": "",
-        "kind": "unknown"
-      }
-    ],
-    "activity": {
-      "kind": "offline",
-      "state": "ready",
-      "title_zh": "Guilty Kiss 音乐剧《漆黑的 Wanted Ghost》",
-      "summary_zh": "2026年11月22、23日在沼津市民文化中心各演两场。这是3DCG音乐剧，声优本人不登台。现场普通指定席9,800日元，SPWN一般先到先得售票至11月12日23:59（日本时间），售完可提前结束；附周边票已截止。不能以配信票入场。",
-      "rules": [
-        {
-          "title": "四场演出",
-          "text_zh": "11月22、23日各有昼夜两场：昼场12:30入场、13:30开演；夜场16:30入场、17:30开演。四场剧情视点和音乐Live曲目不同。",
-          "evidence_ja": "公演日時\nDay.1 2026年11月22日（日）\n昼公演 拒絶への恐怖 - Fear of Rejection - 12:30開場／13:30開演\n夜公演 境遇への反発 - Against Odds - 16:30開場／17:30開演\nDay.2 2026年11月23日（月祝）\n昼公演 結果への焦燥 - Chasing Results - 12:30開場／13:30開演\n夜公演 魂の重奏 - Ensemble of Souls - 16:30開場／17:30開演\n※公演途中より、一部異なる演出と視点から結末へ至る物語をお届けします。\n舞台内容\n完全オリジナルストーリーによる、ミュージカルパフォーマンス\n※芝居と楽曲で構成される「演劇」となります。\n※加えて出演者によるカーテンコール/MCと、公演毎に楽曲が異なる「音楽ライブ」を別途で予定しております。\n※Day.2 夜公演の音楽ライブパートのみスマートフォンでの撮影をOKとする予定です。"
-        },
-        {
-          "title": "演出性质",
-          "text_zh": "场馆为沼津市民文化中心；出演角色是樱内梨子、津岛善子、小原鞠莉。演出为3DCG音乐剧，没有声优现场登台。",
-          "evidence_ja": "会場\n沼津市民文化センター\n出演\n桜内梨子（リリー役）、津島善子（ヨハネ役）、小原鞠莉（マリー役）\n※本公演は3DCGミュージカルであり、キャストの登壇はありません。"
-        },
-        {
-          "title": "现场票价与赠品",
-          "text_zh": "普通全席指定9,800日元，附周边14,800日元（含税）；附周边为梨子B5亚克力板及Guilty Kiss三款徽章。配信票价格不同，不提供现场入场资格。",
-          "evidence_ja": "チケット料金\n＜現地＞\nグッズ付き全席指定チケット：14,800円（税込）\n全席指定チケット：9,800円（税込）\n＜SPWN配信＞ ※公演同時＋アーカイブ\nグッズ付き配信チケット：7,800円（税込）\n配信チケット：4,800円（税込）\n＜VRChat配信＞ ※公演同時＋アーカイブ\nグッズ付きVRChat配信チケット：11,800円（税込）\nVRChat配信チケット：8,800円（税込）\n＜現地＞グッズ付き全席指定チケット特典\nB5アクリルパネル【桜内梨子】＋アクリルバッジ3種【Guilty Kiss】セット"
-        },
-        {
-          "title": "一般售票",
-          "text_zh": "普通票SPWN受理为8月28日18:00至11月12日23:59（日本时间）；沼津市民文化中心另有售票入口，只公布起售时间。附周边票9月27日23:59已截止。售完提前结束，付款失效时可能重新释放库存，不能据此保证有票。",
-          "evidence_ja": "現地チケット：一般先着\n----------\n■受付URL：\nグッズ付き全席指定チケット\nSPWN https://spwn.jp/events/evt_MAEeuurU5wuiqfJCIifc\n販売期間 2026年8月28日（金）18:00～9月27日（日）23:59まで\n全席指定チケット\nSPWN https://spwn.jp/events/evt_MAEeuurU5wuiqfJCIifc\n販売期間 2026年8月28日（金）18:00～11月12日（木）23:59まで\n沼津市民文化センター https://p-ticket.jp/numazu-ccc\n販売期間 2026年8月28日（金）18:00～\n※先着順での販売となります。予定枚数に達し次第、受付を終了いたします。\n※決済流れ等の理由により一部在庫が復活する場合もございます。\n----------"
-        },
-        {
-          "title": "特典领取",
-          "text_zh": "现场票特典须持票本人在演出当天领取，未领取作废，不提前或事后邮寄；不良品仅当天办理更换。",
-          "evidence_ja": "〇現地チケット\n・来場者特典は会場にてチケットをお持ちのご本人様と引き換えとなります。\n・公演当日にお受け取りができない場合は無効となります。事前・事後の発送は行いませんので、あらかじめご了承ください。\n・不良品の交換は当日のみ対応いたします。"
-        },
-        {
-          "title": "入场、退款与转让",
-          "text_zh": "3岁以上收费，需SPWN会员，另收手续费。除延期或取消外不能退票或更改票种；电子票不发行纸票，携带照片证件。不能转让全部同票种门票，至少一张须本人使用；不同票种或批次不能保证连座。",
-          "evidence_ja": "●注意事項●\n※3歳以上有料（入場時に確認させていただく場合がございます。）\n※お申込み時にSPWNの会員登録（無料）が必要です。\n※会場は全席指定席です。\n※チケットの他に各種手数料が必要となります。\n※イベントページ内の「申込前に注意事項を必ずお読みください」を必ずご確認いただきお申し込みください。\n※公演延期ないし中止の場合を除き、払い戻しおよびチケットの種別変更はできません。\n※券種をまたいでチケットを複数枚お申込みいただいた場合、両方当選およびいずれかのチケットのみ当選となる場合もございますのでご了承ください。\n※応募状況によっては全て落選の可能性もございます。\n※抽選、販売期間及び券種をまたいでのチケット複数枚申込では、お席を連番でご用意することはできません。あらかじめご了承ください。\n※同じ券種を複数枚お申し込みいただいた場合、全てのチケットを他人に譲渡することはできません。一枚は必ずご本人がご使用ください。\n※チケットの転売は禁止しております。\n※ご入場の際に会場にて、身分証明書の確認をさせていただく場合がございます。顔写真付きの身分証明書をご持参ください。\n※チケットは電子チケットとなります。紙媒体での発券はいたしませんのでご注意ください。\n※その他注意事項につきましては、 SPWNのイベントページ をご確認ください。"
-        },
-        {
-          "title": "手机拍摄范围",
-          "text_zh": "官网仅计划允许Day2夜场的音乐Live部分用手机拍摄，不能扩大到整场演剧。",
-          "evidence_ja": "※Day.2 夜公演の音楽ライブパートのみスマートフォンでの撮影をOKとする予定です。"
-        }
-      ],
-      "source_hash": "f5c89df4d31d8b106bafd0b6c95148954736737a079c7f16a9723fb2a5573fe1",
-      "model": "source-reviewed",
-      "reason": "正文日期、地点及规则证据通过校验",
-      "review": {
-        "state": "approved",
-        "provider": "manual",
-        "model": "source-reviewed",
-        "reason": "按官方正文复核现场日期、会场与当前/下一报名轮次；商品附券与一般售票分开，已结束轮次保留截止状态。"
       }
     },
     "image_readings": []
