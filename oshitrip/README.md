@@ -90,20 +90,38 @@ Windows 已安装 Edge 时可设置 `CRAWLER_BROWSER_CHANNEL=msedge`；浏览器
 
 `src/data/announcements.json` 保存筛选后的线下公告、中文摘要、规则短句证据、图片及译文状态，不保存全文转载。与已有活动的来源 URL 或正文中的同站活动链接匹配时建立关联；新活动仅在证据校验通过后写入 `catalog.json`，ID 以 `auto-` 开头。人工记录不会被机器覆盖。自动记录的来源有变化而新规则尚未通过校验时，暂时撤出行程匹配；获取失败时保留原资料。
 
-**翻译与审核接口**：在 GitHub Settings → Secrets and variables → Actions 添加所需 Secret：`OPENAI_API_KEY`、`DASHSCOPE_API_KEY`、`DEEPSEEK_API_KEY`。本机可写入未提交的 `.env.local`。不要把密钥写进前端、JSON、EXE 或 `NEXT_PUBLIC_` 变量。
+**翻译与审核接口**：在 GitHub Settings → Secrets and variables → Actions 添加所需 Secret：`OPENAI_API_KEY`、`DASHSCOPE_API_KEY`、`DEEPSEEK_API_KEY`、`MODEL_API_KEY`（Meta Muse）。本机可写入未提交的 `.env.local`。不要把密钥写进前端、JSON、EXE 或 `NEXT_PUBLIC_` 变量。
 
 | 任务 | Provider Variable | Model Variable | 每轮调用上限 |
 | --- | --- | --- | --- |
 | 中文翻译和信息提取 | EVENT_TRANSLATION_PROVIDER | EVENT_TRANSLATION_MODEL | EVENT_TRANSLATION_LIMIT（默认24） |
 | 独立内容审核 | EVENT_REVIEW_PROVIDER | EVENT_REVIEW_MODEL | EVENT_REVIEW_LIMIT（默认24） |
 
-Provider 支持 `auto`、`openai`、`bailian`、`deepseek`、`manual`，两项任务可独立选择。默认 auto 按 OpenAI → 百炼 → DeepSeek 选择第一家已配置密钥的服务；未配置则进入 Codex 待办。明确选中的服务缺少密钥或调用失败时不会偷偷调用其他服务。默认模型为 OpenAI `gpt-4.1-mini`、百炼 `qwen-plus`、DeepSeek `deepseek-flash`；模型可覆盖，实际可用性以对应账户为准。百炼保留官方北京地域工作空间 Base URL 支持（`DASHSCOPE_BASE_URL`）。`pnpm ai:check` 仅报告配置是否存在，不输出密钥、不消耗额度。
+Provider 支持 `auto`、`openai`、`bailian`、`deepseek`、`muse`、`manual`，两项任务可独立选择。默认 auto 按 OpenAI → 百炼 → DeepSeek → Muse 选择第一家已配置密钥的服务；未配置则进入 Codex 待办。明确选中的服务缺少密钥或调用失败时不会偷偷调用其他服务。默认模型为 OpenAI `gpt-4.1-mini`、百炼 `qwen-plus`、DeepSeek `deepseek-flash`、Muse `muse-spark-1.3`；模型可覆盖，实际可用性以对应账户为准。百炼保留官方北京地域工作空间 Base URL 支持（`DASHSCOPE_BASE_URL`）。`pnpm ai:check` 仅报告配置是否存在，不输出密钥、不消耗额度。
 
 新公告自动进入“官方新消息”的线下活动/Live 合集，并进入“发现活动”的待审核区。独立模型复核和本地证据校验都通过后才生成正式活动；审核失败、响应截断、虚构原句或日期不明时保留待审核。模型无法绕过本地证据校验。
 
 **无密钥时由 Codex 代办**：采集器生成 `var/public-crawler/assistant-queue.json`，包括待翻译/待复核原文和缺少正文的链接；Actions 同时保留队列、原始观察和报告14天。Codex 对照官方原文，将中文标题、摘要、参与规则和核实结果写入 `scripts/crawler/verified-readings.json`，只在正文指纹一致时生效。对本轮已抓取资料运行 `pnpm maintain:public --replay` 应用复核结果并完成发布前校验（不重新联网，保留原采集时间）。来源变化后旧复核不会自动通过。聊天登录本身不是 API Key；持续代办需要本地 Codex 定时任务实际运行，电脑离线或任务未运行时保留待办，不能宣称实时完成。
 
-图片识别通过 `IMAGE_RULE_PROVIDER` / `IMAGE_RULE_MODEL` 单独配置百炼或 OpenAI；默认优先使用已有 OpenAI 密钥，否则百炼。当前 DeepSeek 适配用于文字翻译和审核。每轮图片调用默认4次，识别结果仍标为待核实，不自动确认行程日期。
+图片识别通过 `IMAGE_RULE_PROVIDER` / `IMAGE_RULE_MODEL` 单独配置百炼或 OpenAI；默认优先使用已有 OpenAI 密钥，否则百炼。当前 DeepSeek 和 Muse 适配用于文字翻译和审核，不能填入 `IMAGE_RULE_PROVIDER`。每轮图片调用默认4次，识别结果仍标为待核实，不自动确认行程日期。
+
+**Muse 接入（2026-11-14 核实）**：这里接入的是 Meta Muse 的模型服务 Meta Model API。官方提供 `https://api.meta.ai/v1/responses` 和 Bearer API Key，默认使用标准版 `muse-spark-1.3`；不使用 Muse 网页登录态，也不等同于调用个人助手的浏览器或记忆功能。[官方快速入门](https://dev.meta.ai/docs/quickstart)说明了创建密钥的入口，[官方价格页](https://dev.meta.ai/products/meta-model-api)区分标准版与 Contributor 版；本项目没有默认选择 Contributor 版。
+
+1. 在 [Meta 开发者控制台](https://dev.meta.ai/)的 API keys 创建密钥，确认账户可用模型与计费条件。
+2. 云端：将密钥存到仓库 Actions **Secret** `MODEL_API_KEY`。先手动运行 **Check Muse connection**，它只发送一次最多512输出 token 的请求，可能产生 API 费用，不发布活动。输出 `success: true` 才代表联通。
+3. 测试成功后，在 Actions **Variables** 将 `EVENT_TRANSLATION_PROVIDER` 和 `EVENT_REVIEW_PROVIDER` 设为 `muse`。已有的 `EVENT_TRANSLATION_MODEL` / `EVENT_REVIEW_MODEL` 需清空或改为 `muse-spark-1.3`，否则会覆盖默认模型。可选 `MUSE_MODEL` 设置两项任务的共同默认模型。
+4. 本机独立配置：在项目 `.env.local` 加入下面配置，把密钥填到空值处，再运行 `pnpm ai:check`；实际联通检查为 `node --env-file-if-exists=.env.local scripts/check-muse-connection.mjs`。GitHub Secret 不会自动同步到本机。不要把真实密钥提交或发送到聊天。
+
+```dotenv
+MODEL_API_KEY=
+MUSE_MODEL=muse-spark-1.3
+EVENT_TRANSLATION_PROVIDER=muse
+EVENT_TRANSLATION_MODEL=
+EVENT_REVIEW_PROVIDER=muse
+EVENT_REVIEW_MODEL=
+```
+
+Muse 使用官方 Responses 的 `text.format` JSON Schema 输出，分别传入源码中的翻译和审核契约；本地仍再次校验 Schema、原文证据、日期和时区。[协议说明](https://dev.meta.ai/docs/protocols/responses)、[结构化输出说明](https://dev.meta.ai/docs/structured-output)。翻译和审核分别发起请求，可把审核另选为已配置的其他服务。缺密钥、限流、拒答或响应不完整均保留待办。本次接入经过模拟协议及项目校验，真实账户的权限、余额和联通需上述密钥测试确认。
 
 接口依据：[OpenAI Responses JSON 输出](https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses)、[DeepSeek JSON Output](https://api-docs.deepseek.com/guides/json_mode/)、[百炼思考模式参数](https://help.aliyun.com/zh/model-studio/deep-thinking)。
 

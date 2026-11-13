@@ -132,7 +132,9 @@ pnpm maintain:public --replay
 
 `--contract` 不联网，输出版本、输入/输出 JSON Schema、翻译与审核的实际提示词、约束、命令及文件位置。Schema 和提示词直接来自生产代码，不维护另一个可能过期的副本。需要纯 JSON 时用 `node scripts/maintain-public.mjs --contract`，避免包管理器额外输出命令标题。
 
-服务端模块接口为 `translateActivity(observation, franchises, config)`、`reviewActivity(reading, observation, franchises, config)`，位于 `scripts/crawler/event-intelligence.mjs`。统一适配器在 `ai-provider.mjs`：OpenAI 使用 Responses，百炼与 DeepSeek 使用各自官方兼容接口。两类任务共用数据契约，分别读取 `EVENT_TRANSLATION_*` / `EVENT_REVIEW_*`。配置示例见 `.env.example`；实际密钥只存本机 `.env.local` 或 GitHub Secrets。`ai:check` 只检查配置存在，不代表密钥已经联通。
+服务端模块接口为 `translateActivity(observation, franchises, config)`、`reviewActivity(reading, observation, franchises, config)`，位于 `scripts/crawler/event-intelligence.mjs`。统一适配器在 `ai-provider.mjs`：OpenAI 与 Meta Muse 使用各自官方 Responses 接口，百炼与 DeepSeek 使用各自官方兼容接口。两类任务共用数据契约，分别读取 `EVENT_TRANSLATION_*` / `EVENT_REVIEW_*`。配置示例见 `.env.example`；实际密钥只存本机 `.env.local` 或 GitHub Secrets。`ai:check` 只检查配置存在，不代表密钥已经联通。
+
+Muse（`provider=muse`）使用 `MODEL_API_KEY`、默认模型 `muse-spark-1.3`，可由 `MUSE_MODEL` 或任务模型覆盖。官方端点固定为 `https://api.meta.ai/v1/responses`；`text.format` 使用实际翻译/审核 Schema，`strict:false` 保留契约中的可选字段，返回后仍由 Zod 与原文证据校验。拒答、截断、非 JSON 与 HTTP 错误均不能批准活动，也不自动切换其他服务。auto 顺序为 OpenAI → 百炼 → DeepSeek → Muse。图片目前仍仅支持已有 OpenAI/百炼适配，Muse 接入不改变图片复核门槛。账户配置及一次有界的联通检查见 README 的 Muse 接入说明；代码支持不等于密钥已配置或真实调用成功。[官方快速入门](https://dev.meta.ai/docs/quickstart)、[Responses](https://dev.meta.ai/docs/protocols/responses)、[结构化输出](https://dev.meta.ai/docs/structured-output)。
 
 未配置密钥：`assistant-queue.json` 提供正文、任务类型及已有候选译文；`missing_observations` 表示本轮没读到的页面。由 Codex/维护者阅读原文，将核实后的记录按下面形式写入 `scripts/crawler/verified-readings.json`，再执行 `pnpm maintain:public --replay`。这份文件是人工复核入口，不能让翻译接口把未经复核的候选直接写成已验证记录。多个字段仍未知时，保留 `uncertain: true`；摘要已翻译不等于全部规则已审核。
 

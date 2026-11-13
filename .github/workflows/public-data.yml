@@ -54,6 +54,8 @@ jobs:
           DASHSCOPE_BASE_URL: ${{ vars.DASHSCOPE_BASE_URL }}
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MODEL_API_KEY: ${{ secrets.MODEL_API_KEY }}
+          MUSE_MODEL: ${{ vars.MUSE_MODEL }}
           EVENT_TRANSLATION_PROVIDER: ${{ vars.EVENT_TRANSLATION_PROVIDER || 'auto' }}
           EVENT_TRANSLATION_MODEL: ${{ vars.EVENT_TRANSLATION_MODEL }}
           EVENT_TRANSLATION_LIMIT: 20

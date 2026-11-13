@@ -88,7 +88,7 @@ export async function translateActivity(observation, franchises, {
 } = {}) {
   const reading = await requestJSON(TRANSLATION_INSTRUCTIONS, {
     source_url: observation.source_url, title: observation.title, body: observation.body_text, booking_method_confirmations: confirmedBookingMethods(observation), franchises,
-  }, { provider, apiKey, model, baseUrl, fetcher });
+  }, { provider, apiKey, model, baseUrl, fetcher, outputSchema: z.toJSONSchema(readingSchema) });
   return validateReading(reading, observation, franchises);
 }
 
@@ -103,7 +103,7 @@ export async function reviewActivity(reading, observation, franchises, options =
   const grounded = validateReading(reading, observation, franchises);
   const verdict = reviewSchema.parse(await requestJSON(
     REVIEW_INSTRUCTIONS,
-    { source_url: observation.source_url, title: observation.title, body: observation.body_text, booking_method_confirmations: confirmedBookingMethods(observation), reading }, { ...resolveAI('review'), ...options },
+    { source_url: observation.source_url, title: observation.title, body: observation.body_text, booking_method_confirmations: confirmedBookingMethods(observation), reading }, { ...resolveAI('review'), ...options, outputSchema: z.toJSONSchema(reviewSchema) },
   ));
   if (!verdict.evidence_ja.every(quote => containsEvidence(observation.body_text, quote))) throw new Error('审核证据不在官方原文中');
   return { ...verdict, approved: grounded.ready && verdict.approved };

@@ -15,7 +15,7 @@ export function workflowContract() {
   return {
     workflow_version: WORKFLOW_VERSION,
     documentation: 'docs/official-news-workflow.md',
-    providers: ['openai', 'bailian', 'deepseek', 'manual'],
+    providers: ['openai', 'bailian', 'deepseek', 'muse', 'manual'],
     daily_scope: { mode: 'updates', baseline_daily_limit_per_ip: 5, per_ip_batch_limit: 5, total_batch_limit: 20, allow_today_update_overflow: true, quota_timezone: 'Asia/Shanghai', grouping: 'BanG Dream! / Love Live! sub-IPs; series-wide or joint news uses the shared-series group', image_limit: 8, recent_days: 14, historical_backfill: false, continuation_command: 'pnpm maintain:public --continue-updates --collect-only', state: 'scripts/crawler/update-state.json' },
     stages: ['collect', 'classify-and-deduplicate', 'translate', 'independent-review', 'validate-evidence', 'prepare-public-data', 'check', 'publish'],
     inputs: { observation: z.toJSONSchema(observationSchema), verified_booking_method: z.toJSONSchema(supportingBookingEvidenceSchema) },

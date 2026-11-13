@@ -9,7 +9,7 @@ describe('official news workflow', () => {
     expect(contract.outputs.translation.required).toContain('venues');
     expect(contract.outputs.review.required).toContain('evidence_ja');
     expect(contract.instructions.translation).toContain('每个venues');
-    expect(contract.providers).toEqual(['openai', 'bailian', 'deepseek', 'manual']);
+    expect(contract.providers).toEqual(['openai', 'bailian', 'deepseek', 'muse', 'manual']);
     expect(JSON.stringify(contract)).not.toContain('apiKey');
   });
 
