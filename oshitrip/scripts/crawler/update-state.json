@@ -553,8 +553,8 @@
         "aqours"
       ],
       "signature": "0feb9fc9b4a74e66a574414b6d2d16e8093055ba91150ef8e89a6d08630f8f39",
-      "first_seen_on": "2026-11-13",
-      "burst_day": "2026-11-13",
+      "first_seen_on": "2026-11-14",
+      "burst_day": "2026-11-14",
       "pending": false,
       "reason": "列表标题或日期变化"
     },
@@ -597,8 +597,8 @@
         "aqours"
       ],
       "signature": "c31bf6bb261bd42165241c0ea0a1a9bacdef663b77a8d69ce7d435e5ee1d1233",
-      "first_seen_on": "2026-11-13",
-      "burst_day": "2026-11-13",
+      "first_seen_on": "2026-11-14",
+      "burst_day": "2026-11-14",
       "pending": false,
       "reason": "列表标题或日期变化"
     },
@@ -861,8 +861,8 @@
         "liella"
       ],
       "signature": "449834d60af60cd10aa49bcb0203eef7e75beeaa1bdf0b6fee7c9e2350592b58",
-      "first_seen_on": "2026-11-13",
-      "burst_day": "2026-11-13",
+      "first_seen_on": "2026-11-14",
+      "burst_day": "2026-11-14",
       "pending": false,
       "reason": "列表标题或日期变化"
     },
@@ -916,7 +916,7 @@
         "gakuen-idolmaster"
       ],
       "signature": "1c956b12c2ad6690e41ff6f99bc1776322367c001df5508d8a3420330af8784d",
-      "first_seen_on": "2026-11-13",
+      "first_seen_on": "2026-11-14",
       "burst_day": null,
       "pending": false,
       "reason": "列表标题或日期变化"
@@ -1745,20 +1745,83 @@
       "burst_day": "2026-11-11",
       "pending": false,
       "reason": "列表新增且未收录"
+    },
+    "https://bang-dream.com/events/avemujica_anima-incorrupta/": {
+      "source_id": "bang-dream-live",
+      "projects": [
+        "ave-mujica"
+      ],
+      "signature": "a4dfe7567a5b821b1f8264dc84b734d32465df4b1d7889e49c2ab7125bcf9bf0",
+      "first_seen_on": "2026-11-14",
+      "burst_day": "2026-11-14",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6468": {
+      "source_id": "hasunosora-official",
+      "projects": [
+        "hasunosora"
+      ],
+      "signature": "ddbdf6d6b5b2177069d451ed9f8c581d2135a88eeb07533cefb3b200704328f6",
+      "first_seen_on": "2026-11-14",
+      "burst_day": "2026-11-14",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6812": {
+      "source_id": "hasunosora-official",
+      "projects": [
+        "hasunosora"
+      ],
+      "signature": "329fbbe260b49e53849f3d3c42dbef04199777d6987f0406ca3356249e86806b",
+      "first_seen_on": "2026-11-14",
+      "burst_day": "2026-11-14",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://idolmaster-official.jp/news/01_20241": {
+      "source_id": "gakuen-idolmaster-portal",
+      "projects": [
+        "gakuen-idolmaster"
+      ],
+      "signature": "6c27be3b8ea16ee1fb2411cd14916a94ebc3de35cb7a23bf89e9f29e1e30d632",
+      "first_seen_on": "2026-11-14",
+      "burst_day": "2026-11-14",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://idolmaster-official.jp/news/01_20335": {
+      "source_id": "gakuen-idolmaster-portal",
+      "projects": [
+        "gakuen-idolmaster"
+      ],
+      "signature": "f7daf46aa9a57a95251c9b811d6c9dc7fd53aac3ad829f1c0eb98258dd15c2b1",
+      "first_seen_on": "2026-11-14",
+      "burst_day": "2026-11-14",
+      "pending": false,
+      "reason": "列表新增且未收录"
     }
   },
   "daily_usage": {
-    "day": "2026-11-13",
+    "day": "2026-11-14",
     "projects": {
-      "lovelive": [
-        "www.lovelive-anime.jp:news:01_6785"
+      "ave-mujica": [
+        "https://bang-dream.com/events/avemujica_anima-incorrupta/"
       ],
       "aqours": [
         "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=jimoai5th",
         "https://www.lovelive-anime.jp/uranohoshi/live/live_detail.php?p=Wanted_Ghost"
       ],
+      "hasunosora": [
+        "www.lovelive-anime.jp:news:01_6468",
+        "www.lovelive-anime.jp:news:01_6812"
+      ],
       "liella": [
         "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
+      ],
+      "gakuen-idolmaster": [
+        "https://idolmaster-official.jp/news/01_20241",
+        "https://idolmaster-official.jp/news/01_20335"
       ]
     }
   }

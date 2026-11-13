@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "revision": "ae023e743feabc07f99db1a9d905880b09f35ffcb8a953c51ba8a8c2e3296d78",
-  "publishedAt": "2026-11-12T22:56:27.771Z",
+  "revision": "dc62b7324b460eb6d7466d1f45cd21564d7c470ba833c40e5e89c562caabe30c",
+  "publishedAt": "2026-11-13T21:54:19.188Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -3012,245 +3012,6 @@
               "url": "https://www.lovelive-anime.jp/nijigasaki/detail.php?p=01_6557",
               "label": "虹咲官网公告",
               "checked_at": "2026-10-28T12:00:00+09:00"
-            }
-          ]
-        },
-        {
-          "id": "auto-81f284dd403980ef",
-          "slug": "official-81f284dd403980ef",
-          "title_ja": "ラブライブ！スーパースター!! Liella! 8th LoveLive! Tour ～Our Song, Our Dreams～",
-          "title_zh": "Liella! 八巡「Our Song, Our Dreams」",
-          "category": "音乐和声优活动",
-          "summary": "2027年3月6–7日东京有明Arena、4月24–25日福冈Marine Messe B馆、5月8–9日名古屋Port Messe第1展示馆。每站Day1和Day2对应不同商品附券和报名开始日，均于12月14日23:59（日本时间）截止；票价和开演时间尚待公布。",
-          "image": {
-            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/live/2026/09/03/1002/NxLuZEh2hhMek7is/p1h3XcoSoKvN2x1g.jpeg",
-            "alt": "Liella! 八巡「Our Song, Our Dreams」",
-            "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-            "checked_on": "2026-10-29"
-          },
-          "gallery": [],
-          "benefits": [],
-          "translated_rules": [
-            {
-              "id": "auto-81f284dd403980ef-rule-0",
-              "kind": "参加",
-              "title": "三站日程",
-              "text_zh": "东京3月6–7日、福冈4月24–25日、名古屋5月8–9日；不可将爱知县作为城市名称。",
-              "evidence_ja": "＜東京公演＞\n【日程】\nDay.1 2027年3月6日（土）\nDay.2 2027年3月7日（日）\n【会場】\n東京・有明アリーナ\n【公演に関するお問い合わせ先】\nインフォメーションデスク https://information-desk.info/\n＜福岡公演＞\n【日程】\nDay.1 2027年4月24日（土）\nDay.2 2027年4月25日（日）\n【会場】\n福岡・マリンメッセ福岡B館\n【公演に関するお問い合わせ先】\nBEA 092−712−4221（平日12:00〜16:00）\n＜愛知公演＞\n【日程】\nDay.1 2027年5月8日（土）\nDay.2 2027年5月9日（日）\n【会場】\n愛知・ポートメッセなごや 第1展示館\n【公演に関するお問い合わせ先】\nキョードー東海 052-972-7466 （月～金 12:00～18:00/土 10:00～13:00（※日曜・祝日は休業））",
-              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-10-29"
-            },
-            {
-              "id": "auto-81f284dd403980ef-rule-1",
-              "kind": "参加",
-              "title": "Day1附券",
-              "text_zh": "各站Day1使用11月18日发行的八巡主题歌迷你专辑附券；11月18日12:00至12月14日23:59受理，每序列号各站Day1分别最多4张。12月19日13:00预计公布结果，付款至22日21:00，日本时间。",
-              "evidence_ja": "★お申込み対象公演：東京Day.1公演、福岡Day.1公演、愛知Day.1公演\n2026年11月18日（水）発売『ラブライブ！スーパースター!! Liella! 8th LoveLive! Tour ～Our Song, Our Dreams～』テーマソングミニアルバム封入の申込券にて受付\n----------\n■受付期間：2026年11月18日（水）12:00～12月14日（月）23:59\n■当落発表：2026年12月19日（土）13:00予定\n■入金期間：2026年12月19日（土）13:00～12月22日（火）21:00\n※枚数制限：『シリアルNo.』1つにつき、各会場のDay.1公演にそれぞれ4枚までお申込み可能（複数公演申込可能）。\n----------",
-              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-10-29"
-            },
-            {
-              "id": "auto-81f284dd403980ef-rule-2",
-              "kind": "参加",
-              "title": "Day2附券",
-              "text_zh": "各站Day2使用11月27日发行的Fan Disc第2弹附券；11月27日12:00至12月14日23:59受理，每序列号各站Day2分别最多4张，结果及付款时间与Day1相同。",
-              "evidence_ja": "★お申込み対象公演：東京Day.2公演、福岡Day.2公演、愛知Day.2公演\n2026年11月27日（金）発売「ラブライブ！スーパースター!! ファンディスク第2弾 わくわく地域活動 ～Liella!と結ぶプロジェクト特別編～」封入の申込券にて受付\n----------\n■受付期間：2026年11月27日（金）12:00～12月14日（月）23:59\n■当落発表：2026年12月19日（土）13:00予定\n■入金期間：2026年12月19日（土）13:00～12月22日（火）21:00\n※枚数制限：『シリアルNo.』1つにつき、各会場のDay.2公演にそれぞれ4枚までお申込み可能（複数公演申込可能）。\n----------",
-              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-10-29"
-            },
-            {
-              "id": "auto-81f284dd403980ef-rule-3",
-              "kind": "参加",
-              "title": "尚未公布",
-              "text_zh": "开场、开演时间及票价后续公布，升席安排也待后续公告。",
-              "evidence_ja": "※開場・開演時間、チケット代など、そのほかの詳細は後日ご案内いたします。",
-              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-10-29"
-            },
-            {
-              "id": "auto-81f284dd403980ef-rule-4",
-              "kind": "参加",
-              "title": "实名及年龄",
-              "text_zh": "3岁以上收费；申请者与同行者均需登记人脸照片并携带带照片的官方身份证件，需eplus会员；抽选不是先到先得。",
-              "evidence_ja": "注意事項\n※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、先着順ではなく、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。\n▼顔認証入場システムのご利用について\nhttps://eplus.jp/faceticket_about/\n■同行者登録とは？\nhttps://eplus.jp/sf/guide/fellow-ep/\n■【同行者登録】手続きはこちら\nhttps://member.eplus.jp/update-dokosha\n※受付開始前からお手続きいただけます。",
-              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-10-29"
-            }
-          ],
-          "fees": null,
-          "conditions": [
-            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
-            "各站Day1、Day2使用不同商品附券，请分别查看场次。"
-          ],
-          "status": "published",
-          "verified_at": "2026-10-29T12:48:06.373Z",
-          "updated_at": "2026-10-29T12:48:06.373Z",
-          "franchise_ids": [
-            "lovelive",
-            "liella"
-          ],
-          "venues": [
-            {
-              "id": "auto-81f284dd403980ef-venue-7e9457ba98",
-              "city": "东京",
-              "name": "有明アリーナ",
-              "address": null,
-              "start_date": "2027-03-06",
-              "end_date": "2027-03-06",
-              "rounds": [
-                {
-                  "id": "auto-81f284dd403980ef-round-0",
-                  "label": "官方抽选报名",
-                  "method": "抽选报名",
-                  "kind": "fixed",
-                  "opens_at": "2026-11-18T12:00:00+09:00",
-                  "closes_at": "2026-12-14T23:59:00+09:00",
-                  "days_before": null,
-                  "open_time": null,
-                  "cutoff_days_before": null,
-                  "cutoff_time": null,
-                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-                  "note": "Day1使用11月18日发行的八巡主题歌迷你专辑附券；每序列号各站Day1分别最多4张，不适用于Day2。票价、开演及升席详情未公布。"
-                }
-              ]
-            },
-            {
-              "id": "auto-81f284dd403980ef-venue-d5947fb2ae",
-              "city": "东京",
-              "name": "有明アリーナ",
-              "address": null,
-              "start_date": "2027-03-07",
-              "end_date": "2027-03-07",
-              "rounds": [
-                {
-                  "id": "auto-81f284dd403980ef-round-1",
-                  "label": "官方抽选报名",
-                  "method": "抽选报名",
-                  "kind": "fixed",
-                  "opens_at": "2026-11-27T12:00:00+09:00",
-                  "closes_at": "2026-12-14T23:59:00+09:00",
-                  "days_before": null,
-                  "open_time": null,
-                  "cutoff_days_before": null,
-                  "cutoff_time": null,
-                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-                  "note": "Day2使用11月27日发行的Fan Disc第2弹附券；每序列号各站Day2分别最多4张，不适用于Day1。票价、开演及升席详情未公布。"
-                }
-              ]
-            },
-            {
-              "id": "auto-81f284dd403980ef-venue-cf10c89c61",
-              "city": "福冈",
-              "name": "マリンメッセ福岡B館",
-              "address": null,
-              "start_date": "2027-04-24",
-              "end_date": "2027-04-24",
-              "rounds": [
-                {
-                  "id": "auto-81f284dd403980ef-round-2",
-                  "label": "官方抽选报名",
-                  "method": "抽选报名",
-                  "kind": "fixed",
-                  "opens_at": "2026-11-18T12:00:00+09:00",
-                  "closes_at": "2026-12-14T23:59:00+09:00",
-                  "days_before": null,
-                  "open_time": null,
-                  "cutoff_days_before": null,
-                  "cutoff_time": null,
-                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-                  "note": "Day1使用11月18日发行的八巡主题歌迷你专辑附券；每序列号各站Day1分别最多4张，不适用于Day2。票价、开演及升席详情未公布。"
-                }
-              ]
-            },
-            {
-              "id": "auto-81f284dd403980ef-venue-7c5911bc1f",
-              "city": "福冈",
-              "name": "マリンメッセ福岡B館",
-              "address": null,
-              "start_date": "2027-04-25",
-              "end_date": "2027-04-25",
-              "rounds": [
-                {
-                  "id": "auto-81f284dd403980ef-round-3",
-                  "label": "官方抽选报名",
-                  "method": "抽选报名",
-                  "kind": "fixed",
-                  "opens_at": "2026-11-27T12:00:00+09:00",
-                  "closes_at": "2026-12-14T23:59:00+09:00",
-                  "days_before": null,
-                  "open_time": null,
-                  "cutoff_days_before": null,
-                  "cutoff_time": null,
-                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-                  "note": "Day2使用11月27日发行的Fan Disc第2弹附券；每序列号各站Day2分别最多4张，不适用于Day1。票价、开演及升席详情未公布。"
-                }
-              ]
-            },
-            {
-              "id": "auto-81f284dd403980ef-venue-4a6b19a882",
-              "city": "名古屋",
-              "name": "ポートメッセなごや 第1展示館",
-              "address": null,
-              "start_date": "2027-05-08",
-              "end_date": "2027-05-08",
-              "rounds": [
-                {
-                  "id": "auto-81f284dd403980ef-round-4",
-                  "label": "官方抽选报名",
-                  "method": "抽选报名",
-                  "kind": "fixed",
-                  "opens_at": "2026-11-18T12:00:00+09:00",
-                  "closes_at": "2026-12-14T23:59:00+09:00",
-                  "days_before": null,
-                  "open_time": null,
-                  "cutoff_days_before": null,
-                  "cutoff_time": null,
-                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-                  "note": "Day1使用11月18日发行的八巡主题歌迷你专辑附券；每序列号各站Day1分别最多4张，不适用于Day2。票价、开演及升席详情未公布。"
-                }
-              ]
-            },
-            {
-              "id": "auto-81f284dd403980ef-venue-13a44585bb",
-              "city": "名古屋",
-              "name": "ポートメッセなごや 第1展示館",
-              "address": null,
-              "start_date": "2027-05-09",
-              "end_date": "2027-05-09",
-              "rounds": [
-                {
-                  "id": "auto-81f284dd403980ef-round-5",
-                  "label": "官方抽选报名",
-                  "method": "抽选报名",
-                  "kind": "fixed",
-                  "opens_at": "2026-11-27T12:00:00+09:00",
-                  "closes_at": "2026-12-14T23:59:00+09:00",
-                  "days_before": null,
-                  "open_time": null,
-                  "cutoff_days_before": null,
-                  "cutoff_time": null,
-                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-                  "note": "Day2使用11月27日发行的Fan Disc第2弹附券；每序列号各站Day2分别最多4张，不适用于Day1。票价、开演及升席详情未公布。"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            {
-              "id": "auto-81f284dd403980ef-source",
-              "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-              "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-10-29T12:48:06.373Z"
             }
           ]
         },
@@ -14751,6 +14512,411 @@
               "checked_at": "2026-11-12T22:50:54.637Z"
             }
           ]
+        },
+        {
+          "id": "auto-81848aee066a3525",
+          "slug": "official-81848aee066a3525",
+          "title_ja": "Ave Mujica 4th single リリース記念ライブ「Anima Incorrupta」",
+          "title_zh": "Ave Mujica 第4张单曲发售纪念Live「Anima Incorrupta」",
+          "category": "音乐和声优活动",
+          "summary": "2027年2月27日在duo MUSIC EXCHANGE举行，17:00开场、18:00开演，预计19:00结束；站席11,000日元含税，另收饮料费。须第4张单曲初回生产份附券，每序列号限申请1张，抽选2027年1月27日12:00至2月8日23:59日本时间。",
+          "image": {
+            "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/02/25205018/f1c5c17c-ca4777bb-2b1bd28c-b4dd00a0.png",
+            "alt": "Ave Mujica 第4张单曲发售纪念Live「Anima Incorrupta」",
+            "source_url": "https://bang-dream.com/events/avemujica_anima-incorrupta/",
+            "checked_on": "2026-11-13"
+          },
+          "gallery": [
+            {
+              "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/02/25205018/f1c5c17c-ca4777bb-2b1bd28c-b4dd00a0.png",
+              "alt": "Ave Mujica 4th single リリース記念ライブ「Anima Incorrupta」",
+              "source_url": "https://bang-dream.com/events/avemujica_anima-incorrupta/",
+              "checked_on": "2026-11-13"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-81848aee066a3525-rule-0",
+              "kind": "参加",
+              "title": "演出日程及票价",
+              "text_zh": "2027年2月27日在duo MUSIC EXCHANGE举行，17:00开场、18:00开演，预计19:00结束；站席11,000日元含税，另收饮料费。须第4张单曲初回生产份附券，每序列号限申请1张，抽选2027年1月27日12:00至2月8日23:59日本时间。",
+              "evidence_ja": "公演名\nAve Mujica 4th single リリース記念ライブ「Anima Incorrupta」\n日程\n2027年2月27日(土) 開場17:00／開演18:00（予定）\n※終演予定時刻は19:00頃を予定しております。\n会場\nduo MUSIC EXCHANGE\n出演\nAve Mujica\nチケット\n料金\n一般エリア（スタンディング） ：11,000円(税込)\n※入場時に別途ドリンク代が必要となります。\n※スタンディングでの開催を予定しております。\n※シリアルコード1枚につき1枚までお申し込みいただけます。",
+              "source_url": "https://bang-dream.com/events/avemujica_anima-incorrupta/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-13"
+            },
+            {
+              "id": "auto-81848aee066a3525-rule-1",
+              "kind": "参加",
+              "title": "商品附券抽选",
+              "text_zh": "使用Ave Mujica 4th Single初回生产份封入的申请券；每序列号最多申请1张。2027年1月27日12:00至2月8日23:59日本时间受理，属于抽选而非先着；正文未公布商品发行日、价格或具体版号，不按抽选开始日猜发行日。",
+              "evidence_ja": "抽選受付\n受付期間：2027年1月27日(水) 12:00～2月8日(月) 23:59まで\n※ Ave Mujica 4th Single 初回生産分に封入の申込券でご応募いただけます。",
+              "source_url": "https://bang-dream.com/events/avemujica_anima-incorrupta/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-13"
+            },
+            {
+              "id": "auto-81848aee066a3525-rule-2",
+              "kind": "参加",
+              "title": "灯具限制",
+              "text_zh": "仅可携带使用三款指定官方手环灯：BanG Dream! Ave Mujica リストバンドライト、BanG Dream! リストバンドライト Ave Mujica vol.2/vol.3；Exitus台北追加场出售的手环灯亦可。其他荧光棒、手灯禁止携带和使用。",
+              "evidence_ja": "公演演出について\nサイリウム・ペンライト類に関して、本公演では演出の都合上、オフィシャルグッズ【BanG Dream! Ave Mujica リストバンドライト】【BanG Dream! リストバンドライト Ave Mujica vol.2】【BanG Dream! リストバンドライト Ave Mujica vol.3】のみ使用いただけます。\n※Ave Mujica LIVE TOUR 2026「Exitus」台北追加公演で販売のリストバンドライトも使用いただけます。\nそれ以外のサイリウム・ペンライト類の持ち込み・使用は禁止 とさせていただきます。\n皆様のご理解・ご協力の程、何卒よろしくお願いいたします。",
+              "source_url": "https://bang-dream.com/events/avemujica_anima-incorrupta/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-13"
+            },
+            {
+              "id": "auto-81848aee066a3525-rule-3",
+              "kind": "参加",
+              "title": "手环灯控制",
+              "text_zh": "现场销售可无线控制的官方手环灯，预计与舞台灯光联动；非控制期间可从12色自选。开演前场内测试时，场馆附近手环灯可能自动变色或熄灭。不使用时隔绝电池接触，或演出前换新电池以防耗尽。",
+              "evidence_ja": "リストバンドライトについて\n本公演では、オフィシャルグッズとして販売の無線制御に対応したリストバンドライトを販売いたします。\n無線操作により、ステージ照明と連動する演出を予定しており、より一体感のある体験・素敵な景色をお届けします。\n※無線制御時以外は、全12色の中からお好きな色を選択可能です。\n・公演開始前の会場付近では、会場内にて一時的にリストバンドライトの制御に関するテストを行う際に、お客様のリストバンドライトカラーが自動で変更される、または消灯される場合がございますので、予めご了承ください。\n・電池の消耗を防ぐため、使用されない時は絶縁状態にしておく、もしくは公演前に新品の電池に変えることをおすすめします。",
+              "source_url": "https://bang-dream.com/events/avemujica_anima-incorrupta/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-13"
+            },
+            {
+              "id": "auto-81848aee066a3525-rule-4",
+              "kind": "参加",
+              "title": "直播及注意事项",
+              "text_zh": "计划通过YouTube「バンドリちゃんねる☆」及bilibili「MyGO_Ave Mujica」免费实时直播；须遵守官方链接中的主办方演出注意事项，其他细则将后续公布。直播不提供现场入场资格。",
+              "evidence_ja": "無料配信\nYouTube「バンドリちゃんねる☆」および、bilibili「MyGO_Ave Mujica」チャンネルでの無料リアルタイム配信を予定しております。\n公演に関する注意事項\nブシロードミュージック主催ライブイベントにおける注意事項につきましては、下記リンク先を必ずご一読の上、遵守いただけますようお願い申し上げます。\nhttps://bushiroad-music.com/news/321\n※その他の注意事項は後日公開いたします。",
+              "source_url": "https://bang-dream.com/events/avemujica_anima-incorrupta/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-13"
+            },
+            {
+              "id": "auto-81848aee066a3525-rule-5",
+              "kind": "参加",
+              "title": "轮椅区域",
+              "text_zh": "购票后须提前联系公演咨询窗口。不能指定观看位置，场地有限可能额满停止受理，部分舞台或演出可能看不清。票务问题联系eplus。",
+              "evidence_ja": "お問合せ先\n【公演に関するお問い合わせ】\n㈱ライブエグザム\nhttps://www.liveexsam.co.jp/contact_common/\n【チケットに関するお問い合わせ】\nイープラスお客様サポート\nhttps://support-qa.eplus.jp/\n車椅子エリアについて\n車椅子のご利用を希望される方は、当日のご案内をスムーズに行えますよう、恐れ入りますがチケット購入後、上記【公演に関するお問い合わせ】に記載の連絡先まで事前のご連絡をお願いいたします。\n※ご観覧位置のご指定は出来かねます。また、会場スペースの都合上、定員に達し次第受付を終了させていただく場合がございますので、あらかじめご容赦いただけますと幸いです。\n※一部ステージ・演出が見えにくい場合がございます。",
+              "source_url": "https://bang-dream.com/events/avemujica_anima-incorrupta/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-13"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "第4张单曲初回生产份附券；每序列号限申请1张，购商品不保证中选。"
+          ],
+          "status": "published",
+          "verified_at": "2026-11-13T21:41:29.816Z",
+          "updated_at": "2026-11-13T21:41:29.816Z",
+          "franchise_ids": [
+            "bang-dream",
+            "ave-mujica"
+          ],
+          "venues": [
+            {
+              "id": "auto-81848aee066a3525-venue-1817985a60",
+              "city": "东京",
+              "name": "duo MUSIC EXCHANGE",
+              "address": null,
+              "start_date": "2027-02-27",
+              "end_date": "2027-02-27",
+              "rounds": [
+                {
+                  "id": "auto-81848aee066a3525-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2027-01-27T12:00:00+09:00",
+                  "closes_at": "2027-02-08T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://bang-dream.com/events/avemujica_anima-incorrupta/",
+                  "note": "第4张单曲初回生产份附券；每序列号限申请1张，购商品不保证中选。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-81848aee066a3525-source",
+              "url": "https://bang-dream.com/events/avemujica_anima-incorrupta/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-11-13T21:41:29.816Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-81f284dd403980ef",
+          "slug": "official-81f284dd403980ef",
+          "title_ja": "ラブライブ！スーパースター!! Liella! 8th LoveLive! Tour ～Our Song, Our Dreams～",
+          "title_zh": "Liella! 八巡「Our Song, Our Dreams」",
+          "category": "音乐和声优活动",
+          "summary": "Liella!八巡2027年东京3月6–7日、福冈4月24–25日、名古屋5月8–9日。普通指定席13,500日元，U-20票6,750日元，升席另加12,500日元。每站Day1用主题歌迷你专辑附券、Day2用Fan Disc第2弹附券；报名分别11月18日及27日开始，均12月14日23:59日本时间截止。",
+          "image": {
+            "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/live/2026/09/03/1002/NxLuZEh2hhMek7is/p1h3XcoSoKvN2x1g.jpeg",
+            "alt": "Liella! 八巡「Our Song, Our Dreams」",
+            "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+            "checked_on": "2026-11-13"
+          },
+          "gallery": [
+            {
+              "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/live/2026/09/03/1002/NxLuZEh2hhMek7is/p1h3XcoSoKvN2x1g.jpeg",
+              "alt": "官方公告配图（图中文字请以原图为准）",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "checked_on": "2026-11-13"
+            }
+          ],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-81f284dd403980ef-rule-0",
+              "kind": "参加",
+              "title": "三站六场及开场开演",
+              "text_zh": "全部为2027年日本当地时间：东京3/6开场16:30、开演17:30；3/7为16:00、17:00。福冈4/24为16:00、17:00；4/25为14:00、15:00。名古屋5/8为16:00、17:30；5/9为15:00、16:30。",
+              "evidence_ja": "＜東京公演＞\n【日程】\nDay.1 2027年3月6日（土）16:30開場／17:30開演\nDay.2 2027年3月7日（日）16:00開場／17:00開演\n【会場】\n東京・有明アリーナ\n【公演に関するお問い合わせ先】\nインフォメーションデスク https://information-desk.info/\n＜福岡公演＞\n【日程】\nDay.1 2027年4月24日（土）16:00開場／17:00開演\nDay.2 2027年4月25日（日）14:00開場／15:00開演\n【会場】\n福岡・マリンメッセ福岡B館\n【公演に関するお問い合わせ先】\nBEA 092−712−4221（平日12:00〜16:00）\n＜愛知公演＞\n【日程】\nDay.1 2027年5月8日（土）16:00開場／17:30開演\nDay.2 2027年5月9日（日）15:00開場／16:30開演\n【会場】\n愛知・ポートメッセなごや 第1展示館\n【公演に関するお問い合わせ先】\nキョードー東海 052-972-7466 （月～金 12:00～18:00/土 10:00～13:00（※日曜・祝日は休業））",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-13"
+            },
+            {
+              "id": "auto-81f284dd403980ef-rule-1",
+              "kind": "参加",
+              "title": "Day1附券",
+              "text_zh": "各站Day1使用11月18日发行的八巡主题歌迷你专辑附券；11月18日12:00至12月14日23:59受理，每序列号各站Day1分别最多4张。12月19日13:00预计公布结果，付款至22日21:00，日本时间。",
+              "evidence_ja": "★お申込み対象公演：東京Day.1公演、福岡Day.1公演、愛知Day.1公演\n2026年11月18日（水）発売『ラブライブ！スーパースター!! Liella! 8th LoveLive! Tour ～Our Song, Our Dreams～』テーマソングミニアルバム封入の申込券にて受付\n----------\n■受付期間：2026年11月18日（水）12:00～12月14日（月）23:59\n■当落発表：2026年12月19日（土）13:00予定\n■入金期間：2026年12月19日（土）13:00～12月22日（火）21:00\n※枚数制限：『シリアルNo.』1つにつき、各会場のDay.1公演にそれぞれ4枚までお申込み可能（複数公演申込可能）。\n----------",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-13"
+            },
+            {
+              "id": "auto-81f284dd403980ef-rule-2",
+              "kind": "参加",
+              "title": "Day2附券",
+              "text_zh": "各站Day2使用11月27日发行的Fan Disc第2弹附券；11月27日12:00至12月14日23:59受理，每序列号各站Day2分别最多4张，结果及付款时间与Day1相同。",
+              "evidence_ja": "★お申込み対象公演：東京Day.2公演、福岡Day.2公演、愛知Day.2公演\n2026年11月27日（金）発売「ラブライブ！スーパースター!! ファンディスク第2弾 わくわく地域活動 ～Liella!と結ぶプロジェクト特別編～」封入の申込券にて受付\n----------\n■受付期間：2026年11月27日（金）12:00～12月14日（月）23:59\n■当落発表：2026年12月19日（土）13:00予定\n■入金期間：2026年12月19日（土）13:00～12月22日（火）21:00\n※枚数制限：『シリアルNo.』1つにつき、各会場のDay.2公演にそれぞれ4枚までお申込み可能（複数公演申込可能）。\n----------",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-13"
+            },
+            {
+              "id": "auto-81f284dd403980ef-rule-3",
+              "kind": "参加",
+              "title": "实名及年龄",
+              "text_zh": "3岁以上收费，另收手续费，需免费eplus会员。申请人与同行者均须登记人脸，必须由到场本人申请，携带有照片的官方身份证件以备人脸核验失败。同行者登记可提前办理。抽选不按先到顺序，席位不受理咨询；只在受理期间能变更取消，中选后不能取消或放弃购买。禁止携酒及酒后入场；时间和出演者可能变更，不因此退还票费交通费；须遵守公演注意事项，否则可能拒绝入场。",
+              "evidence_ja": "注意事項\n※3歳以上有料\n※お申込み時にイープラスの会員登録（無料）が必要です。\n※必ず受付画面にて、注意事項をご確認の上、お申込みください。\n※抽選販売分は先着順での受付ではございませんので、受付期間内にお申込みください。当落および座席などは、先着順ではなく、期間内にお申込みいただいた中から抽選で決定いたします。\n※お席に関してのお問合せには、お答えできません。\n※お申込み内容の変更・取消しは受付期間中のみおこなえます。当選後の変更・取消し(購入辞退)は一切お受けできませんのでご注意ください。\n※チケット代金の他に各種手数料が必要となります。\n※アルコール類の持込、及び飲酒してのご入場は固くお断りいたします。\n※開場・開演時間、出演者は諸事情により変更になる場合がございます。それに伴うチケット代・交通費等の払い戻しはいたしません。あらかじめご了承ください。\n※ご来場のお客様におかれましては、公演における注意事項を必ずお読みいただき、遵守くださいますようお願いいたします。ご協力いただけない場合、ご入場いただけない可能性もございますので、あらかじめご了承ください。\n※顔認証入場システムを利用したチケット販売のため、顔写真登録が必要となります。必ず来場者ご本人様がお申込みください。（チケットを複数枚購入される場合、同行者の顔写真登録も必要となります。）\n※顔認証入場システムでご本人と判断できない場合、顔写真付きの公的身分証でご本人確認をさせていただきますので、必ずご持参ください。\n▼顔認証入場システムのご利用について\nhttps://eplus.jp/faceticket_about/\n■同行者登録とは？\nhttps://eplus.jp/sf/guide/fellow-ep/\n■【同行者登録】手続きはこちら\nhttps://member.eplus.jp/update-dokosha\n※受付開始前からお手続きいただけます。",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-13"
+            },
+            {
+              "id": "auto-81f284dd403980ef-rule-4",
+              "kind": "参加",
+              "title": "票价与升席资格",
+              "text_zh": "普通全席指定13,500日元含税，U-20优惠票6,750日元；附周边升席另加12,500日元。只有最速先行抽选中选并已购票者能申请升席；中选后另付升席费，保证指定区域，预定靠近舞台前方。区域图及抽选期间后续公布，不是普通票的替代。",
+              "evidence_ja": "チケット料金\n全席指定：13,500円（税込）\nU-20割引チケット：6,750円（税込）\nアップグレードチケット（グッズ付き）：+12,500円（税込）\n＜「アップグレードチケット」について＞\n最速先行抽選でチケットご当選・ご購入いただいた方を対象に「アップグレードチケット」の抽選受付を実施いたします。\n【アップグレードチケットとは】\nご購入済みの「全席指定」の座席位置が、指定エリア内に配席保証されるチケットです。\nアップグレード抽選受付でお申込み・ご当選された際は、アップグレードチケット代をお支払いいただきます。\n※指定エリアは、ステージに近い前方エリアを予定しております。\n※座席エリアイメージ図、抽選受付期間などは後日ご案内いたします。",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-13"
+            },
+            {
+              "id": "auto-81f284dd403980ef-rule-5",
+              "kind": "参加",
+              "title": "升席周边领取",
+              "text_zh": "特典为KV长袖T恤，样图后续公布；各会场衣身颜色不同，同站Day1/Day2相同。演出当天现场领取，当天不领取作废，不提前或事后寄送，不良品仅当天更换。须另下载电子周边兑换券及免费eplus App；同行者也须支持App的手机，多张票需事先分发兑换券，否则同行者无法领取。兑换手续费已含购票手续费。",
+              "evidence_ja": "アップグレードチケット特典グッズ\nKVロングスリーブTシャツ\n※グッズのサンプル画像は後日公開いたします。\n※各会場ごとにTシャツのボディカラーが異なります。Day.1とDay.2は同じアイテムとなります。\n※グッズは公演当日に会場でのお渡しを予定しております。当日の受け渡しに関する詳細は後日ご案内いたします。\n※公演当日にお受け取りができない場合は無効となります。事前・事後の発送は行いませんので、あらかじめご了承ください。\n※不良品の交換は当日のみ対応いたします。\n※グッズ付きチケットをご購入の方は、別途「グッズ引換券」（スマチケ）のダウンロードが必要となります。「グッズ引換券」のダウンロードにはイープラスアプリ（無料）のインストールが必要です。\n※複数枚お申込みの場合、事前に必ず同行者様へ「グッズ引換券」の分配をおこなってください。「グッズ引換券」を分配していない場合、同行者様はグッズのお受け取りができません。\n※同行者の方もイープラスアプリ（無料）をインストールできるスマートフォンが必要です。（申込者の方と同様の動作機種・推奨環境が必要です）\n※チケットご購入時の手数料に、グッズ引換にかかる手数料も含まれます。\n▼スマチケご利用ガイドはこちら：\nhttps://eplus.jp/sf/guide/spticket",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-13"
+            },
+            {
+              "id": "auto-81f284dd403980ef-rule-6",
+              "kind": "参加",
+              "title": "U-20资格",
+              "text_zh": "演出当天未满20岁者可购买，预定与一般销售同步发售、数量有限。入场核验年龄证件，每人每场最多2张，同行者也必须当天未满20岁。天气灾害等可能导致时间内容变更、延期或取消。",
+              "evidence_ja": "＜U-20割引チケットについて＞\n本公演は、20歳未満の方にもご参加いただきやすくするため、対象の方に向け「U-20割引チケット」を販売いたします。\n・ 公演当日時点で20歳未満の方が購入できるチケットとなります。\n・一般発売に合わせ販売予定です。枚数には限りがございますので、あらかじめご了承ください。\n・当日はご入場にあたり、年齢を確認できる身分証明書を確認させていただきます。\n・U-20割引チケットはお一人様1公演につき2枚までお申込みいただけますが、同行者の方も公演当日時点で20歳未満の方に限ります。あらかじめご了承ください。\n※天候・災害等の諸事情により、開演時間・公演内容の変更、延期、または中止させていただく場合がございます。",
+              "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-13"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "各站Day1、Day2使用不同商品附券，请分别查看场次。"
+          ],
+          "status": "published",
+          "verified_at": "2026-11-13T21:41:29.816Z",
+          "updated_at": "2026-11-13T21:41:29.816Z",
+          "franchise_ids": [
+            "lovelive",
+            "liella"
+          ],
+          "venues": [
+            {
+              "id": "auto-81f284dd403980ef-venue-7e9457ba98",
+              "city": "东京",
+              "name": "有明アリーナ",
+              "address": null,
+              "start_date": "2027-03-06",
+              "end_date": "2027-03-06",
+              "rounds": [
+                {
+                  "id": "auto-81f284dd403980ef-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-18T12:00:00+09:00",
+                  "closes_at": "2026-12-14T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+                  "note": "Day1使用11月18日发行的八巡主题歌迷你专辑附券；每序列号各站Day1分别最多4张，不适用于Day2。普通指定席13,500日元，另有U-20票；升席抽选时段和区域图待公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-81f284dd403980ef-venue-d5947fb2ae",
+              "city": "东京",
+              "name": "有明アリーナ",
+              "address": null,
+              "start_date": "2027-03-07",
+              "end_date": "2027-03-07",
+              "rounds": [
+                {
+                  "id": "auto-81f284dd403980ef-round-1",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-27T12:00:00+09:00",
+                  "closes_at": "2026-12-14T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+                  "note": "Day2使用11月27日发行的Fan Disc第2弹附券；每序列号各站Day2分别最多4张，不适用于Day1。普通指定席13,500日元，另有U-20票；升席抽选时段和区域图待公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-81f284dd403980ef-venue-cf10c89c61",
+              "city": "福冈",
+              "name": "マリンメッセ福岡B館",
+              "address": null,
+              "start_date": "2027-04-24",
+              "end_date": "2027-04-24",
+              "rounds": [
+                {
+                  "id": "auto-81f284dd403980ef-round-2",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-18T12:00:00+09:00",
+                  "closes_at": "2026-12-14T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+                  "note": "Day1使用11月18日发行的八巡主题歌迷你专辑附券；每序列号各站Day1分别最多4张，不适用于Day2。普通指定席13,500日元，另有U-20票；升席抽选时段和区域图待公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-81f284dd403980ef-venue-7c5911bc1f",
+              "city": "福冈",
+              "name": "マリンメッセ福岡B館",
+              "address": null,
+              "start_date": "2027-04-25",
+              "end_date": "2027-04-25",
+              "rounds": [
+                {
+                  "id": "auto-81f284dd403980ef-round-3",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-27T12:00:00+09:00",
+                  "closes_at": "2026-12-14T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+                  "note": "Day2使用11月27日发行的Fan Disc第2弹附券；每序列号各站Day2分别最多4张，不适用于Day1。普通指定席13,500日元，另有U-20票；升席抽选时段和区域图待公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-81f284dd403980ef-venue-4a6b19a882",
+              "city": "名古屋",
+              "name": "ポートメッセなごや 第1展示館",
+              "address": null,
+              "start_date": "2027-05-08",
+              "end_date": "2027-05-08",
+              "rounds": [
+                {
+                  "id": "auto-81f284dd403980ef-round-4",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-18T12:00:00+09:00",
+                  "closes_at": "2026-12-14T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+                  "note": "Day1使用11月18日发行的八巡主题歌迷你专辑附券；每序列号各站Day1分别最多4张，不适用于Day2。普通指定席13,500日元，另有U-20票；升席抽选时段和区域图待公布。"
+                }
+              ]
+            },
+            {
+              "id": "auto-81f284dd403980ef-venue-13a44585bb",
+              "city": "名古屋",
+              "name": "ポートメッセなごや 第1展示館",
+              "address": null,
+              "start_date": "2027-05-09",
+              "end_date": "2027-05-09",
+              "rounds": [
+                {
+                  "id": "auto-81f284dd403980ef-round-5",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": "2026-11-27T12:00:00+09:00",
+                  "closes_at": "2026-12-14T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+                  "note": "Day2使用11月27日发行的Fan Disc第2弹附券；每序列号各站Day2分别最多4张，不适用于Day1。普通指定席13,500日元，另有U-20票；升席抽选时段和区域图待公布。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-81f284dd403980ef-source",
+              "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-11-13T21:41:29.816Z"
+            }
+          ]
         }
       ]
     },
@@ -19821,7 +19987,7 @@
         "release_on": "2026-11-18",
         "summary": "八巡各站Day1的主题歌迷你专辑附券。商品详细版号与价格尚未核实。",
         "status": "published",
-        "updated_at": "2026-10-29T12:58:40.994Z",
+        "updated_at": "2026-11-13T21:52:15.195Z",
         "editions": [
           {
             "id": "enclosed-ticket",
@@ -19853,7 +20019,7 @@
               "每个序列号可申请东京、福冈、爱知各站Day1分别最多4张，可报多站；不能用于Day2。",
               "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
               "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
-              "票价、开场/开演与升席细节后续公布。"
+              "普通指定席13,500日元；U-20优惠票6,750日元、一般销售时限量提供且双方均须未满20岁。升席另加12,500日元，仅最速中选购票者可申请，抽选时段及区域图待公布。"
             ],
             "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
           },
@@ -19878,7 +20044,7 @@
               "每个序列号可申请东京、福冈、爱知各站Day1分别最多4张，可报多站；不能用于Day2。",
               "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
               "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
-              "票价、开场/开演与升席细节后续公布。"
+              "普通指定席13,500日元；U-20优惠票6,750日元、一般销售时限量提供且双方均须未满20岁。升席另加12,500日元，仅最速中选购票者可申请，抽选时段及区域图待公布。"
             ],
             "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
           },
@@ -19903,7 +20069,7 @@
               "每个序列号可申请东京、福冈、爱知各站Day1分别最多4张，可报多站；不能用于Day2。",
               "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
               "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
-              "票价、开场/开演与升席细节后续公布。"
+              "普通指定席13,500日元；U-20优惠票6,750日元、一般销售时限量提供且双方均须未满20岁。升席另加12,500日元，仅最速中选购票者可申请，抽选时段及区域图待公布。"
             ],
             "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
           }
@@ -19914,7 +20080,7 @@
           {
             "label": "官方Live页面 · 附券商品与场次已复核",
             "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-            "checked_on": "2026-10-29"
+            "checked_on": "2026-11-13"
           }
         ]
       },
@@ -19929,7 +20095,7 @@
         "release_on": "2026-11-27",
         "summary": "八巡各站Day2的Fan Disc第2弹附券。",
         "status": "published",
-        "updated_at": "2026-10-29T12:58:40.994Z",
+        "updated_at": "2026-11-13T21:52:15.196Z",
         "editions": [
           {
             "id": "enclosed-ticket",
@@ -19961,7 +20127,7 @@
               "每个序列号可申请东京、福冈、爱知各站Day2分别最多4张，可报多站；不能用于Day1。",
               "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
               "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
-              "票价、开场/开演与升席细节后续公布。"
+              "普通指定席13,500日元；U-20优惠票6,750日元、一般销售时限量提供且双方均须未满20岁。升席另加12,500日元，仅最速中选购票者可申请，抽选时段及区域图待公布。"
             ],
             "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
           },
@@ -19986,7 +20152,7 @@
               "每个序列号可申请东京、福冈、爱知各站Day2分别最多4张，可报多站；不能用于Day1。",
               "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
               "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
-              "票价、开场/开演与升席细节后续公布。"
+              "普通指定席13,500日元；U-20优惠票6,750日元、一般销售时限量提供且双方均须未满20岁。升席另加12,500日元，仅最速中选购票者可申请，抽选时段及区域图待公布。"
             ],
             "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
           },
@@ -20011,7 +20177,7 @@
               "每个序列号可申请东京、福冈、爱知各站Day2分别最多4张，可报多站；不能用于Day1。",
               "12月19日13:00计划公布结果，中选付款至12月22日21:00（日本时间）。",
               "需eplus会员、申请者及同行者人脸登记、照片证件。3岁以上收费，另收手续费；中选后不能取消。",
-              "票价、开场/开演与升席细节后续公布。"
+              "普通指定席13,500日元；U-20优惠票6,750日元、一般销售时限量提供且双方均须未满20岁。升席另加12,500日元，仅最速中选购票者可申请，抽选时段及区域图待公布。"
             ],
             "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour"
           }
@@ -20022,7 +20188,7 @@
           {
             "label": "官方Live页面 · 附券商品与场次已复核",
             "url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
-            "checked_on": "2026-10-29"
+            "checked_on": "2026-11-13"
           }
         ]
       },
@@ -20824,6 +20990,63 @@
             "label": "官方Live页面 · 附券商品与场次已复核",
             "url": "https://bang-dream.com/events/roselia-10th-anniversary-live-tour/",
             "checked_on": "2026-11-07"
+          }
+        ]
+      },
+      {
+        "id": "ticket-ave-mujica-4th-anima-incorrupta",
+        "slug": "ticket-ave-mujica-4th-anima-incorrupta",
+        "title": "Ave Mujica 4th Single",
+        "franchise_ids": [
+          "bang-dream",
+          "ave-mujica"
+        ],
+        "release_on": null,
+        "summary": "Ave Mujica第4张单曲初回生产份附Anima Incorrupta现场抽选申请券；发行日、具体版号及商品价格尚未在本页公布。",
+        "status": "published",
+        "updated_at": "2026-11-13T21:52:15.188Z",
+        "editions": [
+          {
+            "id": "enclosed-ticket",
+            "label": "初回生産分",
+            "sku": "",
+            "price_yen": null,
+            "eligibility": "仅初回生产份封入申请券，每个序列号限申请1张；购入商品不保证中选。"
+          }
+        ],
+        "lotteries": [
+          {
+            "id": "ticket-ave-mujica-4th-anima-incorrupta-0",
+            "title": "Anima Incorrupta 商品附券抽选",
+            "edition_ids": [
+              "enclosed-ticket"
+            ],
+            "event_slug": "official-81848aee066a3525",
+            "live_dates": [
+              "2027-02-27"
+            ],
+            "venue": "duo MUSIC EXCHANGE",
+            "window": {
+              "opens_on": null,
+              "opens_at": "2027-01-27T12:00:00+09:00",
+              "closes_at": "2027-02-08T23:59:00+09:00",
+              "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+            },
+            "conditions": [
+              "仅初回生产份封入申请券，每个序列号限申请1张；购入商品不保证中选。",
+              "站席11,000日元含税，入场另收饮料费。",
+              "每个序列号限申请1张；日本时间2027年1月27日12:00至2月8日23:59。"
+            ],
+            "source_url": "https://bang-dream.com/events/avemujica_anima-incorrupta/"
+          }
+        ],
+        "offers": [],
+        "campaigns": [],
+        "sources": [
+          {
+            "label": "官方Live页面 · 附券商品与场次已复核",
+            "url": "https://bang-dream.com/events/avemujica_anima-incorrupta/",
+            "checked_on": "2026-11-13"
           }
         ]
       }

@@ -2116,5 +2116,170 @@
       "rules": [],
       "unreadable": false
     }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/avemujica_anima-incorrupta/",
+    "source_hash": "8bb29addf829a588e5b0d684556c4224151312f761b89fb9e1d9936ef3bb4da5",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/02/25205018/f1c5c17c-ca4777bb-2b1bd28c-b4dd00a0.png",
+    "sha256": "0ac18743c6c32c799d95872e6b2b9bb3bf1aeaed7486a14e4c94135dd5604632",
+    "reviewed_at": "2026-11-13T21:53:07.183Z",
+    "approved": true,
+    "reason": "实际读取Ave Mujica标志，无日期、票务或商品规则，不能当作单曲封面。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6468",
+    "source_hash": "1a06a2ed7dda5ad924b13ee9f69f80baef211ad6e9355be3866e018f3faf04ff",
+    "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/07/31/1002/9iQXTBE1N5ibLsFA/Xx5RFUZ8mWubkxAV.jpeg",
+    "sha256": "a1190567e0d37d40c6ec6ea565c3ab4565e02fe9f7cf13a250a635f998eba891",
+    "reviewed_at": "2026-11-13T21:53:07.188Z",
+    "approved": false,
+    "reason": "已实际逐项读图；集章山代站图写古総湯及山代温泉18-128，正文写総湯及万松園通2-1，地点冲突，不能批准路线。其余读得规则保留候选，不以图定活动日期。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "参加",
+          "title": "集章与特典",
+          "evidence_ja": "加賀市観光情報センター KAGA旅・まちネットで台紙を受け取ろう！ 4箇所でスタンプを押そう！ 台紙受け取り場所で特典を受け取ろう！",
+          "text_zh": "先在加贺温泉站内观光信息中心领取集章纸，再到4处盖章，回领取点换原创透明文件夹；领取点营业8:45–17:30、无休。",
+          "uncertain": false
+        },
+        {
+          "kind": "其他",
+          "title": "数量及礼仪",
+          "evidence_ja": "スタンプ・パネル設置時間は各施設の営業日および営業時間に準拠します。 景品および台紙はなくなり次第、終了します。",
+          "text_zh": "印章及立牌仅在各设施营业日和营业时间开放，出发前查设施官网；注意周边居民及使用者，遵守礼仪。奖品和集章纸用完即止。",
+          "uncertain": false
+        },
+        {
+          "kind": "参加",
+          "title": "山代集章地点冲突",
+          "evidence_ja": "山代温泉古総湯 住所：加賀市山代温泉18-128",
+          "text_zh": "图中山代站为山代温泉古总汤，地址18-128；与正文总汤及万松园通2-1不一致，路线尚未确认。图示营业6:00–22:00、每月第4周三12:00起、该日上午休业，暂不作为确认到访信息。",
+          "uncertain": true
+        },
+        {
+          "kind": "其他",
+          "title": "其他三处图示营业安排",
+          "evidence_ja": "片山津温泉総湯 営業時間：6:00～22:00 粟津温泉総湯 営業時間：8:00～22:00（最終受付21:30） 山中温泉総湯 営業時間：6:45～22:00",
+          "text_zh": "片山津6:00–22:00，无固定休息但每月有维护及可能临时停业，二楼街咖啡周四休。粟津8:00–22:00，最后受理21:30，周二休。山中6:45–22:00，每月第2/4周二休（节假日则次日），可能临时休业；当日情况以设施公告为准。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6468",
+    "source_hash": "1a06a2ed7dda5ad924b13ee9f69f80baef211ad6e9355be3866e018f3faf04ff",
+    "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/07/31/1002/m5ANfi1iCJUXGqAH/gjWB6RMH1LMlAurX.jpeg",
+    "sha256": "79d2fd28bbbdeb934cd04a1ad7975ee0ae732314ab0929e972b604c730884227",
+    "reviewed_at": "2026-11-13T21:53:07.189Z",
+    "approved": true,
+    "reason": "实际读取四款亚克力拍照道具兼立牌样图与含税单价。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "拍照道具兼立牌",
+          "evidence_ja": "アクリルフォトプロップ＆スタンド 各￥1,870（税込）",
+          "text_zh": "姬芽、吟子、小铃、泉四款亚克力拍照道具兼立牌，各1,870日元含税；图片为样图。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6468",
+    "source_hash": "1a06a2ed7dda5ad924b13ee9f69f80baef211ad6e9355be3866e018f3faf04ff",
+    "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/07/31/1002/Ny7QxzijX1OiCrWc/Xsqt3iKVDpb0j6qT.jpeg",
+    "sha256": "f70a86d86ed266b2904efc7770025b233043f00a25c4c40ee085b00d519a3422",
+    "reviewed_at": "2026-11-13T21:53:07.189Z",
+    "approved": true,
+    "reason": "实际读取四款透明文件夹及含税单价，不与集章赠品混同。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "透明文件夹售价",
+          "evidence_ja": "クリアファイル 各￥550（税込）",
+          "text_zh": "四款成员透明文件夹各550日元含税；此为销售商品图，不等同集章换领的全员款。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6468",
+    "source_hash": "1a06a2ed7dda5ad924b13ee9f69f80baef211ad6e9355be3866e018f3faf04ff",
+    "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/07/31/1002/LCtmdDELuSNU3aYl/vyMoMyCxaKOxLmhc.jpeg",
+    "sha256": "bd4fea694066f9a1b2628f6cde64f431d6c56fa674e3dbcab6aa4472716ca32c",
+    "reviewed_at": "2026-11-13T21:53:07.189Z",
+    "approved": true,
+    "reason": "实际读取亚克力徽章单价与盲抽限制。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "盲抽亚克力徽章",
+          "evidence_ja": "トレーディングアクリルバッジ 各￥550（税込） ※ブラインド仕様",
+          "text_zh": "亚克力徽章各550日元含税，盲抽款式，不保证抽到指定成员。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6468",
+    "source_hash": "1a06a2ed7dda5ad924b13ee9f69f80baef211ad6e9355be3866e018f3faf04ff",
+    "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/07/31/1002/IQ0V15NeIar1lUCZ/hBaRpWpJ22cVXFl5.jpeg",
+    "sha256": "864154771a30b7dca829b70324d06e9de6b29df8fd5f7192e837ebeafddb9ee4",
+    "reviewed_at": "2026-11-13T21:53:07.190Z",
+    "approved": true,
+    "reason": "实际读取亚克力钥匙扣单价与盲抽限制。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "盲抽亚克力钥匙扣",
+          "evidence_ja": "トレーディングアクリルキーホルダー 各￥660（税込） ※ブラインド仕様",
+          "text_zh": "亚克力钥匙扣各660日元含税，盲抽款式，不保证抽到指定成员。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/hasunosora/news/detail.php?p=01_6468",
+    "source_hash": "1a06a2ed7dda5ad924b13ee9f69f80baef211ad6e9355be3866e018f3faf04ff",
+    "url": "https://www.lovelive-anime.jp/hasunosora/shared/api/image.php?img_path=/lovelive/jp/news/2026/08/01/1002/dmkul0RmRF00ZM0y/mQcQy7ShAYXiwCzd.jpeg",
+    "sha256": "5fae0c2af96f7a513bc4a2e0d2c858e4be810edcf05d7f67f4c817ddf7817756",
+    "reviewed_at": "2026-11-13T21:53:07.190Z",
+    "approved": true,
+    "reason": "实际读取吟子住宿方案特典立牌样图，SAMPLE字样，无额外领取条件，不以其推断四件全部已读。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=8thlivetour",
+    "source_hash": "5a048890cc0f5721af06a1d9a8c65d27631851ac5e84a30ae1efda1423476241",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/live/2026/09/03/1002/NxLuZEh2hhMek7is/p1h3XcoSoKvN2x1g.jpeg",
+    "sha256": "1f9172eada1820e8e1698cd0004ee9059c31533ff64c3a64a5f5964d8aca017a",
+    "reviewed_at": "2026-11-13T21:53:07.190Z",
+    "approved": true,
+    "reason": "实际读取Liella!八巡标题标志，无额外规则，不当作主题歌专辑或Fan Disc封面。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
   }
 ]
