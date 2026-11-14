@@ -555,7 +555,7 @@
       "signature": "0feb9fc9b4a74e66a574414b6d2d16e8093055ba91150ef8e89a6d08630f8f39",
       "first_seen_on": "2026-11-14",
       "burst_day": "2026-11-14",
-      "pending": false,
+      "pending": true,
       "reason": "列表标题或日期变化"
     },
     "https://www.lovelive-anime.jp/uranohoshi/detail.php?p=01_6767": {
@@ -599,7 +599,7 @@
       "signature": "c31bf6bb261bd42165241c0ea0a1a9bacdef663b77a8d69ce7d435e5ee1d1233",
       "first_seen_on": "2026-11-14",
       "burst_day": "2026-11-14",
-      "pending": false,
+      "pending": true,
       "reason": "列表标题或日期变化"
     },
     "https://www.lovelive-anime.jp/otonokizaka/detail.php?p=01_6763": {
@@ -863,7 +863,7 @@
       "signature": "449834d60af60cd10aa49bcb0203eef7e75beeaa1bdf0b6fee7c9e2350592b58",
       "first_seen_on": "2026-11-14",
       "burst_day": "2026-11-14",
-      "pending": false,
+      "pending": true,
       "reason": "列表标题或日期变化"
     },
     "https://www.lovelive-anime.jp/yuigaoka/live/live_detail.php?p=musubu": {
@@ -1800,6 +1800,28 @@
       "burst_day": "2026-11-14",
       "pending": false,
       "reason": "列表新增且未收录"
+    },
+    "https://idolmaster-official.jp/news/01_20344": {
+      "source_id": "gakuen-idolmaster-portal",
+      "projects": [
+        "gakuen-idolmaster"
+      ],
+      "signature": "4bcbb1ae5c6abb16948b3e8e0e7b7bfbc220e57e5f4e48c2f8cad5140f391665",
+      "first_seen_on": "2026-11-14",
+      "burst_day": "2026-11-14",
+      "pending": false,
+      "reason": "列表新增且未收录"
+    },
+    "https://idolmaster-official.jp/news/01_20345": {
+      "source_id": "gakuen-idolmaster-portal",
+      "projects": [
+        "gakuen-idolmaster"
+      ],
+      "signature": "22a0b58f8875159783dba9799168255b995b0faf117a342477635cd126a65663",
+      "first_seen_on": "2026-11-14",
+      "burst_day": "2026-11-14",
+      "pending": false,
+      "reason": "列表新增且未收录"
     }
   },
   "daily_usage": {
@@ -1821,7 +1843,9 @@
       ],
       "gakuen-idolmaster": [
         "https://idolmaster-official.jp/news/01_20241",
-        "https://idolmaster-official.jp/news/01_20335"
+        "https://idolmaster-official.jp/news/01_20335",
+        "https://idolmaster-official.jp/news/01_20344",
+        "https://idolmaster-official.jp/news/01_20345"
       ]
     }
   }
