@@ -6127,5 +6127,291 @@
         "checked_on": "2026-11-13"
       }
     ]
+  },
+  {
+    "id": "ticket-mygo-9th-single-10th-live",
+    "slug": "ticket-mygo-9th-single-10th-live",
+    "title": "MyGO!!!!! 9th Single「世点彩」",
+    "franchise_ids": [
+      "bang-dream",
+      "mygo"
+    ],
+    "release_on": null,
+    "summary": "MyGO!!!!!第9张单曲《世点彩》初回生产份附10周年Live最速先行抽选申请券；正文未公布发行日、价格或具体SKU。",
+    "status": "published",
+    "updated_at": "2026-11-16T03:03:02.119Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "初回生産分",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "初回生产份封入申请券；每张序列号可针对每一场分别在三种受理中各申请1次，购买不保证中选。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-mygo-9th-single-10th-live-0",
+        "title": "MyGO!!!!! 10th LIVE 最速先行抽选",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-cdbb0c27414fe986",
+        "live_dates": [
+          "2027-04-29",
+          "2027-04-30"
+        ],
+        "venue": "Kアリーナ横浜",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-15T20:00:00+09:00",
+          "closes_at": "2026-12-20T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "初回生产份封入申请券；每张序列号可针对每一场分别在三种受理中各申请1次，购买不保证中选。",
+          "每张序列号对每场的附周边S/A席、普通指定席及2日通票受理各可申请1次。",
+          "同日程不会在多个席种重复中选；2日通票中选时两日座位不同。"
+        ],
+        "source_url": "https://bang-dream.com/events/mygo_10th/"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://bang-dream.com/events/mygo_10th/",
+        "checked_on": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "ticket-lovelive-fest-encore-cake-plate",
+    "slug": "ticket-lovelive-fest-encore-cake-plate",
+    "title": "ラブライブ！シリーズ 15周年記念 ケーキプレート",
+    "franchise_ids": [
+      "lovelive"
+    ],
+    "release_on": null,
+    "summary": "ラブライブ！シリーズ 15周年記念 ケーキプレート为Love Live! Fest Encore最快先行的系列购卖部对象商品；商品具体价格和送达月份由销售页另行确认。",
+    "status": "published",
+    "updated_at": "2026-11-16T03:03:02.119Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "附申込券版本（具体版号未核实）",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "每购买1件对象商品获1个序列号；每个序列号每场最多4张，可申请多场，购入商品不保证中选。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-lovelive-fest-encore-cake-plate-0",
+        "title": "Love Live! Fest Encore 系列购卖部商品附券最快先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-d507a8397d5b8992",
+        "live_dates": [
+          "2027-02-13",
+          "2027-02-14"
+        ],
+        "venue": "東京ドーム",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-16T12:00:00+09:00",
+          "closes_at": "2026-11-29T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "每购买1件对象商品获1个序列号；每个序列号每场最多4张，可申请多场，购入商品不保证中选。",
+          "每个序列号每场最多申请4张，可申请多场。",
+          "付款完成后次日约上午10点在A-on Store订单记录显示序列号。"
+        ],
+        "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest_encore"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest_encore",
+        "checked_on": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "ticket-lovelive-fest-encore-cutlery-set",
+    "slug": "ticket-lovelive-fest-encore-cutlery-set",
+    "title": "ラブライブ！シリーズ 15周年記念 カトラリーセット",
+    "franchise_ids": [
+      "lovelive"
+    ],
+    "release_on": null,
+    "summary": "ラブライブ！シリーズ 15周年記念 カトラリーセット为Love Live! Fest Encore最快先行的系列购卖部对象商品；商品具体价格和送达月份由销售页另行确认。",
+    "status": "published",
+    "updated_at": "2026-11-16T03:03:02.119Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "附申込券版本（具体版号未核实）",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "每购买1件对象商品获1个序列号；每个序列号每场最多4张，可申请多场，购入商品不保证中选。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-lovelive-fest-encore-cutlery-set-0",
+        "title": "Love Live! Fest Encore 系列购卖部商品附券最快先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-d507a8397d5b8992",
+        "live_dates": [
+          "2027-02-13",
+          "2027-02-14"
+        ],
+        "venue": "東京ドーム",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-16T12:00:00+09:00",
+          "closes_at": "2026-11-29T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "每购买1件对象商品获1个序列号；每个序列号每场最多4张，可申请多场，购入商品不保证中选。",
+          "每个序列号每场最多申请4张，可申请多场。",
+          "付款完成后次日约上午10点在A-on Store订单记录显示序列号。"
+        ],
+        "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest_encore"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest_encore",
+        "checked_on": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "ticket-lovelive-fest-encore-placemat",
+    "slug": "ticket-lovelive-fest-encore-placemat",
+    "title": "ラブライブ！シリーズ 15周年記念 ランチョンマット",
+    "franchise_ids": [
+      "lovelive"
+    ],
+    "release_on": null,
+    "summary": "ラブライブ！シリーズ 15周年記念 ランチョンマット为Love Live! Fest Encore最快先行的系列购卖部对象商品；商品具体价格和送达月份由销售页另行确认。",
+    "status": "published",
+    "updated_at": "2026-11-16T03:03:02.119Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "附申込券版本（具体版号未核实）",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "每购买1件对象商品获1个序列号；每个序列号每场最多4张，可申请多场，购入商品不保证中选。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-lovelive-fest-encore-placemat-0",
+        "title": "Love Live! Fest Encore 系列购卖部商品附券最快先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-d507a8397d5b8992",
+        "live_dates": [
+          "2027-02-13",
+          "2027-02-14"
+        ],
+        "venue": "東京ドーム",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-16T12:00:00+09:00",
+          "closes_at": "2026-11-29T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "每购买1件对象商品获1个序列号；每个序列号每场最多4张，可申请多场，购入商品不保证中选。",
+          "每个序列号每场最多申请4张，可申请多场。",
+          "付款完成后次日约上午10点在A-on Store订单记录显示序列号。"
+        ],
+        "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest_encore"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest_encore",
+        "checked_on": "2026-11-16"
+      }
+    ]
+  },
+  {
+    "id": "ticket-lovelive-fest-encore-tapestry",
+    "slug": "ticket-lovelive-fest-encore-tapestry",
+    "title": "ラブライブ！シリーズ 15周年記念 B2タペストリー",
+    "franchise_ids": [
+      "lovelive"
+    ],
+    "release_on": null,
+    "summary": "ラブライブ！シリーズ 15周年記念 B2タペストリー为Love Live! Fest Encore最快先行的系列购卖部对象商品；商品具体价格和送达月份由销售页另行确认。",
+    "status": "published",
+    "updated_at": "2026-11-16T03:03:02.119Z",
+    "editions": [
+      {
+        "id": "enclosed-ticket",
+        "label": "附申込券版本（具体版号未核实）",
+        "sku": "",
+        "price_yen": null,
+        "eligibility": "每购买1件对象商品获1个序列号；每个序列号每场最多4张，可申请多场，购入商品不保证中选。"
+      }
+    ],
+    "lotteries": [
+      {
+        "id": "ticket-lovelive-fest-encore-tapestry-0",
+        "title": "Love Live! Fest Encore 系列购卖部商品附券最快先行",
+        "edition_ids": [
+          "enclosed-ticket"
+        ],
+        "event_slug": "official-d507a8397d5b8992",
+        "live_dates": [
+          "2027-02-13",
+          "2027-02-14"
+        ],
+        "venue": "東京ドーム",
+        "window": {
+          "opens_on": null,
+          "opens_at": "2026-11-16T12:00:00+09:00",
+          "closes_at": "2026-11-29T23:59:00+09:00",
+          "note": "本轮为商品附券抽选；购入商品不保证中选。时间均为日本时间。"
+        },
+        "conditions": [
+          "每购买1件对象商品获1个序列号；每个序列号每场最多4张，可申请多场，购入商品不保证中选。",
+          "每个序列号每场最多申请4张，可申请多场。",
+          "付款完成后次日约上午10点在A-on Store订单记录显示序列号。"
+        ],
+        "source_url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest_encore"
+      }
+    ],
+    "offers": [],
+    "campaigns": [],
+    "sources": [
+      {
+        "label": "官方Live页面 · 附券商品与场次已复核",
+        "url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest_encore",
+        "checked_on": "2026-11-16"
+      }
+    ]
   }
 ]

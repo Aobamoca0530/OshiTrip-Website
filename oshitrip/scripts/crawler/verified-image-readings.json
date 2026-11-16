@@ -2281,5 +2281,31 @@
       "rules": [],
       "unreadable": false
     }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/mygo_10th/",
+    "source_hash": "1bd69ac601a4a36e6b555810dc73dd85414923c35e4e4389bd9bc923680fa7e8",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/11/14210440/2e8d27a6-ca9d5f04-67be1d89-43947e5b.png",
+    "sha256": "306e9515fb4f9e793c51148f584feadccba74770f0e974d4246b4ae2e4f27476",
+    "reviewed_at": "2026-11-16T03:03:02.119Z",
+    "approved": true,
+    "reason": "实际读取MyGO!!!!!五人主视觉，无可独立核实的日期、票务或商品信息。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
+  },
+  {
+    "source_url": "https://bang-dream.com/events/mygo_10th/",
+    "source_hash": "1bd69ac601a4a36e6b555810dc73dd85414923c35e4e4389bd9bc923680fa7e8",
+    "url": "https://bang-dream.com/wordpress/wp-content/uploads/2026/11/14202813/bc1bdabc-b17db18a-8bfa7e9b-605ccc12-1024x577.jpg",
+    "sha256": "30b00aef8d34fbb27be9706aed89ca5352f63ae906525755d331056c44c4b909",
+    "reviewed_at": "2026-11-16T03:03:02.119Z",
+    "approved": true,
+    "reason": "实际读取座位示意图，只确认S席为Arena、A席及普通指定席为Stand；日期、票价和抽选规则仍以正文为准。",
+    "reading": {
+      "rules": [],
+      "unreadable": false
+    }
   }
 ]
