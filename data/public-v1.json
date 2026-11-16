@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "revision": "fbdf6cca40854dba6bf801d4add9f8a3942178446572b02e45c067bd3442a9b9",
-  "publishedAt": "2026-11-16T03:03:17.336Z",
+  "revision": "b4f0322df5c65c665bee2a8bb12272a3bb4553205e3888f04e645d527ce3e749",
+  "publishedAt": "2026-11-16T16:12:20.569Z",
   "data": {
     "catalog": {
       "franchises": [
@@ -5611,97 +5611,6 @@
             {
               "id": "auto-d7aa807ac7272d64-source",
               "url": "https://bang-dream.com/events/mygo_9th/",
-              "label": "官方正文 · 机器辅助整理",
-              "checked_at": "2026-11-03T19:51:01.164Z"
-            }
-          ]
-        },
-        {
-          "id": "auto-7fb8374c18208450",
-          "slug": "official-7fb8374c18208450",
-          "title_ja": "スタァライト九九組 オーケストラライブ2027",
-          "title_zh": "Starlight九九组 管弦乐演唱会2027（详细票务）",
-          "category": "音乐和声优活动",
-          "summary": "2027年1月23日在东京SGCホール有明举行。昼场12:30入场、13:30开演；夜场17:30入场、18:30开演，各约2小时20分钟。含周边票15,500日元、一般席11,000日元，均含税。详情页已经公布了票务，旧新闻中的“待公布”不能代表最新状态。",
-          "image": null,
-          "gallery": [],
-          "benefits": [],
-          "translated_rules": [
-            {
-              "id": "auto-7fb8374c18208450-rule-0",
-              "kind": "参加",
-              "title": "きゃにめ先行已截止",
-              "text_zh": "该轮申请于2026年9月8日至9月29日23:59受理，10月2日19:00后公布结果，支付截止为10月5日23:59；目前这些时间均已过去。",
-              "evidence_ja": "【申込受付期間】2026/09/08(火) ～ 2026/09/29(火) 23:59",
-              "source_url": "https://revuestarlight.com/event/11130/",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-11-03"
-            },
-            {
-              "id": "auto-7fb8374c18208450-rule-1",
-              "kind": "参加",
-              "title": "电子票与数量",
-              "text_zh": "每人每场只能选择一种票种，最多2张；须安装免费的「ポニキャン」App，且仅以该App发券。",
-              "evidence_ja": "枚数制限： お一人様 各公演 どちらか1券種 2枚まで",
-              "source_url": "https://revuestarlight.com/event/11130/",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-11-03"
-            },
-            {
-              "id": "auto-7fb8374c18208450-rule-2",
-              "kind": "参加",
-              "title": "儿童限制",
-              "text_zh": "学龄前儿童不可入场；申请人数多时采用抽选。",
-              "evidence_ja": "※未就学児童入場不可",
-              "source_url": "https://revuestarlight.com/event/11130/",
-              "image_url": null,
-              "image_sha256": null,
-              "checked_on": "2026-11-03"
-            }
-          ],
-          "fees": null,
-          "conditions": [
-            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
-            "きゃにめ先行已截止。每人每场一种票种最多2张，须使用ポニキャンApp。后续售票请查看官方。"
-          ],
-          "status": "published",
-          "verified_at": "2026-11-03T19:51:01.164Z",
-          "updated_at": "2026-11-03T19:51:01.164Z",
-          "franchise_ids": [
-            "starlight"
-          ],
-          "venues": [
-            {
-              "id": "auto-7fb8374c18208450-venue-8a9555396f",
-              "city": "东京",
-              "name": "SGCホール有明",
-              "address": null,
-              "start_date": "2027-01-23",
-              "end_date": "2027-01-23",
-              "rounds": [
-                {
-                  "id": "auto-7fb8374c18208450-round-0",
-                  "label": "官方抽选报名",
-                  "method": "抽选报名",
-                  "kind": "fixed",
-                  "opens_at": null,
-                  "closes_at": "2026-09-29T23:59:00+09:00",
-                  "days_before": null,
-                  "open_time": null,
-                  "cutoff_days_before": null,
-                  "cutoff_time": null,
-                  "url": "https://revuestarlight.com/event/11130/",
-                  "note": "きゃにめ先行已截止。每人每场一种票种最多2张，须使用ポニキャンApp。后续售票请查看官方。"
-                }
-              ]
-            }
-          ],
-          "sources": [
-            {
-              "id": "auto-7fb8374c18208450-source",
-              "url": "https://revuestarlight.com/event/11130/",
               "label": "官方正文 · 机器辅助整理",
               "checked_at": "2026-11-03T19:51:01.164Z"
             }
@@ -15225,6 +15134,108 @@
               "url": "https://www.lovelive-anime.jp/special/live/live_detail.php?p=15th_lovelivefest_encore",
               "label": "官方正文 · 机器辅助整理",
               "checked_at": "2026-11-15T13:59:48.330Z"
+            }
+          ]
+        },
+        {
+          "id": "auto-7fb8374c18208450",
+          "slug": "official-7fb8374c18208450",
+          "title_ja": "スタァライト九九組 オーケストラライブ2027",
+          "title_zh": "Starlight九九组 管弦乐Live 2027",
+          "category": "音乐和声优活动",
+          "summary": "Starlight九九组将于2027年1月23日在SGC HALL ARIAKE举办昼、夜两场管弦乐Live。附周边票15,500日元，普通席11,000日元；已公布的きゃにめ先行抽选受理已于2026年9月29日结束。",
+          "image": null,
+          "gallery": [],
+          "benefits": [],
+          "translated_rules": [
+            {
+              "id": "auto-7fb8374c18208450-rule-0",
+              "kind": "参加",
+              "title": "昼夜两场与会场",
+              "text_zh": "2027年1月23日举行。昼场12:30开场、13:30开演；夜场17:30开场、18:30开演，单场预计约2小时20分。会场为SGC HALL ARIAKE（东京都江东区有明3-3-8 东京梦公园1层）。",
+              "evidence_ja": "■公演日時\n2027年1月23日（土）\n【昼公演】12:30開場 13:30開演\n【夜公演】17:30開場 18:30開演\n＊公演時間は各公演2時間20分程度を予定しております。\n■会場\nSGC HALL ARIAKE\n（〒135-0063 東京都江東区有明3丁目3番8号 東京ドリームパーク1階）",
+              "source_url": "https://revuestarlight.com/event/11130/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-16"
+            },
+            {
+              "id": "auto-7fb8374c18208450-rule-1",
+              "kind": "参加",
+              "title": "票价与附送周边",
+              "text_zh": "附周边票15,500日元，普通席11,000日元，均含税。附周边票含九九组复制评论管弦乐总谱与9种限定生写套装；两场的内容和图案不同，且均为非卖品。",
+              "evidence_ja": "■チケット価格\n・グッズ付きチケット：15,500円（税込）\n・一般席：11,000円（税込）\n【グッズ内容】 ※非売品\n・スタァライト九九組 複製コメント入り オーケストラスコア（楽譜） ※内容は公演ごとに異なります。\n・スタァライト九九組 限定ブロマイド9種セット（キャストソロカット使用） ※絵柄は公演ごとに異なります。",
+              "source_url": "https://revuestarlight.com/event/11130/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-16"
+            },
+            {
+              "id": "auto-7fb8374c18208450-rule-2",
+              "kind": "参加",
+              "title": "已结束的先行抽选",
+              "text_zh": "きゃにめ先行受理为2026年9月8日至9月29日23:59，10月2日19:00后公布结果，付款至10月5日23:59，均已结束。每人每场仅可选择一种票种、最多2张，使用免费Ponican电子票App出票；报名多时按抽选处理。",
+              "evidence_ja": "◎きゃにめ先行\n【申込受付期間】2026/09/08(火) ～ 2026/09/29(火) 23:59\n【抽選結果発表】2026/10/02(金) 19:00以降\n【支払手続期間】2026/10/02(金) 19:00 ～ 2026/10/05(月) 23:59\n枚数制限： お一人様 各公演 どちらか1券種 2枚まで\n発券方法： アプリ（電子チケット）\n・本受付の発券はポニーキャニオンの電子チケットアプリ「ポニキャン」のみとなります。\n・お申し込みには「ポニキャン」アプリ（無料）のインストールが必要です。\n受付URL： https://special.canime.jp/ticket/revuestarlight/\n※手数料・申込に関する注意事項等の詳細は上記URLからご確認ください。",
+              "source_url": "https://revuestarlight.com/event/11130/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-16"
+            },
+            {
+              "id": "auto-7fb8374c18208450-rule-3",
+              "kind": "参加",
+              "title": "入场限制",
+              "text_zh": "未就学儿童不可入场。开场、开演时间和出演者可能变更，其他注意事项以受理页面为准。",
+              "evidence_ja": "※開場・開演時間および出演者は変更となる場合がございます。\n※申込多数の場合は抽選となります。\n※未就学児童入場不可\n※その他の詳細は受付URLに記載の注意事項をご確認ください。",
+              "source_url": "https://revuestarlight.com/event/11130/",
+              "image_url": null,
+              "image_sha256": null,
+              "checked_on": "2026-11-16"
+            }
+          ],
+          "fees": null,
+          "conditions": [
+            "中文内容由机器辅助整理，请结合官方原文确认；时间均为日本时间。",
+            "きゃにめ先行已结束；正文未公布开始时刻。每人每场仅一种票种、最多2张，使用Ponican电子票App。"
+          ],
+          "status": "published",
+          "verified_at": "2026-11-16T16:07:56.885Z",
+          "updated_at": "2026-11-16T16:07:56.885Z",
+          "franchise_ids": [
+            "starlight"
+          ],
+          "venues": [
+            {
+              "id": "auto-7fb8374c18208450-venue-0921821fdf",
+              "city": "东京",
+              "name": "SGC HALL ARIAKE",
+              "address": null,
+              "start_date": "2027-01-23",
+              "end_date": "2027-01-23",
+              "rounds": [
+                {
+                  "id": "auto-7fb8374c18208450-round-0",
+                  "label": "官方抽选报名",
+                  "method": "抽选报名",
+                  "kind": "fixed",
+                  "opens_at": null,
+                  "closes_at": "2026-09-29T23:59:00+09:00",
+                  "days_before": null,
+                  "open_time": null,
+                  "cutoff_days_before": null,
+                  "cutoff_time": null,
+                  "url": "https://revuestarlight.com/event/11130/",
+                  "note": "きゃにめ先行已结束；正文未公布开始时刻。每人每场仅一种票种、最多2张，使用Ponican电子票App。"
+                }
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "id": "auto-7fb8374c18208450-source",
+              "url": "https://revuestarlight.com/event/11130/",
+              "label": "官方正文 · 机器辅助整理",
+              "checked_at": "2026-11-16T16:07:56.885Z"
             }
           ]
         }

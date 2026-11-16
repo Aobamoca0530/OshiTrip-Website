@@ -1,5 +1,119 @@
 [
   {
+    "id": "6c22247413ff4d8c2c212b09",
+    "source_id": "liella-official",
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6815",
+    "title": "「結ヶ丘女子高等学校キッチンカー」より新メニューのお知らせ",
+    "first_seen_at": "2026-11-16T16:07:56.885Z",
+    "last_seen_at": "2026-11-16T16:07:56.885Z",
+    "changed_at": "2026-11-16T16:07:56.885Z",
+    "content_hash": "c14fdfaf958cbab94e23c18045caa3a91189554b3a5b8c366d2de3f6f42cd947",
+    "related_event_ids": [],
+    "images": [
+      {
+        "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/12/1002/tFa84iM0iZe3KTcO/IYPxdjQIc3SJCDai.jpeg",
+        "alt": "",
+        "kind": "unknown"
+      }
+    ],
+    "activity": {
+      "kind": "offline",
+      "state": "needs_review",
+      "title_zh": "结丘女子高等学校餐车：叶月恋生日纪念饮品",
+      "summary_zh": "结丘女子高等学校餐车将于2026年11月21日至12月6日提供叶月恋生日纪念饮品。官方正文没有列出营业地点或参与安排，依照维护偏好保留“未公布”，不额外追查。",
+      "rules": [
+        {
+          "title": "活动日期",
+          "text_zh": "叶月恋生日纪念饮品提供期为2026年11月21日至12月6日。营业地点和参加安排未在正文公布，不额外追查。",
+          "evidence_ja": "★『葉月 恋』バースデー記念ドリンク★\n【2026年11月21日（土）～12月6日（日）】"
+        },
+        {
+          "title": "饮品内容与价格",
+          "text_zh": "饮品为抹茶拿铁、鲜奶油、巧克力酱和抹茶风味烘焙点心，含税700日元。图片还列示乳、小麦过敏原；内容可能在不另行通知下变更。",
+          "evidence_ja": "★『葉月 恋』バースデー記念ドリンク★\n【2026年11月21日（土）～12月6日（日）】"
+        },
+        {
+          "title": "购买与抽选特典",
+          "text_zh": "购买可获照片卡；图片标示另有随机赠送立牌的活动。特典送完即结束，禁止转卖；未以图片推断地点、排队或预约方式。",
+          "evidence_ja": "★『葉月 恋』バースデー記念ドリンク★\n【2026年11月21日（土）～12月6日（日）】"
+        }
+      ],
+      "source_hash": "58bd8e2f50d0a00b5fb0e1bef31f6eeb9e73e16b1048526150503238f1959add",
+      "model": "source-reviewed",
+      "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已实际读取正文及菜单图，核对日期、配方、价格、过敏原和特典说明；官方未给营业地点或参与安排，按餐车偏好不额外追查，保留待审核。",
+      "review": {
+        "state": "rejected",
+        "provider": "manual",
+        "model": "source-reviewed",
+        "reason": "已实际读取正文及菜单图，核对日期、配方、价格、过敏原和特典说明；官方未给营业地点或参与安排，按餐车偏好不额外追查，保留待审核。"
+      }
+    },
+    "image_readings": []
+  },
+  {
+    "id": "7fb8374c1820845098ac43d8",
+    "source_id": "starlight-events",
+    "source_url": "https://revuestarlight.com/event/11130/",
+    "title": "スタァライト九九組 オーケストラライブ2027",
+    "first_seen_at": "2026-10-28T18:14:42.476Z",
+    "last_seen_at": "2026-11-16T16:07:56.885Z",
+    "changed_at": "2026-11-16T16:07:56.885Z",
+    "content_hash": "e218155a8bcff50ace3526a36b972c4f63146ecc4a388302cbdf9c22ffb6cf2b",
+    "related_event_ids": [
+      "auto-7fb8374c18208450"
+    ],
+    "images": [],
+    "event_identity": {
+      "id": "auto-7fb8374c18208450",
+      "slug": "official-7fb8374c18208450",
+      "venues": [
+        {
+          "id": "auto-7fb8374c18208450-venue-8a9555396f",
+          "name": "SGCホール有明",
+          "start_date": "2027-01-23"
+        }
+      ]
+    },
+    "activity": {
+      "kind": "live",
+      "state": "ready",
+      "title_zh": "Starlight九九组 管弦乐Live 2027",
+      "summary_zh": "Starlight九九组将于2027年1月23日在SGC HALL ARIAKE举办昼、夜两场管弦乐Live。附周边票15,500日元，普通席11,000日元；已公布的きゃにめ先行抽选受理已于2026年9月29日结束。",
+      "rules": [
+        {
+          "title": "昼夜两场与会场",
+          "text_zh": "2027年1月23日举行。昼场12:30开场、13:30开演；夜场17:30开场、18:30开演，单场预计约2小时20分。会场为SGC HALL ARIAKE（东京都江东区有明3-3-8 东京梦公园1层）。",
+          "evidence_ja": "■公演日時\n2027年1月23日（土）\n【昼公演】12:30開場 13:30開演\n【夜公演】17:30開場 18:30開演\n＊公演時間は各公演2時間20分程度を予定しております。\n■会場\nSGC HALL ARIAKE\n（〒135-0063 東京都江東区有明3丁目3番8号 東京ドリームパーク1階）"
+        },
+        {
+          "title": "票价与附送周边",
+          "text_zh": "附周边票15,500日元，普通席11,000日元，均含税。附周边票含九九组复制评论管弦乐总谱与9种限定生写套装；两场的内容和图案不同，且均为非卖品。",
+          "evidence_ja": "■チケット価格\n・グッズ付きチケット：15,500円（税込）\n・一般席：11,000円（税込）\n【グッズ内容】 ※非売品\n・スタァライト九九組 複製コメント入り オーケストラスコア（楽譜） ※内容は公演ごとに異なります。\n・スタァライト九九組 限定ブロマイド9種セット（キャストソロカット使用） ※絵柄は公演ごとに異なります。"
+        },
+        {
+          "title": "已结束的先行抽选",
+          "text_zh": "きゃにめ先行受理为2026年9月8日至9月29日23:59，10月2日19:00后公布结果，付款至10月5日23:59，均已结束。每人每场仅可选择一种票种、最多2张，使用免费Ponican电子票App出票；报名多时按抽选处理。",
+          "evidence_ja": "◎きゃにめ先行\n【申込受付期間】2026/09/08(火) ～ 2026/09/29(火) 23:59\n【抽選結果発表】2026/10/02(金) 19:00以降\n【支払手続期間】2026/10/02(金) 19:00 ～ 2026/10/05(月) 23:59\n枚数制限： お一人様 各公演 どちらか1券種 2枚まで\n発券方法： アプリ（電子チケット）\n・本受付の発券はポニーキャニオンの電子チケットアプリ「ポニキャン」のみとなります。\n・お申し込みには「ポニキャン」アプリ（無料）のインストールが必要です。\n受付URL： https://special.canime.jp/ticket/revuestarlight/\n※手数料・申込に関する注意事項等の詳細は上記URLからご確認ください。"
+        },
+        {
+          "title": "入场限制",
+          "text_zh": "未就学儿童不可入场。开场、开演时间和出演者可能变更，其他注意事项以受理页面为准。",
+          "evidence_ja": "※開場・開演時間および出演者は変更となる場合がございます。\n※申込多数の場合は抽選となります。\n※未就学児童入場不可\n※その他の詳細は受付URLに記載の注意事項をご確認ください。"
+        }
+      ],
+      "source_hash": "5def7069b6656a07eaae2c33e7e45cc348d080866f2017c5e7ef7d2af173d1e7",
+      "model": "source-reviewed",
+      "reason": "正文日期、地点及规则证据通过校验",
+      "review": {
+        "state": "approved",
+        "provider": "manual",
+        "model": "source-reviewed",
+        "reason": "独立核对2027年1月23日的昼夜开场开演、东京会场、票价与附送周边，以及已结束的先行抽选时段和限制；未将过去受理写为仍可报名。"
+      }
+    },
+    "image_readings": []
+  },
+  {
     "id": "cdbb0c27414fe986ad8742e5",
     "source_id": "bang-dream-live",
     "source_url": "https://bang-dream.com/events/mygo_10th/",
@@ -6773,53 +6887,6 @@
       "source_hash": "df49cc746fc448c4f4f2b759584c6b613b16e4d24c3961a51de01c585b80a6a0",
       "model": "source-reviewed",
       "reason": "复核仍标记有未确定信息；缺少对应场馆的完整日期原句，暂不用于行程匹配；已对照原文翻译并复核",
-      "review": {
-        "state": "approved",
-        "provider": "manual",
-        "model": "source-reviewed",
-        "reason": "已对照原文翻译并复核"
-      }
-    },
-    "image_readings": []
-  },
-  {
-    "id": "7fb8374c1820845098ac43d8",
-    "source_id": "starlight-events",
-    "source_url": "https://revuestarlight.com/event/11130/",
-    "title": "スタァライト九九組 オーケストラライブ2027",
-    "first_seen_at": "2026-10-28T18:14:42.476Z",
-    "last_seen_at": "2026-11-03T19:51:01.164Z",
-    "changed_at": "2026-10-28T18:14:42.476Z",
-    "content_hash": "1fafe1255a2b54c0ed0bcd095895f6bc1b93195c6721d6850fe3a34336f86954",
-    "related_event_ids": [
-      "auto-7fb8374c18208450"
-    ],
-    "images": [],
-    "activity": {
-      "kind": "live",
-      "state": "ready",
-      "title_zh": "Starlight九九组 管弦乐演唱会2027（详细票务）",
-      "summary_zh": "2027年1月23日在东京SGCホール有明举行。昼场12:30入场、13:30开演；夜场17:30入场、18:30开演，各约2小时20分钟。含周边票15,500日元、一般席11,000日元，均含税。详情页已经公布了票务，旧新闻中的“待公布”不能代表最新状态。",
-      "rules": [
-        {
-          "title": "きゃにめ先行已截止",
-          "text_zh": "该轮申请于2026年9月8日至9月29日23:59受理，10月2日19:00后公布结果，支付截止为10月5日23:59；目前这些时间均已过去。",
-          "evidence_ja": "【申込受付期間】2026/09/08(火) ～ 2026/09/29(火) 23:59"
-        },
-        {
-          "title": "电子票与数量",
-          "text_zh": "每人每场只能选择一种票种，最多2张；须安装免费的「ポニキャン」App，且仅以该App发券。",
-          "evidence_ja": "枚数制限： お一人様 各公演 どちらか1券種 2枚まで"
-        },
-        {
-          "title": "儿童限制",
-          "text_zh": "学龄前儿童不可入场；申请人数多时采用抽选。",
-          "evidence_ja": "※未就学児童入場不可"
-        }
-      ],
-      "source_hash": "8e5b12aa81293c3d54abec779ad9f226b8eaa474d363273dd9a0d45373992be3",
-      "model": "source-reviewed",
-      "reason": "正文日期、地点及规则证据通过校验",
       "review": {
         "state": "approved",
         "provider": "manual",

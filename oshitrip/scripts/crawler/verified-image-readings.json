@@ -2307,5 +2307,33 @@
       "rules": [],
       "unreadable": false
     }
+  },
+  {
+    "source_url": "https://www.lovelive-anime.jp/yuigaoka/topics/detail.php?p=01_6815",
+    "source_hash": "58bd8e2f50d0a00b5fb0e1bef31f6eeb9e73e16b1048526150503238f1959add",
+    "url": "https://www.lovelive-anime.jp/yuigaoka/common/api/image.php?img_path=/lovelive/jp/news/2026/11/12/1002/tFa84iM0iZe3KTcO/IYPxdjQIc3SJCDai.jpeg",
+    "sha256": "5445013373cbf1de05aa054dc8199344d03767861ba6b5ba6c0394ac165df4cf",
+    "reviewed_at": "2026-11-16T16:12:07.509Z",
+    "approved": true,
+    "reason": "实际读取叶月恋生日饮品菜单图；确认日期、价格、原料、过敏原和特典描述，不将图片用于确定地点或参加方式。",
+    "reading": {
+      "rules": [
+        {
+          "kind": "购买",
+          "title": "生日纪念饮品",
+          "evidence_ja": "葉月 恋 バースデー記念ドリンク 税込￥700 内容 抹茶ラテ＋ホイップクリーム＋チョコレートソース＋抹茶風味焼き菓子",
+          "text_zh": "叶月恋生日纪念饮品含税700日元：抹茶拿铁、鲜奶油、巧克力酱、抹茶风味烘焙点心。",
+          "uncertain": false
+        },
+        {
+          "kind": "其他",
+          "title": "过敏原与特典",
+          "evidence_ja": "アレルゲン：乳＋小麦 購入者特典 ブロマイドプレゼント！ 抽選で当たる のぼりプレゼント！",
+          "text_zh": "过敏原为乳、小麦；购买特典为照片卡，另有随机赠送立牌活动。特典送完即结束，禁止转卖。",
+          "uncertain": false
+        }
+      ],
+      "unreadable": false
+    }
   }
 ]
